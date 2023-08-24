@@ -37,7 +37,7 @@
 
   <ItemGroup>
     <Reference Include="Jint.Vintasoft">
-      <HintPath>.\Jint.Vintasoft\DotNet6\AnyCPU\Jint.Vintasoft.dll</HintPath>
+      <HintPath>.\Jint.Vintasoft\DotNet6\Jint.Vintasoft.dll</HintPath>
     </Reference>
     <Reference Include="NHunspell">
       <HintPath>.\NHunspell\DotNet6\NHunspell.dll</HintPath>

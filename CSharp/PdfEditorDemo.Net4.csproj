@@ -86,10 +86,10 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Jint.Vintasoft">
-      <HintPath>.\Jint.Vintasoft\DotNet7\AnyCPU\Jint.Vintasoft.dll</HintPath>
+      <HintPath>.\Jint.Vintasoft\DotNet4\Jint.Vintasoft.dll</HintPath>
     </Reference>
     <Reference Include="NHunspell">
-      <HintPath>.\NHunspell\DotNet7\NHunspell.dll</HintPath>
+      <HintPath>.\NHunspell\DotNet4\NHunspell.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
