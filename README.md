@@ -1,6 +1,6 @@
 # VintaSoft WinForms PDF Editor Demo
 
-The project uses <a href="https://www.vintasoft.com/vsimaging-dotnet-index.html">VintaSoft Imaging .NET SDK</a> and demonstrates how to view and edit PDF document in WinForms:
+This C# project uses <a href="https://www.vintasoft.com/vsimaging-dotnet-index.html">VintaSoft Imaging .NET SDK</a> and demonstrates how to view and edit PDF document in WinForms:
 * Create and load PDF document.
 * Display and print PDF document with or without color management.
 * View and change general information about PDF document.
