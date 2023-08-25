@@ -471,11 +471,11 @@ namespace PdfEditorDemo
                     string[] directories = new string[]
                     {
                         "",
-                        @"..\TesseractOCR\",
-                        @"..\..\TesseractOCR\",
-                        @"..\..\..\..\Bin\TesseractOCR\",
-                        @"..\..\..\..\..\Bin\TesseractOCR\",
-                        @"..\..\..\..\..\..\..\Bin\TesseractOCR\"
+                        @"TesseractOCR\",
+                        @"Debug\net6.0-windows\TesseractOCR\",
+                        @"Release\net6.0-windows\TesseractOCR\",
+                        @"Debug\net7.0-windows\TesseractOCR\",
+                        @"Release\net7.0-windows\TesseractOCR\",
                     };
 
                     // search tesseract dll
