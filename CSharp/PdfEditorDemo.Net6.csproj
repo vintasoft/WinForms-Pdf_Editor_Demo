@@ -40,7 +40,7 @@
       <HintPath>.\Jint.Vintasoft\DotNet6\Jint.Vintasoft.dll</HintPath>
     </Reference>
     <Reference Include="NHunspell">
-      <HintPath>..\..\..\..\Bin\NHunspell\DotNetCore3\NHunspell.dll</HintPath>
+      <HintPath>.\NHunspell\DotNet6\NHunspell.dll</HintPath>
     </Reference>
     <PackageReference Include="Vintasoft.Barcode" Version="14.1.11.1" />
     <PackageReference Include="Vintasoft.Imaging" Version="12.2.6.1" />
