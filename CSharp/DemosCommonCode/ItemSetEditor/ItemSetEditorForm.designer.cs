@@ -28,6 +28,7 @@ namespace DemosCommonCode
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ItemSetEditorForm));
             this.itemListBox = new System.Windows.Forms.ListBox();
             this.itemPropertyGrid = new System.Windows.Forms.PropertyGrid();
             this.addButton = new System.Windows.Forms.Button();
@@ -66,7 +67,7 @@ namespace DemosCommonCode
             this.addButton.Name = "addButton";
             this.addButton.Size = new System.Drawing.Size(75, 23);
             this.addButton.TabIndex = 2;
-            this.addButton.Text = "Add...";
+            resources.ApplyResources(this.addButton, "addButton");
             this.addButton.UseVisualStyleBackColor = true;
             this.addButton.Click += new System.EventHandler(this.addButton_Click);
             // 
@@ -77,7 +78,7 @@ namespace DemosCommonCode
             this.deleteButton.Name = "deleteButton";
             this.deleteButton.Size = new System.Drawing.Size(75, 23);
             this.deleteButton.TabIndex = 3;
-            this.deleteButton.Text = "Delete";
+            resources.ApplyResources(this.deleteButton, "deleteButton");
             this.deleteButton.UseVisualStyleBackColor = true;
             this.deleteButton.Click += new System.EventHandler(this.deleteButton_Click);
             // 
@@ -125,7 +126,7 @@ namespace DemosCommonCode
             this.MinimumSize = new System.Drawing.Size(435, 223);
             this.Name = "ItemSetEditorForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Items Editor";
+            resources.ApplyResources(this, "$this");
             this.mainPanel.ResumeLayout(false);
             this.mainPanel.PerformLayout();
             this.ResumeLayout(false);

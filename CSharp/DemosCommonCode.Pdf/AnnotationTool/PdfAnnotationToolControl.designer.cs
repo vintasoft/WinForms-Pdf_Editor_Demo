@@ -100,7 +100,7 @@ namespace DemosCommonCode.Pdf
             this.groupBox2.Size = new System.Drawing.Size(251, 38);
             this.groupBox2.TabIndex = 7;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Interaction Mode";
+            resources.ApplyResources(this.groupBox2, "groupBox2");
             // 
             // interactionModeMarkupRadioButton
             // 
@@ -110,7 +110,7 @@ namespace DemosCommonCode.Pdf
             this.interactionModeMarkupRadioButton.Size = new System.Drawing.Size(66, 19);
             this.interactionModeMarkupRadioButton.TabIndex = 3;
             this.interactionModeMarkupRadioButton.TabStop = true;
-            this.interactionModeMarkupRadioButton.Text = "Markup";
+            resources.ApplyResources(this.interactionModeMarkupRadioButton, "interactionModeMarkupRadioButton");
             this.interactionModeMarkupRadioButton.UseVisualStyleBackColor = true;
             this.interactionModeMarkupRadioButton.CheckedChanged += new System.EventHandler(this.interactionModeRadioButton_CheckedChanged);
             // 
@@ -134,7 +134,7 @@ namespace DemosCommonCode.Pdf
             this.interactionModeEditRadioButton.Size = new System.Drawing.Size(45, 19);
             this.interactionModeEditRadioButton.TabIndex = 1;
             this.interactionModeEditRadioButton.TabStop = true;
-            this.interactionModeEditRadioButton.Text = "Edit";
+            resources.ApplyResources(this.interactionModeEditRadioButton, "interactionModeEditRadioButton");
             this.interactionModeEditRadioButton.UseVisualStyleBackColor = true;
             this.interactionModeEditRadioButton.CheckedChanged += new System.EventHandler(this.interactionModeRadioButton_CheckedChanged);
             // 
@@ -146,7 +146,7 @@ namespace DemosCommonCode.Pdf
             this.interactionModeViewRadioButton.Size = new System.Drawing.Size(50, 19);
             this.interactionModeViewRadioButton.TabIndex = 0;
             this.interactionModeViewRadioButton.TabStop = true;
-            this.interactionModeViewRadioButton.Text = "View";
+            resources.ApplyResources(this.interactionModeViewRadioButton, "interactionModeViewRadioButton");
             this.interactionModeViewRadioButton.UseVisualStyleBackColor = true;
             this.interactionModeViewRadioButton.CheckedChanged += new System.EventHandler(this.interactionModeRadioButton_CheckedChanged);
             // 
@@ -172,7 +172,7 @@ namespace DemosCommonCode.Pdf
             this.annotationsTabPage.Padding = new System.Windows.Forms.Padding(3);
             this.annotationsTabPage.Size = new System.Drawing.Size(243, 395);
             this.annotationsTabPage.TabIndex = 0;
-            this.annotationsTabPage.Text = "Annotations";
+            resources.ApplyResources(this.annotationsTabPage, "annotationsTabPage");
             this.annotationsTabPage.UseVisualStyleBackColor = true;
             // 
             // AnnotationsControl
@@ -193,7 +193,7 @@ namespace DemosCommonCode.Pdf
             this.formFieldsTabPage.Padding = new System.Windows.Forms.Padding(3);
             this.formFieldsTabPage.Size = new System.Drawing.Size(243, 395);
             this.formFieldsTabPage.TabIndex = 1;
-            this.formFieldsTabPage.Text = "Form Fields";
+            resources.ApplyResources(this.formFieldsTabPage, "formFieldsTabPage");
             this.formFieldsTabPage.UseVisualStyleBackColor = true;
             // 
             // InteractiveFormControl
@@ -215,7 +215,7 @@ namespace DemosCommonCode.Pdf
             this.editModeSettingsGroupBox.Size = new System.Drawing.Size(251, 39);
             this.editModeSettingsGroupBox.TabIndex = 9;
             this.editModeSettingsGroupBox.TabStop = false;
-            this.editModeSettingsGroupBox.Text = "Edit Mode Settings";
+            resources.ApplyResources(this.editModeSettingsGroupBox, "editModeSettingsGroupBox");
             // 
             // highlightObjectsCheckBox
             // 
@@ -235,7 +235,7 @@ namespace DemosCommonCode.Pdf
             this.multiSelectCheckBox.Name = "multiSelectCheckBox";
             this.multiSelectCheckBox.Size = new System.Drawing.Size(121, 19);
             this.multiSelectCheckBox.TabIndex = 0;
-            this.multiSelectCheckBox.Text = "Multiple Selection";
+            resources.ApplyResources(this.multiSelectCheckBox, "multiSelectCheckBox");
             this.multiSelectCheckBox.UseVisualStyleBackColor = true;
             this.multiSelectCheckBox.CheckedChanged += new System.EventHandler(this.multiSelectCheckBox_CheckedChanged);
             // 
@@ -248,7 +248,7 @@ namespace DemosCommonCode.Pdf
             this.toolTipCheckBox.Name = "toolTipCheckBox";
             this.toolTipCheckBox.Size = new System.Drawing.Size(67, 19);
             this.toolTipCheckBox.TabIndex = 2;
-            this.toolTipCheckBox.Text = "Tooltips";
+            resources.ApplyResources(this.toolTipCheckBox, "toolTipCheckBox");
             this.toolTipCheckBox.UseVisualStyleBackColor = true;
             // 
             // annotationContextMenuStrip
@@ -277,7 +277,7 @@ namespace DemosCommonCode.Pdf
             // 
             this.replyToolStripMenuItem.Name = "replyToolStripMenuItem";
             this.replyToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
-            this.replyToolStripMenuItem.Text = "Reply";
+            resources.ApplyResources(this.replyToolStripMenuItem, "replyToolStripMenuItem");
             this.replyToolStripMenuItem.Click += new System.EventHandler(this.replyToolStripMenuItem_Click);
             // 
             // setStatusToolStripMenuItem
@@ -290,7 +290,7 @@ namespace DemosCommonCode.Pdf
             this.statusNoneToolStripMenuItem});
             this.setStatusToolStripMenuItem.Name = "setStatusToolStripMenuItem";
             this.setStatusToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
-            this.setStatusToolStripMenuItem.Text = "Set Status";
+            resources.ApplyResources(this.setStatusToolStripMenuItem, "setStatusToolStripMenuItem");
             // 
             // statusAcceptedToolStripMenuItem
             // 
@@ -298,7 +298,7 @@ namespace DemosCommonCode.Pdf
             this.statusAcceptedToolStripMenuItem.Name = "statusAcceptedToolStripMenuItem";
             this.statusAcceptedToolStripMenuItem.Size = new System.Drawing.Size(133, 22);
             this.statusAcceptedToolStripMenuItem.Tag = "Review.Accepted";
-            this.statusAcceptedToolStripMenuItem.Text = "Accepted";
+            resources.ApplyResources(this.statusAcceptedToolStripMenuItem, "statusAcceptedToolStripMenuItem");
             this.statusAcceptedToolStripMenuItem.Click += new System.EventHandler(this.setStatusToolStripMenuItem_Click);
             // 
             // statusCompletedToolStripMenuItem
@@ -307,7 +307,7 @@ namespace DemosCommonCode.Pdf
             this.statusCompletedToolStripMenuItem.Name = "statusCompletedToolStripMenuItem";
             this.statusCompletedToolStripMenuItem.Size = new System.Drawing.Size(133, 22);
             this.statusCompletedToolStripMenuItem.Tag = "Review.Completed";
-            this.statusCompletedToolStripMenuItem.Text = "Completed";
+            resources.ApplyResources(this.statusCompletedToolStripMenuItem, "statusCompletedToolStripMenuItem");
             this.statusCompletedToolStripMenuItem.Click += new System.EventHandler(this.setStatusToolStripMenuItem_Click);
             // 
             // statusRejectedToolStripMenuItem
@@ -316,7 +316,7 @@ namespace DemosCommonCode.Pdf
             this.statusRejectedToolStripMenuItem.Name = "statusRejectedToolStripMenuItem";
             this.statusRejectedToolStripMenuItem.Size = new System.Drawing.Size(133, 22);
             this.statusRejectedToolStripMenuItem.Tag = "Review.Rejected";
-            this.statusRejectedToolStripMenuItem.Text = "Rejected";
+            resources.ApplyResources(this.statusRejectedToolStripMenuItem, "statusRejectedToolStripMenuItem");
             this.statusRejectedToolStripMenuItem.Click += new System.EventHandler(this.setStatusToolStripMenuItem_Click);
             // 
             // statusCancelledToolStripMenuItem
@@ -325,7 +325,7 @@ namespace DemosCommonCode.Pdf
             this.statusCancelledToolStripMenuItem.Name = "statusCancelledToolStripMenuItem";
             this.statusCancelledToolStripMenuItem.Size = new System.Drawing.Size(133, 22);
             this.statusCancelledToolStripMenuItem.Tag = "";
-            this.statusCancelledToolStripMenuItem.Text = "Cancelled";
+            resources.ApplyResources(this.statusCancelledToolStripMenuItem, "statusCancelledToolStripMenuItem");
             this.statusCancelledToolStripMenuItem.Click += new System.EventHandler(this.setStatusToolStripMenuItem_Click);
             // 
             // statusNoneToolStripMenuItem
@@ -351,7 +351,7 @@ namespace DemosCommonCode.Pdf
             this.textMarkupSquigglyUnderlineToolStripMenuItem});
             this.textMarkupToolStripMenuItem.Name = "textMarkupToolStripMenuItem";
             this.textMarkupToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
-            this.textMarkupToolStripMenuItem.Text = "Text Markup";
+            resources.ApplyResources(this.textMarkupToolStripMenuItem, "textMarkupToolStripMenuItem");
             // 
             // textMarkupHighlightToolStripMenuItem
             // 
@@ -382,7 +382,7 @@ namespace DemosCommonCode.Pdf
             this.textMarkupSquigglyUnderlineToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("textMarkupSquigglyUnderlineToolStripMenuItem.Image")));
             this.textMarkupSquigglyUnderlineToolStripMenuItem.Name = "textMarkupSquigglyUnderlineToolStripMenuItem";
             this.textMarkupSquigglyUnderlineToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
-            this.textMarkupSquigglyUnderlineToolStripMenuItem.Text = "Squiggly Underline";
+            resources.ApplyResources(this.textMarkupSquigglyUnderlineToolStripMenuItem, "textMarkupSquigglyUnderlineToolStripMenuItem");
             this.textMarkupSquigglyUnderlineToolStripMenuItem.Click += new System.EventHandler(this.textMarkupSquigglyUnderlineToolStripMenuItem_Click);
             // 
             // toolStripSeparator3
@@ -394,28 +394,28 @@ namespace DemosCommonCode.Pdf
             // 
             this.cutToolStripMenuItem.Name = "cutToolStripMenuItem";
             this.cutToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
-            this.cutToolStripMenuItem.Text = "Cut";
+            resources.ApplyResources(this.cutToolStripMenuItem, "cutToolStripMenuItem");
             this.cutToolStripMenuItem.Click += new System.EventHandler(this.cutToolStripMenuItem_Click);
             // 
             // copyToolStripMenuItem
             // 
             this.copyToolStripMenuItem.Name = "copyToolStripMenuItem";
             this.copyToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
-            this.copyToolStripMenuItem.Text = "Copy";
+            resources.ApplyResources(this.copyToolStripMenuItem, "copyToolStripMenuItem");
             this.copyToolStripMenuItem.Click += new System.EventHandler(this.copyToolStripMenuItem_Click);
             // 
             // pasteToolStripMenuItem
             // 
             this.pasteToolStripMenuItem.Name = "pasteToolStripMenuItem";
             this.pasteToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
-            this.pasteToolStripMenuItem.Text = "Paste";
+            resources.ApplyResources(this.pasteToolStripMenuItem, "pasteToolStripMenuItem");
             this.pasteToolStripMenuItem.Click += new System.EventHandler(this.pasteToolStripMenuItem_Click);
             // 
             // deleteToolStripMenuItem
             // 
             this.deleteToolStripMenuItem.Name = "deleteToolStripMenuItem";
             this.deleteToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
-            this.deleteToolStripMenuItem.Text = "Delete";
+            resources.ApplyResources(this.deleteToolStripMenuItem, "deleteToolStripMenuItem");
             this.deleteToolStripMenuItem.Click += new System.EventHandler(this.deleteToolStripMenuItem_Click);
             // 
             // toolStripSeparator4
@@ -427,14 +427,14 @@ namespace DemosCommonCode.Pdf
             // 
             this.bringToFrontToolStripMenuItem.Name = "bringToFrontToolStripMenuItem";
             this.bringToFrontToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
-            this.bringToFrontToolStripMenuItem.Text = "Bring to Front";
+            resources.ApplyResources(this.bringToFrontToolStripMenuItem, "bringToFrontToolStripMenuItem");
             this.bringToFrontToolStripMenuItem.Click += new System.EventHandler(this.bringToFrontToolStripMenuItem_Click);
             // 
             // bringToBackToolStripMenuItem
             // 
             this.bringToBackToolStripMenuItem.Name = "bringToBackToolStripMenuItem";
             this.bringToBackToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
-            this.bringToBackToolStripMenuItem.Text = "Bring to Back";
+            resources.ApplyResources(this.bringToBackToolStripMenuItem, "bringToBackToolStripMenuItem");
             this.bringToBackToolStripMenuItem.Click += new System.EventHandler(this.bringToBackToolStripMenuItem_Click);
             // 
             // toolStripSeparator2
@@ -454,49 +454,49 @@ namespace DemosCommonCode.Pdf
             this.noneToolStripMenuItem});
             this.transformersToolStripMenuItem.Name = "transformersToolStripMenuItem";
             this.transformersToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
-            this.transformersToolStripMenuItem.Text = "Transformers";
+            resources.ApplyResources(this.transformersToolStripMenuItem, "transformersToolStripMenuItem");
             this.transformersToolStripMenuItem.DropDownOpened += new System.EventHandler(this.transformersToolStripMenuItem_DropDownOpened);
             // 
             // defaultToolStripMenuItem
             // 
             this.defaultToolStripMenuItem.Name = "defaultToolStripMenuItem";
             this.defaultToolStripMenuItem.Size = new System.Drawing.Size(218, 22);
-            this.defaultToolStripMenuItem.Text = "Default";
+            resources.ApplyResources(this.defaultToolStripMenuItem, "defaultToolStripMenuItem");
             this.defaultToolStripMenuItem.Click += new System.EventHandler(this.defaultToolStripMenuItem_Click);
             // 
             // moveResizeRotateToolStripMenuItem
             // 
             this.moveResizeRotateToolStripMenuItem.Name = "moveResizeRotateToolStripMenuItem";
             this.moveResizeRotateToolStripMenuItem.Size = new System.Drawing.Size(218, 22);
-            this.moveResizeRotateToolStripMenuItem.Text = "Move/Resize/Rotate";
+            resources.ApplyResources(this.moveResizeRotateToolStripMenuItem, "moveResizeRotateToolStripMenuItem");
             this.moveResizeRotateToolStripMenuItem.Click += new System.EventHandler(this.moveResizeRotateToolStripMenuItem_Click);
             // 
             // pointsMoveResizeRotateToolStripMenuItem
             // 
             this.pointsMoveResizeRotateToolStripMenuItem.Name = "pointsMoveResizeRotateToolStripMenuItem";
             this.pointsMoveResizeRotateToolStripMenuItem.Size = new System.Drawing.Size(218, 22);
-            this.pointsMoveResizeRotateToolStripMenuItem.Text = "Points/Move/Resize/Rotate";
+            resources.ApplyResources(this.pointsMoveResizeRotateToolStripMenuItem, "pointsMoveResizeRotateToolStripMenuItem");
             this.pointsMoveResizeRotateToolStripMenuItem.Click += new System.EventHandler(this.pointsMoveResizeRotateToolStripMenuItem_Click);
             // 
             // distortionToolStripMenuItem
             // 
             this.distortionToolStripMenuItem.Name = "distortionToolStripMenuItem";
             this.distortionToolStripMenuItem.Size = new System.Drawing.Size(218, 22);
-            this.distortionToolStripMenuItem.Text = "Distortion";
+            resources.ApplyResources(this.distortionToolStripMenuItem, "distortionToolStripMenuItem");
             this.distortionToolStripMenuItem.Click += new System.EventHandler(this.distortionToolStripMenuItem_Click);
             // 
             // skewToolStripMenuItem
             // 
             this.skewToolStripMenuItem.Name = "skewToolStripMenuItem";
             this.skewToolStripMenuItem.Size = new System.Drawing.Size(218, 22);
-            this.skewToolStripMenuItem.Text = "Skew";
+            resources.ApplyResources(this.skewToolStripMenuItem, "skewToolStripMenuItem");
             this.skewToolStripMenuItem.Click += new System.EventHandler(this.skewToolStripMenuItem_Click);
             // 
             // pointsToolStripMenuItem
             // 
             this.pointsToolStripMenuItem.Name = "pointsToolStripMenuItem";
             this.pointsToolStripMenuItem.Size = new System.Drawing.Size(218, 22);
-            this.pointsToolStripMenuItem.Text = "Points";
+            resources.ApplyResources(this.pointsToolStripMenuItem, "pointsToolStripMenuItem");
             this.pointsToolStripMenuItem.Click += new System.EventHandler(this.pointsToolStripMenuItem_Click);
             // 
             // noneToolStripMenuItem
@@ -510,7 +510,7 @@ namespace DemosCommonCode.Pdf
             // 
             this.propertiesToolStripMenuItem.Name = "propertiesToolStripMenuItem";
             this.propertiesToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
-            this.propertiesToolStripMenuItem.Text = "Properties...";
+            resources.ApplyResources(this.propertiesToolStripMenuItem, "propertiesToolStripMenuItem");
             this.propertiesToolStripMenuItem.Click += new System.EventHandler(this.propertiesToolStripMenuItem_Click);
             // 
             // highlightFieldsCheckBox
@@ -520,7 +520,7 @@ namespace DemosCommonCode.Pdf
             this.highlightFieldsCheckBox.Name = "highlightFieldsCheckBox";
             this.highlightFieldsCheckBox.Size = new System.Drawing.Size(143, 19);
             this.highlightFieldsCheckBox.TabIndex = 10;
-            this.highlightFieldsCheckBox.Text = "Highlight Form  Fields";
+            resources.ApplyResources(this.highlightFieldsCheckBox, "highlightFieldsCheckBox");
             this.highlightFieldsCheckBox.UseVisualStyleBackColor = true;
             this.highlightFieldsCheckBox.CheckedChanged += new System.EventHandler(this.highlightFieldsCheckBox_CheckedChanged);
             // 
@@ -533,7 +533,7 @@ namespace DemosCommonCode.Pdf
             this.tabNavigationLoopedOnPageCheckBox.Name = "tabNavigationLoopedOnPageCheckBox";
             this.tabNavigationLoopedOnPageCheckBox.Size = new System.Drawing.Size(193, 19);
             this.tabNavigationLoopedOnPageCheckBox.TabIndex = 11;
-            this.tabNavigationLoopedOnPageCheckBox.Text = "TAB Navigation looped on page";
+            resources.ApplyResources(this.tabNavigationLoopedOnPageCheckBox, "tabNavigationLoopedOnPageCheckBox");
             this.tabNavigationLoopedOnPageCheckBox.UseVisualStyleBackColor = true;
             this.tabNavigationLoopedOnPageCheckBox.CheckedChanged += new System.EventHandler(this.tabNavigationLoopedOnPageCheckBox_CheckedChanged);
             // 
@@ -544,7 +544,7 @@ namespace DemosCommonCode.Pdf
             this.buildContinuouslyCheckBox.Name = "buildContinuouslyCheckBox";
             this.buildContinuouslyCheckBox.Size = new System.Drawing.Size(127, 19);
             this.buildContinuouslyCheckBox.TabIndex = 12;
-            this.buildContinuouslyCheckBox.Text = "Build Continuously";
+            resources.ApplyResources(this.buildContinuouslyCheckBox, "buildContinuouslyCheckBox");
             this.buildContinuouslyCheckBox.UseVisualStyleBackColor = true;
             this.buildContinuouslyCheckBox.CheckedChanged += new System.EventHandler(this.buildContinuouslyCheckBox_CheckedChanged);
             // 

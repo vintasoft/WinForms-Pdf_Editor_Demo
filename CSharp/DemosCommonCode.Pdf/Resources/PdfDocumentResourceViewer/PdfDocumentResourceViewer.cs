@@ -407,7 +407,7 @@ namespace DemosCommonCode.Pdf
                     if (TreeType == PdfResourceTreeViewType.Hierarchical)
                     {
                         // get node name
-                        string nodeName = string.Format("Page {0}", pageIndex);
+                        string nodeName = string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_PAGE_ARG0_ALT3, pageIndex);
                         // add node
                         pageNode = AddTreeNode(rootCollection, nodeName, page);
                         pageNodeCollection = pageNode.Nodes;
@@ -702,7 +702,7 @@ namespace DemosCommonCode.Pdf
             }
             else
             {
-                resourceName = string.Format("{0}: Inline", type.Name);
+                resourceName = string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_ARG0_INLINE, type.Name);
             }
 
             if (resourceName.StartsWith("Pdf", StringComparison.InvariantCultureIgnoreCase))

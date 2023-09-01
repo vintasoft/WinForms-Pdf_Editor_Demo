@@ -67,12 +67,12 @@ namespace DemosCommonCode
                 stream.Read(data, 0, data.Length);
 
                 // start asynchronous data uploading
-                AppendLog(string.Format("Upload {0} bytes to {1}...", data.Length, url));
+                AppendLog(string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_UPLOAD_ARG0_BYTES_TO_ARG1, data.Length, url));
                 webClient.UploadDataAsync(new Uri(url), data);
             }
             catch (Exception ex)
             {
-                AppendLog(string.Format("Error: {0}", ex.ToString()));
+                AppendLog(string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_ERROR_ARG0, ex.ToString()));
             }
         }
 
@@ -84,11 +84,11 @@ namespace DemosCommonCode
             closeButton.Enabled = true;
             ((WebClient)sender).UploadDataCompleted -= webClient_UploadDataCompleted;
             if (e.Cancelled)
-                AppendLog("Canceled.");
+                AppendLog(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_CANCELED);
             if (e.Error != null)
-                AppendLog(string.Format("Error: {0}", e.Error.Message));
+                AppendLog(string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_ERROR_ARG0_ALT1, e.Error.Message));
             else
-                AppendLog(string.Format("Response received: {0}", Encoding.ASCII.GetString(e.Result)));
+                AppendLog(string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_RESPONSE_RECEIVED_ARG0, Encoding.ASCII.GetString(e.Result)));
         }
 
         /// <summary>

@@ -179,8 +179,8 @@ namespace DemosCommonCode.Pdf
                     else
                     {
                         DemosTools.ShowWarningMessage(
-                            "Bookmarks",
-                            string.Format("Page {0} is not from this PDF document. Save document and try again.", pageNumber.Value));
+                            PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_BOOKMARKS,
+                            string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_PAGE_ARG0_IS_NOT_FROM_THIS_PDF_DOCUMENT_SAVE_DOCUMENT_AND_TRY_AGAIN, pageNumber.Value));
                         return;
                     }
                 }

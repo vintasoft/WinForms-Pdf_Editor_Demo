@@ -28,6 +28,7 @@ namespace DemosCommonCode.Pdf
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PdfGotoActionEditorForm));
             this.positionComboBox = new System.Windows.Forms.ComboBox();
             this.pageNumberNumericUpDown = new System.Windows.Forms.NumericUpDown();
             this.label2 = new System.Windows.Forms.Label();
@@ -96,7 +97,7 @@ namespace DemosCommonCode.Pdf
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(44, 13);
             this.label2.TabIndex = 5;
-            this.label2.Text = "Position";
+            resources.ApplyResources(this.label2, "label2");
             // 
             // label1
             // 
@@ -105,7 +106,7 @@ namespace DemosCommonCode.Pdf
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(72, 13);
             this.label1.TabIndex = 4;
-            this.label1.Text = "Page Number";
+            resources.ApplyResources(this.label1, "label1");
             // 
             // okButton
             // 
@@ -126,7 +127,7 @@ namespace DemosCommonCode.Pdf
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(75, 23);
             this.buttonCancel.TabIndex = 9;
-            this.buttonCancel.Text = "Cancel";
+            resources.ApplyResources(this.buttonCancel, "buttonCancel");
             this.buttonCancel.UseVisualStyleBackColor = true;
             // 
             // destinationXyzPanel
@@ -152,7 +153,7 @@ namespace DemosCommonCode.Pdf
             this.destinationZoomCheckBox.Name = "destinationZoomCheckBox";
             this.destinationZoomCheckBox.Size = new System.Drawing.Size(100, 17);
             this.destinationZoomCheckBox.TabIndex = 7;
-            this.destinationZoomCheckBox.Text = "Zoom Factor, %";
+            resources.ApplyResources(this.destinationZoomCheckBox, "destinationZoomCheckBox");
             this.destinationZoomCheckBox.UseVisualStyleBackColor = true;
             this.destinationZoomCheckBox.CheckedChanged += new System.EventHandler(this.destinationZoomCheckBox_CheckedChanged);
             // 
@@ -169,7 +170,7 @@ namespace DemosCommonCode.Pdf
             this.groupBox1.Size = new System.Drawing.Size(227, 74);
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Location";
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             // 
             // destinationYTextBox
             // 
@@ -293,7 +294,7 @@ namespace DemosCommonCode.Pdf
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(38, 13);
             this.label9.TabIndex = 3;
-            this.label9.Text = "Height";
+            resources.ApplyResources(this.label9, "label9");
             // 
             // label8
             // 
@@ -302,7 +303,7 @@ namespace DemosCommonCode.Pdf
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(35, 13);
             this.label8.TabIndex = 2;
-            this.label8.Text = "Width";
+            resources.ApplyResources(this.label8, "label8");
             // 
             // label7
             // 
@@ -340,7 +341,7 @@ namespace DemosCommonCode.Pdf
             this.MinimizeBox = false;
             this.Name = "PdfGotoActionEditorForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Goto Action Editor";
+            resources.ApplyResources(this, "$this");
             ((System.ComponentModel.ISupportInitialize)(this.pageNumberNumericUpDown)).EndInit();
             this.destinationXyzPanel.ResumeLayout(false);
             this.destinationXyzPanel.PerformLayout();

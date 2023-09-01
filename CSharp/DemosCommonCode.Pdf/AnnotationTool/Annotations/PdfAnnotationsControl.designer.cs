@@ -28,6 +28,7 @@ namespace DemosCommonCode.Pdf
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PdfAnnotationsControl));
             this.components = new System.ComponentModel.Container();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.AnnotationBuilderControl = new DemosCommonCode.Pdf.PdfAnnotationBuilderControl();
@@ -47,7 +48,7 @@ namespace DemosCommonCode.Pdf
             this.groupBox1.Size = new System.Drawing.Size(209, 344);
             this.groupBox1.TabIndex = 9;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Add Annotation";
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             // 
             // AnnotationBuilderControl
             // 

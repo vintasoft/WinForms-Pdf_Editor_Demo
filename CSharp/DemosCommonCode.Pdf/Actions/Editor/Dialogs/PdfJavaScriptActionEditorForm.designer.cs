@@ -28,6 +28,7 @@ namespace DemosCommonCode.Pdf
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PdfJavaScriptActionEditorForm));
             this.label1 = new System.Windows.Forms.Label();
             this.javaScriptTextBox = new System.Windows.Forms.TextBox();
             this.okButton = new System.Windows.Forms.Button();
@@ -41,7 +42,7 @@ namespace DemosCommonCode.Pdf
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(57, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "JavaScript";
+            resources.ApplyResources(this.label1, "label1");
             // 
             // javaScriptTextBox
             // 
@@ -79,7 +80,7 @@ namespace DemosCommonCode.Pdf
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(75, 23);
             this.buttonCancel.TabIndex = 3;
-            this.buttonCancel.Text = "Cancel";
+            resources.ApplyResources(this.buttonCancel, "buttonCancel");
             this.buttonCancel.UseVisualStyleBackColor = true;
             // 
             // PdfJavaScriptActionEditorForm
@@ -96,7 +97,7 @@ namespace DemosCommonCode.Pdf
             this.MinimizeBox = false;
             this.Name = "PdfJavaScriptActionEditorForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "JavaScript Action Editor";
+            resources.ApplyResources(this, "$this");
             this.ResumeLayout(false);
             this.PerformLayout();
 

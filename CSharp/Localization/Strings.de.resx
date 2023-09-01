@@ -1,0 +1,2037 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DEMOSCOMMONCODE_CUSTOMCONTROLS_CLICK_THE_BUTTON_IF_THE_CURRENT_COLOR_MUST_BE_CHANGED" xml:space="preserve">
+    <value>Klicken Sie auf die Schaltfläche, wenn die aktuelle Farbe geändert werden muss.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_CUSTOMCONTROLS_CLICK_THE_BUTTON_IF_THE_CURRENT_COLOR_MUST_BE_SET_TO_THE_DEFAULT_COLOR" xml:space="preserve">
+    <value>Klicken Sie auf die Schaltfläche, wenn die aktuelle Farbe auf die Standardfarbe gesetzt werden soll.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_CUSTOMCONTROLS_DOUBLE_CLICK_ON_THE_PANEL_IF_THE_CURRENT_COLOR_MUST_BE_CHANGED" xml:space="preserve">
+    <value>Doppelklicken Sie auf das Panel, wenn die aktuelle Farbe geändert werden muss.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_CUSTOMCONTROLS_CLICK_ON_THE_PANEL_IF_CURRENT_COLOR_MUST_BE_CHANGED" xml:space="preserve">
+    <value>Klicken Sie auf das Bedienfeld, wenn die aktuelle Farbe geändert werden muss.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_CUSTOMCONTROLS_DEFAULT" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_CUSTOMCONTROLS_HELP" xml:space="preserve">
+    <value>Hilfe</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_CUSTOMCONTROLS_VALUE_NAME" xml:space="preserve">
+    <value>Wertname</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_ANNOTATION_ARG0_SETS_BY_ARG1" xml:space="preserve">
+    <value>{0} setzt um {1}</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_ANNOTATION_ERROR" xml:space="preserve">
+    <value>Fehler</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_ANNOTATION_ARG0_ARG1_REPLIES" xml:space="preserve">
+    <value>{0} ({1} Antworten)</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_ANNOTATION_ERROR_ALT1" xml:space="preserve">
+    <value>Fehler</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_ANNOTATION_THE_IMAGE_VIEWER_IS_NOT_FOUND" xml:space="preserve">
+    <value>Der Bildbetrachter wurde nicht gefunden.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_ANNOTATION_ERROR_ALT2" xml:space="preserve">
+    <value>Fehler</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_ANNOTATION_ARG0_HISTORY" xml:space="preserve">
+    <value>{0} Verlauf</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING__FINISHED_ARG0" xml:space="preserve">
+    <value> Fertig ({0}).</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_CANCEL" xml:space="preserve">
+    <value>Abbrechen</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_ERROR" xml:space="preserve">
+    <value>Fehler.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_CANCELED" xml:space="preserve">
+    <value>Abgebrochen.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_FINISHED" xml:space="preserve">
+    <value>Fertig.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_CLOSE" xml:space="preserve">
+    <value>Schließen</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_CANCELED_ALT1" xml:space="preserve">
+    <value>Abgebrochen.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_VALUE" xml:space="preserve">
+    <value>Wert</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_VALUE_ALT1" xml:space="preserve">
+    <value>Wert</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_FAST" xml:space="preserve">
+    <value>Schnell</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_BEST_SPEED" xml:space="preserve">
+    <value>Beste Geschwindigkeit</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_NORMAL" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_BEST_COMPRESSION" xml:space="preserve">
+    <value>Beste Komprimierung</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_VALUE_ALT2" xml:space="preserve">
+    <value>Wert</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_NORMAL_ALT1" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_NORMAL_ALT2" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_VALUE_ALT3" xml:space="preserve">
+    <value>Wert</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_TILE_WIDTH_MUST_BE_MULTIPLE_16" xml:space="preserve">
+    <value>Kachelbreite muss ein Vielfaches von 16 sein.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_TILE_HEIGHT_MUST_BE_MULTIPLE_16" xml:space="preserve">
+    <value>Kachelhöhe muss ein Vielfaches von 16 sein.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_IMPORTANT_SOME_DATA_FROM_ANNOTATIONS_WILL_BE_LOST_DO_YOU_WANT_TO_CONTINUE_ANYWAY" xml:space="preserve">
+    <value>Wichtig: Einige Daten aus Anmerkungen gehen verloren. Möchtest du trotzdem weitermachen?</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_WARNING" xml:space="preserve">
+    <value>Warnung</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_VALUE_ALT4" xml:space="preserve">
+    <value>Wert</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_CAN_NOT_FIND_ENCODER_FOR_ARG0" xml:space="preserve">
+    <value>Encoder für "{0}" konnte nicht gefunden werden.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_CAN_NOT_FIND_ENCODER_FOR_ARG0_ALT1" xml:space="preserve">
+    <value>Encoder für "{0}" konnte nicht gefunden werden.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_FILE_ARG0_ALREADY_EXISTS_OVERWRITE_IT" xml:space="preserve">
+    <value>Datei "{0}" existiert bereits. Überschreibe es?</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_CONFIRM_OVERWRITE" xml:space="preserve">
+    <value>Überschreiben bestätigen</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_VINTASOFTIMAGINGANNOTATIONPDFDLL_ASSEMBLY_IS_NOT_FOUND" xml:space="preserve">
+    <value>Vintasoft.Imaging.Annotation.Pdf.dll-Assembly wurde nicht gefunden.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_IMAGE_SEGMENTATION_SETTINGS" xml:space="preserve">
+    <value>Bildsegmentierungseinstellungen</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_COLORMANAGEMENT_ICC_PROFILESICCICMALL_FILES" xml:space="preserve">
+    <value>ICC-Profile|*.icc;*.icm|Alle Dateien|*.*</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_COLORMANAGEMENT_UNEXPECTED_PROFILE_COLOR_SPACE_ARG0" xml:space="preserve">
+    <value>Unerwarteter Profilfarbraum: {0}.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_COLORMANAGEMENT_UNEXPECTED_PROFILE_COLOR_SPACE_ARG0_ALT1" xml:space="preserve">
+    <value>Unerwarteter Profilfarbraum: {0}.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_PASSWORD_ARG0" xml:space="preserve">
+    <value>Passwort – {0}</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_PASSWORD" xml:space="preserve">
+    <value>Passwort</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_THE_ARG0_PASSWORD_IS_INCORRECT" xml:space="preserve">
+    <value>Das {0}-Passwort ist falsch.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_ERROR_ALT1" xml:space="preserve">
+    <value>Fehler</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_AUTHORIZED_AS_ARG0" xml:space="preserve">
+    <value>Autorisiert als: {0}</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_AUTHORIZATION_RESULT" xml:space="preserve">
+    <value>Autorisierungsergebnis</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_THIS_OPERATION_WILL_PARSE_ALL_FONTS_AVAILABLE_ON_SYSTEM_AND_REFRESH" xml:space="preserve">
+    <value>Dieser Vorgang analysiert alle auf dem System verfügbaren Schriftarten und aktualisiert sie</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_THE_FONT_MAP_BY_REPLACING_CURRENT_NAMES_WITH_ACTUAL_FONT_NAMES" xml:space="preserve">
+    <value>die Schriftartenzuordnung durch Ersetzen aktueller Namen durch tatsächliche Schriftartennamen.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_IT_CAN_BE_TIME_CONSUMING" xml:space="preserve">
+    <value>Es kann zeitaufwändig sein.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_DO_YOU_WANT_TO_REFRESH_NAMES_OF_ALL_AVAILABLE_FONTS" xml:space="preserve">
+    <value>Möchten Sie die Namen aller verfügbaren Schriftarten aktualisieren?</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_REFRESH_FONT_NAMES" xml:space="preserve">
+    <value>Schriftartnamen aktualisieren?</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_REFRESHING_FONT_NAMES" xml:space="preserve">
+    <value>Schriftnamen werden aktualisiert...</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_ANOTHER_PRINT_PROCESS_IS_STILL_WORKING" xml:space="preserve">
+    <value>Ein anderer Druckvorgang läuft noch.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_NOT_FOCUSED_IMAGE_APPEARANCE_SETTINGS" xml:space="preserve">
+    <value>Einstellungen für das Erscheinungsbild nicht fokussierter Bilder</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_FOCUSED_IMAGE_APPEARANCE_SETTINGS" xml:space="preserve">
+    <value>Einstellungen für die Darstellung fokussierter Bilder</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_APPLIED_COMMANDS" xml:space="preserve">
+    <value>Angewandte Befehle</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_DOCUMENT" xml:space="preserve">
+    <value>Dokument</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_PAGE_ARG0" xml:space="preserve">
+    <value>Seite {0}</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_DOCUMENT_ALT1" xml:space="preserve">
+    <value>Dokument</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_PAGE_ARG0_ALT1" xml:space="preserve">
+    <value>Seite {0}</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_ARG0_ARG1_MATCHES" xml:space="preserve">
+    <value>{0} ({1} Übereinstimmungen)</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_EXECUTE" xml:space="preserve">
+    <value>Ausführen</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_VERIFIER" xml:space="preserve">
+    <value>Verifizierer</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_ANALYZE" xml:space="preserve">
+    <value>Analysieren</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_ARG0_PROCESSING" xml:space="preserve">
+    <value>{0} wird verarbeitet</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_EXPAND_ALL" xml:space="preserve">
+    <value>Alles erweitern</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_COLLAPSE_ALL" xml:space="preserve">
+    <value>Alles reduzieren</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_FIXUPS" xml:space="preserve">
+    <value>Korrekturen</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_FIXUP" xml:space="preserve">
+    <value>Korrektur</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_TYPE_ARG0" xml:space="preserve">
+    <value>Typ: {0}</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_TARGET_ARG0" xml:space="preserve">
+    <value>Ziel: {0}</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_SEVERITY_ARG0" xml:space="preserve">
+    <value>Schweregrad: {0}</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_ARG0_ARG1_MATCHES_ALT1" xml:space="preserve">
+    <value>{0} ({1} Übereinstimmungen)</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_TARGET" xml:space="preserve">
+    <value>Ziel:</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_VALUE_ARG0" xml:space="preserve">
+    <value>Wert: {0}</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_APPLIED_COMMANDS_ALT1" xml:space="preserve">
+    <value>Angewandte Befehle</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_PROCESSING_ERRORS" xml:space="preserve">
+    <value>Verarbeitungsfehler</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING__ARG0_MATCHES" xml:space="preserve">
+    <value> ({0} Übereinstimmungen)</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_SEVERITY_ARG0_ALT1" xml:space="preserve">
+    <value>Schweregrad: {0}</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_SHOW_NEXT_ARG0_ELEMENTS" xml:space="preserve">
+    <value>Nächste {0} Elemente anzeigen.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_RESOURCE_ARG0_WAS_NOT_FOUND" xml:space="preserve">
+    <value>Ressource „{0}“ wurde nicht gefunden.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_ERROR_ALT2" xml:space="preserve">
+    <value>Fehler</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_ERROR_ALT3" xml:space="preserve">
+    <value>Fehler</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_NORMAL" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_FOCUSED" xml:space="preserve">
+    <value>Konzentriert</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_HOVERED" xml:space="preserve">
+    <value>Bewegt</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_SELECTED" xml:space="preserve">
+    <value>Ausgewählt</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_NOT_READY" xml:space="preserve">
+    <value>Nicht bereit</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_EXAMPLESRN" xml:space="preserve">
+    <value>Beispiele:
+</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_FILE_FILENAME_PAGE_PAGENUMBERRN" xml:space="preserve">
+    <value>'Datei {Dateiname}, Seite {Seitennummer}'
+</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_LIST_OF_PREDEFINED_FORMAT_VARIABLESRN" xml:space="preserve">
+    <value>Liste vordefinierter Formatvariablen:
+</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_PAGELABEL_PAGE_LABELRN" xml:space="preserve">
+    <value>{PageLabel} – Seitenbezeichnung
+</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_PAGENUMBER_PAGE_NUMBER_IN_SOURCE_IMAGE_FILERN" xml:space="preserve">
+    <value>{PageNumber} – Seitenzahl in der Quellbilddatei
+</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_PAGEINDEX_PAGE_INDEX_IN_SOURCE_IMAGE_FILERN" xml:space="preserve">
+    <value>{PageIndex} – Seitenindex, in der Quellbilddatei
+</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_IMAGENUMBER_IMAGE_NUMBER_IN_IMAGE_COLLECTIONRN" xml:space="preserve">
+    <value>{ImageNumber} – Bildnummer in der Bildersammlung
+</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_IMAGEINDEX_IMAGE_INDEX_IN_IMAGE_COLLECTIONRN" xml:space="preserve">
+    <value>{ImageIndex} – Bildindex, in der Bildersammlung
+</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_FILENAME_FILENAME_WITHOUT_DIRECTORYRN" xml:space="preserve">
+    <value>{Dateiname} – Dateiname ohne Verzeichnis
+</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_FULLFILENAME_FULL_FILENAMERN" xml:space="preserve">
+    <value>{FullFilename} – vollständiger Dateiname
+</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_DIRECTORYNAME_DIRECTORY_NAMERN" xml:space="preserve">
+    <value>{DirectoryName} – Verzeichnisname
+</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_DECODERNAME_DECODER_NAMERN" xml:space="preserve">
+    <value>{DecoderName} – Decodername
+</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_IMAGEWIDTHPX_SOURCE_IMAGE_WIDTH_IN_PIXELSRN" xml:space="preserve">
+    <value>{ImageWidthPx} – Breite des Quellbilds in Pixel
+</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_IMAGEHEIGHTPX_SOURCE_IMAGE_HEIGHT_IN_PIXELSRN" xml:space="preserve">
+    <value>{ImageHeightPx} – Höhe des Quellbilds in Pixel
+</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_IMAGESIZEMPX_SOURCE_IMAGE_SIZE_IN_MEGAPIXELSRN" xml:space="preserve">
+    <value>{ImageSizeMpx} – Quellbildgröße in Megapixeln
+</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_IMAGEHRES_SOURCE_IMAGE_HORIZONTAL_RESOLUTION_IN_DPIRN" xml:space="preserve">
+    <value>{ImageHRes} – horizontale Auflösung des Quellbilds, in DPI
+</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_IMAGEVRES_SOURCE_IMAGE_VERTICAL_RESOLUTION_IN_DPIRN" xml:space="preserve">
+    <value>{ImageVRes} – vertikale Auflösung des Quellbilds, in DPI
+</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_IMAGEBITSPERPIXEL_SOURCE_IMAGE_BITS_PER_PIXEL" xml:space="preserve">
+    <value>{ImageBitsPerPixel} – Quellbildbits pro Pixel</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_THUMBNAILCAPTIONCAPTIONFORMAT_PROPERTY" xml:space="preserve">
+    <value>ThumbnailCaption.CaptionFormat-Eigenschaft</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_VISUAL_TOOL" xml:space="preserve">
+    <value>Visuelles Werkzeug</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_LINE_MEASURE" xml:space="preserve">
+    <value>Linienmaß</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_STARTS_THE_MEASUREMENT_USING_LINE" xml:space="preserve">
+    <value>Startet die Messung mithilfe der Linie</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_LINES_MEASURE" xml:space="preserve">
+    <value>Linienmaß</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_STARTS_THE_MEASUREMENT_USING_LINES" xml:space="preserve">
+    <value>Startet die Messung anhand von Linien</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_ELLIPSE_MEASURE" xml:space="preserve">
+    <value>Ellipsenmaß</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_STARTS_THE_MEASUREMENT_USING_ELLIPSE" xml:space="preserve">
+    <value>Startet die Messung mittels Ellipse</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_ANGLE_MEASURE" xml:space="preserve">
+    <value>Winkelmaß</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_STARTS_THE_MEASUREMENT_USING_ANGLE" xml:space="preserve">
+    <value>Startet die Messung anhand des Winkels</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_UNITS_OF_MEASURE" xml:space="preserve">
+    <value>Maßeinheiten</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_UNITS_OF_MEASURE_ALT1" xml:space="preserve">
+    <value>Maßeinheiten</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_PROPERTIES" xml:space="preserve">
+    <value>Eigenschaften...</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_SHOW_PROPERTIES_FORM_FOR_IMAGE_MEASURE_TOOL" xml:space="preserve">
+    <value>Eigenschaftenformular für Bildmesstool anzeigen</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_MEASUREMENT_PROPERTIES" xml:space="preserve">
+    <value>Messungseigenschaften...</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_SHOW_PROPERTIES_FORM_FOR_FOCUSED_MEASUREMENT_ANNOTATION" xml:space="preserve">
+    <value>Eigenschaftenformular für fokussierte Messanmerkung anzeigen</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_IMAGE_MEASURE_TOOL_SETTINGS" xml:space="preserve">
+    <value>Einstellungen des Bildmesswerkzeugs</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_MEASUREMENT_SETTINGS" xml:space="preserve">
+    <value>Messeinstellungen</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_LOAD_MEASUREMENTS" xml:space="preserve">
+    <value>Messungen laden...</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_LOAD_THE_MEASUREMENT_ANNOTATIONS_FROM_A_FILE" xml:space="preserve">
+    <value>Laden Sie die Messanmerkungen aus einer Datei</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_SAVE_MEASUREMENTS" xml:space="preserve">
+    <value>Messungen speichern...</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING__SAVE_THE_MEASUREMENT_ANNOTATIONS_TO_A_FILE" xml:space="preserve">
+    <value> Speichern Sie die Messanmerkungen in einer Datei</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_BINARY_ANNOTATIONSVSABMVSABMXMP_ANNOTATIONSXMPMXMPMALL_FORMATSVSABMXMPMVSABMXMPM" xml:space="preserve">
+    <value>Binäre Anmerkungen(*.vsabm)|*.vsabm|XMP-Anmerkungen(*.xmpm)|*.xmpm|Alle Formate(*.vsabm;*.xmpm)|*.vsabm;*.xmpm</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_BINARY_ANNOTATIONSVSABMXMP_ANNOTATIONSXMPM" xml:space="preserve">
+    <value>Binäre Anmerkungen|*.vsabm|XMP-Anmerkungen|*.xmpm</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_REFRESH_MEASUREMENTS" xml:space="preserve">
+    <value>Messungen aktualisieren</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_REFRESH_ALL_MEASUREMENTS_OF_FOCUSED_IMAGE" xml:space="preserve">
+    <value>Alle Messungen des fokussierten Bildes aktualisieren</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_IMAGE_MEASURE_TOOL" xml:space="preserve">
+    <value>Bildmesswerkzeug</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_IMAGE_MEASURE_TOOL_ALT1" xml:space="preserve">
+    <value>Bildmesswerkzeug</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_MAGNIFIER_TOOL" xml:space="preserve">
+    <value>Lupe-Werkzeug</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_MAGNIFIER" xml:space="preserve">
+    <value>Lupe</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_ZOOM_SELECTION_TOOL" xml:space="preserve">
+    <value>Zoom-Auswahlwerkzeug</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_ZOOM_SELECTION" xml:space="preserve">
+    <value>Zoomauswahl</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_ZOOM_TOOL" xml:space="preserve">
+    <value>Zoom-Tool</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_ZOOM" xml:space="preserve">
+    <value>Zoom</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_THE_FOLLOWING_SPECIFIED_TEXT_WAS_NOT_FOUND_ARG0" xml:space="preserve">
+    <value>Der folgende angegebene Text wurde nicht gefunden: {0}</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_FIND_TEXT" xml:space="preserve">
+    <value>Text suchen</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_THE_FOLLOWING_SPECIFIED_TEXT_WAS_NOT_FOUND_ARG0_ALT1" xml:space="preserve">
+    <value>Der folgende angegebene Text wurde nicht gefunden: {0}</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_FIND_TEXT_ALT1" xml:space="preserve">
+    <value>Text suchen</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_OFFICE_ALL_SUPPORTED_DOCUMENTS_DOCXDOCTXTDOCXDOCTXT" xml:space="preserve">
+    <value>Alle unterstützten Dokumente (*.docx;*.doc;*.txt)|*.docx;*.doc;*.txt</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_OFFICE_CHART_RESOURCES_WAS_NOT_FOUND" xml:space="preserve">
+    <value>Diagrammressourcen wurden nicht gefunden.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_OFFICE_SELECT_A_CHART" xml:space="preserve">
+    <value>Wählen Sie ein Diagramm aus</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_OFFICE_TXT_TO_DOCX_CONVERSION_ERROR_RESOURCE_EMPTYDOCUMENTDOCX_IS_NOT_FOUND_IN_DEMO_APPLICATION" xml:space="preserve">
+    <value>Fehler bei der Konvertierung von TXT in DOCX: Die Ressource "EmptyDocument.docx" wurde in der Demoanwendung nicht gefunden.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_OFFICE_CHART_ARG0" xml:space="preserve">
+    <value>Diagramm {0}</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_OFFICE_FIRST_LINE_INDENTATION" xml:space="preserve">
+    <value>Einzug der ersten Zeile</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_OFFICE_LEFT_INDENTATION" xml:space="preserve">
+    <value>Linker Einzug</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_OFFICE_RIGHT_INDENTATION" xml:space="preserve">
+    <value>Rechter Einzug</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_OFFICE_LINE_HEIGHT_FACTOR" xml:space="preserve">
+    <value>Linienhöhenfaktor</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_OFFICE_SPACING_BEFORE_PARAGRAPH" xml:space="preserve">
+    <value>Abstand vor Absatz</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_OFFICE_SPACING_AFTER_PARAGRAPH" xml:space="preserve">
+    <value>Abstand nach Absatz</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_OFFICE_CHARACTER_HORIZONTAL_SCALING" xml:space="preserve">
+    <value>Horizontale Zeichenskalierung</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_OFFICE_CHARACTER_SPACING" xml:space="preserve">
+    <value>Zeichenabstand</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_TWAIN_TWAIN_DEVICE_MANAGER_IS_NOT_FOUND" xml:space="preserve">
+    <value>TWAIN-Gerätemanager wurde nicht gefunden.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_TWAIN_TWAIN_DEVICE_MANAGER" xml:space="preserve">
+    <value>TWAIN-Gerätemanager</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_TWAIN_TWAIN_DEVICE_MANAGER_ALT1" xml:space="preserve">
+    <value>TWAIN-Gerätemanager</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_TWAIN_DEVICES_ARE_NOT_FOUND" xml:space="preserve">
+    <value>Geräte wurden nicht gefunden.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_TWAIN_SCAN_CANCELED" xml:space="preserve">
+    <value>Scan abgebrochen.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_TWAIN_SCAN_FAILED_ARG0" xml:space="preserve">
+    <value>Scan fehlgeschlagen: {0}</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_TWAIN_TWAIN_DEVICE_MANAGER_ALT2" xml:space="preserve">
+    <value>TWAIN-Gerätemanager</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_ABOUT" xml:space="preserve">
+    <value>Über das Programm...</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_ARG0_HAS_INVALID_FORMAT" xml:space="preserve">
+    <value>{0} hat ein ungültiges Format.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_ERROR" xml:space="preserve">
+    <value>Fehler</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_ERROR_ALT1" xml:space="preserve">
+    <value>Fehler</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_ERROR_ALT2" xml:space="preserve">
+    <value>Fehler</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_WARNING" xml:space="preserve">
+    <value>Warnung</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_INFORMATION" xml:space="preserve">
+    <value>Informationen</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_INNER_EXCEPTION_ARG0" xml:space="preserve">
+    <value>Innere Ausnahme: {0}</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_ERROR_ALT3" xml:space="preserve">
+    <value>Fehler</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_THE_PROCESSING_COMMAND_DID_NOT_RETURN_THE_RESULT" xml:space="preserve">
+    <value>Der Verarbeitungsbefehl hat das Ergebnis nicht zurückgegeben.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_RESULT_IS_ARG0" xml:space="preserve">
+    <value>Ergebnis ist {0}</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_THE_PROCESSING_COMMAND_IS_EXECUTED_SUCCESSFULLY" xml:space="preserve">
+    <value>Der Verarbeitungsbefehl wurde erfolgreich ausgeführt.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_THE_PROCESSING_COMMAND_IS_EXECUTED_SUCCESSFULLY_PROCESSED_ARG0_TARGETS" xml:space="preserve">
+    <value>Der Verarbeitungsbefehl wurde erfolgreich ausgeführt ({0} Ziel(e) verarbeitet).</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_UPLOAD_ARG0_BYTES_TO_ARG1" xml:space="preserve">
+    <value>Laden Sie {0} Bytes auf {1} hoch...</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_ERROR_ARG0" xml:space="preserve">
+    <value>Fehler: {0}</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_CANCELED" xml:space="preserve">
+    <value>Abgebrochen.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_ERROR_ARG0_ALT1" xml:space="preserve">
+    <value>Fehler: {0}</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_RESPONSE_RECEIVED_ARG0" xml:space="preserve">
+    <value>Antwort erhalten: {0}</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_CUSTOMCONTROLS_DOUBLE_CLICK_ON_THE_TEXT_BOX_FOR_CHANGING_THE_FONT" xml:space="preserve">
+    <value>Doppelklicken Sie auf das Textfeld, um die Schriftart zu ändern.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_GOTO_ACTION" xml:space="preserve">
+    <value>Gehe zu Aktion</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_LAUNCH_ACTION" xml:space="preserve">
+    <value>Aktion starten</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_JAVASCRIPT_ACTION" xml:space="preserve">
+    <value>JavaScript-Aktion</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_ANNOTATION_HIDE_ACTION" xml:space="preserve">
+    <value>Aktion zum Ausblenden von Anmerkungen</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SUBMIT_FORM_ACTION" xml:space="preserve">
+    <value>Formularaktion senden</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_RESET_FORM_ACTION" xml:space="preserve">
+    <value>Formularaktion zurücksetzen</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_NAMED_ACTION" xml:space="preserve">
+    <value>Benannte Aktion</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_UNKNOWN" xml:space="preserve">
+    <value>Unbekannt</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_PAGE03_ARG1" xml:space="preserve">
+    <value>(Seite:{0,3}) {1}</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_PAGE_ARG0" xml:space="preserve">
+    <value>Seite {0}</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_X_COORDINATE_IS_NOT_A_VALID_FLOAT_NUMBER" xml:space="preserve">
+    <value>X-Koordinate ist keine gültige Float-Zahl.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_Y_COORDINATE_IS_NOT_A_VALID_FLOAT_NUMBER" xml:space="preserve">
+    <value>Y-Koordinate ist keine gültige Gleitkommazahl.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_X_COORDINATE_IS_NOT_A_VALID_FLOAT_NUMBER_ALT1" xml:space="preserve">
+    <value>X-Koordinate ist keine gültige Float-Zahl.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_Y_COORDINATE_IS_NOT_A_VALID_FLOAT_NUMBER_ALT1" xml:space="preserve">
+    <value>Y-Koordinate ist keine gültige Gleitkommazahl.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_WIDTH_IS_NOT_A_VALID_FLOAT_NUMBER" xml:space="preserve">
+    <value>Breite ist keine gültige Gleitkommazahl.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_HEIGHT_IS_NOT_A_VALID_FLOAT_NUMBER" xml:space="preserve">
+    <value>Höhe ist keine gültige Gleitkommazahl.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_WIDTH_MUST_BE_POSITIVE" xml:space="preserve">
+    <value>Breite muss positiv sein.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_HEIGHT_MUST_BE_POSITIVE" xml:space="preserve">
+    <value>Höhe muss positiv sein.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_START_APPLICATION_ARG0" xml:space="preserve">
+    <value>Anwendung "{0}" starten?</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_EXECUTE_AN_APPLICATION" xml:space="preserve">
+    <value>Eine Anwendung ausführen</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_FORM_SUBMIT_DOCUMENT_MUST_CONNECT_TO_ARG0RN_ALLOW" xml:space="preserve">
+    <value>Formular absenden: Dokument muss mit "{0}" verbunden sein.
+ Zulassen?</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SUBMIT_ACTION" xml:space="preserve">
+    <value>Aktion senden</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_THE_INTERACTIVE_FORM_FIELDS_CAN_NOT_BE_SUBMITTED_TO_ARG0" xml:space="preserve">
+    <value>Die interaktiven Formularfelder können nicht an "{0}" übermittelt werden,</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_BECAUSE_THE_DOCUMENT_DOES_NOT_CONTAIN_THE_INTERACTIVE_FORM_FIELDS" xml:space="preserve">
+    <value>weil das Dokument keine interaktiven Formularfelder enthält</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_FIELD_ARG0_IS_REQUIRED_BUT_NOT_FILLED" xml:space="preserve">
+    <value>Feld "{0}" ist erforderlich, aber nicht ausgefüllt.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_FDF_SUBMIT_FORMAT_IS_NOT_SUPPORTED_NOW" xml:space="preserve">
+    <value>FDF-Übermittlungsformat wird derzeit nicht unterstützt.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_HTML_SUBMIT_FORMAT_IS_NOT_SUPPORTED_NOW" xml:space="preserve">
+    <value>HTML-Übermittlungsformat wird derzeit nicht unterstützt.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_OPEN_URL_ARG0" xml:space="preserve">
+    <value>URL „{0}“ öffnen?</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_OPEN_URL" xml:space="preserve">
+    <value>URL öffnen</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_ARG0_ARG1_PAGE_NUMBER_ARG2" xml:space="preserve">
+    <value>{0} ({1}): Seitenzahl {2}</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_ARG0_ARG1_DOCUMENT_PAGE_NUMBER_ARG2" xml:space="preserve">
+    <value>{0} ({1}): Dokumentseitennummer {2}</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_NAMED_ACTION_ARG0" xml:space="preserve">
+    <value>Benannte Aktion: '{0}'</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_LAUNCH_APPLICATION_ARG0" xml:space="preserve">
+    <value>Anwendung starten: '{0}'</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_OPEN_URL_ARG0_ALT1" xml:space="preserve">
+    <value>URL öffnen: '{0}'</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SUBMIT_INTERACTIVE_FORM_ARG0_ARG1" xml:space="preserve">
+    <value>Interaktives Formular senden ({0}): '{1}'</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_ARG0_ACTION_ARG1" xml:space="preserve">
+    <value>{0} Aktion ({1})</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_ACTIVATE" xml:space="preserve">
+    <value>Aktivieren</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_ERROR" xml:space="preserve">
+    <value>Fehler</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_ERROR_ALT1" xml:space="preserve">
+    <value>Fehler</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_NAME" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_COMMENT" xml:space="preserve">
+    <value>Kommentar</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_HELP" xml:space="preserve">
+    <value>Hilfe</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_INSERT" xml:space="preserve">
+    <value>Einfügen</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_OPEN_FILE_ARG0_ARG1_USING_THE_DEFAULT_APPLICATION_OR_SAVE_FILE_TO_A_DISKRN" xml:space="preserve">
+    <value>Datei "{0}" ({1}) mit der Standardanwendung öffnen oder Datei auf einem Datenträger speichern?
+</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_PRESS_YES_TO_OPEN_FILE_USING_THE_DEFAULT_APPLICATIONRN" xml:space="preserve">
+    <value>Drücken Sie "Ja", um die Datei mit der Standardanwendung zu öffnen.
+</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_PRESS_NO_TO_SAVE_FILE_TO_A_DISKRN" xml:space="preserve">
+    <value>Drücken Sie "Nein", um die Datei auf einem Datenträger zu speichern.
+</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_PRESS_CANCEL_TO_CANCEL_THIS_ACTION" xml:space="preserve">
+    <value>Drücken Sie "Abbrechen", um diese Aktion abzubrechen.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_EMBEDDED_FILE" xml:space="preserve">
+    <value>Eingebettete Datei</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_APPERANACE_GENERATOR_PROPERTIES" xml:space="preserve">
+    <value>Eigenschaften des Apperanace-Generators</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_BARCODE_VALUE" xml:space="preserve">
+    <value>Barcodewert</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_EMPTY_SIGNATRUE_FIELD" xml:space="preserve">
+    <value>Leeres Signaturfeld</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_PAGE_ARG0_ALT1" xml:space="preserve">
+    <value>Seite {0}</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_PAGE_ARG0_ALT2" xml:space="preserve">
+    <value>Seite {0}</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_ANNOTATION_COMMON_PROPERTIES" xml:space="preserve">
+    <value>Allgemeine Eigenschaften von Anmerkungen</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_ANNOTATION" xml:space="preserve">
+    <value>Anmerkung</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_FIELD_COMMON_PROPERTIES" xml:space="preserve">
+    <value>Allgemeine Feldeigenschaften</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_FIELD" xml:space="preserve">
+    <value>Feld</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_ARG0_SETS_BY_ARG1" xml:space="preserve">
+    <value>{0} setzt um {1}</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_ACTIVATE_ALT1" xml:space="preserve">
+    <value>Aktivieren</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_FORMAT" xml:space="preserve">
+    <value>Formatieren</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_VALIDATE" xml:space="preserve">
+    <value>Validieren</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_OPEN" xml:space="preserve">
+    <value>Offen</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_PRINTING" xml:space="preserve">
+    <value>Drucken</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_PRINTED" xml:space="preserve">
+    <value>Gedruckt</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SAVING" xml:space="preserve">
+    <value>Speichern</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SAVED" xml:space="preserve">
+    <value>Gespeichert</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_CLOSING" xml:space="preserve">
+    <value>Schließung</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_OPEN_ALT1" xml:space="preserve">
+    <value>Offen</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_CLOSE" xml:space="preserve">
+    <value>Schließen</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_UNEXPECTED_ACTION_TYPE" xml:space="preserve">
+    <value>Unerwarteter Aktionstyp:</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_ALL_FILES" xml:space="preserve">
+    <value>Alle Dateien (*.*)|*.*</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_ADD_FILES" xml:space="preserve">
+    <value>Dateien hinzufügen</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_ARG0_ARG1RNDISABLE_ENCODE_FILES_IMMEDIATELY_OPTION_IN_FILE_MENU" xml:space="preserve">
+    <value>{0}: {1}.
+Deaktivieren Sie die Option "Dateien sofort kodieren" im Menü "Datei".</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_ADD_PATH" xml:space="preserve">
+    <value>Pfad hinzufügen</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SAVE_SELECTED_ITEMS" xml:space="preserve">
+    <value>Ausgewählte Elemente speichern</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_ITEMS_SAVED_SUCCESSFULLY" xml:space="preserve">
+    <value>Element(e) erfolgreich gespeichert.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_ITEMS_DOES_NOT_SAVED" xml:space="preserve">
+    <value>Element(e) werden nicht gespeichert.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_DO_YOU_WANT_TO_REMOVE_SORT_INFORMATION_WHICH_SPECIFIES_THE_ORDER" xml:space="preserve">
+    <value>Möchten Sie Sortierinformationen entfernen, die die Reihenfolge angeben?</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF__IN_WHICH_ITEMS_IN_THE_ATTACHMENT_COLLECTION_SHOULD_BE_SORTED" xml:space="preserve">
+    <value> nach welchen Elementen in der Anhangssammlung sortiert werden soll</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF__IN_THE_USER_INTERFACE" xml:space="preserve">
+    <value> in der Benutzeroberfläche?</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_COLORS_ARE_NOT_SPECIFIED_DO_YOU_WANT_TO_CREATE_INFORMATION_ABOUT_COLORS" xml:space="preserve">
+    <value>Farben sind nicht angegeben. Möchten Sie Informationen über Farben erstellen?</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_PORTFOLIO_COLORS" xml:space="preserve">
+    <value>Portfoliofarben</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_DO_YOU_WANT_TO_DELETE_INFORMATION_ABOUT_PORTFOLIO_COLORS" xml:space="preserve">
+    <value>Möchten Sie Informationen zu Portfoliofarben löschen?</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_DO_YOU_WANT_TO_GENERATE_THUMBNAILS_FOR_ALL_FILES" xml:space="preserve">
+    <value>Möchten Sie Miniaturansichten für alle Dateien erstellen?</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_GENERATE_THUMBNAILS" xml:space="preserve">
+    <value>Miniaturansichten generieren</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_DO_YOU_WANT_TO_GENERATE_THUMBNAILS_FOR_SELECTED_FILES_AND_FILES_IN_ALL_SELECTED_FOLDERS" xml:space="preserve">
+    <value>Möchten Sie Miniaturansichten für ausgewählte Dateien und Dateien in allen ausgewählten Ordnern erstellen?</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_DO_YOU_WANT_TO_GENERATE_THUMBNAILS_FOR_SELECTED_FILES" xml:space="preserve">
+    <value>Möchten Sie Miniaturansichten für ausgewählte Dateien erstellen?</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_DO_YOU_WANT_TO_GENERATE_THUMBNAILS_FOR_FILES_IN_ALL_SELECTED_FOLDERS" xml:space="preserve">
+    <value>Möchten Sie Miniaturansichten für Dateien in allen ausgewählten Ordnern erstellen?</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_GENERATE_THUMBNAILS_ALT1" xml:space="preserve">
+    <value>Miniaturansichten generieren</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_OPEN_THUMBNAIL_IMAGE" xml:space="preserve">
+    <value>Miniaturbild öffnen</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SET_THUMBNAIL" xml:space="preserve">
+    <value>Miniaturansicht festlegen</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_OPEN_THUMBNAIL_IMAGE_ALT1" xml:space="preserve">
+    <value>Miniaturbild öffnen</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SET_THUMBNAIL_ALT1" xml:space="preserve">
+    <value>Miniaturansicht festlegen</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_ATTACHMENTS_DOES_NOT_HAVE_SCHEMA_DO_YOU_WANT_TO_CREATE_SCHEMA" xml:space="preserve">
+    <value>Anhänge haben kein Schema. Möchten Sie ein Schema erstellen?</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_ATTACHMENTS_SCHEMA_EDITOR" xml:space="preserve">
+    <value>Schema-Editor für Anhänge</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_FILE_ARG0_DOES_NOT_HAVE_DATA_FIELDS_DO_YOU_WANT_TO_CREATE_DATA_FIELDS" xml:space="preserve">
+    <value>Datei "{0}" enthält keine Datenfelder. Möchten Sie Datenfelder erstellen?</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_EMBEDDED_FILE_DATA_FIELDS_EDITOR" xml:space="preserve">
+    <value>Editor für eingebettete Dateidatenfelder</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_FOLDER_ARG0_DOES_NOT_HAVE_DATA_FIELDS_DO_YOU_WANT_TO_CREATE_DATA_FIELDS" xml:space="preserve">
+    <value>Ordner "{0}" enthält keine Datenfelder. Möchten Sie Datenfelder erstellen?</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_ATTACHMENT_FOLDER_DATA_FIELDS_EDITOR" xml:space="preserve">
+    <value>Editor für Datenfelder des Anhangordners</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_OPEN_FILE_ARG0_USING_THE_DEFAULT_PROGRAM_OR_SAVE_FILERNRN" xml:space="preserve">
+    <value>Datei "{0}" mit dem Standardprogramm öffnen oder Datei speichern?
+
+</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_PRESS_YES_TO_OPEN_FILE_USING_THE_DEFAULT_PROGRAMRN" xml:space="preserve">
+    <value>Drücken Sie "Ja", um die Datei mit dem Standardprogramm zu öffnen.
+</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_PRESS_NO_TO_SAVE_FILE_TO_DISK" xml:space="preserve">
+    <value>Drücken Sie "Nein", um die Datei auf der Festplatte zu speichern.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_NAME_ALT1" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_COMPRESSED_SIZE" xml:space="preserve">
+    <value>Komprimierte Größe</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_UNCOMPRESSED_SIZE" xml:space="preserve">
+    <value>Unkomprimierte Größe</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_MODIFICATION_DATE" xml:space="preserve">
+    <value>Änderungsdatum</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_CREATION_DATE" xml:space="preserve">
+    <value>Erstellungsdatum</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_FILE_NAME" xml:space="preserve">
+    <value>Dateiname</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_DESCRIPTION" xml:space="preserve">
+    <value>Beschreibung</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_COMPRESSED_SIZE_ALT1" xml:space="preserve">
+    <value>Komprimierte Größe</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_UNCOMPRESSED_SIZE_ALT1" xml:space="preserve">
+    <value>Unkomprimierte Größe</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_MODIFIED_DATE" xml:space="preserve">
+    <value>Änderungsdatum</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_ARG0_BYTES" xml:space="preserve">
+    <value>{0} Bytes</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_FILE_ARG0_ALREADY_EXISTS_OVERRIDE_IT" xml:space="preserve">
+    <value>Datei "{0}" existiert bereits, überschreiben?</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_BOOKMARKS" xml:space="preserve">
+    <value>Lesezeichen</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_PAGE_ARG0_IS_NOT_FROM_THIS_PDF_DOCUMENT_SAVE_DOCUMENT_AND_TRY_AGAIN" xml:space="preserve">
+    <value>Seite {0} stammt nicht aus diesem PDF-Dokument. Dokument speichern und erneut versuchen.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_THIS_DOCUMENT_DOES_NOT_CONTAIN_FONTS" xml:space="preserve">
+    <value>Dieses Dokument enthält keine Schriftarten.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_JAVASCRIPT_JAVASCRIPT_ACTION_NAME" xml:space="preserve">
+    <value>JavaScript-Aktionsname</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_JAVASCRIPT_ENTER_NAME_OF_JAVASCRIPT_ACTION" xml:space="preserve">
+    <value>Geben Sie den Namen der JavaScript-Aktion ein.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_JAVASCRIPT_JAVASCRIPT_ACTION_NAME_ALT1" xml:space="preserve">
+    <value>JavaScript-Aktionsname</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_JAVASCRIPT_ENTER_NAME_OF_JAVASCRIPT_ACTION_ALT1" xml:space="preserve">
+    <value>Geben Sie den Namen der JavaScript-Aktion ein.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_JAVASCRIPT_NAME_CAN_NOT_BE_EMPTY" xml:space="preserve">
+    <value>Name darf nicht leer sein.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_JAVASCRIPT_ERROR" xml:space="preserve">
+    <value>Fehler</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_JAVASCRIPT_PDF_DOCUMENT_ALREADY_CONTAINS_CTION_WITH_NAME_ARG0" xml:space="preserve">
+    <value>PDF-Dokument enthält bereits eine Funktion mit dem Namen "{0}".</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_JAVASCRIPT_ERROR_ALT1" xml:space="preserve">
+    <value>Fehler</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_OPTIONAL_CONTENT_CONFIGURATION_HAS_AUTO_STATES_TO_CHANGE_LAYERS_ORDER_AUTO_STATES_SHOULD_BE_DELETEDRN" xml:space="preserve">
+    <value>Die optionale Inhaltskonfiguration verfügt über automatische Status. Um die Reihenfolge der Ebenen zu ändern, sollten die automatischen Status gelöscht werden.
+</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_DELETE_AUTO_STATESRNPRESS_YES_TO_DELETE_AUTO_STATES" xml:space="preserve">
+    <value>Automatische Zustände löschen?
+Drücken Sie "Ja", um automatische Zustände zu löschen.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_INFO" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_NO_NAME" xml:space="preserve">
+    <value>(kein Name)</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_ONE_OR_SEVERAL_PAGES_ARE_NOT_SAVED_IN_CURRENT_PDF_DOCUMENT_SAVE_DOCUMENT_AND_TRY_AGAIN" xml:space="preserve">
+    <value>Eine oder mehrere Seiten werden nicht im aktuellen PDF-Dokument gespeichert. Dokument speichern und erneut versuchen.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_DOCUMENT_DOES_NOT_HAVE_THE_INFORMATION_DICTIONARY_DO_YOU_WANT_TO_CREATE_THE_INFORMATION_DICTIONARY" xml:space="preserve">
+    <value>Das Dokument verfügt nicht über das Informationswörterbuch. Möchten Sie das Informationswörterbuch erstellen?</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_DOCUMENT_DOES_NOT_HAVE_INFORMATION_DICTIONARY" xml:space="preserve">
+    <value>Das Dokument verfügt nicht über ein Informationswörterbuch.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_DOCUMENT_INFORMATION" xml:space="preserve">
+    <value>Dokumentinformationen</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_FORM_FIELD_ARG0_ARG1" xml:space="preserve">
+    <value>Formularfeld: {0} ({1})</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_ARG0_ANNOTATION" xml:space="preserve">
+    <value>{0} Anmerkung</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_KEY_WITH_NAME_ARG0_ALREADY_EXSISTS_IN_DICTIONARY" xml:space="preserve">
+    <value>Der Schlüssel mit dem Namen "{0}" ist bereits im Wörterbuch vorhanden.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_ADD_EMBEDDED_FILE_ARG0" xml:space="preserve">
+    <value>Eingebettete Datei "{0}" hinzufügen...</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_ARG0RNDISABLE_ENCODE_FILES_IMMEDIATELY_OPTION" xml:space="preserve">
+    <value>{0}
+Deaktivieren Sie die Option "Dateien sofort kodieren".</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_ERROR_ALT2" xml:space="preserve">
+    <value>Fehler</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_ARG0_BYTES_ALT1" xml:space="preserve">
+    <value>{0} Bytes</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_ARG0_KB" xml:space="preserve">
+    <value>{0} KB</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_ARG0_BYTES_ALT2" xml:space="preserve">
+    <value>{0} Bytes</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_ARG0_BYTES_ALT3" xml:space="preserve">
+    <value>{0} Bytes</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_ARG0_BYTES_ALT4" xml:space="preserve">
+    <value>{0} Bytes</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_PAGE_ARG0_ALT3" xml:space="preserve">
+    <value>Seite {0}</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_ARG0_INLINE" xml:space="preserve">
+    <value>{0}: Inline</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_RESOURCES_OF_ARG0" xml:space="preserve">
+    <value>Ressourcen von {0}</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_BINARY_FILES_BINBIN" xml:space="preserve">
+    <value>Binärdateien (*.bin)|*.bin</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_COMPRESSION_DEFAULT_PARAMS" xml:space="preserve">
+    <value>Standardparameter für die Komprimierung</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_ARG0_BYTES_ALT5" xml:space="preserve">
+    <value>{0} Bytes</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_REGION_IN_PAGE_CONTENT_RESOLUTION_ARG0" xml:space="preserve">
+    <value>Region im Seiteninhalt (Auflösung: {0})</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_PASSWORD_ARG0" xml:space="preserve">
+    <value>Passwort – {0}</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_PASSWORD" xml:space="preserve">
+    <value>Passwort</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_PKCS12_PFX_FILESPFX" xml:space="preserve">
+    <value>PKCS12 (PFX)-Dateien|*.pfx</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY__HAS_PRIVATE_KEY" xml:space="preserve">
+    <value> (Hat privaten Schlüssel)</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_DOCUMENT_HAS_ANNOTATION_WITH_NAME_ARG0_CHANGE_SIGNATURE_NAME" xml:space="preserve">
+    <value>Das Dokument enthält eine Anmerkung mit dem Namen "{0}". Ändern Sie den Signaturnamen.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_CERTIFICATE_IS_NOT_SELECTED_CREATE_EMPTY_SIGNATURE_FIELD" xml:space="preserve">
+    <value>Zertifikat ist nicht ausgewählt, leeres Signaturfeld erstellen?</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_CREATE_EMPTY_SIGNATURE" xml:space="preserve">
+    <value>Leere Signatur erstellen</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_DOCUMENT_HAS_ANNOTATION_WITH_NAME_ARG0" xml:space="preserve">
+    <value>Das Dokument enthält eine Anmerkung mit dem Namen "{0}".</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_CERTIFICATE_ERROR" xml:space="preserve">
+    <value>Zertifikatfehler</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_CERTIFICATE_DOES_NOT_HAVE_PRIVATE_KEY" xml:space="preserve">
+    <value>Das Zertifikat hat keinen privaten Schlüssel.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_TIMESTAMP_SERVER_SETTINGS" xml:space="preserve">
+    <value>Zeitstempel-Servereinstellungen</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_DOCUMENT_DOES_NOT_CONTAIN_DIGITAL_SIGNATURES" xml:space="preserve">
+    <value>Das Dokument enthält keine digitalen Signaturen.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_VERIFYING_SIGNATURE" xml:space="preserve">
+    <value>Signatur wird überprüft...</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_ARG0_PAGES_MODIFIED" xml:space="preserve">
+    <value>{0} Seite(n) geändert;</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_ARG0_PAGES_ADDED" xml:space="preserve">
+    <value>{0} Seite(n) hinzugefügt;</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_ARG0_PAGES_REMOVED" xml:space="preserve">
+    <value>{0} Seite(n) entfernt;</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_ANNOTATIONSS_ON_ARG0_PAGES_REMOVED" xml:space="preserve">
+    <value>Anmerkungen auf {0} Seite(n) entfernt;</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_REMOVED_ANNOTATIONS_ON_ARG0_PAGES" xml:space="preserve">
+    <value>Anmerkung(en) auf {0} Seite(n) entfernt;</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_ADDED_ANNOTATIONS_ON_ARG0_PAGES" xml:space="preserve">
+    <value>Anmerkung(en) auf {0} Seite(n) hinzugefügt;</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_CHANGED_ANNOTATIONS_ON_ARG0_PAGES" xml:space="preserve">
+    <value>geänderte Anmerkung(en) auf {0} Seite(n);</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_MISCELLANEOUS_CHANGES_ARG0" xml:space="preserve">
+    <value>verschiedene Änderungen: {0};</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_ERROR_ARG0" xml:space="preserve">
+    <value>Fehler: {0}</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_SIGNATURE_IS_INVALID" xml:space="preserve">
+    <value>Signatur ist ungültig</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_SIGNATURE_VALIDITY_IS_UNKNOWN" xml:space="preserve">
+    <value>Die Gültigkeit der Signatur ist unbekannt</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_SIGNATURE_IS_VALID" xml:space="preserve">
+    <value>Signatur ist gültig</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_SIGNATURE_VERIFICATION_DOCUMENT_HAS_NOT_BEEN_MODIFIED_SINCE_THIS_SIGNATURE_WAS_APPLIED" xml:space="preserve">
+    <value>Signaturüberprüfung: Das Dokument wurde seit der Anwendung dieser Signatur nicht geändert</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_SIGNATURE_VERIFICATION_DOCUMENT_HAS_BEEN_MODIFIED_OR_CORRUPTED_SINCE_IT_WAS_SIGNED" xml:space="preserve">
+    <value>Signaturüberprüfung: Das Dokument wurde seit der Signatur geändert oder beschädigt</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_SUBSEQUENT_CHANGES_ARG0" xml:space="preserve">
+    <value>Nachträgliche Änderungen: {0}</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_SIGNATURE_VERIFICATION_THE_REVISION_OF_THE_DOCUMENT_THAT_WAS_COVERED_BY_THIS_SIGNATURE_HAS_NOT_BEEN_ALTERED_HOWEVER_THERE_HAVE_BEEN_SUBSEQUENT_CHANGES_TO_THE_DOCUMENT" xml:space="preserve">
+    <value>Signaturüberprüfung: Die Revision des Dokuments, das von dieser Signatur abgedeckt wurde, wurde nicht geändert; Es gab jedoch spätere Änderungen am Dokument</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_SUBSEQUENT_CHANGES_ARG0_ALT1" xml:space="preserve">
+    <value>Nachträgliche Änderungen: {0}</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_SIGNATURE_VERIFICATION_DOCUMENT_HAS_NOT_BEEN_MODIFIED_SINCE_THIS_SIGNATURE_WAS_APPLIED_ALT1" xml:space="preserve">
+    <value>Signaturüberprüfung: Das Dokument wurde seit der Anwendung dieser Signatur nicht geändert</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_SIGNATURE_VERIFICATION_DOCUMENT_HAS_BEEN_MODIFIED_OR_CORRUPTED_SINCE_IT_WAS_SIGNED_ALT1" xml:space="preserve">
+    <value>Signaturüberprüfung: Das Dokument wurde seit der Signatur geändert oder beschädigt</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_TIMESTAMP_VERIFICATION_TIMESTAMP_IS_VALID" xml:space="preserve">
+    <value>Zeitstempelüberprüfung: Zeitstempel ist gültig</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_TIMESTAMP_VERIFICATION_TIMESTAMP_IS_CORRUPTED" xml:space="preserve">
+    <value>Zeitstempelüberprüfung: Der Zeitstempel ist beschädigt</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_CERTIFICATE_VERIFICATION_SIGNERS_CERTIFICATE_IS_VALID" xml:space="preserve">
+    <value>Zertifikatüberprüfung: Das Zertifikat des Unterzeichners ist gültig</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_CERTIFICATE_VERIFICATION_SIGNERS_CERTIFICATE_IS_INVALID" xml:space="preserve">
+    <value>Zertifikatüberprüfung: Das Zertifikat des Unterzeichners ist ungültig</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_TIMESTAMP_CERTIFICATE_VERIFICATION_CERTIFICATE_IS_VALID" xml:space="preserve">
+    <value>Zeitstempel-Zertifikatüberprüfung: Zertifikat ist gültig</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_TIMESTAMP_CERTIFICATE_VERIFICATION_CERTIFICATE_IS_INVALID" xml:space="preserve">
+    <value>Zeitstempel-Zertifikatüberprüfung: Zertifikat ist ungültig</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_PDF_DOCUMENTS_PDFPDF" xml:space="preserve">
+    <value>PDF-Dokumente (*.pdf)|*.pdf</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_SAVE_DOCUMENT_RESIVION_ARG0_AS" xml:space="preserve">
+    <value>Dokumentresivion {0} speichern unter...</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_SAVE_DOCUMENT_RESIVION_AS" xml:space="preserve">
+    <value>Dokumentresition speichern unter...</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_UNSIGNED_SIGNATURE_FIELD" xml:space="preserve">
+    <value>Unsigniertes Signaturfeld</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_NOT_SUPPORTED_OR_CORRUPTED_SIGNATURE_ARG0" xml:space="preserve">
+    <value>Nicht unterstützte oder beschädigte Signatur: {0}</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_SIGNATURE_IS_NOT_VERIFIED" xml:space="preserve">
+    <value>Signatur wurde nicht überprüft</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_SIGNING_IS_NOT_IMPLEMENTED" xml:space="preserve">
+    <value>Signierung ist nicht implementiert</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_SIGNATURE_DETAILS" xml:space="preserve">
+    <value>Signaturdetails</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_SIGNATURE_IS_A_DOCUMENT_TIMESTAMP_SIGNATURE" xml:space="preserve">
+    <value>Signatur ist eine Zeitstempelsignatur des Dokuments</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_SIGNATURE_INCLUDES_AN_EMBEDED_TIMESTAMP" xml:space="preserve">
+    <value>Signatur enthält einen eingebetteten Zeitstempel</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_TIMESTAMP_CERTIFICATE_ARG0" xml:space="preserve">
+    <value>Zeitstempelzertifikat: {0}</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_TIMESTAMP_CERTIFICATE_DETAILS" xml:space="preserve">
+    <value>Zeitstempel-Zertifikatsdetails...</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_TIMESTAMP_CERTIFICATE_CHAIN" xml:space="preserve">
+    <value>Zeitstempel-Zertifikatskette</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_TIMESTAMP_DATE_ARG0" xml:space="preserve">
+    <value>Zeitstempeldatum: {0}</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_CERTIFICATE_DETAILS" xml:space="preserve">
+    <value>Zertifikatdetails...</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_SIGNATURE_ALGORITHM_ARG0" xml:space="preserve">
+    <value>Signaturalgorithmus: {0}</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_CERTIFICATE_CHAIN" xml:space="preserve">
+    <value>Zertifikatskette</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_FILTER_ARG0_ARG1" xml:space="preserve">
+    <value>Filter: {0} ({1})</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_NAME_OF_SIGNER_ARG0" xml:space="preserve">
+    <value>Name des Unterzeichners: {0}</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_REASON_ARG0" xml:space="preserve">
+    <value>Grund: {0}</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_CONTACT_INFO_ARG0" xml:space="preserve">
+    <value>Kontaktinformationen: {0}</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_LOCATION_ARG0" xml:space="preserve">
+    <value>Standort: {0}</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_SIGNING_TIME_ARG0" xml:space="preserve">
+    <value>Signaturzeit: {0}</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_APPLICATION_ARG0" xml:space="preserve">
+    <value>Anwendung: {0}</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_PAGE_ARG0" xml:space="preserve">
+    <value>Seite: {0}</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_PAGE_ARG0_ARG1" xml:space="preserve">
+    <value>Seite {0}: {1}</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_EMPTY_SIGNATURE_FIELD" xml:space="preserve">
+    <value>Leeres Signaturfeld</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_DIGITALLY_SIGNED_BY_ARG0" xml:space="preserve">
+    <value>Digital signiert von {0}</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_REASON_ARG0_ALT1" xml:space="preserve">
+    <value>Grund: {0}</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_LOCATION_ARG0_ALT1" xml:space="preserve">
+    <value>Standort: {0}</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_CONTACT_ARG0" xml:space="preserve">
+    <value>Kontakt: {0}</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_SIGNING_DATERNARG0" xml:space="preserve">
+    <value>Unterzeichnungsdatum:
+{0}</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_PASSWORD_ARG0_ALT1" xml:space="preserve">
+    <value>Passwort – {0}</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_PASSWORD_ALT1" xml:space="preserve">
+    <value>Passwort</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_THE_ARG0_PASSWORD_IS_INCORRECT" xml:space="preserve">
+    <value>Das {0}-Passwort ist falsch.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_ERROR" xml:space="preserve">
+    <value>Fehler</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_AUTHORIZATION_RESULT_ARG0" xml:space="preserve">
+    <value>Autorisierungsergebnis: {0}</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_AUTHORIZATION_RESULT" xml:space="preserve">
+    <value>Autorisierungsergebnis</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_YES" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_YES_ALT1" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY__LOW_RESOLUTION" xml:space="preserve">
+    <value> (Niedrige Auflösung)</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY__HIGH_RESOLUTION" xml:space="preserve">
+    <value> (Hohe Auflösung)</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_NO_ENCRYPTION" xml:space="preserve">
+    <value>Keine Verschlüsselung</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_DONT_CHANGE_NO_SECURITY" xml:space="preserve">
+    <value>Nicht ändern (keine Sicherheit)</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_DONT_CHANGE_ARG0" xml:space="preserve">
+    <value>Nicht ändern ({0})</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_PLEASE_ENTER_THE_OWNER_ANDOR_USER_PASSWORD" xml:space="preserve">
+    <value>Bitte geben Sie das Besitzer- und/oder Benutzerpasswort ein!</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_40BIT_RC4_PDF_11" xml:space="preserve">
+    <value>40-Bit RC4 (PDF 1.1)</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_128BIT_RC4_PDF_14" xml:space="preserve">
+    <value>128-Bit RC4 (PDF 1.4)</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_128BIT_AES_PDF_16" xml:space="preserve">
+    <value>128-Bit-AES (PDF 1.6)</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_256BIT_AES_PDF_17" xml:space="preserve">
+    <value>256-Bit-AES (PDF 1.7)</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SECURITY_256BIT_AES_PDF_20" xml:space="preserve">
+    <value>256-Bit-AES (PDF 2.0)</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_TEXT_FONT_IS_NOT_SPECIFIED" xml:space="preserve">
+    <value>Textschriftart ist nicht angegeben.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_CONTENT_ARG0" xml:space="preserve">
+    <value>Inhalt ({0})</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_TEXT_CONTENT_GROUP" xml:space="preserve">
+    <value>Textinhaltsgruppe</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_CONTENT_GROUP_ARG0" xml:space="preserve">
+    <value>Inhaltsgruppe ({0})</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SET_PROPERTIES_OF_PEN" xml:space="preserve">
+    <value>Eigenschaften des Stifts festlegen</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SET_PROPERTIES_OF_BRUSH" xml:space="preserve">
+    <value>Eigenschaften des Pinsels festlegen</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_SET_PROPERTIES_OF_TEXTBOXFIGURE" xml:space="preserve">
+    <value>Eigenschaften von TextBoxFigure festlegen</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_VINTASOFTIMAGEFIGURE_PROPERTIES" xml:space="preserve">
+    <value>VintasoftImageFigure-Eigenschaften</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_UNDO_CTRLZ_ARG0" xml:space="preserve">
+    <value>Rückgängig machen (Strg+Z): {0}</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_UNDO" xml:space="preserve">
+    <value>Rückgängig</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_REDO_CTRLY_ARG0" xml:space="preserve">
+    <value>Wiederholen (Strg+Y): {0}</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_REDO" xml:space="preserve">
+    <value>Wiederholen</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_RESOURCE_03" xml:space="preserve">
+    <value>Ressource {0,3},</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_ARG0_BYTES_ALT6" xml:space="preserve">
+    <value>{0} Bytes</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_REMOVE_CONTENT_AND_BLACKOUT" xml:space="preserve">
+    <value>Inhalt entfernen und sperren</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_1_SELECT_THE_AREA_ON_PAGE" xml:space="preserve">
+    <value>1. Wählen Sie den Bereich auf der Seite aus.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_2_PRESS_APPLY_REDACTION_MARKS_WHEN_THE_REDACTION_MARKS_MUST_BE_APPLIED_TO_THE_PAGE" xml:space="preserve">
+    <value>2. Klicken Sie auf "Schwärzungsmarkierungen anwenden", wenn die Schwärzungsmarkierungen auf die Seite angewendet werden müssen.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_INFORMATION" xml:space="preserve">
+    <value>Informationen</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_IMAGE_IS_NOT_PDF_PAGE" xml:space="preserve">
+    <value>Bild ist keine PDF-Seite.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_CURRENT_IMAGE_IS_NOT_PDF_PAGE_SAVE_DOCUMENT_AND_TRY_AGAIN" xml:space="preserve">
+    <value>Das aktuelle Bild ist keine PDF-Seite. Dokument speichern und erneut versuchen.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_INFORMATION_ALT1" xml:space="preserve">
+    <value>Informationen</value>
+  </data>
+  <data name="PDFEDITORDEMO_PRINT" xml:space="preserve">
+    <value>Drucken</value>
+  </data>
+  <data name="PDFEDITORDEMO_SAVEAS" xml:space="preserve">
+    <value>Speichern unter</value>
+  </data>
+  <data name="PDFEDITORDEMO_TEXT_SELECTION_COMMENTATION_FILL_FORMS" xml:space="preserve">
+    <value>Textauswahl / Kommentar / Formulare ausfüllen</value>
+  </data>
+  <data name="PDFEDITORDEMO_TEXT_SELECTION_NAVIGATION_COMMENTATION_FILL_FORMS" xml:space="preserve">
+    <value>Textauswahl, Navigation, Kommentar, Formulare ausfüllen</value>
+  </data>
+  <data name="PDFEDITORDEMO_TEXT_SELECTION" xml:space="preserve">
+    <value>Textauswahl</value>
+  </data>
+  <data name="PDFEDITORDEMO_TEXT_SELECTION_ALT1" xml:space="preserve">
+    <value>Textauswahl</value>
+  </data>
+  <data name="PDFEDITORDEMO_EDIT_ANNOTATIONS" xml:space="preserve">
+    <value>Anmerkungen bearbeiten</value>
+  </data>
+  <data name="PDFEDITORDEMO_EDIT_ANNOTATIONS_ALT1" xml:space="preserve">
+    <value>Anmerkungen bearbeiten</value>
+  </data>
+  <data name="PDFEDITORDEMO_EDIT_FORM_FIELDS" xml:space="preserve">
+    <value>Formularfelder bearbeiten</value>
+  </data>
+  <data name="PDFEDITORDEMO_EDIT_INTERCTIVE_FORM_FIELDS" xml:space="preserve">
+    <value>Interktive Formularfelder bearbeiten</value>
+  </data>
+  <data name="PDFEDITORDEMO_INTERACTIVE_FORMS_ANNOTATIONS" xml:space="preserve">
+    <value>Interaktive Formulare / Anmerkungen</value>
+  </data>
+  <data name="PDFEDITORDEMO_EDIT_INTERACTIVE_FORMS_AND_ANNOTATIONS" xml:space="preserve">
+    <value>Interaktive Formulare und Anmerkungen bearbeiten</value>
+  </data>
+  <data name="PDFEDITORDEMO_CONTENT_EDITOR" xml:space="preserve">
+    <value>Inhaltseditor</value>
+  </data>
+  <data name="PDFEDITORDEMO_EDIT_PAGE_CONTENT" xml:space="preserve">
+    <value>Seiteninhalt bearbeiten</value>
+  </data>
+  <data name="PDFEDITORDEMO_REMOVE_CONTENT" xml:space="preserve">
+    <value>Inhalt entfernen</value>
+  </data>
+  <data name="PDFEDITORDEMO_REMOVE_CONTENT_BLACK_OUT" xml:space="preserve">
+    <value>Inhalt entfernen und schwärzen</value>
+  </data>
+  <data name="PDFEDITORDEMO_CROP_SELECTION" xml:space="preserve">
+    <value>Auswahl zuschneiden</value>
+  </data>
+  <data name="PDFEDITORDEMO_CROP_SELECTION_ALT1" xml:space="preserve">
+    <value>Auswahl zuschneiden</value>
+  </data>
+  <data name="PDFEDITORDEMO_HIGHLIGHT_TEXT" xml:space="preserve">
+    <value>Text hervorheben</value>
+  </data>
+  <data name="PDFEDITORDEMO_MARKUP_TEXT_USING_HIGHLIGHT_TEXT_MARKUP_ANNOTATION" xml:space="preserve">
+    <value>Markieren Sie Text mithilfe der Markup-Anmerkung "Text hervorheben".</value>
+  </data>
+  <data name="PDFEDITORDEMO_STRIKEOUT_TEXT" xml:space="preserve">
+    <value>Text durchgestrichen</value>
+  </data>
+  <data name="PDFEDITORDEMO_MARKUP_TEXT_USING_STRIKEOUT_TEXT_MARKUP_ANNOTATION" xml:space="preserve">
+    <value>Markieren Sie Text mit der Textmarkierungsanmerkung "Strikeout".</value>
+  </data>
+  <data name="PDFEDITORDEMO_UNDERLINE_TEXT" xml:space="preserve">
+    <value>Text unterstreichen</value>
+  </data>
+  <data name="PDFEDITORDEMO_MARKUP_TEXT_USING_UNDERLINE_TEXT_MARKUP_ANNOTATION" xml:space="preserve">
+    <value>Markieren Sie Text mit der Markierungsanmerkung "Text unterstreichen".</value>
+  </data>
+  <data name="PDFEDITORDEMO_SQUIGGLY_UNDERLINE_TEXT" xml:space="preserve">
+    <value>Schnörkelloser unterstrichener Text</value>
+  </data>
+  <data name="PDFEDITORDEMO_MARKUP_TEXT_USING_SQUIGGLY_UNDERLINE_TEXT_MARKUP_ANNOTATION" xml:space="preserve">
+    <value>Markieren Sie Text mit der Squiggly-Markup-Anmerkung für Unterstreichungstext</value>
+  </data>
+  <data name="PDFEDITORDEMO_INSERT_TEXT_CARET_ANNOTATION" xml:space="preserve">
+    <value>Text-Caret-Anmerkung einfügen</value>
+  </data>
+  <data name="PDFEDITORDEMO_INSERT_TEXT_CARET_ANNOTATION_UNDER_CURSOR_POSITION" xml:space="preserve">
+    <value>Text-Caret-Anmerkung unter der Cursorposition einfügen</value>
+  </data>
+  <data name="PDFEDITORDEMO__SECURED" xml:space="preserve">
+    <value> (GESICHERT)</value>
+  </data>
+  <data name="PDFEDITORDEMO_BAD_IMAGE" xml:space="preserve">
+    <value>Schlechtes Bild!</value>
+  </data>
+  <data name="PDFEDITORDEMO_RESOLUTION_ARG0_DPI_SIZE_ARG1XARG2_PX" xml:space="preserve">
+    <value>Auflösung: {0} DPI; Größe: {1}x{2} px</value>
+  </data>
+  <data name="PDFEDITORDEMO_LOADING_ERROR_ARG0_ARG1" xml:space="preserve">
+    <value>[Ladefehler: {0}] {1}</value>
+  </data>
+  <data name="PDFEDITORDEMO_SAVE_PORTFOLIO_AS" xml:space="preserve">
+    <value>Portfolio speichern unter</value>
+  </data>
+  <data name="PDFEDITORDEMO_SELECT_ROOT_PATH_FROM_WHICH_FILES_AND_FOLDERS_WILL_BE_IMPORTED_TO_PORTFOLIO" xml:space="preserve">
+    <value>Wählen Sie den Stammpfad aus, aus dem Dateien und Ordner in Portfolio importiert werden.</value>
+  </data>
+  <data name="PDFEDITORDEMO_THIS_DOCUMENT_IS_PORTFOLIORNATTACHMENT_COLLECTIONRNTO_VIEW_PORTFOLIO_YOU_SHOULD_USE_PDF_VIEWER_COMPATIBLE_WITH_PDF_17_EXTENSIONLEVEL_3" xml:space="preserve">
+    <value>Dieses Dokument ist Portfolio
+(Anhangssammlung)
+Um das Portfolio anzuzeigen, sollten Sie einen PDF-Viewer verwenden, der mit PDF 1.7 ExtensionLevel 3 kompatibel ist.</value>
+  </data>
+  <data name="PDFEDITORDEMO_ADD_FILES_TO_PORTFOLIO" xml:space="preserve">
+    <value>Dateien zum Portfolio hinzufügen</value>
+  </data>
+  <data name="PDFEDITORDEMO_ADD_PAGES" xml:space="preserve">
+    <value>Seiten hinzufügen</value>
+  </data>
+  <data name="PDFEDITORDEMO_ADD_SEARCHABLE_PDF_PAGES" xml:space="preserve">
+    <value>Durchsuchbare PDF-Seiten hinzufügen</value>
+  </data>
+  <data name="PDFEDITORDEMO_CURRENT_DOCUMENT_WILL_BE_SAVED_AUTOMATICALLY_CONTINUE" xml:space="preserve">
+    <value>Das aktuelle Dokument wird automatisch gespeichert. Weitermachen?</value>
+  </data>
+  <data name="PDFEDITORDEMO_ADD_PDF_DOCUMENT" xml:space="preserve">
+    <value>PDF-Dokument hinzufügen</value>
+  </data>
+  <data name="PDFEDITORDEMO_TIFF_FILESTIF" xml:space="preserve">
+    <value>TIFF-Dateien|*.tif</value>
+  </data>
+  <data name="PDFEDITORDEMO_CONVERT_TO_TIFF" xml:space="preserve">
+    <value>In TIFF konvertieren</value>
+  </data>
+  <data name="PDFEDITORDEMO_SVG_FILESSVG" xml:space="preserve">
+    <value>SVG-Dateien|*.svg</value>
+  </data>
+  <data name="PDFEDITORDEMO_CONVERT_TO_SVG" xml:space="preserve">
+    <value>In SVG konvertieren</value>
+  </data>
+  <data name="PDFEDITORDEMO_CUT" xml:space="preserve">
+    <value>Ausschneiden</value>
+  </data>
+  <data name="PDFEDITORDEMO_COPY" xml:space="preserve">
+    <value>Kopieren</value>
+  </data>
+  <data name="PDFEDITORDEMO_PASTE" xml:space="preserve">
+    <value>Einfügen</value>
+  </data>
+  <data name="PDFEDITORDEMO_DELETE_PAGES" xml:space="preserve">
+    <value>Seite(n) löschen</value>
+  </data>
+  <data name="PDFEDITORDEMO_SELECT_ALL_PAGES" xml:space="preserve">
+    <value>Alle Seiten auswählen</value>
+  </data>
+  <data name="PDFEDITORDEMO_DESELECT_ALL" xml:space="preserve">
+    <value>Alle abwählen</value>
+  </data>
+  <data name="PDFEDITORDEMO_CUT_ALT1" xml:space="preserve">
+    <value>Ausschneiden</value>
+  </data>
+  <data name="PDFEDITORDEMO_COPY_ALT1" xml:space="preserve">
+    <value>Kopieren</value>
+  </data>
+  <data name="PDFEDITORDEMO_PASTE_ALT1" xml:space="preserve">
+    <value>Einfügen</value>
+  </data>
+  <data name="PDFEDITORDEMO_DELETE" xml:space="preserve">
+    <value>Löschen</value>
+  </data>
+  <data name="PDFEDITORDEMO_SELECT_ALL" xml:space="preserve">
+    <value>Alles auswählen</value>
+  </data>
+  <data name="PDFEDITORDEMO_DESELECT_ALL_ALT1" xml:space="preserve">
+    <value>Alle abwählen</value>
+  </data>
+  <data name="PDFEDITORDEMO_REOPEN_THE_DOCUMENT_FOR_USING_NEW_FONT_NAMES" xml:space="preserve">
+    <value>Öffnen Sie das Dokument erneut, um neue Schriftartnamen zu verwenden.</value>
+  </data>
+  <data name="PDFEDITORDEMO_DOCUMENT_DOES_NOT_HAVE_DEVELOPER_EXTENSIONS" xml:space="preserve">
+    <value>Das Dokument verfügt über keine Entwicklererweiterungen.</value>
+  </data>
+  <data name="PDFEDITORDEMO_DOCUMENT_HAS_ARG0_DEVELOPER_EXTENSIONSRNRNARG1" xml:space="preserve">
+    <value>Dokument hat {0} Entwicklererweiterung(en):
+
+{1}</value>
+  </data>
+  <data name="PDFEDITORDEMO_DEVELOPER_EXTENSIONS" xml:space="preserve">
+    <value>Entwicklererweiterungen</value>
+  </data>
+  <data name="PDFEDITORDEMO_OVERPRINT_CONTROL_IS_USED" xml:space="preserve">
+    <value>Überdruckkontrolle wird verwendet</value>
+  </data>
+  <data name="PDFEDITORDEMO_DOCUMENT_FONTS_PROCESSING" xml:space="preserve">
+    <value>Verarbeitung von Dokumentschriftarten</value>
+  </data>
+  <data name="PDFEDITORDEMO_DATA_RESOURCES_DECOMPRESSOR" xml:space="preserve">
+    <value>Dekomprimierer für Datenressourcen</value>
+  </data>
+  <data name="PDFEDITORDEMO_DATA_RESOURCES_COMPRESSOR" xml:space="preserve">
+    <value>Datenressourcenkompressor</value>
+  </data>
+  <data name="PDFEDITORDEMO_REMOVE_TRANSPARENCY_FROM_DOCUMENT" xml:space="preserve">
+    <value>Transparenz aus Dokument entfernen</value>
+  </data>
+  <data name="PDFEDITORDEMO_XFDF_FILESXFDF" xml:space="preserve">
+    <value>XFDF-Dateien|*.xfdf</value>
+  </data>
+  <data name="PDFEDITORDEMO_XFDF_FILESXFDF_ALT1" xml:space="preserve">
+    <value>XFDF-Dateien|*.xfdf</value>
+  </data>
+  <data name="PDFEDITORDEMO_PDF_DOCUMENT_VERSION_13_OR_GREATER_IS_REQUIRED" xml:space="preserve">
+    <value>PDF-Dokumentversion 1.3 oder höher ist erforderlich.</value>
+  </data>
+  <data name="PDFEDITORDEMO_USE_MOUSE_FOR_DRAWING_THE_AREA_LEFT_CLICK_AND_DRAG_MOUSE_CURSOR_WHERE_SIGNATURE_MUST_APPEAR" xml:space="preserve">
+    <value>Zeichnen Sie mit der Maus den Bereich (Linksklick und ziehen Sie den Mauszeiger), in dem die Signatur erscheinen soll.</value>
+  </data>
+  <data name="PDFEDITORDEMO_SIGN_DOCUMENT" xml:space="preserve">
+    <value>Dokument unterschreiben</value>
+  </data>
+  <data name="PDFEDITORDEMO_DOCUMENT_DOES_NOT_HAVE_EMPTY_SIGNATURE_FIELDS" xml:space="preserve">
+    <value>Das Dokument enthält keine leeren Signaturfelder.</value>
+  </data>
+  <data name="PDFEDITORDEMO_USE_MOUSE_FOR_DRAWING_THE_AREA_LEFT_CLICK_AND_DRAG_MOUSE_CURSOR_WHERE_SIGNATURE_MUST_APPEAR_ALT1" xml:space="preserve">
+    <value>Zeichnen Sie mit der Maus den Bereich (Linksklick und ziehen Sie den Mauszeiger), in dem die Signatur erscheinen soll.</value>
+  </data>
+  <data name="PDFEDITORDEMO_SIGN_DOCUMENT_ALT1" xml:space="preserve">
+    <value>Dokument unterschreiben</value>
+  </data>
+  <data name="PDFEDITORDEMO_DOCUMENT_DOES_NOT_HAVE_SIGNED_SIGNATURE_FIELDS" xml:space="preserve">
+    <value>Das Dokument verfügt NICHT über signierte Signaturfelder.</value>
+  </data>
+  <data name="PDFEDITORDEMO_DO_YOU_WANT_TO_CLEAR_ALL_SIGNATURES_OF_PDF_DOCUMENT" xml:space="preserve">
+    <value>Möchten Sie alle Signaturen des PDF-Dokuments löschen?</value>
+  </data>
+  <data name="PDFEDITORDEMO_CLEAR_ALL_SIGNATURES" xml:space="preserve">
+    <value>Alle Signaturen löschen</value>
+  </data>
+  <data name="PDFEDITORDEMO_DOCUMENT_DOES_NOT_HAVE_SIGNATURE_FIELDS" xml:space="preserve">
+    <value>Das Dokument hat keine Signaturfelder.</value>
+  </data>
+  <data name="PDFEDITORDEMO_DOCUMENT_DOES_NOT_HAVE_SIGNATURE_FIELDS_ALT1" xml:space="preserve">
+    <value>Das Dokument hat keine Signaturfelder.</value>
+  </data>
+  <data name="PDFEDITORDEMO_PDF_DOCUMENT_DOES_NOT_HAVE_DIGITAL_SIGNATURES" xml:space="preserve">
+    <value>PDF-Dokument hat KEINE digitalen Signaturen.</value>
+  </data>
+  <data name="PDFEDITORDEMO_DO_YOU_WANT_TO_REMOVE_ALL_SIGNATURES_FROM_PDF_DOCUMENT" xml:space="preserve">
+    <value>Möchten Sie alle Signaturen aus dem PDF-Dokument entfernen?</value>
+  </data>
+  <data name="PDFEDITORDEMO_REMOVE_ALL_SIGNATURES" xml:space="preserve">
+    <value>Alle Signaturen entfernen</value>
+  </data>
+  <data name="PDFEDITORDEMO_ARG0_SIGNATURES_ARE_REMOVED" xml:space="preserve">
+    <value>{0} Signaturen wurden entfernt.</value>
+  </data>
+  <data name="PDFEDITORDEMO_REMOVE_THUMBNAILS" xml:space="preserve">
+    <value>Miniaturansichten entfernen</value>
+  </data>
+  <data name="PDFEDITORDEMO_GENERATE_THUMBNAILS" xml:space="preserve">
+    <value>Miniaturansichten generieren</value>
+  </data>
+  <data name="PDFEDITORDEMO_THIS_PDF_DOCUMENT_DOES_NOT_CONTAIN_THUMBNAILS" xml:space="preserve">
+    <value>Dieses PDF-Dokument enthält keine Miniaturansichten.</value>
+  </data>
+  <data name="PDFEDITORDEMO_INFORMATION" xml:space="preserve">
+    <value>Informationen</value>
+  </data>
+  <data name="PDFEDITORDEMO_DOCUMENT_DOES_NOT_HAVE_VIEWER_PREFERENCES_DO_YOU_WANT_TO_CREATE_VIEWER_PREFERENCES_PROPERTIES" xml:space="preserve">
+    <value>Das Dokument verfügt nicht über Viewer-Einstellungen. Möchten Sie Eigenschaften für Viewer-Einstellungen erstellen?</value>
+  </data>
+  <data name="PDFEDITORDEMO_CREATE_VIEWER_PREFERENCES" xml:space="preserve">
+    <value>Viewer-Einstellungen erstellen?</value>
+  </data>
+  <data name="PDFEDITORDEMO_VIEWER_PREFERENCES" xml:space="preserve">
+    <value>Betrachtereinstellungen</value>
+  </data>
+  <data name="PDFEDITORDEMO_DOCUMENT_DOES_NOT_HAVE_ATTACHMENTS_DO_YOU_WANT_TO_CREATE_ATTACHMENTS" xml:space="preserve">
+    <value>Das Dokument hat keine Anhänge. Möchten Sie Anhänge erstellen?</value>
+  </data>
+  <data name="PDFEDITORDEMO_DO_YOU_WANT_TO_REMOVE_ALL_ATTACHMENTS" xml:space="preserve">
+    <value>Möchten Sie alle Anhänge entfernen?</value>
+  </data>
+  <data name="PDFEDITORDEMO_COLLECT_RESOURCES" xml:space="preserve">
+    <value>Ressourcen sammeln</value>
+  </data>
+  <data name="PDFEDITORDEMO_THIS_PDF_DOCUMENT_DOES_NOT_CONTAIN_IMAGE_RESOURCES" xml:space="preserve">
+    <value>Dieses PDF-Dokument enthält keine Bildressourcen.</value>
+  </data>
+  <data name="PDFEDITORDEMO_INFORMATION_ALT1" xml:space="preserve">
+    <value>Informationen</value>
+  </data>
+  <data name="PDFEDITORDEMO_RESOURCES_WILL_BE_REMOVED_FROM_PDF_DOCUMENT_ONLY_AFTER_PACKING_OF_PDF_DOCUMENT" xml:space="preserve">
+    <value>Ressourcen werden erst nach dem Packen des PDF-Dokuments aus dem PDF-Dokument entfernt.</value>
+  </data>
+  <data name="PDFEDITORDEMO_DO_YOU_WANT_TO_PACK_PDF_DOCUMENT_RIGHT_NOW" xml:space="preserve">
+    <value>Möchten Sie das PDF-Dokument jetzt packen?</value>
+  </data>
+  <data name="PDFEDITORDEMO_CLICK_YES_IF_YOU_WANT_TO_PACK_PDF_DOCUMENT_RIGHT_NOW" xml:space="preserve">
+    <value>Klicken Sie auf "Ja", wenn Sie das PDF-Dokument jetzt packen möchten.</value>
+  </data>
+  <data name="PDFEDITORDEMO_CLICK_NO_IF_YOU_WILL_PACK_PDF_DOCUMENT_LATER_FILE_PACK_MENU_AND_NOW_YOU_WANT_TO_WORK_WITH_UNPACKED_PDF_DOCUMENT" xml:space="preserve">
+    <value>Klicken Sie auf "Nein", wenn Sie das PDF-Dokument später packen möchten (Menü "Datei -&gt; Packen") und nun mit dem entpackten PDF-Dokument arbeiten möchten.</value>
+  </data>
+  <data name="PDFEDITORDEMO_PACK_DOCUMENT" xml:space="preserve">
+    <value>Dokument packen?</value>
+  </data>
+  <data name="PDFEDITORDEMO_THIS_PDF_DOCUMENT_DOES_NOT_HAVE_UNUSED_RESOURCES" xml:space="preserve">
+    <value>Dieses PDF-Dokument verfügt über keine ungenutzten Ressourcen.</value>
+  </data>
+  <data name="PDFEDITORDEMO_INFORMATION_ALT2" xml:space="preserve">
+    <value>Informationen</value>
+  </data>
+  <data name="PDFEDITORDEMO_THIS_DOCUMENT_DOES_NOT_CONTAIN_FONTS" xml:space="preserve">
+    <value>Dieses Dokument enthält keine Schriftarten.</value>
+  </data>
+  <data name="PDFEDITORDEMO_INFORMATION_ALT3" xml:space="preserve">
+    <value>Informationen</value>
+  </data>
+  <data name="PDFEDITORDEMO_DO_YOU_WANT_TO_EMBED_ALL_EXTERNAL_FONTS_OF_THE_DOCUMENT" xml:space="preserve">
+    <value>Möchten Sie alle externen Schriftarten des Dokuments einbetten?</value>
+  </data>
+  <data name="PDFEDITORDEMO_WARNING" xml:space="preserve">
+    <value>Warnung</value>
+  </data>
+  <data name="PDFEDITORDEMO_EMBED_FONTS" xml:space="preserve">
+    <value>Schriftarten einbetten</value>
+  </data>
+  <data name="PDFEDITORDEMO_DO_YOU_WANT_TO_SUBSET_ALL_FONTS_REMOVE_ALL_UNUSED_SYMBOLS_FROM_THE_FONTS_OF_THE_DOCUMENT" xml:space="preserve">
+    <value>Möchten Sie alle Schriftarten des Dokuments unterteilen (alle nicht verwendeten Symbole aus den Schriftarten entfernen)?</value>
+  </data>
+  <data name="PDFEDITORDEMO_WARNING_ALT1" xml:space="preserve">
+    <value>Warnung</value>
+  </data>
+  <data name="PDFEDITORDEMO_SUBSET_FONTS" xml:space="preserve">
+    <value>Teilmenge der Schriftarten</value>
+  </data>
+  <data name="PDFEDITORDEMO_SUBSET_ALL_EMBEDDED_FONTS" xml:space="preserve">
+    <value>Teilmenge aller eingebetteten Schriftarten</value>
+  </data>
+  <data name="PDFEDITORDEMO_PAGE_USES_TRANSPARECY" xml:space="preserve">
+    <value>Seite verwendet Transparenz.</value>
+  </data>
+  <data name="PDFEDITORDEMO_PAGE_DOES_NOT_USE_TRANSPARECY" xml:space="preserve">
+    <value>Seite verwendet keine Transparenz.</value>
+  </data>
+  <data name="PDFEDITORDEMO_PAGE_PROPERTIES" xml:space="preserve">
+    <value>Seiteneigenschaften</value>
+  </data>
+  <data name="PDFEDITORDEMO_THIS_PAGE_DOES_NOT_CONTAIN_IMAGE_RESOURCES" xml:space="preserve">
+    <value>Diese Seite enthält keine Bildressourcen.</value>
+  </data>
+  <data name="PDFEDITORDEMO_INFORMATION_ALT4" xml:space="preserve">
+    <value>Informationen</value>
+  </data>
+  <data name="PDFEDITORDEMO_RENDERING_AND_SAVE" xml:space="preserve">
+    <value>Rendern und speichern</value>
+  </data>
+  <data name="PDFEDITORDEMO_IMAGE_SAVING_ERROR" xml:space="preserve">
+    <value>Fehler beim Speichern des Bildes</value>
+  </data>
+  <data name="PDFEDITORDEMO_ROTATE" xml:space="preserve">
+    <value>Drehen</value>
+  </data>
+  <data name="PDFEDITORDEMO_NO_SELECTED_TEXT" xml:space="preserve">
+    <value>Kein ausgewählter Text.</value>
+  </data>
+  <data name="PDFEDITORDEMO_NO_SELECTED_TEXT_ALT1" xml:space="preserve">
+    <value>Kein ausgewählter Text.</value>
+  </data>
+  <data name="PDFEDITORDEMO_DO_YOU_WANT_TO_OBFUSCATE_THE_ENCODING_OF_ALL_TEXT_OF_THE_PAGE" xml:space="preserve">
+    <value>Möchten Sie die Kodierung des gesamten Textes der Seite verschleiern?</value>
+  </data>
+  <data name="PDFEDITORDEMO_WARNING_ALT2" xml:space="preserve">
+    <value>Warnung</value>
+  </data>
+  <data name="PDFEDITORDEMO_OBFUSCATE_TEXT_ENCODING_OF_CURRENT_PAGE" xml:space="preserve">
+    <value>Textkodierung der aktuellen Seite verschleiern</value>
+  </data>
+  <data name="PDFEDITORDEMO_NO_SELECTED_PAGES" xml:space="preserve">
+    <value>Keine ausgewählten Seiten.</value>
+  </data>
+  <data name="PDFEDITORDEMO_DO_YOU_WANT_TO_OBFUSCATE_THE_ENCODING_OF_ALL_TEXT_OF_THE_SELECTED_PAGES" xml:space="preserve">
+    <value>Möchten Sie die Kodierung des gesamten Textes der ausgewählten Seiten verschleiern?</value>
+  </data>
+  <data name="PDFEDITORDEMO_WARNING_ALT3" xml:space="preserve">
+    <value>Warnung</value>
+  </data>
+  <data name="PDFEDITORDEMO_OBFUSCATE_TEXT_ENCODING_OF_SELECTED_PAGES" xml:space="preserve">
+    <value>Textkodierung ausgewählter Seiten verschleiern</value>
+  </data>
+  <data name="PDFEDITORDEMO_DO_YOU_WANT_TO_OBFUSCATE_THE_ENCODING_OF_ALL_TEXT_OF_THE_DOCUMENT" xml:space="preserve">
+    <value>Möchten Sie die Kodierung des gesamten Texts des Dokuments verschleiern?</value>
+  </data>
+  <data name="PDFEDITORDEMO_WARNING_ALT4" xml:space="preserve">
+    <value>Warnung</value>
+  </data>
+  <data name="PDFEDITORDEMO_OBFUSCATE_TEXT_ENCODING_OF_DOCUMENT" xml:space="preserve">
+    <value>Textkodierung des Dokuments verschleiern</value>
+  </data>
+  <data name="PDFEDITORDEMO_TEXT_ENCODING_OBFUSCATOR_SETTINGS" xml:space="preserve">
+    <value>Einstellungen für die Verschleierung der Textkodierung</value>
+  </data>
+  <data name="PDFEDITORDEMO_DATA_CANNOT_BE_IMPORTED_BECAUSE_PDF_DOCUMENT_DOES_NOT_HAVE_INTERACTIVE_FORM" xml:space="preserve">
+    <value>Daten können nicht importiert werden, da das PDF-Dokument kein interaktives Formular hat.</value>
+  </data>
+  <data name="PDFEDITORDEMO_IMPORT_FORM_DATA" xml:space="preserve">
+    <value>Formulardaten importieren</value>
+  </data>
+  <data name="PDFEDITORDEMO_XFDF_FILESXFDF_ALT2" xml:space="preserve">
+    <value>XFDF-Dateien|*.xfdf</value>
+  </data>
+  <data name="PDFEDITORDEMO_XFDF_FILESXFDF_ALT3" xml:space="preserve">
+    <value>XFDF-Dateien|*.xfdf</value>
+  </data>
+  <data name="PDFEDITORDEMO_TEXT_MARKUP_TOOL" xml:space="preserve">
+    <value>Textmarkierungstool</value>
+  </data>
+  <data name="PDFEDITORDEMO_RENDERING" xml:space="preserve">
+    <value>Rendering</value>
+  </data>
+  <data name="PDFEDITORDEMO_IMAGE_LOADING_EXCEPTION" xml:space="preserve">
+    <value>Ausnahme beim Laden des Bildes</value>
+  </data>
+  <data name="PDFEDITORDEMO_CURRENT_IMAGE_IS_NOT_A_PDF_PAGE_SAVE_DOCUMENT_AND_TRY_AGAIN" xml:space="preserve">
+    <value>Das aktuelle Bild ist keine PDF-Seite. Dokument speichern und erneut versuchen.</value>
+  </data>
+  <data name="PDFEDITORDEMO_SEARCH_ON_PAGE_ARG0" xml:space="preserve">
+    <value>Suche auf Seite {0}...</value>
+  </data>
+  <data name="PDFEDITORDEMO_INSERT_TEXT" xml:space="preserve">
+    <value>Text einfügen</value>
+  </data>
+  <data name="PDFEDITORDEMO_STRIKETHROUGH_TEXT" xml:space="preserve">
+    <value>Durchgestrichener Text</value>
+  </data>
+  <data name="PDFEDITORDEMO_HIGHLIGHTED_TEXT" xml:space="preserve">
+    <value>Hervorgehobener Text</value>
+  </data>
+  <data name="PDFEDITORDEMO_SQUIGGLY_UNDERLINED_TEXT" xml:space="preserve">
+    <value>Schnörkelloser unterstrichener Text</value>
+  </data>
+  <data name="PDFEDITORDEMO_UNDERLINED_TEXT" xml:space="preserve">
+    <value>Unterstrichener Text</value>
+  </data>
+  <data name="PDFEDITORDEMO_REDACTED_CONTENT_WILL_BE_REMOVED_FROM_PDF_DOCUMENT_ONLY_AFTER_PACKING_OF_PDF_DOCUMENT" xml:space="preserve">
+    <value>Geschwärzter Inhalt wird erst nach dem Packen des PDF-Dokuments aus dem PDF-Dokument entfernt.</value>
+  </data>
+  <data name="PDFEDITORDEMO_DO_YOU_WANT_TO_PACK_PDF_DOCUMENT_RIGHT_NOW_ALT1" xml:space="preserve">
+    <value>Möchten Sie das PDF-Dokument jetzt packen?</value>
+  </data>
+  <data name="PDFEDITORDEMO_CLICK_YES_IF_YOU_WANT_TO_PACK_PDF_DOCUMENT_RIGHT_NOW_ALT1" xml:space="preserve">
+    <value>Klicken Sie auf "Ja", wenn Sie das PDF-Dokument jetzt packen möchten.</value>
+  </data>
+  <data name="PDFEDITORDEMO_CLICK_NO_IF_YOU_WILL_PACK_PDF_DOCUMENT_LATER_FILE_PACK_MENU_AND_NOW_YOU_WANT_TO_WORK_WITH_UNPACKED_PDF_DOCUMENT_ALT1" xml:space="preserve">
+    <value>Klicken Sie auf "Nein", wenn Sie das PDF-Dokument später packen möchten (Menü "Datei -&gt; Packen") und nun mit dem entpackten PDF-Dokument arbeiten möchten.</value>
+  </data>
+  <data name="PDFEDITORDEMO_PACK_DOCUMENT_ALT1" xml:space="preserve">
+    <value>Dokument packen?</value>
+  </data>
+  <data name="PDFEDITORDEMO_COMMENT" xml:space="preserve">
+    <value>Kommentar</value>
+  </data>
+  <data name="PDFEDITORDEMO_OPEN_DOCUMENT" xml:space="preserve">
+    <value>Dokument öffnen</value>
+  </data>
+  <data name="PDFEDITORDEMO_PDF_DOCUMENT_DOES_NOT_CONTAIN_PAGES" xml:space="preserve">
+    <value>PDF-Dokument enthält keine Seiten.</value>
+  </data>
+  <data name="PDFEDITORDEMO_OBFUSCATING_TEXT_OF_LOADED_DOCUMENTS" xml:space="preserve">
+    <value>Text geladener Dokumente wird verschleiert</value>
+  </data>
+  <data name="PDFEDITORDEMO_ORIGINAL_FONTS_AND_CONTENT_OF_PAGES_WILL_BE_REMOVED_FROM_PDF_DOCUMENT_ONLY_AFTER_PACKING_OF_PDF_DOCUMENT" xml:space="preserve">
+    <value>Originalschriftarten und Seiteninhalte werden erst nach dem Packen des PDF-Dokuments aus dem PDF-Dokument entfernt.</value>
+  </data>
+  <data name="PDFEDITORDEMO_DO_YOU_WANT_TO_PACK_PDF_DOCUMENT_RIGHT_NOW_ALT2" xml:space="preserve">
+    <value>Möchten Sie das PDF-Dokument jetzt packen?</value>
+  </data>
+  <data name="PDFEDITORDEMO_CLICK_YES_IF_YOU_WANT_TO_PACK_PDF_DOCUMENT_RIGHT_NOW_ALT2" xml:space="preserve">
+    <value>Klicken Sie auf "Ja", wenn Sie das PDF-Dokument jetzt packen möchten.</value>
+  </data>
+  <data name="PDFEDITORDEMO_CLICK_NO_IF_YOU_WILL_PACK_PDF_DOCUMENT_LATER_FILE_PACK_MENU_AND_NOW_YOU_WANT_TO_WORK_WITH_UNPACKED_PDF_DOCUMENT_ALT2" xml:space="preserve">
+    <value>Klicken Sie auf "Nein", wenn Sie das PDF-Dokument später packen möchten (Menü "Datei -&gt; Packen") und nun mit dem entpackten PDF-Dokument arbeiten möchten.</value>
+  </data>
+  <data name="PDFEDITORDEMO_PACK_DOCUMENT_ALT2" xml:space="preserve">
+    <value>Dokument packen?</value>
+  </data>
+  <data name="PDFEDITORDEMO_THIS_PDF_DOCUMENT_WILL_NOT_BE_PACKEDSAVED_AFTER_COMPRESSION" xml:space="preserve">
+    <value>Dieses PDF-Dokument wird nach der Komprimierung nicht gepackt (gespeichert).</value>
+  </data>
+  <data name="PDFEDITORDEMO_WARNING_ALT5" xml:space="preserve">
+    <value>Warnung</value>
+  </data>
+  <data name="PDFEDITORDEMO_CLEANUP" xml:space="preserve">
+    <value>Aufräumen</value>
+  </data>
+  <data name="PDFEDITORDEMO_PACK" xml:space="preserve">
+    <value>Paket</value>
+  </data>
+  <data name="PDFEDITORDEMO__ARG0ARG1_BYTES" xml:space="preserve">
+    <value> [{0}-&gt;{1} Bytes]</value>
+  </data>
+  <data name="PDFEDITORDEMO_SAVE" xml:space="preserve">
+    <value>Speichern</value>
+  </data>
+  <data name="PDFEDITORDEMO_SAVING_ERROR" xml:space="preserve">
+    <value>Fehler beim Speichern</value>
+  </data>
+  <data name="PDFEDITORDEMO_SAVE_AS" xml:space="preserve">
+    <value>Speichern unter</value>
+  </data>
+  <data name="PDFEDITORDEMO_SAVING_ERROR_ALT1" xml:space="preserve">
+    <value>Fehler beim Speichern</value>
+  </data>
+  <data name="PDFEDITORDEMO_SAVE_TO" xml:space="preserve">
+    <value>Speichern unter</value>
+  </data>
+  <data name="PDFEDITORDEMO_SAVING_ERROR_ALT2" xml:space="preserve">
+    <value>Fehler beim Speichern</value>
+  </data>
+  <data name="PDFEDITORDEMO_CONVERTING_TO_SVG" xml:space="preserve">
+    <value>Konvertierung in SVG</value>
+  </data>
+  <data name="PDFEDITORDEMO_PACKING_FONTS_OF_LOADED_DOCUMENTS" xml:space="preserve">
+    <value>Schriftarten der geladenen Dokumente werden gepackt</value>
+  </data>
+  <data name="PDFEDITORDEMO_CURRENT_IMAGE_IS_NOT_A_PDF_PAGE_SAVE_DOCUMENT_AND_TRY_AGAIN_ALT1" xml:space="preserve">
+    <value>Das aktuelle Bild ist keine PDF-Seite. Dokument speichern und erneut versuchen.</value>
+  </data>
+  <data name="PDFEDITORDEMO_INFORMATION_ALT5" xml:space="preserve">
+    <value>Informationen</value>
+  </data>
+  <data name="PDFEDITORDEMO_PDF_DOCUMENT_PROCESSING" xml:space="preserve">
+    <value>PDF-Dokumentverarbeitung</value>
+  </data>
+  <data name="PDFEDITORDEMO_CURRENT_DOCUMENT_HAS_NOT_SAVED_STRUCTURAL_CHANGES_PLEASE_SAVE_OR_PACK_DOCUMENT_FIRST" xml:space="preserve">
+    <value>Das aktuelle Dokument hat keine strukturellen Änderungen gespeichert. Bitte speichern oder packen Sie das Dokument zuerst.</value>
+  </data>
+  <data name="PDFEDITORDEMO_ARG0_CANCELED" xml:space="preserve">
+    <value>{0}: abgebrochen</value>
+  </data>
+  <data name="PDFEDITORDEMO_ARG0XARG1_PIXELS" xml:space="preserve">
+    <value>{0}x{1} Pixel</value>
+  </data>
+  <data name="PDFEDITORDEMO_IS_NOT_PDF_PAGE_TRY_SAVE_DOCUMENT_BEFORE_MAKE_SIGNATURE" xml:space="preserve">
+    <value>Ist keine PDF-Seite, versuchen Sie, das Dokument zu speichern, bevor Sie eine Signatur erstellen.</value>
+  </data>
+</root>

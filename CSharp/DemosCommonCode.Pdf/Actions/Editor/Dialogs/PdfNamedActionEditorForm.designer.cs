@@ -28,6 +28,7 @@ namespace DemosCommonCode.Pdf
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PdfNamedActionEditorForm));
             this.label1 = new System.Windows.Forms.Label();
             this.okButton = new System.Windows.Forms.Button();
             this.buttonCancel = new System.Windows.Forms.Button();
@@ -41,7 +42,7 @@ namespace DemosCommonCode.Pdf
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(35, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Name";
+            resources.ApplyResources(this.label1, "label1");
             // 
             // okButton
             // 
@@ -64,7 +65,7 @@ namespace DemosCommonCode.Pdf
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(75, 23);
             this.buttonCancel.TabIndex = 3;
-            this.buttonCancel.Text = "Cancel";
+            resources.ApplyResources(this.buttonCancel, "buttonCancel");
             this.buttonCancel.UseVisualStyleBackColor = true;
             // 
             // nameComboBox
@@ -73,10 +74,10 @@ namespace DemosCommonCode.Pdf
                         | System.Windows.Forms.AnchorStyles.Right)));
             this.nameComboBox.FormattingEnabled = true;
             this.nameComboBox.Items.AddRange(new object[] {
-            "NextPage",
-            "PrevPage",
-            "FirstPage",
-            "LastPage"});
+            resources.GetString("nameComboBox.Items"),
+            resources.GetString("nameComboBox.Items1"),
+            resources.GetString("nameComboBox.Items2"),
+            resources.GetString("nameComboBox.Items3")});
             this.nameComboBox.Location = new System.Drawing.Point(53, 12);
             this.nameComboBox.Name = "nameComboBox";
             this.nameComboBox.Size = new System.Drawing.Size(329, 21);
@@ -98,7 +99,7 @@ namespace DemosCommonCode.Pdf
             this.MinimizeBox = false;
             this.Name = "PdfNamedActionEditorForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Named Action Editor";
+            resources.ApplyResources(this, "$this");
             this.ResumeLayout(false);
             this.PerformLayout();
 

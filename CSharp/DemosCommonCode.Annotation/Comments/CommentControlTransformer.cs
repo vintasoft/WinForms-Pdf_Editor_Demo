@@ -1,4 +1,4 @@
-#if !REMOVE_ANNOTATION_PLUGIN
+﻿#if !REMOVE_ANNOTATION_PLUGIN
 using System;
 using System.Drawing;
 using System.Windows.Forms;
@@ -58,7 +58,7 @@ namespace DemosCommonCode.Annotation
             _imageViewer = GetImageViewer(commentControl);
 
             if (_imageViewer == null)
-                throw new InvalidOperationException("The image viewer is not found.");
+                throw new InvalidOperationException(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_ANNOTATION_THE_IMAGE_VIEWER_IS_NOT_FOUND);
 
             SizeChangeMargin = 6;
             LocationChangeTopMargin = Math.Max(1, commentControl.TopPanelSize.Height);
@@ -250,7 +250,7 @@ namespace DemosCommonCode.Annotation
                 {
                     // WinForms generates Win32Exception if 15 or more FlowLayoutPanel are nested
 
-                    MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show(ex.Message, PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_ANNOTATION_ERROR_ALT2, MessageBoxButtons.OK, MessageBoxIcon.Error);
                     _hasVisibilityUpdatingError = true;
                 }
             }

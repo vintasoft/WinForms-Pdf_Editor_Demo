@@ -29,6 +29,7 @@ namespace DemosCommonCode.Office
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(OfficeDocumentFontPropertiesVisualEditorToolStrip));
             this.fontNameComboBox = new System.Windows.Forms.ToolStripComboBox();
             this.fontSizeComboBox = new System.Windows.Forms.ToolStripComboBox();
             this.SuspendLayout();
@@ -39,7 +40,7 @@ namespace DemosCommonCode.Office
             this.fontNameComboBox.Name = "fontNameComboBox";
             this.fontNameComboBox.Size = new System.Drawing.Size(165, 23);
             this.fontNameComboBox.Sorted = true;
-            this.fontNameComboBox.ToolTipText = "Font Name";
+            resources.ApplyResources(this.fontNameComboBox, "fontNameComboBox");
             // 
             // fontSizeComboBox
             // 
@@ -62,7 +63,7 @@ namespace DemosCommonCode.Office
             "72"});
             this.fontSizeComboBox.Name = "fontSizeComboBox";
             this.fontSizeComboBox.Size = new System.Drawing.Size(75, 23);
-            this.fontSizeComboBox.ToolTipText = "Font Size";
+            resources.ApplyResources(this.fontSizeComboBox, "fontSizeComboBox");
             // 
             // OfficeDocumentFontPropertiesVisualEditorToolStrip
             // 

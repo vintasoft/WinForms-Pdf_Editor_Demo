@@ -302,20 +302,20 @@ namespace DemosCommonCode.Pdf.Security
             PdfSignatureInformation signatureInfo = signatureAppearance.SignatureField.SignatureInfo;
             if (signatureInfo == null)
             {
-                text.AppendLine("Empty Signature Field");                
+                text.AppendLine(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_EMPTY_SIGNATURE_FIELD);                
             }
             else
             {
                 if (addName && signatureInfo.SignerName != null)
-                    text.AppendLine(string.Format("Digitally signed by {0}", signatureInfo.SignerName));
+                    text.AppendLine(string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_DIGITALLY_SIGNED_BY_ARG0, signatureInfo.SignerName));
                 if (addReason && signatureInfo.Reason != null)
-                    text.AppendLine(string.Format("Reason: {0}", signatureInfo.Reason));
+                    text.AppendLine(string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_REASON_ARG0_ALT1, signatureInfo.Reason));
                 if (addLocation && signatureInfo.Location != null)
-                    text.AppendLine(string.Format("Location: {0}", signatureInfo.Location));
+                    text.AppendLine(string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_LOCATION_ARG0_ALT1, signatureInfo.Location));
                 if (addContactInfo && signatureInfo.ContactInfo != null)
-                    text.AppendLine(string.Format("Contact: {0}", signatureInfo.ContactInfo));
+                    text.AppendLine(string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_CONTACT_ARG0, signatureInfo.ContactInfo));
                 if (addDate && signatureInfo.SigningTime != DateTime.MinValue)
-                    text.AppendLine(string.Format("Signing Date:\n{0}", signatureInfo.SigningTime.ToString("f", CultureInfo.InvariantCulture)));
+                    text.AppendLine(string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_SIGNING_DATERNARG0, signatureInfo.SigningTime.ToString("f", CultureInfo.InvariantCulture)));
             }
 
             if (text.Length > 0)

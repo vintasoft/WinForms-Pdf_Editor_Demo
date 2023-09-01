@@ -28,6 +28,7 @@ namespace DemosCommonCode.Pdf
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ViewContentImageForm));
             this.panel1 = new System.Windows.Forms.Panel();
             this.viewResourceButton = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
@@ -74,7 +75,7 @@ namespace DemosCommonCode.Pdf
             this.viewResourceButton.Name = "viewResourceButton";
             this.viewResourceButton.Size = new System.Drawing.Size(107, 23);
             this.viewResourceButton.TabIndex = 3;
-            this.viewResourceButton.Text = "View resource...";
+            resources.ApplyResources(this.viewResourceButton, "viewResourceButton");
             this.viewResourceButton.UseVisualStyleBackColor = true;
             this.viewResourceButton.Click += new System.EventHandler(this.viewResourceButton_Click);
             // 
@@ -92,7 +93,7 @@ namespace DemosCommonCode.Pdf
             this.groupBox2.Size = new System.Drawing.Size(460, 72);
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Information";
+            resources.ApplyResources(this.groupBox2, "groupBox2");
             // 
             // compressedSizeLabel
             // 
@@ -101,7 +102,7 @@ namespace DemosCommonCode.Pdf
             this.compressedSizeLabel.Name = "compressedSizeLabel";
             this.compressedSizeLabel.Size = new System.Drawing.Size(41, 13);
             this.compressedSizeLabel.TabIndex = 6;
-            this.compressedSizeLabel.Text = "0 bytes";
+            resources.ApplyResources(this.compressedSizeLabel, "compressedSizeLabel");
             // 
             // compressionLabel
             // 
@@ -132,7 +133,7 @@ namespace DemosCommonCode.Pdf
             this.regionGroupBox.Size = new System.Drawing.Size(262, 57);
             this.regionGroupBox.TabIndex = 3;
             this.regionGroupBox.TabStop = false;
-            this.regionGroupBox.Text = "Region in page content (Resolution: 0)";
+            resources.ApplyResources(this.regionGroupBox, "regionGroupBox");
             // 
             // RBlabel
             // 
@@ -177,7 +178,7 @@ namespace DemosCommonCode.Pdf
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(86, 13);
             this.label3.TabIndex = 2;
-            this.label3.Text = "Compressed size";
+            resources.ApplyResources(this.label3, "label3");
             // 
             // label2
             // 
@@ -186,7 +187,7 @@ namespace DemosCommonCode.Pdf
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(67, 13);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Compression";
+            resources.ApplyResources(this.label2, "label2");
             // 
             // label1
             // 
@@ -195,7 +196,7 @@ namespace DemosCommonCode.Pdf
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(63, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Original size";
+            resources.ApplyResources(this.label1, "label1");
             // 
             // saveAsButton
             // 
@@ -203,7 +204,7 @@ namespace DemosCommonCode.Pdf
             this.saveAsButton.Name = "saveAsButton";
             this.saveAsButton.Size = new System.Drawing.Size(107, 23);
             this.saveAsButton.TabIndex = 1;
-            this.saveAsButton.Text = "Save as...";
+            resources.ApplyResources(this.saveAsButton, "saveAsButton");
             this.saveAsButton.UseVisualStyleBackColor = true;
             this.saveAsButton.Click += new System.EventHandler(this.saveAsButton_Click);
             // 
@@ -216,7 +217,7 @@ namespace DemosCommonCode.Pdf
             this.groupBox1.Size = new System.Drawing.Size(106, 72);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "View";
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             // 
             // originalImageRadioButton
             // 
@@ -225,7 +226,7 @@ namespace DemosCommonCode.Pdf
             this.originalImageRadioButton.Name = "originalImageRadioButton";
             this.originalImageRadioButton.Size = new System.Drawing.Size(60, 17);
             this.originalImageRadioButton.TabIndex = 1;
-            this.originalImageRadioButton.Text = "Original";
+            resources.ApplyResources(this.originalImageRadioButton, "originalImageRadioButton");
             this.originalImageRadioButton.UseVisualStyleBackColor = true;
             this.originalImageRadioButton.CheckedChanged += new System.EventHandler(this.viewImageRadioButton_CheckedChanged);
             // 
@@ -238,7 +239,7 @@ namespace DemosCommonCode.Pdf
             this.transformedImageRadioButton.Size = new System.Drawing.Size(84, 17);
             this.transformedImageRadioButton.TabIndex = 0;
             this.transformedImageRadioButton.TabStop = true;
-            this.transformedImageRadioButton.Text = "Transformed";
+            resources.ApplyResources(this.transformedImageRadioButton, "transformedImageRadioButton");
             this.transformedImageRadioButton.UseVisualStyleBackColor = true;
             this.transformedImageRadioButton.CheckedChanged += new System.EventHandler(this.viewImageRadioButton_CheckedChanged);
             // 
@@ -276,7 +277,7 @@ namespace DemosCommonCode.Pdf
             this.MinimumSize = new System.Drawing.Size(711, 200);
             this.Name = "ViewContentImageForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "View content image";
+            resources.ApplyResources(this, "$this");
             this.panel1.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();

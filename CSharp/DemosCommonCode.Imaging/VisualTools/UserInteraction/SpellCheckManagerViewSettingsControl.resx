@@ -117,4 +117,19 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label35.Text" xml:space="preserve">
+    <value>Underline color</value>
+  </data>
+  <data name="label36.Text" xml:space="preserve">
+    <value>Underline Thickness</value>
+  </data>
+  <data name="label37.Text" xml:space="preserve">
+    <value>Underline Type</value>
+  </data>
+  <data name="spellCheckManagerSuggestMenuEnabledCheckBox.Text" xml:space="preserve">
+    <value>Suggest Menu</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </metadata>
 </root>

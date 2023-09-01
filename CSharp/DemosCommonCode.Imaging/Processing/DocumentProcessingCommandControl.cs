@@ -104,7 +104,7 @@ namespace DemosCommonCode.Imaging
                     List<ProcessingResult> appliedCommandsResult = new List<ProcessingResult>();
                     // the root processing result for applied commands
                     NamedProcessingResult appliedCommands = new NamedProcessingResult(
-                        "Applied Commands", null, null, appliedCommandsResult);
+                        PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_APPLIED_COMMANDS, null, null, appliedCommandsResult);
                     namedProcessingResults.Add(appliedCommands);
 
 
@@ -136,7 +136,7 @@ namespace DemosCommonCode.Imaging
 
                         // root result for document applied commands
                         NamedProcessingResult documentCommands = new NamedProcessingResult(
-                            "Document", null, null, documentAppliedCommandsResult);
+                            PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_DOCUMENT, null, null, documentAppliedCommandsResult);
                         appliedCommandsResult.Add(documentCommands);
                     }
 
@@ -181,7 +181,7 @@ namespace DemosCommonCode.Imaging
 
                             // root result for page applied commands
                             NamedProcessingResult pageResult = new NamedProcessingResult(
-                                string.Format("Page {0}", pageIndex + 1), null, null, pageAppliedCommandsResult);
+                                string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_PAGE_ARG0, pageIndex + 1), null, null, pageAppliedCommandsResult);
                             appliedCommandsResult.Add(pageResult);
                         }
                     }
@@ -199,7 +199,7 @@ namespace DemosCommonCode.Imaging
 
                         // root result for document applied commands 
                         NamedProcessingResult documentResult = new NamedProcessingResult(
-                            "Document", null, null, documentProcessingResults);
+                            PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_DOCUMENT_ALT1, null, null, documentProcessingResults);
                         // add result to result list
                         namedProcessingResults.Add(documentResult);
                     }
@@ -231,7 +231,7 @@ namespace DemosCommonCode.Imaging
 
                                 // root result for document applied commands 
                                 NamedProcessingResult pageResult = new NamedProcessingResult(
-                                    string.Format("Page {0}", pageIndex + 1), null, null, results);
+                                    string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_PAGE_ARG0_ALT1, pageIndex + 1), null, null, results);
                                 // add result to result list
                                 namedProcessingResults.Add(pageResult);
                             }
@@ -773,7 +773,7 @@ namespace DemosCommonCode.Imaging
                 {
                     // create named processing result
                     NamedProcessingResult namedProcessingResult = new NamedProcessingResult(
-                            string.Format("{0} ({1} matches)", key, list.Count),
+                            string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_ARG0_ARG1_MATCHES, key, list.Count),
                             null, null, list);
                     resultProcessingResultList.Add(namedProcessingResult);
                 }

@@ -28,6 +28,7 @@ namespace DemosCommonCode.Pdf
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PdfListBoxPropertiesEditorControl));
             this.multiselectCheckBox = new System.Windows.Forms.CheckBox();
             this.mainPanel = new System.Windows.Forms.Panel();
             this.selectionBrushColorPanelControl = new DemosCommonCode.CustomControls.ColorPanelControl();
@@ -44,7 +45,7 @@ namespace DemosCommonCode.Pdf
             this.multiselectCheckBox.Name = "multiselectCheckBox";
             this.multiselectCheckBox.Size = new System.Drawing.Size(76, 17);
             this.multiselectCheckBox.TabIndex = 1;
-            this.multiselectCheckBox.Text = "Multiselect";
+            resources.ApplyResources(this.multiselectCheckBox, "multiselectCheckBox");
             this.multiselectCheckBox.UseVisualStyleBackColor = true;
             this.multiselectCheckBox.CheckedChanged += new System.EventHandler(this.multiselectCheckBox_CheckedChanged);
             // 
@@ -79,7 +80,7 @@ namespace DemosCommonCode.Pdf
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(81, 13);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Selection Brush";
+            resources.ApplyResources(this.label1, "label1");
             // 
             // pdfInteractiveFormChoiceFieldEditorControl
             // 

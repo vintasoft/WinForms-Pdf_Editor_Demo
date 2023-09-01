@@ -28,6 +28,7 @@ namespace DemosCommonCode.Pdf
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EmbeddedFileSpecificationPropertiesEditor));
             this.label5 = new System.Windows.Forms.Label();
             this.descriptionTextBox = new System.Windows.Forms.TextBox();
             this.compressedSizeTextBox = new System.Windows.Forms.TextBox();
@@ -49,7 +50,7 @@ namespace DemosCommonCode.Pdf
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(60, 13);
             this.label5.TabIndex = 20;
-            this.label5.Text = "Description";
+            resources.ApplyResources(this.label5, "label5");
             // 
             // descriptionTextBox
             // 
@@ -76,7 +77,7 @@ namespace DemosCommonCode.Pdf
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(88, 13);
             this.label4.TabIndex = 17;
-            this.label4.Text = "Compressed Size";
+            resources.ApplyResources(this.label4, "label4");
             // 
             // uncompressedSizeTextBox
             // 
@@ -93,7 +94,7 @@ namespace DemosCommonCode.Pdf
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(46, 13);
             this.label3.TabIndex = 15;
-            this.label3.Text = "File Size";
+            resources.ApplyResources(this.label3, "label3");
             // 
             // compressionComboBox
             // 
@@ -112,7 +113,7 @@ namespace DemosCommonCode.Pdf
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(67, 13);
             this.label2.TabIndex = 13;
-            this.label2.Text = "Compression";
+            resources.ApplyResources(this.label2, "label2");
             // 
             // filenameTextBox
             // 
@@ -131,7 +132,7 @@ namespace DemosCommonCode.Pdf
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(49, 13);
             this.label1.TabIndex = 22;
-            this.label1.Text = "Filename";
+            resources.ApplyResources(this.label1, "label1");
             // 
             // mainPanel
             // 

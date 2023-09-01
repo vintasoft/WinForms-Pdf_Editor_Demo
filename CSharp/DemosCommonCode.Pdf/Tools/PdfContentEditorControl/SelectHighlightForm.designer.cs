@@ -28,6 +28,7 @@ namespace DemosCommonCode.Pdf
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SelectHighlightForm));
             this.buttonCancel = new System.Windows.Forms.Button();
             this.buttonOk = new System.Windows.Forms.Button();
             this.modeComboBox = new System.Windows.Forms.ComboBox();
@@ -41,7 +42,7 @@ namespace DemosCommonCode.Pdf
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(75, 23);
             this.buttonCancel.TabIndex = 0;
-            this.buttonCancel.Text = "Cancel";
+            resources.ApplyResources(this.buttonCancel, "buttonCancel");
             this.buttonCancel.UseVisualStyleBackColor = true;
             this.buttonCancel.Click += new System.EventHandler(this.cancelButton_Click);
             // 
@@ -61,17 +62,17 @@ namespace DemosCommonCode.Pdf
             this.modeComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.modeComboBox.FormattingEnabled = true;
             this.modeComboBox.Items.AddRange(new object[] {
-            "Text highlight (yellow)",
-            "Text highlight (red)",
-            "Text highlight (green)",
-            "Invert",
-            "Soft light",
-            "Soft light (red)",
-            "Soft light (green)",
-            "Soft light (blue)",
-            "Hue (red)",
-            "Hue (green)",
-            "Hue (blue)"});
+            resources.GetString("modeComboBox.Items"),
+            resources.GetString("modeComboBox.Items1"),
+            resources.GetString("modeComboBox.Items2"),
+            resources.GetString("modeComboBox.Items3"),
+            resources.GetString("modeComboBox.Items4"),
+            resources.GetString("modeComboBox.Items5"),
+            resources.GetString("modeComboBox.Items6"),
+            resources.GetString("modeComboBox.Items7"),
+            resources.GetString("modeComboBox.Items8"),
+            resources.GetString("modeComboBox.Items9"),
+            resources.GetString("modeComboBox.Items10")});
             this.modeComboBox.Location = new System.Drawing.Point(12, 12);
             this.modeComboBox.Name = "modeComboBox";
             this.modeComboBox.Size = new System.Drawing.Size(243, 21);
@@ -102,7 +103,7 @@ namespace DemosCommonCode.Pdf
             this.MinimizeBox = false;
             this.Name = "SelectHighlightPenDialog";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Select highlight pen";
+            resources.ApplyResources(this, "$this");
             this.ResumeLayout(false);
 
         }

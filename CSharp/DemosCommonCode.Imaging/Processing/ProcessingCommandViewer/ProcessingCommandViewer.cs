@@ -185,11 +185,11 @@ namespace DemosCommonCode.Imaging
             _treeNodeMenu = new ContextMenuStrip();
             _treeNodeMenu.Opening += new CancelEventHandler(treeNodeMenu_Opening);
 
-            ToolStripMenuItem expandAllMenuItem = new ToolStripMenuItem("Expand All");
+            ToolStripMenuItem expandAllMenuItem = new ToolStripMenuItem(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_EXPAND_ALL);
             expandAllMenuItem.Click += new EventHandler(expandAllMenuItem_Click);
             _treeNodeMenu.Items.Add(expandAllMenuItem);
 
-            ToolStripMenuItem collapseAllMenuItem = new ToolStripMenuItem("Collapse All");
+            ToolStripMenuItem collapseAllMenuItem = new ToolStripMenuItem(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_COLLAPSE_ALL);
             collapseAllMenuItem.Click += new EventHandler(collapseAllMenuItem_Click);
             _treeNodeMenu.Items.Add(collapseAllMenuItem);
         }
@@ -420,7 +420,7 @@ namespace DemosCommonCode.Imaging
                     imageKey = IMAGE_KEY_PREDICATE_COMMAND;
                 else if (ProcessingDemosTools.IsNameEqual(commandType, "Analyzer"))
                     imageKey = IMAGE_KEY_ANALYZER_COMMAND;
-                else if (!command.Name.StartsWith("Fixups") && command.Name.StartsWith("Fixup"))
+                else if (!command.Name.StartsWith(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_FIXUPS) && command.Name.StartsWith(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_FIXUP))
                     imageKey = IMAGE_KEY_FIXUP_COMMAND;
                 else if (ProcessingDemosTools.IsNameEqual(commandType, "ConditionalCommand"))
                     imageKey = IMAGE_KEY_CONDITIONAL_COMMAND;
@@ -607,11 +607,11 @@ namespace DemosCommonCode.Imaging
             string imageKey = GetCommandImageKey(command);
             SetImageKey(node, imageKey);
 
-            string commandTypeNodeName = string.Format("Type: {0}",
+            string commandTypeNodeName = string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_TYPE_ARG0,
                 ProcessingDemosTools.GetReadableTypeName(((object)command).GetType()));
             AddPropertyTreeNode(node.Nodes, commandTypeNodeName);
 
-            string targetTypeNodeName = string.Format("Target: {0}",
+            string targetTypeNodeName = string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_TARGET_ARG0,
                 ProcessingDemosTools.GetReadableTypeName(command.TargetType));
             AddPropertyTreeNode(node.Nodes, targetTypeNodeName);
 
@@ -647,7 +647,7 @@ namespace DemosCommonCode.Imaging
                 string activateValueNodeName = string.Format("ActivateValue: {0}", trigger.ActivationValue);
                 AddPropertyTreeNode(node.Nodes, activateValueNodeName);
 
-                string severityNodeName = string.Format("Severity: {0}", trigger.Severity);
+                string severityNodeName = string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_SEVERITY_ARG0, trigger.Severity);
                 AddPropertyTreeNode(node.Nodes, severityNodeName);
             }
             else if (command is ICompositePredicateAnalyzerInfo)

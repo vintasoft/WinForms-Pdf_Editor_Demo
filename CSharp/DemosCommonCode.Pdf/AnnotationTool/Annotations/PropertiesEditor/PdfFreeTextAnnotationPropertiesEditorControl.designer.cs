@@ -28,6 +28,7 @@ namespace DemosCommonCode.Pdf
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PdfFreeTextAnnotationPropertiesEditorControl));
             this.mainPanel = new System.Windows.Forms.Panel();
             this.pdfAnnotationBorderEffectEditorControl1 = new DemosCommonCode.CustomControls.PdfAnnotationBorderEffectEditorControl();
             this.label7 = new System.Windows.Forms.Label();
@@ -89,7 +90,7 @@ namespace DemosCommonCode.Pdf
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(30, 13);
             this.label7.TabIndex = 18;
-            this.label7.Text = "Style";
+            resources.ApplyResources(this.label7, "label7");
             // 
             // label1
             // 
@@ -132,7 +133,7 @@ namespace DemosCommonCode.Pdf
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(89, 13);
             this.label6.TabIndex = 16;
-            this.label6.Text = "Line Ending Style";
+            resources.ApplyResources(this.label6, "label6");
             // 
             // label2
             // 
@@ -142,7 +143,7 @@ namespace DemosCommonCode.Pdf
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(77, 13);
             this.label2.TabIndex = 11;
-            this.label2.Text = "Text Quadding";
+            resources.ApplyResources(this.label2, "label2");
             // 
             // groupBox1
             // 
@@ -157,7 +158,7 @@ namespace DemosCommonCode.Pdf
             this.groupBox1.Size = new System.Drawing.Size(352, 74);
             this.groupBox1.TabIndex = 15;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Font";
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             // 
             // pdfFontPanelControl1
             // 
@@ -195,7 +196,7 @@ namespace DemosCommonCode.Pdf
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(27, 13);
             this.label5.TabIndex = 2;
-            this.label5.Text = "Size";
+            resources.ApplyResources(this.label5, "label5");
             // 
             // label4
             // 
@@ -204,7 +205,7 @@ namespace DemosCommonCode.Pdf
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(59, 13);
             this.label4.TabIndex = 0;
-            this.label4.Text = "Font Name";
+            resources.ApplyResources(this.label4, "label4");
             // 
             // label3
             // 
@@ -214,7 +215,7 @@ namespace DemosCommonCode.Pdf
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(56, 13);
             this.label3.TabIndex = 12;
-            this.label3.Text = "BackColor";
+            resources.ApplyResources(this.label3, "label3");
             // 
             // backColorPanelControl
             // 

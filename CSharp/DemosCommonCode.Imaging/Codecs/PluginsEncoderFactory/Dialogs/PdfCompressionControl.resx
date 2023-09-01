@@ -57,4 +57,34 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Quality</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Level</value>
+  </data>
+  <data name="jbig2SettingsButton.Text" xml:space="preserve">
+    <value>Settings...</value>
+  </data>
+  <data name="jbig2UseGlobalsCheckBox.Text" xml:space="preserve">
+    <value>Use global dictionary</value>
+  </data>
+  <data name="compressionAutoRadioButton.Text" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="jpeg2000SettingsButton.Text" xml:space="preserve">
+    <value>Settings...</value>
+  </data>
+  <data name="thresholdLabel.Text" xml:space="preserve">
+    <value>Threshold</value>
+  </data>
+  <data name="binarizationGroupBox.Text" xml:space="preserve">
+    <value>Binarization</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>Compression of image resource</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </metadata>
 </root>

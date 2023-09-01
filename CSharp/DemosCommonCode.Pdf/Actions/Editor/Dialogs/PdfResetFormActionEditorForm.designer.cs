@@ -28,6 +28,7 @@ namespace DemosCommonCode.Pdf
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PdfResetFormActionEditorForm));
             this.okButton = new System.Windows.Forms.Button();
             this.buttonCancel = new System.Windows.Forms.Button();
             this.allFieldsRadioButton = new System.Windows.Forms.RadioButton();
@@ -58,7 +59,7 @@ namespace DemosCommonCode.Pdf
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(75, 23);
             this.buttonCancel.TabIndex = 1;
-            this.buttonCancel.Text = "Cancel";
+            resources.ApplyResources(this.buttonCancel, "buttonCancel");
             this.buttonCancel.UseVisualStyleBackColor = true;
             // 
             // allFieldsRadioButton
@@ -70,7 +71,7 @@ namespace DemosCommonCode.Pdf
             this.allFieldsRadioButton.Size = new System.Drawing.Size(66, 17);
             this.allFieldsRadioButton.TabIndex = 2;
             this.allFieldsRadioButton.TabStop = true;
-            this.allFieldsRadioButton.Text = "All Fields";
+            resources.ApplyResources(this.allFieldsRadioButton, "allFieldsRadioButton");
             this.allFieldsRadioButton.UseVisualStyleBackColor = true;
             this.allFieldsRadioButton.CheckedChanged += new System.EventHandler(this.RadioButton_CheckedChanged);
             // 
@@ -82,7 +83,7 @@ namespace DemosCommonCode.Pdf
             this.selectedFieldsRadioButton.Size = new System.Drawing.Size(97, 17);
             this.selectedFieldsRadioButton.TabIndex = 3;
             this.selectedFieldsRadioButton.TabStop = true;
-            this.selectedFieldsRadioButton.Text = "Selected Fields";
+            resources.ApplyResources(this.selectedFieldsRadioButton, "selectedFieldsRadioButton");
             this.selectedFieldsRadioButton.UseVisualStyleBackColor = true;
             this.selectedFieldsRadioButton.CheckedChanged += new System.EventHandler(this.RadioButton_CheckedChanged);
             // 
@@ -107,7 +108,7 @@ namespace DemosCommonCode.Pdf
             this.excludeSelectedFieldsCheckBox.Name = "excludeSelectedFieldsCheckBox";
             this.excludeSelectedFieldsCheckBox.Size = new System.Drawing.Size(134, 17);
             this.excludeSelectedFieldsCheckBox.TabIndex = 14;
-            this.excludeSelectedFieldsCheckBox.Text = "Exclude selected fields";
+            resources.ApplyResources(this.excludeSelectedFieldsCheckBox, "excludeSelectedFieldsCheckBox");
             this.excludeSelectedFieldsCheckBox.UseVisualStyleBackColor = true;
             // 
             // pdfInteractiveFormFieldListEditorControl
@@ -139,7 +140,7 @@ namespace DemosCommonCode.Pdf
             this.MinimizeBox = false;
             this.Name = "PdfResetFormActionEditorForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Reset Form Action Editor";
+            resources.ApplyResources(this, "$this");
             this.selectedFieldsGroupBox.ResumeLayout(false);
             this.selectedFieldsGroupBox.PerformLayout();
             this.ResumeLayout(false);

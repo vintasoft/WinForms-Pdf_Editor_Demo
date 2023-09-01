@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Windows.Forms;
 
 using Vintasoft.Imaging;
@@ -77,7 +77,7 @@ namespace DemosCommonCode.Twain
                         if (!deviceManager.IsTwainAvailable)
                         {
                             // show dialog with error message
-                            MessageBox.Show("TWAIN device manager is not found.", "TWAIN device manager", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            MessageBox.Show(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_TWAIN_TWAIN_DEVICE_MANAGER_IS_NOT_FOUND, PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_TWAIN_TWAIN_DEVICE_MANAGER, MessageBoxButtons.OK, MessageBoxIcon.Error);
 
                             // open a HTML page with article describing how to solve the problem
                             DemosTools.OpenBrowser("https://www.vintasoft.com/docs/vstwain-dotnet/Programming-Twain-Device_Manager.html");
@@ -100,14 +100,14 @@ namespace DemosCommonCode.Twain
                     catch (Exception ex)
                     {
                         // show dialog with error message
-                        DemosTools.ShowErrorMessage("TWAIN device manager", ex);
+                        DemosTools.ShowErrorMessage(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_TWAIN_TWAIN_DEVICE_MANAGER_ALT1, ex);
                         return;
                     }
 
                     // if devices are not found in the system
                     if (deviceManager.Devices.Count == 0)
                     {
-                        MessageBox.Show("Devices are not found.");
+                        MessageBox.Show(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_TWAIN_DEVICES_ARE_NOT_FOUND);
                         return;
                     }
 
@@ -138,11 +138,11 @@ namespace DemosCommonCode.Twain
                                 break;
 
                             case AcquireModalState.ScanCanceled:
-                                MessageBox.Show("Scan canceled.");
+                                MessageBox.Show(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_TWAIN_SCAN_CANCELED);
                                 break;
 
                             case AcquireModalState.ScanFailed:
-                                MessageBox.Show(string.Format("Scan failed: {0}", device.ErrorString));
+                                MessageBox.Show(string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_TWAIN_SCAN_FAILED_ARG0, device.ErrorString));
                                 break;
                         }
                     }
@@ -214,7 +214,7 @@ namespace DemosCommonCode.Twain
                         catch (TwainDeviceManagerException ex)
                         {
                             // show dialog with error message
-                            MessageBox.Show(ex.Message, "TWAIN device manager", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            MessageBox.Show(ex.Message, PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_TWAIN_TWAIN_DEVICE_MANAGER_ALT2, MessageBoxButtons.OK, MessageBoxIcon.Error);
 
                             return false;
                         }

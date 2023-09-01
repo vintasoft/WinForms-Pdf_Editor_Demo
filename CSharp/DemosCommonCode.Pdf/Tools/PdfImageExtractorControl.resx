@@ -123,4 +123,31 @@
   <metadata name="ImageExtractorContextMenuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>182, 17</value>
   </metadata>
+  <data name="copyImageToClipboardToolStripMenuItem.Text" xml:space="preserve">
+    <value>Copy Image to Clipboard</value>
+  </data>
+  <data name="saveTransformedImageToolStripMenuItem.Text" xml:space="preserve">
+    <value>Save Transformed Image...</value>
+  </data>
+  <data name="saveImageResourceToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Save Image Resource...</value>
+  </data>
+  <data name="viewContentImageToolStripMenuItem.Text" xml:space="preserve">
+    <value>View Content Image...</value>
+  </data>
+  <data name="saveTransformedImageButton.Text" xml:space="preserve">
+    <value>Save Transformed Image As...</value>
+  </data>
+  <data name="saveImageResourceButton.Text" xml:space="preserve">
+    <value>Save Image Resource As...</value>
+  </data>
+  <data name="saveGroupBox.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="viewContentImageButton.Text" xml:space="preserve">
+    <value>View Content Image...</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </metadata>
 </root>

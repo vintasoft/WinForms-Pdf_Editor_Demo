@@ -117,4 +117,31 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Opacity</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Outline</value>
+  </data>
+  <data name="readOnlyCheckBox.Text" xml:space="preserve">
+    <value>ReadOnly</value>
+  </data>
+  <data name="printableCheckBox.Text" xml:space="preserve">
+    <value>Printable</value>
+  </data>
+  <data name="lockedCheckBox.Text" xml:space="preserve">
+    <value>Locked</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Subject</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </metadata>
 </root>

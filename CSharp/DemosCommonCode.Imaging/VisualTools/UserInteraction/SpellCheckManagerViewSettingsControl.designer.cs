@@ -28,6 +28,7 @@ namespace DemosCommonCode.Imaging
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SpellCheckManagerViewSettingsControl));
             this.mainPanel = new System.Windows.Forms.Panel();
             this.spellCheckMnagerUnderlineColorColorPanelControl = new DemosCommonCode.CustomControls.ColorPanelControl();
             this.spellCheckManagerSuggestMenuEnabledCheckBox = new System.Windows.Forms.CheckBox();
@@ -77,7 +78,7 @@ namespace DemosCommonCode.Imaging
             this.spellCheckManagerSuggestMenuEnabledCheckBox.Name = "spellCheckManagerSuggestMenuEnabledCheckBox";
             this.spellCheckManagerSuggestMenuEnabledCheckBox.Size = new System.Drawing.Size(95, 17);
             this.spellCheckManagerSuggestMenuEnabledCheckBox.TabIndex = 45;
-            this.spellCheckManagerSuggestMenuEnabledCheckBox.Text = "Suggest Menu";
+            resources.ApplyResources(this.spellCheckManagerSuggestMenuEnabledCheckBox, "spellCheckManagerSuggestMenuEnabledCheckBox");
             this.spellCheckManagerSuggestMenuEnabledCheckBox.UseVisualStyleBackColor = true;
             // 
             // label37
@@ -87,7 +88,7 @@ namespace DemosCommonCode.Imaging
             this.label37.Name = "label37";
             this.label37.Size = new System.Drawing.Size(79, 13);
             this.label37.TabIndex = 44;
-            this.label37.Text = "Underline Type";
+            resources.ApplyResources(this.label37, "label37");
             // 
             // spellCheckManagerUnderlineTypeComboBox
             // 
@@ -107,7 +108,7 @@ namespace DemosCommonCode.Imaging
             this.label36.Name = "label36";
             this.label36.Size = new System.Drawing.Size(104, 13);
             this.label36.TabIndex = 42;
-            this.label36.Text = "Underline Thickness";
+            resources.ApplyResources(this.label36, "label36");
             // 
             // spellCheckManagerUnderlineThicknessNumericUpDown
             // 
@@ -136,7 +137,7 @@ namespace DemosCommonCode.Imaging
             this.label35.Name = "label35";
             this.label35.Size = new System.Drawing.Size(78, 13);
             this.label35.TabIndex = 39;
-            this.label35.Text = "Underline color";
+            resources.ApplyResources(this.label35, "label35");
             // 
             // SpellCheckManagerViewSettingsControl
             // 

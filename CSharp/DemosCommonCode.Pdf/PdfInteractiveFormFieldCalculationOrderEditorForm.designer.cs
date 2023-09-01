@@ -28,6 +28,7 @@ namespace DemosCommonCode.Pdf
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PdfInteractiveFormFieldCalculationOrderEditorForm));
             this.okButton = new System.Windows.Forms.Button();
             this.buttonCancel = new System.Windows.Forms.Button();
             this.interactiveFormListBox = new System.Windows.Forms.ListBox();
@@ -56,7 +57,7 @@ namespace DemosCommonCode.Pdf
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(75, 23);
             this.buttonCancel.TabIndex = 2;
-            this.buttonCancel.Text = "Cancel";
+            resources.ApplyResources(this.buttonCancel, "buttonCancel");
             this.buttonCancel.UseVisualStyleBackColor = true;
             // 
             // interactiveFormListBox
@@ -78,7 +79,7 @@ namespace DemosCommonCode.Pdf
             this.moveUpButton.Name = "moveUpButton";
             this.moveUpButton.Size = new System.Drawing.Size(75, 23);
             this.moveUpButton.TabIndex = 4;
-            this.moveUpButton.Text = "Up";
+            resources.ApplyResources(this.moveUpButton, "moveUpButton");
             this.moveUpButton.UseVisualStyleBackColor = true;
             this.moveUpButton.Click += new System.EventHandler(this.moveUpButton_Click);
             // 
@@ -89,7 +90,7 @@ namespace DemosCommonCode.Pdf
             this.moveDownButton.Name = "moveDownButton";
             this.moveDownButton.Size = new System.Drawing.Size(75, 23);
             this.moveDownButton.TabIndex = 5;
-            this.moveDownButton.Text = "Down";
+            resources.ApplyResources(this.moveDownButton, "moveDownButton");
             this.moveDownButton.UseVisualStyleBackColor = true;
             this.moveDownButton.Click += new System.EventHandler(this.moveDownButton_Click);
             // 
@@ -107,7 +108,7 @@ namespace DemosCommonCode.Pdf
             this.MinimumSize = new System.Drawing.Size(350, 200);
             this.Name = "PdfInteractiveFormFieldCalculationOrderEditorForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Fields Calculation Order Editor";
+            resources.ApplyResources(this, "$this");
             this.ResumeLayout(false);
 
         }

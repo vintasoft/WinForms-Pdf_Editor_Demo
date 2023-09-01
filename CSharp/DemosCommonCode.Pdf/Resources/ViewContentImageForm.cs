@@ -116,14 +116,14 @@ namespace DemosCommonCode.Pdf
         private void UpdateContentImageInfo()
         {
             compressionLabel.Text = string.Format("{0}", _contentImage.ImageResource.Compression);
-            compressedSizeLabel.Text = string.Format("{0} bytes", _contentImage.ImageResource.Length);
+            compressedSizeLabel.Text = string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_ARG0_BYTES_ALT5, _contentImage.ImageResource.Length);
             originalSizeLabel.Text = string.Format("{0}x{1} px", _contentImage.ImageResource.Width, _contentImage.ImageResource.Height);
             RegionF region = _contentImage.Region;
             LTlabel.Text = string.Format("({0};{1})", region.LeftTop.X, region.LeftTop.Y);
             LBlabel.Text = string.Format("({0};{1})", region.LeftBottom.X, region.LeftBottom.Y);
             RTlabel.Text = string.Format("({0};{1})", region.RightTop.X, region.RightTop.Y);
             RBlabel.Text = string.Format("({0};{1})", region.RightBottom.X, region.RightBottom.Y);
-            regionGroupBox.Text = string.Format("Region in page content (Resolution: {0})", _contentImage.Resolution);
+            regionGroupBox.Text = string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_REGION_IN_PAGE_CONTENT_RESOLUTION_ARG0, _contentImage.Resolution);
         }
 
         #endregion

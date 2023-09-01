@@ -77,7 +77,7 @@ namespace DemosCommonCode.Pdf
             this.addRedactionMarkGroupBox.Size = new System.Drawing.Size(246, 155);
             this.addRedactionMarkGroupBox.TabIndex = 1;
             this.addRedactionMarkGroupBox.TabStop = false;
-            this.addRedactionMarkGroupBox.Text = "Add Redaction Mark";
+            resources.ApplyResources(this.addRedactionMarkGroupBox, "addRedactionMarkGroupBox");
             // 
             // toolStrip2
             // 
@@ -102,7 +102,7 @@ namespace DemosCommonCode.Pdf
             this.removeAllToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.removeAllToolStripButton.Name = "removeAllToolStripButton";
             this.removeAllToolStripButton.Size = new System.Drawing.Size(87, 20);
-            this.removeAllToolStripButton.Text = "Remove All";
+            resources.ApplyResources(this.removeAllToolStripButton, "removeAllToolStripButton");
             this.removeAllToolStripButton.Click += new System.EventHandler(this.AddRedactionMarkButton_Click);
             // 
             // removeRasterGraphicsToolStripButton
@@ -111,7 +111,7 @@ namespace DemosCommonCode.Pdf
             this.removeRasterGraphicsToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.removeRasterGraphicsToolStripButton.Name = "removeRasterGraphicsToolStripButton";
             this.removeRasterGraphicsToolStripButton.Size = new System.Drawing.Size(154, 20);
-            this.removeRasterGraphicsToolStripButton.Text = "Remove Raster Graphics";
+            resources.ApplyResources(this.removeRasterGraphicsToolStripButton, "removeRasterGraphicsToolStripButton");
             this.removeRasterGraphicsToolStripButton.Click += new System.EventHandler(this.AddRedactionMarkButton_Click);
             // 
             // removeTextToolStripButton
@@ -120,7 +120,7 @@ namespace DemosCommonCode.Pdf
             this.removeTextToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.removeTextToolStripButton.Name = "removeTextToolStripButton";
             this.removeTextToolStripButton.Size = new System.Drawing.Size(94, 20);
-            this.removeTextToolStripButton.Text = "Remove Text";
+            resources.ApplyResources(this.removeTextToolStripButton, "removeTextToolStripButton");
             this.removeTextToolStripButton.Click += new System.EventHandler(this.AddRedactionMarkButton_Click);
             // 
             // removeVectorGraphicsToolStripButton
@@ -129,7 +129,7 @@ namespace DemosCommonCode.Pdf
             this.removeVectorGraphicsToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.removeVectorGraphicsToolStripButton.Name = "removeVectorGraphicsToolStripButton";
             this.removeVectorGraphicsToolStripButton.Size = new System.Drawing.Size(155, 20);
-            this.removeVectorGraphicsToolStripButton.Text = "Remove Vector Graphics";
+            resources.ApplyResources(this.removeVectorGraphicsToolStripButton, "removeVectorGraphicsToolStripButton");
             this.removeVectorGraphicsToolStripButton.Click += new System.EventHandler(this.AddRedactionMarkButton_Click);
             // 
             // removeAnnotationsToolStripButton
@@ -138,7 +138,7 @@ namespace DemosCommonCode.Pdf
             this.removeAnnotationsToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.removeAnnotationsToolStripButton.Name = "removeAnnotationsToolStripButton";
             this.removeAnnotationsToolStripButton.Size = new System.Drawing.Size(138, 20);
-            this.removeAnnotationsToolStripButton.Text = "Remove Annotations";
+            resources.ApplyResources(this.removeAnnotationsToolStripButton, "removeAnnotationsToolStripButton");
             this.removeAnnotationsToolStripButton.Click += new System.EventHandler(this.AddRedactionMarkButton_Click);
             // 
             // removeSelectedPageToolStripButton
@@ -147,7 +147,7 @@ namespace DemosCommonCode.Pdf
             this.removeSelectedPageToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.removeSelectedPageToolStripButton.Name = "removeSelectedPageToolStripButton";
             this.removeSelectedPageToolStripButton.Size = new System.Drawing.Size(146, 20);
-            this.removeSelectedPageToolStripButton.Text = "Remove Selected Page";
+            resources.ApplyResources(this.removeSelectedPageToolStripButton, "removeSelectedPageToolStripButton");
             this.removeSelectedPageToolStripButton.Click += new System.EventHandler(this.removeSelectedPageToolStripButton_Click);
             // 
             // redactionMarksListBox
@@ -178,21 +178,21 @@ namespace DemosCommonCode.Pdf
             // 
             this.cutToolStripMenuItem.Name = "cutToolStripMenuItem";
             this.cutToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
-            this.cutToolStripMenuItem.Text = "Cut";
+            resources.ApplyResources(this.cutToolStripMenuItem, "cutToolStripMenuItem");
             this.cutToolStripMenuItem.Click += new System.EventHandler(this.cutToolStripMenuItem_Click);
             // 
             // copyToolStripMenuItem
             // 
             this.copyToolStripMenuItem.Name = "copyToolStripMenuItem";
             this.copyToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
-            this.copyToolStripMenuItem.Text = "Copy";
+            resources.ApplyResources(this.copyToolStripMenuItem, "copyToolStripMenuItem");
             this.copyToolStripMenuItem.Click += new System.EventHandler(this.copyToolStripMenuItem_Click);
             // 
             // pasteToolStripMenuItem
             // 
             this.pasteToolStripMenuItem.Name = "pasteToolStripMenuItem";
             this.pasteToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
-            this.pasteToolStripMenuItem.Text = "Paste";
+            resources.ApplyResources(this.pasteToolStripMenuItem, "pasteToolStripMenuItem");
             this.pasteToolStripMenuItem.Click += new System.EventHandler(this.pasteToolStripMenuItem1_Click);
             // 
             // toolStripSeparator1
@@ -204,7 +204,7 @@ namespace DemosCommonCode.Pdf
             // 
             this.deleteToolStripMenuItem.Name = "deleteToolStripMenuItem";
             this.deleteToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
-            this.deleteToolStripMenuItem.Text = "Delete";
+            resources.ApplyResources(this.deleteToolStripMenuItem, "deleteToolStripMenuItem");
             this.deleteToolStripMenuItem.Click += new System.EventHandler(this.deleteToolStripMenuItem_Click);
             // 
             // mainPanel
@@ -229,7 +229,7 @@ namespace DemosCommonCode.Pdf
             this.showPackDialogAfterMarkAppliesCheckBox.Name = "showPackDialogAfterMarkAppliesCheckBox";
             this.showPackDialogAfterMarkAppliesCheckBox.Size = new System.Drawing.Size(203, 17);
             this.showPackDialogAfterMarkAppliesCheckBox.TabIndex = 4;
-            this.showPackDialogAfterMarkAppliesCheckBox.Text = "Show Pack Dialog after Mark Applied";
+            resources.ApplyResources(this.showPackDialogAfterMarkAppliesCheckBox, "showPackDialogAfterMarkAppliesCheckBox");
             this.showPackDialogAfterMarkAppliesCheckBox.UseVisualStyleBackColor = true;
             // 
             // panel1
@@ -264,7 +264,7 @@ namespace DemosCommonCode.Pdf
             this.applyRedactionMarksToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.applyRedactionMarksToolStripButton.Name = "applyRedactionMarksToolStripButton";
             this.applyRedactionMarksToolStripButton.Size = new System.Drawing.Size(154, 20);
-            this.applyRedactionMarksToolStripButton.Text = "Apply Redaction Marks";
+            resources.ApplyResources(this.applyRedactionMarksToolStripButton, "applyRedactionMarksToolStripButton");
             this.applyRedactionMarksToolStripButton.Click += new System.EventHandler(this.applyRedactionMarksToolStripButton_Click);
             // 
             // markSelectedPagesFrmRedactionToolStripButton
@@ -273,7 +273,7 @@ namespace DemosCommonCode.Pdf
             this.markSelectedPagesFrmRedactionToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.markSelectedPagesFrmRedactionToolStripButton.Name = "markSelectedPagesFrmRedactionToolStripButton";
             this.markSelectedPagesFrmRedactionToolStripButton.Size = new System.Drawing.Size(209, 20);
-            this.markSelectedPagesFrmRedactionToolStripButton.Text = "Mark Selected Pages for Redaction";
+            resources.ApplyResources(this.markSelectedPagesFrmRedactionToolStripButton, "markSelectedPagesFrmRedactionToolStripButton");
             this.markSelectedPagesFrmRedactionToolStripButton.Visible = false;
             this.markSelectedPagesFrmRedactionToolStripButton.Click += new System.EventHandler(this.markSelectedPagesFrmRedactionToolStripButton_Click);
             // 
@@ -283,7 +283,7 @@ namespace DemosCommonCode.Pdf
             this.deleteSelectedRedactionMarkToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.deleteSelectedRedactionMarkToolStripButton.Name = "deleteSelectedRedactionMarkToolStripButton";
             this.deleteSelectedRedactionMarkToolStripButton.Size = new System.Drawing.Size(193, 20);
-            this.deleteSelectedRedactionMarkToolStripButton.Text = "Delete Selected Redaction Mark";
+            resources.ApplyResources(this.deleteSelectedRedactionMarkToolStripButton, "deleteSelectedRedactionMarkToolStripButton");
             this.deleteSelectedRedactionMarkToolStripButton.Click += new System.EventHandler(this.deleteSelectedRedactionMarkToolStripButton_Click);
             // 
             // redactionMarkAppearancePropertiesToolStripButton
@@ -292,7 +292,7 @@ namespace DemosCommonCode.Pdf
             this.redactionMarkAppearancePropertiesToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.redactionMarkAppearancePropertiesToolStripButton.Name = "redactionMarkAppearancePropertiesToolStripButton";
             this.redactionMarkAppearancePropertiesToolStripButton.Size = new System.Drawing.Size(185, 20);
-            this.redactionMarkAppearancePropertiesToolStripButton.Text = "Redaction Mark Appearance...";
+            resources.ApplyResources(this.redactionMarkAppearancePropertiesToolStripButton, "redactionMarkAppearancePropertiesToolStripButton");
             this.redactionMarkAppearancePropertiesToolStripButton.Click += new System.EventHandler(this.redactionMarkAppearancePropertiesToolStripButton_Click);
             // 
             // imageViewerContextMenuStrip
@@ -308,14 +308,14 @@ namespace DemosCommonCode.Pdf
             // 
             this.imageViewerPasteToolStripMenuItem.Name = "imageViewerPasteToolStripMenuItem";
             this.imageViewerPasteToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
-            this.imageViewerPasteToolStripMenuItem.Text = "Paste";
+            resources.ApplyResources(this.imageViewerPasteToolStripMenuItem, "imageViewerPasteToolStripMenuItem");
             this.imageViewerPasteToolStripMenuItem.Click += new System.EventHandler(this.imageViewerPasteToolStripMenuItem_Click);
             // 
             // imageViewerRemoveAllToolStripMenuItem
             // 
             this.imageViewerRemoveAllToolStripMenuItem.Name = "imageViewerRemoveAllToolStripMenuItem";
             this.imageViewerRemoveAllToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
-            this.imageViewerRemoveAllToolStripMenuItem.Text = "Remove All";
+            resources.ApplyResources(this.imageViewerRemoveAllToolStripMenuItem, "imageViewerRemoveAllToolStripMenuItem");
             this.imageViewerRemoveAllToolStripMenuItem.Click += new System.EventHandler(this.imageViewerRemoveAllToolStripMenuItem_Click);
             // 
             // PdfRemoveContentControl

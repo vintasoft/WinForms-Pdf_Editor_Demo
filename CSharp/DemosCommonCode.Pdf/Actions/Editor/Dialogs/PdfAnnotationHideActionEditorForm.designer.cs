@@ -28,6 +28,7 @@ namespace DemosCommonCode.Pdf
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PdfAnnotationHideActionEditorForm));
             this.components = new System.ComponentModel.Container();
             this.okButton = new System.Windows.Forms.Button();
             this.buttonCancel = new System.Windows.Forms.Button();
@@ -64,7 +65,7 @@ namespace DemosCommonCode.Pdf
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(75, 23);
             this.buttonCancel.TabIndex = 1;
-            this.buttonCancel.Text = "Cancel";
+            resources.ApplyResources(this.buttonCancel, "buttonCancel");
             this.buttonCancel.UseVisualStyleBackColor = true;
             // 
             // tableLayoutPanel1
@@ -135,7 +136,7 @@ namespace DemosCommonCode.Pdf
             this.removeAllButton.Name = "removeAllButton";
             this.removeAllButton.Size = new System.Drawing.Size(75, 23);
             this.removeAllButton.TabIndex = 2;
-            this.removeAllButton.Text = "Remove All";
+            resources.ApplyResources(this.removeAllButton, "removeAllButton");
             this.removeAllButton.UseVisualStyleBackColor = true;
             this.removeAllButton.Click += new System.EventHandler(this.removeAllButton_Click);
             // 
@@ -146,7 +147,7 @@ namespace DemosCommonCode.Pdf
             this.removeButton.Name = "removeButton";
             this.removeButton.Size = new System.Drawing.Size(75, 23);
             this.removeButton.TabIndex = 1;
-            this.removeButton.Text = "Remove";
+            resources.ApplyResources(this.removeButton, "removeButton");
             this.removeButton.UseVisualStyleBackColor = true;
             this.removeButton.Click += new System.EventHandler(this.removeButton_Click);
             // 
@@ -168,7 +169,7 @@ namespace DemosCommonCode.Pdf
             this.hideCheckBox.Name = "hideCheckBox";
             this.hideCheckBox.Size = new System.Drawing.Size(106, 17);
             this.hideCheckBox.TabIndex = 3;
-            this.hideCheckBox.Text = "Hide annotations";
+            resources.ApplyResources(this.hideCheckBox, "hideCheckBox");
             this.hideCheckBox.UseVisualStyleBackColor = true;
             // 
             // pagesComboBox
@@ -197,7 +198,7 @@ namespace DemosCommonCode.Pdf
             this.MinimizeBox = false;
             this.Name = "PdfAnnotationHideActionEditorForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Annotation Hide Action Editor";
+            resources.ApplyResources(this, "$this");
             this.tableLayoutPanel1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);

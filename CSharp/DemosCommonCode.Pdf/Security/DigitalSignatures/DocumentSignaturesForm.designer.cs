@@ -28,6 +28,7 @@ namespace DemosCommonCode.Pdf.Security
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DocumentSignaturesForm));
             this.okButton = new System.Windows.Forms.Button();
             this.vefifyAllButton = new System.Windows.Forms.Button();
             this.signaturesTreeView = new System.Windows.Forms.TreeView();
@@ -53,7 +54,7 @@ namespace DemosCommonCode.Pdf.Security
             this.vefifyAllButton.Name = "vefifyAllButton";
             this.vefifyAllButton.Size = new System.Drawing.Size(146, 23);
             this.vefifyAllButton.TabIndex = 5;
-            this.vefifyAllButton.Text = "Verify All Signatures";
+            resources.ApplyResources(this.vefifyAllButton, "vefifyAllButton");
             this.vefifyAllButton.UseVisualStyleBackColor = true;
             this.vefifyAllButton.Click += new System.EventHandler(this.verifyAllButton_Click);
             // 
@@ -77,7 +78,7 @@ namespace DemosCommonCode.Pdf.Security
             this.saveDocumentRevisionButton.Name = "saveDocumentRevisionButton";
             this.saveDocumentRevisionButton.Size = new System.Drawing.Size(183, 23);
             this.saveDocumentRevisionButton.TabIndex = 7;
-            this.saveDocumentRevisionButton.Text = "Save Document Resivion As...";
+            resources.ApplyResources(this.saveDocumentRevisionButton, "saveDocumentRevisionButton");
             this.saveDocumentRevisionButton.UseVisualStyleBackColor = true;
             this.saveDocumentRevisionButton.Click += new System.EventHandler(this.saveDocumentRevisionButton_Click);
             // 
@@ -105,7 +106,7 @@ namespace DemosCommonCode.Pdf.Security
             this.Controls.Add(this.okButton);
             this.Name = "DocumentSignaturesForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Document Signatures";
+            resources.ApplyResources(this, "$this");
             this.ResumeLayout(false);
             this.PerformLayout();
 

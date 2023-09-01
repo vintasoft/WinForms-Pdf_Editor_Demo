@@ -29,6 +29,7 @@ namespace DemosCommonCode.Office
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SetOpenXmlParagraphNumerationForm));
             this.buttonCancel = new System.Windows.Forms.Button();
             this.buttonOk = new System.Windows.Forms.Button();
             this.numerationDefinitionsListBox = new System.Windows.Forms.ListBox();
@@ -47,7 +48,7 @@ namespace DemosCommonCode.Office
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(75, 23);
             this.buttonCancel.TabIndex = 3;
-            this.buttonCancel.Text = "Cancel";
+            resources.ApplyResources(this.buttonCancel, "buttonCancel");
             this.buttonCancel.UseVisualStyleBackColor = true;
             this.buttonCancel.Click += new System.EventHandler(this.buttonCancel_Click);
             // 
@@ -79,7 +80,7 @@ namespace DemosCommonCode.Office
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(113, 13);
             this.label1.TabIndex = 5;
-            this.label1.Text = "Numeration Definitions";
+            resources.ApplyResources(this.label1, "label1");
             // 
             // externalNumerationsComboBox
             // 
@@ -96,7 +97,7 @@ namespace DemosCommonCode.Office
             this.importButton.Name = "importButton";
             this.importButton.Size = new System.Drawing.Size(176, 23);
             this.importButton.TabIndex = 7;
-            this.importButton.Text = "Import";
+            resources.ApplyResources(this.importButton, "importButton");
             this.importButton.UseVisualStyleBackColor = true;
             this.importButton.Click += new System.EventHandler(this.importButton_Click);
             // 
@@ -107,7 +108,7 @@ namespace DemosCommonCode.Office
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(154, 13);
             this.label2.TabIndex = 8;
-            this.label2.Text = "External Numeration Definitions";
+            resources.ApplyResources(this.label2, "label2");
             // 
             // restartButton
             // 
@@ -115,7 +116,7 @@ namespace DemosCommonCode.Office
             this.restartButton.Name = "restartButton";
             this.restartButton.Size = new System.Drawing.Size(138, 23);
             this.restartButton.TabIndex = 9;
-            this.restartButton.Text = "Create Copy (Restart)";
+            resources.ApplyResources(this.restartButton, "restartButton");
             this.restartButton.UseVisualStyleBackColor = true;
             this.restartButton.Click += new System.EventHandler(this.restartButton_Click);
             // 
@@ -139,7 +140,7 @@ namespace DemosCommonCode.Office
             this.Name = "SetOpenXmlParagraphNumerationForm";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Set Paragraph Numeration";
+            resources.ApplyResources(this, "$this");
             this.TopMost = true;
             this.ResumeLayout(false);
             this.PerformLayout();

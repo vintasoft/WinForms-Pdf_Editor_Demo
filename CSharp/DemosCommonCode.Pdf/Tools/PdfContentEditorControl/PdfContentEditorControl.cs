@@ -952,7 +952,7 @@ namespace DemosCommonCode.Pdf
                 _pen = (PdfPen)_pen.Clone();
 
             // create form that allows to edit pen settings
-            using (PropertyGridForm dialog = new PropertyGridForm(_pen, "Set properties of pen", true))
+            using (PropertyGridForm dialog = new PropertyGridForm(_pen, PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SET_PROPERTIES_OF_PEN, true))
             {
                 return dialog.ShowDialog() == DialogResult.OK;
             }
@@ -1028,7 +1028,7 @@ namespace DemosCommonCode.Pdf
                 _brush = (PdfBrush)_brush.Clone();
 
             // create form that allows to edit brush settings
-            using (PropertyGridForm dialog = new PropertyGridForm(_brush, "Set properties of brush", true))
+            using (PropertyGridForm dialog = new PropertyGridForm(_brush, PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SET_PROPERTIES_OF_BRUSH, true))
             {
                 return dialog.ShowDialog() == DialogResult.OK;
             }
@@ -1094,7 +1094,7 @@ namespace DemosCommonCode.Pdf
                     // set brush
                     textBox.Brush = brush;
                     // create property grid form of text box
-                    using (PropertyGridForm dialog = new PropertyGridForm(textBox, "Set properties of TextBoxFigure", true))
+                    using (PropertyGridForm dialog = new PropertyGridForm(textBox, PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SET_PROPERTIES_OF_TEXTBOXFIGURE, true))
                     {
                         // show dialog
                         if (dialog.ShowDialog() == DialogResult.OK)
@@ -1173,7 +1173,7 @@ namespace DemosCommonCode.Pdf
                     figure.Image = image;
 
                     // create property grid of figure
-                    using (PropertyGridForm figurePropertiesForm = new PropertyGridForm(figure, "VintasoftImageFigure properties"))
+                    using (PropertyGridForm figurePropertiesForm = new PropertyGridForm(figure, PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_VINTASOFTIMAGEFIGURE_PROPERTIES))
                     {
                         if (figurePropertiesForm.ShowDialog() == DialogResult.OK)
                             // build of the figure
@@ -1681,13 +1681,13 @@ namespace DemosCommonCode.Pdf
 
                 // update button properties
                 undoToolStripSplitButton.Enabled = true;
-                undoToolStripSplitButton.ToolTipText = string.Format("Undo (Ctrl+Z): {0}", _undoManager.UndoDescription).Trim();
+                undoToolStripSplitButton.ToolTipText = string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_UNDO_CTRLZ_ARG0, _undoManager.UndoDescription).Trim();
             }
             else
             {
                 // update button properties
                 undoToolStripSplitButton.Enabled = false;
-                undoToolStripSplitButton.ToolTipText = "Undo";
+                undoToolStripSplitButton.ToolTipText = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_UNDO;
             }
 
             // if undo manager contains redo actions and redo action is not executing now
@@ -1708,13 +1708,13 @@ namespace DemosCommonCode.Pdf
 
                 // update button properties
                 redoToolStripSplitButton.Enabled = true;
-                redoToolStripSplitButton.ToolTipText = string.Format("Redo (Ctrl+Y): {0}", _undoManager.RedoDescription).Trim();
+                redoToolStripSplitButton.ToolTipText = string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_REDO_CTRLY_ARG0, _undoManager.RedoDescription).Trim();
             }
             else
             {
                 // update button properties
                 redoToolStripSplitButton.Enabled = false;
-                redoToolStripSplitButton.ToolTipText = "Redo";
+                redoToolStripSplitButton.ToolTipText = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_REDO;
             }
         }
 

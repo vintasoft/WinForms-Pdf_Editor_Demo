@@ -28,6 +28,7 @@ namespace DemosCommonCode.Pdf
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PdfRectangularAnnotationPropertiesEditorControl));
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.mainPanel = new System.Windows.Forms.Panel();
@@ -47,7 +48,7 @@ namespace DemosCommonCode.Pdf
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(66, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Interior Color";
+            resources.ApplyResources(this.label1, "label1");
             // 
             // groupBox1
             // 
@@ -58,7 +59,7 @@ namespace DemosCommonCode.Pdf
             this.groupBox1.Size = new System.Drawing.Size(135, 124);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Padding";
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             // 
             // mainPanel
             // 
@@ -80,7 +81,7 @@ namespace DemosCommonCode.Pdf
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(30, 13);
             this.label2.TabIndex = 4;
-            this.label2.Text = "Style";
+            resources.ApplyResources(this.label2, "label2");
             // 
             // autoUpdatePaddingCheckBox
             // 
@@ -91,7 +92,7 @@ namespace DemosCommonCode.Pdf
             this.autoUpdatePaddingCheckBox.Name = "autoUpdatePaddingCheckBox";
             this.autoUpdatePaddingCheckBox.Size = new System.Drawing.Size(48, 17);
             this.autoUpdatePaddingCheckBox.TabIndex = 1;
-            this.autoUpdatePaddingCheckBox.Text = "Auto";
+            resources.ApplyResources(this.autoUpdatePaddingCheckBox, "autoUpdatePaddingCheckBox");
             this.autoUpdatePaddingCheckBox.UseVisualStyleBackColor = true;
             this.autoUpdatePaddingCheckBox.CheckedChanged += new System.EventHandler(this.autoUpdatePaddingCheckBox_CheckedChanged);
             // 

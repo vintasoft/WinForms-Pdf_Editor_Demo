@@ -531,4 +531,160 @@
   <metadata name="textEditingExceptionToolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <data name="contentGraphicsPropertiesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Content Graphics Properties...</value>
+  </data>
+  <data name="removeAllToolStripMenuItem.Text" xml:space="preserve">
+    <value>Remove All</value>
+  </data>
+  <data name="pasteToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Paste</value>
+  </data>
+  <data name="propertiesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Properties...</value>
+  </data>
+  <data name="replaceResourceToolStripMenuItem.Text" xml:space="preserve">
+    <value>Replace Image or Form...</value>
+  </data>
+  <data name="bringToBackToolStripMenuItem.Text" xml:space="preserve">
+    <value>Bring to Back</value>
+  </data>
+  <data name="bringToFrontToolStripMenuItem.Text" xml:space="preserve">
+    <value>Bring to Front</value>
+  </data>
+  <data name="selectFigureToolStripMenuItem.Text" xml:space="preserve">
+    <value>Select by Cursor</value>
+  </data>
+  <data name="deleteToolStripMenuItem.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="pasteToolStripMenuItem.Text" xml:space="preserve">
+    <value>Paste</value>
+  </data>
+  <data name="copyToolStripMenuItem.Text" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="cutToolStripMenuItem.Text" xml:space="preserve">
+    <value>Cut</value>
+  </data>
+  <data name="renderFiguresButton.Text" xml:space="preserve">
+    <value>Append Content</value>
+  </data>
+  <data name="removeAllButton.Text" xml:space="preserve">
+    <value>Remove All</value>
+  </data>
+  <data name="drawClosedCurvesToolStripButton.Text" xml:space="preserve">
+    <value>Closed Curves</value>
+  </data>
+  <data name="drawCurvesToolStripButton.Text" xml:space="preserve">
+    <value>Curves</value>
+  </data>
+  <data name="freeHandLineToolStripButton.Text" xml:space="preserve">
+    <value>Freehand Line</value>
+  </data>
+  <data name="drawLinesToolStripButton.Text" xml:space="preserve">
+    <value>Lines</value>
+  </data>
+  <data name="drawLinesUseBlendingModeToolStripButton.Text" xml:space="preserve">
+    <value>Highlight With Blending</value>
+  </data>
+  <data name="fillRectangleUseBlendingModeToolStripButton.Text" xml:space="preserve">
+    <value>Highlight Rectangle With Blending</value>
+  </data>
+  <data name="fillRectangleToolStripButton.Text" xml:space="preserve">
+    <value>Filled Rectangle</value>
+  </data>
+  <data name="formXObjectToolStripButton.Text" xml:space="preserve">
+    <value>Form Resource</value>
+  </data>
+  <data name="drawImageToolStripButton.Text" xml:space="preserve">
+    <value>Image Resource</value>
+  </data>
+  <data name="drawOfficeDocumentButton.ToolTipText" xml:space="preserve">
+    <value>Office Document</value>
+  </data>
+  <data name="drawOfficeDocumentButton.Text" xml:space="preserve">
+    <value>Office Document</value>
+  </data>
+  <data name="formattedTextButton.Text" xml:space="preserve">
+    <value>Formatted Text</value>
+  </data>
+  <data name="addTextBoxToolStripButton.Text" xml:space="preserve">
+    <value>Text Box</value>
+  </data>
+  <data name="addTextToolStripButton.Text" xml:space="preserve">
+    <value>Text Line</value>
+  </data>
+  <data name="figuresGroupBox.Text" xml:space="preserve">
+    <value>Add Graphics Figure</value>
+  </data>
+  <data name="removeButton.Text" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="clipContentToolStripButton.Text" xml:space="preserve">
+    <value>Edit Clip Paths</value>
+  </data>
+  <data name="shadingFillContentToolStripButton.Text" xml:space="preserve">
+    <value>Edit Shading Fills</value>
+  </data>
+  <data name="fillPathContentToolStripButton.Text" xml:space="preserve">
+    <value>Edit Fill Paths</value>
+  </data>
+  <data name="strokePathContentToolStripButton.Text" xml:space="preserve">
+    <value>Edit Stroke Paths</value>
+  </data>
+  <data name="formContentToolStripButton.Text" xml:space="preserve">
+    <value>Edit Forms</value>
+  </data>
+  <data name="imageContentToolStripButton.Text" xml:space="preserve">
+    <value>Edit Images</value>
+  </data>
+  <data name="textContentToolStripButton.Text" xml:space="preserve">
+    <value>Edit Text</value>
+  </data>
+  <data name="highlightToolStripButton.ToolTipText" xml:space="preserve">
+    <value>Highlight content figures</value>
+  </data>
+  <data name="groupContentFiguresToolStripButton.Text" xml:space="preserve">
+    <value>Group Content Figures</value>
+  </data>
+  <data name="appendModeToolStripButton.Text" xml:space="preserve">
+    <value>Use Append Mode</value>
+  </data>
+  <data name="addEllipseClipToolStripButton.ToolTipText" xml:space="preserve">
+    <value>Add Elliptical Clip</value>
+  </data>
+  <data name="addRectangleClipToolStripButton.ToolTipText" xml:space="preserve">
+    <value>Add Rectangular Clip</value>
+  </data>
+  <data name="rotateCounterclockwiseToolStripButton.ToolTipText" xml:space="preserve">
+    <value>Rotate by 90 degress (Counterclockwise)</value>
+  </data>
+  <data name="rotateClockwiseToolStripButton.ToolTipText" xml:space="preserve">
+    <value>Rotate by 90 degress (Clockwise)</value>
+  </data>
+  <data name="verticalMirrorToolStripButton.ToolTipText" xml:space="preserve">
+    <value>Vertial Mirror</value>
+  </data>
+  <data name="horizontalMirrorToolStripButton.ToolTipText" xml:space="preserve">
+    <value>Horizontal Mirror</value>
+  </data>
+  <data name="contentGraphicsPropertiesToolStripButton.ToolTipText" xml:space="preserve">
+    <value>Edit Content Graphics Properties...</value>
+  </data>
+  <data name="replaceResourceToolStripButton.ToolTipText" xml:space="preserve">
+    <value>Replace Image/Form Resource...</value>
+  </data>
+  <data name="editTextObjectToolStripButton.Text" xml:space="preserve">
+    <value>Edit Text</value>
+  </data>
+  <data name="redoToolStripSplitButton.Text" xml:space="preserve">
+    <value>Redo</value>
+  </data>
+  <data name="undoToolStripSplitButton.Text" xml:space="preserve">
+    <value>Undo</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </metadata>
 </root>

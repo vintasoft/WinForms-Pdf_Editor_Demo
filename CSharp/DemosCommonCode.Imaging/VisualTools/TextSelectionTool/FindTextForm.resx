@@ -57,4 +57,40 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Find text</value>
+  </data>
+  <data name="stopButton.Text" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="findNextButton.Text" xml:space="preserve">
+    <value>Find Next</value>
+  </data>
+  <data name="matchCaseCheckBox.Text" xml:space="preserve">
+    <value>Match case</value>
+  </data>
+  <data name="searchUpCheckBox.Text" xml:space="preserve">
+    <value>Search up</value>
+  </data>
+  <data name="regexCheckBox.Text" xml:space="preserve">
+    <value>Use regular expressions</value>
+  </data>
+  <data name="findOptionsGroupBox.Text" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="lookInComboBox.Items1" xml:space="preserve">
+    <value>All pages</value>
+  </data>
+  <data name="lookInComboBox.Items" xml:space="preserve">
+    <value>Current page</value>
+  </data>
+  <data name="lookInLabel.Text" xml:space="preserve">
+    <value>Look in:</value>
+  </data>
+  <data name="findWhatLabel.Text" xml:space="preserve">
+    <value>Find what:</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </metadata>
 </root>

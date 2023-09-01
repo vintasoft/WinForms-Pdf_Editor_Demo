@@ -29,6 +29,7 @@ namespace DemosCommonCode.Pdf
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PdfContentGraphicsPropertiesForm));
             this.strokeGroupBox = new System.Windows.Forms.GroupBox();
             this.label3 = new System.Windows.Forms.Label();
             this.lineWidthNumericUpDown = new System.Windows.Forms.NumericUpDown();
@@ -70,7 +71,7 @@ namespace DemosCommonCode.Pdf
             this.strokeGroupBox.Size = new System.Drawing.Size(260, 80);
             this.strokeGroupBox.TabIndex = 2;
             this.strokeGroupBox.TabStop = false;
-            this.strokeGroupBox.Text = "Stroke Properties";
+            resources.ApplyResources(this.strokeGroupBox, "strokeGroupBox");
             // 
             // label3
             // 
@@ -79,7 +80,7 @@ namespace DemosCommonCode.Pdf
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(58, 13);
             this.label3.TabIndex = 3;
-            this.label3.Text = "Line Width";
+            resources.ApplyResources(this.label3, "label3");
             // 
             // lineWidthNumericUpDown
             // 
@@ -101,7 +102,7 @@ namespace DemosCommonCode.Pdf
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(116, 13);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Stroke Color and Alpha";
+            resources.ApplyResources(this.label1, "label1");
             // 
             // strokeColorPanelControl
             // 
@@ -120,7 +121,7 @@ namespace DemosCommonCode.Pdf
             this.strokePropertiesCheckBox.Name = "strokePropertiesCheckBox";
             this.strokePropertiesCheckBox.Size = new System.Drawing.Size(126, 17);
             this.strokePropertiesCheckBox.TabIndex = 3;
-            this.strokePropertiesCheckBox.Text = "Set Stroke Properties";
+            resources.ApplyResources(this.strokePropertiesCheckBox, "strokePropertiesCheckBox");
             this.strokePropertiesCheckBox.UseVisualStyleBackColor = true;
             this.strokePropertiesCheckBox.CheckedChanged += new System.EventHandler(this.strokePropertiesCheckBox_CheckedChanged);
             // 
@@ -131,7 +132,7 @@ namespace DemosCommonCode.Pdf
             this.fillPropertiesCheckBox.Name = "fillPropertiesCheckBox";
             this.fillPropertiesCheckBox.Size = new System.Drawing.Size(107, 17);
             this.fillPropertiesCheckBox.TabIndex = 4;
-            this.fillPropertiesCheckBox.Text = "Set Fill Properties";
+            resources.ApplyResources(this.fillPropertiesCheckBox, "fillPropertiesCheckBox");
             this.fillPropertiesCheckBox.UseVisualStyleBackColor = true;
             this.fillPropertiesCheckBox.CheckedChanged += new System.EventHandler(this.fillPropertiesCheckBox_CheckedChanged);
             // 
@@ -147,7 +148,7 @@ namespace DemosCommonCode.Pdf
             this.fillGroupBox.Size = new System.Drawing.Size(260, 52);
             this.fillGroupBox.TabIndex = 3;
             this.fillGroupBox.TabStop = false;
-            this.fillGroupBox.Text = "Fill Properties";
+            resources.ApplyResources(this.fillGroupBox, "fillGroupBox");
             // 
             // label2
             // 
@@ -156,7 +157,7 @@ namespace DemosCommonCode.Pdf
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(97, 13);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Fill Color and Alpha";
+            resources.ApplyResources(this.label2, "label2");
             // 
             // fillColorPanelControl
             // 
@@ -185,7 +186,7 @@ namespace DemosCommonCode.Pdf
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(75, 23);
             this.buttonCancel.TabIndex = 6;
-            this.buttonCancel.Text = "Cancel";
+            resources.ApplyResources(this.buttonCancel, "buttonCancel");
             this.buttonCancel.UseVisualStyleBackColor = true;
             this.buttonCancel.Click += new System.EventHandler(this.buttonCancel_Click);
             // 
@@ -196,7 +197,7 @@ namespace DemosCommonCode.Pdf
             this.textPropertiesCheckBox.Name = "textPropertiesCheckBox";
             this.textPropertiesCheckBox.Size = new System.Drawing.Size(116, 17);
             this.textPropertiesCheckBox.TabIndex = 7;
-            this.textPropertiesCheckBox.Text = "Set Text Properties";
+            resources.ApplyResources(this.textPropertiesCheckBox, "textPropertiesCheckBox");
             this.textPropertiesCheckBox.UseVisualStyleBackColor = true;
             this.textPropertiesCheckBox.CheckedChanged += new System.EventHandler(this.textPropertiesCheckBox_CheckedChanged);
             // 
@@ -212,7 +213,7 @@ namespace DemosCommonCode.Pdf
             this.textPropertiesGroupBox.Size = new System.Drawing.Size(260, 48);
             this.textPropertiesGroupBox.TabIndex = 4;
             this.textPropertiesGroupBox.TabStop = false;
-            this.textPropertiesGroupBox.Text = "Text Properties";
+            resources.ApplyResources(this.textPropertiesGroupBox, "textPropertiesGroupBox");
             // 
             // textRenderingModeComboBox
             // 
@@ -231,7 +232,7 @@ namespace DemosCommonCode.Pdf
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(86, 13);
             this.label4.TabIndex = 2;
-            this.label4.Text = "Rendering Mode";
+            resources.ApplyResources(this.label4, "label4");
             // 
             // colorBlendingCheckBox
             // 
@@ -240,7 +241,7 @@ namespace DemosCommonCode.Pdf
             this.colorBlendingCheckBox.Name = "colorBlendingCheckBox";
             this.colorBlendingCheckBox.Size = new System.Drawing.Size(113, 17);
             this.colorBlendingCheckBox.TabIndex = 8;
-            this.colorBlendingCheckBox.Text = "Set Color Blending";
+            resources.ApplyResources(this.colorBlendingCheckBox, "colorBlendingCheckBox");
             this.colorBlendingCheckBox.UseVisualStyleBackColor = true;
             this.colorBlendingCheckBox.CheckedChanged += new System.EventHandler(this.colorBlendingCheckBox_CheckedChanged);
             // 
@@ -256,7 +257,7 @@ namespace DemosCommonCode.Pdf
             this.colorBlendingGroupBox.Size = new System.Drawing.Size(260, 48);
             this.colorBlendingGroupBox.TabIndex = 5;
             this.colorBlendingGroupBox.TabStop = false;
-            this.colorBlendingGroupBox.Text = "Color Blending";
+            resources.ApplyResources(this.colorBlendingGroupBox, "colorBlendingGroupBox");
             // 
             // colorBlendingComboBox
             // 
@@ -275,7 +276,7 @@ namespace DemosCommonCode.Pdf
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(105, 13);
             this.label5.TabIndex = 2;
-            this.label5.Text = "Color Blending Mode";
+            resources.ApplyResources(this.label5, "label5");
             // 
             // PdfContentGraphicsPropertiesForm
             // 
@@ -299,7 +300,7 @@ namespace DemosCommonCode.Pdf
             this.Name = "PdfContentGraphicsPropertiesForm";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Set Content Graphics Properties";
+            resources.ApplyResources(this, "$this");
             this.strokeGroupBox.ResumeLayout(false);
             this.strokeGroupBox.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.lineWidthNumericUpDown)).EndInit();

@@ -28,6 +28,7 @@ namespace DemosCommonCode.Pdf
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PdfAnnotationCommonPropertiesEditorControl));
             this.label1 = new System.Windows.Forms.Label();
             this.nameTextBox = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -58,7 +59,7 @@ namespace DemosCommonCode.Pdf
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(35, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Name";
+            resources.ApplyResources(this.label1, "label1");
             // 
             // nameTextBox
             // 
@@ -77,7 +78,7 @@ namespace DemosCommonCode.Pdf
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(43, 13);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Subject";
+            resources.ApplyResources(this.label2, "label2");
             // 
             // label3
             // 
@@ -86,7 +87,7 @@ namespace DemosCommonCode.Pdf
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(27, 13);
             this.label3.TabIndex = 3;
-            this.label3.Text = "Title";
+            resources.ApplyResources(this.label3, "label3");
             // 
             // lockedCheckBox
             // 
@@ -95,7 +96,7 @@ namespace DemosCommonCode.Pdf
             this.lockedCheckBox.Name = "lockedCheckBox";
             this.lockedCheckBox.Size = new System.Drawing.Size(62, 17);
             this.lockedCheckBox.TabIndex = 4;
-            this.lockedCheckBox.Text = "Locked";
+            resources.ApplyResources(this.lockedCheckBox, "lockedCheckBox");
             this.lockedCheckBox.UseVisualStyleBackColor = true;
             this.lockedCheckBox.CheckedChanged += new System.EventHandler(this.lockedCheckBox_CheckedChanged);
             // 
@@ -106,7 +107,7 @@ namespace DemosCommonCode.Pdf
             this.printableCheckBox.Name = "printableCheckBox";
             this.printableCheckBox.Size = new System.Drawing.Size(67, 17);
             this.printableCheckBox.TabIndex = 5;
-            this.printableCheckBox.Text = "Printable";
+            resources.ApplyResources(this.printableCheckBox, "printableCheckBox");
             this.printableCheckBox.UseVisualStyleBackColor = true;
             this.printableCheckBox.CheckedChanged += new System.EventHandler(this.printableCheckBox_CheckedChanged);
             // 
@@ -117,7 +118,7 @@ namespace DemosCommonCode.Pdf
             this.readOnlyCheckBox.Name = "readOnlyCheckBox";
             this.readOnlyCheckBox.Size = new System.Drawing.Size(73, 17);
             this.readOnlyCheckBox.TabIndex = 6;
-            this.readOnlyCheckBox.Text = "ReadOnly";
+            resources.ApplyResources(this.readOnlyCheckBox, "readOnlyCheckBox");
             this.readOnlyCheckBox.UseVisualStyleBackColor = true;
             this.readOnlyCheckBox.CheckedChanged += new System.EventHandler(this.readOnlyCheckBox_CheckedChanged);
             // 
@@ -131,7 +132,7 @@ namespace DemosCommonCode.Pdf
             this.groupBox1.Size = new System.Drawing.Size(381, 79);
             this.groupBox1.TabIndex = 9;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Outline";
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             // 
             // borderStyleControl
             // 
@@ -183,7 +184,7 @@ namespace DemosCommonCode.Pdf
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(43, 13);
             this.label8.TabIndex = 0;
-            this.label8.Text = "Opacity";
+            resources.ApplyResources(this.label8, "label8");
             // 
             // subjectTextBox
             // 

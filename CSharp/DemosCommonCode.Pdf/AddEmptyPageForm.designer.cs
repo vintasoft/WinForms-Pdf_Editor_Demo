@@ -28,6 +28,7 @@ namespace DemosCommonCode.Pdf
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddEmptyPageForm));
             this.okButton = new System.Windows.Forms.Button();
             this.buttonCancel = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -63,7 +64,7 @@ namespace DemosCommonCode.Pdf
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(75, 23);
             this.buttonCancel.TabIndex = 1;
-            this.buttonCancel.Text = "Cancel";
+            resources.ApplyResources(this.buttonCancel, "buttonCancel");
             this.buttonCancel.UseVisualStyleBackColor = true;
             this.buttonCancel.Click += new System.EventHandler(this.cancelButton_Click);
             // 
@@ -74,7 +75,7 @@ namespace DemosCommonCode.Pdf
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(35, 13);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Width";
+            resources.ApplyResources(this.label1, "label1");
             // 
             // label2
             // 
@@ -83,7 +84,7 @@ namespace DemosCommonCode.Pdf
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(38, 13);
             this.label2.TabIndex = 3;
-            this.label2.Text = "Height";
+            resources.ApplyResources(this.label2, "label2");
             // 
             // label3
             // 
@@ -92,7 +93,7 @@ namespace DemosCommonCode.Pdf
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(31, 13);
             this.label3.TabIndex = 4;
-            this.label3.Text = "Units";
+            resources.ApplyResources(this.label3, "label3");
             // 
             // unitsComboBox
             // 
@@ -141,7 +142,7 @@ namespace DemosCommonCode.Pdf
             this.customSizeRadioButton.Name = "customSizeRadioButton";
             this.customSizeRadioButton.Size = new System.Drawing.Size(83, 17);
             this.customSizeRadioButton.TabIndex = 9;
-            this.customSizeRadioButton.Text = "Custom Size";
+            resources.ApplyResources(this.customSizeRadioButton, "customSizeRadioButton");
             this.customSizeRadioButton.UseVisualStyleBackColor = true;
             this.customSizeRadioButton.CheckedChanged += new System.EventHandler(this.customSizeRadioButton_CheckedChanged);
             // 
@@ -162,7 +163,7 @@ namespace DemosCommonCode.Pdf
             this.rotatedCheckBox.Name = "rotatedCheckBox";
             this.rotatedCheckBox.Size = new System.Drawing.Size(64, 17);
             this.rotatedCheckBox.TabIndex = 6;
-            this.rotatedCheckBox.Text = "Rotated";
+            resources.ApplyResources(this.rotatedCheckBox, "rotatedCheckBox");
             this.rotatedCheckBox.UseVisualStyleBackColor = true;
             // 
             // paperKindComboBox
@@ -182,7 +183,7 @@ namespace DemosCommonCode.Pdf
             this.standardSizeRadioButton.Name = "standardSizeRadioButton";
             this.standardSizeRadioButton.Size = new System.Drawing.Size(91, 17);
             this.standardSizeRadioButton.TabIndex = 9;
-            this.standardSizeRadioButton.Text = "Standard Size";
+            resources.ApplyResources(this.standardSizeRadioButton, "standardSizeRadioButton");
             this.standardSizeRadioButton.UseVisualStyleBackColor = true;
             this.standardSizeRadioButton.CheckedChanged += new System.EventHandler(this.standardSizeRadioButton_CheckedChanged);
             // 
@@ -203,7 +204,7 @@ namespace DemosCommonCode.Pdf
             this.MinimizeBox = false;
             this.Name = "AddEmptyPageForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Add Empty Page";
+            resources.ApplyResources(this, "$this");
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);

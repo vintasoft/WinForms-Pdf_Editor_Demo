@@ -28,6 +28,7 @@ namespace DemosCommonCode.Pdf
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PdfPolygonalAnnotationPropertiesEditorControl));
             this.label1 = new System.Windows.Forms.Label();
             this.interiorColorPanelControl = new DemosCommonCode.CustomControls.ColorPanelControl();
             this.mainPanel = new System.Windows.Forms.Panel();
@@ -43,7 +44,7 @@ namespace DemosCommonCode.Pdf
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(66, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Interior Color";
+            resources.ApplyResources(this.label1, "label1");
             // 
             // interiorColorPanelControl
             // 
@@ -90,7 +91,7 @@ namespace DemosCommonCode.Pdf
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(30, 13);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Style";
+            resources.ApplyResources(this.label2, "label2");
             // 
             // PdfPolygonalAnnotationPropertiesEditorControl
             // 

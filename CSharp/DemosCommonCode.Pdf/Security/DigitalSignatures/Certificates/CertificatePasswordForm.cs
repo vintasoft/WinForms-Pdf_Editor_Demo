@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.IO;
 using System.Windows.Forms;
 
@@ -44,9 +44,9 @@ namespace DemosCommonCode.Pdf.Security
             {
                 _filename = value;
                 if (_filename != null)
-                    Text = string.Format("Password - {0}", Path.GetFileName(_filename));
+                    Text = string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_PASSWORD_ARG0, Path.GetFileName(_filename));
                 else
-                    Text = "Password";
+                    Text = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_PASSWORD;
             }
         }
 

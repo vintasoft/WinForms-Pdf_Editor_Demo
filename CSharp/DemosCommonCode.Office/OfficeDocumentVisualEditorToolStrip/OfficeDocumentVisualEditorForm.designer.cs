@@ -64,7 +64,7 @@ namespace DemosCommonCode.Office
             this.chartsButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.chartsButton.Name = "chartsButton";
             this.chartsButton.Size = new System.Drawing.Size(23, 20);
-            this.chartsButton.Text = "Charts...";
+            resources.ApplyResources(this.chartsButton, "chartsButton");
             this.chartsButton.Click += new System.EventHandler(this.chartsButton_Click);
             // 
             // increaseContentScaleButton
@@ -76,7 +76,7 @@ namespace DemosCommonCode.Office
             this.increaseContentScaleButton.Name = "increaseContentScaleButton";
             this.increaseContentScaleButton.Size = new System.Drawing.Size(23, 22);
             this.increaseContentScaleButton.Text = "toolStripButton2";
-            this.increaseContentScaleButton.ToolTipText = "Increase content scale";
+            resources.ApplyResources(this.increaseContentScaleButton, "increaseContentScaleButton");
             this.increaseContentScaleButton.Click += new System.EventHandler(this.increaseContentScaleButton_Click);
             // 
             // decreaseContentScaleButton
@@ -87,8 +87,8 @@ namespace DemosCommonCode.Office
             this.decreaseContentScaleButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.decreaseContentScaleButton.Name = "decreaseContentScaleButton";
             this.decreaseContentScaleButton.Size = new System.Drawing.Size(23, 22);
-            this.decreaseContentScaleButton.Text = "toolStripButton3";
-            this.decreaseContentScaleButton.ToolTipText = "Decrease content scale";
+            resources.ApplyResources(this.decreaseContentScaleButton, "decreaseContentScaleButton");
+            
             this.decreaseContentScaleButton.Click += new System.EventHandler(this.decreaseContentScaleButton_Click);
             // 
             // fontPropertiesVisualEditorToolStrip

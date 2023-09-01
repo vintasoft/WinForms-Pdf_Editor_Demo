@@ -63,4 +63,85 @@
   <metadata name="saveFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>258, 17</value>
   </metadata>
+  <data name="selectAllToolStripMenuItem.Text" xml:space="preserve">
+    <value>Select All</value>
+  </data>
+  <data name="copyToolStripMenuItem.Text" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="formattingModeParagraphsRadioButton.Text" xml:space="preserve">
+    <value>Paragraphs</value>
+  </data>
+  <data name="formattingModeLinesRadioButton.Text" xml:space="preserve">
+    <value>Lines</value>
+  </data>
+  <data name="formattingModeMonospaceRadioButton.Text" xml:space="preserve">
+    <value>Monospace</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Formatting Mode</value>
+  </data>
+  <data name="mouseSelectionCheckBox.Text" xml:space="preserve">
+    <value>Mouse Selection</value>
+  </data>
+  <data name="keyboardSelectionCheckBox.Text" xml:space="preserve">
+    <value>Keyboard Selection</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>Blinking Interval (ms):</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Caret Width (px):</value>
+  </data>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>Text Caret</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Location (Image space):</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Location (Text space):</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Symbol:</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Symbol Code:</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Font Size:</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Font:</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Color:</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Symbol Rect:</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Rendering Mode:</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Content Code:</value>
+  </data>
+  <data name="cursorGroupBox.Text" xml:space="preserve">
+    <value>Focused Text Symbol</value>
+  </data>
+  <data name="saveAsTextButton.Text" xml:space="preserve">
+    <value>Save All Selected Text As...</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>Selected Text on Focused Page</value>
+  </data>
+  <data name="selectionModeFullLinesRadioButton.Text" xml:space="preserve">
+    <value>Full Lines</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Selection Mode</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </metadata>
 </root>

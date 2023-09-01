@@ -215,7 +215,7 @@ namespace DemosCommonCode.Pdf
                     {
                         if (!float.TryParse(destinationXTextBox.Text, NumberStyles.Float, CultureInfo.InvariantCulture, out x))
                         {
-                            DemosTools.ShowErrorMessage("X coordinate is not a valid float number.");
+                            DemosTools.ShowErrorMessage(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_X_COORDINATE_IS_NOT_A_VALID_FLOAT_NUMBER);
                             destinationXTextBox.SelectAll();
                             destinationXTextBox.Focus();
                             return;
@@ -230,7 +230,7 @@ namespace DemosCommonCode.Pdf
                     {
                         if (!float.TryParse(destinationYTextBox.Text, NumberStyles.Float, CultureInfo.InvariantCulture, out y))
                         {
-                            DemosTools.ShowErrorMessage("Y coordinate is not a valid float number.");
+                            DemosTools.ShowErrorMessage(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_Y_COORDINATE_IS_NOT_A_VALID_FLOAT_NUMBER);
                             destinationYTextBox.SelectAll();
                             destinationYTextBox.Focus();
                             return;
@@ -259,7 +259,7 @@ namespace DemosCommonCode.Pdf
                     float left;
                     if (!float.TryParse(destinationFitRectangleXTextBox.Text, NumberStyles.Float, CultureInfo.InvariantCulture, out left))
                     {
-                        DemosTools.ShowErrorMessage("X coordinate is not a valid float number.");
+                        DemosTools.ShowErrorMessage(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_X_COORDINATE_IS_NOT_A_VALID_FLOAT_NUMBER_ALT1);
                         destinationFitRectangleXTextBox.SelectAll();
                         destinationFitRectangleXTextBox.Focus();
                         return;
@@ -268,7 +268,7 @@ namespace DemosCommonCode.Pdf
                     float bottom;
                     if (!float.TryParse(destinationFitRectangleYTextBox.Text, NumberStyles.Float, CultureInfo.InvariantCulture, out bottom))
                     {
-                        DemosTools.ShowErrorMessage("Y coordinate is not a valid float number.");
+                        DemosTools.ShowErrorMessage(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_Y_COORDINATE_IS_NOT_A_VALID_FLOAT_NUMBER_ALT1);
                         destinationFitRectangleYTextBox.SelectAll();
                         destinationFitRectangleYTextBox.Focus();
                         return;
@@ -277,7 +277,7 @@ namespace DemosCommonCode.Pdf
                     float width;
                     if (!float.TryParse(destinationFitRectangleWidthTextBox.Text, NumberStyles.Float, CultureInfo.InvariantCulture, out width))
                     {
-                        DemosTools.ShowErrorMessage("Width is not a valid float number.");
+                        DemosTools.ShowErrorMessage(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_WIDTH_IS_NOT_A_VALID_FLOAT_NUMBER);
                         destinationFitRectangleWidthTextBox.SelectAll();
                         destinationFitRectangleWidthTextBox.Focus();
                         return;
@@ -286,7 +286,7 @@ namespace DemosCommonCode.Pdf
                     float height;
                     if (!float.TryParse(destinationFitRectangleHeightTextBox.Text, NumberStyles.Float, CultureInfo.InvariantCulture, out height))
                     {
-                        DemosTools.ShowErrorMessage("Height is not a valid float number.");
+                        DemosTools.ShowErrorMessage(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_HEIGHT_IS_NOT_A_VALID_FLOAT_NUMBER);
                         destinationFitRectangleHeightTextBox.SelectAll();
                         destinationFitRectangleHeightTextBox.Focus();
                         return;
@@ -294,7 +294,7 @@ namespace DemosCommonCode.Pdf
 
                     if (width <= 0)
                     {
-                        DemosTools.ShowErrorMessage("Width must be positive.");
+                        DemosTools.ShowErrorMessage(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_WIDTH_MUST_BE_POSITIVE);
                         destinationFitRectangleWidthTextBox.SelectAll();
                         destinationFitRectangleWidthTextBox.Focus();
                         return;
@@ -302,7 +302,7 @@ namespace DemosCommonCode.Pdf
 
                     if (height <= 0)
                     {
-                        DemosTools.ShowErrorMessage("Height must be positive.");
+                        DemosTools.ShowErrorMessage(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_HEIGHT_MUST_BE_POSITIVE);
                         destinationFitRectangleHeightTextBox.SelectAll();
                         destinationFitRectangleHeightTextBox.Focus();
                         return;

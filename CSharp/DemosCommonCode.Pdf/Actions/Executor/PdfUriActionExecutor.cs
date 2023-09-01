@@ -42,7 +42,7 @@ namespace DemosCommonCode.Pdf
             {
                 if (uriAction.URI != "")
                 {
-                    if (MessageBox.Show(string.Format("Open URL '{0}' ?", uriAction.URI), "Open URL", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+                    if (MessageBox.Show(string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_OPEN_URL_ARG0, uriAction.URI), PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_OPEN_URL, MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
                     {
                         try
                         {

@@ -184,8 +184,8 @@ namespace DemosCommonCode.Pdf.JavaScript
         /// </summary>
         private void addButton_Click(object sender, EventArgs e)
         {
-            string title = "JavaScript Action Name";
-            string message = "Enter name of JavaScript action.";
+            string title = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_JAVASCRIPT_JAVASCRIPT_ACTION_NAME;
+            string message = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_JAVASCRIPT_ENTER_NAME_OF_JAVASCRIPT_ACTION;
 
             // get JavaScript action names
             string[] javaScriptNames = GetJavaScriptActionNames();
@@ -216,8 +216,8 @@ namespace DemosCommonCode.Pdf.JavaScript
         /// </summary>
         private void renameButton_Click(object sender, EventArgs e)
         {
-            string title = "JavaScript Action Name";
-            string message = "Enter name of JavaScript action.";
+            string title = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_JAVASCRIPT_JAVASCRIPT_ACTION_NAME_ALT1;
+            string message = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_JAVASCRIPT_ENTER_NAME_OF_JAVASCRIPT_ACTION_ALT1;
 
             // get JavaScript action names
             string[] javaScriptNames = GetJavaScriptActionNames();

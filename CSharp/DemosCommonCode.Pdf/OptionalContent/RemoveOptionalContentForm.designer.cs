@@ -28,6 +28,7 @@ namespace DemosCommonCode.Pdf
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RemoveOptionalContentForm));
             this.buttonOk = new System.Windows.Forms.Button();
             this.optionalContentGroupsCheckedListBox = new System.Windows.Forms.CheckedListBox();
             this.buttonCancel = new System.Windows.Forms.Button();
@@ -65,7 +66,7 @@ namespace DemosCommonCode.Pdf
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(75, 23);
             this.buttonCancel.TabIndex = 8;
-            this.buttonCancel.Text = "Cancel";
+            resources.ApplyResources(this.buttonCancel, "buttonCancel");
             this.buttonCancel.UseVisualStyleBackColor = true;
             // 
             // label1
@@ -75,7 +76,7 @@ namespace DemosCommonCode.Pdf
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(204, 13);
             this.label1.TabIndex = 9;
-            this.label1.Text = "Select optional content groups to remove:";
+            resources.ApplyResources(this.label1, "label1");
             // 
             // RemoveOptionalContentForm
             // 
@@ -92,7 +93,7 @@ namespace DemosCommonCode.Pdf
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Remove Layers (Optional Content)";
+            resources.ApplyResources(this, "$this");
             this.ResumeLayout(false);
             this.PerformLayout();
 

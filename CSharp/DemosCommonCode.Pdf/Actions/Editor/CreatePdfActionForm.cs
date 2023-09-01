@@ -23,14 +23,14 @@ namespace DemosCommonCode.Pdf
         {
             InitializeComponent();
 
-            actionsListBox.Items.Add("Goto Action");
+            actionsListBox.Items.Add(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_GOTO_ACTION);
             actionsListBox.Items.Add("Uri Action");
-            actionsListBox.Items.Add("Launch Action");
-            actionsListBox.Items.Add("JavaScript Action");
-            actionsListBox.Items.Add("Annotation Hide Action");
-            actionsListBox.Items.Add("Submit Form Action");
-            actionsListBox.Items.Add("Reset Form Action");
-            actionsListBox.Items.Add("Named Action");
+            actionsListBox.Items.Add(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_LAUNCH_ACTION);
+            actionsListBox.Items.Add(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_JAVASCRIPT_ACTION);
+            actionsListBox.Items.Add(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_ANNOTATION_HIDE_ACTION);
+            actionsListBox.Items.Add(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SUBMIT_FORM_ACTION);
+            actionsListBox.Items.Add(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_RESET_FORM_ACTION);
+            actionsListBox.Items.Add(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_NAMED_ACTION);
 
             actionsListBox.SelectedIndex = 0;
         }

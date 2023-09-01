@@ -98,7 +98,7 @@ namespace DemosCommonCode.Pdf.Security
 
             // PDF Page
             if (field.Annotation.Page != null)
-                return string.Format("Page {0}: {1}",
+                return string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_PAGE_ARG0_ARG1,
                     field.Document.Pages.IndexOf(field.Annotation.Page) + 1, name);
 
             return name;

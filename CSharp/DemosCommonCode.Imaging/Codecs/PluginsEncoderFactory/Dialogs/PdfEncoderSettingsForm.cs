@@ -602,7 +602,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             Control control = annotationsTabPage.GetChildAtPoint(e.Location);
             if (control == annotationsPdfAppearanceCheckBox)
             {
-                _annotationPdfIsNotFoundToolTip.Show("Vintasoft.Imaging.Annotation.Pdf.dll assembly is not found.", annotationsTabPage, e.X, e.Y);
+                _annotationPdfIsNotFoundToolTip.Show(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_VINTASOFTIMAGINGANNOTATIONPDFDLL_ASSEMBLY_IS_NOT_FOUND, annotationsTabPage, e.X, e.Y);
             }
             else
             {

@@ -44,18 +44,18 @@ namespace DemosCommonCode
                 {
                     // execute the processing command
                     ProcessingResult result = command.Execute(processingTarget, processingState);
-                    string message = "The processing command did not return the result.";
+                    string message = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_THE_PROCESSING_COMMAND_DID_NOT_RETURN_THE_RESULT;
                     // if processing command is executed successfully
                     if (result != null)
                     {
                         if (result is AnalyzerResult)
                         {
                             AnalyzerResult analyzerResult = (AnalyzerResult)result;
-                            message = string.Format("Result is {0}", analyzerResult.GetValue());
+                            message = string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_RESULT_IS_ARG0, analyzerResult.GetValue());
                         }
                         else if (result is ProcessingTargetChangedResult)
                         {
-                            message = "The processing command is executed successfully.";
+                            message = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_THE_PROCESSING_COMMAND_IS_EXECUTED_SUCCESSFULLY;
                         }
                         if (result is CompositeProcessingResult)
                         {
@@ -74,7 +74,7 @@ namespace DemosCommonCode
                             }
                             if (changedTargets > 0)
                             {
-                                message = string.Format("The processing command is executed successfully (processed {0} target(s)).", changedTargets);
+                                message = string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_THE_PROCESSING_COMMAND_IS_EXECUTED_SUCCESSFULLY_PROCESSED_ARG0_TARGETS, changedTargets);
                             }
                             else
                             {

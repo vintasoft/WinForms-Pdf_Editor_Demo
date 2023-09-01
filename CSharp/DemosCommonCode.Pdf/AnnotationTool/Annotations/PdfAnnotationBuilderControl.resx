@@ -120,4 +120,103 @@
   <metadata name="mainToolStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <data name="textUpLeftArrowToolStripMenuItem.Text" xml:space="preserve">
+    <value>Up Left Arrow</value>
+  </data>
+  <data name="textUpArrowToolStripMenuItem.Text" xml:space="preserve">
+    <value>Up Arrow</value>
+  </data>
+  <data name="textRightPointerToolStripMenuItem.Text" xml:space="preserve">
+    <value>Right Pointer</value>
+  </data>
+  <data name="textRightArrowToolStripMenuItem.Text" xml:space="preserve">
+    <value>Right Arrow</value>
+  </data>
+  <data name="textNewParagraphToolStripMenuItem.Text" xml:space="preserve">
+    <value>New Paragraph</value>
+  </data>
+  <data name="textInsertToolStripMenuItem.Text" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+  <data name="textHelpToolStripMenuItem.Text" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="textCrossHairsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Cross Hairs</value>
+  </data>
+  <data name="textCommentToolStripMenuItem.Text" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="tagFileAttachmentToolStripMenuItem.Text" xml:space="preserve">
+    <value>Tag File Attachment</value>
+  </data>
+  <data name="paperclipFileAttachmentToolStripMenuItem.Text" xml:space="preserve">
+    <value>Paperclip File Attachment</value>
+  </data>
+  <data name="pushPinFileAttachmentToolStripMenuItem.Text" xml:space="preserve">
+    <value>Push Pin File Attachment</value>
+  </data>
+  <data name="graphFileAttachmentToolStripMenuItem.Text" xml:space="preserve">
+    <value>Graph File Attachment</value>
+  </data>
+  <data name="officeDocumentToolStripMenuItem.Text" xml:space="preserve">
+    <value>Office Document</value>
+  </data>
+  <data name="cloudFreeTextToolStripMenuItem.Text" xml:space="preserve">
+    <value>Cloud Free Text</value>
+  </data>
+  <data name="cloudTextToolStripMenuItem.Text" xml:space="preserve">
+    <value>Cloud Text</value>
+  </data>
+  <data name="freehandPolygonToolStripMenuItem.Text" xml:space="preserve">
+    <value>Freehand Polygon</value>
+  </data>
+  <data name="cloudFilledPolygonToolStripMenuItem.Text" xml:space="preserve">
+    <value>Cloud Filled Polygon</value>
+  </data>
+  <data name="cloudPolygonToolStripMenuItem.Text" xml:space="preserve">
+    <value>Cloud Polygon</value>
+  </data>
+  <data name="filledPolygonToolStripMenuItem.Text" xml:space="preserve">
+    <value>Filled Polygon</value>
+  </data>
+  <data name="freehandPolylineToolStripMenuItem.Text" xml:space="preserve">
+    <value>Freehand Polyline</value>
+  </data>
+  <data name="polylineWithArrowsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Polyline with Arrows</value>
+  </data>
+  <data name="polylineWithArrowToolStripMenuItem.Text" xml:space="preserve">
+    <value>Polyline with Arrow</value>
+  </data>
+  <data name="cloudFilledEllipseToolStripMenuItem.Text" xml:space="preserve">
+    <value>Cloud Filled Ellipse</value>
+  </data>
+  <data name="cloudEllipseToolStripMenuItem.Text" xml:space="preserve">
+    <value>Cloud Ellipse</value>
+  </data>
+  <data name="filledEllipseToolStripMenuItem.Text" xml:space="preserve">
+    <value>Filled Ellipse</value>
+  </data>
+  <data name="cloudFilledRectangleToolStripMenuItem.Text" xml:space="preserve">
+    <value>Cloud Filled Rectangle</value>
+  </data>
+  <data name="cloudRectangleToolStripMenuItem.Text" xml:space="preserve">
+    <value>Cloud Rectangle</value>
+  </data>
+  <data name="filledRectangleToolStripMenuItem.Text" xml:space="preserve">
+    <value>Filled Rectangle</value>
+  </data>
+  <data name="inkToolStripButton.Text" xml:space="preserve">
+    <value>Ink (Pencil)</value>
+  </data>
+  <data name="lineWithArrowsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Line with Arrows</value>
+  </data>
+  <data name="lineWithArrowToolStripMenuItem.Text" xml:space="preserve">
+    <value>Line with Arrow</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </metadata>
 </root>

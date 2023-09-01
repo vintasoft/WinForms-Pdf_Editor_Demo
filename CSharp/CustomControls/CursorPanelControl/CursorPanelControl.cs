@@ -43,12 +43,12 @@ namespace DemosCommonCode.CustomControls
             AddCursor("RotateCursor (VintaSoft)", ToolCursors.RotateCursor);
             AddCursor("ZoomCursor (VintaSoft)", ToolCursors.ZoomCursor);
 
-            AddCursor("Default", Cursors.Default);
+            AddCursor(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_CUSTOMCONTROLS_DEFAULT, Cursors.Default);
             AddCursor("AppStarting", Cursors.AppStarting);
             AddCursor("Arrow", Cursors.Arrow);
             AddCursor("Cross", Cursors.Cross);
             AddCursor("Hand", Cursors.Hand);
-            AddCursor("Help", Cursors.Help);
+            AddCursor(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_CUSTOMCONTROLS_HELP, Cursors.Help);
             AddCursor("HSplit", Cursors.HSplit);
             AddCursor("IBeam", Cursors.IBeam);
             AddCursor("No", Cursors.No);

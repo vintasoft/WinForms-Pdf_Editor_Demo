@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -117,4 +117,70 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Rendering Settings</value>
+  </data>
+  <data name="colorLabel.Text" xml:space="preserve">
+    <value>Border Color</value>
+  </data>
+  <data name="ignoreImageInterpolationFlagCheckBox.Text" xml:space="preserve">
+    <value>Ignore Image Interpolation Flag</value>
+  </data>
+  <data name="optimizePatternRenderingCheckBox.Text" xml:space="preserve">
+    <value>Optimize Pattern Rendering</value>
+  </data>
+  <data name="vintasoftAnnotationsCheckBox.Text" xml:space="preserve">
+    <value>Vintasoft Annotations</value>
+  </data>
+  <data name="nonMarkupAnnotationsCheckBox.Text" xml:space="preserve">
+    <value>Non Markup Annotations</value>
+  </data>
+  <data name="markupAnnotationsCheckBox.Text" xml:space="preserve">
+    <value>Markup Annotations</value>
+  </data>
+  <data name="annotationRenderingModeLabel.Text" xml:space="preserve">
+    <value>Annotation Rendering Mode</value>
+  </data>
+  <data name="drawErrorsCheckBox.Text" xml:space="preserve">
+    <value>Draw Image Resource Errors</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Interpolation Mode</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Smoothing Mode</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Horizontal</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Vertical</value>
+  </data>
+  <data name="optimizeImageDrawingCheckBox.Text" xml:space="preserve">
+    <value>Optimize Image Drawing</value>
+  </data>
+  <data name="resolutionSettingsCheckBox.Text" xml:space="preserve">
+    <value>Resolution (DPI)</value>
+  </data>
+  <data name="drawSharpImageBordersCheckBox.Text" xml:space="preserve">
+    <value>Draw Sharp Image Borders</value>
+  </data>
+  <data name="commonSettingsTabPage.Text" xml:space="preserve">
+    <value>Common</value>
+  </data>
+  <data name="textRenderingHintLabel.Text" xml:space="preserve">
+    <value>Text Rendering Hint</value>
+  </data>
+  <data name="buttonCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="showNonPrintableCharactersCheckBox.Text" xml:space="preserve">
+    <value>Show Non Printing Characters</value>
+  </data>
+  <data name="showInvisibleTableBordersCheckBox.Text" xml:space="preserve">
+    <value>Show Invisible Table Borders</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </metadata>
 </root>

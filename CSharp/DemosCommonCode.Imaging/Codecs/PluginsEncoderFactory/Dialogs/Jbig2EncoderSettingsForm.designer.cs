@@ -28,6 +28,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Jbig2EncoderSettingsForm));
             this.appendCheckBox = new System.Windows.Forms.CheckBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
@@ -57,7 +58,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.appendCheckBox.Name = "appendCheckBox";
             this.appendCheckBox.Size = new System.Drawing.Size(184, 19);
             this.appendCheckBox.TabIndex = 10;
-            this.appendCheckBox.Text = "Append to existing document";
+            resources.ApplyResources(this.appendCheckBox, "appendCheckBox");
             this.appendCheckBox.UseVisualStyleBackColor = true;
             // 
             // groupBox1
@@ -71,7 +72,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.groupBox1.Size = new System.Drawing.Size(245, 186);
             this.groupBox1.TabIndex = 11;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Compression";
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             // 
             // groupBox2
             // 
@@ -82,7 +83,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.groupBox2.Size = new System.Drawing.Size(231, 50);
             this.groupBox2.TabIndex = 16;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Bitmap encoding algorithm";
+            resources.ApplyResources(this.groupBox2, "groupBox2");
             // 
             // mmrRadioButton
             // 
@@ -113,7 +114,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.useLossyCheckBox.Name = "useLossyCheckBox";
             this.useLossyCheckBox.Size = new System.Drawing.Size(55, 19);
             this.useLossyCheckBox.TabIndex = 7;
-            this.useLossyCheckBox.Text = "Lossy";
+            resources.ApplyResources(this.useLossyCheckBox, "useLossyCheckBox");
             this.useLossyCheckBox.UseVisualStyleBackColor = true;
             this.useLossyCheckBox.CheckedChanged += new System.EventHandler(this.compressionLossyCheckBox_CheckedChanged);
             // 
@@ -134,7 +135,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(83, 15);
             this.label2.TabIndex = 5;
-            this.label2.Text = "Dictionary size";
+            resources.ApplyResources(this.label2, "label2");
             // 
             // sdSizeComboBox
             // 
@@ -185,7 +186,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(107, 15);
             this.label1.TabIndex = 7;
-            this.label1.Text = "Inaccuracy percent";
+            resources.ApplyResources(this.label1, "label1");
             // 
             // useSymbolDictionaryCheckBox
             // 
@@ -196,7 +197,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.useSymbolDictionaryCheckBox.Name = "useSymbolDictionaryCheckBox";
             this.useSymbolDictionaryCheckBox.Size = new System.Drawing.Size(122, 19);
             this.useSymbolDictionaryCheckBox.TabIndex = 0;
-            this.useSymbolDictionaryCheckBox.Text = "Symbol dictionary";
+            resources.ApplyResources(this.useSymbolDictionaryCheckBox, "useSymbolDictionaryCheckBox");
             this.useSymbolDictionaryCheckBox.UseVisualStyleBackColor = true;
             this.useSymbolDictionaryCheckBox.CheckedChanged += new System.EventHandler(this.checkBoxUseSD_CheckedChanged);
             // 
@@ -207,7 +208,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(75, 23);
             this.buttonCancel.TabIndex = 13;
-            this.buttonCancel.Text = "Cancel";
+            resources.ApplyResources(this.buttonCancel, "buttonCancel");
             this.buttonCancel.UseVisualStyleBackColor = true;
             this.buttonCancel.Click += new System.EventHandler(this.buttonCancel_Click);
             // 
@@ -238,7 +239,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.Name = "Jbig2EncoderSettingsForm";
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "JBIG 2 Encoder Settings";
+            resources.ApplyResources(this, "$this");
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);

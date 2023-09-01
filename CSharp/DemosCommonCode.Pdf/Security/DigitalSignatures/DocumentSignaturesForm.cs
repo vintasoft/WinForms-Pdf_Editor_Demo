@@ -86,7 +86,7 @@ namespace DemosCommonCode.Pdf.Security
             _document = document;
 
             if (_document.InteractiveForm == null)
-                throw new Exception("Document does not contain digital signatures.");
+                throw new Exception(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_DOCUMENT_DOES_NOT_CONTAIN_DIGITAL_SIGNATURES);
 
             BuildSignaturesTreeView();
             UpdateUI();
@@ -177,7 +177,7 @@ namespace DemosCommonCode.Pdf.Security
                     X509Chain timestampCertChain = null;
 
                     node.BackColor = Color.White;
-                    node.Nodes[0].Text = "Verifying signature...";
+                    node.Nodes[0].Text = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_VERIFYING_SIGNATURE;
                     node.Expand();
                     Application.DoEvents();
 
@@ -214,21 +214,21 @@ namespace DemosCommonCode.Pdf.Security
 
                                 // build subsequent changes message
                                 if (revisionComparer.ChangedPageContents.Count > 0)
-                                    subsequentChangesMessage += string.Format("{0} page(s) modified; ", revisionComparer.ChangedPageContents.Count);
+                                    subsequentChangesMessage += string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_ARG0_PAGES_MODIFIED, revisionComparer.ChangedPageContents.Count);
                                 if (revisionComparer.AddedPages.Count > 0)
-                                    subsequentChangesMessage += string.Format("{0} page(s) added; ", revisionComparer.AddedPages.Count);
+                                    subsequentChangesMessage += string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_ARG0_PAGES_ADDED, revisionComparer.AddedPages.Count);
                                 if (revisionComparer.RemovedPages.Count > 0)
-                                    subsequentChangesMessage += string.Format("{0} page(s) removed; ", revisionComparer.RemovedPages.Count);
+                                    subsequentChangesMessage += string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_ARG0_PAGES_REMOVED, revisionComparer.RemovedPages.Count);
                                 if (revisionComparer.RemovedAnnotations.Count > 0)
-                                    subsequentChangesMessage += string.Format("annotations(s) on {0} page(s) removed; ", revisionComparer.RemovedAnnotations.Count);
+                                    subsequentChangesMessage += string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_ANNOTATIONSS_ON_ARG0_PAGES_REMOVED, revisionComparer.RemovedAnnotations.Count);
                                 if (revisionComparer.RemovedAnnotations.Count > 0)
-                                    subsequentChangesMessage += string.Format("removed annotation(s) on {0} page(s); ", revisionComparer.RemovedAnnotations.Count);
+                                    subsequentChangesMessage += string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_REMOVED_ANNOTATIONS_ON_ARG0_PAGES, revisionComparer.RemovedAnnotations.Count);
                                 if (revisionComparer.AddedAnnotations.Count > 0)
-                                    subsequentChangesMessage += string.Format("added annotation(s) on {0} page(s); ", revisionComparer.AddedAnnotations.Count);
+                                    subsequentChangesMessage += string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_ADDED_ANNOTATIONS_ON_ARG0_PAGES, revisionComparer.AddedAnnotations.Count);
                                 if (revisionComparer.ChangedAnnotations.Count > 0)
-                                    subsequentChangesMessage += string.Format("changed annotation(s) on {0} page(s); ", revisionComparer.ChangedAnnotations.Count);
+                                    subsequentChangesMessage += string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_CHANGED_ANNOTATIONS_ON_ARG0_PAGES, revisionComparer.ChangedAnnotations.Count);
                                 if (revisionComparer.MiscellaneousChanges.Count > 0)
-                                    subsequentChangesMessage += string.Format("miscellaneous changes: {0}; ", revisionComparer.MiscellaneousChanges.Count);
+                                    subsequentChangesMessage += string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_MISCELLANEOUS_CHANGES_ARG0, revisionComparer.MiscellaneousChanges.Count);
                             }
                         }
 
@@ -251,7 +251,7 @@ namespace DemosCommonCode.Pdf.Security
                     {
                         failed = true;
                         node.BackColor = FAIL_COLOR;
-                        node.Nodes[0].Text = string.Format("Error: {0}", validateException.Message);
+                        node.Nodes[0].Text = string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_ERROR_ARG0, validateException.Message);
                         node.Nodes[0].BackColor = FAIL_COLOR;
                     }
                     if (failed)
@@ -265,19 +265,19 @@ namespace DemosCommonCode.Pdf.Security
                     // if signature verification is failed OR signature does not cover the whole document AND pages are modified
                     if (!signatureVerifyResult || (!signatureCoversWholeDocument && pagesModified))
                     {
-                        validateResult = "Signature is invalid";
+                        validateResult = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_SIGNATURE_IS_INVALID;
                         validateColor = FAIL_COLOR;
                     }
                     // if certificate validation is failed
                     else if (!certificateVerifyResult || (hasTimestampCertificate && !timestampCertificateVerifyResult) || (signature.HasEmbeddedTimeStamp && !embeddedTimestampVerifyResult))
                     {
-                        validateResult = "Signature validity is unknown";
+                        validateResult = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_SIGNATURE_VALIDITY_IS_UNKNOWN;
                         validateColor = WARNING_COLOR;
                     }
                     // certificate is valid
                     else
                     {
-                        validateResult = "Signature is valid";
+                        validateResult = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_SIGNATURE_IS_VALID;
                         validateColor = SUCCESS_COLOR;
                     }
                     node.BackColor = validateColor;
@@ -294,7 +294,7 @@ namespace DemosCommonCode.Pdf.Security
                         if (signatureCoversWholeDocument)
                         {
                             // verification passed
-                            subNode = node.Nodes[0].Nodes.Add("Signature verification: Document has not been modified since this signature was applied");
+                            subNode = node.Nodes[0].Nodes.Add(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_SIGNATURE_VERIFICATION_DOCUMENT_HAS_NOT_BEEN_MODIFIED_SINCE_THIS_SIGNATURE_WAS_APPLIED);
                             subNode.BackColor = SUCCESS_COLOR;
                         }
                         // if signature does NOT cover the whole document
@@ -304,11 +304,11 @@ namespace DemosCommonCode.Pdf.Security
                             if (pagesModified)
                             {
                                 // verification falied
-                                subNode = node.Nodes[0].Nodes.Add("Signature verification: Document has been modified or corrupted since it was signed");
+                                subNode = node.Nodes[0].Nodes.Add(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_SIGNATURE_VERIFICATION_DOCUMENT_HAS_BEEN_MODIFIED_OR_CORRUPTED_SINCE_IT_WAS_SIGNED);
                                 subNode.BackColor = FAIL_COLOR;
                                 if (subsequentChangesMessage != "")
                                 {
-                                    subNode = node.Nodes[0].Nodes.Add(string.Format("Subsequent changes: {0}", subsequentChangesMessage));
+                                    subNode = node.Nodes[0].Nodes.Add(string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_SUBSEQUENT_CHANGES_ARG0, subsequentChangesMessage));
                                     subNode.BackColor = FAIL_COLOR;
                                 }
                             }
@@ -317,14 +317,14 @@ namespace DemosCommonCode.Pdf.Security
                                 // verification passed
                                 if (subsequentChangesMessage != "")
                                 {
-                                    subNode = node.Nodes[0].Nodes.Add("Signature verification: The revision of the document that was covered by this signature has not been altered; however, there have been subsequent changes to the document");
+                                    subNode = node.Nodes[0].Nodes.Add(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_SIGNATURE_VERIFICATION_THE_REVISION_OF_THE_DOCUMENT_THAT_WAS_COVERED_BY_THIS_SIGNATURE_HAS_NOT_BEEN_ALTERED_HOWEVER_THERE_HAVE_BEEN_SUBSEQUENT_CHANGES_TO_THE_DOCUMENT);
                                     subNode.BackColor = WARNING_COLOR;
-                                    subNode = node.Nodes[0].Nodes.Add(string.Format("Subsequent changes: {0}", subsequentChangesMessage));
+                                    subNode = node.Nodes[0].Nodes.Add(string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_SUBSEQUENT_CHANGES_ARG0_ALT1, subsequentChangesMessage));
                                     subNode.BackColor = WARNING_COLOR;
                                 }
                                 else
                                 {
-                                    subNode = node.Nodes[0].Nodes.Add("Signature verification: Document has not been modified since this signature was applied");
+                                    subNode = node.Nodes[0].Nodes.Add(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_SIGNATURE_VERIFICATION_DOCUMENT_HAS_NOT_BEEN_MODIFIED_SINCE_THIS_SIGNATURE_WAS_APPLIED_ALT1);
                                     subNode.BackColor = SUCCESS_COLOR;
                                 }
                             }
@@ -334,7 +334,7 @@ namespace DemosCommonCode.Pdf.Security
                     else
                     {
                         // verification falied
-                        subNode = node.Nodes[0].Nodes.Add("Signature verification: Document has been modified or corrupted since it was signed");
+                        subNode = node.Nodes[0].Nodes.Add(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_SIGNATURE_VERIFICATION_DOCUMENT_HAS_BEEN_MODIFIED_OR_CORRUPTED_SINCE_IT_WAS_SIGNED_ALT1);
                         subNode.BackColor = FAIL_COLOR;
                     }
 
@@ -343,13 +343,13 @@ namespace DemosCommonCode.Pdf.Security
                     {
                         if (embeddedTimestampVerifyResult)
                         {
-                            subNode = node.Nodes[0].Nodes.Add("Timestamp verification: Timestamp is valid");
+                            subNode = node.Nodes[0].Nodes.Add(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_TIMESTAMP_VERIFICATION_TIMESTAMP_IS_VALID);
                             subNode.BackColor = SUCCESS_COLOR;
                         }
                         else
                         {
                             // verification falied
-                            subNode = node.Nodes[0].Nodes.Add("Timestamp verification: Timestamp is corrupted");
+                            subNode = node.Nodes[0].Nodes.Add(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_TIMESTAMP_VERIFICATION_TIMESTAMP_IS_CORRUPTED);
                             subNode.BackColor = FAIL_COLOR;
                         }
                     }
@@ -360,13 +360,13 @@ namespace DemosCommonCode.Pdf.Security
                         // if certificate verification is successful 
                         if (certificateVerifyResult)
                         {
-                            subNode = node.Nodes[0].Nodes.Add("Certificate verification: Signer's certificate is valid");
+                            subNode = node.Nodes[0].Nodes.Add(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_CERTIFICATE_VERIFICATION_SIGNERS_CERTIFICATE_IS_VALID);
                             subNode.BackColor = SUCCESS_COLOR;
                         }
                         // if certificate verification is NOT successful 
                         else
                         {
-                            subNode = node.Nodes[0].Nodes.Add("Certificate verification: Signer's certificate is invalid");
+                            subNode = node.Nodes[0].Nodes.Add(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_CERTIFICATE_VERIFICATION_SIGNERS_CERTIFICATE_IS_INVALID);
                             subNode.BackColor = WARNING_COLOR;
                             foreach (X509ChainStatus status in certChain.ChainStatus)
                                 subNode.Nodes.Add(string.Format("{0}: {1}", status.Status, status.StatusInformation));
@@ -378,13 +378,13 @@ namespace DemosCommonCode.Pdf.Security
                         // if timestamp certificate verification is successful 
                         if (timestampCertificateVerifyResult)
                         {
-                            subNode = node.Nodes[0].Nodes.Add("Timestamp certificate verification: certificate is valid");
+                            subNode = node.Nodes[0].Nodes.Add(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_TIMESTAMP_CERTIFICATE_VERIFICATION_CERTIFICATE_IS_VALID);
                             subNode.BackColor = SUCCESS_COLOR;
                         }
                         // if certificate verification is NOT successful 
                         else
                         {
-                            subNode = node.Nodes[0].Nodes.Add("Timestamp certificate verification: certificate is invalid");
+                            subNode = node.Nodes[0].Nodes.Add(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_TIMESTAMP_CERTIFICATE_VERIFICATION_CERTIFICATE_IS_INVALID);
                             subNode.BackColor = WARNING_COLOR;
                             foreach (X509ChainStatus status in timestampCertChain.ChainStatus)
                                 subNode.Nodes.Add(string.Format("{0}: {1}", status.Status, status.StatusInformation));
@@ -462,7 +462,7 @@ namespace DemosCommonCode.Pdf.Security
         private void saveDocumentRevisionButton_Click(object sender, EventArgs e)
         {
             SaveFileDialog saveFile = new SaveFileDialog();
-            saveFile.Filter = "PDF Documents (*.pdf)|*.pdf";
+            saveFile.Filter = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_PDF_DOCUMENTS_PDFPDF;
             try
             {
                 if (saveFile.ShowDialog() == DialogResult.OK)
@@ -486,12 +486,12 @@ namespace DemosCommonCode.Pdf.Security
                 signaturesTreeView.SelectedNode.Tag is PdfDocumentRevision)
             {
                 PdfDocumentRevision revision = (PdfDocumentRevision)signaturesTreeView.SelectedNode.Tag;
-                saveDocumentRevisionButton.Text = string.Format("Save Document Resivion {0} As...", revision.RevisionNumber);
+                saveDocumentRevisionButton.Text = string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_SAVE_DOCUMENT_RESIVION_ARG0_AS, revision.RevisionNumber);
                 saveDocumentRevisionButton.Enabled = true;
             }
             else
             {
-                saveDocumentRevisionButton.Text = "Save Document Resivion As...";
+                saveDocumentRevisionButton.Text = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_SAVE_DOCUMENT_RESIVION_AS;
                 saveDocumentRevisionButton.Enabled = false;
             }
         }
@@ -531,7 +531,7 @@ namespace DemosCommonCode.Pdf.Security
                     PdfPkcsSignature signature = null;
                     if (signatureInfo == null)
                     {
-                        signatureText += "Unsigned Signature Field";
+                        signatureText += PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_UNSIGNED_SIGNATURE_FIELD;
                     }
                     else
                     {
@@ -542,7 +542,7 @@ namespace DemosCommonCode.Pdf.Security
                         }
                         catch (Exception ex)
                         {
-                            signatureText += string.Format("Not supported or corrupted signature: {0}", ex.Message);
+                            signatureText += string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_NOT_SUPPORTED_OR_CORRUPTED_SIGNATURE_ARG0, ex.Message);
                         }
                     }
                     _signatures.Add(signature);
@@ -557,13 +557,13 @@ namespace DemosCommonCode.Pdf.Security
                         if (signature != null)
                         {
                             if (signature.IsSigningImplemented)
-                                signaturesTreeView.Nodes[i].Nodes.Add("Signature is not verified");
+                                signaturesTreeView.Nodes[i].Nodes.Add(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_SIGNATURE_IS_NOT_VERIFIED);
                             else
-                                signaturesTreeView.Nodes[i].Nodes.Add("Signing is not implemented");
+                                signaturesTreeView.Nodes[i].Nodes.Add(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_SIGNING_IS_NOT_IMPLEMENTED);
                         }
 
                         // add signature details
-                        TreeNode signatureDetailsNode = signaturesTreeView.Nodes[i].Nodes.Add("Signature Details");
+                        TreeNode signatureDetailsNode = signaturesTreeView.Nodes[i].Nodes.Add(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_SIGNATURE_DETAILS);
 
                         if (signature != null)
                         {
@@ -572,61 +572,61 @@ namespace DemosCommonCode.Pdf.Security
                                 TreeNode timestampDetails = null;
                                 if (signature.IsTimeStamp)
                                 {
-                                    timestampDetails = signatureDetailsNode.Nodes.Add("Signature is a document timestamp signature");
+                                    timestampDetails = signatureDetailsNode.Nodes.Add(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_SIGNATURE_IS_A_DOCUMENT_TIMESTAMP_SIGNATURE);
                                 }
                                 else if (signature.HasEmbeddedTimeStamp)
                                 {
-                                    timestampDetails = signatureDetailsNode.Nodes.Add("Signature includes an embeded timestamp");
+                                    timestampDetails = signatureDetailsNode.Nodes.Add(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_SIGNATURE_INCLUDES_AN_EMBEDED_TIMESTAMP);
                                     if (signature.TimestampCertificate != null)
                                     {
-                                        timestampDetails.Nodes.Add(string.Format("Timestamp Certificate: {0}", ConvertCertificateToString(signature.TimestampCertificate)));
-                                        TreeNode timestampCertificateDetails = timestampDetails.Nodes.Add("Timestamp Certificate Details...");
+                                        timestampDetails.Nodes.Add(string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_TIMESTAMP_CERTIFICATE_ARG0, ConvertCertificateToString(signature.TimestampCertificate)));
+                                        TreeNode timestampCertificateDetails = timestampDetails.Nodes.Add(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_TIMESTAMP_CERTIFICATE_DETAILS);
                                         timestampCertificateDetails.Tag = signature.TimestampCertificate;
 
                                         if (signature.TimestampCertificateChain.Length > 1)
                                         {
-                                            AddCerteficateChainToTreeView(signature.TimestampCertificateChain, timestampDetails.Nodes.Add("Timestamp Certificate Chain"));
+                                            AddCerteficateChainToTreeView(signature.TimestampCertificateChain, timestampDetails.Nodes.Add(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_TIMESTAMP_CERTIFICATE_CHAIN));
                                         }
                                     }
                                 }
-                                timestampDetails.Nodes.Add(string.Format("Timestamp Date: {0}", signature.TimeStampDate));
+                                timestampDetails.Nodes.Add(string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_TIMESTAMP_DATE_ARG0, signature.TimeStampDate));
                                 timestampDetails.Expand();
                             }
 
-                            TreeNode certificateDetails = signatureDetailsNode.Nodes.Add("Certificate details...");
+                            TreeNode certificateDetails = signatureDetailsNode.Nodes.Add(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_CERTIFICATE_DETAILS);
                             certificateDetails.Tag = signature.SigningCertificate;
-                            signatureDetailsNode.Nodes.Add(string.Format("Signature Algorithm: {0}", signature.SignatureAlgorithmName));
+                            signatureDetailsNode.Nodes.Add(string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_SIGNATURE_ALGORITHM_ARG0, signature.SignatureAlgorithmName));
                             if (signature.SigningCertificateChain.Length > 1)
                             {
-                                AddCerteficateChainToTreeView(signature.SigningCertificateChain, signatureDetailsNode.Nodes.Add("Certificate Chain"));
+                                AddCerteficateChainToTreeView(signature.SigningCertificateChain, signatureDetailsNode.Nodes.Add(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_CERTIFICATE_CHAIN));
                             }
                         }
 
                         // add signature information details
-                        signatureDetailsNode.Nodes.Add(string.Format("Filter: {0} ({1})", signatureInfo.Filter, signatureInfo.SubFilter));
+                        signatureDetailsNode.Nodes.Add(string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_FILTER_ARG0_ARG1, signatureInfo.Filter, signatureInfo.SubFilter));
 
                         if (signatureInfo.SignerName != null)
-                            signatureDetailsNode.Nodes.Add(string.Format("Name of Signer: {0}", signatureInfo.SignerName));
+                            signatureDetailsNode.Nodes.Add(string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_NAME_OF_SIGNER_ARG0, signatureInfo.SignerName));
                         if (signatureInfo.Reason != null)
-                            signatureDetailsNode.Nodes.Add(string.Format("Reason: {0}", signatureInfo.Reason));
+                            signatureDetailsNode.Nodes.Add(string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_REASON_ARG0, signatureInfo.Reason));
                         if (signatureInfo.ContactInfo != null)
-                            signatureDetailsNode.Nodes.Add(string.Format("Contact Info: {0}", signatureInfo.ContactInfo));
+                            signatureDetailsNode.Nodes.Add(string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_CONTACT_INFO_ARG0, signatureInfo.ContactInfo));
                         if (signatureInfo.Location != null)
-                            signatureDetailsNode.Nodes.Add(string.Format("Location: {0}", signatureInfo.Location));
+                            signatureDetailsNode.Nodes.Add(string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_LOCATION_ARG0, signatureInfo.Location));
                         if (signatureInfo.SigningTime != DateTime.MinValue)
-                            signatureDetailsNode.Nodes.Add(string.Format("Signing Time: {0}", signatureInfo.SigningTime));
+                            signatureDetailsNode.Nodes.Add(string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_SIGNING_TIME_ARG0, signatureInfo.SigningTime));
                         if (signatureInfo.BuildProperties != null)
                         {
                             if (signatureInfo.BuildProperties.Application != null)
                             {
                                 if (signatureInfo.BuildProperties.Application.Name != null)
-                                    signatureDetailsNode.Nodes.Add(string.Format("Application: {0}", signatureInfo.BuildProperties.Application.Name));
+                                    signatureDetailsNode.Nodes.Add(string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_APPLICATION_ARG0, signatureInfo.BuildProperties.Application.Name));
                             }
                         }
                     }
 
                     if (signatureField.Annotation.Page != null)
-                        signaturesTreeView.Nodes[i].Nodes.Add(string.Format("Page: {0}", _document.Pages.IndexOf(signatureField.Annotation.Page) + 1));
+                        signaturesTreeView.Nodes[i].Nodes.Add(string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_PAGE_ARG0, _document.Pages.IndexOf(signatureField.Annotation.Page) + 1));
 
                     signaturesTreeView.Nodes[i].Expand();
                 }

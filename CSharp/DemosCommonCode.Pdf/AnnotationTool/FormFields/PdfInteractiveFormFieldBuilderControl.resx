@@ -120,4 +120,76 @@
   <metadata name="mainToolStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <data name="propertiesToolStripMenuItem5.Text" xml:space="preserve">
+    <value>Properties...</value>
+  </data>
+  <data name="signatureDefaultToolStripMenuItem.Text" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="propertiesToolStripMenuItem4.Text" xml:space="preserve">
+    <value>Properties...</value>
+  </data>
+  <data name="vintasoftBarcodeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Vintasoft Barcode (other symbologies)</value>
+  </data>
+  <data name="propertiesToolStripMenuItem3.Text" xml:space="preserve">
+    <value>Properties...</value>
+  </data>
+  <data name="radioButtonSymbolToolStripMenuItem.Text" xml:space="preserve">
+    <value>Symbol</value>
+  </data>
+  <data name="radioButtonStandardToolStripMenuItem.Text" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="toolStripMenuItem2.Text" xml:space="preserve">
+    <value>Properties...</value>
+  </data>
+  <data name="comboBox3dBorderToolStripMenuItem.Text" xml:space="preserve">
+    <value>3D Border</value>
+  </data>
+  <data name="comboBoxSingleBorderToolStripMenuItem.Text" xml:space="preserve">
+    <value>Single Border</value>
+  </data>
+  <data name="comboBoxNoBorderToolStripMenuItem.Text" xml:space="preserve">
+    <value>No Border</value>
+  </data>
+  <data name="propertiesToolStripMenuItem2.Text" xml:space="preserve">
+    <value>Properties...</value>
+  </data>
+  <data name="listBoxNoBorderToolStripMenuItem.Text" xml:space="preserve">
+    <value>No Border</value>
+  </data>
+  <data name="propertiesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Properties...</value>
+  </data>
+  <data name="buttonBorder3DToolStripMenuItem.Text" xml:space="preserve">
+    <value>3D Border</value>
+  </data>
+  <data name="buttonFlatBorderToolStripMenuItem.Text" xml:space="preserve">
+    <value>Flat Border</value>
+  </data>
+  <data name="propertiesToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Properties...</value>
+  </data>
+  <data name="checkBoxSimpleToolStripMenuItem.Text" xml:space="preserve">
+    <value>Simple</value>
+  </data>
+  <data name="checkBoxStandardToolStripMenuItem.Text" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="textFieldPropertiesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Properties...</value>
+  </data>
+  <data name="textField3DBorderToolStripMenuItem.Text" xml:space="preserve">
+    <value>3D Border</value>
+  </data>
+  <data name="textFieldSingleBorderToolStripMenuItem.Text" xml:space="preserve">
+    <value>Single Border</value>
+  </data>
+  <data name="textFieldNoBorderToolStripMenuItem.Text" xml:space="preserve">
+    <value>No Border</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </metadata>
 </root>

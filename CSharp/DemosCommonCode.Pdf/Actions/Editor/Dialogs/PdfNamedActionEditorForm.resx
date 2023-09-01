@@ -117,4 +117,28 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Named Action Editor</value>
+  </data>
+  <data name="nameComboBox.Items3" xml:space="preserve">
+    <value>LastPage</value>
+  </data>
+  <data name="nameComboBox.Items2" xml:space="preserve">
+    <value>FirstPage</value>
+  </data>
+  <data name="nameComboBox.Items1" xml:space="preserve">
+    <value>PrevPage</value>
+  </data>
+  <data name="nameComboBox.Items" xml:space="preserve">
+    <value>NextPage</value>
+  </data>
+  <data name="buttonCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </metadata>
 </root>

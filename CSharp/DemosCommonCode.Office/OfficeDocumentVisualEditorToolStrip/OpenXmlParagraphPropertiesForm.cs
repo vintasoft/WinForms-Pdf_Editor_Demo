@@ -157,27 +157,27 @@ namespace DemosCommonCode.Office
 
             float value;
 
-            if (!DemosTools.ParseFloat(firstLineIndentationComboBox.Text, "First Line Indentation", out value))
+            if (!DemosTools.ParseFloat(firstLineIndentationComboBox.Text, PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_OFFICE_FIRST_LINE_INDENTATION, out value))
                 return false;
             _paragraphProperties.FirstLineIndentation = value;
 
-            if (!DemosTools.ParseFloat(leftIndentationComboBox.Text, "Left Indentation", out value))
+            if (!DemosTools.ParseFloat(leftIndentationComboBox.Text, PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_OFFICE_LEFT_INDENTATION, out value))
                 return false;
             _paragraphProperties.LeftIndentation = value;
 
-            if (!DemosTools.ParseFloat(rightIndentationComboBox.Text, "Right Indentation", out value))
+            if (!DemosTools.ParseFloat(rightIndentationComboBox.Text, PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_OFFICE_RIGHT_INDENTATION, out value))
                 return false;
             _paragraphProperties.RightIndentation = value;
 
-            if (!DemosTools.ParseFloat(lineHeightComboBox.Text, "Line Height Factor", out value))
+            if (!DemosTools.ParseFloat(lineHeightComboBox.Text, PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_OFFICE_LINE_HEIGHT_FACTOR, out value))
                 return false;
             _paragraphProperties.LineHeightFactor = value;
 
-            if (!DemosTools.ParseFloat(spacingBeforeComboBox.Text, "Spacing Before Paragraph", out value))
+            if (!DemosTools.ParseFloat(spacingBeforeComboBox.Text, PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_OFFICE_SPACING_BEFORE_PARAGRAPH, out value))
                 return false;
             _paragraphProperties.SpacingBeforeParagraph = value;
 
-            if (!DemosTools.ParseFloat(spacingAfterComboBox.Text, "Spacing After Paragraph", out value))
+            if (!DemosTools.ParseFloat(spacingAfterComboBox.Text, PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_OFFICE_SPACING_AFTER_PARAGRAPH, out value))
                 return false;
             _paragraphProperties.SpacingAfterParagraph = value;
 

@@ -117,4 +117,25 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Color Transform Set</value>
+  </data>
+  <data name="buttonCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="copyToTransformSetButton.Text" xml:space="preserve">
+    <value>Copy selected to transform set</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>Standard available color transforms</value>
+  </data>
+  <data name="deleteButton.Text" xml:space="preserve">
+    <value>Delete selected</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Current color transforms (transform set)</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </metadata>
 </root>

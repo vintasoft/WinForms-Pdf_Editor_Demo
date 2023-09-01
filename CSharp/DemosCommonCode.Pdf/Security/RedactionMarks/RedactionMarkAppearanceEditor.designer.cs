@@ -28,6 +28,7 @@ namespace DemosCommonCode.Pdf.Security
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RedactionMarkAppearanceEditor));
             Vintasoft.Imaging.Utils.WinFormsSystemClipboard winFormsSystemClipboard1 = new Vintasoft.Imaging.Utils.WinFormsSystemClipboard();
             Vintasoft.Imaging.Codecs.Decoders.RenderingSettings renderingSettings1 = new Vintasoft.Imaging.Codecs.Decoders.RenderingSettings();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
@@ -72,7 +73,7 @@ namespace DemosCommonCode.Pdf.Security
             this.groupBox4.Size = new System.Drawing.Size(540, 300);
             this.groupBox4.TabIndex = 6;
             this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Preview";
+            resources.ApplyResources(this.groupBox4, "groupBox4");
             // 
             // redactionMarkEditor
             // 
@@ -107,7 +108,7 @@ namespace DemosCommonCode.Pdf.Security
             this.isFillColorEnabledCheckBox.Name = "isFillColorEnabledCheckBox";
             this.isFillColorEnabledCheckBox.Size = new System.Drawing.Size(38, 17);
             this.isFillColorEnabledCheckBox.TabIndex = 10;
-            this.isFillColorEnabledCheckBox.Text = "Fill";
+            resources.ApplyResources(this.isFillColorEnabledCheckBox, "isFillColorEnabledCheckBox");
             this.isFillColorEnabledCheckBox.UseVisualStyleBackColor = true;
             this.isFillColorEnabledCheckBox.CheckedChanged += new System.EventHandler(this.isFillColorEnabledCheckBox_CheckedChanged);
             // 
@@ -149,7 +150,7 @@ namespace DemosCommonCode.Pdf.Security
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(67, 13);
             this.label3.TabIndex = 26;
-            this.label3.Text = "Overlay Text";
+            resources.ApplyResources(this.label3, "label3");
             // 
             // alignmentComboBox
             // 
@@ -170,7 +171,7 @@ namespace DemosCommonCode.Pdf.Security
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(55, 13);
             this.label2.TabIndex = 21;
-            this.label2.Text = "Font Color";
+            resources.ApplyResources(this.label2, "label2");
             // 
             // autoFontSizeCheckBox
             // 
@@ -179,7 +180,7 @@ namespace DemosCommonCode.Pdf.Security
             this.autoFontSizeCheckBox.Name = "autoFontSizeCheckBox";
             this.autoFontSizeCheckBox.Size = new System.Drawing.Size(95, 17);
             this.autoFontSizeCheckBox.TabIndex = 18;
-            this.autoFontSizeCheckBox.Text = "Auto Font Size";
+            resources.ApplyResources(this.autoFontSizeCheckBox, "autoFontSizeCheckBox");
             this.autoFontSizeCheckBox.UseVisualStyleBackColor = true;
             this.autoFontSizeCheckBox.CheckedChanged += new System.EventHandler(this.autoFontSizeCheckBox_CheckedChanged);
             // 
@@ -190,7 +191,7 @@ namespace DemosCommonCode.Pdf.Security
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(51, 13);
             this.label1.TabIndex = 17;
-            this.label1.Text = "Font Size";
+            resources.ApplyResources(this.label1, "label1");
             // 
             // fontSizeNumericUpDown
             // 
@@ -221,7 +222,7 @@ namespace DemosCommonCode.Pdf.Security
             this.fontButton.Name = "fontButton";
             this.fontButton.Size = new System.Drawing.Size(75, 23);
             this.fontButton.TabIndex = 15;
-            this.fontButton.Text = "Font...";
+            resources.ApplyResources(this.fontButton, "fontButton");
             this.fontButton.UseVisualStyleBackColor = true;
             this.fontButton.Click += new System.EventHandler(this.fontButton_Click);
             // 
@@ -265,7 +266,7 @@ namespace DemosCommonCode.Pdf.Security
             this.fillColorLabel.Name = "fillColorLabel";
             this.fillColorLabel.Size = new System.Drawing.Size(31, 13);
             this.fillColorLabel.TabIndex = 16;
-            this.fillColorLabel.Text = "Color";
+            resources.ApplyResources(this.fillColorLabel, "fillColorLabel");
             // 
             // borderPropertiesGroupBox
             // 
@@ -294,7 +295,7 @@ namespace DemosCommonCode.Pdf.Security
             this.borderWidthLabel.Name = "borderWidthLabel";
             this.borderWidthLabel.Size = new System.Drawing.Size(35, 13);
             this.borderWidthLabel.TabIndex = 2;
-            this.borderWidthLabel.Text = "Width";
+            resources.ApplyResources(this.borderWidthLabel, "borderWidthLabel");
             // 
             // borderColorPanelControl
             // 
@@ -313,7 +314,7 @@ namespace DemosCommonCode.Pdf.Security
             this.borderColorLabel.Name = "borderColorLabel";
             this.borderColorLabel.Size = new System.Drawing.Size(31, 13);
             this.borderColorLabel.TabIndex = 0;
-            this.borderColorLabel.Text = "Color";
+            resources.ApplyResources(this.borderColorLabel, "borderColorLabel");
             // 
             // isBorderPropertiesEnabledCheckBox
             // 
@@ -322,7 +323,7 @@ namespace DemosCommonCode.Pdf.Security
             this.isBorderPropertiesEnabledCheckBox.Name = "isBorderPropertiesEnabledCheckBox";
             this.isBorderPropertiesEnabledCheckBox.Size = new System.Drawing.Size(57, 17);
             this.isBorderPropertiesEnabledCheckBox.TabIndex = 4;
-            this.isBorderPropertiesEnabledCheckBox.Text = "Border";
+            resources.ApplyResources(this.isBorderPropertiesEnabledCheckBox, "isBorderPropertiesEnabledCheckBox");
             this.isBorderPropertiesEnabledCheckBox.UseVisualStyleBackColor = true;
             this.isBorderPropertiesEnabledCheckBox.CheckedChanged += new System.EventHandler(this.isBorderPropertiesEnabledCheckBox_CheckedChanged);
             // 
@@ -339,7 +340,7 @@ namespace DemosCommonCode.Pdf.Security
             this.Controls.Add(this.overlayTextGroupBox);
             this.Name = "RedactionMarkAppearanceEditor";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Redaction Mark Appearance Editor";
+            resources.ApplyResources(this, "$this");
             this.groupBox4.ResumeLayout(false);
             this.overlayTextGroupBox.ResumeLayout(false);
             this.overlayTextGroupBox.PerformLayout();

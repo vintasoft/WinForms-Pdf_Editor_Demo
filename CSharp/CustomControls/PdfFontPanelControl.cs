@@ -28,7 +28,7 @@ namespace DemosCommonCode.CustomControls
         {
             InitializeComponent();
 
-            toolTip1.SetToolTip(fontNameTextBox, "Double click on the text box for changing the font.");
+            toolTip1.SetToolTip(fontNameTextBox, PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_CUSTOMCONTROLS_DOUBLE_CLICK_ON_THE_TEXT_BOX_FOR_CHANGING_THE_FONT);
         }
 
         #endregion

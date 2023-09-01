@@ -28,6 +28,7 @@ namespace DemosCommonCode.Imaging
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SpellCheckManagerViewSettingsForm));
             Vintasoft.Imaging.UI.VisualTools.UserInteraction.InteractionAreaAppearanceManager interactionAreaAppearanceManager7 = new Vintasoft.Imaging.UI.VisualTools.UserInteraction.InteractionAreaAppearanceManager();
             this.okButton = new System.Windows.Forms.Button();
             this.buttonCancel = new System.Windows.Forms.Button();
@@ -53,7 +54,7 @@ namespace DemosCommonCode.Imaging
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(75, 23);
             this.buttonCancel.TabIndex = 2;
-            this.buttonCancel.Text = "Cancel";
+            resources.ApplyResources(this.buttonCancel, "buttonCancel");
             this.buttonCancel.UseVisualStyleBackColor = true;
             // 
             // spellCheckManagerViewSettingsControl1
@@ -103,7 +104,7 @@ namespace DemosCommonCode.Imaging
             this.Name = "SpellCheckManagerViewSettingsForm";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Spell check view settings";
+            resources.ApplyResources(this, "$this");
             this.ResumeLayout(false);
 
         }

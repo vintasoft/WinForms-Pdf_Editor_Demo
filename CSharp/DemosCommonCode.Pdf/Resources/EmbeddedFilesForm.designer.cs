@@ -28,6 +28,7 @@ namespace DemosCommonCode.Pdf
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EmbeddedFilesForm));
             this.controlButtonsPanel = new System.Windows.Forms.Panel();
             this.saveAsButton = new System.Windows.Forms.Button();
             this.removeButton = new System.Windows.Forms.Button();
@@ -84,7 +85,7 @@ namespace DemosCommonCode.Pdf
             this.saveAsButton.Name = "saveAsButton";
             this.saveAsButton.Size = new System.Drawing.Size(75, 23);
             this.saveAsButton.TabIndex = 3;
-            this.saveAsButton.Text = "Save As...";
+            resources.ApplyResources(this.saveAsButton, "saveAsButton");
             this.saveAsButton.UseVisualStyleBackColor = true;
             this.saveAsButton.Click += new System.EventHandler(this.saveAsButton_Click);
             // 
@@ -94,7 +95,7 @@ namespace DemosCommonCode.Pdf
             this.removeButton.Name = "removeButton";
             this.removeButton.Size = new System.Drawing.Size(75, 23);
             this.removeButton.TabIndex = 2;
-            this.removeButton.Text = "Remove";
+            resources.ApplyResources(this.removeButton, "removeButton");
             this.removeButton.UseVisualStyleBackColor = true;
             this.removeButton.Click += new System.EventHandler(this.removeButton_Click);
             // 
@@ -104,7 +105,7 @@ namespace DemosCommonCode.Pdf
             this.addButton.Name = "addButton";
             this.addButton.Size = new System.Drawing.Size(75, 23);
             this.addButton.TabIndex = 1;
-            this.addButton.Text = "Add...";
+            resources.ApplyResources(this.addButton, "addButton");
             this.addButton.UseVisualStyleBackColor = true;
             this.addButton.Click += new System.EventHandler(this.addButton_Click);
             // 
@@ -164,21 +165,21 @@ namespace DemosCommonCode.Pdf
             // 
             // filenameColumn
             // 
-            this.filenameColumn.HeaderText = "Filename";
+            resources.ApplyResources(this.filenameColumn, "filenameColumn");
             this.filenameColumn.Name = "filenameColumn";
             this.filenameColumn.ReadOnly = true;
             this.filenameColumn.Width = 330;
             // 
             // sizeColumn
             // 
-            this.sizeColumn.HeaderText = "Size";
+            resources.ApplyResources(this.sizeColumn, "sizeColumn");
             this.sizeColumn.Name = "sizeColumn";
             this.sizeColumn.ReadOnly = true;
             this.sizeColumn.Width = 70;
             // 
             // compressedSizeColumn
             // 
-            this.compressedSizeColumn.HeaderText = "Compressed Size";
+            resources.ApplyResources(this.compressedSizeColumn, "compressedSizeColumn");
             this.compressedSizeColumn.Name = "compressedSizeColumn";
             this.compressedSizeColumn.ReadOnly = true;
             this.compressedSizeColumn.Width = 120;
@@ -203,7 +204,7 @@ namespace DemosCommonCode.Pdf
             this.groupBox1.Size = new System.Drawing.Size(212, 223);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Properties";
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             // 
             // panel6
             // 
@@ -223,7 +224,7 @@ namespace DemosCommonCode.Pdf
             this.groupBox2.Size = new System.Drawing.Size(206, 124);
             this.groupBox2.TabIndex = 0;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Description";
+            resources.ApplyResources(this.groupBox2, "groupBox2");
             // 
             // descriptionTextBox
             // 
@@ -257,7 +258,7 @@ namespace DemosCommonCode.Pdf
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(64, 13);
             this.label4.TabIndex = 10;
-            this.label4.Text = "Modify Date";
+            resources.ApplyResources(this.label4, "label4");
             // 
             // createDateLabel
             // 
@@ -284,7 +285,7 @@ namespace DemosCommonCode.Pdf
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(64, 13);
             this.label2.TabIndex = 7;
-            this.label2.Text = "Create Date";
+            resources.ApplyResources(this.label2, "label2");
             // 
             // compressionComboBox
             // 
@@ -303,7 +304,7 @@ namespace DemosCommonCode.Pdf
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(67, 13);
             this.label1.TabIndex = 5;
-            this.label1.Text = "Compression";
+            resources.ApplyResources(this.label1, "label1");
             // 
             // openFileDialog1
             // 
@@ -319,7 +320,7 @@ namespace DemosCommonCode.Pdf
             this.encodeFilesImmediatelyCheckBox.Name = "encodeFilesImmediatelyCheckBox";
             this.encodeFilesImmediatelyCheckBox.Size = new System.Drawing.Size(145, 17);
             this.encodeFilesImmediatelyCheckBox.TabIndex = 4;
-            this.encodeFilesImmediatelyCheckBox.Text = "Encode Files Immediately";
+            resources.ApplyResources(this.encodeFilesImmediatelyCheckBox, "encodeFilesImmediatelyCheckBox");
             this.encodeFilesImmediatelyCheckBox.UseVisualStyleBackColor = true;
             // 
             // EmbeddedFilesForm
@@ -332,7 +333,7 @@ namespace DemosCommonCode.Pdf
             this.Controls.Add(this.controlButtonsPanel);
             this.Name = "EmbeddedFilesForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Embedded Files";
+            resources.ApplyResources(this, "$this");
             this.controlButtonsPanel.ResumeLayout(false);
             this.controlButtonsPanel.PerformLayout();
             this.panel2.ResumeLayout(false);

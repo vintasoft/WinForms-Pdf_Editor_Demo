@@ -117,4 +117,19 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Device Manager Mode</value>
+  </data>
+  <data name="use64BitDevicesRadioButton.Text" xml:space="preserve">
+    <value>Use 64-bit devices</value>
+  </data>
+  <data name="use32BitDevicesRadioButton.Text" xml:space="preserve">
+    <value>Use 32-bit devices</value>
+  </data>
+  <data name="buttonCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </metadata>
 </root>

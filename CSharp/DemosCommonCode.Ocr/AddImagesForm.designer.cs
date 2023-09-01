@@ -28,6 +28,7 @@ namespace DemosCommonCode.Ocr
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddImagesForm));
             Vintasoft.Imaging.UI.ThumbnailAppearance thumbnailAppearance1 = new Vintasoft.Imaging.UI.ThumbnailAppearance();
             Vintasoft.Imaging.UI.ThumbnailAppearance thumbnailAppearance2 = new Vintasoft.Imaging.UI.ThumbnailAppearance();
             Vintasoft.Imaging.UI.ThumbnailAppearance thumbnailAppearance3 = new Vintasoft.Imaging.UI.ThumbnailAppearance();
@@ -75,7 +76,7 @@ namespace DemosCommonCode.Ocr
             this.addFromFileButton.Name = "addFromFileButton";
             this.addFromFileButton.Size = new System.Drawing.Size(185, 23);
             this.addFromFileButton.TabIndex = 0;
-            this.addFromFileButton.Text = "Add from File...";
+            resources.ApplyResources(this.addFromFileButton, "addFromFileButton");
             this.addFromFileButton.UseVisualStyleBackColor = true;
             this.addFromFileButton.Click += new System.EventHandler(this.addFromFileButton_Click);
             // 
@@ -85,7 +86,7 @@ namespace DemosCommonCode.Ocr
             this.addFromScannerButton.Name = "addFromScannerButton";
             this.addFromScannerButton.Size = new System.Drawing.Size(185, 23);
             this.addFromScannerButton.TabIndex = 1;
-            this.addFromScannerButton.Text = "Scan...";
+            resources.ApplyResources(this.addFromScannerButton, "addFromScannerButton");
             this.addFromScannerButton.UseVisualStyleBackColor = true;
             this.addFromScannerButton.Click += new System.EventHandler(this.addFromScannerButton_Click);
             // 
@@ -118,7 +119,7 @@ namespace DemosCommonCode.Ocr
             this.halftoneRemovalCheckBox.Name = "halftoneRemovalCheckBox";
             this.halftoneRemovalCheckBox.Size = new System.Drawing.Size(111, 17);
             this.halftoneRemovalCheckBox.TabIndex = 13;
-            this.halftoneRemovalCheckBox.Text = "Halftone Removal";
+            resources.ApplyResources(this.halftoneRemovalCheckBox, "halftoneRemovalCheckBox");
             this.halftoneRemovalCheckBox.UseVisualStyleBackColor = true;
             // 
             // autoOrientationCheckBox
@@ -128,7 +129,7 @@ namespace DemosCommonCode.Ocr
             this.autoOrientationCheckBox.Name = "autoOrientationCheckBox";
             this.autoOrientationCheckBox.Size = new System.Drawing.Size(99, 17);
             this.autoOrientationCheckBox.TabIndex = 12;
-            this.autoOrientationCheckBox.Text = "Auto Orienation";
+            resources.ApplyResources(this.autoOrientationCheckBox, "autoOrientationCheckBox");
             this.autoOrientationCheckBox.UseVisualStyleBackColor = true;
             // 
             // holePunchRemovalCheckBox
@@ -140,7 +141,7 @@ namespace DemosCommonCode.Ocr
             this.holePunchRemovalCheckBox.Name = "holePunchRemovalCheckBox";
             this.holePunchRemovalCheckBox.Size = new System.Drawing.Size(127, 17);
             this.holePunchRemovalCheckBox.TabIndex = 11;
-            this.holePunchRemovalCheckBox.Text = "Hole Punch Removal";
+            resources.ApplyResources(this.holePunchRemovalCheckBox, "holePunchRemovalCheckBox");
             this.holePunchRemovalCheckBox.UseVisualStyleBackColor = true;
             // 
             // autoInvertCheckBox
@@ -152,7 +153,7 @@ namespace DemosCommonCode.Ocr
             this.autoInvertCheckBox.Name = "autoInvertCheckBox";
             this.autoInvertCheckBox.Size = new System.Drawing.Size(78, 17);
             this.autoInvertCheckBox.TabIndex = 10;
-            this.autoInvertCheckBox.Text = "Auto Invert";
+            resources.ApplyResources(this.autoInvertCheckBox, "autoInvertCheckBox");
             this.autoInvertCheckBox.UseVisualStyleBackColor = true;
             // 
             // segmentationCheckBox
@@ -162,7 +163,7 @@ namespace DemosCommonCode.Ocr
             this.segmentationCheckBox.Name = "segmentationCheckBox";
             this.segmentationCheckBox.Size = new System.Drawing.Size(91, 17);
             this.segmentationCheckBox.TabIndex = 9;
-            this.segmentationCheckBox.Text = "Segmentation";
+            resources.ApplyResources(this.segmentationCheckBox, "segmentationCheckBox");
             this.segmentationCheckBox.UseVisualStyleBackColor = true;
             // 
             // allImagesProgressBar
@@ -188,7 +189,7 @@ namespace DemosCommonCode.Ocr
             this.deskewChekBox.Name = "deskewChekBox";
             this.deskewChekBox.Size = new System.Drawing.Size(65, 17);
             this.deskewChekBox.TabIndex = 3;
-            this.deskewChekBox.Text = "Deskew";
+            resources.ApplyResources(this.deskewChekBox, "deskewChekBox");
             this.deskewChekBox.UseVisualStyleBackColor = true;
             // 
             // clearBorderCheckBox
@@ -200,7 +201,7 @@ namespace DemosCommonCode.Ocr
             this.clearBorderCheckBox.Name = "clearBorderCheckBox";
             this.clearBorderCheckBox.Size = new System.Drawing.Size(84, 17);
             this.clearBorderCheckBox.TabIndex = 2;
-            this.clearBorderCheckBox.Text = "Clear Border";
+            resources.ApplyResources(this.clearBorderCheckBox, "clearBorderCheckBox");
             this.clearBorderCheckBox.UseVisualStyleBackColor = true;
             // 
             // despeckleCheckBox
@@ -212,7 +213,7 @@ namespace DemosCommonCode.Ocr
             this.despeckleCheckBox.Name = "despeckleCheckBox";
             this.despeckleCheckBox.Size = new System.Drawing.Size(77, 17);
             this.despeckleCheckBox.TabIndex = 1;
-            this.despeckleCheckBox.Text = "Despeckle";
+            resources.ApplyResources(this.despeckleCheckBox, "despeckleCheckBox");
             this.despeckleCheckBox.UseVisualStyleBackColor = true;
             // 
             // ocrPreprocessingCheckBox
@@ -225,7 +226,7 @@ namespace DemosCommonCode.Ocr
             this.ocrPreprocessingCheckBox.Name = "ocrPreprocessingCheckBox";
             this.ocrPreprocessingCheckBox.Size = new System.Drawing.Size(119, 17);
             this.ocrPreprocessingCheckBox.TabIndex = 13;
-            this.ocrPreprocessingCheckBox.Text = "OCR Preprocessing";
+            resources.ApplyResources(this.ocrPreprocessingCheckBox, "ocrPreprocessingCheckBox");
             this.ocrPreprocessingCheckBox.UseVisualStyleBackColor = true;
             this.ocrPreprocessingCheckBox.CheckedChanged += new System.EventHandler(this.ocrPreprocessingCheckBox_CheckedChanged);
             // 
@@ -248,7 +249,7 @@ namespace DemosCommonCode.Ocr
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(88, 23);
             this.buttonCancel.TabIndex = 7;
-            this.buttonCancel.Text = "Cancel";
+            resources.ApplyResources(this.buttonCancel, "buttonCancel");
             this.buttonCancel.UseVisualStyleBackColor = true;
             this.buttonCancel.Click += new System.EventHandler(this.buttonCancel_Click);
             // 
@@ -276,7 +277,7 @@ namespace DemosCommonCode.Ocr
             this.processingGroupBox.Size = new System.Drawing.Size(185, 270);
             this.processingGroupBox.TabIndex = 8;
             this.processingGroupBox.TabStop = false;
-            this.processingGroupBox.Text = "Processing";
+            resources.ApplyResources(this.processingGroupBox, "processingGroupBox");
             // 
             // autoOrientationButton
             // 
@@ -284,7 +285,7 @@ namespace DemosCommonCode.Ocr
             this.autoOrientationButton.Name = "autoOrientationButton";
             this.autoOrientationButton.Size = new System.Drawing.Size(169, 23);
             this.autoOrientationButton.TabIndex = 11;
-            this.autoOrientationButton.Text = "Auto Orientation";
+            resources.ApplyResources(this.autoOrientationButton, "autoOrientationButton");
             this.autoOrientationButton.UseVisualStyleBackColor = true;
             this.autoOrientationButton.Click += new System.EventHandler(this.autoOrientationButton_Click);
             // 
@@ -294,7 +295,7 @@ namespace DemosCommonCode.Ocr
             this.autoTextInvertButton.Name = "autoTextInvertButton";
             this.autoTextInvertButton.Size = new System.Drawing.Size(169, 23);
             this.autoTextInvertButton.TabIndex = 10;
-            this.autoTextInvertButton.Text = "Auto Text Invert";
+            resources.ApplyResources(this.autoTextInvertButton, "autoTextInvertButton");
             this.autoTextInvertButton.UseVisualStyleBackColor = true;
             this.autoTextInvertButton.Click += new System.EventHandler(this.autoTextInvertButton_Click);
             // 
@@ -304,7 +305,7 @@ namespace DemosCommonCode.Ocr
             this.removeTablesButton.Name = "removeTablesButton";
             this.removeTablesButton.Size = new System.Drawing.Size(169, 23);
             this.removeTablesButton.TabIndex = 9;
-            this.removeTablesButton.Text = "Remove Tables";
+            resources.ApplyResources(this.removeTablesButton, "removeTablesButton");
             this.removeTablesButton.UseVisualStyleBackColor = true;
             this.removeTablesButton.Click += new System.EventHandler(this.removeTablesButton_Click);
             // 
@@ -315,7 +316,7 @@ namespace DemosCommonCode.Ocr
             this.allImagesRadioButton.Name = "allImagesRadioButton";
             this.allImagesRadioButton.Size = new System.Drawing.Size(73, 17);
             this.allImagesRadioButton.TabIndex = 8;
-            this.allImagesRadioButton.Text = "All Images";
+            resources.ApplyResources(this.allImagesRadioButton, "allImagesRadioButton");
             this.allImagesRadioButton.UseVisualStyleBackColor = true;
             // 
             // currentImageRadioButton
@@ -327,7 +328,7 @@ namespace DemosCommonCode.Ocr
             this.currentImageRadioButton.Size = new System.Drawing.Size(91, 17);
             this.currentImageRadioButton.TabIndex = 7;
             this.currentImageRadioButton.TabStop = true;
-            this.currentImageRadioButton.Text = "Current Image";
+            resources.ApplyResources(this.currentImageRadioButton, "currentImageRadioButton");
             this.currentImageRadioButton.UseVisualStyleBackColor = true;
             // 
             // thresholdComboBox
@@ -349,7 +350,7 @@ namespace DemosCommonCode.Ocr
             this.thresholdBinarizeButton.Name = "thresholdBinarizeButton";
             this.thresholdBinarizeButton.Size = new System.Drawing.Size(112, 23);
             this.thresholdBinarizeButton.TabIndex = 5;
-            this.thresholdBinarizeButton.Text = "Threshold Binarize";
+            resources.ApplyResources(this.thresholdBinarizeButton, "thresholdBinarizeButton");
             this.thresholdBinarizeButton.UseVisualStyleBackColor = true;
             this.thresholdBinarizeButton.Click += new System.EventHandler(this.thresholdBinarizeButton_Click);
             // 
@@ -359,7 +360,7 @@ namespace DemosCommonCode.Ocr
             this.globalBinarizeButton.Name = "globalBinarizeButton";
             this.globalBinarizeButton.Size = new System.Drawing.Size(112, 23);
             this.globalBinarizeButton.TabIndex = 4;
-            this.globalBinarizeButton.Text = "Global Binarize";
+            resources.ApplyResources(this.globalBinarizeButton, "globalBinarizeButton");
             this.globalBinarizeButton.UseVisualStyleBackColor = true;
             this.globalBinarizeButton.Click += new System.EventHandler(this.globalBinarizeButton_Click);
             // 
@@ -369,7 +370,7 @@ namespace DemosCommonCode.Ocr
             this.adaptiveBinarizeButton.Name = "adaptiveBinarizeButton";
             this.adaptiveBinarizeButton.Size = new System.Drawing.Size(112, 23);
             this.adaptiveBinarizeButton.TabIndex = 3;
-            this.adaptiveBinarizeButton.Text = "Adaptive Binarize";
+            resources.ApplyResources(this.adaptiveBinarizeButton, "adaptiveBinarizeButton");
             this.adaptiveBinarizeButton.UseVisualStyleBackColor = true;
             this.adaptiveBinarizeButton.Click += new System.EventHandler(this.adaptiveBinarizeButton_Click);
             // 
@@ -392,7 +393,7 @@ namespace DemosCommonCode.Ocr
             this.invertButton.Name = "invertButton";
             this.invertButton.Size = new System.Drawing.Size(113, 23);
             this.invertButton.TabIndex = 1;
-            this.invertButton.Text = "Invert";
+            resources.ApplyResources(this.invertButton, "invertButton");
             this.invertButton.UseVisualStyleBackColor = true;
             this.invertButton.Click += new System.EventHandler(this.invertButton_Click);
             // 
@@ -402,7 +403,7 @@ namespace DemosCommonCode.Ocr
             this.rotateButton.Name = "rotateButton";
             this.rotateButton.Size = new System.Drawing.Size(113, 23);
             this.rotateButton.TabIndex = 0;
-            this.rotateButton.Text = "Rotate";
+            resources.ApplyResources(this.rotateButton, "rotateButton");
             this.rotateButton.UseVisualStyleBackColor = true;
             this.rotateButton.Click += new System.EventHandler(this.rotateButton_Click);
             // 
@@ -482,7 +483,7 @@ namespace DemosCommonCode.Ocr
             this.MinimizeBox = false;
             this.Name = "AddImagesForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Add Images";
+            resources.ApplyResources(this, "$this");
             this.Shown += new System.EventHandler(this.AddImagesForm_Shown);
             this.ocrPreprocessingGroupBox.ResumeLayout(false);
             this.ocrPreprocessingGroupBox.PerformLayout();

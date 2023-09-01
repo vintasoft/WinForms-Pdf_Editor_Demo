@@ -28,6 +28,7 @@ namespace DemosCommonCode.Pdf
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PdfActionEditorForm));
             this.pdfActionEditorControl1 = new DemosCommonCode.Pdf.PdfActionEditorControl();
             this.okButton = new System.Windows.Forms.Button();
             this.buttonCancel = new System.Windows.Forms.Button();
@@ -65,7 +66,7 @@ namespace DemosCommonCode.Pdf
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(75, 23);
             this.buttonCancel.TabIndex = 2;
-            this.buttonCancel.Text = "Cancel";
+            resources.ApplyResources(this.buttonCancel, "buttonCancel");
             this.buttonCancel.UseVisualStyleBackColor = true;
             // 
             // PdfActionEditorForm
@@ -80,7 +81,7 @@ namespace DemosCommonCode.Pdf
             this.MinimumSize = new System.Drawing.Size(200, 232);
             this.Name = "PdfActionEditorForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Action Editor";
+            resources.ApplyResources(this, "$this");
             this.ResumeLayout(false);
 
         }

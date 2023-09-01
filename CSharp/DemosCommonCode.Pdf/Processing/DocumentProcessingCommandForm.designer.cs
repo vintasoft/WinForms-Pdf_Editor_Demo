@@ -28,6 +28,7 @@ namespace DemosCommonCode.Pdf
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DocumentProcessingCommandForm));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.viewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.resultToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -57,7 +58,7 @@ namespace DemosCommonCode.Pdf
             this.resultToolStripMenuItem});
             this.viewToolStripMenuItem.Name = "viewToolStripMenuItem";
             this.viewToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
-            this.viewToolStripMenuItem.Text = "View";
+            resources.ApplyResources(this.viewToolStripMenuItem, "viewToolStripMenuItem");
             // 
             // resultToolStripMenuItem
             // 
@@ -66,20 +67,20 @@ namespace DemosCommonCode.Pdf
             this.byPageToolStripMenuItem});
             this.resultToolStripMenuItem.Name = "resultToolStripMenuItem";
             this.resultToolStripMenuItem.Size = new System.Drawing.Size(106, 22);
-            this.resultToolStripMenuItem.Text = "Result";
+            resources.ApplyResources(this.resultToolStripMenuItem, "resultToolStripMenuItem");
             // 
             // detailedToolStripMenuItem
             // 
             this.detailedToolStripMenuItem.Name = "detailedToolStripMenuItem";
             this.detailedToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
-            this.detailedToolStripMenuItem.Text = "Detailed";
+            resources.ApplyResources(this.detailedToolStripMenuItem, "detailedToolStripMenuItem");
             this.detailedToolStripMenuItem.Click += new System.EventHandler(this.ProcessingResultViewToolStripMenuItem_Click);
             // 
             // byPageToolStripMenuItem
             // 
             this.byPageToolStripMenuItem.Name = "byPageToolStripMenuItem";
             this.byPageToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
-            this.byPageToolStripMenuItem.Text = "By Page";
+            resources.ApplyResources(this.byPageToolStripMenuItem, "byPageToolStripMenuItem");
             this.byPageToolStripMenuItem.Click += new System.EventHandler(this.ProcessingResultViewToolStripMenuItem_Click);
             // 
             // settingsToolStripMenuItem
@@ -89,15 +90,15 @@ namespace DemosCommonCode.Pdf
             this.fastModeToolStripMenuItem});
             this.settingsToolStripMenuItem.Name = "settingsToolStripMenuItem";
             this.settingsToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
-            this.settingsToolStripMenuItem.Text = "Settings";
+            resources.ApplyResources(this.settingsToolStripMenuItem, "settingsToolStripMenuItem");
             // 
             // decreaseMemoryUsageToolStripMenuItem
             // 
             this.decreaseMemoryUsageToolStripMenuItem.CheckOnClick = true;
             this.decreaseMemoryUsageToolStripMenuItem.Name = "decreaseMemoryUsageToolStripMenuItem";
             this.decreaseMemoryUsageToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
-            this.decreaseMemoryUsageToolStripMenuItem.Text = "Decrease memory usage";
-            this.decreaseMemoryUsageToolStripMenuItem.ToolTipText = "ProcessingState.StorePredicateResults - Disable collect results of predicates";
+            resources.ApplyResources(this.decreaseMemoryUsageToolStripMenuItem, "decreaseMemoryUsageToolStripMenuItem");
+            
             this.decreaseMemoryUsageToolStripMenuItem.CheckedChanged += new System.EventHandler(this.decreaseMemoryUsageToolStripMenuItem_CheckedChanged);
             // 
             // fastModeToolStripMenuItem
@@ -105,7 +106,7 @@ namespace DemosCommonCode.Pdf
             this.fastModeToolStripMenuItem.CheckOnClick = true;
             this.fastModeToolStripMenuItem.Name = "fastModeToolStripMenuItem";
             this.fastModeToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
-            this.fastModeToolStripMenuItem.Text = "Fast mode";
+            resources.ApplyResources(this.fastModeToolStripMenuItem, "fastModeToolStripMenuItem");
             this.fastModeToolStripMenuItem.ToolTipText = "ProcessingState.ThrowTriggerActivatedException - interrupt processing if trigger " +
                 "activated";
             this.fastModeToolStripMenuItem.CheckedChanged += new System.EventHandler(this.fastModeToolStripMenuItem_CheckedChanged);
@@ -132,7 +133,7 @@ namespace DemosCommonCode.Pdf
             this.MinimumSize = new System.Drawing.Size(484, 263);
             this.Name = "DocumentProcessingCommandForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "PdfDocument processing";
+            resources.ApplyResources(this, "$this");
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

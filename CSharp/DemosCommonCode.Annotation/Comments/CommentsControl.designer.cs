@@ -29,6 +29,7 @@ namespace DemosCommonCode.Annotation
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CommentsControl));
             this.commentsLayoutPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.visibleOnViewerCheckBox = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
@@ -55,7 +56,7 @@ namespace DemosCommonCode.Annotation
             this.visibleOnViewerCheckBox.Name = "visibleOnViewerCheckBox";
             this.visibleOnViewerCheckBox.Size = new System.Drawing.Size(184, 17);
             this.visibleOnViewerCheckBox.TabIndex = 1;
-            this.visibleOnViewerCheckBox.Text = "Display on image viewer";
+            resources.ApplyResources(this.visibleOnViewerCheckBox, "visibleOnViewerCheckBox");
             this.visibleOnViewerCheckBox.UseVisualStyleBackColor = true;
             this.visibleOnViewerCheckBox.CheckedChanged += new System.EventHandler(this.visibleOnViewerCheckBox_CheckedChanged);
             // 

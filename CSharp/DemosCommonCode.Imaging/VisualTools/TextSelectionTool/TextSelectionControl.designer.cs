@@ -30,6 +30,7 @@ namespace DemosCommonCode.Imaging
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TextSelectionControl));
             this.components = new System.ComponentModel.Container();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.selectionModeFullLinesRadioButton = new System.Windows.Forms.RadioButton();
@@ -96,7 +97,7 @@ namespace DemosCommonCode.Imaging
             this.groupBox1.Size = new System.Drawing.Size(249, 41);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Selection Mode";
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             // 
             // selectionModeFullLinesRadioButton
             // 
@@ -105,7 +106,7 @@ namespace DemosCommonCode.Imaging
             this.selectionModeFullLinesRadioButton.Name = "selectionModeFullLinesRadioButton";
             this.selectionModeFullLinesRadioButton.Size = new System.Drawing.Size(74, 19);
             this.selectionModeFullLinesRadioButton.TabIndex = 1;
-            this.selectionModeFullLinesRadioButton.Text = "Full Lines";
+            resources.ApplyResources(this.selectionModeFullLinesRadioButton, "selectionModeFullLinesRadioButton");
             this.selectionModeFullLinesRadioButton.UseVisualStyleBackColor = true;
             this.selectionModeFullLinesRadioButton.CheckedChanged += new System.EventHandler(this.selectionModeRadioButton_CheckedChanged);
             // 
@@ -133,7 +134,7 @@ namespace DemosCommonCode.Imaging
             this.groupBox3.Size = new System.Drawing.Size(250, 104);
             this.groupBox3.TabIndex = 2;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Selected Text on Focused Page";
+            resources.ApplyResources(this.groupBox3, "groupBox3");
             // 
             // textExtractionTextBox
             // 
@@ -159,7 +160,7 @@ namespace DemosCommonCode.Imaging
             this.saveAsTextButton.Name = "saveAsTextButton";
             this.saveAsTextButton.Size = new System.Drawing.Size(249, 23);
             this.saveAsTextButton.TabIndex = 1;
-            this.saveAsTextButton.Text = "Save All Selected Text As...";
+            resources.ApplyResources(this.saveAsTextButton, "saveAsTextButton");
             this.saveAsTextButton.UseVisualStyleBackColor = true;
             this.saveAsTextButton.Click += new System.EventHandler(this.saveAsTextButton_Click);
             // 
@@ -192,7 +193,7 @@ namespace DemosCommonCode.Imaging
             this.cursorGroupBox.Size = new System.Drawing.Size(250, 229);
             this.cursorGroupBox.TabIndex = 2;
             this.cursorGroupBox.TabStop = false;
-            this.cursorGroupBox.Text = "Focused Text Symbol";
+            resources.ApplyResources(this.cursorGroupBox, "cursorGroupBox");
             // 
             // contentCodeLabel
             // 
@@ -210,7 +211,7 @@ namespace DemosCommonCode.Imaging
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(84, 15);
             this.label11.TabIndex = 18;
-            this.label11.Text = "Content Code:";
+            resources.ApplyResources(this.label11, "label11");
             // 
             // renderingModeLabel
             // 
@@ -228,7 +229,7 @@ namespace DemosCommonCode.Imaging
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(98, 15);
             this.label10.TabIndex = 16;
-            this.label10.Text = "Rendering Mode:";
+            resources.ApplyResources(this.label10, "label10");
             // 
             // symbolColorPanelControl
             // 
@@ -256,7 +257,7 @@ namespace DemosCommonCode.Imaging
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(76, 15);
             this.label9.TabIndex = 14;
-            this.label9.Text = "Symbol Rect:";
+            resources.ApplyResources(this.label9, "label9");
             // 
             // label7
             // 
@@ -265,7 +266,7 @@ namespace DemosCommonCode.Imaging
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(39, 15);
             this.label7.TabIndex = 12;
-            this.label7.Text = "Color:";
+            resources.ApplyResources(this.label7, "label7");
             // 
             // fontSizeLabel
             // 
@@ -328,7 +329,7 @@ namespace DemosCommonCode.Imaging
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(34, 15);
             this.label6.TabIndex = 5;
-            this.label6.Text = "Font:";
+            resources.ApplyResources(this.label6, "label6");
             // 
             // label5
             // 
@@ -337,7 +338,7 @@ namespace DemosCommonCode.Imaging
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(57, 15);
             this.label5.TabIndex = 4;
-            this.label5.Text = "Font Size:";
+            resources.ApplyResources(this.label5, "label5");
             // 
             // label4
             // 
@@ -346,7 +347,7 @@ namespace DemosCommonCode.Imaging
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(81, 15);
             this.label4.TabIndex = 3;
-            this.label4.Text = "Symbol Code:";
+            resources.ApplyResources(this.label4, "label4");
             // 
             // label3
             // 
@@ -355,7 +356,7 @@ namespace DemosCommonCode.Imaging
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(50, 15);
             this.label3.TabIndex = 2;
-            this.label3.Text = "Symbol:";
+            resources.ApplyResources(this.label3, "label3");
             // 
             // label2
             // 
@@ -364,7 +365,7 @@ namespace DemosCommonCode.Imaging
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(121, 15);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Location (Text space):";
+            resources.ApplyResources(this.label2, "label2");
             // 
             // label1
             // 
@@ -373,7 +374,7 @@ namespace DemosCommonCode.Imaging
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(133, 15);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Location (Image space):";
+            resources.ApplyResources(this.label1, "label1");
             // 
             // mainPanel
             // 
@@ -405,7 +406,7 @@ namespace DemosCommonCode.Imaging
             this.groupBox4.Size = new System.Drawing.Size(249, 69);
             this.groupBox4.TabIndex = 3;
             this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Text Caret";
+            resources.ApplyResources(this.groupBox4, "groupBox4");
             // 
             // label8
             // 
@@ -414,7 +415,7 @@ namespace DemosCommonCode.Imaging
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(97, 15);
             this.label8.TabIndex = 20;
-            this.label8.Text = "Caret Width (px):";
+            resources.ApplyResources(this.label8, "label8");
             // 
             // label12
             // 
@@ -423,7 +424,7 @@ namespace DemosCommonCode.Imaging
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(122, 15);
             this.label12.TabIndex = 22;
-            this.label12.Text = "Blinking Interval (ms):";
+            resources.ApplyResources(this.label12, "label12");
             // 
             // caretBlinkingIntervalNumericUpDown
             // 
@@ -473,7 +474,7 @@ namespace DemosCommonCode.Imaging
             this.keyboardSelectionCheckBox.Name = "keyboardSelectionCheckBox";
             this.keyboardSelectionCheckBox.Size = new System.Drawing.Size(127, 19);
             this.keyboardSelectionCheckBox.TabIndex = 4;
-            this.keyboardSelectionCheckBox.Text = "Keyboard Selection";
+            resources.ApplyResources(this.keyboardSelectionCheckBox, "keyboardSelectionCheckBox");
             this.keyboardSelectionCheckBox.UseVisualStyleBackColor = true;
             this.keyboardSelectionCheckBox.CheckedChanged += new System.EventHandler(this.keyboardSelectionCheckBox_CheckedChanged);
             // 
@@ -484,7 +485,7 @@ namespace DemosCommonCode.Imaging
             this.mouseSelectionCheckBox.Name = "mouseSelectionCheckBox";
             this.mouseSelectionCheckBox.Size = new System.Drawing.Size(113, 19);
             this.mouseSelectionCheckBox.TabIndex = 3;
-            this.mouseSelectionCheckBox.Text = "Mouse Selection";
+            resources.ApplyResources(this.mouseSelectionCheckBox, "mouseSelectionCheckBox");
             this.mouseSelectionCheckBox.UseVisualStyleBackColor = true;
             this.mouseSelectionCheckBox.CheckedChanged += new System.EventHandler(this.mouseSelectionCheckBox_CheckedChanged);
             // 
@@ -500,7 +501,7 @@ namespace DemosCommonCode.Imaging
             this.groupBox2.Size = new System.Drawing.Size(249, 41);
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Formatting Mode";
+            resources.ApplyResources(this.groupBox2, "groupBox2");
             // 
             // formattingModeMonospaceRadioButton
             // 
@@ -509,7 +510,7 @@ namespace DemosCommonCode.Imaging
             this.formattingModeMonospaceRadioButton.Name = "formattingModeMonospaceRadioButton";
             this.formattingModeMonospaceRadioButton.Size = new System.Drawing.Size(87, 19);
             this.formattingModeMonospaceRadioButton.TabIndex = 2;
-            this.formattingModeMonospaceRadioButton.Text = "Monospace";
+            resources.ApplyResources(this.formattingModeMonospaceRadioButton, "formattingModeMonospaceRadioButton");
             this.formattingModeMonospaceRadioButton.UseVisualStyleBackColor = true;
             this.formattingModeMonospaceRadioButton.CheckedChanged += new System.EventHandler(this.formattingModeRadioButton_CheckedChanged);
             // 
@@ -520,7 +521,7 @@ namespace DemosCommonCode.Imaging
             this.formattingModeLinesRadioButton.Name = "formattingModeLinesRadioButton";
             this.formattingModeLinesRadioButton.Size = new System.Drawing.Size(52, 19);
             this.formattingModeLinesRadioButton.TabIndex = 1;
-            this.formattingModeLinesRadioButton.Text = "Lines";
+            resources.ApplyResources(this.formattingModeLinesRadioButton, "formattingModeLinesRadioButton");
             this.formattingModeLinesRadioButton.UseVisualStyleBackColor = true;
             this.formattingModeLinesRadioButton.CheckedChanged += new System.EventHandler(this.formattingModeRadioButton_CheckedChanged);
             // 
@@ -533,7 +534,7 @@ namespace DemosCommonCode.Imaging
             this.formattingModeParagraphsRadioButton.Size = new System.Drawing.Size(84, 19);
             this.formattingModeParagraphsRadioButton.TabIndex = 0;
             this.formattingModeParagraphsRadioButton.TabStop = true;
-            this.formattingModeParagraphsRadioButton.Text = "Paragraphs";
+            resources.ApplyResources(this.formattingModeParagraphsRadioButton, "formattingModeParagraphsRadioButton");
             this.formattingModeParagraphsRadioButton.UseVisualStyleBackColor = true;
             this.formattingModeParagraphsRadioButton.CheckedChanged += new System.EventHandler(this.formattingModeRadioButton_CheckedChanged);
             // 
@@ -550,14 +551,14 @@ namespace DemosCommonCode.Imaging
             // 
             this.copyToolStripMenuItem.Name = "copyToolStripMenuItem";
             this.copyToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
-            this.copyToolStripMenuItem.Text = "Copy";
+            resources.ApplyResources(this.copyToolStripMenuItem, "copyToolStripMenuItem");
             this.copyToolStripMenuItem.Click += new System.EventHandler(this.copyToolStripMenuItem_Click);
             // 
             // selectAllToolStripMenuItem
             // 
             this.selectAllToolStripMenuItem.Name = "selectAllToolStripMenuItem";
             this.selectAllToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
-            this.selectAllToolStripMenuItem.Text = "Select All";
+            resources.ApplyResources(this.selectAllToolStripMenuItem, "selectAllToolStripMenuItem");
             this.selectAllToolStripMenuItem.Click += new System.EventHandler(this.selectAllToolStripMenuItem_Click);
             // 
             // saveFileDialog

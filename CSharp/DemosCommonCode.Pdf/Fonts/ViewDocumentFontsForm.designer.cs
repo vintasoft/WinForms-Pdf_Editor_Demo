@@ -28,6 +28,7 @@ namespace DemosCommonCode.Pdf
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ViewDocumentFontsForm));
             this.panel1 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.cellSizeNumericUpDown = new System.Windows.Forms.NumericUpDown();
@@ -67,7 +68,7 @@ namespace DemosCommonCode.Pdf
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(47, 13);
             this.label2.TabIndex = 3;
-            this.label2.Text = "Cell Size";
+            resources.ApplyResources(this.label2, "label2");
             // 
             // cellSizeNumericUpDown
             // 
@@ -105,7 +106,7 @@ namespace DemosCommonCode.Pdf
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(28, 13);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Font";
+            resources.ApplyResources(this.label1, "label1");
             // 
             // fontComboBox
             // 
@@ -188,7 +189,7 @@ namespace DemosCommonCode.Pdf
             this.MinimumSize = new System.Drawing.Size(320, 240);
             this.Name = "ViewDocumentFontsForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Document Fonts";
+            resources.ApplyResources(this, "$this");
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.cellSizeNumericUpDown)).EndInit();

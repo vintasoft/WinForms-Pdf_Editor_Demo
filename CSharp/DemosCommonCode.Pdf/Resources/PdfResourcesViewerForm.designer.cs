@@ -28,6 +28,7 @@ namespace DemosCommonCode.Pdf
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PdfResourcesViewerForm));
             this.splitContainerMain = new System.Windows.Forms.SplitContainer();
             this.DocumentResourceViewer = new DemosCommonCode.Pdf.PdfDocumentResourceViewer();
             this.ResourceViewerControl = new DemosCommonCode.Pdf.PdfResourceViewerControl();
@@ -131,7 +132,7 @@ namespace DemosCommonCode.Pdf
             this.cancelButton1.Name = "cancelButton1";
             this.cancelButton1.Size = new System.Drawing.Size(75, 23);
             this.cancelButton1.TabIndex = 2;
-            this.cancelButton1.Text = "Cancel";
+            resources.ApplyResources(this.cancelButton1, "cancelButton1");
             this.cancelButton1.UseVisualStyleBackColor = true;
             // 
             // openFileDialog
@@ -169,7 +170,7 @@ namespace DemosCommonCode.Pdf
             this.defaultCompressionParamsButton.Name = "defaultCompressionParamsButton";
             this.defaultCompressionParamsButton.Size = new System.Drawing.Size(184, 23);
             this.defaultCompressionParamsButton.TabIndex = 10;
-            this.defaultCompressionParamsButton.Text = "Default Compression Params...";
+            resources.ApplyResources(this.defaultCompressionParamsButton, "defaultCompressionParamsButton");
             this.defaultCompressionParamsButton.UseVisualStyleBackColor = true;
             this.defaultCompressionParamsButton.Click += new System.EventHandler(this.defaultCompressionParamsButton_Click);
             // 
@@ -208,13 +209,13 @@ namespace DemosCommonCode.Pdf
             this.saveAsImageToolStripMenuItem});
             this.resourcesToolStripMenuItem.Name = "resourcesToolStripMenuItem";
             this.resourcesToolStripMenuItem.Size = new System.Drawing.Size(72, 20);
-            this.resourcesToolStripMenuItem.Text = "Resources";
+            resources.ApplyResources(this.resourcesToolStripMenuItem, "resourcesToolStripMenuItem");
             // 
             // addFromDocumentToolStripMenuItem
             // 
             this.addFromDocumentToolStripMenuItem.Name = "addFromDocumentToolStripMenuItem";
             this.addFromDocumentToolStripMenuItem.Size = new System.Drawing.Size(220, 22);
-            this.addFromDocumentToolStripMenuItem.Text = "Add from Document...";
+            resources.ApplyResources(this.addFromDocumentToolStripMenuItem, "addFromDocumentToolStripMenuItem");
             this.addFromDocumentToolStripMenuItem.Click += new System.EventHandler(this.addFromDocumentToolStripMenuItem_Click);
             // 
             // addFromDocumentToolStripSeparator
@@ -226,21 +227,21 @@ namespace DemosCommonCode.Pdf
             // 
             this.createResourceFromImageToolStripMenuItem.Name = "createResourceFromImageToolStripMenuItem";
             this.createResourceFromImageToolStripMenuItem.Size = new System.Drawing.Size(220, 22);
-            this.createResourceFromImageToolStripMenuItem.Text = "Create from Image...";
+            resources.ApplyResources(this.createResourceFromImageToolStripMenuItem, "createResourceFromImageToolStripMenuItem");
             this.createResourceFromImageToolStripMenuItem.Click += new System.EventHandler(this.createResourceFromImageToolStripMenuItem_Click);
             // 
             // createResourceFromSelectedPageToolStripMenuItem
             // 
             this.createResourceFromSelectedPageToolStripMenuItem.Name = "createResourceFromSelectedPageToolStripMenuItem";
             this.createResourceFromSelectedPageToolStripMenuItem.Size = new System.Drawing.Size(220, 22);
-            this.createResourceFromSelectedPageToolStripMenuItem.Text = "Create from Selected Page";
+            resources.ApplyResources(this.createResourceFromSelectedPageToolStripMenuItem, "createResourceFromSelectedPageToolStripMenuItem");
             this.createResourceFromSelectedPageToolStripMenuItem.Click += new System.EventHandler(this.createResourceFromSelectedPageToolStripMenuItem_Click);
             // 
             // createResourceFromSelectedImageToolStripMenuItem
             // 
             this.createResourceFromSelectedImageToolStripMenuItem.Name = "createResourceFromSelectedImageToolStripMenuItem";
             this.createResourceFromSelectedImageToolStripMenuItem.Size = new System.Drawing.Size(220, 22);
-            this.createResourceFromSelectedImageToolStripMenuItem.Text = "Create from Selected Image";
+            resources.ApplyResources(this.createResourceFromSelectedImageToolStripMenuItem, "createResourceFromSelectedImageToolStripMenuItem");
             this.createResourceFromSelectedImageToolStripMenuItem.Click += new System.EventHandler(this.createResourceFromSelectedImageToolStripMenuItem_Click);
             // 
             // createResourcesToolStripSeparator
@@ -252,14 +253,14 @@ namespace DemosCommonCode.Pdf
             // 
             this.saveAsBinaryToolStripMenuItem.Name = "saveAsBinaryToolStripMenuItem";
             this.saveAsBinaryToolStripMenuItem.Size = new System.Drawing.Size(220, 22);
-            this.saveAsBinaryToolStripMenuItem.Text = "Save As Binary Data...";
+            resources.ApplyResources(this.saveAsBinaryToolStripMenuItem, "saveAsBinaryToolStripMenuItem");
             this.saveAsBinaryToolStripMenuItem.Click += new System.EventHandler(this.saveAsBinaryToolStripMenuItem_Click);
             // 
             // saveAsImageToolStripMenuItem
             // 
             this.saveAsImageToolStripMenuItem.Name = "saveAsImageToolStripMenuItem";
             this.saveAsImageToolStripMenuItem.Size = new System.Drawing.Size(220, 22);
-            this.saveAsImageToolStripMenuItem.Text = "Save As Image...";
+            resources.ApplyResources(this.saveAsImageToolStripMenuItem, "saveAsImageToolStripMenuItem");
             this.saveAsImageToolStripMenuItem.Click += new System.EventHandler(this.saveAsImageToolStripMenuItem_Click);
             // 
             // viewToolStripMenuItem
@@ -269,20 +270,20 @@ namespace DemosCommonCode.Pdf
             this.linearToolStripMenuItem});
             this.viewToolStripMenuItem.Name = "viewToolStripMenuItem";
             this.viewToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
-            this.viewToolStripMenuItem.Text = "View";
+            resources.ApplyResources(this.viewToolStripMenuItem, "viewToolStripMenuItem");
             // 
             // hierarchicalToolStripMenuItem
             // 
             this.hierarchicalToolStripMenuItem.Name = "hierarchicalToolStripMenuItem";
             this.hierarchicalToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
-            this.hierarchicalToolStripMenuItem.Text = "Hierarchical";
+            resources.ApplyResources(this.hierarchicalToolStripMenuItem, "hierarchicalToolStripMenuItem");
             this.hierarchicalToolStripMenuItem.Click += new System.EventHandler(this.treeViewTypeToolStripMenuItem_Click);
             // 
             // linearToolStripMenuItem
             // 
             this.linearToolStripMenuItem.Name = "linearToolStripMenuItem";
             this.linearToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
-            this.linearToolStripMenuItem.Text = "Linear";
+            resources.ApplyResources(this.linearToolStripMenuItem, "linearToolStripMenuItem");
             this.linearToolStripMenuItem.Click += new System.EventHandler(this.treeViewTypeToolStripMenuItem_Click);
             // 
             // PdfResourcesViewerForm
@@ -299,7 +300,7 @@ namespace DemosCommonCode.Pdf
             this.MinimumSize = new System.Drawing.Size(614, 303);
             this.Name = "PdfResourcesViewerForm";
             this.ShowIcon = false;
-            this.Text = "Resources Viewer";
+            resources.ApplyResources(this, "$this");
             this.splitContainerMain.Panel1.ResumeLayout(false);
             this.splitContainerMain.Panel2.ResumeLayout(false);
             this.splitContainerMain.ResumeLayout(false);

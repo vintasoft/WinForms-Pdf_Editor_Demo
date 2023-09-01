@@ -156,7 +156,7 @@ namespace DemosCommonCode.Pdf
             this.undoToolStripSplitButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.undoToolStripSplitButton.Name = "undoToolStripSplitButton";
             this.undoToolStripSplitButton.Size = new System.Drawing.Size(32, 22);
-            this.undoToolStripSplitButton.Text = "Undo";
+            resources.ApplyResources(this.undoToolStripSplitButton, "undoToolStripSplitButton");
             this.undoToolStripSplitButton.ButtonClick += new System.EventHandler(this.undoToolStripSplitButton_ButtonClick);
             this.undoToolStripSplitButton.DropDownItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.undoToolStripSplitButton_DropDownItemClicked);
             // 
@@ -167,7 +167,7 @@ namespace DemosCommonCode.Pdf
             this.redoToolStripSplitButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.redoToolStripSplitButton.Name = "redoToolStripSplitButton";
             this.redoToolStripSplitButton.Size = new System.Drawing.Size(32, 22);
-            this.redoToolStripSplitButton.Text = "Redo";
+            resources.ApplyResources(this.redoToolStripSplitButton, "redoToolStripSplitButton");
             this.redoToolStripSplitButton.ButtonClick += new System.EventHandler(this.redoToolStripSplitButton_ButtonClick);
             this.redoToolStripSplitButton.DropDownItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.redoToolStripSplitButton_DropDownItemClicked);
             // 
@@ -184,7 +184,7 @@ namespace DemosCommonCode.Pdf
             this.editTextObjectToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.editTextObjectToolStripButton.Name = "editTextObjectToolStripButton";
             this.editTextObjectToolStripButton.Size = new System.Drawing.Size(23, 22);
-            this.editTextObjectToolStripButton.Text = "Edit Text";
+            resources.ApplyResources(this.editTextObjectToolStripButton, "editTextObjectToolStripButton");
             this.editTextObjectToolStripButton.Click += new System.EventHandler(this.editTextObjectToolStripButton_Click);
             // 
             // replaceResourceToolStripButton
@@ -194,7 +194,7 @@ namespace DemosCommonCode.Pdf
             this.replaceResourceToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.replaceResourceToolStripButton.Name = "replaceResourceToolStripButton";
             this.replaceResourceToolStripButton.Size = new System.Drawing.Size(23, 22);
-            this.replaceResourceToolStripButton.ToolTipText = "Replace Image/Form Resource...";
+            resources.ApplyResources(this.replaceResourceToolStripButton, "replaceResourceToolStripButton");
             this.replaceResourceToolStripButton.Click += new System.EventHandler(this.replaceResourceToolStripMenuItem_Click);
             // 
             // contentGraphicsPropertiesToolStripButton
@@ -205,7 +205,7 @@ namespace DemosCommonCode.Pdf
             this.contentGraphicsPropertiesToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.contentGraphicsPropertiesToolStripButton.Name = "contentGraphicsPropertiesToolStripButton";
             this.contentGraphicsPropertiesToolStripButton.Size = new System.Drawing.Size(23, 22);
-            this.contentGraphicsPropertiesToolStripButton.ToolTipText = "Edit Content Graphics Properties...";
+            resources.ApplyResources(this.contentGraphicsPropertiesToolStripButton, "contentGraphicsPropertiesToolStripButton");
             this.contentGraphicsPropertiesToolStripButton.Click += new System.EventHandler(this.contentGraphicsPropertiesToolStripButton_Click);
             // 
             // toolStripSeparator9
@@ -220,7 +220,7 @@ namespace DemosCommonCode.Pdf
             this.horizontalMirrorToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.horizontalMirrorToolStripButton.Name = "horizontalMirrorToolStripButton";
             this.horizontalMirrorToolStripButton.Size = new System.Drawing.Size(23, 22);
-            this.horizontalMirrorToolStripButton.ToolTipText = "Horizontal Mirror";
+            resources.ApplyResources(this.horizontalMirrorToolStripButton, "horizontalMirrorToolStripButton");
             this.horizontalMirrorToolStripButton.Click += new System.EventHandler(this.horizontalMirrorToolStripButton_Click);
             // 
             // verticalMirrorToolStripButton
@@ -230,7 +230,7 @@ namespace DemosCommonCode.Pdf
             this.verticalMirrorToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.verticalMirrorToolStripButton.Name = "verticalMirrorToolStripButton";
             this.verticalMirrorToolStripButton.Size = new System.Drawing.Size(23, 22);
-            this.verticalMirrorToolStripButton.ToolTipText = "Vertial Mirror";
+            resources.ApplyResources(this.verticalMirrorToolStripButton, "verticalMirrorToolStripButton");
             this.verticalMirrorToolStripButton.Click += new System.EventHandler(this.verticalMirrorToolStripButton_Click);
             // 
             // rotateClockwiseToolStripButton
@@ -241,7 +241,7 @@ namespace DemosCommonCode.Pdf
             this.rotateClockwiseToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.rotateClockwiseToolStripButton.Name = "rotateClockwiseToolStripButton";
             this.rotateClockwiseToolStripButton.Size = new System.Drawing.Size(23, 22);
-            this.rotateClockwiseToolStripButton.ToolTipText = "Rotate by 90 degress (Clockwise)";
+            resources.ApplyResources(this.rotateClockwiseToolStripButton, "rotateClockwiseToolStripButton");
             this.rotateClockwiseToolStripButton.Click += new System.EventHandler(this.rotateClockwiseToolStripButton_Click);
             // 
             // rotateCounterclockwiseToolStripButton
@@ -252,7 +252,7 @@ namespace DemosCommonCode.Pdf
             this.rotateCounterclockwiseToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.rotateCounterclockwiseToolStripButton.Name = "rotateCounterclockwiseToolStripButton";
             this.rotateCounterclockwiseToolStripButton.Size = new System.Drawing.Size(23, 22);
-            this.rotateCounterclockwiseToolStripButton.ToolTipText = "Rotate by 90 degress (Counterclockwise)";
+            resources.ApplyResources(this.rotateCounterclockwiseToolStripButton, "rotateCounterclockwiseToolStripButton");
             this.rotateCounterclockwiseToolStripButton.Click += new System.EventHandler(this.rotateCounterclockwiseToolStripButton_Click);
             // 
             // toolStripSeparator10
@@ -267,7 +267,7 @@ namespace DemosCommonCode.Pdf
             this.addRectangleClipToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.addRectangleClipToolStripButton.Name = "addRectangleClipToolStripButton";
             this.addRectangleClipToolStripButton.Size = new System.Drawing.Size(23, 22);
-            this.addRectangleClipToolStripButton.ToolTipText = "Add Rectangular Clip";
+            resources.ApplyResources(this.addRectangleClipToolStripButton, "addRectangleClipToolStripButton");
             this.addRectangleClipToolStripButton.Click += new System.EventHandler(this.addRectangularClipToolStripButton_Click);
             // 
             // addEllipseClipToolStripButton
@@ -277,7 +277,7 @@ namespace DemosCommonCode.Pdf
             this.addEllipseClipToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.addEllipseClipToolStripButton.Name = "addEllipseClipToolStripButton";
             this.addEllipseClipToolStripButton.Size = new System.Drawing.Size(23, 22);
-            this.addEllipseClipToolStripButton.ToolTipText = "Add Elliptical Clip";
+            resources.ApplyResources(this.addEllipseClipToolStripButton, "addEllipseClipToolStripButton");
             this.addEllipseClipToolStripButton.Click += new System.EventHandler(this.addEllipseCliptoolStripMenuItem_Click);
             // 
             // contentEditorToolStrip
@@ -309,7 +309,7 @@ namespace DemosCommonCode.Pdf
             this.appendModeToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.appendModeToolStripButton.Name = "appendModeToolStripButton";
             this.appendModeToolStripButton.Size = new System.Drawing.Size(23, 22);
-            this.appendModeToolStripButton.Text = "Use Append Mode";
+            resources.ApplyResources(this.appendModeToolStripButton, "appendModeToolStripButton");
             this.appendModeToolStripButton.CheckStateChanged += new System.EventHandler(this.appendModeCheckBox_CheckedChanged);
             // 
             // groupContentFiguresToolStripButton
@@ -320,7 +320,7 @@ namespace DemosCommonCode.Pdf
             this.groupContentFiguresToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.groupContentFiguresToolStripButton.Name = "groupContentFiguresToolStripButton";
             this.groupContentFiguresToolStripButton.Size = new System.Drawing.Size(23, 22);
-            this.groupContentFiguresToolStripButton.Text = "Group Content Figures";
+            resources.ApplyResources(this.groupContentFiguresToolStripButton, "groupContentFiguresToolStripButton");
             this.groupContentFiguresToolStripButton.CheckedChanged += new System.EventHandler(this.groupContentFiguresToolStripButton_CheckedChanged);
             // 
             // highlightToolStripButton
@@ -331,7 +331,7 @@ namespace DemosCommonCode.Pdf
             this.highlightToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.highlightToolStripButton.Name = "highlightToolStripButton";
             this.highlightToolStripButton.Size = new System.Drawing.Size(23, 22);
-            this.highlightToolStripButton.ToolTipText = "Highlight content figures";
+            resources.ApplyResources(this.highlightToolStripButton, "highlightToolStripButton");
             this.highlightToolStripButton.CheckStateChanged += new System.EventHandler(this.highlightCheckBox_CheckedChanged);
             // 
             // toolStripSeparator3
@@ -347,7 +347,7 @@ namespace DemosCommonCode.Pdf
             this.textContentToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.textContentToolStripButton.Name = "textContentToolStripButton";
             this.textContentToolStripButton.Size = new System.Drawing.Size(23, 22);
-            this.textContentToolStripButton.Text = "Edit Text";
+            resources.ApplyResources(this.textContentToolStripButton, "textContentToolStripButton");
             this.textContentToolStripButton.CheckedChanged += new System.EventHandler(this.interactiveContentTypeToolStripButton_CheckedChanged);
             this.textContentToolStripButton.MouseDown += new System.Windows.Forms.MouseEventHandler(this.interactiveContentTypeToolStripButton_MouseDown);
             // 
@@ -359,7 +359,7 @@ namespace DemosCommonCode.Pdf
             this.imageContentToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.imageContentToolStripButton.Name = "imageContentToolStripButton";
             this.imageContentToolStripButton.Size = new System.Drawing.Size(23, 22);
-            this.imageContentToolStripButton.Text = "Edit Images";
+            resources.ApplyResources(this.imageContentToolStripButton, "imageContentToolStripButton");
             this.imageContentToolStripButton.CheckedChanged += new System.EventHandler(this.interactiveContentTypeToolStripButton_CheckedChanged);
             this.imageContentToolStripButton.MouseDown += new System.Windows.Forms.MouseEventHandler(this.interactiveContentTypeToolStripButton_MouseDown);
             // 
@@ -371,7 +371,7 @@ namespace DemosCommonCode.Pdf
             this.formContentToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.formContentToolStripButton.Name = "formContentToolStripButton";
             this.formContentToolStripButton.Size = new System.Drawing.Size(23, 22);
-            this.formContentToolStripButton.Text = "Edit Forms";
+            resources.ApplyResources(this.formContentToolStripButton, "formContentToolStripButton");
             this.formContentToolStripButton.CheckedChanged += new System.EventHandler(this.interactiveContentTypeToolStripButton_CheckedChanged);
             this.formContentToolStripButton.MouseDown += new System.Windows.Forms.MouseEventHandler(this.interactiveContentTypeToolStripButton_MouseDown);
             // 
@@ -383,7 +383,7 @@ namespace DemosCommonCode.Pdf
             this.strokePathContentToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.strokePathContentToolStripButton.Name = "strokePathContentToolStripButton";
             this.strokePathContentToolStripButton.Size = new System.Drawing.Size(23, 22);
-            this.strokePathContentToolStripButton.Text = "Edit Stroke Paths";
+            resources.ApplyResources(this.strokePathContentToolStripButton, "strokePathContentToolStripButton");
             this.strokePathContentToolStripButton.CheckedChanged += new System.EventHandler(this.interactiveContentTypeToolStripButton_CheckedChanged);
             this.strokePathContentToolStripButton.MouseDown += new System.Windows.Forms.MouseEventHandler(this.interactiveContentTypeToolStripButton_MouseDown);
             // 
@@ -395,7 +395,7 @@ namespace DemosCommonCode.Pdf
             this.fillPathContentToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.fillPathContentToolStripButton.Name = "fillPathContentToolStripButton";
             this.fillPathContentToolStripButton.Size = new System.Drawing.Size(23, 22);
-            this.fillPathContentToolStripButton.Text = "Edit Fill Paths";
+            resources.ApplyResources(this.fillPathContentToolStripButton, "fillPathContentToolStripButton");
             this.fillPathContentToolStripButton.CheckedChanged += new System.EventHandler(this.interactiveContentTypeToolStripButton_CheckedChanged);
             this.fillPathContentToolStripButton.MouseDown += new System.Windows.Forms.MouseEventHandler(this.interactiveContentTypeToolStripButton_MouseDown);
             // 
@@ -407,7 +407,7 @@ namespace DemosCommonCode.Pdf
             this.shadingFillContentToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.shadingFillContentToolStripButton.Name = "shadingFillContentToolStripButton";
             this.shadingFillContentToolStripButton.Size = new System.Drawing.Size(23, 22);
-            this.shadingFillContentToolStripButton.Text = "Edit Shading Fills";
+            resources.ApplyResources(this.shadingFillContentToolStripButton, "shadingFillContentToolStripButton");
             this.shadingFillContentToolStripButton.CheckedChanged += new System.EventHandler(this.interactiveContentTypeToolStripButton_CheckedChanged);
             this.shadingFillContentToolStripButton.MouseDown += new System.Windows.Forms.MouseEventHandler(this.interactiveContentTypeToolStripButton_MouseDown);
             // 
@@ -419,7 +419,7 @@ namespace DemosCommonCode.Pdf
             this.clipContentToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.clipContentToolStripButton.Name = "clipContentToolStripButton";
             this.clipContentToolStripButton.Size = new System.Drawing.Size(23, 22);
-            this.clipContentToolStripButton.Text = "Edit Clip Paths";
+            resources.ApplyResources(this.clipContentToolStripButton, "clipContentToolStripButton");
             this.clipContentToolStripButton.CheckedChanged += new System.EventHandler(this.interactiveContentTypeToolStripButton_CheckedChanged);
             this.clipContentToolStripButton.MouseDown += new System.Windows.Forms.MouseEventHandler(this.interactiveContentTypeToolStripButton_MouseDown);
             // 
@@ -430,7 +430,7 @@ namespace DemosCommonCode.Pdf
             this.removeButton.Name = "removeButton";
             this.removeButton.Size = new System.Drawing.Size(59, 23);
             this.removeButton.TabIndex = 5;
-            this.removeButton.Text = "Remove";
+            resources.ApplyResources(this.removeButton, "removeButton");
             this.removeButton.UseVisualStyleBackColor = true;
             this.removeButton.Click += new System.EventHandler(this.removeButton_Click);
             // 
@@ -445,7 +445,7 @@ namespace DemosCommonCode.Pdf
             this.figuresGroupBox.Size = new System.Drawing.Size(314, 433);
             this.figuresGroupBox.TabIndex = 4;
             this.figuresGroupBox.TabStop = false;
-            this.figuresGroupBox.Text = "Add Graphics Figure";
+            resources.ApplyResources(this.figuresGroupBox, "figuresGroupBox");
             // 
             // figureBuilderToolStrip
             // 
@@ -484,7 +484,7 @@ namespace DemosCommonCode.Pdf
             this.addTextToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.addTextToolStripButton.Name = "addTextToolStripButton";
             this.addTextToolStripButton.Size = new System.Drawing.Size(73, 20);
-            this.addTextToolStripButton.Text = "Text Line";
+            resources.ApplyResources(this.addTextToolStripButton, "addTextToolStripButton");
             this.addTextToolStripButton.Click += new System.EventHandler(this.addTextToolStripButton_Click);
             // 
             // addTextBoxToolStripButton
@@ -494,7 +494,7 @@ namespace DemosCommonCode.Pdf
             this.addTextBoxToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.addTextBoxToolStripButton.Name = "addTextBoxToolStripButton";
             this.addTextBoxToolStripButton.Size = new System.Drawing.Size(71, 20);
-            this.addTextBoxToolStripButton.Text = "Text Box";
+            resources.ApplyResources(this.addTextBoxToolStripButton, "addTextBoxToolStripButton");
             this.addTextBoxToolStripButton.Click += new System.EventHandler(this.addTextBoxToolStripButton_Click);
             // 
             // formattedTextButton
@@ -504,7 +504,7 @@ namespace DemosCommonCode.Pdf
             this.formattedTextButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.formattedTextButton.Name = "formattedTextButton";
             this.formattedTextButton.Size = new System.Drawing.Size(106, 20);
-            this.formattedTextButton.Text = "Formatted Text";
+            resources.ApplyResources(this.formattedTextButton, "formattedTextButton");
             this.formattedTextButton.Click += new System.EventHandler(this.formattedTextButton_Click);
             // 
             // drawChartToolStripButton
@@ -524,8 +524,8 @@ namespace DemosCommonCode.Pdf
             this.drawOfficeDocumentButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.drawOfficeDocumentButton.Name = "drawOfficeDocumentButton";
             this.drawOfficeDocumentButton.Size = new System.Drawing.Size(118, 20);
-            this.drawOfficeDocumentButton.Text = "Office Document";
-            this.drawOfficeDocumentButton.ToolTipText = "Office Document";
+            resources.ApplyResources(this.drawOfficeDocumentButton, "drawOfficeDocumentButton");
+            
             this.drawOfficeDocumentButton.Click += new System.EventHandler(this.drawOfficeDocumentButton_Click);
             // 
             // drawImageToolStripButton
@@ -535,7 +535,7 @@ namespace DemosCommonCode.Pdf
             this.drawImageToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.drawImageToolStripButton.Name = "drawImageToolStripButton";
             this.drawImageToolStripButton.Size = new System.Drawing.Size(111, 20);
-            this.drawImageToolStripButton.Text = "Image Resource";
+            resources.ApplyResources(this.drawImageToolStripButton, "drawImageToolStripButton");
             this.drawImageToolStripButton.Click += new System.EventHandler(this.drawImageToolStripButton_Click);
             // 
             // formXObjectToolStripButton
@@ -544,7 +544,7 @@ namespace DemosCommonCode.Pdf
             this.formXObjectToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.formXObjectToolStripButton.Name = "formXObjectToolStripButton";
             this.formXObjectToolStripButton.Size = new System.Drawing.Size(106, 20);
-            this.formXObjectToolStripButton.Text = "Form Resource";
+            resources.ApplyResources(this.formXObjectToolStripButton, "formXObjectToolStripButton");
             this.formXObjectToolStripButton.Click += new System.EventHandler(this.drawFormXObjectToolStripButton_Click);
             // 
             // drawVintasoftImageToolStripButton
@@ -574,7 +574,7 @@ namespace DemosCommonCode.Pdf
             this.fillRectangleToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.fillRectangleToolStripButton.Name = "fillRectangleToolStripButton";
             this.fillRectangleToolStripButton.Size = new System.Drawing.Size(110, 20);
-            this.fillRectangleToolStripButton.Text = "Filled Rectangle";
+            resources.ApplyResources(this.fillRectangleToolStripButton, "fillRectangleToolStripButton");
             this.fillRectangleToolStripButton.Click += new System.EventHandler(this.fillRectangleToolStripButton_Click);
             // 
             // fillRectangleUseBlendingModeToolStripButton
@@ -584,7 +584,7 @@ namespace DemosCommonCode.Pdf
             this.fillRectangleUseBlendingModeToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.fillRectangleUseBlendingModeToolStripButton.Name = "fillRectangleUseBlendingModeToolStripButton";
             this.fillRectangleUseBlendingModeToolStripButton.Size = new System.Drawing.Size(210, 20);
-            this.fillRectangleUseBlendingModeToolStripButton.Text = "Highlight Rectangle With Blending";
+            resources.ApplyResources(this.fillRectangleUseBlendingModeToolStripButton, "fillRectangleUseBlendingModeToolStripButton");
             this.fillRectangleUseBlendingModeToolStripButton.Click += new System.EventHandler(this.fillRectangleUseBlendingModeToolStripButton_Click);
             // 
             // drawLinesUseBlendingModeToolStripButton
@@ -594,7 +594,7 @@ namespace DemosCommonCode.Pdf
             this.drawLinesUseBlendingModeToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.drawLinesUseBlendingModeToolStripButton.Name = "drawLinesUseBlendingModeToolStripButton";
             this.drawLinesUseBlendingModeToolStripButton.Size = new System.Drawing.Size(155, 20);
-            this.drawLinesUseBlendingModeToolStripButton.Text = "Highlight With Blending";
+            resources.ApplyResources(this.drawLinesUseBlendingModeToolStripButton, "drawLinesUseBlendingModeToolStripButton");
             this.drawLinesUseBlendingModeToolStripButton.Click += new System.EventHandler(this.drawLinesUseBlendingModeToolStripButton_Click);
             // 
             // drawEllipseToolStripButton
@@ -614,7 +614,7 @@ namespace DemosCommonCode.Pdf
             this.drawLinesToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.drawLinesToolStripButton.Name = "drawLinesToolStripButton";
             this.drawLinesToolStripButton.Size = new System.Drawing.Size(54, 20);
-            this.drawLinesToolStripButton.Text = "Lines";
+            resources.ApplyResources(this.drawLinesToolStripButton, "drawLinesToolStripButton");
             this.drawLinesToolStripButton.Click += new System.EventHandler(this.drawLinesToolStripButton_Click);
             // 
             // freeHandLineToolStripButton
@@ -624,7 +624,7 @@ namespace DemosCommonCode.Pdf
             this.freeHandLineToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.freeHandLineToolStripButton.Name = "freeHandLineToolStripButton";
             this.freeHandLineToolStripButton.Size = new System.Drawing.Size(101, 20);
-            this.freeHandLineToolStripButton.Text = "Freehand Line";
+            resources.ApplyResources(this.freeHandLineToolStripButton, "freeHandLineToolStripButton");
             this.freeHandLineToolStripButton.Click += new System.EventHandler(this.freeHandLineToolStripButton_Click);
             // 
             // drawCurvesToolStripButton
@@ -634,7 +634,7 @@ namespace DemosCommonCode.Pdf
             this.drawCurvesToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.drawCurvesToolStripButton.Name = "drawCurvesToolStripButton";
             this.drawCurvesToolStripButton.Size = new System.Drawing.Size(63, 20);
-            this.drawCurvesToolStripButton.Text = "Curves";
+            resources.ApplyResources(this.drawCurvesToolStripButton, "drawCurvesToolStripButton");
             this.drawCurvesToolStripButton.Click += new System.EventHandler(this.drawCurvesToolStripButton_Click);
             // 
             // drawPolygonToolStripButton
@@ -653,7 +653,7 @@ namespace DemosCommonCode.Pdf
             this.drawClosedCurvesToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.drawClosedCurvesToolStripButton.Name = "drawClosedCurvesToolStripButton";
             this.drawClosedCurvesToolStripButton.Size = new System.Drawing.Size(102, 20);
-            this.drawClosedCurvesToolStripButton.Text = "Closed Curves";
+            resources.ApplyResources(this.drawClosedCurvesToolStripButton, "drawClosedCurvesToolStripButton");
             this.drawClosedCurvesToolStripButton.Click += new System.EventHandler(this.drawClosedCurvesToolStripButton_Click);
             // 
             // removeAllButton
@@ -663,7 +663,7 @@ namespace DemosCommonCode.Pdf
             this.removeAllButton.Name = "removeAllButton";
             this.removeAllButton.Size = new System.Drawing.Size(70, 23);
             this.removeAllButton.TabIndex = 3;
-            this.removeAllButton.Text = "Remove All";
+            resources.ApplyResources(this.removeAllButton, "removeAllButton");
             this.removeAllButton.UseVisualStyleBackColor = true;
             this.removeAllButton.Click += new System.EventHandler(this.removeAllToolStripMenuItem_Click);
             // 
@@ -676,7 +676,7 @@ namespace DemosCommonCode.Pdf
             this.renderFiguresButton.Name = "renderFiguresButton";
             this.renderFiguresButton.Size = new System.Drawing.Size(172, 23);
             this.renderFiguresButton.TabIndex = 2;
-            this.renderFiguresButton.Text = "Append Content";
+            resources.ApplyResources(this.renderFiguresButton, "renderFiguresButton");
             this.renderFiguresButton.UseVisualStyleBackColor = true;
             this.renderFiguresButton.Click += new System.EventHandler(this.renderFiguresButton_Click);
             // 
@@ -718,28 +718,28 @@ namespace DemosCommonCode.Pdf
             // 
             this.cutToolStripMenuItem.Name = "cutToolStripMenuItem";
             this.cutToolStripMenuItem.Size = new System.Drawing.Size(231, 22);
-            this.cutToolStripMenuItem.Text = "Cut";
+            resources.ApplyResources(this.cutToolStripMenuItem, "cutToolStripMenuItem");
             this.cutToolStripMenuItem.Click += new System.EventHandler(this.cutToolStripMenuItem_Click);
             // 
             // copyToolStripMenuItem
             // 
             this.copyToolStripMenuItem.Name = "copyToolStripMenuItem";
             this.copyToolStripMenuItem.Size = new System.Drawing.Size(231, 22);
-            this.copyToolStripMenuItem.Text = "Copy";
+            resources.ApplyResources(this.copyToolStripMenuItem, "copyToolStripMenuItem");
             this.copyToolStripMenuItem.Click += new System.EventHandler(this.copyToolStripMenuItem_Click);
             // 
             // pasteToolStripMenuItem
             // 
             this.pasteToolStripMenuItem.Name = "pasteToolStripMenuItem";
             this.pasteToolStripMenuItem.Size = new System.Drawing.Size(231, 22);
-            this.pasteToolStripMenuItem.Text = "Paste";
+            resources.ApplyResources(this.pasteToolStripMenuItem, "pasteToolStripMenuItem");
             this.pasteToolStripMenuItem.Click += new System.EventHandler(this.pasteToolStripMenuItem_Click);
             // 
             // deleteToolStripMenuItem
             // 
             this.deleteToolStripMenuItem.Name = "deleteToolStripMenuItem";
             this.deleteToolStripMenuItem.Size = new System.Drawing.Size(231, 22);
-            this.deleteToolStripMenuItem.Text = "Delete";
+            resources.ApplyResources(this.deleteToolStripMenuItem, "deleteToolStripMenuItem");
             this.deleteToolStripMenuItem.Click += new System.EventHandler(this.deleteToolStripMenuItem_Click);
             // 
             // toolStripSeparator5
@@ -751,7 +751,7 @@ namespace DemosCommonCode.Pdf
             // 
             this.selectFigureToolStripMenuItem.Name = "selectFigureToolStripMenuItem";
             this.selectFigureToolStripMenuItem.Size = new System.Drawing.Size(231, 22);
-            this.selectFigureToolStripMenuItem.Text = "Select by Cursor";
+            resources.ApplyResources(this.selectFigureToolStripMenuItem, "selectFigureToolStripMenuItem");
             // 
             // toolStripSeparator1
             // 
@@ -762,14 +762,14 @@ namespace DemosCommonCode.Pdf
             // 
             this.bringToFrontToolStripMenuItem.Name = "bringToFrontToolStripMenuItem";
             this.bringToFrontToolStripMenuItem.Size = new System.Drawing.Size(231, 22);
-            this.bringToFrontToolStripMenuItem.Text = "Bring to Front";
+            resources.ApplyResources(this.bringToFrontToolStripMenuItem, "bringToFrontToolStripMenuItem");
             this.bringToFrontToolStripMenuItem.Click += new System.EventHandler(this.bringToFrontToolStripMenuItem_Click);
             // 
             // bringToBackToolStripMenuItem
             // 
             this.bringToBackToolStripMenuItem.Name = "bringToBackToolStripMenuItem";
             this.bringToBackToolStripMenuItem.Size = new System.Drawing.Size(231, 22);
-            this.bringToBackToolStripMenuItem.Text = "Bring to Back";
+            resources.ApplyResources(this.bringToBackToolStripMenuItem, "bringToBackToolStripMenuItem");
             this.bringToBackToolStripMenuItem.Click += new System.EventHandler(this.bringToBackToolStripMenuItem_Click);
             // 
             // toolStripSeparator2
@@ -781,7 +781,7 @@ namespace DemosCommonCode.Pdf
             // 
             this.replaceResourceToolStripMenuItem.Name = "replaceResourceToolStripMenuItem";
             this.replaceResourceToolStripMenuItem.Size = new System.Drawing.Size(231, 22);
-            this.replaceResourceToolStripMenuItem.Text = "Replace Image or Form...";
+            resources.ApplyResources(this.replaceResourceToolStripMenuItem, "replaceResourceToolStripMenuItem");
             this.replaceResourceToolStripMenuItem.Click += new System.EventHandler(this.replaceResourceToolStripMenuItem_Click);
             // 
             // toolStripSeparator6
@@ -793,7 +793,7 @@ namespace DemosCommonCode.Pdf
             // 
             this.propertiesToolStripMenuItem.Name = "propertiesToolStripMenuItem";
             this.propertiesToolStripMenuItem.Size = new System.Drawing.Size(231, 22);
-            this.propertiesToolStripMenuItem.Text = "Properties...";
+            resources.ApplyResources(this.propertiesToolStripMenuItem, "propertiesToolStripMenuItem");
             this.propertiesToolStripMenuItem.Click += new System.EventHandler(this.propertiesToolStripMenuItem_Click);
             // 
             // imageViewerContextMenuStrip
@@ -809,14 +809,14 @@ namespace DemosCommonCode.Pdf
             // 
             this.pasteToolStripMenuItem1.Name = "pasteToolStripMenuItem1";
             this.pasteToolStripMenuItem1.Size = new System.Drawing.Size(134, 22);
-            this.pasteToolStripMenuItem1.Text = "Paste";
+            resources.ApplyResources(this.pasteToolStripMenuItem1, "pasteToolStripMenuItem1");
             this.pasteToolStripMenuItem1.Click += new System.EventHandler(this.pasteToolStripMenuItem_Click);
             // 
             // removeAllToolStripMenuItem
             // 
             this.removeAllToolStripMenuItem.Name = "removeAllToolStripMenuItem";
             this.removeAllToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
-            this.removeAllToolStripMenuItem.Text = "Remove All";
+            resources.ApplyResources(this.removeAllToolStripMenuItem, "removeAllToolStripMenuItem");
             this.removeAllToolStripMenuItem.Click += new System.EventHandler(this.removeAllToolStripMenuItem_Click);
             // 
             // textEditingExceptionToolTip
@@ -829,7 +829,7 @@ namespace DemosCommonCode.Pdf
             // 
             this.contentGraphicsPropertiesToolStripMenuItem.Name = "contentGraphicsPropertiesToolStripMenuItem";
             this.contentGraphicsPropertiesToolStripMenuItem.Size = new System.Drawing.Size(231, 22);
-            this.contentGraphicsPropertiesToolStripMenuItem.Text = "Content Graphics Properties...";
+            resources.ApplyResources(this.contentGraphicsPropertiesToolStripMenuItem, "contentGraphicsPropertiesToolStripMenuItem");
             this.contentGraphicsPropertiesToolStripMenuItem.Click += new System.EventHandler(this.contentGraphicsPropertiesToolStripButton_Click);
             // 
             // PdfContentEditorControl

@@ -60,4 +60,40 @@
   <metadata name="colorDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Bookmark</value>
+  </data>
+  <data name="editActionButton.Text" xml:space="preserve">
+    <value>Edit Action...</value>
+  </data>
+  <data name="actionRadioButton.Text" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="destRadioButton.Text" xml:space="preserve">
+    <value>Destination Page</value>
+  </data>
+  <data name="addToRootCheckBox.Text" xml:space="preserve">
+    <value>Add To Root</value>
+  </data>
+  <data name="bookmarkExpanded.Text" xml:space="preserve">
+    <value>Expanded</value>
+  </data>
+  <data name="colorButton.Text" xml:space="preserve">
+    <value>Color...</value>
+  </data>
+  <data name="bookmarkTextItalic.Text" xml:space="preserve">
+    <value>Italic</value>
+  </data>
+  <data name="bookmarkTextBold.Text" xml:space="preserve">
+    <value>Bold</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="buttonCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </metadata>
 </root>

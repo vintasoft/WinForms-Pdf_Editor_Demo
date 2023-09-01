@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Windows.Forms;
 
 using Vintasoft.Imaging.Pdf.Security;
@@ -67,13 +67,13 @@ namespace DemosCommonCode.Pdf.Security
         {
             if (currentEncryptionSettings == null)
             {
-                dontChangeRadioButton.Text = "Don't Change (No Security)";
+                dontChangeRadioButton.Text = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_DONT_CHANGE_NO_SECURITY;
                 securityMethodLabel.Text = "";
                 compatibilityModeComboBox.SelectedIndex = -1;
             }
             else
             {
-                dontChangeRadioButton.Text = string.Format("Don't Change ({0})", currentEncryptionSettings);
+                dontChangeRadioButton.Text = string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_DONT_CHANGE_ARG0, currentEncryptionSettings);
                 compatibilityModeComboBox.SelectedItem = currentEncryptionSettings.CompatibilityMode;
                 ShowSecurityMethodByCompatibility(currentEncryptionSettings.CompatibilityMode);
             }
@@ -153,7 +153,7 @@ namespace DemosCommonCode.Pdf.Security
                     // if both password boxes are empty
                     if (ownerPasswordTextBox.Text == "" && userPasswordTextBox.Text == "")
                     {
-                        DemosTools.ShowErrorMessage("Please, enter the owner and/or user password!");
+                        DemosTools.ShowErrorMessage(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_PLEASE_ENTER_THE_OWNER_ANDOR_USER_PASSWORD);
                         ownerPasswordTextBox.Focus();
                         return;
                     }
@@ -244,21 +244,21 @@ namespace DemosCommonCode.Pdf.Security
             switch (compatibility)
             {
                 case AdobeAcrobatCompatibilityMode.Acrobat4:
-                    securityMethodLabel.Text = "40-bit RC4 (PDF 1.1)";
+                    securityMethodLabel.Text = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_40BIT_RC4_PDF_11;
                     break;
                 case AdobeAcrobatCompatibilityMode.Acrobat5:
                 case AdobeAcrobatCompatibilityMode.Acrobat6:
-                    securityMethodLabel.Text = "128-bit RC4 (PDF 1.4)";
+                    securityMethodLabel.Text = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_128BIT_RC4_PDF_14;
                     break;
                 case AdobeAcrobatCompatibilityMode.Acrobat7:
                 case AdobeAcrobatCompatibilityMode.Acrobat8:
-                    securityMethodLabel.Text = "128-bit AES (PDF 1.6)";
+                    securityMethodLabel.Text = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_128BIT_AES_PDF_16;
                     break;
                 case AdobeAcrobatCompatibilityMode.Acrobat9:
-                    securityMethodLabel.Text = "256-bit AES (PDF 1.7)";
+                    securityMethodLabel.Text = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_256BIT_AES_PDF_17;
                     break;
                 case AdobeAcrobatCompatibilityMode.AcrobatX:
-                    securityMethodLabel.Text = "256-bit AES (PDF 2.0)";
+                    securityMethodLabel.Text = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_256BIT_AES_PDF_20;
                     break;
                 default:
                     securityMethodLabel.Text = "";

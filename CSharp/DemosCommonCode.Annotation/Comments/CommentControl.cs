@@ -823,7 +823,7 @@ namespace DemosCommonCode.Annotation
             // close comment state
             stateComment.IsOpen = false;
             // update comment state text
-            stateComment.Text = string.Format("{0} sets by {1}", state, stateComment.UserName);
+            stateComment.Text = string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_ANNOTATION_ARG0_SETS_BY_ARG1, state, stateComment.UserName);
         }
 
         #endregion
@@ -986,7 +986,7 @@ namespace DemosCommonCode.Annotation
                     {
                         // WinForms generates Win32Exception if 15 or more FlowLayoutPanel are nested
 
-                        MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show(ex.Message, PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_ANNOTATION_ERROR, MessageBoxButtons.OK, MessageBoxIcon.Error);
                         _hasSizeUpdatingError = true;
 
                         ResumeLayout();
@@ -1094,7 +1094,7 @@ namespace DemosCommonCode.Annotation
                     Comment[] replies = Comment.GetAllReplies(false);
                     if (replies.Length > 0)
                         // update user name
-                        userNameLabel.Text = string.Format("{0} ({1} replies)", Comment.UserName, replies.Length);
+                        userNameLabel.Text = string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_ANNOTATION_ARG0_ARG1_REPLIES, Comment.UserName, replies.Length);
                     else
                         // update user name
                         userNameLabel.Text = Comment.UserName;
@@ -1356,7 +1356,7 @@ namespace DemosCommonCode.Annotation
             catch (System.ComponentModel.Win32Exception ex)
             {
                 repliesFlowLayoutPanel.Controls.Remove(replyControl);
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(ex.Message, PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_ANNOTATION_ERROR_ALT1, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 _hasSizeUpdatingError = true;
             }
         }

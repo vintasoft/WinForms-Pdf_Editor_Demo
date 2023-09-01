@@ -28,6 +28,7 @@ namespace DemosCommonCode.Pdf
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PdfVintasoftBarcodeFieldPropertiesEditorControl));
             this.mainTabControl = new System.Windows.Forms.TabControl();
             this.valueTabPage = new System.Windows.Forms.TabPage();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -91,7 +92,7 @@ namespace DemosCommonCode.Pdf
             this.valueTabPage.Padding = new System.Windows.Forms.Padding(3);
             this.valueTabPage.Size = new System.Drawing.Size(421, 241);
             this.valueTabPage.TabIndex = 0;
-            this.valueTabPage.Text = "Value";
+            resources.ApplyResources(this.valueTabPage, "valueTabPage");
             this.valueTabPage.UseVisualStyleBackColor = true;
             // 
             // groupBox1
@@ -103,7 +104,7 @@ namespace DemosCommonCode.Pdf
             this.groupBox1.Size = new System.Drawing.Size(138, 97);
             this.groupBox1.TabIndex = 21;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Padding";
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             // 
             // paddingPanelControl1
             // 
@@ -122,7 +123,7 @@ namespace DemosCommonCode.Pdf
             this.fitBarcodeToAppearanceRectCheckBox.Name = "fitBarcodeToAppearanceRectCheckBox";
             this.fitBarcodeToAppearanceRectCheckBox.Size = new System.Drawing.Size(183, 17);
             this.fitBarcodeToAppearanceRectCheckBox.TabIndex = 20;
-            this.fitBarcodeToAppearanceRectCheckBox.Text = "Fit Barcode To Appearance Rect";
+            resources.ApplyResources(this.fitBarcodeToAppearanceRectCheckBox, "fitBarcodeToAppearanceRectCheckBox");
             this.fitBarcodeToAppearanceRectCheckBox.UseVisualStyleBackColor = true;
             this.fitBarcodeToAppearanceRectCheckBox.CheckedChanged += new System.EventHandler(this.fitBarcodeToAppearanceRectCheckBox_CheckedChanged);
             // 
@@ -146,7 +147,7 @@ namespace DemosCommonCode.Pdf
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(88, 13);
             this.label7.TabIndex = 16;
-            this.label7.Text = "Foreground Color";
+            resources.ApplyResources(this.label7, "label7");
             // 
             // moduleWidthNumericUpDown
             // 
@@ -175,7 +176,7 @@ namespace DemosCommonCode.Pdf
             this.moduleWidthLabel.Name = "moduleWidthLabel";
             this.moduleWidthLabel.Size = new System.Drawing.Size(73, 13);
             this.moduleWidthLabel.TabIndex = 14;
-            this.moduleWidthLabel.Text = "Module Width";
+            resources.ApplyResources(this.moduleWidthLabel, "moduleWidthLabel");
             // 
             // label2
             // 
@@ -185,7 +186,7 @@ namespace DemosCommonCode.Pdf
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(39, 13);
             this.label2.TabIndex = 10;
-            this.label2.Text = "Value";
+            resources.ApplyResources(this.label2, "label2");
             // 
             // defaultValueTextBox
             // 
@@ -204,7 +205,7 @@ namespace DemosCommonCode.Pdf
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(71, 13);
             this.label3.TabIndex = 11;
-            this.label3.Text = "Default Value";
+            resources.ApplyResources(this.label3, "label3");
             // 
             // valueTextBox
             // 
@@ -236,7 +237,7 @@ namespace DemosCommonCode.Pdf
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(133, 13);
             this.label5.TabIndex = 8;
-            this.label5.Text = "Error Correction Coefficient";
+            resources.ApplyResources(this.label5, "label5");
             // 
             // barcodeSymbologyComboBox
             // 
@@ -270,7 +271,7 @@ namespace DemosCommonCode.Pdf
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(101, 13);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Barcode Symbology";
+            resources.ApplyResources(this.label1, "label1");
             // 
             // label4
             // 
@@ -279,7 +280,7 @@ namespace DemosCommonCode.Pdf
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(117, 13);
             this.label4.TabIndex = 6;
-            this.label4.Text = "Data Preparation Steps";
+            resources.ApplyResources(this.label4, "label4");
             // 
             // calculateTabPage
             // 
@@ -289,7 +290,7 @@ namespace DemosCommonCode.Pdf
             this.calculateTabPage.Padding = new System.Windows.Forms.Padding(3);
             this.calculateTabPage.Size = new System.Drawing.Size(421, 241);
             this.calculateTabPage.TabIndex = 1;
-            this.calculateTabPage.Text = "Calculate Action";
+            resources.ApplyResources(this.calculateTabPage, "calculateTabPage");
             this.calculateTabPage.UseVisualStyleBackColor = true;
             // 
             // calculateActionEditorControl

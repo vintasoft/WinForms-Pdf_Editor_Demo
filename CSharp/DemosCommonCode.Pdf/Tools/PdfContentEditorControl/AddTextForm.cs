@@ -106,7 +106,7 @@ namespace DemosCommonCode.Pdf
         {
             if (fontComboBox.SelectedItem == null)
             {
-                DemosTools.ShowWarningMessage("Text font is not specified.");
+                DemosTools.ShowWarningMessage(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_TEXT_FONT_IS_NOT_SPECIFIED);
                 return;
             }
             if (_tempDocument != null)

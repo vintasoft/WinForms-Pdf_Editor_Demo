@@ -117,4 +117,46 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Select highlight pen</value>
+  </data>
+  <data name="modeComboBox.Items10" xml:space="preserve">
+    <value>Hue (blue)</value>
+  </data>
+  <data name="modeComboBox.Items9" xml:space="preserve">
+    <value>Hue (green)</value>
+  </data>
+  <data name="modeComboBox.Items8" xml:space="preserve">
+    <value>Hue (red)</value>
+  </data>
+  <data name="modeComboBox.Items7" xml:space="preserve">
+    <value>Soft light (blue)</value>
+  </data>
+  <data name="modeComboBox.Items6" xml:space="preserve">
+    <value>Soft light (green)</value>
+  </data>
+  <data name="modeComboBox.Items5" xml:space="preserve">
+    <value>Soft light (red)</value>
+  </data>
+  <data name="modeComboBox.Items4" xml:space="preserve">
+    <value>Soft light</value>
+  </data>
+  <data name="modeComboBox.Items3" xml:space="preserve">
+    <value>Invert</value>
+  </data>
+  <data name="modeComboBox.Items2" xml:space="preserve">
+    <value>Text highlight (green)</value>
+  </data>
+  <data name="modeComboBox.Items1" xml:space="preserve">
+    <value>Text highlight (red)</value>
+  </data>
+  <data name="modeComboBox.Items" xml:space="preserve">
+    <value>Text highlight (yellow)</value>
+  </data>
+  <data name="buttonCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </metadata>
 </root>

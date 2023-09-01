@@ -28,6 +28,7 @@ namespace DemosCommonCode.Pdf
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PdfPolylineAnnotationPropertiesEditorControl));
             this.mainPanel = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -57,7 +58,7 @@ namespace DemosCommonCode.Pdf
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(141, 13);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Start Point Line Ending Style";
+            resources.ApplyResources(this.label1, "label1");
             // 
             // label2
             // 
@@ -66,7 +67,7 @@ namespace DemosCommonCode.Pdf
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(138, 13);
             this.label2.TabIndex = 2;
-            this.label2.Text = "End Point Line Ending Style";
+            resources.ApplyResources(this.label2, "label2");
             // 
             // startPointLineEndingStyleComboBox
             // 

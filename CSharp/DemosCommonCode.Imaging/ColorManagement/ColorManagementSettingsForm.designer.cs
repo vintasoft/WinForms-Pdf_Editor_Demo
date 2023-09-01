@@ -28,6 +28,7 @@ namespace DemosCommonCode.Imaging.ColorManagement
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ColorManagementSettingsForm));
             this.inputProfilesGroupBox = new System.Windows.Forms.GroupBox();
             this.removeInputGrayscaleButton = new System.Windows.Forms.Button();
             this.removeInputRgbButton = new System.Windows.Forms.Button();
@@ -83,7 +84,7 @@ namespace DemosCommonCode.Imaging.ColorManagement
             this.inputProfilesGroupBox.Size = new System.Drawing.Size(565, 121);
             this.inputProfilesGroupBox.TabIndex = 0;
             this.inputProfilesGroupBox.TabStop = false;
-            this.inputProfilesGroupBox.Text = "Input color profiles (to PCSXYZ)";
+            resources.ApplyResources(this.inputProfilesGroupBox, "inputProfilesGroupBox");
             // 
             // removeInputGrayscaleButton
             // 
@@ -135,7 +136,7 @@ namespace DemosCommonCode.Imaging.ColorManagement
             this.useEmbeddedProfilesCheckBox.Name = "useEmbeddedProfilesCheckBox";
             this.useEmbeddedProfilesCheckBox.Size = new System.Drawing.Size(173, 19);
             this.useEmbeddedProfilesCheckBox.TabIndex = 5;
-            this.useEmbeddedProfilesCheckBox.Text = "Use embedded input profile";
+            resources.ApplyResources(this.useEmbeddedProfilesCheckBox, "useEmbeddedProfilesCheckBox");
             this.useEmbeddedProfilesCheckBox.UseVisualStyleBackColor = true;
             // 
             // inputRgbTextBox
@@ -191,7 +192,7 @@ namespace DemosCommonCode.Imaging.ColorManagement
             this.setInputProfileButton.Name = "setInputProfileButton";
             this.setInputProfileButton.Size = new System.Drawing.Size(158, 23);
             this.setInputProfileButton.TabIndex = 4;
-            this.setInputProfileButton.Text = "Set input profile...";
+            resources.ApplyResources(this.setInputProfileButton, "setInputProfileButton");
             this.setInputProfileButton.UseVisualStyleBackColor = true;
             this.setInputProfileButton.Click += new System.EventHandler(this.setInputProfileButton_Click);
             // 
@@ -202,7 +203,7 @@ namespace DemosCommonCode.Imaging.ColorManagement
             this.editColorTransformsButton.Name = "editColorTransformsButton";
             this.editColorTransformsButton.Size = new System.Drawing.Size(188, 23);
             this.editColorTransformsButton.TabIndex = 3;
-            this.editColorTransformsButton.Text = "Edit color transforms...";
+            resources.ApplyResources(this.editColorTransformsButton, "editColorTransformsButton");
             this.editColorTransformsButton.UseVisualStyleBackColor = true;
             this.editColorTransformsButton.Click += new System.EventHandler(this.editColorTransformsButton_Click);
             // 
@@ -213,7 +214,7 @@ namespace DemosCommonCode.Imaging.ColorManagement
             this.enableColorManagementCheckBox.Name = "enableColorManagementCheckBox";
             this.enableColorManagementCheckBox.Size = new System.Drawing.Size(165, 19);
             this.enableColorManagementCheckBox.TabIndex = 0;
-            this.enableColorManagementCheckBox.Text = "Enable color management";
+            resources.ApplyResources(this.enableColorManagementCheckBox, "enableColorManagementCheckBox");
             this.enableColorManagementCheckBox.UseVisualStyleBackColor = true;
             this.enableColorManagementCheckBox.CheckedChanged += new System.EventHandler(this.enableColorManagementCheckBox_CheckedChanged);
             // 
@@ -234,7 +235,7 @@ namespace DemosCommonCode.Imaging.ColorManagement
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(75, 23);
             this.buttonCancel.TabIndex = 2;
-            this.buttonCancel.Text = "Cancel";
+            resources.ApplyResources(this.buttonCancel, "buttonCancel");
             this.buttonCancel.UseVisualStyleBackColor = true;
             this.buttonCancel.Click += new System.EventHandler(this.buttonCancel_Click);
             // 
@@ -254,7 +255,7 @@ namespace DemosCommonCode.Imaging.ColorManagement
             this.outputProfilesGroupBox.Size = new System.Drawing.Size(565, 96);
             this.outputProfilesGroupBox.TabIndex = 12;
             this.outputProfilesGroupBox.TabStop = false;
-            this.outputProfilesGroupBox.Text = "Output color profiles (from PCSXYZ)";
+            resources.ApplyResources(this.outputProfilesGroupBox, "outputProfilesGroupBox");
             // 
             // removeOutputGrayscaleButton
             // 
@@ -322,7 +323,7 @@ namespace DemosCommonCode.Imaging.ColorManagement
             this.setOutputProfileButton.Name = "setOutputProfileButton";
             this.setOutputProfileButton.Size = new System.Drawing.Size(157, 23);
             this.setOutputProfileButton.TabIndex = 4;
-            this.setOutputProfileButton.Text = "Set output profile...";
+            resources.ApplyResources(this.setOutputProfileButton, "setOutputProfileButton");
             this.setOutputProfileButton.UseVisualStyleBackColor = true;
             this.setOutputProfileButton.Click += new System.EventHandler(this.setOutputProfileButton_Click);
             // 
@@ -342,7 +343,7 @@ namespace DemosCommonCode.Imaging.ColorManagement
             this.intentLabel.Name = "intentLabel";
             this.intentLabel.Size = new System.Drawing.Size(95, 15);
             this.intentLabel.TabIndex = 14;
-            this.intentLabel.Text = "Rendering intent";
+            resources.ApplyResources(this.intentLabel, "intentLabel");
             // 
             // blackPointCompensationCheckBox
             // 
@@ -351,7 +352,7 @@ namespace DemosCommonCode.Imaging.ColorManagement
             this.blackPointCompensationCheckBox.Name = "blackPointCompensationCheckBox";
             this.blackPointCompensationCheckBox.Size = new System.Drawing.Size(186, 19);
             this.blackPointCompensationCheckBox.TabIndex = 15;
-            this.blackPointCompensationCheckBox.Text = "Use black point compensation";
+            resources.ApplyResources(this.blackPointCompensationCheckBox, "blackPointCompensationCheckBox");
             this.blackPointCompensationCheckBox.UseVisualStyleBackColor = true;
             // 
             // decodingSettingsGroupBox
@@ -370,7 +371,7 @@ namespace DemosCommonCode.Imaging.ColorManagement
             this.decodingSettingsGroupBox.Size = new System.Drawing.Size(577, 312);
             this.decodingSettingsGroupBox.TabIndex = 16;
             this.decodingSettingsGroupBox.TabStop = false;
-            this.decodingSettingsGroupBox.Text = "Color management decode settings";
+            resources.ApplyResources(this.decodingSettingsGroupBox, "decodingSettingsGroupBox");
             // 
             // groupBox1
             // 
@@ -381,7 +382,7 @@ namespace DemosCommonCode.Imaging.ColorManagement
             this.groupBox1.Size = new System.Drawing.Size(200, 56);
             this.groupBox1.TabIndex = 16;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Advanced settings";
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             // 
             // ColorManagementSettingsForm
             // 
@@ -398,7 +399,7 @@ namespace DemosCommonCode.Imaging.ColorManagement
             this.MinimizeBox = false;
             this.Name = "ColorManagementSettingsForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Color Management Settings";
+            resources.ApplyResources(this, "$this");
             this.inputProfilesGroupBox.ResumeLayout(false);
             this.inputProfilesGroupBox.PerformLayout();
             this.outputProfilesGroupBox.ResumeLayout(false);

@@ -117,4 +117,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Interior Color</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>End Point Line Ending Style</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Start Point Line Ending Style</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </metadata>
 </root>

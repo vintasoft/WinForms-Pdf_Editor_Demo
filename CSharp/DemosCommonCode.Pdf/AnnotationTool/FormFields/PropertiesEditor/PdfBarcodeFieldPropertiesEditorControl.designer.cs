@@ -28,6 +28,7 @@ namespace DemosCommonCode.Pdf
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PdfBarcodeFieldPropertiesEditorControl));
             this.barcodeSymbologyComboBox = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -69,7 +70,7 @@ namespace DemosCommonCode.Pdf
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(101, 13);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Barcode Symbology";
+            resources.ApplyResources(this.label1, "label1");
             // 
             // label4
             // 
@@ -78,7 +79,7 @@ namespace DemosCommonCode.Pdf
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(117, 13);
             this.label4.TabIndex = 6;
-            this.label4.Text = "Data Preparation Steps";
+            resources.ApplyResources(this.label4, "label4");
             // 
             // dataPreparationStepsComboBox
             // 
@@ -123,7 +124,7 @@ namespace DemosCommonCode.Pdf
             this.valueTabPage.Padding = new System.Windows.Forms.Padding(3);
             this.valueTabPage.Size = new System.Drawing.Size(421, 204);
             this.valueTabPage.TabIndex = 0;
-            this.valueTabPage.Text = "Value";
+            resources.ApplyResources(this.valueTabPage, "valueTabPage");
             this.valueTabPage.UseVisualStyleBackColor = true;
             // 
             // moduleWidthNumericUpDown
@@ -149,7 +150,7 @@ namespace DemosCommonCode.Pdf
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(73, 13);
             this.label6.TabIndex = 14;
-            this.label6.Text = "Module Width";
+            resources.ApplyResources(this.label6, "label6");
             // 
             // label2
             // 
@@ -159,7 +160,7 @@ namespace DemosCommonCode.Pdf
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(39, 13);
             this.label2.TabIndex = 10;
-            this.label2.Text = "Value";
+            resources.ApplyResources(this.label2, "label2");
             // 
             // defaultValueTextBox
             // 
@@ -178,7 +179,7 @@ namespace DemosCommonCode.Pdf
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(71, 13);
             this.label3.TabIndex = 11;
-            this.label3.Text = "Default Value";
+            resources.ApplyResources(this.label3, "label3");
             // 
             // valueTextBox
             // 
@@ -210,7 +211,7 @@ namespace DemosCommonCode.Pdf
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(133, 13);
             this.label5.TabIndex = 8;
-            this.label5.Text = "Error Correction Coefficient";
+            resources.ApplyResources(this.label5, "label5");
             // 
             // calculateTabPage
             // 
@@ -220,7 +221,7 @@ namespace DemosCommonCode.Pdf
             this.calculateTabPage.Padding = new System.Windows.Forms.Padding(3);
             this.calculateTabPage.Size = new System.Drawing.Size(421, 204);
             this.calculateTabPage.TabIndex = 1;
-            this.calculateTabPage.Text = "Calculate Action";
+            resources.ApplyResources(this.calculateTabPage, "calculateTabPage");
             this.calculateTabPage.UseVisualStyleBackColor = true;
             // 
             // calculateActionEditorControl

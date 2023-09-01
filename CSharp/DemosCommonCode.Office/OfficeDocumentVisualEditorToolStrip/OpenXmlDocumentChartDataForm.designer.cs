@@ -29,6 +29,7 @@ namespace DemosCommonCode.Office
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(OpenXmlDocumentChartDataForm));
             this.chartDataGridView = new System.Windows.Forms.DataGridView();
             this.buttonOk = new System.Windows.Forms.Button();
             this.chartComboBox = new System.Windows.Forms.ComboBox();
@@ -116,7 +117,7 @@ namespace DemosCommonCode.Office
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(63, 13);
             this.label1.TabIndex = 8;
-            this.label1.Text = "Chart Name";
+            resources.ApplyResources(this.label1, "label1");
             // 
             // label2
             // 
@@ -125,7 +126,7 @@ namespace DemosCommonCode.Office
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(27, 13);
             this.label2.TabIndex = 9;
-            this.label2.Text = "Title";
+            resources.ApplyResources(this.label2, "label2");
             // 
             // removeRowButton
             // 
@@ -133,7 +134,7 @@ namespace DemosCommonCode.Office
             this.removeRowButton.Name = "removeRowButton";
             this.removeRowButton.Size = new System.Drawing.Size(100, 23);
             this.removeRowButton.TabIndex = 10;
-            this.removeRowButton.Text = "Remove Row";
+            resources.ApplyResources(this.removeRowButton, "removeRowButton");
             this.removeRowButton.UseVisualStyleBackColor = true;
             this.removeRowButton.Click += new System.EventHandler(this.removeRowButton_Click);
             // 
@@ -143,7 +144,7 @@ namespace DemosCommonCode.Office
             this.insertRowButton.Name = "insertRowButton";
             this.insertRowButton.Size = new System.Drawing.Size(100, 23);
             this.insertRowButton.TabIndex = 11;
-            this.insertRowButton.Text = "Insert Row";
+            resources.ApplyResources(this.insertRowButton, "insertRowButton");
             this.insertRowButton.UseVisualStyleBackColor = true;
             this.insertRowButton.Click += new System.EventHandler(this.insertRowButton_Click);
             // 
@@ -153,7 +154,7 @@ namespace DemosCommonCode.Office
             this.insertColumnButton.Name = "insertColumnButton";
             this.insertColumnButton.Size = new System.Drawing.Size(100, 23);
             this.insertColumnButton.TabIndex = 13;
-            this.insertColumnButton.Text = "Insert Column";
+            resources.ApplyResources(this.insertColumnButton, "insertColumnButton");
             this.insertColumnButton.UseVisualStyleBackColor = true;
             this.insertColumnButton.Click += new System.EventHandler(this.insertColumnButton_Click);
             // 
@@ -163,7 +164,7 @@ namespace DemosCommonCode.Office
             this.removeColumnButton.Name = "removeColumnButton";
             this.removeColumnButton.Size = new System.Drawing.Size(100, 23);
             this.removeColumnButton.TabIndex = 12;
-            this.removeColumnButton.Text = "Remove Column";
+            resources.ApplyResources(this.removeColumnButton, "removeColumnButton");
             this.removeColumnButton.UseVisualStyleBackColor = true;
             this.removeColumnButton.Click += new System.EventHandler(this.removeColumnButton_Click);
             // 
@@ -173,7 +174,7 @@ namespace DemosCommonCode.Office
             this.clearRowButton.Name = "clearRowButton";
             this.clearRowButton.Size = new System.Drawing.Size(100, 23);
             this.clearRowButton.TabIndex = 16;
-            this.clearRowButton.Text = "Clear Row";
+            resources.ApplyResources(this.clearRowButton, "clearRowButton");
             this.clearRowButton.UseVisualStyleBackColor = true;
             this.clearRowButton.Click += new System.EventHandler(this.clearRowButton_Click);
             // 
@@ -183,7 +184,7 @@ namespace DemosCommonCode.Office
             this.clearColumnButton.Name = "clearColumnButton";
             this.clearColumnButton.Size = new System.Drawing.Size(100, 23);
             this.clearColumnButton.TabIndex = 17;
-            this.clearColumnButton.Text = "Clear Column";
+            resources.ApplyResources(this.clearColumnButton, "clearColumnButton");
             this.clearColumnButton.UseVisualStyleBackColor = true;
             this.clearColumnButton.Click += new System.EventHandler(this.clearColumnButton_Click);
             // 
@@ -195,7 +196,7 @@ namespace DemosCommonCode.Office
             this.seriesColorLabel.Name = "seriesColorLabel";
             this.seriesColorLabel.Size = new System.Drawing.Size(63, 13);
             this.seriesColorLabel.TabIndex = 19;
-            this.seriesColorLabel.Text = "Series Color";
+            resources.ApplyResources(this.seriesColorLabel, "seriesColorLabel");
             // 
             // addRowButton
             // 
@@ -203,7 +204,7 @@ namespace DemosCommonCode.Office
             this.addRowButton.Name = "addRowButton";
             this.addRowButton.Size = new System.Drawing.Size(100, 23);
             this.addRowButton.TabIndex = 20;
-            this.addRowButton.Text = "Add Row";
+            resources.ApplyResources(this.addRowButton, "addRowButton");
             this.addRowButton.UseVisualStyleBackColor = true;
             this.addRowButton.Click += new System.EventHandler(this.addRowButton_Click);
             // 
@@ -213,7 +214,7 @@ namespace DemosCommonCode.Office
             this.addColumnButton.Name = "addColumnButton";
             this.addColumnButton.Size = new System.Drawing.Size(100, 23);
             this.addColumnButton.TabIndex = 21;
-            this.addColumnButton.Text = "Add Column";
+            resources.ApplyResources(this.addColumnButton, "addColumnButton");
             this.addColumnButton.UseVisualStyleBackColor = true;
             this.addColumnButton.Click += new System.EventHandler(this.addColumnButton_Click);
             // 
@@ -225,7 +226,7 @@ namespace DemosCommonCode.Office
             this.markerColorLabel.Name = "markerColorLabel";
             this.markerColorLabel.Size = new System.Drawing.Size(99, 13);
             this.markerColorLabel.TabIndex = 23;
-            this.markerColorLabel.Text = "Series Marker Color";
+            resources.ApplyResources(this.markerColorLabel, "markerColorLabel");
             // 
             // dataPointColorLabel
             // 
@@ -235,7 +236,7 @@ namespace DemosCommonCode.Office
             this.dataPointColorLabel.Name = "dataPointColorLabel";
             this.dataPointColorLabel.Size = new System.Drawing.Size(84, 13);
             this.dataPointColorLabel.TabIndex = 25;
-            this.dataPointColorLabel.Text = "Data Point Color";
+            resources.ApplyResources(this.dataPointColorLabel, "dataPointColorLabel");
             // 
             // seriesMarkerStyleLabel
             // 
@@ -245,7 +246,7 @@ namespace DemosCommonCode.Office
             this.seriesMarkerStyleLabel.Name = "seriesMarkerStyleLabel";
             this.seriesMarkerStyleLabel.Size = new System.Drawing.Size(99, 13);
             this.seriesMarkerStyleLabel.TabIndex = 26;
-            this.seriesMarkerStyleLabel.Text = "Series Marker Type";
+            resources.ApplyResources(this.seriesMarkerStyleLabel, "seriesMarkerStyleLabel");
             // 
             // seriesMarkerStyleComboBox
             // 
@@ -308,7 +309,7 @@ namespace DemosCommonCode.Office
             this.seriesMarkerSizeLabel.Name = "seriesMarkerSizeLabel";
             this.seriesMarkerSizeLabel.Size = new System.Drawing.Size(95, 13);
             this.seriesMarkerSizeLabel.TabIndex = 28;
-            this.seriesMarkerSizeLabel.Text = "Series Marker Size";
+            resources.ApplyResources(this.seriesMarkerSizeLabel, "seriesMarkerSizeLabel");
             // 
             // seriesMarkerSizeNumericUpDown
             // 
@@ -357,7 +358,7 @@ namespace DemosCommonCode.Office
             this.Name = "OpenXmlDocumentChartDataForm";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
-            this.Text = "Document Charts";
+            resources.ApplyResources(this, "$this");
             this.TopMost = true;
             ((System.ComponentModel.ISupportInitialize)(this.chartDataGridView)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.seriesMarkerSizeNumericUpDown)).EndInit();

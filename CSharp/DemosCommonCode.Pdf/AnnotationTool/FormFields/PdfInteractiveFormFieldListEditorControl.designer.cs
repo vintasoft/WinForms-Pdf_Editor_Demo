@@ -28,6 +28,7 @@ namespace DemosCommonCode.Pdf
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PdfInteractiveFormFieldListEditorControl));
             this.components = new System.ComponentModel.Container();
             this.addButton = new System.Windows.Forms.Button();
             this.removeButton = new System.Windows.Forms.Button();
@@ -60,7 +61,7 @@ namespace DemosCommonCode.Pdf
             this.removeButton.Name = "removeButton";
             this.removeButton.Size = new System.Drawing.Size(70, 23);
             this.removeButton.TabIndex = 3;
-            this.removeButton.Text = "Remove";
+            resources.ApplyResources(this.removeButton, "removeButton");
             this.removeButton.UseVisualStyleBackColor = true;
             this.removeButton.Click += new System.EventHandler(this.removeButton_Click);
             // 
@@ -72,7 +73,7 @@ namespace DemosCommonCode.Pdf
             this.removeAllButton.Name = "removeAllButton";
             this.removeAllButton.Size = new System.Drawing.Size(70, 23);
             this.removeAllButton.TabIndex = 4;
-            this.removeAllButton.Text = "Remove All";
+            resources.ApplyResources(this.removeAllButton, "removeAllButton");
             this.removeAllButton.UseVisualStyleBackColor = true;
             this.removeAllButton.Click += new System.EventHandler(this.removeAllButton_Click);
             // 

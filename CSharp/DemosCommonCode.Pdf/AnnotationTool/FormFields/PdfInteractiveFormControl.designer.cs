@@ -28,6 +28,7 @@ namespace DemosCommonCode.Pdf
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PdfInteractiveFormControl));
             this.components = new System.ComponentModel.Container();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.InteractiveFormFieldBuilder = new DemosCommonCode.Pdf.PdfInteractiveFormFieldBuilderControl();
@@ -66,7 +67,7 @@ namespace DemosCommonCode.Pdf
             this.groupBox1.Size = new System.Drawing.Size(194, 206);
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Add Form Fields";
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             // 
             // InteractiveFormFieldBuilder
             // 
@@ -105,28 +106,28 @@ namespace DemosCommonCode.Pdf
             // 
             this.cutFieldToolStripMenuItem.Name = "cutFieldToolStripMenuItem";
             this.cutFieldToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
-            this.cutFieldToolStripMenuItem.Text = "Cut";
+            resources.ApplyResources(this.cutFieldToolStripMenuItem, "cutFieldToolStripMenuItem");
             this.cutFieldToolStripMenuItem.Click += new System.EventHandler(this.cutFieldToolStripMenuItem_Click);
             // 
             // copyFieldToolStripMenuItem
             // 
             this.copyFieldToolStripMenuItem.Name = "copyFieldToolStripMenuItem";
             this.copyFieldToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
-            this.copyFieldToolStripMenuItem.Text = "Copy";
+            resources.ApplyResources(this.copyFieldToolStripMenuItem, "copyFieldToolStripMenuItem");
             this.copyFieldToolStripMenuItem.Click += new System.EventHandler(this.copyFieldToolStripMenuItem_Click);
             // 
             // pasteAnnotationOrFieldToolStripMenuItem
             // 
             this.pasteAnnotationOrFieldToolStripMenuItem.Name = "pasteAnnotationOrFieldToolStripMenuItem";
             this.pasteAnnotationOrFieldToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
-            this.pasteAnnotationOrFieldToolStripMenuItem.Text = "Paste";
+            resources.ApplyResources(this.pasteAnnotationOrFieldToolStripMenuItem, "pasteAnnotationOrFieldToolStripMenuItem");
             this.pasteAnnotationOrFieldToolStripMenuItem.Click += new System.EventHandler(this.pasteAnnotationOrFieldToolStripMenuItem_Click);
             // 
             // deleteFieldToolStripMenuItem
             // 
             this.deleteFieldToolStripMenuItem.Name = "deleteFieldToolStripMenuItem";
             this.deleteFieldToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
-            this.deleteFieldToolStripMenuItem.Text = "Delete";
+            resources.ApplyResources(this.deleteFieldToolStripMenuItem, "deleteFieldToolStripMenuItem");
             this.deleteFieldToolStripMenuItem.Click += new System.EventHandler(this.deleteFieldToolStripMenuItem_Click);
             // 
             // toolStripSeparator2
@@ -138,42 +139,42 @@ namespace DemosCommonCode.Pdf
             // 
             this.addTextFieldToolStripMenuItem.Name = "addTextFieldToolStripMenuItem";
             this.addTextFieldToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
-            this.addTextFieldToolStripMenuItem.Text = "Add Text Field";
+            resources.ApplyResources(this.addTextFieldToolStripMenuItem, "addTextFieldToolStripMenuItem");
             this.addTextFieldToolStripMenuItem.Click += new System.EventHandler(this.addInteractiveFormFieldToolStripMenuItem_Click);
             // 
             // addCheckBoxToolStripMenuItem
             // 
             this.addCheckBoxToolStripMenuItem.Name = "addCheckBoxToolStripMenuItem";
             this.addCheckBoxToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
-            this.addCheckBoxToolStripMenuItem.Text = "Add Check Box";
+            resources.ApplyResources(this.addCheckBoxToolStripMenuItem, "addCheckBoxToolStripMenuItem");
             this.addCheckBoxToolStripMenuItem.Click += new System.EventHandler(this.addInteractiveFormFieldToolStripMenuItem_Click);
             // 
             // addButtonToolStripMenuItem
             // 
             this.addButtonToolStripMenuItem.Name = "addButtonToolStripMenuItem";
             this.addButtonToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
-            this.addButtonToolStripMenuItem.Text = "Add Button";
+            resources.ApplyResources(this.addButtonToolStripMenuItem, "addButtonToolStripMenuItem");
             this.addButtonToolStripMenuItem.Click += new System.EventHandler(this.addInteractiveFormFieldToolStripMenuItem_Click);
             // 
             // addListBoxToolStripMenuItem
             // 
             this.addListBoxToolStripMenuItem.Name = "addListBoxToolStripMenuItem";
             this.addListBoxToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
-            this.addListBoxToolStripMenuItem.Text = "Add List Box";
+            resources.ApplyResources(this.addListBoxToolStripMenuItem, "addListBoxToolStripMenuItem");
             this.addListBoxToolStripMenuItem.Click += new System.EventHandler(this.addInteractiveFormFieldToolStripMenuItem_Click);
             // 
             // addComboBoxToolStripMenuItem
             // 
             this.addComboBoxToolStripMenuItem.Name = "addComboBoxToolStripMenuItem";
             this.addComboBoxToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
-            this.addComboBoxToolStripMenuItem.Text = "Add Combo Box";
+            resources.ApplyResources(this.addComboBoxToolStripMenuItem, "addComboBoxToolStripMenuItem");
             this.addComboBoxToolStripMenuItem.Click += new System.EventHandler(this.addInteractiveFormFieldToolStripMenuItem_Click);
             // 
             // addRadioButtonToolStripMenuItem
             // 
             this.addRadioButtonToolStripMenuItem.Name = "addRadioButtonToolStripMenuItem";
             this.addRadioButtonToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
-            this.addRadioButtonToolStripMenuItem.Text = "Add Radio Button";
+            resources.ApplyResources(this.addRadioButtonToolStripMenuItem, "addRadioButtonToolStripMenuItem");
             this.addRadioButtonToolStripMenuItem.Click += new System.EventHandler(this.addInteractiveFormFieldToolStripMenuItem_Click);
             // 
             // toolStripSeparator3
@@ -185,7 +186,7 @@ namespace DemosCommonCode.Pdf
             // 
             this.propertiesToolStripMenuItem1.Name = "propertiesToolStripMenuItem1";
             this.propertiesToolStripMenuItem1.Size = new System.Drawing.Size(186, 22);
-            this.propertiesToolStripMenuItem1.Text = "Properties...";
+            resources.ApplyResources(this.propertiesToolStripMenuItem1, "propertiesToolStripMenuItem1");
             this.propertiesToolStripMenuItem1.Click += new System.EventHandler(this.fieldPropertiesToolStripMenuItem_Click);
             // 
             // groupFormFieldsByPagesCheckBox
@@ -196,7 +197,7 @@ namespace DemosCommonCode.Pdf
             this.groupFormFieldsByPagesCheckBox.Name = "groupFormFieldsByPagesCheckBox";
             this.groupFormFieldsByPagesCheckBox.Size = new System.Drawing.Size(158, 17);
             this.groupFormFieldsByPagesCheckBox.TabIndex = 7;
-            this.groupFormFieldsByPagesCheckBox.Text = "Group Form Fields by Pages";
+            resources.ApplyResources(this.groupFormFieldsByPagesCheckBox, "groupFormFieldsByPagesCheckBox");
             this.groupFormFieldsByPagesCheckBox.UseVisualStyleBackColor = true;
             this.groupFormFieldsByPagesCheckBox.CheckedChanged += new System.EventHandler(this.groupFormFieldsByPagesCheckBox_CheckedChanged);
             // 
@@ -207,7 +208,7 @@ namespace DemosCommonCode.Pdf
             this.showFieldNamesCheckBox.Name = "showFieldNamesCheckBox";
             this.showFieldNamesCheckBox.Size = new System.Drawing.Size(114, 17);
             this.showFieldNamesCheckBox.TabIndex = 8;
-            this.showFieldNamesCheckBox.Text = "Show Field Names";
+            resources.ApplyResources(this.showFieldNamesCheckBox, "showFieldNamesCheckBox");
             this.showFieldNamesCheckBox.UseVisualStyleBackColor = true;
             this.showFieldNamesCheckBox.CheckedChanged += new System.EventHandler(this.showFieldNamesCheckBox_CheckedChanged);
             // 
@@ -247,14 +248,14 @@ namespace DemosCommonCode.Pdf
             // 
             this.addBarcodeToolStripMenuItem.Name = "addBarcodeToolStripMenuItem";
             this.addBarcodeToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
-            this.addBarcodeToolStripMenuItem.Text = "Add Barcode";
+            resources.ApplyResources(this.addBarcodeToolStripMenuItem, "addBarcodeToolStripMenuItem");
             this.addBarcodeToolStripMenuItem.Click += new System.EventHandler(this.addInteractiveFormFieldToolStripMenuItem_Click);
             // 
             // addDigitalSignatureToolStripMenuItem
             // 
             this.addDigitalSignatureToolStripMenuItem.Name = "addDigitalSignatureToolStripMenuItem";
             this.addDigitalSignatureToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
-            this.addDigitalSignatureToolStripMenuItem.Text = "Add Digital Signature";
+            resources.ApplyResources(this.addDigitalSignatureToolStripMenuItem, "addDigitalSignatureToolStripMenuItem");
             this.addDigitalSignatureToolStripMenuItem.Click += new System.EventHandler(this.addInteractiveFormFieldToolStripMenuItem_Click);
             // 
             // PdfInteractiveFormControl

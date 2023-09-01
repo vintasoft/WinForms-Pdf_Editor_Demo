@@ -28,6 +28,7 @@ namespace DemosCommonCode.Pdf
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EmbeddedFileSpecificationForm));
             this.buttonOk = new System.Windows.Forms.Button();
             this.buttonCancel = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -62,7 +63,7 @@ namespace DemosCommonCode.Pdf
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(75, 23);
             this.buttonCancel.TabIndex = 1;
-            this.buttonCancel.Text = "Cancel";
+            resources.ApplyResources(this.buttonCancel, "buttonCancel");
             this.buttonCancel.UseVisualStyleBackColor = true;
             this.buttonCancel.Click += new System.EventHandler(this.buttonCancel_Click);
             // 
@@ -73,7 +74,7 @@ namespace DemosCommonCode.Pdf
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(23, 13);
             this.label1.TabIndex = 2;
-            this.label1.Text = "File";
+            resources.ApplyResources(this.label1, "label1");
             // 
             // filenameTextBox
             // 
@@ -91,7 +92,7 @@ namespace DemosCommonCode.Pdf
             this.browseButton.Name = "browseButton";
             this.browseButton.Size = new System.Drawing.Size(75, 23);
             this.browseButton.TabIndex = 4;
-            this.browseButton.Text = "Load...";
+            resources.ApplyResources(this.browseButton, "browseButton");
             this.browseButton.UseVisualStyleBackColor = true;
             this.browseButton.Click += new System.EventHandler(this.browseButton_Click);
             // 
@@ -102,7 +103,7 @@ namespace DemosCommonCode.Pdf
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(67, 13);
             this.label2.TabIndex = 5;
-            this.label2.Text = "Compression";
+            resources.ApplyResources(this.label2, "label2");
             // 
             // compressionComboBox
             // 
@@ -121,7 +122,7 @@ namespace DemosCommonCode.Pdf
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(46, 13);
             this.label3.TabIndex = 7;
-            this.label3.Text = "File Size";
+            resources.ApplyResources(this.label3, "label3");
             // 
             // sizeTextBox
             // 
@@ -146,7 +147,7 @@ namespace DemosCommonCode.Pdf
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(88, 13);
             this.label4.TabIndex = 9;
-            this.label4.Text = "Compressed Size";
+            resources.ApplyResources(this.label4, "label4");
             // 
             // fileDescriptionTextBox
             // 
@@ -164,7 +165,7 @@ namespace DemosCommonCode.Pdf
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(60, 13);
             this.label5.TabIndex = 12;
-            this.label5.Text = "Description";
+            resources.ApplyResources(this.label5, "label5");
             // 
             // saveAsButton
             // 
@@ -173,7 +174,7 @@ namespace DemosCommonCode.Pdf
             this.saveAsButton.Name = "saveAsButton";
             this.saveAsButton.Size = new System.Drawing.Size(75, 23);
             this.saveAsButton.TabIndex = 13;
-            this.saveAsButton.Text = "Save As...";
+            resources.ApplyResources(this.saveAsButton, "saveAsButton");
             this.saveAsButton.UseVisualStyleBackColor = true;
             this.saveAsButton.Click += new System.EventHandler(this.saveAsButton_Click);
             // 
@@ -201,7 +202,7 @@ namespace DemosCommonCode.Pdf
             this.MinimizeBox = false;
             this.Name = "EmbeddedFileSpecificationForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Embedded File Specification Editor";
+            resources.ApplyResources(this, "$this");
             this.ResumeLayout(false);
             this.PerformLayout();
 

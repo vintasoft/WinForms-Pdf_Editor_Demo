@@ -28,6 +28,7 @@ namespace DemosCommonCode.Pdf.JavaScript
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PdfJavaScriptActionDictionaryEditorDialog));
             this.javaScripActionsListBox = new System.Windows.Forms.ListBox();
             this.javaScriptTextBox = new System.Windows.Forms.TextBox();
             this.addButton = new System.Windows.Forms.Button();
@@ -77,7 +78,7 @@ namespace DemosCommonCode.Pdf.JavaScript
             this.addButton.Name = "addButton";
             this.addButton.Size = new System.Drawing.Size(71, 23);
             this.addButton.TabIndex = 2;
-            this.addButton.Text = "Add...";
+            resources.ApplyResources(this.addButton, "addButton");
             this.addButton.UseVisualStyleBackColor = true;
             this.addButton.Click += new System.EventHandler(this.addButton_Click);
             // 
@@ -88,7 +89,7 @@ namespace DemosCommonCode.Pdf.JavaScript
             this.renameButton.Name = "renameButton";
             this.renameButton.Size = new System.Drawing.Size(71, 23);
             this.renameButton.TabIndex = 3;
-            this.renameButton.Text = "Rename...";
+            resources.ApplyResources(this.renameButton, "renameButton");
             this.renameButton.UseVisualStyleBackColor = true;
             this.renameButton.Click += new System.EventHandler(this.renameButton_Click);
             // 
@@ -99,7 +100,7 @@ namespace DemosCommonCode.Pdf.JavaScript
             this.removeButton.Name = "removeButton";
             this.removeButton.Size = new System.Drawing.Size(71, 23);
             this.removeButton.TabIndex = 4;
-            this.removeButton.Text = "Remove";
+            resources.ApplyResources(this.removeButton, "removeButton");
             this.removeButton.UseVisualStyleBackColor = true;
             this.removeButton.Click += new System.EventHandler(this.removeButton_Click);
             // 
@@ -136,7 +137,7 @@ namespace DemosCommonCode.Pdf.JavaScript
             this.cancelButton1.Name = "cancelButton1";
             this.cancelButton1.Size = new System.Drawing.Size(75, 23);
             this.cancelButton1.TabIndex = 4;
-            this.cancelButton1.Text = "Cancel";
+            resources.ApplyResources(this.cancelButton1, "cancelButton1");
             this.cancelButton1.UseVisualStyleBackColor = true;
             // 
             // okButton
@@ -159,7 +160,7 @@ namespace DemosCommonCode.Pdf.JavaScript
             this.wordWrapCheckBox.Name = "wordWrapCheckBox";
             this.wordWrapCheckBox.Size = new System.Drawing.Size(81, 17);
             this.wordWrapCheckBox.TabIndex = 2;
-            this.wordWrapCheckBox.Text = "Word Wrap";
+            resources.ApplyResources(this.wordWrapCheckBox, "wordWrapCheckBox");
             this.wordWrapCheckBox.UseVisualStyleBackColor = true;
             this.wordWrapCheckBox.CheckedChanged += new System.EventHandler(this.wordWrapCheckBox_CheckedChanged);
             // 
@@ -170,7 +171,7 @@ namespace DemosCommonCode.Pdf.JavaScript
             this.Controls.Add(this.splitContainer1);
             this.MinimumSize = new System.Drawing.Size(430, 138);
             this.Name = "PdfJavaScriptActionDictionaryEditorDialog";
-            this.Text = "JavaScript Action Dictionary Editor";
+            resources.ApplyResources(this, "$this");
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel2.ResumeLayout(false);
             this.splitContainer1.Panel2.PerformLayout();

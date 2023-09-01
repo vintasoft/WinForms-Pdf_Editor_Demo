@@ -28,6 +28,7 @@ namespace DemosCommonCode.Spelling
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SpellCheckManagerSettingsForm));
             this.enabledCheckBox = new System.Windows.Forms.CheckBox();
             this.enginesCheckedListBox = new System.Windows.Forms.CheckedListBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -44,7 +45,7 @@ namespace DemosCommonCode.Spelling
             this.enabledCheckBox.Name = "enabledCheckBox";
             this.enabledCheckBox.Size = new System.Drawing.Size(65, 17);
             this.enabledCheckBox.TabIndex = 0;
-            this.enabledCheckBox.Text = "Enabled";
+            resources.ApplyResources(this.enabledCheckBox, "enabledCheckBox");
             this.enabledCheckBox.UseVisualStyleBackColor = true;
             this.enabledCheckBox.CheckedChanged += new System.EventHandler(this.enabledCheckBox_CheckedChanged);
             // 
@@ -74,7 +75,7 @@ namespace DemosCommonCode.Spelling
             this.groupBox1.Size = new System.Drawing.Size(312, 225);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Engines";
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             // 
             // moveDownButton
             // 
@@ -83,7 +84,7 @@ namespace DemosCommonCode.Spelling
             this.moveDownButton.Name = "moveDownButton";
             this.moveDownButton.Size = new System.Drawing.Size(75, 23);
             this.moveDownButton.TabIndex = 3;
-            this.moveDownButton.Text = "Down";
+            resources.ApplyResources(this.moveDownButton, "moveDownButton");
             this.moveDownButton.UseVisualStyleBackColor = true;
             this.moveDownButton.Click += new System.EventHandler(this.moveDownButton_Click);
             // 
@@ -94,7 +95,7 @@ namespace DemosCommonCode.Spelling
             this.moveUpButton.Name = "moveUpButton";
             this.moveUpButton.Size = new System.Drawing.Size(75, 23);
             this.moveUpButton.TabIndex = 2;
-            this.moveUpButton.Text = "Up";
+            resources.ApplyResources(this.moveUpButton, "moveUpButton");
             this.moveUpButton.UseVisualStyleBackColor = true;
             this.moveUpButton.Click += new System.EventHandler(this.moveUpButton_Click);
             // 
@@ -121,7 +122,7 @@ namespace DemosCommonCode.Spelling
             this.MinimumSize = new System.Drawing.Size(352, 210);
             this.Name = "SpellCheckManagerSettingsForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Spell Check Manager Settings";
+            resources.ApplyResources(this, "$this");
             this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();

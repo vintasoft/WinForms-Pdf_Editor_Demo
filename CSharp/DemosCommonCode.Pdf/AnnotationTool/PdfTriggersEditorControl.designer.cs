@@ -28,6 +28,7 @@ namespace DemosCommonCode.Pdf
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PdfTriggersEditorControl));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.triggersListBox = new System.Windows.Forms.ListBox();
             this.triggerActionsGroupBox = new System.Windows.Forms.GroupBox();
@@ -47,7 +48,7 @@ namespace DemosCommonCode.Pdf
             this.groupBox1.Size = new System.Drawing.Size(312, 133);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Triggers";
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             // 
             // triggersListBox
             // 

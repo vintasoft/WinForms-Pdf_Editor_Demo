@@ -57,4 +57,34 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="$this.Text" xml:space="preserve">
+    <value>JBIG 2 Encoder Settings</value>
+  </data>
+  <data name="buttonCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="useSymbolDictionaryCheckBox.Text" xml:space="preserve">
+    <value>Symbol dictionary</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Inaccuracy percent</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Dictionary size</value>
+  </data>
+  <data name="useLossyCheckBox.Text" xml:space="preserve">
+    <value>Lossy</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Bitmap encoding algorithm</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Compression</value>
+  </data>
+  <data name="appendCheckBox.Text" xml:space="preserve">
+    <value>Append to existing document</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </metadata>
 </root>

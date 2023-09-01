@@ -28,6 +28,7 @@ namespace DemosCommonCode.Pdf.Security
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CreateEmptySignatureFieldForm));
             this.signatureAppearanceButton = new System.Windows.Forms.Button();
             this.buttonOk = new System.Windows.Forms.Button();
             this.buttonCancel = new System.Windows.Forms.Button();
@@ -43,7 +44,7 @@ namespace DemosCommonCode.Pdf.Security
             this.signatureAppearanceButton.Name = "signatureAppearanceButton";
             this.signatureAppearanceButton.Size = new System.Drawing.Size(311, 23);
             this.signatureAppearanceButton.TabIndex = 5;
-            this.signatureAppearanceButton.Text = "Signature Appearance...";
+            resources.ApplyResources(this.signatureAppearanceButton, "signatureAppearanceButton");
             this.signatureAppearanceButton.UseVisualStyleBackColor = true;
             this.signatureAppearanceButton.Click += new System.EventHandler(this.signatureAppearanceButton_Click);
             // 
@@ -66,7 +67,7 @@ namespace DemosCommonCode.Pdf.Security
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(75, 23);
             this.buttonCancel.TabIndex = 7;
-            this.buttonCancel.Text = "Cancel";
+            resources.ApplyResources(this.buttonCancel, "buttonCancel");
             this.buttonCancel.UseVisualStyleBackColor = true;
             this.buttonCancel.Click += new System.EventHandler(this.buttonCancel_Click);
             // 
@@ -86,7 +87,7 @@ namespace DemosCommonCode.Pdf.Security
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(35, 13);
             this.label3.TabIndex = 9;
-            this.label3.Text = "Name";
+            resources.ApplyResources(this.label3, "label3");
             // 
             // CreateEmptySignatureForm
             // 
@@ -103,7 +104,7 @@ namespace DemosCommonCode.Pdf.Security
             this.MinimizeBox = false;
             this.Name = "CreateEmptySignatureForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Create Digital Signature";
+            resources.ApplyResources(this, "$this");
             this.ResumeLayout(false);
             this.PerformLayout();
 

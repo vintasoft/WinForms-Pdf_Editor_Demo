@@ -98,7 +98,7 @@ namespace DemosCommonCode.Office
                         if (chart.Properties != null)
                             name = chart.Properties.Name;
                         else
-                            name = string.Format("Chart {0}", number);
+                            name = string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_OFFICE_CHART_ARG0, number);
                         chartComboBox.Items.Add(name);
                         number++;
                     }

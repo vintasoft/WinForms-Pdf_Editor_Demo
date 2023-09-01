@@ -120,4 +120,16 @@
   <metadata name="statusStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Document Fonts</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Font</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Cell Size</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </metadata>
 </root>

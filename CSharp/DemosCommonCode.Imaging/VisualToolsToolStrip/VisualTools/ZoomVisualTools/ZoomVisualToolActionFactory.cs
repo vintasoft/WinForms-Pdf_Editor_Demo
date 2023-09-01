@@ -24,8 +24,8 @@ namespace DemosCommonCode.Imaging
             // create action, which allows to magnify of image region in image viewer
             MagnifierToolAction magnifierToolAction = new MagnifierToolAction(
                 new MagnifierTool(),
-                "Magnifier Tool",
-                "Magnifier",
+                PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_MAGNIFIER_TOOL,
+                PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_MAGNIFIER,
                 GetIcon("MagnifierTool.png"));
             // add the action to the toolstrip
             toolStrip.AddAction(magnifierToolAction);
@@ -33,8 +33,8 @@ namespace DemosCommonCode.Imaging
             // create action, which allows to zoom an image region in image viewer
             VisualToolAction zoomSelectionToolAction = new VisualToolAction(
                 new ZoomSelectionTool(),
-                "Zoom Selection Tool",
-                "Zoom selection",
+                PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_ZOOM_SELECTION_TOOL,
+                PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_ZOOM_SELECTION,
                 GetIcon("ZoomSelection.png"));
             // add the action to the toolstrip
             toolStrip.AddAction(zoomSelectionToolAction);
@@ -42,8 +42,8 @@ namespace DemosCommonCode.Imaging
             // create action, which allows to zoom an image in image viewer
             VisualToolAction zoomToolAction = new VisualToolAction(
                 new ZoomTool(),
-                "Zoom Tool",
-                "Zoom",
+                PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_ZOOM_TOOL,
+                PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_ZOOM,
                 GetIcon("ZoomTool.png"));
             // add the action to the toolstrip
             toolStrip.AddAction(zoomToolAction);

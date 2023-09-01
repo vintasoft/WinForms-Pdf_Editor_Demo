@@ -173,8 +173,8 @@ namespace DemosCommonCode.Pdf
             this.levelUpToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.levelUpToolStripButton.Name = "levelUpToolStripButton";
             this.levelUpToolStripButton.Size = new System.Drawing.Size(23, 22);
-            this.levelUpToolStripButton.Text = "Level Up";
-            this.levelUpToolStripButton.ToolTipText = "Level Up";
+            resources.ApplyResources(this.levelUpToolStripButton, "levelUpToolStripButton");
+            
             this.levelUpToolStripButton.Click += new System.EventHandler(this.levelUpToolStripMenuItem_Click);
             // 
             // moveToRootToolStripButton
@@ -185,7 +185,7 @@ namespace DemosCommonCode.Pdf
             this.moveToRootToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.moveToRootToolStripButton.Name = "moveToRootToolStripButton";
             this.moveToRootToolStripButton.Size = new System.Drawing.Size(23, 22);
-            this.moveToRootToolStripButton.Text = "Move To Root";
+            resources.ApplyResources(this.moveToRootToolStripButton, "moveToRootToolStripButton");
             this.moveToRootToolStripButton.Click += new System.EventHandler(this.moveToRootToolStripMenuItem_Click);
             // 
             // toolStripSeparator8
@@ -201,7 +201,7 @@ namespace DemosCommonCode.Pdf
             this.iconViewModeToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.iconViewModeToolStripButton.Name = "iconViewModeToolStripButton";
             this.iconViewModeToolStripButton.Size = new System.Drawing.Size(23, 22);
-            this.iconViewModeToolStripButton.Text = "Large Icons";
+            resources.ApplyResources(this.iconViewModeToolStripButton, "iconViewModeToolStripButton");
             this.iconViewModeToolStripButton.Click += new System.EventHandler(this.iconViewModeToolStripButton_Click);
             // 
             // detailViewModeToolStripButton
@@ -212,7 +212,7 @@ namespace DemosCommonCode.Pdf
             this.detailViewModeToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.detailViewModeToolStripButton.Name = "detailViewModeToolStripButton";
             this.detailViewModeToolStripButton.Size = new System.Drawing.Size(23, 22);
-            this.detailViewModeToolStripButton.Text = "Details";
+            resources.ApplyResources(this.detailViewModeToolStripButton, "detailViewModeToolStripButton");
             this.detailViewModeToolStripButton.Click += new System.EventHandler(this.detailViewModeToolStripButton_Click);
             // 
             // toolStripSeparator2
@@ -228,7 +228,7 @@ namespace DemosCommonCode.Pdf
             this.createNewFolderToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.createNewFolderToolStripButton.Name = "createNewFolderToolStripButton";
             this.createNewFolderToolStripButton.Size = new System.Drawing.Size(23, 22);
-            this.createNewFolderToolStripButton.Text = "Create New Folder";
+            resources.ApplyResources(this.createNewFolderToolStripButton, "createNewFolderToolStripButton");
             this.createNewFolderToolStripButton.Click += new System.EventHandler(this.createNewFolderToolStripMenuItem_Click);
             // 
             // addFilesToolStripButton
@@ -239,7 +239,7 @@ namespace DemosCommonCode.Pdf
             this.addFilesToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.addFilesToolStripButton.Name = "addFilesToolStripButton";
             this.addFilesToolStripButton.Size = new System.Drawing.Size(23, 22);
-            this.addFilesToolStripButton.Text = "Add Files...";
+            resources.ApplyResources(this.addFilesToolStripButton, "addFilesToolStripButton");
             this.addFilesToolStripButton.Click += new System.EventHandler(this.addFilesToolStripMenuItem_Click);
             // 
             // addExistingFolderStripButton
@@ -250,7 +250,7 @@ namespace DemosCommonCode.Pdf
             this.addExistingFolderStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.addExistingFolderStripButton.Name = "addExistingFolderStripButton";
             this.addExistingFolderStripButton.Size = new System.Drawing.Size(23, 22);
-            this.addExistingFolderStripButton.Text = "Add Existing Folder...";
+            resources.ApplyResources(this.addExistingFolderStripButton, "addExistingFolderStripButton");
             this.addExistingFolderStripButton.Click += new System.EventHandler(this.importToolStripMenuItem_Click);
             // 
             // saveSelectedItemsToolStripButton
@@ -261,7 +261,7 @@ namespace DemosCommonCode.Pdf
             this.saveSelectedItemsToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.saveSelectedItemsToolStripButton.Name = "saveSelectedItemsToolStripButton";
             this.saveSelectedItemsToolStripButton.Size = new System.Drawing.Size(23, 22);
-            this.saveSelectedItemsToolStripButton.Text = "Save Selected Items To...";
+            resources.ApplyResources(this.saveSelectedItemsToolStripButton, "saveSelectedItemsToolStripButton");
             this.saveSelectedItemsToolStripButton.Click += new System.EventHandler(this.saveSelectedFilesToToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
@@ -277,7 +277,7 @@ namespace DemosCommonCode.Pdf
             this.deleteSelectedToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.deleteSelectedToolStripButton.Name = "deleteSelectedToolStripButton";
             this.deleteSelectedToolStripButton.Size = new System.Drawing.Size(23, 22);
-            this.deleteSelectedToolStripButton.Text = "Delete Selected Items";
+            resources.ApplyResources(this.deleteSelectedToolStripButton, "deleteSelectedToolStripButton");
             this.deleteSelectedToolStripButton.Click += new System.EventHandler(this.deleteSelectedToolStripMenuItem_Click);
             // 
             // menuStrip1
@@ -307,13 +307,13 @@ namespace DemosCommonCode.Pdf
             this.closeToolStripMenuItem});
             this.filesToolStripMenuItem.Name = "filesToolStripMenuItem";
             this.filesToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
-            this.filesToolStripMenuItem.Text = "File";
+            resources.ApplyResources(this.filesToolStripMenuItem, "filesToolStripMenuItem");
             // 
             // addFilesToolStripMenuItem
             // 
             this.addFilesToolStripMenuItem.Name = "addFilesToolStripMenuItem";
             this.addFilesToolStripMenuItem.Size = new System.Drawing.Size(249, 22);
-            this.addFilesToolStripMenuItem.Text = "Add Files...";
+            resources.ApplyResources(this.addFilesToolStripMenuItem, "addFilesToolStripMenuItem");
             this.addFilesToolStripMenuItem.Click += new System.EventHandler(this.addFilesToolStripMenuItem_Click);
             // 
             // createNewFolderToolStripMenuItem
@@ -321,14 +321,14 @@ namespace DemosCommonCode.Pdf
             this.createNewFolderToolStripMenuItem.Name = "createNewFolderToolStripMenuItem";
             this.createNewFolderToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
             this.createNewFolderToolStripMenuItem.Size = new System.Drawing.Size(249, 22);
-            this.createNewFolderToolStripMenuItem.Text = "Add New Folder";
+            resources.ApplyResources(this.createNewFolderToolStripMenuItem, "createNewFolderToolStripMenuItem");
             this.createNewFolderToolStripMenuItem.Click += new System.EventHandler(this.createNewFolderToolStripMenuItem_Click);
             // 
             // addExistingFolderStripMenuItem
             // 
             this.addExistingFolderStripMenuItem.Name = "addExistingFolderStripMenuItem";
             this.addExistingFolderStripMenuItem.Size = new System.Drawing.Size(249, 22);
-            this.addExistingFolderStripMenuItem.Text = "Add Existing Folder...";
+            resources.ApplyResources(this.addExistingFolderStripMenuItem, "addExistingFolderStripMenuItem");
             this.addExistingFolderStripMenuItem.Click += new System.EventHandler(this.importToolStripMenuItem_Click);
             // 
             // compressionOfNewFilesToolStripMenuItem
@@ -337,7 +337,7 @@ namespace DemosCommonCode.Pdf
             this.fileCompressionToolStripComboBox});
             this.compressionOfNewFilesToolStripMenuItem.Name = "compressionOfNewFilesToolStripMenuItem";
             this.compressionOfNewFilesToolStripMenuItem.Size = new System.Drawing.Size(249, 22);
-            this.compressionOfNewFilesToolStripMenuItem.Text = "Compression of New Files";
+            resources.ApplyResources(this.compressionOfNewFilesToolStripMenuItem, "compressionOfNewFilesToolStripMenuItem");
             // 
             // fileCompressionToolStripComboBox
             // 
@@ -355,7 +355,7 @@ namespace DemosCommonCode.Pdf
             this.saveSelectedFilesToToolStripMenuItem.Name = "saveSelectedFilesToToolStripMenuItem";
             this.saveSelectedFilesToToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
             this.saveSelectedFilesToToolStripMenuItem.Size = new System.Drawing.Size(249, 22);
-            this.saveSelectedFilesToToolStripMenuItem.Text = "Save Selected Item(s) To...";
+            resources.ApplyResources(this.saveSelectedFilesToToolStripMenuItem, "saveSelectedFilesToToolStripMenuItem");
             this.saveSelectedFilesToToolStripMenuItem.Click += new System.EventHandler(this.saveSelectedFilesToToolStripMenuItem_Click);
             // 
             // toolStripSeparator3
@@ -368,7 +368,7 @@ namespace DemosCommonCode.Pdf
             this.closeToolStripMenuItem.Name = "closeToolStripMenuItem";
             this.closeToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.X)));
             this.closeToolStripMenuItem.Size = new System.Drawing.Size(249, 22);
-            this.closeToolStripMenuItem.Text = "Close";
+            resources.ApplyResources(this.closeToolStripMenuItem, "closeToolStripMenuItem");
             this.closeToolStripMenuItem.Click += new System.EventHandler(this.closeToolStripMenuItem_Click);
             // 
             // viewToolStripMenuItem
@@ -390,7 +390,7 @@ namespace DemosCommonCode.Pdf
             this.setThumbnailForSelectedItemsToolStripMenuItem});
             this.viewToolStripMenuItem.Name = "viewToolStripMenuItem";
             this.viewToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
-            this.viewToolStripMenuItem.Text = "View";
+            resources.ApplyResources(this.viewToolStripMenuItem, "viewToolStripMenuItem");
             // 
             // viewModeToolStripMenuItem
             // 
@@ -398,7 +398,7 @@ namespace DemosCommonCode.Pdf
             this.viewModeComboBox});
             this.viewModeToolStripMenuItem.Name = "viewModeToolStripMenuItem";
             this.viewModeToolStripMenuItem.Size = new System.Drawing.Size(288, 22);
-            this.viewModeToolStripMenuItem.Text = "View Mode";
+            resources.ApplyResources(this.viewModeToolStripMenuItem, "viewModeToolStripMenuItem");
             // 
             // viewModeComboBox
             // 
@@ -413,7 +413,7 @@ namespace DemosCommonCode.Pdf
             this.initialViewModeToolStripComboBox});
             this.initialViewModeToolStripMenuItem.Name = "initialViewModeToolStripMenuItem";
             this.initialViewModeToolStripMenuItem.Size = new System.Drawing.Size(288, 22);
-            this.initialViewModeToolStripMenuItem.Text = "Initial View Mode";
+            resources.ApplyResources(this.initialViewModeToolStripMenuItem, "initialViewModeToolStripMenuItem");
             // 
             // initialViewModeToolStripComboBox
             // 
@@ -430,7 +430,7 @@ namespace DemosCommonCode.Pdf
             this.removeSortInformationToolStripMenuItem});
             this.sortToolStripMenuItem.Name = "sortToolStripMenuItem";
             this.sortToolStripMenuItem.Size = new System.Drawing.Size(288, 22);
-            this.sortToolStripMenuItem.Text = "Sort";
+            resources.ApplyResources(this.sortToolStripMenuItem, "sortToolStripMenuItem");
             // 
             // sortByFieldToolStripMenuItem
             // 
@@ -438,7 +438,7 @@ namespace DemosCommonCode.Pdf
             this.sortFieldNameToolStripComboBox});
             this.sortByFieldToolStripMenuItem.Name = "sortByFieldToolStripMenuItem";
             this.sortByFieldToolStripMenuItem.Size = new System.Drawing.Size(216, 22);
-            this.sortByFieldToolStripMenuItem.Text = "Sort by Field";
+            resources.ApplyResources(this.sortByFieldToolStripMenuItem, "sortByFieldToolStripMenuItem");
             // 
             // sortFieldNameToolStripComboBox
             // 
@@ -451,14 +451,14 @@ namespace DemosCommonCode.Pdf
             this.ascendingOrderToolStripMenuItem.CheckOnClick = true;
             this.ascendingOrderToolStripMenuItem.Name = "ascendingOrderToolStripMenuItem";
             this.ascendingOrderToolStripMenuItem.Size = new System.Drawing.Size(216, 22);
-            this.ascendingOrderToolStripMenuItem.Text = "Ascending Order";
+            resources.ApplyResources(this.ascendingOrderToolStripMenuItem, "ascendingOrderToolStripMenuItem");
             this.ascendingOrderToolStripMenuItem.CheckedChanged += new System.EventHandler(this.ascendingOrderToolStripMenuItem_CheckedChanged);
             // 
             // removeSortInformationToolStripMenuItem
             // 
             this.removeSortInformationToolStripMenuItem.Name = "removeSortInformationToolStripMenuItem";
             this.removeSortInformationToolStripMenuItem.Size = new System.Drawing.Size(216, 22);
-            this.removeSortInformationToolStripMenuItem.Text = "Remove Sort Information...";
+            resources.ApplyResources(this.removeSortInformationToolStripMenuItem, "removeSortInformationToolStripMenuItem");
             this.removeSortInformationToolStripMenuItem.Click += new System.EventHandler(this.removeSortInformationToolStripMenuItem_Click);
             // 
             // toolStripSeparator10
@@ -471,7 +471,7 @@ namespace DemosCommonCode.Pdf
             this.levelUpToolStripMenuItem.Name = "levelUpToolStripMenuItem";
             this.levelUpToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Left)));
             this.levelUpToolStripMenuItem.Size = new System.Drawing.Size(288, 22);
-            this.levelUpToolStripMenuItem.Text = "Level Up";
+            resources.ApplyResources(this.levelUpToolStripMenuItem, "levelUpToolStripMenuItem");
             this.levelUpToolStripMenuItem.Click += new System.EventHandler(this.levelUpToolStripMenuItem_Click);
             // 
             // moveToRootToolStripMenuItem
@@ -479,7 +479,7 @@ namespace DemosCommonCode.Pdf
             this.moveToRootToolStripMenuItem.Name = "moveToRootToolStripMenuItem";
             this.moveToRootToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Up)));
             this.moveToRootToolStripMenuItem.Size = new System.Drawing.Size(288, 22);
-            this.moveToRootToolStripMenuItem.Text = "Move To Root";
+            resources.ApplyResources(this.moveToRootToolStripMenuItem, "moveToRootToolStripMenuItem");
             this.moveToRootToolStripMenuItem.Click += new System.EventHandler(this.moveToRootToolStripMenuItem_Click);
             // 
             // toolStripSeparator7
@@ -491,14 +491,14 @@ namespace DemosCommonCode.Pdf
             // 
             this.colorsToolStripMenuItem.Name = "colorsToolStripMenuItem";
             this.colorsToolStripMenuItem.Size = new System.Drawing.Size(288, 22);
-            this.colorsToolStripMenuItem.Text = "Colors...";
+            resources.ApplyResources(this.colorsToolStripMenuItem, "colorsToolStripMenuItem");
             this.colorsToolStripMenuItem.Click += new System.EventHandler(this.colorsToolStripMenuItem_Click);
             // 
             // resetColorsToolStripMenuItem
             // 
             this.resetColorsToolStripMenuItem.Name = "resetColorsToolStripMenuItem";
             this.resetColorsToolStripMenuItem.Size = new System.Drawing.Size(288, 22);
-            this.resetColorsToolStripMenuItem.Text = "Reset Colors";
+            resources.ApplyResources(this.resetColorsToolStripMenuItem, "resetColorsToolStripMenuItem");
             this.resetColorsToolStripMenuItem.Click += new System.EventHandler(this.resetColorsToolStripMenuItem_Click);
             // 
             // toolStripSeparator9
@@ -510,28 +510,28 @@ namespace DemosCommonCode.Pdf
             // 
             this.generateThumbnailsForAllFilesToolStripMenuItem.Name = "generateThumbnailsForAllFilesToolStripMenuItem";
             this.generateThumbnailsForAllFilesToolStripMenuItem.Size = new System.Drawing.Size(288, 22);
-            this.generateThumbnailsForAllFilesToolStripMenuItem.Text = "Generate Thumbnails For All Files...";
+            resources.ApplyResources(this.generateThumbnailsForAllFilesToolStripMenuItem, "generateThumbnailsForAllFilesToolStripMenuItem");
             this.generateThumbnailsForAllFilesToolStripMenuItem.Click += new System.EventHandler(this.generateThumbnailsForAllFilesToolStripMenuItem_Click);
             // 
             // generateThumbnailsForlSelectedFilesToolStripMenuItem
             // 
             this.generateThumbnailsForlSelectedFilesToolStripMenuItem.Name = "generateThumbnailsForlSelectedFilesToolStripMenuItem";
             this.generateThumbnailsForlSelectedFilesToolStripMenuItem.Size = new System.Drawing.Size(288, 22);
-            this.generateThumbnailsForlSelectedFilesToolStripMenuItem.Text = "Generate Thumbnails For Selected Files...";
+            resources.ApplyResources(this.generateThumbnailsForlSelectedFilesToolStripMenuItem, "generateThumbnailsForlSelectedFilesToolStripMenuItem");
             this.generateThumbnailsForlSelectedFilesToolStripMenuItem.Click += new System.EventHandler(this.generateThumbnailsForSelectedFilesToolStripMenuItem_Click);
             // 
             // setThumbnailForAllFoldersToolStripMenuItem
             // 
             this.setThumbnailForAllFoldersToolStripMenuItem.Name = "setThumbnailForAllFoldersToolStripMenuItem";
             this.setThumbnailForAllFoldersToolStripMenuItem.Size = new System.Drawing.Size(288, 22);
-            this.setThumbnailForAllFoldersToolStripMenuItem.Text = "Set Thumbnail For All Folders...";
+            resources.ApplyResources(this.setThumbnailForAllFoldersToolStripMenuItem, "setThumbnailForAllFoldersToolStripMenuItem");
             this.setThumbnailForAllFoldersToolStripMenuItem.Click += new System.EventHandler(this.setThumbnailForAllFoldersToolStripMenuItem_Click);
             // 
             // setThumbnailForSelectedItemsToolStripMenuItem
             // 
             this.setThumbnailForSelectedItemsToolStripMenuItem.Name = "setThumbnailForSelectedItemsToolStripMenuItem";
             this.setThumbnailForSelectedItemsToolStripMenuItem.Size = new System.Drawing.Size(288, 22);
-            this.setThumbnailForSelectedItemsToolStripMenuItem.Text = "Set Thumbnail For Selected Items...";
+            resources.ApplyResources(this.setThumbnailForSelectedItemsToolStripMenuItem, "setThumbnailForSelectedItemsToolStripMenuItem");
             this.setThumbnailForSelectedItemsToolStripMenuItem.Click += new System.EventHandler(this.setThumbnailForSelectedItemsToolStripMenuItem_Click);
             // 
             // editToolStripMenuItem
@@ -542,14 +542,14 @@ namespace DemosCommonCode.Pdf
             this.selectAllToolStripMenuItem});
             this.editToolStripMenuItem.Name = "editToolStripMenuItem";
             this.editToolStripMenuItem.Size = new System.Drawing.Size(39, 20);
-            this.editToolStripMenuItem.Text = "Edit";
+            resources.ApplyResources(this.editToolStripMenuItem, "editToolStripMenuItem");
             // 
             // deleteSelectedToolStripMenuItem
             // 
             this.deleteSelectedToolStripMenuItem.Name = "deleteSelectedToolStripMenuItem";
             this.deleteSelectedToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.Delete;
             this.deleteSelectedToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.deleteSelectedToolStripMenuItem.Text = "Delete Selected";
+            resources.ApplyResources(this.deleteSelectedToolStripMenuItem, "deleteSelectedToolStripMenuItem");
             this.deleteSelectedToolStripMenuItem.Click += new System.EventHandler(this.deleteSelectedToolStripMenuItem_Click);
             // 
             // toolStripSeparator4
@@ -562,7 +562,7 @@ namespace DemosCommonCode.Pdf
             this.selectAllToolStripMenuItem.Name = "selectAllToolStripMenuItem";
             this.selectAllToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.A)));
             this.selectAllToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.selectAllToolStripMenuItem.Text = "Select All";
+            resources.ApplyResources(this.selectAllToolStripMenuItem, "selectAllToolStripMenuItem");
             this.selectAllToolStripMenuItem.Click += new System.EventHandler(this.selectAllToolStripMenuItem_Click);
             // 
             // schemaToolStripMenuItem
@@ -572,20 +572,20 @@ namespace DemosCommonCode.Pdf
             this.selectedFileDataFieldsToolStripMenuItem});
             this.schemaToolStripMenuItem.Name = "schemaToolStripMenuItem";
             this.schemaToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
-            this.schemaToolStripMenuItem.Text = "Schema";
+            resources.ApplyResources(this.schemaToolStripMenuItem, "schemaToolStripMenuItem");
             // 
             // schemaEditorToolStripMenuItem
             // 
             this.schemaEditorToolStripMenuItem.Name = "schemaEditorToolStripMenuItem";
             this.schemaEditorToolStripMenuItem.Size = new System.Drawing.Size(214, 22);
-            this.schemaEditorToolStripMenuItem.Text = "Schema Editor...";
+            resources.ApplyResources(this.schemaEditorToolStripMenuItem, "schemaEditorToolStripMenuItem");
             this.schemaEditorToolStripMenuItem.Click += new System.EventHandler(this.schemaEditorToolStripMenuItem_Click);
             // 
             // selectedFileDataFieldsToolStripMenuItem
             // 
             this.selectedFileDataFieldsToolStripMenuItem.Name = "selectedFileDataFieldsToolStripMenuItem";
             this.selectedFileDataFieldsToolStripMenuItem.Size = new System.Drawing.Size(214, 22);
-            this.selectedFileDataFieldsToolStripMenuItem.Text = "Selected Item Data Fields...";
+            resources.ApplyResources(this.selectedFileDataFieldsToolStripMenuItem, "selectedFileDataFieldsToolStripMenuItem");
             this.selectedFileDataFieldsToolStripMenuItem.Click += new System.EventHandler(this.selectedFileDataFieldsToolStripMenuItem_Click);
             // 
             // itemsPropertyGrid
@@ -643,7 +643,7 @@ namespace DemosCommonCode.Pdf
             this.encodeFilesImmediatelyToolStripMenuItem.CheckOnClick = true;
             this.encodeFilesImmediatelyToolStripMenuItem.Name = "encodeFilesImmediatelyToolStripMenuItem";
             this.encodeFilesImmediatelyToolStripMenuItem.Size = new System.Drawing.Size(249, 22);
-            this.encodeFilesImmediatelyToolStripMenuItem.Text = "Encode Files Immediately";
+            resources.ApplyResources(this.encodeFilesImmediatelyToolStripMenuItem, "encodeFilesImmediatelyToolStripMenuItem");
             this.encodeFilesImmediatelyToolStripMenuItem.CheckedChanged += new System.EventHandler(this.encodeFilesImmediatelyToolStripMenuItem_CheckedChanged);
             // 
             // AttachmentsEditorForm
@@ -656,7 +656,7 @@ namespace DemosCommonCode.Pdf
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "AttachmentsEditorForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Attachments (Portfolio) Editor";
+            resources.ApplyResources(this, "$this");
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
             this.toolStripContainer1.ContentPanel.ResumeLayout(false);

@@ -82,7 +82,7 @@ namespace DemosCommonCode.Pdf.JavaScript
             // if name is empty
             if (string.IsNullOrEmpty(name))
             {
-                MessageBox.Show("Name can not be empty.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_JAVASCRIPT_NAME_CAN_NOT_BE_EMPTY, PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_JAVASCRIPT_ERROR, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
@@ -92,8 +92,8 @@ namespace DemosCommonCode.Pdf.JavaScript
                 // if JavaScript with specified name is exist
                 if (String.Equals(key, name, StringComparison.InvariantCulture))
                 {
-                    string errorMessage = string.Format("PDF document already contains ction with name \"{0}\".", name);
-                    MessageBox.Show(errorMessage, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    string errorMessage = string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_JAVASCRIPT_PDF_DOCUMENT_ALREADY_CONTAINS_CTION_WITH_NAME_ARG0, name);
+                    MessageBox.Show(errorMessage, PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_JAVASCRIPT_ERROR_ALT1, MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
                 }
             }

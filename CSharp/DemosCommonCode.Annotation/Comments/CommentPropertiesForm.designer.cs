@@ -28,6 +28,7 @@ namespace DemosCommonCode.Annotation
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CommentPropertiesForm));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.commonTabPage = new System.Windows.Forms.TabPage();
             this.isOpenCheckBox = new System.Windows.Forms.CheckBox();
@@ -95,7 +96,7 @@ namespace DemosCommonCode.Annotation
             this.commonTabPage.Padding = new System.Windows.Forms.Padding(3);
             this.commonTabPage.Size = new System.Drawing.Size(477, 283);
             this.commonTabPage.TabIndex = 0;
-            this.commonTabPage.Text = "Common";
+            resources.ApplyResources(this.commonTabPage, "commonTabPage");
             this.commonTabPage.UseVisualStyleBackColor = true;
             // 
             // isOpenCheckBox
@@ -105,7 +106,7 @@ namespace DemosCommonCode.Annotation
             this.isOpenCheckBox.Name = "isOpenCheckBox";
             this.isOpenCheckBox.Size = new System.Drawing.Size(52, 17);
             this.isOpenCheckBox.TabIndex = 19;
-            this.isOpenCheckBox.Text = "Open";
+            resources.ApplyResources(this.isOpenCheckBox, "isOpenCheckBox");
             this.isOpenCheckBox.UseVisualStyleBackColor = true;
             this.isOpenCheckBox.CheckedChanged += new System.EventHandler(this.openCheckBox_CheckedChanged);
             // 
@@ -131,7 +132,7 @@ namespace DemosCommonCode.Annotation
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(31, 13);
             this.label7.TabIndex = 17;
-            this.label7.Text = "Text:";
+            resources.ApplyResources(this.label7, "label7");
             // 
             // creationDateTimeTextBox
             // 
@@ -219,7 +220,7 @@ namespace DemosCommonCode.Annotation
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(46, 13);
             this.label6.TabIndex = 7;
-            this.label6.Text = "Subject:";
+            resources.ApplyResources(this.label6, "label6");
             // 
             // label5
             // 
@@ -228,7 +229,7 @@ namespace DemosCommonCode.Annotation
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(60, 13);
             this.label5.TabIndex = 6;
-            this.label5.Text = "UserName:";
+            resources.ApplyResources(this.label5, "label5");
             // 
             // label4
             // 
@@ -237,7 +238,7 @@ namespace DemosCommonCode.Annotation
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(34, 13);
             this.label4.TabIndex = 5;
-            this.label4.Text = "Color:";
+            resources.ApplyResources(this.label4, "label4");
             // 
             // label3
             // 
@@ -246,7 +247,7 @@ namespace DemosCommonCode.Annotation
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(34, 13);
             this.label3.TabIndex = 4;
-            this.label3.Text = "Type:";
+            resources.ApplyResources(this.label3, "label3");
             // 
             // label2
             // 
@@ -255,7 +256,7 @@ namespace DemosCommonCode.Annotation
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(75, 13);
             this.label2.TabIndex = 3;
-            this.label2.Text = "Creation Date:";
+            resources.ApplyResources(this.label2, "label2");
             // 
             // label1
             // 
@@ -264,7 +265,7 @@ namespace DemosCommonCode.Annotation
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(67, 13);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Modify Date:";
+            resources.ApplyResources(this.label1, "label1");
             // 
             // isLockedCheckBox
             // 
@@ -273,7 +274,7 @@ namespace DemosCommonCode.Annotation
             this.isLockedCheckBox.Name = "isLockedCheckBox";
             this.isLockedCheckBox.Size = new System.Drawing.Size(62, 17);
             this.isLockedCheckBox.TabIndex = 0;
-            this.isLockedCheckBox.Text = "Locked";
+            resources.ApplyResources(this.isLockedCheckBox, "isLockedCheckBox");
             this.isLockedCheckBox.UseVisualStyleBackColor = true;
             this.isLockedCheckBox.CheckedChanged += new System.EventHandler(this.isReadOnlyCheckBox_CheckedChanged);
             // 
@@ -285,7 +286,7 @@ namespace DemosCommonCode.Annotation
             this.stateHistoryTabPage.Padding = new System.Windows.Forms.Padding(3);
             this.stateHistoryTabPage.Size = new System.Drawing.Size(477, 283);
             this.stateHistoryTabPage.TabIndex = 1;
-            this.stateHistoryTabPage.Text = "State History";
+            resources.ApplyResources(this.stateHistoryTabPage, "stateHistoryTabPage");
             this.stateHistoryTabPage.UseVisualStyleBackColor = true;
             // 
             // commentStateHistoryControl1
@@ -306,7 +307,7 @@ namespace DemosCommonCode.Annotation
             this.advancedTabPage.Name = "advancedTabPage";
             this.advancedTabPage.Size = new System.Drawing.Size(477, 283);
             this.advancedTabPage.TabIndex = 2;
-            this.advancedTabPage.Text = "Advanced";
+            resources.ApplyResources(this.advancedTabPage, "advancedTabPage");
             this.advancedTabPage.UseVisualStyleBackColor = true;
             // 
             // propertyGrid1
@@ -341,7 +342,7 @@ namespace DemosCommonCode.Annotation
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Comment Properties";
+            resources.ApplyResources(this, "$this");
             this.tabControl1.ResumeLayout(false);
             this.commonTabPage.ResumeLayout(false);
             this.commonTabPage.PerformLayout();

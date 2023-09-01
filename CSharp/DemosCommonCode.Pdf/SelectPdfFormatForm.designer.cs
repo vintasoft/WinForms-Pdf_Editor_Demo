@@ -28,6 +28,7 @@ namespace DemosCommonCode.Pdf
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SelectPdfFormatForm));
             this.buttonCancel = new System.Windows.Forms.Button();
             this.okButton = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -46,7 +47,7 @@ namespace DemosCommonCode.Pdf
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(75, 27);
             this.buttonCancel.TabIndex = 3;
-            this.buttonCancel.Text = "Cancel";
+            resources.ApplyResources(this.buttonCancel, "buttonCancel");
             this.buttonCancel.UseVisualStyleBackColor = true;
             this.buttonCancel.Click += new System.EventHandler(this.cancelButton_Click);
             // 
@@ -78,7 +79,7 @@ namespace DemosCommonCode.Pdf
             this.securityButton.Name = "securityButton";
             this.securityButton.Size = new System.Drawing.Size(107, 23);
             this.securityButton.TabIndex = 17;
-            this.securityButton.Text = "Security Settings...";
+            resources.ApplyResources(this.securityButton, "securityButton");
             this.securityButton.UseVisualStyleBackColor = true;
             this.securityButton.Click += new System.EventHandler(this.securityButton_Click);
             // 
@@ -91,7 +92,7 @@ namespace DemosCommonCode.Pdf
             this.binaryFormat.Name = "binaryFormat";
             this.binaryFormat.Size = new System.Drawing.Size(90, 17);
             this.binaryFormat.TabIndex = 17;
-            this.binaryFormat.Text = "Binary Format";
+            resources.ApplyResources(this.binaryFormat, "binaryFormat");
             this.binaryFormat.UseVisualStyleBackColor = true;
             // 
             // compressedCrossReferenceTable
@@ -101,7 +102,7 @@ namespace DemosCommonCode.Pdf
             this.compressedCrossReferenceTable.Name = "compressedCrossReferenceTable";
             this.compressedCrossReferenceTable.Size = new System.Drawing.Size(249, 17);
             this.compressedCrossReferenceTable.TabIndex = 16;
-            this.compressedCrossReferenceTable.Text = "Compressed Cross-Reference Tables (PDF 1.5)";
+            resources.ApplyResources(this.compressedCrossReferenceTable, "compressedCrossReferenceTable");
             this.compressedCrossReferenceTable.UseVisualStyleBackColor = true;
             // 
             // label1
@@ -111,7 +112,7 @@ namespace DemosCommonCode.Pdf
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(42, 13);
             this.label1.TabIndex = 15;
-            this.label1.Text = "Version";
+            resources.ApplyResources(this.label1, "label1");
             // 
             // pdfVersion
             // 
@@ -147,7 +148,7 @@ namespace DemosCommonCode.Pdf
             this.MinimizeBox = false;
             this.Name = "SelectPdfFormatForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Document Format";
+            resources.ApplyResources(this, "$this");
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

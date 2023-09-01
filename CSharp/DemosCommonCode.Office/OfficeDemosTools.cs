@@ -44,7 +44,7 @@ namespace DemosCommonCode.Office
         /// </summary>
         static OfficeDemosTools()
         {
-            _openDocumentDialog.Filter = "All Supported Documents (*.docx;*.doc;*.txt)|*.docx;*.doc;*.txt";
+            _openDocumentDialog.Filter = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_OFFICE_ALL_SUPPORTED_DOCUMENTS_DOCXDOCTXTDOCXDOCTXT;
         }
 
         #endregion
@@ -70,7 +70,7 @@ namespace DemosCommonCode.Office
                     _chartImages.Add(DemosResourcesManager.GetResourceAsStream(chartResourceName), true);
             }
             if (_chartImages.Count == 0)
-                throw new Exception("Chart resources was not found.");
+                throw new Exception(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_OFFICE_CHART_RESOURCES_WAS_NOT_FOUND);
 
             // create "Select image" form
             SelectImageForm selectImageForm = new SelectImageForm(_chartImages);
@@ -79,7 +79,7 @@ namespace DemosCommonCode.Office
             selectImageForm.ImagePreviewViewer.ThumbnailFlowStyle = ThumbnailFlowStyle.WrappedRows;
             selectImageForm.ImagePreviewViewer.SelectedThumbnailAppearance.BorderColor = Color.Black;
             selectImageForm.ImagePreviewViewer.FocusedThumbnailAppearance = selectImageForm.ImagePreviewViewer.SelectedThumbnailAppearance;
-            selectImageForm.Text = "Select a chart";
+            selectImageForm.Text = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_OFFICE_SELECT_A_CHART;
             selectImageForm.TopMost = true;
 
             if (selectImageForm.ShowDialog() != DialogResult.OK)
@@ -149,7 +149,7 @@ namespace DemosCommonCode.Office
             using (Stream documentStream = DemosResourcesManager.GetResourceAsStream("EmptyDocument.docx"))
             {
                 if (documentStream == null)
-                    throw new Exception("TXT to DOCX conversion error: Resource 'EmptyDocument.docx' is not found in demo application.");
+                    throw new Exception(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_OFFICE_TXT_TO_DOCX_CONVERSION_ERROR_RESOURCE_EMPTYDOCUMENTDOCX_IS_NOT_FOUND_IN_DEMO_APPLICATION);
 
                 MemoryStream tempStream = new MemoryStream();
                 // create DOCX editor for "EmptyDocument.docx"

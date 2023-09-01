@@ -59,7 +59,7 @@ namespace DemosCommonCode.Imaging.ColorManagement
             RemoveProfileDescription(outputGrayscaleTextBox);
 
             _openIccFileDialog = new OpenFileDialog();
-            _openIccFileDialog.Filter = "ICC profiles|*.icc;*.icm|All files|*.*";
+            _openIccFileDialog.Filter = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_COLORMANAGEMENT_ICC_PROFILESICCICMALL_FILES;
             _openIccFileDialog.InitialDirectory = Path.GetDirectoryName(Application.ExecutablePath);
         }
 
@@ -172,7 +172,7 @@ namespace DemosCommonCode.Imaging.ColorManagement
 
                         default:
                             iccProfile.Dispose();
-                            throw new Exception(string.Format("Unexpected profile color space: {0}.", iccProfile.DeviceColorSpace));
+                            throw new Exception(string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_COLORMANAGEMENT_UNEXPECTED_PROFILE_COLOR_SPACE_ARG0, iccProfile.DeviceColorSpace));
                     }
 
                     if (oldIccProfile != null)
@@ -215,7 +215,7 @@ namespace DemosCommonCode.Imaging.ColorManagement
 
                         default:
                             iccProfile.Dispose();
-                            throw new Exception(string.Format("Unexpected profile color space: {0}.", iccProfile.DeviceColorSpace));
+                            throw new Exception(string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_COLORMANAGEMENT_UNEXPECTED_PROFILE_COLOR_SPACE_ARG0_ALT1, iccProfile.DeviceColorSpace));
                     }
 
                     if (oldIccProfile != null)

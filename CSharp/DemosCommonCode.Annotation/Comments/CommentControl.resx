@@ -1,4 +1,4 @@
-﻿<root>
+<root>
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
@@ -104,4 +104,49 @@
         WAjS1ratc/CnyS34XfF3/zkMwyG+a+YSmoA/F5HRCxcFHj8l3a19AAAAAElFTkSuQmCC
 </value>
   </data>
+  <data name="propertiesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Properties...</value>
+  </data>
+  <data name="removeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="showStateHistoryToolStripMenuItem.Text" xml:space="preserve">
+    <value>Show State History In Replies</value>
+  </data>
+  <data name="stateHistoryToolStripMenuItem.Text" xml:space="preserve">
+    <value>State History...</value>
+  </data>
+  <data name="reviewCancelledToolStripMenuItem.Text" xml:space="preserve">
+    <value>Cancelled</value>
+  </data>
+  <data name="reviewRejectedToolStripMenuItem.Text" xml:space="preserve">
+    <value>Rejected</value>
+  </data>
+  <data name="reviewCompletedToolStripMenuItem.Text" xml:space="preserve">
+    <value>Completed</value>
+  </data>
+  <data name="reviewAcceptedToolStripMenuItem.Text" xml:space="preserve">
+    <value>Accepted</value>
+  </data>
+  <data name="reviewToolStripMenuItem.Text" xml:space="preserve">
+    <value>Set Status</value>
+  </data>
+  <data name="collapseAllButThisToolStripMenuItem.Text" xml:space="preserve">
+    <value>Collapse All But This</value>
+  </data>
+  <data name="resetLocationToolStripMenuItem.Text" xml:space="preserve">
+    <value>Reset Location</value>
+  </data>
+  <data name="collapseRepliesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Collapse Replies</value>
+  </data>
+  <data name="expandAllToolStripMenuItem.Text" xml:space="preserve">
+    <value>Expand All</value>
+  </data>
+  <data name="replyToolStripMenuItem.Text" xml:space="preserve">
+    <value>Reply</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </metadata>
 </root>

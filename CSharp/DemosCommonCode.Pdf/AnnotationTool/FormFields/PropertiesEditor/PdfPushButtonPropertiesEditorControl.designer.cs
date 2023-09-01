@@ -28,6 +28,7 @@ namespace DemosCommonCode.Pdf
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PdfPushButtonPropertiesEditorControl));
             this.mainTabControl = new System.Windows.Forms.TabControl();
             this.valueTabPage = new System.Windows.Forms.TabPage();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -90,7 +91,7 @@ namespace DemosCommonCode.Pdf
             this.valueTabPage.Padding = new System.Windows.Forms.Padding(3);
             this.valueTabPage.Size = new System.Drawing.Size(279, 296);
             this.valueTabPage.TabIndex = 0;
-            this.valueTabPage.Text = "Value";
+            resources.ApplyResources(this.valueTabPage, "valueTabPage");
             this.valueTabPage.UseVisualStyleBackColor = true;
             // 
             // groupBox1
@@ -104,7 +105,7 @@ namespace DemosCommonCode.Pdf
             this.groupBox1.Size = new System.Drawing.Size(267, 230);
             this.groupBox1.TabIndex = 10;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Button Appearance Characteristics";
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             // 
             // buttonStateTabControl
             // 
@@ -131,7 +132,7 @@ namespace DemosCommonCode.Pdf
             this.normalStateTabPage.Padding = new System.Windows.Forms.Padding(3);
             this.normalStateTabPage.Size = new System.Drawing.Size(253, 185);
             this.normalStateTabPage.TabIndex = 0;
-            this.normalStateTabPage.Text = "Normal";
+            resources.ApplyResources(this.normalStateTabPage, "normalStateTabPage");
             this.normalStateTabPage.UseVisualStyleBackColor = true;
             // 
             // normalIconChangeButton
@@ -141,7 +142,7 @@ namespace DemosCommonCode.Pdf
             this.normalIconChangeButton.Name = "normalIconChangeButton";
             this.normalIconChangeButton.Size = new System.Drawing.Size(72, 23);
             this.normalIconChangeButton.TabIndex = 3;
-            this.normalIconChangeButton.Text = "Change...";
+            resources.ApplyResources(this.normalIconChangeButton, "normalIconChangeButton");
             this.normalIconChangeButton.UseVisualStyleBackColor = true;
             this.normalIconChangeButton.Click += new System.EventHandler(this.normalIconChangeButton_Click);
             // 
@@ -152,7 +153,7 @@ namespace DemosCommonCode.Pdf
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(28, 13);
             this.label4.TabIndex = 2;
-            this.label4.Text = "Icon";
+            resources.ApplyResources(this.label4, "label4");
             // 
             // normalCaptionTextBox
             // 
@@ -171,7 +172,7 @@ namespace DemosCommonCode.Pdf
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(43, 13);
             this.label3.TabIndex = 0;
-            this.label3.Text = "Caption";
+            resources.ApplyResources(this.label3, "label3");
             // 
             // rolloverStateTabPage
             // 
@@ -185,7 +186,7 @@ namespace DemosCommonCode.Pdf
             this.rolloverStateTabPage.Padding = new System.Windows.Forms.Padding(3);
             this.rolloverStateTabPage.Size = new System.Drawing.Size(253, 185);
             this.rolloverStateTabPage.TabIndex = 1;
-            this.rolloverStateTabPage.Text = "Rollover";
+            resources.ApplyResources(this.rolloverStateTabPage, "rolloverStateTabPage");
             this.rolloverStateTabPage.UseVisualStyleBackColor = true;
             // 
             // rolloverIconChangeButton
@@ -195,7 +196,7 @@ namespace DemosCommonCode.Pdf
             this.rolloverIconChangeButton.Name = "rolloverIconChangeButton";
             this.rolloverIconChangeButton.Size = new System.Drawing.Size(72, 23);
             this.rolloverIconChangeButton.TabIndex = 8;
-            this.rolloverIconChangeButton.Text = "Change...";
+            resources.ApplyResources(this.rolloverIconChangeButton, "rolloverIconChangeButton");
             this.rolloverIconChangeButton.UseVisualStyleBackColor = true;
             this.rolloverIconChangeButton.Click += new System.EventHandler(this.rolloverIconChangeButton_Click);
             // 
@@ -206,7 +207,7 @@ namespace DemosCommonCode.Pdf
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(28, 13);
             this.label5.TabIndex = 7;
-            this.label5.Text = "Icon";
+            resources.ApplyResources(this.label5, "label5");
             // 
             // rolloverCaptionTextBox
             // 
@@ -225,7 +226,7 @@ namespace DemosCommonCode.Pdf
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(43, 13);
             this.label6.TabIndex = 5;
-            this.label6.Text = "Caption";
+            resources.ApplyResources(this.label6, "label6");
             // 
             // downStateTabPage
             // 
@@ -238,7 +239,7 @@ namespace DemosCommonCode.Pdf
             this.downStateTabPage.Name = "downStateTabPage";
             this.downStateTabPage.Size = new System.Drawing.Size(253, 185);
             this.downStateTabPage.TabIndex = 2;
-            this.downStateTabPage.Text = "Down";
+            resources.ApplyResources(this.downStateTabPage, "downStateTabPage");
             this.downStateTabPage.UseVisualStyleBackColor = true;
             // 
             // downIconChangeButton
@@ -248,7 +249,7 @@ namespace DemosCommonCode.Pdf
             this.downIconChangeButton.Name = "downIconChangeButton";
             this.downIconChangeButton.Size = new System.Drawing.Size(72, 23);
             this.downIconChangeButton.TabIndex = 8;
-            this.downIconChangeButton.Text = "Change...";
+            resources.ApplyResources(this.downIconChangeButton, "downIconChangeButton");
             this.downIconChangeButton.UseVisualStyleBackColor = true;
             this.downIconChangeButton.Click += new System.EventHandler(this.downIconChangeButton_Click);
             // 
@@ -259,7 +260,7 @@ namespace DemosCommonCode.Pdf
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(28, 13);
             this.label7.TabIndex = 7;
-            this.label7.Text = "Icon";
+            resources.ApplyResources(this.label7, "label7");
             // 
             // downCaptionTextBox
             // 
@@ -278,7 +279,7 @@ namespace DemosCommonCode.Pdf
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(43, 13);
             this.label8.TabIndex = 5;
-            this.label8.Text = "Caption";
+            resources.ApplyResources(this.label8, "label8");
             // 
             // captionIconRelationComboBox
             // 
@@ -299,7 +300,7 @@ namespace DemosCommonCode.Pdf
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(109, 13);
             this.label2.TabIndex = 8;
-            this.label2.Text = "Caption Icon Relation";
+            resources.ApplyResources(this.label2, "label2");
             // 
             // label1
             // 
@@ -308,7 +309,7 @@ namespace DemosCommonCode.Pdf
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(92, 13);
             this.label1.TabIndex = 7;
-            this.label1.Text = "Highlighting Mode";
+            resources.ApplyResources(this.label1, "label1");
             // 
             // highlightingModeComboBox
             // 
@@ -330,7 +331,7 @@ namespace DemosCommonCode.Pdf
             this.activateActionTabPage.Padding = new System.Windows.Forms.Padding(3);
             this.activateActionTabPage.Size = new System.Drawing.Size(279, 296);
             this.activateActionTabPage.TabIndex = 1;
-            this.activateActionTabPage.Text = "Activate Action";
+            resources.ApplyResources(this.activateActionTabPage, "activateActionTabPage");
             this.activateActionTabPage.UseVisualStyleBackColor = true;
             // 
             // normalIconPdfResourceViewerControl

@@ -28,6 +28,7 @@ namespace DemosCommonCode.Pdf
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PdfAnnotationPropertiesForm));
             this.closeButton = new System.Windows.Forms.Button();
             this.advancedTabControl = new System.Windows.Forms.TabControl();
             this.fieldTabPage = new System.Windows.Forms.TabPage();
@@ -84,7 +85,7 @@ namespace DemosCommonCode.Pdf
             this.closeButton.Name = "closeButton";
             this.closeButton.Size = new System.Drawing.Size(75, 23);
             this.closeButton.TabIndex = 0;
-            this.closeButton.Text = "Close";
+            resources.ApplyResources(this.closeButton, "closeButton");
             this.closeButton.UseVisualStyleBackColor = true;
             this.closeButton.Click += new System.EventHandler(this.closeButton_Click);
             // 
@@ -108,7 +109,7 @@ namespace DemosCommonCode.Pdf
             this.fieldTabPage.Name = "fieldTabPage";
             this.fieldTabPage.Size = new System.Drawing.Size(428, 535);
             this.fieldTabPage.TabIndex = 4;
-            this.fieldTabPage.Text = "Field";
+            resources.ApplyResources(this.fieldTabPage, "fieldTabPage");
             this.fieldTabPage.UseVisualStyleBackColor = true;
             // 
             // fieldPropertiesGroupBox
@@ -131,7 +132,7 @@ namespace DemosCommonCode.Pdf
             this.fieldFontButton.Name = "fieldFontButton";
             this.fieldFontButton.Size = new System.Drawing.Size(75, 23);
             this.fieldFontButton.TabIndex = 6;
-            this.fieldFontButton.Text = "Font...";
+            resources.ApplyResources(this.fieldFontButton, "fieldFontButton");
             this.fieldFontButton.UseVisualStyleBackColor = true;
             this.fieldFontButton.Click += new System.EventHandler(this.fieldFontButton_Click);
             // 
@@ -157,7 +158,7 @@ namespace DemosCommonCode.Pdf
             this.fieldPropertiesTabPage.Padding = new System.Windows.Forms.Padding(3);
             this.fieldPropertiesTabPage.Size = new System.Drawing.Size(408, 452);
             this.fieldPropertiesTabPage.TabIndex = 0;
-            this.fieldPropertiesTabPage.Text = "Properties";
+            resources.ApplyResources(this.fieldPropertiesTabPage, "fieldPropertiesTabPage");
             this.fieldPropertiesTabPage.UseVisualStyleBackColor = true;
             // 
             // fieldPropertyGrid
@@ -177,7 +178,7 @@ namespace DemosCommonCode.Pdf
             this.fieldTriggersTtabPage.Padding = new System.Windows.Forms.Padding(3);
             this.fieldTriggersTtabPage.Size = new System.Drawing.Size(408, 452);
             this.fieldTriggersTtabPage.TabIndex = 1;
-            this.fieldTriggersTtabPage.Text = "Actions";
+            resources.ApplyResources(this.fieldTriggersTtabPage, "fieldTriggersTtabPage");
             this.fieldTriggersTtabPage.UseVisualStyleBackColor = true;
             // 
             // annotationTabPage
@@ -188,7 +189,7 @@ namespace DemosCommonCode.Pdf
             this.annotationTabPage.Padding = new System.Windows.Forms.Padding(3);
             this.annotationTabPage.Size = new System.Drawing.Size(428, 535);
             this.annotationTabPage.TabIndex = 0;
-            this.annotationTabPage.Text = "Annotation";
+            resources.ApplyResources(this.annotationTabPage, "annotationTabPage");
             this.annotationTabPage.UseVisualStyleBackColor = true;
             // 
             // annotationPropertiesGroupBox
@@ -209,7 +210,7 @@ namespace DemosCommonCode.Pdf
             this.annotationFontButton.Name = "annotationFontButton";
             this.annotationFontButton.Size = new System.Drawing.Size(75, 23);
             this.annotationFontButton.TabIndex = 5;
-            this.annotationFontButton.Text = "Font...";
+            resources.ApplyResources(this.annotationFontButton, "annotationFontButton");
             this.annotationFontButton.UseVisualStyleBackColor = true;
             this.annotationFontButton.Click += new System.EventHandler(this.annotationFontButton_Click);
             // 
@@ -235,7 +236,7 @@ namespace DemosCommonCode.Pdf
             this.annotationPropertiesTabPage.Padding = new System.Windows.Forms.Padding(3);
             this.annotationPropertiesTabPage.Size = new System.Drawing.Size(408, 452);
             this.annotationPropertiesTabPage.TabIndex = 0;
-            this.annotationPropertiesTabPage.Text = "Properties";
+            resources.ApplyResources(this.annotationPropertiesTabPage, "annotationPropertiesTabPage");
             this.annotationPropertiesTabPage.UseVisualStyleBackColor = true;
             // 
             // annotationPropertyGrid
@@ -255,7 +256,7 @@ namespace DemosCommonCode.Pdf
             this.annotationsTriggersTabPage.Padding = new System.Windows.Forms.Padding(3);
             this.annotationsTriggersTabPage.Size = new System.Drawing.Size(408, 452);
             this.annotationsTriggersTabPage.TabIndex = 1;
-            this.annotationsTriggersTabPage.Text = "Actions";
+            resources.ApplyResources(this.annotationsTriggersTabPage, "annotationsTriggersTabPage");
             this.annotationsTriggersTabPage.UseVisualStyleBackColor = true;
             // 
             // appearanceGeneratorTabPage
@@ -266,7 +267,7 @@ namespace DemosCommonCode.Pdf
             this.appearanceGeneratorTabPage.Padding = new System.Windows.Forms.Padding(3);
             this.appearanceGeneratorTabPage.Size = new System.Drawing.Size(428, 535);
             this.appearanceGeneratorTabPage.TabIndex = 1;
-            this.appearanceGeneratorTabPage.Text = "Appearance Generator";
+            resources.ApplyResources(this.appearanceGeneratorTabPage, "appearanceGeneratorTabPage");
             this.appearanceGeneratorTabPage.UseVisualStyleBackColor = true;
             // 
             // appearanceGeneratorGroupBox
@@ -279,7 +280,7 @@ namespace DemosCommonCode.Pdf
             this.appearanceGeneratorGroupBox.Size = new System.Drawing.Size(422, 529);
             this.appearanceGeneratorGroupBox.TabIndex = 2;
             this.appearanceGeneratorGroupBox.TabStop = false;
-            this.appearanceGeneratorGroupBox.Text = "<TEXT>";
+            resources.ApplyResources(this.appearanceGeneratorGroupBox, "appearanceGeneratorGroupBox");
             // 
             // appearanceGeneratorFontButton
             // 
@@ -288,7 +289,7 @@ namespace DemosCommonCode.Pdf
             this.appearanceGeneratorFontButton.Name = "appearanceGeneratorFontButton";
             this.appearanceGeneratorFontButton.Size = new System.Drawing.Size(75, 23);
             this.appearanceGeneratorFontButton.TabIndex = 3;
-            this.appearanceGeneratorFontButton.Text = "Font...";
+            resources.ApplyResources(this.appearanceGeneratorFontButton, "appearanceGeneratorFontButton");
             this.appearanceGeneratorFontButton.UseVisualStyleBackColor = true;
             this.appearanceGeneratorFontButton.Click += new System.EventHandler(this.setFontButton_Click);
             // 
@@ -335,7 +336,7 @@ namespace DemosCommonCode.Pdf
             this.groupBox1.Size = new System.Drawing.Size(436, 36);
             this.groupBox1.TabIndex = 9;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "OnPropertyChanged";
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             // 
             // updateAnnotationAppearanceCheckBox
             // 
@@ -346,7 +347,7 @@ namespace DemosCommonCode.Pdf
             this.updateAnnotationAppearanceCheckBox.Name = "updateAnnotationAppearanceCheckBox";
             this.updateAnnotationAppearanceCheckBox.Size = new System.Drawing.Size(176, 17);
             this.updateAnnotationAppearanceCheckBox.TabIndex = 8;
-            this.updateAnnotationAppearanceCheckBox.Text = "Update Annotation Appearance";
+            resources.ApplyResources(this.updateAnnotationAppearanceCheckBox, "updateAnnotationAppearanceCheckBox");
             this.updateAnnotationAppearanceCheckBox.UseVisualStyleBackColor = true;
             // 
             // refreshAnnotationCheckBox
@@ -358,7 +359,7 @@ namespace DemosCommonCode.Pdf
             this.refreshAnnotationCheckBox.Name = "refreshAnnotationCheckBox";
             this.refreshAnnotationCheckBox.Size = new System.Drawing.Size(117, 17);
             this.refreshAnnotationCheckBox.TabIndex = 7;
-            this.refreshAnnotationCheckBox.Text = "Refresh Annotation";
+            resources.ApplyResources(this.refreshAnnotationCheckBox, "refreshAnnotationCheckBox");
             this.refreshAnnotationCheckBox.UseVisualStyleBackColor = true;
             // 
             // mainTabControl
@@ -384,7 +385,7 @@ namespace DemosCommonCode.Pdf
             this.propertiesTabPage.Padding = new System.Windows.Forms.Padding(3);
             this.propertiesTabPage.Size = new System.Drawing.Size(442, 567);
             this.propertiesTabPage.TabIndex = 0;
-            this.propertiesTabPage.Text = "Properties";
+            resources.ApplyResources(this.propertiesTabPage, "propertiesTabPage");
             this.propertiesTabPage.UseVisualStyleBackColor = true;
             // 
             // advancedTabPage
@@ -395,7 +396,7 @@ namespace DemosCommonCode.Pdf
             this.advancedTabPage.Padding = new System.Windows.Forms.Padding(3);
             this.advancedTabPage.Size = new System.Drawing.Size(442, 567);
             this.advancedTabPage.TabIndex = 1;
-            this.advancedTabPage.Text = "Advanced";
+            resources.ApplyResources(this.advancedTabPage, "advancedTabPage");
             this.advancedTabPage.UseVisualStyleBackColor = true;
             // 
             // fieldTriggersEditorControl
@@ -429,7 +430,7 @@ namespace DemosCommonCode.Pdf
             this.MinimumSize = new System.Drawing.Size(467, 712);
             this.Name = "PdfAnnotationPropertiesForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "PDF Annotation Properties";
+            resources.ApplyResources(this, "$this");
             this.advancedTabControl.ResumeLayout(false);
             this.fieldTabPage.ResumeLayout(false);
             this.fieldPropertiesGroupBox.ResumeLayout(false);

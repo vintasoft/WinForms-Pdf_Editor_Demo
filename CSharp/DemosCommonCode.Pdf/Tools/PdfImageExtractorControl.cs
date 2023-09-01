@@ -140,14 +140,14 @@ namespace DemosCommonCode.Pdf
             if (resource.IsInline)
                 result = "Inline, ";
             else
-                result = string.Format("Resource {0,3}, ", resource.ObjectNumber.ToString());
+                result = string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_RESOURCE_03, resource.ObjectNumber.ToString());
 
             // size of resource
             result += string.Format("{0}x{1} px, ", resource.Width, resource.Height);
             // compression of resource
             result += string.Format("compression={0}, ", resource.Compression);
             // compressed size of resource
-            result += string.Format("{0} bytes", resource.Length);
+            result += string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_ARG0_BYTES_ALT6, resource.Length);
             return result;
         }
 

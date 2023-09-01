@@ -157,7 +157,7 @@ namespace DemosCommonCode.Pdf
             }
             catch (Exception exc)
             {
-                MessageBox.Show(exc.Message, "Error");
+                MessageBox.Show(exc.Message, PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_ERROR);
             }
         }
 
@@ -174,7 +174,7 @@ namespace DemosCommonCode.Pdf
             }
             catch (Exception exc)
             {
-                MessageBox.Show(exc.Message, "Error");
+                MessageBox.Show(exc.Message, PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_ERROR_ALT1);
             }
         }
 

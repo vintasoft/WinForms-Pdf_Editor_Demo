@@ -117,4 +117,31 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Goto Action Editor</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Width</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Height</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="destinationZoomCheckBox.Text" xml:space="preserve">
+    <value>Zoom Factor, %</value>
+  </data>
+  <data name="buttonCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Page Number</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </metadata>
 </root>

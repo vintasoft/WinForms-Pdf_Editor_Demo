@@ -28,6 +28,7 @@ namespace DemosCommonCode.Pdf.Security
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PdfDocumentPasswordForm));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.passwordTextBox = new System.Windows.Forms.TextBox();
@@ -44,7 +45,7 @@ namespace DemosCommonCode.Pdf.Security
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(239, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Document is protected. Please enter a password.";
+            resources.ApplyResources(this.label1, "label1");
             // 
             // label2
             // 
@@ -53,7 +54,7 @@ namespace DemosCommonCode.Pdf.Security
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(83, 13);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Enter password:";
+            resources.ApplyResources(this.label2, "label2");
             // 
             // passwordTextBox
             // 
@@ -82,7 +83,7 @@ namespace DemosCommonCode.Pdf.Security
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(75, 26);
             this.buttonCancel.TabIndex = 4;
-            this.buttonCancel.Text = "Cancel";
+            resources.ApplyResources(this.buttonCancel, "buttonCancel");
             this.buttonCancel.UseVisualStyleBackColor = true;
             this.buttonCancel.Click += new System.EventHandler(this.cancelButton_Click);
             // 
@@ -93,16 +94,16 @@ namespace DemosCommonCode.Pdf.Security
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(84, 13);
             this.label3.TabIndex = 5;
-            this.label3.Text = "Authenticate as:";
+            resources.ApplyResources(this.label3, "label3");
             // 
             // authenticateTypeComboBox
             // 
             this.authenticateTypeComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.authenticateTypeComboBox.FormattingEnabled = true;
             this.authenticateTypeComboBox.Items.AddRange(new object[] {
-            "User",
-            "Owner",
-            "User or Owner"});
+            resources.GetString("authenticateTypeComboBox.Items"),
+            resources.GetString("authenticateTypeComboBox.Items1"),
+            resources.GetString("authenticateTypeComboBox.Items2")});
             this.authenticateTypeComboBox.Location = new System.Drawing.Point(99, 35);
             this.authenticateTypeComboBox.Name = "authenticateTypeComboBox";
             this.authenticateTypeComboBox.Size = new System.Drawing.Size(192, 21);
@@ -127,7 +128,7 @@ namespace DemosCommonCode.Pdf.Security
             this.Name = "DocumentPasswordForm";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Password";
+            resources.ApplyResources(this, "$this");
             this.ResumeLayout(false);
             this.PerformLayout();
 

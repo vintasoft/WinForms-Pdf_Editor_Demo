@@ -290,7 +290,7 @@ namespace DemosCommonCode.Pdf
 
                 // create a dialog that will show process progress
                 using (ActionProgressForm progressForm = new ActionProgressForm(
-                    ApplyRedactionMarks, 2, "Remove content and blackout"))
+                    ApplyRedactionMarks, 2, PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_REMOVE_CONTENT_AND_BLACKOUT))
                 {
                     // apply the redaction marks to the current PDF document
                     if (progressForm.RunAndShowDialog(this.ParentForm) != DialogResult.OK)
@@ -402,9 +402,9 @@ namespace DemosCommonCode.Pdf
             if (_isFirstBuild && !setSelectedTextToRedactionMark)
             {
                 string message =
-                    "1. Select the area on page." + Environment.NewLine +
-                    "2. Press \"Apply Redaction Marks\" when the redaction marks must be applied to the page.";
-                MessageBox.Show(message, "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_1_SELECT_THE_AREA_ON_PAGE + Environment.NewLine +
+                    PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_2_PRESS_APPLY_REDACTION_MARKS_WHEN_THE_REDACTION_MARKS_MUST_BE_APPLIED_TO_THE_PAGE;
+                MessageBox.Show(message, PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_INFORMATION, MessageBoxButtons.OK, MessageBoxIcon.Information);
                 _isFirstBuild = false;
             }
 
@@ -436,8 +436,8 @@ namespace DemosCommonCode.Pdf
             }
             catch (Exception ex)
             {
-                if (ex.Message == "Image is not PDF page.")
-                    MessageBox.Show("Current image is not PDF page. Save document and try again.", "Information",
+                if (ex.Message == PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_IMAGE_IS_NOT_PDF_PAGE)
+                    MessageBox.Show(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_CURRENT_IMAGE_IS_NOT_PDF_PAGE_SAVE_DOCUMENT_AND_TRY_AGAIN, PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_INFORMATION_ALT1,
                         MessageBoxButtons.OK, MessageBoxIcon.Information);
                 else
                     DemosTools.ShowErrorMessage(ex);

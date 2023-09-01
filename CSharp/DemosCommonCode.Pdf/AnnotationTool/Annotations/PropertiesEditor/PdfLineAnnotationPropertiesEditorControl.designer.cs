@@ -28,6 +28,7 @@ namespace DemosCommonCode.Pdf
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PdfLineAnnotationPropertiesEditorControl));
             this.label1 = new System.Windows.Forms.Label();
             this.startPointLineEndingStyleComboBox = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -45,7 +46,7 @@ namespace DemosCommonCode.Pdf
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(141, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Start Point Line Ending Style";
+            resources.ApplyResources(this.label1, "label1");
             // 
             // startPointLineEndingStyleComboBox
             // 
@@ -66,7 +67,7 @@ namespace DemosCommonCode.Pdf
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(138, 13);
             this.label2.TabIndex = 2;
-            this.label2.Text = "End Point Line Ending Style";
+            resources.ApplyResources(this.label2, "label2");
             // 
             // endPointLineEndingStyleComboBox
             // 
@@ -87,7 +88,7 @@ namespace DemosCommonCode.Pdf
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(66, 13);
             this.label3.TabIndex = 4;
-            this.label3.Text = "Interior Color";
+            resources.ApplyResources(this.label3, "label3");
             // 
             // interiorColorColorPanelControl
             // 

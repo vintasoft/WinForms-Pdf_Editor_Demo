@@ -28,6 +28,7 @@ namespace DemosCommonCode.Pdf
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddTextForm));
             this.fontComboBox = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -63,7 +64,7 @@ namespace DemosCommonCode.Pdf
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(28, 13);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Font";
+            resources.ApplyResources(this.label1, "label1");
             // 
             // label2
             // 
@@ -73,7 +74,7 @@ namespace DemosCommonCode.Pdf
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(27, 13);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Size";
+            resources.ApplyResources(this.label2, "label2");
             // 
             // fontSizeComboBox
             // 
@@ -136,7 +137,7 @@ namespace DemosCommonCode.Pdf
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(75, 23);
             this.buttonCancel.TabIndex = 7;
-            this.buttonCancel.Text = "Cancel";
+            resources.ApplyResources(this.buttonCancel, "buttonCancel");
             this.buttonCancel.UseVisualStyleBackColor = true;
             this.buttonCancel.Click += new System.EventHandler(this.cancelButton_Click);
             // 
@@ -148,7 +149,7 @@ namespace DemosCommonCode.Pdf
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(31, 13);
             this.label4.TabIndex = 9;
-            this.label4.Text = "Color";
+            resources.ApplyResources(this.label4, "label4");
             // 
             // panel1
             // 
@@ -186,7 +187,7 @@ namespace DemosCommonCode.Pdf
             this.addFontButton.Name = "addFontButton";
             this.addFontButton.Size = new System.Drawing.Size(91, 23);
             this.addFontButton.TabIndex = 12;
-            this.addFontButton.Text = "Add Font...";
+            resources.ApplyResources(this.addFontButton, "addFontButton");
             this.addFontButton.UseVisualStyleBackColor = true;
             this.addFontButton.Click += new System.EventHandler(this.addFontButton_Click);
             // 
@@ -222,7 +223,7 @@ namespace DemosCommonCode.Pdf
             this.MinimizeBox = false;
             this.Name = "AddTextForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Add Text";
+            resources.ApplyResources(this, "$this");
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();

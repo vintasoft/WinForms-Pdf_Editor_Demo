@@ -28,6 +28,7 @@ namespace DemosCommonCode.Imaging
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(InteractionAreaAppearanceManagerForm));
             this.mainPanel = new System.Windows.Forms.Panel();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.resizePointsTabPage = new System.Windows.Forms.TabPage();
@@ -179,7 +180,7 @@ namespace DemosCommonCode.Imaging
             this.resizePointsTabPage.Padding = new System.Windows.Forms.Padding(3);
             this.resizePointsTabPage.Size = new System.Drawing.Size(444, 243);
             this.resizePointsTabPage.TabIndex = 0;
-            this.resizePointsTabPage.Text = "Resize points";
+            resources.ApplyResources(this.resizePointsTabPage, "resizePointsTabPage");
             this.resizePointsTabPage.UseVisualStyleBackColor = true;
             // 
             // panel1
@@ -232,12 +233,12 @@ namespace DemosCommonCode.Imaging
             "MagnifierCursor (VintaSoft)",
             "RotateCursor (VintaSoft)",
             "ZoomCursor (VintaSoft)",
-            "Default",
+            resources.GetString("resizePointsNwseCursorPanelControl.Items"),
             "AppStarting",
             "Arrow",
             "Cross",
             "Hand",
-            "Help",
+            resources.GetString("resizePointsNwseCursorPanelControl.Items1"),
             "HSplit",
             "IBeam",
             "No",
@@ -294,12 +295,12 @@ namespace DemosCommonCode.Imaging
             "MagnifierCursor (VintaSoft)",
             "RotateCursor (VintaSoft)",
             "ZoomCursor (VintaSoft)",
-            "Default",
+            resources.GetString("resizePointsWeCursorPanelControl.Items"),
             "AppStarting",
             "Arrow",
             "Cross",
             "Hand",
-            "Help",
+            resources.GetString("resizePointsWeCursorPanelControl.Items1"),
             "HSplit",
             "IBeam",
             "No",
@@ -380,7 +381,7 @@ namespace DemosCommonCode.Imaging
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(40, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Radius";
+            resources.ApplyResources(this.label1, "label1");
             // 
             // label30
             // 
@@ -403,12 +404,12 @@ namespace DemosCommonCode.Imaging
             "MagnifierCursor (VintaSoft)",
             "RotateCursor (VintaSoft)",
             "ZoomCursor (VintaSoft)",
-            "Default",
+            resources.GetString("resizePointsNsCursorPanelControl.Items"),
             "AppStarting",
             "Arrow",
             "Cross",
             "Hand",
-            "Help",
+            resources.GetString("resizePointsNsCursorPanelControl.Items1"),
             "HSplit",
             "IBeam",
             "No",
@@ -446,7 +447,7 @@ namespace DemosCommonCode.Imaging
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(87, 13);
             this.label5.TabIndex = 4;
-            this.label5.Text = "Border pen width";
+            resources.ApplyResources(this.label5, "label5");
             // 
             // label2
             // 
@@ -455,7 +456,7 @@ namespace DemosCommonCode.Imaging
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(88, 13);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Interaction radius";
+            resources.ApplyResources(this.label2, "label2");
             // 
             // label31
             // 
@@ -482,7 +483,7 @@ namespace DemosCommonCode.Imaging
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(64, 13);
             this.label4.TabIndex = 3;
-            this.label4.Text = "Border color";
+            resources.ApplyResources(this.label4, "label4");
             // 
             // label3
             // 
@@ -491,7 +492,7 @@ namespace DemosCommonCode.Imaging
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(91, 13);
             this.label3.TabIndex = 2;
-            this.label3.Text = "Background color";
+            resources.ApplyResources(this.label3, "label3");
             // 
             // resizePointsNeswCursorPanelControl
             // 
@@ -505,12 +506,12 @@ namespace DemosCommonCode.Imaging
             "MagnifierCursor (VintaSoft)",
             "RotateCursor (VintaSoft)",
             "ZoomCursor (VintaSoft)",
-            "Default",
+            resources.GetString("resizePointsNeswCursorPanelControl.Items"),
             "AppStarting",
             "Arrow",
             "Cross",
             "Hand",
-            "Help",
+            resources.GetString("resizePointsNeswCursorPanelControl.Items1"),
             "HSplit",
             "IBeam",
             "No",
@@ -549,7 +550,7 @@ namespace DemosCommonCode.Imaging
             this.polygonPointsTabPage.Padding = new System.Windows.Forms.Padding(3);
             this.polygonPointsTabPage.Size = new System.Drawing.Size(444, 243);
             this.polygonPointsTabPage.TabIndex = 1;
-            this.polygonPointsTabPage.Text = "Polygon points";
+            resources.ApplyResources(this.polygonPointsTabPage, "polygonPointsTabPage");
             this.polygonPointsTabPage.UseVisualStyleBackColor = true;
             // 
             // panel2
@@ -599,12 +600,12 @@ namespace DemosCommonCode.Imaging
             "MagnifierCursor (VintaSoft)",
             "RotateCursor (VintaSoft)",
             "ZoomCursor (VintaSoft)",
-            "Default",
+            resources.GetString("polygonPointCursorPanelControl.Items"),
             "AppStarting",
             "Arrow",
             "Cross",
             "Hand",
-            "Help",
+            resources.GetString("polygonPointCursorPanelControl.Items1"),
             "HSplit",
             "IBeam",
             "No",
@@ -656,7 +657,7 @@ namespace DemosCommonCode.Imaging
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(37, 13);
             this.label29.TabIndex = 28;
-            this.label29.Text = "Cursor";
+            resources.ApplyResources(this.label29, "label29");
             // 
             // selectedPolygonPointBackgroundColorPanelControl
             // 
@@ -693,7 +694,7 @@ namespace DemosCommonCode.Imaging
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(91, 13);
             this.label22.TabIndex = 27;
-            this.label22.Text = "Background color";
+            resources.ApplyResources(this.label22, "label22");
             // 
             // polygonPointInteractionRadiusNumericUpDown
             // 
@@ -712,7 +713,7 @@ namespace DemosCommonCode.Imaging
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(40, 13);
             this.label10.TabIndex = 12;
-            this.label10.Text = "Radius";
+            resources.ApplyResources(this.label10, "label10");
             // 
             // label19
             // 
@@ -730,7 +731,7 @@ namespace DemosCommonCode.Imaging
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(88, 13);
             this.label9.TabIndex = 13;
-            this.label9.Text = "Interaction radius";
+            resources.ApplyResources(this.label9, "label9");
             // 
             // label6
             // 
@@ -739,7 +740,7 @@ namespace DemosCommonCode.Imaging
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(87, 13);
             this.label6.TabIndex = 16;
-            this.label6.Text = "Border pen width";
+            resources.ApplyResources(this.label6, "label6");
             // 
             // label8
             // 
@@ -748,7 +749,7 @@ namespace DemosCommonCode.Imaging
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(91, 13);
             this.label8.TabIndex = 14;
-            this.label8.Text = "Background color";
+            resources.ApplyResources(this.label8, "label8");
             // 
             // polygonPointBorderPenWidthNumericUpDown
             // 
@@ -767,7 +768,7 @@ namespace DemosCommonCode.Imaging
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(64, 13);
             this.label7.TabIndex = 15;
-            this.label7.Text = "Border color";
+            resources.ApplyResources(this.label7, "label7");
             // 
             // moveAreaTabPage
             // 
@@ -776,7 +777,7 @@ namespace DemosCommonCode.Imaging
             this.moveAreaTabPage.Name = "moveAreaTabPage";
             this.moveAreaTabPage.Size = new System.Drawing.Size(444, 243);
             this.moveAreaTabPage.TabIndex = 2;
-            this.moveAreaTabPage.Text = "Mova area";
+            resources.ApplyResources(this.moveAreaTabPage, "moveAreaTabPage");
             this.moveAreaTabPage.UseVisualStyleBackColor = true;
             // 
             // panel3
@@ -803,12 +804,12 @@ namespace DemosCommonCode.Imaging
             "MagnifierCursor (VintaSoft)",
             "RotateCursor (VintaSoft)",
             "ZoomCursor (VintaSoft)",
-            "Default",
+            resources.GetString("moveAreaCursorPanelControl.Items"),
             "AppStarting",
             "Arrow",
             "Cross",
             "Hand",
-            "Help",
+            resources.GetString("moveAreaCursorPanelControl.Items1"),
             "HSplit",
             "IBeam",
             "No",
@@ -846,7 +847,7 @@ namespace DemosCommonCode.Imaging
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(37, 13);
             this.label28.TabIndex = 28;
-            this.label28.Text = "Cursor";
+            resources.ApplyResources(this.label28, "label28");
             // 
             // rotationAssistantTabPage
             // 
@@ -855,7 +856,7 @@ namespace DemosCommonCode.Imaging
             this.rotationAssistantTabPage.Name = "rotationAssistantTabPage";
             this.rotationAssistantTabPage.Size = new System.Drawing.Size(444, 243);
             this.rotationAssistantTabPage.TabIndex = 3;
-            this.rotationAssistantTabPage.Text = "Rotation assistant";
+            resources.ApplyResources(this.rotationAssistantTabPage, "rotationAssistantTabPage");
             this.rotationAssistantTabPage.UseVisualStyleBackColor = true;
             // 
             // panel4
@@ -909,7 +910,7 @@ namespace DemosCommonCode.Imaging
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(87, 13);
             this.label16.TabIndex = 16;
-            this.label16.Text = "Border pen width";
+            resources.ApplyResources(this.label16, "label16");
             // 
             // rotationAssistantBackgroundColorPanelControl
             // 
@@ -932,7 +933,7 @@ namespace DemosCommonCode.Imaging
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(64, 13);
             this.label17.TabIndex = 15;
-            this.label17.Text = "Border color";
+            resources.ApplyResources(this.label17, "label17");
             // 
             // rotationAssistantBorderPenWidthNumericUpDown
             // 
@@ -980,7 +981,7 @@ namespace DemosCommonCode.Imaging
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(91, 13);
             this.label18.TabIndex = 14;
-            this.label18.Text = "Background color";
+            resources.ApplyResources(this.label18, "label18");
             // 
             // label20
             // 
@@ -989,7 +990,7 @@ namespace DemosCommonCode.Imaging
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(40, 13);
             this.label20.TabIndex = 12;
-            this.label20.Text = "Radius";
+            resources.ApplyResources(this.label20, "label20");
             // 
             // label23
             // 
@@ -998,7 +999,7 @@ namespace DemosCommonCode.Imaging
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(75, 13);
             this.label23.TabIndex = 24;
-            this.label23.Text = "Discrete angle";
+            resources.ApplyResources(this.label23, "label23");
             // 
             // rotationPointTabPage
             // 
@@ -1007,7 +1008,7 @@ namespace DemosCommonCode.Imaging
             this.rotationPointTabPage.Name = "rotationPointTabPage";
             this.rotationPointTabPage.Size = new System.Drawing.Size(444, 243);
             this.rotationPointTabPage.TabIndex = 4;
-            this.rotationPointTabPage.Text = "Rotation point";
+            resources.ApplyResources(this.rotationPointTabPage, "rotationPointTabPage");
             this.rotationPointTabPage.UseVisualStyleBackColor = true;
             // 
             // panel5
@@ -1056,12 +1057,12 @@ namespace DemosCommonCode.Imaging
             "MagnifierCursor (VintaSoft)",
             "RotateCursor (VintaSoft)",
             "ZoomCursor (VintaSoft)",
-            "Default",
+            resources.GetString("rotationPointCursorPanelControl.Items"),
             "AppStarting",
             "Arrow",
             "Cross",
             "Hand",
-            "Help",
+            resources.GetString("rotationPointCursorPanelControl.Items1"),
             "HSplit",
             "IBeam",
             "No",
@@ -1113,7 +1114,7 @@ namespace DemosCommonCode.Imaging
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(37, 13);
             this.label27.TabIndex = 26;
-            this.label27.Text = "Cursor";
+            resources.ApplyResources(this.label27, "label27");
             // 
             // rotationPointBorderColorPanelControl
             // 
@@ -1146,7 +1147,7 @@ namespace DemosCommonCode.Imaging
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(40, 13);
             this.label15.TabIndex = 12;
-            this.label15.Text = "Radius";
+            resources.ApplyResources(this.label15, "label15");
             // 
             // label11
             // 
@@ -1155,7 +1156,7 @@ namespace DemosCommonCode.Imaging
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(87, 13);
             this.label11.TabIndex = 16;
-            this.label11.Text = "Border pen width";
+            resources.ApplyResources(this.label11, "label11");
             // 
             // label14
             // 
@@ -1164,7 +1165,7 @@ namespace DemosCommonCode.Imaging
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(88, 13);
             this.label14.TabIndex = 13;
-            this.label14.Text = "Interaction radius";
+            resources.ApplyResources(this.label14, "label14");
             // 
             // rotationPointBorderPenWidthNumericUpDown
             // 
@@ -1193,7 +1194,7 @@ namespace DemosCommonCode.Imaging
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(64, 13);
             this.label12.TabIndex = 15;
-            this.label12.Text = "Border color";
+            resources.ApplyResources(this.label12, "label12");
             // 
             // label13
             // 
@@ -1202,7 +1203,7 @@ namespace DemosCommonCode.Imaging
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(91, 13);
             this.label13.TabIndex = 14;
-            this.label13.Text = "Background color";
+            resources.ApplyResources(this.label13, "label13");
             // 
             // label21
             // 
@@ -1211,7 +1212,7 @@ namespace DemosCommonCode.Imaging
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(49, 13);
             this.label21.TabIndex = 24;
-            this.label21.Text = "Distance";
+            resources.ApplyResources(this.label21, "label21");
             // 
             // textBoxTabPage
             // 
@@ -1220,7 +1221,7 @@ namespace DemosCommonCode.Imaging
             this.textBoxTabPage.Name = "textBoxTabPage";
             this.textBoxTabPage.Size = new System.Drawing.Size(444, 243);
             this.textBoxTabPage.TabIndex = 5;
-            this.textBoxTabPage.Text = "Text box";
+            resources.ApplyResources(this.textBoxTabPage, "textBoxTabPage");
             this.textBoxTabPage.UseVisualStyleBackColor = true;
             // 
             // panel6
@@ -1253,7 +1254,7 @@ namespace DemosCommonCode.Imaging
             this.groupBox1.Size = new System.Drawing.Size(432, 123);
             this.groupBox1.TabIndex = 32;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Spell Check Manager";
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             // 
             // spellCheckManagerViewSettingsControl1
             // 
@@ -1275,7 +1276,7 @@ namespace DemosCommonCode.Imaging
             this.fontButton.Name = "fontButton";
             this.fontButton.Size = new System.Drawing.Size(313, 23);
             this.fontButton.TabIndex = 1;
-            this.fontButton.Text = "Select font...";
+            resources.ApplyResources(this.fontButton, "fontButton");
             this.fontButton.UseVisualStyleBackColor = true;
             this.fontButton.Click += new System.EventHandler(this.fontButton_Click);
             // 
@@ -1291,12 +1292,12 @@ namespace DemosCommonCode.Imaging
             "MagnifierCursor (VintaSoft)",
             "RotateCursor (VintaSoft)",
             "ZoomCursor (VintaSoft)",
-            "Default",
+            resources.GetString("textBoxCursorPanelControl.Items"),
             "AppStarting",
             "Arrow",
             "Cross",
             "Hand",
-            "Help",
+            resources.GetString("textBoxCursorPanelControl.Items1"),
             "HSplit",
             "IBeam",
             "No",
@@ -1349,7 +1350,7 @@ namespace DemosCommonCode.Imaging
             this.label34.Name = "label34";
             this.label34.Size = new System.Drawing.Size(37, 13);
             this.label34.TabIndex = 30;
-            this.label34.Text = "Cursor";
+            resources.ApplyResources(this.label34, "label34");
             // 
             // textBoxBackColorPanelControl
             // 
@@ -1373,7 +1374,7 @@ namespace DemosCommonCode.Imaging
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(54, 13);
             this.label26.TabIndex = 24;
-            this.label26.Text = "Text color";
+            resources.ApplyResources(this.label26, "label26");
             // 
             // label24
             // 
@@ -1382,7 +1383,7 @@ namespace DemosCommonCode.Imaging
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(49, 13);
             this.label24.TabIndex = 0;
-            this.label24.Text = "Text font";
+            resources.ApplyResources(this.label24, "label24");
             // 
             // label25
             // 
@@ -1391,7 +1392,7 @@ namespace DemosCommonCode.Imaging
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(91, 13);
             this.label25.TabIndex = 21;
-            this.label25.Text = "Background color";
+            resources.ApplyResources(this.label25, "label25");
             // 
             // buttonCancel
             // 
@@ -1401,7 +1402,7 @@ namespace DemosCommonCode.Imaging
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(75, 23);
             this.buttonCancel.TabIndex = 5;
-            this.buttonCancel.Text = "Cancel";
+            resources.ApplyResources(this.buttonCancel, "buttonCancel");
             this.buttonCancel.UseVisualStyleBackColor = true;
             // 
             // okButton
@@ -1427,12 +1428,12 @@ namespace DemosCommonCode.Imaging
             "MagnifierCursor (VintaSoft)",
             "RotateCursor (VintaSoft)",
             "ZoomCursor (VintaSoft)",
-            "Default",
+            resources.GetString("resizePointsCursorPanelControl.Items"),
             "AppStarting",
             "Arrow",
             "Cross",
             "Hand",
-            "Help",
+            resources.GetString("resizePointsCursorPanelControl.Items1"),
             "HSplit",
             "IBeam",
             "No",
@@ -1461,12 +1462,12 @@ namespace DemosCommonCode.Imaging
             "MagnifierCursor (VintaSoft)",
             "RotateCursor (VintaSoft)",
             "ZoomCursor (VintaSoft)",
-            "Default",
+            resources.GetString("resizePointsCursorPanelControl.Items2"),
             "AppStarting",
             "Arrow",
             "Cross",
             "Hand",
-            "Help",
+            resources.GetString("resizePointsCursorPanelControl.Items3"),
             "HSplit",
             "IBeam",
             "No",
@@ -1495,12 +1496,12 @@ namespace DemosCommonCode.Imaging
             "MagnifierCursor (VintaSoft)",
             "RotateCursor (VintaSoft)",
             "ZoomCursor (VintaSoft)",
-            "Default",
+            resources.GetString("resizePointsCursorPanelControl.Items4"),
             "AppStarting",
             "Arrow",
             "Cross",
             "Hand",
-            "Help",
+            resources.GetString("resizePointsCursorPanelControl.Items5"),
             "HSplit",
             "IBeam",
             "No",
@@ -1529,12 +1530,12 @@ namespace DemosCommonCode.Imaging
             "MagnifierCursor (VintaSoft)",
             "RotateCursor (VintaSoft)",
             "ZoomCursor (VintaSoft)",
-            "Default",
+            resources.GetString("resizePointsCursorPanelControl.Items6"),
             "AppStarting",
             "Arrow",
             "Cross",
             "Hand",
-            "Help",
+            resources.GetString("resizePointsCursorPanelControl.Items7"),
             "HSplit",
             "IBeam",
             "No",
@@ -1563,12 +1564,12 @@ namespace DemosCommonCode.Imaging
             "MagnifierCursor (VintaSoft)",
             "RotateCursor (VintaSoft)",
             "ZoomCursor (VintaSoft)",
-            "Default",
+            resources.GetString("resizePointsCursorPanelControl.Items8"),
             "AppStarting",
             "Arrow",
             "Cross",
             "Hand",
-            "Help",
+            resources.GetString("resizePointsCursorPanelControl.Items9"),
             "HSplit",
             "IBeam",
             "No",
@@ -1597,12 +1598,12 @@ namespace DemosCommonCode.Imaging
             "MagnifierCursor (VintaSoft)",
             "RotateCursor (VintaSoft)",
             "ZoomCursor (VintaSoft)",
-            "Default",
+            resources.GetString("resizePointsCursorPanelControl.Items10"),
             "AppStarting",
             "Arrow",
             "Cross",
             "Hand",
-            "Help",
+            resources.GetString("resizePointsCursorPanelControl.Items11"),
             "HSplit",
             "IBeam",
             "No",
@@ -1645,12 +1646,12 @@ namespace DemosCommonCode.Imaging
             "MagnifierCursor (VintaSoft)",
             "RotateCursor (VintaSoft)",
             "ZoomCursor (VintaSoft)",
-            "Default",
+            resources.GetString("textBoxEditorAreaCursorPanelControl.Items"),
             "AppStarting",
             "Arrow",
             "Cross",
             "Hand",
-            "Help",
+            resources.GetString("textBoxEditorAreaCursorPanelControl.Items1"),
             "HSplit",
             "IBeam",
             "No",
@@ -1679,12 +1680,12 @@ namespace DemosCommonCode.Imaging
             "MagnifierCursor (VintaSoft)",
             "RotateCursor (VintaSoft)",
             "ZoomCursor (VintaSoft)",
-            "Default",
+            resources.GetString("textBoxEditorAreaCursorPanelControl.Items2"),
             "AppStarting",
             "Arrow",
             "Cross",
             "Hand",
-            "Help",
+            resources.GetString("textBoxEditorAreaCursorPanelControl.Items3"),
             "HSplit",
             "IBeam",
             "No",
@@ -1713,12 +1714,12 @@ namespace DemosCommonCode.Imaging
             "MagnifierCursor (VintaSoft)",
             "RotateCursor (VintaSoft)",
             "ZoomCursor (VintaSoft)",
-            "Default",
+            resources.GetString("textBoxEditorAreaCursorPanelControl.Items4"),
             "AppStarting",
             "Arrow",
             "Cross",
             "Hand",
-            "Help",
+            resources.GetString("textBoxEditorAreaCursorPanelControl.Items5"),
             "HSplit",
             "IBeam",
             "No",
@@ -1747,12 +1748,12 @@ namespace DemosCommonCode.Imaging
             "MagnifierCursor (VintaSoft)",
             "RotateCursor (VintaSoft)",
             "ZoomCursor (VintaSoft)",
-            "Default",
+            resources.GetString("textBoxEditorAreaCursorPanelControl.Items6"),
             "AppStarting",
             "Arrow",
             "Cross",
             "Hand",
-            "Help",
+            resources.GetString("textBoxEditorAreaCursorPanelControl.Items7"),
             "HSplit",
             "IBeam",
             "No",
@@ -1781,12 +1782,12 @@ namespace DemosCommonCode.Imaging
             "MagnifierCursor (VintaSoft)",
             "RotateCursor (VintaSoft)",
             "ZoomCursor (VintaSoft)",
-            "Default",
+            resources.GetString("textBoxEditorAreaCursorPanelControl.Items8"),
             "AppStarting",
             "Arrow",
             "Cross",
             "Hand",
-            "Help",
+            resources.GetString("textBoxEditorAreaCursorPanelControl.Items9"),
             "HSplit",
             "IBeam",
             "No",
@@ -1815,12 +1816,12 @@ namespace DemosCommonCode.Imaging
             "MagnifierCursor (VintaSoft)",
             "RotateCursor (VintaSoft)",
             "ZoomCursor (VintaSoft)",
-            "Default",
+            resources.GetString("textBoxEditorAreaCursorPanelControl.Items10"),
             "AppStarting",
             "Arrow",
             "Cross",
             "Hand",
-            "Help",
+            resources.GetString("textBoxEditorAreaCursorPanelControl.Items11"),
             "HSplit",
             "IBeam",
             "No",
@@ -1849,12 +1850,12 @@ namespace DemosCommonCode.Imaging
             "MagnifierCursor (VintaSoft)",
             "RotateCursor (VintaSoft)",
             "ZoomCursor (VintaSoft)",
-            "Default",
+            resources.GetString("textBoxEditorAreaCursorPanelControl.Items12"),
             "AppStarting",
             "Arrow",
             "Cross",
             "Hand",
-            "Help",
+            resources.GetString("textBoxEditorAreaCursorPanelControl.Items13"),
             "HSplit",
             "IBeam",
             "No",
@@ -1883,12 +1884,12 @@ namespace DemosCommonCode.Imaging
             "MagnifierCursor (VintaSoft)",
             "RotateCursor (VintaSoft)",
             "ZoomCursor (VintaSoft)",
-            "Default",
+            resources.GetString("textBoxEditorAreaCursorPanelControl.Items14"),
             "AppStarting",
             "Arrow",
             "Cross",
             "Hand",
-            "Help",
+            resources.GetString("textBoxEditorAreaCursorPanelControl.Items15"),
             "HSplit",
             "IBeam",
             "No",
@@ -1917,12 +1918,12 @@ namespace DemosCommonCode.Imaging
             "MagnifierCursor (VintaSoft)",
             "RotateCursor (VintaSoft)",
             "ZoomCursor (VintaSoft)",
-            "Default",
+            resources.GetString("textBoxEditorAreaCursorPanelControl.Items16"),
             "AppStarting",
             "Arrow",
             "Cross",
             "Hand",
-            "Help",
+            resources.GetString("textBoxEditorAreaCursorPanelControl.Items17"),
             "HSplit",
             "IBeam",
             "No",
@@ -1951,12 +1952,12 @@ namespace DemosCommonCode.Imaging
             "MagnifierCursor (VintaSoft)",
             "RotateCursor (VintaSoft)",
             "ZoomCursor (VintaSoft)",
-            "Default",
+            resources.GetString("textBoxEditorAreaCursorPanelControl.Items18"),
             "AppStarting",
             "Arrow",
             "Cross",
             "Hand",
-            "Help",
+            resources.GetString("textBoxEditorAreaCursorPanelControl.Items19"),
             "HSplit",
             "IBeam",
             "No",
@@ -2001,7 +2002,7 @@ namespace DemosCommonCode.Imaging
             this.MinimizeBox = false;
             this.Name = "InteractionAreaAppearanceManagerForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Interaction Area Settings";
+            resources.ApplyResources(this, "$this");
             this.mainPanel.ResumeLayout(false);
             this.tabControl1.ResumeLayout(false);
             this.resizePointsTabPage.ResumeLayout(false);

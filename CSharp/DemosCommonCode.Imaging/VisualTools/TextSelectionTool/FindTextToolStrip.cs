@@ -376,7 +376,7 @@ namespace DemosCommonCode.Imaging
                 {
                     // text was not found
                     if (!e.Canceled)
-                        MessageBox.Show(string.Format("The following specified text was not found: {0}", e.SearchEngine), "Find text", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show(string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_THE_FOLLOWING_SPECIFIED_TEXT_WAS_NOT_FOUND_ARG0_ALT1, e.SearchEngine), PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_FIND_TEXT_ALT1, MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
                 else
                 {

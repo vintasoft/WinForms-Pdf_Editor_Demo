@@ -68,7 +68,7 @@ namespace DemosCommonCode.Pdf
             /// </returns>
             public override string ToString()
             {
-                string name = "Unknown";
+                string name = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_UNKNOWN;
 
                 // if annotation is widget annotation
                 if (Annotation is PdfWidgetAnnotation)
@@ -92,7 +92,7 @@ namespace DemosCommonCode.Pdf
                 {
                     name = Annotation.Name;
                 }
-                return string.Format("(Page:{0,3}) {1}", _pageIndex + 1, name);
+                return string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_PAGE03_ARG1, _pageIndex + 1, name);
             }
 
         }
@@ -139,7 +139,7 @@ namespace DemosCommonCode.Pdf
                 if (page.Annotations != null && page.Annotations.Count > 0)
                 {
                     _annotatedPages.Add(page);
-                    pagesComboBox.Items.Add(string.Format("Page {0}", i + 1));
+                    pagesComboBox.Items.Add(string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_PAGE_ARG0, i + 1));
                 }
             }
             if (pagesComboBox.Items.Count > 0)

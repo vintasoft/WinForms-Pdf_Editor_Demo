@@ -28,6 +28,7 @@ namespace PdfEditorDemo
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SetCompressionParamsForm));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.sizeLabel = new System.Windows.Forms.Label();
             this.pixelFormatLabel = new System.Windows.Forms.Label();
@@ -69,7 +70,7 @@ namespace PdfEditorDemo
             this.groupBox1.Size = new System.Drawing.Size(201, 117);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Image info";
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             // 
             // sizeLabel
             // 
@@ -105,7 +106,7 @@ namespace PdfEditorDemo
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(27, 13);
             this.label3.TabIndex = 2;
-            this.label3.Text = "Size";
+            resources.ApplyResources(this.label3, "label3");
             // 
             // label2
             // 
@@ -114,7 +115,7 @@ namespace PdfEditorDemo
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(64, 13);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Pixel Format";
+            resources.ApplyResources(this.label2, "label2");
             // 
             // label1
             // 
@@ -123,7 +124,7 @@ namespace PdfEditorDemo
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(44, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Number";
+            resources.ApplyResources(this.label1, "label1");
             // 
             // groupBox2
             // 
@@ -136,7 +137,7 @@ namespace PdfEditorDemo
             this.groupBox2.Size = new System.Drawing.Size(201, 117);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Compression";
+            resources.ApplyResources(this.groupBox2, "groupBox2");
             // 
             // compressionComboBox
             // 
@@ -177,7 +178,7 @@ namespace PdfEditorDemo
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(39, 13);
             this.label4.TabIndex = 1;
-            this.label4.Text = "Quality";
+            resources.ApplyResources(this.label4, "label4");
             // 
             // jpegQualityNumericUpDown
             // 
@@ -214,7 +215,7 @@ namespace PdfEditorDemo
             this.jbig2UseGlobalsCheckBox.Name = "jbig2UseGlobalsCheckBox";
             this.jbig2UseGlobalsCheckBox.Size = new System.Drawing.Size(83, 17);
             this.jbig2UseGlobalsCheckBox.TabIndex = 1;
-            this.jbig2UseGlobalsCheckBox.Text = "Use Globals";
+            resources.ApplyResources(this.jbig2UseGlobalsCheckBox, "jbig2UseGlobalsCheckBox");
             this.jbig2UseGlobalsCheckBox.UseVisualStyleBackColor = true;
             // 
             // jbig2LossyCheckBox
@@ -224,7 +225,7 @@ namespace PdfEditorDemo
             this.jbig2LossyCheckBox.Name = "jbig2LossyCheckBox";
             this.jbig2LossyCheckBox.Size = new System.Drawing.Size(89, 17);
             this.jbig2LossyCheckBox.TabIndex = 0;
-            this.jbig2LossyCheckBox.Text = "Lossy Coding";
+            resources.ApplyResources(this.jbig2LossyCheckBox, "jbig2LossyCheckBox");
             this.jbig2LossyCheckBox.UseVisualStyleBackColor = true;
             // 
             // buttonOk
@@ -243,7 +244,7 @@ namespace PdfEditorDemo
             this.forAllButton.Name = "forAllButton";
             this.forAllButton.Size = new System.Drawing.Size(75, 23);
             this.forAllButton.TabIndex = 3;
-            this.forAllButton.Text = "Use For All";
+            resources.ApplyResources(this.forAllButton, "forAllButton");
             this.forAllButton.UseVisualStyleBackColor = true;
             this.forAllButton.Click += new System.EventHandler(this.forAllButton_Click);
             // 
@@ -264,7 +265,7 @@ namespace PdfEditorDemo
             this.jpeg200SettingsButton.Name = "jpeg200SettingsButton";
             this.jpeg200SettingsButton.Size = new System.Drawing.Size(108, 23);
             this.jpeg200SettingsButton.TabIndex = 0;
-            this.jpeg200SettingsButton.Text = "Settings...";
+            resources.ApplyResources(this.jpeg200SettingsButton, "jpeg200SettingsButton");
             this.jpeg200SettingsButton.UseVisualStyleBackColor = true;
             this.jpeg200SettingsButton.Click += new System.EventHandler(this.jpeg2000SettingsButton_Click);
             // 
@@ -282,7 +283,7 @@ namespace PdfEditorDemo
             this.MinimizeBox = false;
             this.Name = "SetCompressionParamsDialog";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Set Image Compression";
+            resources.ApplyResources(this, "$this");
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);

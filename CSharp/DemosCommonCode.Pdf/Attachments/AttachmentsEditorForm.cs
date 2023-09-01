@@ -162,13 +162,13 @@ namespace DemosCommonCode.Pdf
             {
                 openFile.Multiselect = true;
                 openFile.FileName = "";
-                openFile.Filter = "All Files (*.*)|*.*";
+                openFile.Filter = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_ALL_FILES;
                 openFile.FilterIndex = 0;
                 // if file must be opened
                 if (openFile.ShowDialog() == DialogResult.OK)
                 {
                     List<PdfEmbeddedFileSpecification> addedFiles = new List<PdfEmbeddedFileSpecification>();
-                    _actionController.StartAction("Add files", openFile.FileNames.Length);
+                    _actionController.StartAction(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_ADD_FILES, openFile.FileNames.Length);
                     foreach (string filename in openFile.FileNames)
                     {
                         // start action
@@ -180,7 +180,7 @@ namespace DemosCommonCode.Pdf
                         }
                         catch (OverflowException ex)
                         {
-                            DemosTools.ShowErrorMessage(string.Format("{0}: {1}.\nDisable 'Encode Files Immediately' option in 'File' menu.", Path.GetFileName(filename), ex.Message));
+                            DemosTools.ShowErrorMessage(string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_ARG0_ARG1RNDISABLE_ENCODE_FILES_IMMEDIATELY_OPTION_IN_FILE_MENU, Path.GetFileName(filename), ex.Message));
                         }
                         catch (Exception ex)
                         {
@@ -221,7 +221,7 @@ namespace DemosCommonCode.Pdf
                 if (openFolder.ShowDialog() == DialogResult.OK)
                 {
                     // start action
-                    _actionController.StartAction("Add path");
+                    _actionController.StartAction(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_ADD_PATH);
                     // add file
                     attachmentViewer.AddPath(openFolder.SelectedPath, (PdfCompression)fileCompressionToolStripComboBox.SelectedItem, _actionController);
                     _actionController.EndAction();
@@ -240,15 +240,15 @@ namespace DemosCommonCode.Pdf
                 if (openFolder.ShowDialog() == DialogResult.OK)
                 {
                     // start action
-                    _actionController.StartAction("Save selected items");
+                    _actionController.StartAction(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SAVE_SELECTED_ITEMS);
                     // save selected files to specified path
                     bool result = attachmentViewer.SaveSelectionTo(openFolder.SelectedPath, _actionController);
                     _actionController.EndAction();
                     // if attachment files is saved
                     if (result)
-                        MessageBox.Show("Item(s) saved successfully.");
+                        MessageBox.Show(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_ITEMS_SAVED_SUCCESSFULLY);
                     else
-                        MessageBox.Show("Item(s) does not saved.");
+                        MessageBox.Show(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_ITEMS_DOES_NOT_SAVED);
                 }
             }
         }
@@ -353,9 +353,9 @@ namespace DemosCommonCode.Pdf
         {
             // if sort information must be removed
             if (MessageBox.Show(
-                "Do you want to remove sort information, which specifies the order" +
-                " in which items in the attachment collection should be sorted" +
-                " in the user interface?", "",
+                PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_DO_YOU_WANT_TO_REMOVE_SORT_INFORMATION_WHICH_SPECIFIES_THE_ORDER +
+                PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF__IN_WHICH_ITEMS_IN_THE_ATTACHMENT_COLLECTION_SHOULD_BE_SORTED +
+                PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF__IN_THE_USER_INTERFACE, "",
                 MessageBoxButtons.YesNo,
                 MessageBoxIcon.Question) == DialogResult.Yes)
             {
@@ -392,7 +392,7 @@ namespace DemosCommonCode.Pdf
             {
                 // if attachment colors must be created
                 if (MessageBox.Show(
-                    "Colors are not specified. Do you want to create information about colors?",
+                    PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_COLORS_ARE_NOT_SPECIFIED_DO_YOU_WANT_TO_CREATE_INFORMATION_ABOUT_COLORS,
                     "",
                     MessageBoxButtons.YesNo,
                     MessageBoxIcon.Question) == DialogResult.Yes)
@@ -404,7 +404,7 @@ namespace DemosCommonCode.Pdf
                 // create property grid
                 using (PropertyGridForm dialog = new PropertyGridForm(
                     _document.Attachments.Colors,
-                    "Portfolio Colors"))
+                    PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_PORTFOLIO_COLORS))
                 {
                     // show dialog
                     dialog.ShowDialog();
@@ -421,7 +421,7 @@ namespace DemosCommonCode.Pdf
         {
             // if attachment colors must be deleted
             if (MessageBox.Show(
-                "Do you want to delete information about portfolio colors?",
+                PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_DO_YOU_WANT_TO_DELETE_INFORMATION_ABOUT_PORTFOLIO_COLORS,
                 "",
                 MessageBoxButtons.YesNo,
                 MessageBoxIcon.Question) == DialogResult.Yes)
@@ -439,10 +439,10 @@ namespace DemosCommonCode.Pdf
         private void generateThumbnailsForAllFilesToolStripMenuItem_Click(object sender, EventArgs e)
         {
             // if thumbnails must be created
-            if (MessageBox.Show("Do you want to generate thumbnails for all files?", "", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            if (MessageBox.Show(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_DO_YOU_WANT_TO_GENERATE_THUMBNAILS_FOR_ALL_FILES, "", MessageBoxButtons.YesNo) == DialogResult.Yes)
             {
                 // start action
-                _actionController.StartAction("Generate thumbnails");
+                _actionController.StartAction(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_GENERATE_THUMBNAILS);
                 // if attachment root folder specified
                 if (_document.Attachments.RootFolder != null)
                 {
@@ -479,26 +479,26 @@ namespace DemosCommonCode.Pdf
 
             if (files.Length > 0 && folders.Length > 0)
             {
-                if (MessageBox.Show("Do you want to generate thumbnails for selected files and files in all selected folders?",
+                if (MessageBox.Show(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_DO_YOU_WANT_TO_GENERATE_THUMBNAILS_FOR_SELECTED_FILES_AND_FILES_IN_ALL_SELECTED_FOLDERS,
                     "",
                     MessageBoxButtons.YesNo) == DialogResult.No)
                     return;
             }
             else if (files.Length > 0)
             {
-                if (MessageBox.Show("Do you want to generate thumbnails for selected files?", "",
+                if (MessageBox.Show(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_DO_YOU_WANT_TO_GENERATE_THUMBNAILS_FOR_SELECTED_FILES, "",
                     MessageBoxButtons.YesNo) == DialogResult.No)
                     return;
             }
             else if (folders.Length > 0)
             {
-                if (MessageBox.Show("Do you want to generate thumbnails for files in all selected folders?", "",
+                if (MessageBox.Show(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_DO_YOU_WANT_TO_GENERATE_THUMBNAILS_FOR_FILES_IN_ALL_SELECTED_FOLDERS, "",
                     MessageBoxButtons.YesNo) == DialogResult.No)
                     return;
             }
 
             // start action
-            _actionController.StartAction("Generate thumbnails");
+            _actionController.StartAction(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_GENERATE_THUMBNAILS_ALT1);
             // generate thumbnails
             GenerateThumbnails(files);
             // for each folder in folders
@@ -532,13 +532,13 @@ namespace DemosCommonCode.Pdf
                 {
                     using (OpenFileDialog openImageFile = new OpenFileDialog())
                     {
-                        openImageFile.Title = "Open thumbnail image";
+                        openImageFile.Title = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_OPEN_THUMBNAIL_IMAGE;
                         // set file dialog filters
                         CodecsFileFilters.SetOpenFileDialogFilter(openImageFile);
                         // if thumbnail image is selected
                         if (openImageFile.ShowDialog() == DialogResult.OK)
                         {
-                            _actionController.StartAction("Set thumbnail");
+                            _actionController.StartAction(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SET_THUMBNAIL);
                             // open thumbnail image
                             using (VintasoftImage image = new VintasoftImage(openImageFile.FileName))
                             {
@@ -575,13 +575,13 @@ namespace DemosCommonCode.Pdf
             {
                 using (OpenFileDialog openImageFile = new OpenFileDialog())
                 {
-                    openImageFile.Title = "Open thumbnail image";
+                    openImageFile.Title = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_OPEN_THUMBNAIL_IMAGE_ALT1;
                     // set file dialog filters
                     CodecsFileFilters.SetOpenFileDialogFilter(openImageFile);
                     // if thumbnail image is selected
                     if (openImageFile.ShowDialog() == DialogResult.OK)
                     {
-                        _actionController.StartAction("Set thumbnail");
+                        _actionController.StartAction(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SET_THUMBNAIL_ALT1);
                         // open thumbnail image
                         using (VintasoftImage image = new VintasoftImage(openImageFile.FileName))
                         {
@@ -648,7 +648,7 @@ namespace DemosCommonCode.Pdf
             if (_document.Attachments.Schema == null)
             {
                 // if attachment schema must be created
-                if (MessageBox.Show("Attachments does not have schema. Do you want to create schema?",
+                if (MessageBox.Show(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_ATTACHMENTS_DOES_NOT_HAVE_SCHEMA_DO_YOU_WANT_TO_CREATE_SCHEMA,
                     "", 
                     MessageBoxButtons.YesNo,
                     MessageBoxIcon.Question) == DialogResult.No)
@@ -662,7 +662,7 @@ namespace DemosCommonCode.Pdf
             // create item set editor form
             using (ItemSetEditorForm editorForm = new ItemSetEditorForm(itemSet))
             {
-                editorForm.Text = "Attachments Schema Editor";
+                editorForm.Text = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_ATTACHMENTS_SCHEMA_EDITOR;
                 editorForm.ShowDialog();
 
                 attachmentViewer.BeginUpdate();
@@ -692,7 +692,7 @@ namespace DemosCommonCode.Pdf
                 if (selectedFile.DataFields == null)
                 {
                     // if the data fields can not be created
-                    if (MessageBox.Show(string.Format("File '{0}' does not have data fields. Do you want to create data fields?", Path.GetFileName(selectedFile.Filename)), "", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.No)
+                    if (MessageBox.Show(string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_FILE_ARG0_DOES_NOT_HAVE_DATA_FIELDS_DO_YOU_WANT_TO_CREATE_DATA_FIELDS, Path.GetFileName(selectedFile.Filename)), "", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.No)
                         return;
                     // create data fields
                     selectedFile.DataFields = new PdfAttachmentDataFieldCollection(_document);
@@ -701,7 +701,7 @@ namespace DemosCommonCode.Pdf
                     new PdfNamedDictionaryItemSet<PdfAttachmentDataField>(selectedFile.DataFields, AddNewAttachmentDataField);
                 using (ItemSetEditorForm editorForm = new ItemSetEditorForm(itemSet))
                 {
-                    editorForm.Text = "Embedded File Data Fields Editor";
+                    editorForm.Text = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_EMBEDDED_FILE_DATA_FIELDS_EDITOR;
                     editorForm.ShowDialog();
 
                     if (string.IsNullOrEmpty(sortFieldNameToolStripComboBox.Text))
@@ -719,7 +719,7 @@ namespace DemosCommonCode.Pdf
                 if (selectedFolder.DataFields == null)
                 {
                     // if the data fields can not be created
-                    if (MessageBox.Show(string.Format("Folder '{0}' does not have data fields. Do you want to create data fields?", selectedFolder.Name), "", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.No)
+                    if (MessageBox.Show(string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_FOLDER_ARG0_DOES_NOT_HAVE_DATA_FIELDS_DO_YOU_WANT_TO_CREATE_DATA_FIELDS, selectedFolder.Name), "", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.No)
                         return;
                     // create data fields
                     selectedFolder.DataFields = new PdfAttachmentDataFieldCollection(_document);
@@ -729,7 +729,7 @@ namespace DemosCommonCode.Pdf
 
                 using (ItemSetEditorForm editorForm = new ItemSetEditorForm(itemSet))
                 {
-                    editorForm.Text = "Attachment Folder Data Fields Editor";
+                    editorForm.Text = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_ATTACHMENT_FOLDER_DATA_FIELDS_EDITOR;
                     editorForm.ShowDialog();
 
                     if (string.IsNullOrEmpty(sortFieldNameToolStripComboBox.Text))
@@ -773,9 +773,9 @@ namespace DemosCommonCode.Pdf
                     if (fileSpec.EmbeddedFile != null)
                     {
                         DialogResult result = MessageBox.Show(string.Format(
-                            "Open file '{0}' using the default program, or save file?\n\n" +
-                            "Press 'Yes' to open file using the default program.\n" +
-                            "Press 'No' to save file to disk.", 
+                            PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_OPEN_FILE_ARG0_USING_THE_DEFAULT_PROGRAM_OR_SAVE_FILERNRN +
+                            PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_PRESS_YES_TO_OPEN_FILE_USING_THE_DEFAULT_PROGRAMRN +
+                            PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_PRESS_NO_TO_SAVE_FILE_TO_DISK, 
                             fileSpec.Filename), "", MessageBoxButtons.YesNoCancel);
                         if (result == DialogResult.Cancel)
                             return;

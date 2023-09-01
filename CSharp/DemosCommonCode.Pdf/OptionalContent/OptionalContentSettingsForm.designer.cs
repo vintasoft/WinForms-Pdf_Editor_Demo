@@ -28,6 +28,7 @@ namespace DemosCommonCode.Pdf
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(OptionalContentSettingsForm));
             this.label1 = new System.Windows.Forms.Label();
             this.ocGroupsCheckedListBox = new System.Windows.Forms.CheckedListBox();
             this.configurationsComboBox = new System.Windows.Forms.ComboBox();
@@ -43,7 +44,7 @@ namespace DemosCommonCode.Pdf
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(69, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Configuration";
+            resources.ApplyResources(this.label1, "label1");
             // 
             // ocGroupsCheckedListBox
             // 
@@ -87,7 +88,7 @@ namespace DemosCommonCode.Pdf
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(67, 13);
             this.label2.TabIndex = 6;
-            this.label2.Text = "Visible layers";
+            resources.ApplyResources(this.label2, "label2");
             // 
             // showAllLayersCheckBox
             // 
@@ -96,7 +97,7 @@ namespace DemosCommonCode.Pdf
             this.showAllLayersCheckBox.Name = "showAllLayersCheckBox";
             this.showAllLayersCheckBox.Size = new System.Drawing.Size(101, 17);
             this.showAllLayersCheckBox.TabIndex = 7;
-            this.showAllLayersCheckBox.Text = "Show All Layers";
+            resources.ApplyResources(this.showAllLayersCheckBox, "showAllLayersCheckBox");
             this.showAllLayersCheckBox.UseVisualStyleBackColor = true;
             this.showAllLayersCheckBox.CheckedChanged += new System.EventHandler(this.showAllLayersCheckBox_CheckedChanged);
             // 
@@ -118,7 +119,7 @@ namespace DemosCommonCode.Pdf
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Layers (Optional Content) Settings";
+            resources.ApplyResources(this, "$this");
             this.ResumeLayout(false);
             this.PerformLayout();
 

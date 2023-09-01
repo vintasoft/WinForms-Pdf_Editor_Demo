@@ -145,7 +145,7 @@ namespace DemosCommonCode.Pdf
             if (fileStream != null)
             {
                 string fileName = Path.GetFileName(fileStream.Name);
-                Text = string.Format("Resources of {0}", fileName);
+                Text = string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_RESOURCES_OF_ARG0, fileName);
             }
 
             CanAddResources = canAddResources;
@@ -399,7 +399,7 @@ namespace DemosCommonCode.Pdf
         private void saveAsBinaryToolStripMenuItem_Click(object sender, EventArgs e)
         {
             saveFileDialog.DefaultExt = "bin";
-            saveFileDialog.Filter = "Binary Files (*.bin)|*.bin";
+            saveFileDialog.Filter = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_BINARY_FILES_BINBIN;
 
             if (saveFileDialog.ShowDialog() == DialogResult.OK)
             {
@@ -427,7 +427,7 @@ namespace DemosCommonCode.Pdf
         private void defaultCompressionParamsButton_Click(object sender, EventArgs e)
         {
             using (PropertyGridForm form =
-                new PropertyGridForm(PdfCompressionSettings.DefaultSettings, "Compression Default Params"))
+                new PropertyGridForm(PdfCompressionSettings.DefaultSettings, PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_COMPRESSION_DEFAULT_PARAMS))
             {
                 form.ShowDialog();
             }

@@ -28,6 +28,7 @@ namespace DemosCommonCode.Pdf
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PdfLinkAnnotationPropertiesEditorControl));
             this.mainPanel = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.highlightingModeComboBox = new System.Windows.Forms.ComboBox();
@@ -55,7 +56,7 @@ namespace DemosCommonCode.Pdf
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(92, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Highlighting Mode";
+            resources.ApplyResources(this.label1, "label1");
             // 
             // highlightingModeComboBox
             // 
@@ -80,7 +81,7 @@ namespace DemosCommonCode.Pdf
             this.actionGroupBox.Size = new System.Drawing.Size(365, 198);
             this.actionGroupBox.TabIndex = 3;
             this.actionGroupBox.TabStop = false;
-            this.actionGroupBox.Text = "Action";
+            resources.ApplyResources(this.actionGroupBox, "actionGroupBox");
             // 
             // pdfActionEditorControl
             // 

@@ -28,6 +28,7 @@ namespace DemosCommonCode.Pdf
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CustomContentRendererSettingsForm));
             this.fillPathsCheckBox = new System.Windows.Forms.CheckBox();
             this.useTilingPatternsCheckBox = new System.Windows.Forms.CheckBox();
             this.useShadingPatternsCheckBox = new System.Windows.Forms.CheckBox();
@@ -68,7 +69,7 @@ namespace DemosCommonCode.Pdf
             this.fillPathsCheckBox.Name = "fillPathsCheckBox";
             this.fillPathsCheckBox.Size = new System.Drawing.Size(68, 17);
             this.fillPathsCheckBox.TabIndex = 0;
-            this.fillPathsCheckBox.Text = "Fill Paths";
+            resources.ApplyResources(this.fillPathsCheckBox, "fillPathsCheckBox");
             this.fillPathsCheckBox.UseVisualStyleBackColor = true;
             // 
             // useTilingPatternsCheckBox
@@ -78,7 +79,7 @@ namespace DemosCommonCode.Pdf
             this.useTilingPatternsCheckBox.Name = "useTilingPatternsCheckBox";
             this.useTilingPatternsCheckBox.Size = new System.Drawing.Size(166, 17);
             this.useTilingPatternsCheckBox.TabIndex = 1;
-            this.useTilingPatternsCheckBox.Text = "Fill Paths using Tiling Patterns";
+            resources.ApplyResources(this.useTilingPatternsCheckBox, "useTilingPatternsCheckBox");
             this.useTilingPatternsCheckBox.UseVisualStyleBackColor = true;
             // 
             // useShadingPatternsCheckBox
@@ -88,7 +89,7 @@ namespace DemosCommonCode.Pdf
             this.useShadingPatternsCheckBox.Name = "useShadingPatternsCheckBox";
             this.useShadingPatternsCheckBox.Size = new System.Drawing.Size(180, 17);
             this.useShadingPatternsCheckBox.TabIndex = 10;
-            this.useShadingPatternsCheckBox.Text = "Fill Paths using Shading Patterns";
+            resources.ApplyResources(this.useShadingPatternsCheckBox, "useShadingPatternsCheckBox");
             this.useShadingPatternsCheckBox.UseVisualStyleBackColor = true;
             // 
             // drawPathsCheckBox
@@ -98,7 +99,7 @@ namespace DemosCommonCode.Pdf
             this.drawPathsCheckBox.Name = "drawPathsCheckBox";
             this.drawPathsCheckBox.Size = new System.Drawing.Size(81, 17);
             this.drawPathsCheckBox.TabIndex = 11;
-            this.drawPathsCheckBox.Text = "Draw Paths";
+            resources.ApplyResources(this.drawPathsCheckBox, "drawPathsCheckBox");
             this.drawPathsCheckBox.UseVisualStyleBackColor = true;
             // 
             // linesWeightNumericUpDown
@@ -125,7 +126,7 @@ namespace DemosCommonCode.Pdf
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(86, 13);
             this.label1.TabIndex = 13;
-            this.label1.Text = "Lines Weight (%)";
+            resources.ApplyResources(this.label1, "label1");
             // 
             // groupBox1
             // 
@@ -142,7 +143,7 @@ namespace DemosCommonCode.Pdf
             this.groupBox1.Size = new System.Drawing.Size(192, 184);
             this.groupBox1.TabIndex = 14;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Paths && Lines";
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             // 
             // fillAreaUseShadigPatternsCheckBox
             // 
@@ -151,7 +152,7 @@ namespace DemosCommonCode.Pdf
             this.fillAreaUseShadigPatternsCheckBox.Name = "fillAreaUseShadigPatternsCheckBox";
             this.fillAreaUseShadigPatternsCheckBox.Size = new System.Drawing.Size(175, 17);
             this.fillAreaUseShadigPatternsCheckBox.TabIndex = 15;
-            this.fillAreaUseShadigPatternsCheckBox.Text = "Fill Area using Shading Patterns";
+            resources.ApplyResources(this.fillAreaUseShadigPatternsCheckBox, "fillAreaUseShadigPatternsCheckBox");
             this.fillAreaUseShadigPatternsCheckBox.UseVisualStyleBackColor = true;
             // 
             // useClipPathsCheckBox
@@ -161,7 +162,7 @@ namespace DemosCommonCode.Pdf
             this.useClipPathsCheckBox.Name = "useClipPathsCheckBox";
             this.useClipPathsCheckBox.Size = new System.Drawing.Size(95, 17);
             this.useClipPathsCheckBox.TabIndex = 14;
-            this.useClipPathsCheckBox.Text = "Use Clip Paths";
+            resources.ApplyResources(this.useClipPathsCheckBox, "useClipPathsCheckBox");
             this.useClipPathsCheckBox.UseVisualStyleBackColor = true;
             // 
             // imagesGroupBox
@@ -174,7 +175,7 @@ namespace DemosCommonCode.Pdf
             this.imagesGroupBox.Size = new System.Drawing.Size(182, 184);
             this.imagesGroupBox.TabIndex = 15;
             this.imagesGroupBox.TabStop = false;
-            this.imagesGroupBox.Text = "Images";
+            resources.ApplyResources(this.imagesGroupBox, "imagesGroupBox");
             // 
             // groupBox2
             // 
@@ -187,7 +188,7 @@ namespace DemosCommonCode.Pdf
             this.groupBox2.Size = new System.Drawing.Size(169, 108);
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Processing";
+            resources.ApplyResources(this.groupBox2, "groupBox2");
             // 
             // autoContrastCheckBox
             // 
@@ -196,7 +197,7 @@ namespace DemosCommonCode.Pdf
             this.autoContrastCheckBox.Name = "autoContrastCheckBox";
             this.autoContrastCheckBox.Size = new System.Drawing.Size(90, 17);
             this.autoContrastCheckBox.TabIndex = 4;
-            this.autoContrastCheckBox.Text = "Auto Contrast";
+            resources.ApplyResources(this.autoContrastCheckBox, "autoContrastCheckBox");
             this.autoContrastCheckBox.UseVisualStyleBackColor = true;
             // 
             // autoLevelsCheckBox
@@ -206,7 +207,7 @@ namespace DemosCommonCode.Pdf
             this.autoLevelsCheckBox.Name = "autoLevelsCheckBox";
             this.autoLevelsCheckBox.Size = new System.Drawing.Size(82, 17);
             this.autoLevelsCheckBox.TabIndex = 3;
-            this.autoLevelsCheckBox.Text = "Auto Levels";
+            resources.ApplyResources(this.autoLevelsCheckBox, "autoLevelsCheckBox");
             this.autoLevelsCheckBox.UseVisualStyleBackColor = true;
             // 
             // autoColorsCheckBox
@@ -216,7 +217,7 @@ namespace DemosCommonCode.Pdf
             this.autoColorsCheckBox.Name = "autoColorsCheckBox";
             this.autoColorsCheckBox.Size = new System.Drawing.Size(80, 17);
             this.autoColorsCheckBox.TabIndex = 2;
-            this.autoColorsCheckBox.Text = "Auto Colors";
+            resources.ApplyResources(this.autoColorsCheckBox, "autoColorsCheckBox");
             this.autoColorsCheckBox.UseVisualStyleBackColor = true;
             // 
             // convertToGrayscaleCheckBox
@@ -226,7 +227,7 @@ namespace DemosCommonCode.Pdf
             this.convertToGrayscaleCheckBox.Name = "convertToGrayscaleCheckBox";
             this.convertToGrayscaleCheckBox.Size = new System.Drawing.Size(125, 17);
             this.convertToGrayscaleCheckBox.TabIndex = 0;
-            this.convertToGrayscaleCheckBox.Text = "Convert to Grayscale";
+            resources.ApplyResources(this.convertToGrayscaleCheckBox, "convertToGrayscaleCheckBox");
             this.convertToGrayscaleCheckBox.UseVisualStyleBackColor = true;
             // 
             // drawInlineImagesCheckBox
@@ -236,7 +237,7 @@ namespace DemosCommonCode.Pdf
             this.drawInlineImagesCheckBox.Name = "drawInlineImagesCheckBox";
             this.drawInlineImagesCheckBox.Size = new System.Drawing.Size(116, 17);
             this.drawInlineImagesCheckBox.TabIndex = 1;
-            this.drawInlineImagesCheckBox.Text = "Draw Inline Images";
+            resources.ApplyResources(this.drawInlineImagesCheckBox, "drawInlineImagesCheckBox");
             this.drawInlineImagesCheckBox.UseVisualStyleBackColor = true;
             // 
             // drawImageResourcesCheckBox
@@ -246,7 +247,7 @@ namespace DemosCommonCode.Pdf
             this.drawImageResourcesCheckBox.Name = "drawImageResourcesCheckBox";
             this.drawImageResourcesCheckBox.Size = new System.Drawing.Size(88, 17);
             this.drawImageResourcesCheckBox.TabIndex = 0;
-            this.drawImageResourcesCheckBox.Text = "Draw Images";
+            resources.ApplyResources(this.drawImageResourcesCheckBox, "drawImageResourcesCheckBox");
             this.drawImageResourcesCheckBox.UseVisualStyleBackColor = true;
             // 
             // groupBox3
@@ -258,7 +259,7 @@ namespace DemosCommonCode.Pdf
             this.groupBox3.Size = new System.Drawing.Size(183, 62);
             this.groupBox3.TabIndex = 16;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Forms && Annotations";
+            resources.ApplyResources(this.groupBox3, "groupBox3");
             // 
             // drawAnnotationsCheckBox
             // 
@@ -267,7 +268,7 @@ namespace DemosCommonCode.Pdf
             this.drawAnnotationsCheckBox.Name = "drawAnnotationsCheckBox";
             this.drawAnnotationsCheckBox.Size = new System.Drawing.Size(110, 17);
             this.drawAnnotationsCheckBox.TabIndex = 6;
-            this.drawAnnotationsCheckBox.Text = "Draw Annotations";
+            resources.ApplyResources(this.drawAnnotationsCheckBox, "drawAnnotationsCheckBox");
             this.drawAnnotationsCheckBox.UseVisualStyleBackColor = true;
             // 
             // drawFormsCheckBox
@@ -277,7 +278,7 @@ namespace DemosCommonCode.Pdf
             this.drawFormsCheckBox.Name = "drawFormsCheckBox";
             this.drawFormsCheckBox.Size = new System.Drawing.Size(82, 17);
             this.drawFormsCheckBox.TabIndex = 5;
-            this.drawFormsCheckBox.Text = "Draw Forms";
+            resources.ApplyResources(this.drawFormsCheckBox, "drawFormsCheckBox");
             this.drawFormsCheckBox.UseVisualStyleBackColor = true;
             // 
             // okButton
@@ -299,7 +300,7 @@ namespace DemosCommonCode.Pdf
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(75, 23);
             this.buttonCancel.TabIndex = 18;
-            this.buttonCancel.Text = "Cancel";
+            resources.ApplyResources(this.buttonCancel, "buttonCancel");
             this.buttonCancel.UseVisualStyleBackColor = true;
             this.buttonCancel.Click += new System.EventHandler(this.buttonCancel_Click);
             // 
@@ -321,7 +322,7 @@ namespace DemosCommonCode.Pdf
             this.drawInvisibleTextCheckBox.Name = "drawInvisibleTextCheckBox";
             this.drawInvisibleTextCheckBox.Size = new System.Drawing.Size(116, 17);
             this.drawInvisibleTextCheckBox.TabIndex = 6;
-            this.drawInvisibleTextCheckBox.Text = "Draw Invisible Text";
+            resources.ApplyResources(this.drawInvisibleTextCheckBox, "drawInvisibleTextCheckBox");
             this.drawInvisibleTextCheckBox.UseVisualStyleBackColor = true;
             // 
             // drawTextCheckBox
@@ -331,7 +332,7 @@ namespace DemosCommonCode.Pdf
             this.drawTextCheckBox.Name = "drawTextCheckBox";
             this.drawTextCheckBox.Size = new System.Drawing.Size(75, 17);
             this.drawTextCheckBox.TabIndex = 5;
-            this.drawTextCheckBox.Text = "Draw Text";
+            resources.ApplyResources(this.drawTextCheckBox, "drawTextCheckBox");
             this.drawTextCheckBox.UseVisualStyleBackColor = true;
             // 
             // CustomContentRendererSettingsForm
@@ -352,7 +353,7 @@ namespace DemosCommonCode.Pdf
             this.Name = "CustomContentRendererSettingsForm";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Content Renderer Settings";
+            resources.ApplyResources(this, "$this");
             ((System.ComponentModel.ISupportInitialize)(this.linesWeightNumericUpDown)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

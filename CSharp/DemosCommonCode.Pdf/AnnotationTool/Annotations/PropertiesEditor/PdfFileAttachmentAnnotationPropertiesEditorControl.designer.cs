@@ -28,6 +28,7 @@ namespace DemosCommonCode.Pdf
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PdfFileAttachmentAnnotationPropertiesEditorControl));
             this.mainPanel = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.iconComboBox = new System.Windows.Forms.ComboBox();
@@ -58,7 +59,7 @@ namespace DemosCommonCode.Pdf
             this.groupBox1.Size = new System.Drawing.Size(433, 151);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Embedded File";
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             // 
             // iconComboBox
             // 
@@ -78,7 +79,7 @@ namespace DemosCommonCode.Pdf
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(28, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Icon";
+            resources.ApplyResources(this.label1, "label1");
             // 
             // embeddedFileSpecificationViewer
             // 

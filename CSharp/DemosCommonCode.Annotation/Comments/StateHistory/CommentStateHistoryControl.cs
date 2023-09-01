@@ -77,7 +77,7 @@ namespace DemosCommonCode.Annotation
             {
                 // create state model group node
                 TreeNode stateModelTreeNode = new TreeNode(
-                    string.Format("{0} history", stateModel));
+                    string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_ANNOTATION_ARG0_HISTORY, stateModel));
 
                 // add children to state model group node
                 foreach (Comment comment in stateModelToComment[stateModel])

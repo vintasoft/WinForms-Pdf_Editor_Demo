@@ -87,11 +87,11 @@ namespace DemosCommonCode.Imaging
             thumbnailScaleComboBox.Items.Add(ThumbnailScale.Normal);
             thumbnailScaleComboBox.Items.Add(ThumbnailScale.Large);
 
-            thumbnailAppearanceComboBox.Items.Add("Normal");
-            thumbnailAppearanceComboBox.Items.Add("Focused");
-            thumbnailAppearanceComboBox.Items.Add("Hovered");
-            thumbnailAppearanceComboBox.Items.Add("Selected");
-            thumbnailAppearanceComboBox.Items.Add("Not ready");
+            thumbnailAppearanceComboBox.Items.Add(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_NORMAL);
+            thumbnailAppearanceComboBox.Items.Add(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_FOCUSED);
+            thumbnailAppearanceComboBox.Items.Add(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_HOVERED);
+            thumbnailAppearanceComboBox.Items.Add(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_SELECTED);
+            thumbnailAppearanceComboBox.Items.Add(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_NOT_READY);
         }
 
         #endregion
@@ -184,27 +184,27 @@ namespace DemosCommonCode.Imaging
         {
             // show information about ThumbnailCaption.CaptionFormat property
             MessageBox.Show(
-                "Examples:\n" +
-                "'File {Filename}, page {PageNumber}'\n" +
+                PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_EXAMPLESRN +
+                PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_FILE_FILENAME_PAGE_PAGENUMBERRN +
                 "'{ImageSizeMpx:f2} MPX'\n" +
                 "\n" +
-                "List of predefined format variables:\n" +
-                "{PageLabel} - page label\n" +
-                "{PageNumber} - page number, in source image file\n" +
-                "{PageIndex} - page index, in source image file\n" +
-                "{ImageNumber} - image number, in image collection\n" +
-                "{ImageIndex} - image index, in image collection\n" +
-                "{Filename} - filename without directory\n" +
-                "{FullFilename} - full filename\n" +
-                "{DirectoryName} - directory name\n" +
-                "{DecoderName} - decoder name\n" +
-                "{ImageWidthPx} - source image width, in pixels\n" +
-                "{ImageHeightPx} - source image height, in pixels\n" +
-                "{ImageSizeMpx} - source image size, in megapixels\n" +
-                "{ImageHRes} - source image horizontal resolution, in DPI\n" +
-                "{ImageVRes} - source image vertical resolution, in DPI\n" +
-                "{ImageBitsPerPixel} - source image bits per pixel",
-                "ThumbnailCaption.CaptionFormat property");
+                PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_LIST_OF_PREDEFINED_FORMAT_VARIABLESRN +
+                PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_PAGELABEL_PAGE_LABELRN +
+                PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_PAGENUMBER_PAGE_NUMBER_IN_SOURCE_IMAGE_FILERN +
+                PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_PAGEINDEX_PAGE_INDEX_IN_SOURCE_IMAGE_FILERN +
+                PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_IMAGENUMBER_IMAGE_NUMBER_IN_IMAGE_COLLECTIONRN +
+                PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_IMAGEINDEX_IMAGE_INDEX_IN_IMAGE_COLLECTIONRN +
+                PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_FILENAME_FILENAME_WITHOUT_DIRECTORYRN +
+                PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_FULLFILENAME_FULL_FILENAMERN +
+                PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_DIRECTORYNAME_DIRECTORY_NAMERN +
+                PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_DECODERNAME_DECODER_NAMERN +
+                PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_IMAGEWIDTHPX_SOURCE_IMAGE_WIDTH_IN_PIXELSRN +
+                PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_IMAGEHEIGHTPX_SOURCE_IMAGE_HEIGHT_IN_PIXELSRN +
+                PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_IMAGESIZEMPX_SOURCE_IMAGE_SIZE_IN_MEGAPIXELSRN +
+                PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_IMAGEHRES_SOURCE_IMAGE_HORIZONTAL_RESOLUTION_IN_DPIRN +
+                PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_IMAGEVRES_SOURCE_IMAGE_VERTICAL_RESOLUTION_IN_DPIRN +
+                PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_IMAGEBITSPERPIXEL_SOURCE_IMAGE_BITS_PER_PIXEL,
+                PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_THUMBNAILCAPTIONCAPTIONFORMAT_PROPERTY);
         }
 
         #endregion

@@ -28,6 +28,7 @@ namespace DemosCommonCode.Pdf.Security
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SecurityPropertiesForm));
             this.label1 = new System.Windows.Forms.Label();
             this.okButton = new System.Windows.Forms.Button();
             this.encryptionLabel = new System.Windows.Forms.Label();
@@ -64,7 +65,7 @@ namespace DemosCommonCode.Pdf.Security
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(60, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Encryption:";
+            resources.ApplyResources(this.label1, "label1");
             // 
             // okButton
             // 
@@ -94,7 +95,7 @@ namespace DemosCommonCode.Pdf.Security
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(133, 13);
             this.label8.TabIndex = 15;
-            this.label8.Text = "Document User Password:";
+            resources.ApplyResources(this.label8, "label8");
             // 
             // userPasswordLabel
             // 
@@ -128,7 +129,7 @@ namespace DemosCommonCode.Pdf.Security
             this.groupBox1.Size = new System.Drawing.Size(398, 193);
             this.groupBox1.TabIndex = 17;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "User Permissions";
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             // 
             // assembleDocumentLabel
             // 
@@ -137,7 +138,7 @@ namespace DemosCommonCode.Pdf.Security
             this.assembleDocumentLabel.Name = "assembleDocumentLabel";
             this.assembleDocumentLabel.Size = new System.Drawing.Size(44, 13);
             this.assembleDocumentLabel.TabIndex = 26;
-            this.assembleDocumentLabel.Text = "Allowed";
+            resources.ApplyResources(this.assembleDocumentLabel, "assembleDocumentLabel");
             // 
             // fillInteractiveFormFieldsLabel
             // 
@@ -146,7 +147,7 @@ namespace DemosCommonCode.Pdf.Security
             this.fillInteractiveFormFieldsLabel.Name = "fillInteractiveFormFieldsLabel";
             this.fillInteractiveFormFieldsLabel.Size = new System.Drawing.Size(44, 13);
             this.fillInteractiveFormFieldsLabel.TabIndex = 25;
-            this.fillInteractiveFormFieldsLabel.Text = "Allowed";
+            resources.ApplyResources(this.fillInteractiveFormFieldsLabel, "fillInteractiveFormFieldsLabel");
             // 
             // modifyAnnotationLabel
             // 
@@ -155,7 +156,7 @@ namespace DemosCommonCode.Pdf.Security
             this.modifyAnnotationLabel.Name = "modifyAnnotationLabel";
             this.modifyAnnotationLabel.Size = new System.Drawing.Size(44, 13);
             this.modifyAnnotationLabel.TabIndex = 24;
-            this.modifyAnnotationLabel.Text = "Allowed";
+            resources.ApplyResources(this.modifyAnnotationLabel, "modifyAnnotationLabel");
             // 
             // modifyContentsLabel
             // 
@@ -164,7 +165,7 @@ namespace DemosCommonCode.Pdf.Security
             this.modifyContentsLabel.Name = "modifyContentsLabel";
             this.modifyContentsLabel.Size = new System.Drawing.Size(44, 13);
             this.modifyContentsLabel.TabIndex = 23;
-            this.modifyContentsLabel.Text = "Allowed";
+            resources.ApplyResources(this.modifyContentsLabel, "modifyContentsLabel");
             // 
             // extractTextAndGraphicsLabel
             // 
@@ -173,7 +174,7 @@ namespace DemosCommonCode.Pdf.Security
             this.extractTextAndGraphicsLabel.Name = "extractTextAndGraphicsLabel";
             this.extractTextAndGraphicsLabel.Size = new System.Drawing.Size(44, 13);
             this.extractTextAndGraphicsLabel.TabIndex = 22;
-            this.extractTextAndGraphicsLabel.Text = "Allowed";
+            resources.ApplyResources(this.extractTextAndGraphicsLabel, "extractTextAndGraphicsLabel");
             // 
             // printingLabel
             // 
@@ -182,7 +183,7 @@ namespace DemosCommonCode.Pdf.Security
             this.printingLabel.Name = "printingLabel";
             this.printingLabel.Size = new System.Drawing.Size(44, 13);
             this.printingLabel.TabIndex = 21;
-            this.printingLabel.Text = "Allowed";
+            resources.ApplyResources(this.printingLabel, "printingLabel");
             // 
             // label7
             // 
@@ -191,7 +192,7 @@ namespace DemosCommonCode.Pdf.Security
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(107, 13);
             this.label7.TabIndex = 20;
-            this.label7.Text = "Assemble Document:";
+            resources.ApplyResources(this.label7, "label7");
             // 
             // label6
             // 
@@ -200,7 +201,7 @@ namespace DemosCommonCode.Pdf.Security
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(133, 13);
             this.label6.TabIndex = 19;
-            this.label6.Text = "Extract Text and Graphics:";
+            resources.ApplyResources(this.label6, "label6");
             // 
             // label5
             // 
@@ -209,7 +210,7 @@ namespace DemosCommonCode.Pdf.Security
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(100, 13);
             this.label5.TabIndex = 18;
-            this.label5.Text = "Modify Annotations:";
+            resources.ApplyResources(this.label5, "label5");
             // 
             // label4
             // 
@@ -218,7 +219,7 @@ namespace DemosCommonCode.Pdf.Security
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(131, 13);
             this.label4.TabIndex = 17;
-            this.label4.Text = "Fill Interactive Form Fields:";
+            resources.ApplyResources(this.label4, "label4");
             // 
             // label3
             // 
@@ -227,7 +228,7 @@ namespace DemosCommonCode.Pdf.Security
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(86, 13);
             this.label3.TabIndex = 16;
-            this.label3.Text = "Modify Contents:";
+            resources.ApplyResources(this.label3, "label3");
             // 
             // label2
             // 
@@ -236,7 +237,7 @@ namespace DemosCommonCode.Pdf.Security
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(45, 13);
             this.label2.TabIndex = 15;
-            this.label2.Text = "Printing:";
+            resources.ApplyResources(this.label2, "label2");
             // 
             // label9
             // 
@@ -246,7 +247,7 @@ namespace DemosCommonCode.Pdf.Security
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(142, 13);
             this.label9.TabIndex = 18;
-            this.label9.Text = "Document Owner Password:";
+            resources.ApplyResources(this.label9, "label9");
             // 
             // ownerPasswordLabel
             // 
@@ -266,7 +267,7 @@ namespace DemosCommonCode.Pdf.Security
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(104, 13);
             this.label11.TabIndex = 20;
-            this.label11.Text = "Authorization Result:";
+            resources.ApplyResources(this.label11, "label11");
             // 
             // authorizationResultLabel
             // 
@@ -276,7 +277,7 @@ namespace DemosCommonCode.Pdf.Security
             this.authorizationResultLabel.Name = "authorizationResultLabel";
             this.authorizationResultLabel.Size = new System.Drawing.Size(135, 13);
             this.authorizationResultLabel.TabIndex = 21;
-            this.authorizationResultLabel.Text = "AuthenticationNotRequired";
+            resources.ApplyResources(this.authorizationResultLabel, "authorizationResultLabel");
             // 
             // label10
             // 
@@ -285,7 +286,7 @@ namespace DemosCommonCode.Pdf.Security
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(142, 13);
             this.label10.TabIndex = 22;
-            this.label10.Text = "Adobe Acrobat Compatibility:";
+            resources.ApplyResources(this.label10, "label10");
             // 
             // compatibilityModeLabel
             // 
@@ -303,7 +304,7 @@ namespace DemosCommonCode.Pdf.Security
             this.extractTextAndGraphicsForAccessibilityLabel.Name = "extarctTextAndGraphicsForAccessibilityLabel";
             this.extractTextAndGraphicsForAccessibilityLabel.Size = new System.Drawing.Size(44, 13);
             this.extractTextAndGraphicsForAccessibilityLabel.TabIndex = 28;
-            this.extractTextAndGraphicsForAccessibilityLabel.Text = "Allowed";
+            resources.ApplyResources(this.extractTextAndGraphicsForAccessibilityLabel, "extractTextAndGraphicsForAccessibilityLabel");
             // 
             // label13
             // 
@@ -312,7 +313,7 @@ namespace DemosCommonCode.Pdf.Security
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(214, 13);
             this.label13.TabIndex = 27;
-            this.label13.Text = "Extract Text and Graphics (for Accessibility):";
+            resources.ApplyResources(this.label13, "label13");
             // 
             // SecurityPropertiesForm
             // 
@@ -337,7 +338,7 @@ namespace DemosCommonCode.Pdf.Security
             this.Name = "SecurityPropertiesForm";
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Document Security";
+            resources.ApplyResources(this, "$this");
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);

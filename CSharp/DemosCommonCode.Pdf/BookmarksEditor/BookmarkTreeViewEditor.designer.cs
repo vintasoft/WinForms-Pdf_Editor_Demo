@@ -23,6 +23,7 @@ namespace DemosCommonCode.Pdf
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BookmarkTreeViewEditor));
             this.components = new System.ComponentModel.Container();
             this.bookmarkContextMenu = new System.Windows.Forms.ContextMenuStrip();
             this.addToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -49,21 +50,21 @@ namespace DemosCommonCode.Pdf
             // 
             this.addToolStripMenuItem.Name = "addToolStripMenuItem";
             this.addToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
-            this.addToolStripMenuItem.Text = "Add...";
+            resources.ApplyResources(this.addToolStripMenuItem, "addToolStripMenuItem");
             this.addToolStripMenuItem.Click += new System.EventHandler(this.addBookmarkToolStripMenuItem_Click);
             // 
             // editToolStripMenuItem
             // 
             this.editToolStripMenuItem.Name = "editToolStripMenuItem";
             this.editToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
-            this.editToolStripMenuItem.Text = "Edit...";
+            resources.ApplyResources(this.editToolStripMenuItem, "editToolStripMenuItem");
             this.editToolStripMenuItem.Click += new System.EventHandler(this.editToolStripMenuItem_Click);
             // 
             // deleteOutlineNodeToolStripMenuItem
             // 
             this.deleteOutlineNodeToolStripMenuItem.Name = "deleteOutlineNodeToolStripMenuItem";
             this.deleteOutlineNodeToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
-            this.deleteOutlineNodeToolStripMenuItem.Text = "Delete";
+            resources.ApplyResources(this.deleteOutlineNodeToolStripMenuItem, "deleteOutlineNodeToolStripMenuItem");
             this.deleteOutlineNodeToolStripMenuItem.Click += new System.EventHandler(this.deleteBookmarkNodeToolStripMenuItem_Click);
             // 
             // moveUpToolStripMenuItem
@@ -71,7 +72,7 @@ namespace DemosCommonCode.Pdf
             this.moveUpToolStripMenuItem.Name = "moveUpToolStripMenuItem";
             this.moveUpToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Up)));
             this.moveUpToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
-            this.moveUpToolStripMenuItem.Text = "Move Up";
+            resources.ApplyResources(this.moveUpToolStripMenuItem, "moveUpToolStripMenuItem");
             this.moveUpToolStripMenuItem.Click += new System.EventHandler(this.moveUpBookmarkToolStripMenuItem_Click);
             // 
             // moveDownToolStripMenuItem
@@ -79,7 +80,7 @@ namespace DemosCommonCode.Pdf
             this.moveDownToolStripMenuItem.Name = "moveDownToolStripMenuItem";
             this.moveDownToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Down)));
             this.moveDownToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
-            this.moveDownToolStripMenuItem.Text = "Move Down";
+            resources.ApplyResources(this.moveDownToolStripMenuItem, "moveDownToolStripMenuItem");
             this.moveDownToolStripMenuItem.Click += new System.EventHandler(this.moveDownBookmarkToolStripMenuItem_Click);
             // 
             // BookmarkTreeViewEditor

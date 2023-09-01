@@ -50,7 +50,7 @@ namespace DemosCommonCode.Office
             this.paragraphPropertiesButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.paragraphPropertiesButton.Name = "paragraphPropertiesButton";
             this.paragraphPropertiesButton.Size = new System.Drawing.Size(23, 22);
-            this.paragraphPropertiesButton.Text = "Paragraph properties...";
+            resources.ApplyResources(this.paragraphPropertiesButton, "paragraphPropertiesButton");
             // 
             // paragraphJLeftButton
             // 
@@ -60,8 +60,8 @@ namespace DemosCommonCode.Office
             this.paragraphJLeftButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.paragraphJLeftButton.Name = "paragraphJLeftButton";
             this.paragraphJLeftButton.Size = new System.Drawing.Size(23, 22);
-            this.paragraphJLeftButton.Text = "Justify by left border";
-            this.paragraphJLeftButton.ToolTipText = "Justify by left border (Ctrl+L)";
+            resources.ApplyResources(this.paragraphJLeftButton, "paragraphJLeftButton");
+            
             // 
             // paragraphJCenterButton
             // 
@@ -71,8 +71,8 @@ namespace DemosCommonCode.Office
             this.paragraphJCenterButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.paragraphJCenterButton.Name = "paragraphJCenterButton";
             this.paragraphJCenterButton.Size = new System.Drawing.Size(23, 22);
-            this.paragraphJCenterButton.Text = "Justify by center";
-            this.paragraphJCenterButton.ToolTipText = "Justify by center (Ctrl+E)";
+            resources.ApplyResources(this.paragraphJCenterButton, "paragraphJCenterButton");
+            
             // 
             // paragraphJRightButton
             // 
@@ -82,8 +82,8 @@ namespace DemosCommonCode.Office
             this.paragraphJRightButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.paragraphJRightButton.Name = "paragraphJRightButton";
             this.paragraphJRightButton.Size = new System.Drawing.Size(23, 22);
-            this.paragraphJRightButton.Text = "Justify by right border";
-            this.paragraphJRightButton.ToolTipText = "Justify by right border (Ctrl+R)";
+            resources.ApplyResources(this.paragraphJRightButton, "paragraphJRightButton");
+            
             // 
             // paragraphJBothButton
             // 
@@ -93,8 +93,8 @@ namespace DemosCommonCode.Office
             this.paragraphJBothButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.paragraphJBothButton.Name = "paragraphJBothButton";
             this.paragraphJBothButton.Size = new System.Drawing.Size(23, 22);
-            this.paragraphJBothButton.Text = "Justify by width";
-            this.paragraphJBothButton.ToolTipText = "Justify by width (Ctrl+J)";
+            resources.ApplyResources(this.paragraphJBothButton, "paragraphJBothButton");
+            
             // 
             // incParagraphLeftIndentationButton
             // 
@@ -104,8 +104,8 @@ namespace DemosCommonCode.Office
             this.incParagraphLeftIndentationButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.incParagraphLeftIndentationButton.Name = "incParagraphLeftIndentationButton";
             this.incParagraphLeftIndentationButton.Size = new System.Drawing.Size(23, 22);
-            this.incParagraphLeftIndentationButton.Text = "toolStripButton5";
-            this.incParagraphLeftIndentationButton.ToolTipText = "Increase paragraph left indentation";
+            resources.ApplyResources(this.incParagraphLeftIndentationButton, "incParagraphLeftIndentationButton");
+            
             // 
             // decParagraphLeftIndentationButton
             // 
@@ -115,8 +115,8 @@ namespace DemosCommonCode.Office
             this.decParagraphLeftIndentationButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.decParagraphLeftIndentationButton.Name = "decParagraphLeftIndentationButton";
             this.decParagraphLeftIndentationButton.Size = new System.Drawing.Size(23, 22);
-            this.decParagraphLeftIndentationButton.Text = "toolStripButton6";
-            this.decParagraphLeftIndentationButton.ToolTipText = "Decrease paragraph left indentation";
+            resources.ApplyResources(this.decParagraphLeftIndentationButton, "decParagraphLeftIndentationButton");
+            
             // 
             // incParagraphFirstLineIndentationButton
             // 
@@ -127,7 +127,7 @@ namespace DemosCommonCode.Office
             this.incParagraphFirstLineIndentationButton.Name = "incParagraphFirstLineIndentationButton";
             this.incParagraphFirstLineIndentationButton.Size = new System.Drawing.Size(23, 22);
             this.incParagraphFirstLineIndentationButton.Text = "toolStripButton1";
-            this.incParagraphFirstLineIndentationButton.ToolTipText = "Increase paragraph first line indentation";
+            resources.ApplyResources(this.incParagraphFirstLineIndentationButton, "incParagraphFirstLineIndentationButton");
             // 
             // decParagraphFirstLineIndentationButton
             // 
@@ -138,7 +138,7 @@ namespace DemosCommonCode.Office
             this.decParagraphFirstLineIndentationButton.Name = "decParagraphFirstLineIndentationButton";
             this.decParagraphFirstLineIndentationButton.Size = new System.Drawing.Size(23, 22);
             this.decParagraphFirstLineIndentationButton.Text = "toolStripButton2";
-            this.decParagraphFirstLineIndentationButton.ToolTipText = "Decrease paragraph first line indentation";
+            resources.ApplyResources(this.decParagraphFirstLineIndentationButton, "decParagraphFirstLineIndentationButton");
             // 
             // paragraphNumberingButton
             // 
@@ -148,7 +148,7 @@ namespace DemosCommonCode.Office
             this.paragraphNumberingButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.paragraphNumberingButton.Name = "paragraphNumberingButton";
             this.paragraphNumberingButton.Size = new System.Drawing.Size(23, 22);
-            this.paragraphNumberingButton.ToolTipText = "Paragraph numbering";
+            resources.ApplyResources(this.paragraphNumberingButton, "paragraphNumberingButton");
             // 
             // OfficeDocumentParagraphPropertiesVisualEditorToolStrip
             // 

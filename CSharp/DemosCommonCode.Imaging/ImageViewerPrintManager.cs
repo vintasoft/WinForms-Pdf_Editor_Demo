@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Drawing.Printing;
 using System.Windows.Forms;
 
@@ -141,7 +141,7 @@ namespace DemosCommonCode.Imaging
                     return;
                 if (_imagesToPrint != null)
                 {
-                    DemosTools.ShowWarningMessage("Another print process is still working.");
+                    DemosTools.ShowWarningMessage(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_ANOTHER_PRINT_PROCESS_IS_STILL_WORKING);
                     return;
                 }
 

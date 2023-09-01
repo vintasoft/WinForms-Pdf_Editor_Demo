@@ -132,4 +132,46 @@
   <metadata name="openFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>153, 17</value>
   </metadata>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Embedded Files</value>
+  </data>
+  <data name="encodeFilesImmediatelyCheckBox.Text" xml:space="preserve">
+    <value>Encode Files Immediately</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Compression</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Create Date</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Modify Date</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Properties</value>
+  </data>
+  <data name="compressedSizeColumn.HeaderText" xml:space="preserve">
+    <value>Compressed Size</value>
+  </data>
+  <data name="sizeColumn.HeaderText" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="filenameColumn.HeaderText" xml:space="preserve">
+    <value>Filename</value>
+  </data>
+  <data name="addButton.Text" xml:space="preserve">
+    <value>Add...</value>
+  </data>
+  <data name="removeButton.Text" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="saveAsButton.Text" xml:space="preserve">
+    <value>Save As...</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </metadata>
 </root>

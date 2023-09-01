@@ -49,8 +49,8 @@ namespace DemosCommonCode.Office
             this.changeBoldButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.changeBoldButton.Name = "changeBoldButton";
             this.changeBoldButton.Size = new System.Drawing.Size(23, 22);
-            this.changeBoldButton.Text = "Bold text";
-            this.changeBoldButton.ToolTipText = "Bold (Ctrl+B)";
+            resources.ApplyResources(this.changeBoldButton, "changeBoldButton");
+            
             // 
             // changeItalicButton
             // 
@@ -60,8 +60,8 @@ namespace DemosCommonCode.Office
             this.changeItalicButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.changeItalicButton.Name = "changeItalicButton";
             this.changeItalicButton.Size = new System.Drawing.Size(23, 22);
-            this.changeItalicButton.Text = "Italic text";
-            this.changeItalicButton.ToolTipText = "Italic (Ctrl+I)";
+            resources.ApplyResources(this.changeItalicButton, "changeItalicButton");
+            
             // 
             // changeUnderlineButton
             // 
@@ -71,8 +71,8 @@ namespace DemosCommonCode.Office
             this.changeUnderlineButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.changeUnderlineButton.Name = "changeUnderlineButton";
             this.changeUnderlineButton.Size = new System.Drawing.Size(23, 22);
-            this.changeUnderlineButton.Text = "toolStripButton3";
-            this.changeUnderlineButton.ToolTipText = "Underline (Ctrl+U)";
+            resources.ApplyResources(this.changeUnderlineButton, "changeUnderlineButton");
+            
             // 
             // increaseTextSizeButton
             // 
@@ -82,8 +82,8 @@ namespace DemosCommonCode.Office
             this.increaseTextSizeButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.increaseTextSizeButton.Name = "increaseTextSizeButton";
             this.increaseTextSizeButton.Size = new System.Drawing.Size(23, 22);
-            this.increaseTextSizeButton.Text = "Increase text size";
-            this.increaseTextSizeButton.ToolTipText = "Increase text size (Ctrl+Plus)";
+            resources.ApplyResources(this.increaseTextSizeButton, "increaseTextSizeButton");
+            
             // 
             // decreaseTextSizeButton
             // 
@@ -93,8 +93,8 @@ namespace DemosCommonCode.Office
             this.decreaseTextSizeButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.decreaseTextSizeButton.Name = "decreaseTextSizeButton";
             this.decreaseTextSizeButton.Size = new System.Drawing.Size(23, 22);
-            this.decreaseTextSizeButton.Text = "Decrease text size ";
-            this.decreaseTextSizeButton.ToolTipText = "Decrease text size (Ctrl+Minus)";
+            resources.ApplyResources(this.decreaseTextSizeButton, "decreaseTextSizeButton");
+            
             // 
             // changeStrikeoutButton
             // 
@@ -104,8 +104,8 @@ namespace DemosCommonCode.Office
             this.changeStrikeoutButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.changeStrikeoutButton.Name = "changeStrikeoutButton";
             this.changeStrikeoutButton.Size = new System.Drawing.Size(23, 22);
-            this.changeStrikeoutButton.Text = "Strikeout text";
-            this.changeStrikeoutButton.ToolTipText = "Strikeout ";
+            resources.ApplyResources(this.changeStrikeoutButton, "changeStrikeoutButton");
+            
             // 
             // changeSubscriptButton
             // 
@@ -115,8 +115,8 @@ namespace DemosCommonCode.Office
             this.changeSubscriptButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.changeSubscriptButton.Name = "changeSubscriptButton";
             this.changeSubscriptButton.Size = new System.Drawing.Size(23, 22);
-            this.changeSubscriptButton.Text = "Subscript";
-            this.changeSubscriptButton.ToolTipText = "Subscript";
+            resources.ApplyResources(this.changeSubscriptButton, "changeSubscriptButton");
+            
             // 
             // changeSuperscriptButton
             // 
@@ -126,8 +126,8 @@ namespace DemosCommonCode.Office
             this.changeSuperscriptButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.changeSuperscriptButton.Name = "changeSuperscriptButton";
             this.changeSuperscriptButton.Size = new System.Drawing.Size(23, 22);
-            this.changeSuperscriptButton.Text = "Superscipt";
-            this.changeSuperscriptButton.ToolTipText = "Superscript";
+            resources.ApplyResources(this.changeSuperscriptButton, "changeSuperscriptButton");
+            
             // 
             // textPropertiesButton
             // 
@@ -138,7 +138,7 @@ namespace DemosCommonCode.Office
             this.textPropertiesButton.Name = "textPropertiesButton";
             this.textPropertiesButton.Size = new System.Drawing.Size(23, 22);
             this.textPropertiesButton.Text = "toolStripButton1";
-            this.textPropertiesButton.ToolTipText = "Text properties...";
+            resources.ApplyResources(this.textPropertiesButton, "textPropertiesButton");
             // 
             // OfficeDocumentTextPropertiesVisualEditorToolStrip
             // 

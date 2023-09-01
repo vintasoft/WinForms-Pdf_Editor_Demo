@@ -117,4 +117,25 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="$this.Text" xml:space="preserve">
+    <value>JavaScript Action Dictionary Editor</value>
+  </data>
+  <data name="wordWrapCheckBox.Text" xml:space="preserve">
+    <value>Word Wrap</value>
+  </data>
+  <data name="cancelButton1.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="removeButton.Text" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="renameButton.Text" xml:space="preserve">
+    <value>Rename...</value>
+  </data>
+  <data name="addButton.Text" xml:space="preserve">
+    <value>Add...</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </metadata>
 </root>

@@ -187,4 +187,10 @@
 
 The project is available in C# and VB.NET for Visual Studio .NET.</value>
   </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </metadata>
 </root>

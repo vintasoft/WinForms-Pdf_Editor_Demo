@@ -44,7 +44,7 @@ namespace DemosCommonCode.Pdf
             {
                 if (launchAction.WinCommandLine != "")
                 {
-                    if (MessageBox.Show(string.Format("Start application '{0}' ?", launchAction.WinCommandLine), "Execute an application", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+                    if (MessageBox.Show(string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_START_APPLICATION_ARG0, launchAction.WinCommandLine), PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_EXECUTE_AN_APPLICATION, MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
                     {
                         try
                         {

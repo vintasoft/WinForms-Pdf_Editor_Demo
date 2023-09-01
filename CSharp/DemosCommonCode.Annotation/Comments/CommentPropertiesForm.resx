@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -117,4 +117,46 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Comment Properties</value>
+  </data>
+  <data name="advancedTabPage.Text" xml:space="preserve">
+    <value>Advanced</value>
+  </data>
+  <data name="stateHistoryTabPage.Text" xml:space="preserve">
+    <value>State History</value>
+  </data>
+  <data name="isLockedCheckBox.Text" xml:space="preserve">
+    <value>Locked</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Modify Date:</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Creation Date:</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Type:</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Color:</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>UserName:</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Subject:</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Text:</value>
+  </data>
+  <data name="isOpenCheckBox.Text" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="commonTabPage.Text" xml:space="preserve">
+    <value>Common</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </metadata>
 </root>

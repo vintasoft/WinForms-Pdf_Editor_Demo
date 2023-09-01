@@ -28,6 +28,7 @@ namespace DemosCommonCode.Pdf
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EditBookmarkNodeForm));
             this.buttonCancel = new System.Windows.Forms.Button();
             this.okButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -52,7 +53,7 @@ namespace DemosCommonCode.Pdf
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(75, 27);
             this.buttonCancel.TabIndex = 5;
-            this.buttonCancel.Text = "Cancel";
+            resources.ApplyResources(this.buttonCancel, "buttonCancel");
             this.buttonCancel.UseVisualStyleBackColor = true;
             this.buttonCancel.Click += new System.EventHandler(this.cancelButton_Click);
             // 
@@ -73,7 +74,7 @@ namespace DemosCommonCode.Pdf
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(29, 15);
             this.label1.TabIndex = 6;
-            this.label1.Text = "Title";
+            resources.ApplyResources(this.label1, "label1");
             // 
             // bookmarkTitle
             // 
@@ -90,7 +91,7 @@ namespace DemosCommonCode.Pdf
             this.bookmarkTextBold.Name = "bookmarkTextBold";
             this.bookmarkTextBold.Size = new System.Drawing.Size(50, 19);
             this.bookmarkTextBold.TabIndex = 8;
-            this.bookmarkTextBold.Text = "Bold";
+            resources.ApplyResources(this.bookmarkTextBold, "bookmarkTextBold");
             this.bookmarkTextBold.UseVisualStyleBackColor = true;
             // 
             // bookmarkTextItalic
@@ -100,7 +101,7 @@ namespace DemosCommonCode.Pdf
             this.bookmarkTextItalic.Name = "bookmarkTextItalic";
             this.bookmarkTextItalic.Size = new System.Drawing.Size(51, 19);
             this.bookmarkTextItalic.TabIndex = 9;
-            this.bookmarkTextItalic.Text = "Italic";
+            resources.ApplyResources(this.bookmarkTextItalic, "bookmarkTextItalic");
             this.bookmarkTextItalic.UseVisualStyleBackColor = true;
             // 
             // colorButton
@@ -109,7 +110,7 @@ namespace DemosCommonCode.Pdf
             this.colorButton.Name = "colorButton";
             this.colorButton.Size = new System.Drawing.Size(75, 23);
             this.colorButton.TabIndex = 10;
-            this.colorButton.Text = "Color...";
+            resources.ApplyResources(this.colorButton, "colorButton");
             this.colorButton.UseVisualStyleBackColor = true;
             this.colorButton.Click += new System.EventHandler(this.colorButton_Click);
             // 
@@ -120,7 +121,7 @@ namespace DemosCommonCode.Pdf
             this.bookmarkExpanded.Name = "bookmarkExpanded";
             this.bookmarkExpanded.Size = new System.Drawing.Size(78, 19);
             this.bookmarkExpanded.TabIndex = 11;
-            this.bookmarkExpanded.Text = "Expanded";
+            resources.ApplyResources(this.bookmarkExpanded, "bookmarkExpanded");
             this.bookmarkExpanded.UseVisualStyleBackColor = true;
             // 
             // pageNumber
@@ -152,7 +153,7 @@ namespace DemosCommonCode.Pdf
             this.addToRootCheckBox.Name = "addToRootCheckBox";
             this.addToRootCheckBox.Size = new System.Drawing.Size(91, 19);
             this.addToRootCheckBox.TabIndex = 14;
-            this.addToRootCheckBox.Text = "Add To Root";
+            resources.ApplyResources(this.addToRootCheckBox, "addToRootCheckBox");
             this.addToRootCheckBox.UseVisualStyleBackColor = true;
             // 
             // destRadioButton
@@ -163,7 +164,7 @@ namespace DemosCommonCode.Pdf
             this.destRadioButton.Size = new System.Drawing.Size(114, 19);
             this.destRadioButton.TabIndex = 15;
             this.destRadioButton.TabStop = true;
-            this.destRadioButton.Text = "Destination Page";
+            resources.ApplyResources(this.destRadioButton, "destRadioButton");
             this.destRadioButton.UseVisualStyleBackColor = true;
             // 
             // actionRadioButton
@@ -174,7 +175,7 @@ namespace DemosCommonCode.Pdf
             this.actionRadioButton.Size = new System.Drawing.Size(60, 19);
             this.actionRadioButton.TabIndex = 16;
             this.actionRadioButton.TabStop = true;
-            this.actionRadioButton.Text = "Action";
+            resources.ApplyResources(this.actionRadioButton, "actionRadioButton");
             this.actionRadioButton.UseVisualStyleBackColor = true;
             this.actionRadioButton.CheckedChanged += new System.EventHandler(this.actionRadioButton_CheckedChanged);
             // 
@@ -185,7 +186,7 @@ namespace DemosCommonCode.Pdf
             this.editActionButton.Name = "editActionButton";
             this.editActionButton.Size = new System.Drawing.Size(89, 23);
             this.editActionButton.TabIndex = 17;
-            this.editActionButton.Text = "Edit Action...";
+            resources.ApplyResources(this.editActionButton, "editActionButton");
             this.editActionButton.UseVisualStyleBackColor = true;
             this.editActionButton.Click += new System.EventHandler(this.editActionButton_Click);
             // 
@@ -213,7 +214,7 @@ namespace DemosCommonCode.Pdf
             this.MinimizeBox = false;
             this.Name = "EditBookmarkNodeForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Bookmark";
+            resources.ApplyResources(this, "$this");
             ((System.ComponentModel.ISupportInitialize)(this.pageNumber)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -34,6 +34,7 @@ namespace DemosCommonCode.Imaging
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FindTextForm));
             this.findWhatLabel = new System.Windows.Forms.Label();
             this.findWhatComboBox = new System.Windows.Forms.ComboBox();
             this.lookInLabel = new System.Windows.Forms.Label();
@@ -54,7 +55,7 @@ namespace DemosCommonCode.Imaging
             this.findWhatLabel.Name = "findWhatLabel";
             this.findWhatLabel.Size = new System.Drawing.Size(62, 15);
             this.findWhatLabel.TabIndex = 0;
-            this.findWhatLabel.Text = "Find what:";
+            resources.ApplyResources(this.findWhatLabel, "findWhatLabel");
             // 
             // findWhatComboBox
             // 
@@ -72,15 +73,15 @@ namespace DemosCommonCode.Imaging
             this.lookInLabel.Name = "lookInLabel";
             this.lookInLabel.Size = new System.Drawing.Size(49, 15);
             this.lookInLabel.TabIndex = 2;
-            this.lookInLabel.Text = "Look in:";
+            resources.ApplyResources(this.lookInLabel, "lookInLabel");
             // 
             // lookInComboBox
             // 
             this.lookInComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.lookInComboBox.FormattingEnabled = true;
             this.lookInComboBox.Items.AddRange(new object[] {
-            "Current page",
-            "All pages"});
+            resources.GetString("lookInComboBox.Items"),
+            resources.GetString("lookInComboBox.Items1")});
             this.lookInComboBox.Location = new System.Drawing.Point(12, 65);
             this.lookInComboBox.Name = "lookInComboBox";
             this.lookInComboBox.Size = new System.Drawing.Size(294, 23);
@@ -96,7 +97,7 @@ namespace DemosCommonCode.Imaging
             this.findOptionsGroupBox.Size = new System.Drawing.Size(294, 88);
             this.findOptionsGroupBox.TabIndex = 4;
             this.findOptionsGroupBox.TabStop = false;
-            this.findOptionsGroupBox.Text = "Options";
+            resources.ApplyResources(this.findOptionsGroupBox, "findOptionsGroupBox");
             // 
             // regexCheckBox
             // 
@@ -105,7 +106,7 @@ namespace DemosCommonCode.Imaging
             this.regexCheckBox.Name = "regexCheckBox";
             this.regexCheckBox.Size = new System.Drawing.Size(149, 19);
             this.regexCheckBox.TabIndex = 2;
-            this.regexCheckBox.Text = "Use regular expressions";
+            resources.ApplyResources(this.regexCheckBox, "regexCheckBox");
             this.regexCheckBox.UseVisualStyleBackColor = true;
             // 
             // searchUpCheckBox
@@ -115,7 +116,7 @@ namespace DemosCommonCode.Imaging
             this.searchUpCheckBox.Name = "searchUpCheckBox";
             this.searchUpCheckBox.Size = new System.Drawing.Size(78, 19);
             this.searchUpCheckBox.TabIndex = 1;
-            this.searchUpCheckBox.Text = "Search up";
+            resources.ApplyResources(this.searchUpCheckBox, "searchUpCheckBox");
             this.searchUpCheckBox.UseVisualStyleBackColor = true;
             this.searchUpCheckBox.CheckedChanged += new System.EventHandler(this.searchUpCheckBox_CheckedChanged);
             // 
@@ -126,7 +127,7 @@ namespace DemosCommonCode.Imaging
             this.matchCaseCheckBox.Name = "matchCaseCheckBox";
             this.matchCaseCheckBox.Size = new System.Drawing.Size(86, 19);
             this.matchCaseCheckBox.TabIndex = 0;
-            this.matchCaseCheckBox.Text = "Match case";
+            resources.ApplyResources(this.matchCaseCheckBox, "matchCaseCheckBox");
             this.matchCaseCheckBox.UseVisualStyleBackColor = true;
             // 
             // findNextButton
@@ -136,7 +137,7 @@ namespace DemosCommonCode.Imaging
             this.findNextButton.Name = "findNextButton";
             this.findNextButton.Size = new System.Drawing.Size(95, 23);
             this.findNextButton.TabIndex = 5;
-            this.findNextButton.Text = "Find Next";
+            resources.ApplyResources(this.findNextButton, "findNextButton");
             this.findNextButton.UseVisualStyleBackColor = true;
             this.findNextButton.Click += new System.EventHandler(this.findNextButton_Click);
             // 
@@ -146,7 +147,7 @@ namespace DemosCommonCode.Imaging
             this.stopButton.Name = "stopButton";
             this.stopButton.Size = new System.Drawing.Size(95, 23);
             this.stopButton.TabIndex = 6;
-            this.stopButton.Text = "Stop";
+            resources.ApplyResources(this.stopButton, "stopButton");
             this.stopButton.UseVisualStyleBackColor = true;
             this.stopButton.Click += new System.EventHandler(this.stopButton_Click);
             // 
@@ -169,7 +170,7 @@ namespace DemosCommonCode.Imaging
             this.Name = "FindTextForm";
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Find text";
+            resources.ApplyResources(this, "$this");
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FindTextDialog_FormClosing);
             this.Shown += new System.EventHandler(this.FindTextDialog_Shown);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.FindTextDialog_KeyDown);

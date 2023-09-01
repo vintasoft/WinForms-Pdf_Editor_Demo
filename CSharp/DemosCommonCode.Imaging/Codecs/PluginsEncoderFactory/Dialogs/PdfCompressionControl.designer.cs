@@ -28,6 +28,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PdfCompressionControl));
             this.compressionJbig2RadioButton = new System.Windows.Forms.RadioButton();
             this.compressionCcittRadioButton = new System.Windows.Forms.RadioButton();
             this.compressionJpeg2000RadioButton = new System.Windows.Forms.RadioButton();
@@ -151,7 +152,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.groupBox3.Size = new System.Drawing.Size(345, 138);
             this.groupBox3.TabIndex = 27;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Compression of image resource";
+            resources.ApplyResources(this.groupBox3, "groupBox3");
             // 
             // binarizationGroupBox
             // 
@@ -163,7 +164,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.binarizationGroupBox.Size = new System.Drawing.Size(131, 68);
             this.binarizationGroupBox.TabIndex = 24;
             this.binarizationGroupBox.TabStop = false;
-            this.binarizationGroupBox.Text = "Binarization";
+            resources.ApplyResources(this.binarizationGroupBox, "binarizationGroupBox");
             // 
             // thresholdNumericUpDown
             // 
@@ -185,7 +186,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.thresholdLabel.Name = "thresholdLabel";
             this.thresholdLabel.Size = new System.Drawing.Size(59, 15);
             this.thresholdLabel.TabIndex = 1;
-            this.thresholdLabel.Text = "Threshold";
+            resources.ApplyResources(this.thresholdLabel, "thresholdLabel");
             // 
             // binarizationModeComboBox
             // 
@@ -216,7 +217,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.jpeg2000SettingsButton.Name = "jpeg2000SettingsButton";
             this.jpeg2000SettingsButton.Size = new System.Drawing.Size(120, 23);
             this.jpeg2000SettingsButton.TabIndex = 0;
-            this.jpeg2000SettingsButton.Text = "Settings...";
+            resources.ApplyResources(this.jpeg2000SettingsButton, "jpeg2000SettingsButton");
             this.jpeg2000SettingsButton.UseVisualStyleBackColor = true;
             this.jpeg2000SettingsButton.Click += new System.EventHandler(this.jpeg2000SettingsButton_Click);
             // 
@@ -239,7 +240,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.compressionAutoRadioButton.Size = new System.Drawing.Size(51, 19);
             this.compressionAutoRadioButton.TabIndex = 2;
             this.compressionAutoRadioButton.TabStop = true;
-            this.compressionAutoRadioButton.Text = "Auto";
+            resources.ApplyResources(this.compressionAutoRadioButton, "compressionAutoRadioButton");
             this.compressionAutoRadioButton.UseVisualStyleBackColor = true;
             this.compressionAutoRadioButton.CheckedChanged += new System.EventHandler(this.compressionRadioButton_CheckedChanged);
             // 
@@ -275,7 +276,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.jbig2UseGlobalsCheckBox.Name = "jbig2UseGlobalsCheckBox";
             this.jbig2UseGlobalsCheckBox.Size = new System.Drawing.Size(137, 19);
             this.jbig2UseGlobalsCheckBox.TabIndex = 9;
-            this.jbig2UseGlobalsCheckBox.Text = "Use global dictionary";
+            resources.ApplyResources(this.jbig2UseGlobalsCheckBox, "jbig2UseGlobalsCheckBox");
             this.jbig2UseGlobalsCheckBox.UseVisualStyleBackColor = true;
             this.jbig2UseGlobalsCheckBox.CheckedChanged += new System.EventHandler(this.jbig2UseGlobalsCheckBox_CheckedChanged);
             // 
@@ -287,7 +288,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.jbig2SettingsButton.Name = "jbig2SettingsButton";
             this.jbig2SettingsButton.Size = new System.Drawing.Size(120, 23);
             this.jbig2SettingsButton.TabIndex = 10;
-            this.jbig2SettingsButton.Text = "Settings...";
+            resources.ApplyResources(this.jbig2SettingsButton, "jbig2SettingsButton");
             this.jbig2SettingsButton.UseVisualStyleBackColor = true;
             this.jbig2SettingsButton.Click += new System.EventHandler(this.jbig2SettingsButton_Click);
             // 
@@ -310,7 +311,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(34, 15);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Level";
+            resources.ApplyResources(this.label2, "label2");
             // 
             // zipLevelNumericUpDown
             // 
@@ -383,7 +384,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(45, 15);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Quality";
+            resources.ApplyResources(this.label1, "label1");
             // 
             // PdfCompressionControl
             // 

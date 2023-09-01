@@ -188,7 +188,7 @@ namespace DemosCommonCode.Annotation
             // 
             this.replyToolStripMenuItem.Name = "replyToolStripMenuItem";
             this.replyToolStripMenuItem.Size = new System.Drawing.Size(226, 22);
-            this.replyToolStripMenuItem.Text = "Reply";
+            resources.ApplyResources(this.replyToolStripMenuItem, "replyToolStripMenuItem");
             this.replyToolStripMenuItem.Click += new System.EventHandler(this.replyToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
@@ -200,28 +200,28 @@ namespace DemosCommonCode.Annotation
             // 
             this.expandAllToolStripMenuItem.Name = "expandAllToolStripMenuItem";
             this.expandAllToolStripMenuItem.Size = new System.Drawing.Size(226, 22);
-            this.expandAllToolStripMenuItem.Text = "Expand All";
+            resources.ApplyResources(this.expandAllToolStripMenuItem, "expandAllToolStripMenuItem");
             this.expandAllToolStripMenuItem.Click += new System.EventHandler(this.expandAllToolStripMenuItem_Click);
             // 
             // collapseRepliesToolStripMenuItem
             // 
             this.collapseRepliesToolStripMenuItem.Name = "collapseRepliesToolStripMenuItem";
             this.collapseRepliesToolStripMenuItem.Size = new System.Drawing.Size(226, 22);
-            this.collapseRepliesToolStripMenuItem.Text = "Collapse Replies";
+            resources.ApplyResources(this.collapseRepliesToolStripMenuItem, "collapseRepliesToolStripMenuItem");
             this.collapseRepliesToolStripMenuItem.Click += new System.EventHandler(this.collapseRepliesToolStripMenuItem_Click);
             // 
             // resetLocationToolStripMenuItem
             // 
             this.resetLocationToolStripMenuItem.Name = "resetLocationToolStripMenuItem";
             this.resetLocationToolStripMenuItem.Size = new System.Drawing.Size(226, 22);
-            this.resetLocationToolStripMenuItem.Text = "Reset Location";
+            resources.ApplyResources(this.resetLocationToolStripMenuItem, "resetLocationToolStripMenuItem");
             this.resetLocationToolStripMenuItem.Click += new System.EventHandler(this.resetLocationToolStripMenuItem_Click);
             // 
             // collapseAllButThisToolStripMenuItem
             // 
             this.collapseAllButThisToolStripMenuItem.Name = "collapseAllButThisToolStripMenuItem";
             this.collapseAllButThisToolStripMenuItem.Size = new System.Drawing.Size(226, 22);
-            this.collapseAllButThisToolStripMenuItem.Text = "Collapse All But This";
+            resources.ApplyResources(this.collapseAllButThisToolStripMenuItem, "collapseAllButThisToolStripMenuItem");
             this.collapseAllButThisToolStripMenuItem.Click += new System.EventHandler(this.collapseAllButThisToolStripMenuItem_Click);
             // 
             // toolStripSeparator4
@@ -239,34 +239,34 @@ namespace DemosCommonCode.Annotation
             this.reviewNoneToolStripMenuItem});
             this.reviewToolStripMenuItem.Name = "reviewToolStripMenuItem";
             this.reviewToolStripMenuItem.Size = new System.Drawing.Size(226, 22);
-            this.reviewToolStripMenuItem.Text = "Set Status";
+            resources.ApplyResources(this.reviewToolStripMenuItem, "reviewToolStripMenuItem");
             // 
             // reviewAcceptedToolStripMenuItem
             // 
             this.reviewAcceptedToolStripMenuItem.Name = "reviewAcceptedToolStripMenuItem";
             this.reviewAcceptedToolStripMenuItem.Size = new System.Drawing.Size(133, 22);
-            this.reviewAcceptedToolStripMenuItem.Text = "Accepted";
+            resources.ApplyResources(this.reviewAcceptedToolStripMenuItem, "reviewAcceptedToolStripMenuItem");
             this.reviewAcceptedToolStripMenuItem.Click += new System.EventHandler(this.setStateToolStripMenuItem_Click);
             // 
             // reviewCompletedToolStripMenuItem
             // 
             this.reviewCompletedToolStripMenuItem.Name = "reviewCompletedToolStripMenuItem";
             this.reviewCompletedToolStripMenuItem.Size = new System.Drawing.Size(133, 22);
-            this.reviewCompletedToolStripMenuItem.Text = "Completed";
+            resources.ApplyResources(this.reviewCompletedToolStripMenuItem, "reviewCompletedToolStripMenuItem");
             this.reviewCompletedToolStripMenuItem.Click += new System.EventHandler(this.setStateToolStripMenuItem_Click);
             // 
             // reviewRejectedToolStripMenuItem
             // 
             this.reviewRejectedToolStripMenuItem.Name = "reviewRejectedToolStripMenuItem";
             this.reviewRejectedToolStripMenuItem.Size = new System.Drawing.Size(133, 22);
-            this.reviewRejectedToolStripMenuItem.Text = "Rejected";
+            resources.ApplyResources(this.reviewRejectedToolStripMenuItem, "reviewRejectedToolStripMenuItem");
             this.reviewRejectedToolStripMenuItem.Click += new System.EventHandler(this.setStateToolStripMenuItem_Click);
             // 
             // reviewCancelledToolStripMenuItem
             // 
             this.reviewCancelledToolStripMenuItem.Name = "reviewCancelledToolStripMenuItem";
             this.reviewCancelledToolStripMenuItem.Size = new System.Drawing.Size(133, 22);
-            this.reviewCancelledToolStripMenuItem.Text = "Cancelled";
+            resources.ApplyResources(this.reviewCancelledToolStripMenuItem, "reviewCancelledToolStripMenuItem");
             this.reviewCancelledToolStripMenuItem.Click += new System.EventHandler(this.setStateToolStripMenuItem_Click);
             // 
             // reviewNoneToolStripMenuItem
@@ -280,7 +280,7 @@ namespace DemosCommonCode.Annotation
             // 
             this.stateHistoryToolStripMenuItem.Name = "stateHistoryToolStripMenuItem";
             this.stateHistoryToolStripMenuItem.Size = new System.Drawing.Size(226, 22);
-            this.stateHistoryToolStripMenuItem.Text = "State History...";
+            resources.ApplyResources(this.stateHistoryToolStripMenuItem, "stateHistoryToolStripMenuItem");
             this.stateHistoryToolStripMenuItem.Click += new System.EventHandler(this.stateHistoryToolStripMenuItem_Click);
             // 
             // showStateHistoryToolStripMenuItem
@@ -288,7 +288,7 @@ namespace DemosCommonCode.Annotation
             this.showStateHistoryToolStripMenuItem.CheckOnClick = true;
             this.showStateHistoryToolStripMenuItem.Name = "showStateHistoryToolStripMenuItem";
             this.showStateHistoryToolStripMenuItem.Size = new System.Drawing.Size(226, 22);
-            this.showStateHistoryToolStripMenuItem.Text = "Show State History In Replies";
+            resources.ApplyResources(this.showStateHistoryToolStripMenuItem, "showStateHistoryToolStripMenuItem");
             this.showStateHistoryToolStripMenuItem.CheckedChanged += new System.EventHandler(this.showStateHistoryToolStripMenuItem_CheckedChanged);
             // 
             // toolStripSeparator3
@@ -300,7 +300,7 @@ namespace DemosCommonCode.Annotation
             // 
             this.removeToolStripMenuItem.Name = "removeToolStripMenuItem";
             this.removeToolStripMenuItem.Size = new System.Drawing.Size(226, 22);
-            this.removeToolStripMenuItem.Text = "Remove";
+            resources.ApplyResources(this.removeToolStripMenuItem, "removeToolStripMenuItem");
             this.removeToolStripMenuItem.Click += new System.EventHandler(this.removeToolStripMenuItem_Click);
             // 
             // toolStripSeparator2
@@ -312,7 +312,7 @@ namespace DemosCommonCode.Annotation
             // 
             this.propertiesToolStripMenuItem.Name = "propertiesToolStripMenuItem";
             this.propertiesToolStripMenuItem.Size = new System.Drawing.Size(226, 22);
-            this.propertiesToolStripMenuItem.Text = "Properties...";
+            resources.ApplyResources(this.propertiesToolStripMenuItem, "propertiesToolStripMenuItem");
             this.propertiesToolStripMenuItem.Click += new System.EventHandler(this.propertiesToolStripMenuItem_Click);
             // 
             // nameLabel

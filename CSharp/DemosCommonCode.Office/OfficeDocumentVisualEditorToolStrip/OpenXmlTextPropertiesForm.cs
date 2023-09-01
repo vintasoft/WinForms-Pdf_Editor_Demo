@@ -298,12 +298,12 @@ namespace DemosCommonCode.Office
                 _textProperties.Highlight = (OpenXmlTextHighlightType)textHighlightComboBox.SelectedItem;
 
                 float characterHorizontalScaling;
-                if (!DemosTools.ParseFloat(horizontalScaleComboBox.Text, "Character Horizontal Scaling", out characterHorizontalScaling))
+                if (!DemosTools.ParseFloat(horizontalScaleComboBox.Text, PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_OFFICE_CHARACTER_HORIZONTAL_SCALING, out characterHorizontalScaling))
                     return false;
                 _textProperties.CharacterHorizontalScaling = characterHorizontalScaling;
 
                 float characterSpacing;
-                if (!DemosTools.ParseFloat(characterSpacingComboBox.Text, "Character Spacing", out characterSpacing))
+                if (!DemosTools.ParseFloat(characterSpacingComboBox.Text, PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_OFFICE_CHARACTER_SPACING, out characterSpacing))
                     return false;
                 _textProperties.CharacterSpacing = characterSpacing;
 

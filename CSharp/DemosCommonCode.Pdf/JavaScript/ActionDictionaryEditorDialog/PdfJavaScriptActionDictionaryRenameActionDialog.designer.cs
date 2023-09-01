@@ -28,6 +28,7 @@ namespace DemosCommonCode.Pdf.JavaScript
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PdfJavaScriptActionDictionaryRenameActionDialog));
             this.messageLabel = new System.Windows.Forms.Label();
             this.textBox = new System.Windows.Forms.TextBox();
             this.okButton = new System.Windows.Forms.Button();
@@ -71,7 +72,7 @@ namespace DemosCommonCode.Pdf.JavaScript
             this.cancelButton1.Name = "cancelButton1";
             this.cancelButton1.Size = new System.Drawing.Size(75, 23);
             this.cancelButton1.TabIndex = 3;
-            this.cancelButton1.Text = "Cancel";
+            resources.ApplyResources(this.cancelButton1, "cancelButton1");
             this.cancelButton1.UseVisualStyleBackColor = true;
             // 
             // PdfJavaScriptActionDictionaryRenameActionDialog

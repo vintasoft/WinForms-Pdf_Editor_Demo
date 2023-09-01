@@ -169,10 +169,10 @@ namespace DemosCommonCode.Pdf
             if (configuration.AutoStates != null)
             {
                 // the message
-                string message = "Optional content configuration has auto states. To change layers order, auto states should be deleted.\n" +
-                    "Delete auto states?\nPress 'Yes' to delete auto states.";
+                string message = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_OPTIONAL_CONTENT_CONFIGURATION_HAS_AUTO_STATES_TO_CHANGE_LAYERS_ORDER_AUTO_STATES_SHOULD_BE_DELETEDRN +
+                    PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_DELETE_AUTO_STATESRNPRESS_YES_TO_DELETE_AUTO_STATES;
                 // if auto states must be deleted
-                if (MessageBox.Show(message, "Info", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                if (MessageBox.Show(message, PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_INFO, MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                 {
                     // delete auto states
                     configuration.AutoStates = null;
@@ -199,7 +199,7 @@ namespace DemosCommonCode.Pdf
             if (name == "")
             {
                 // set predefined name for configuration
-                name = "(no name)";
+                name = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_NO_NAME;
             }
             // add configuration to the cofiguration combo box
             configurationsComboBox.Items.Add(name);

@@ -280,4 +280,61 @@
   <metadata name="imageViewerContextMenuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <data name="imageViewerRemoveAllToolStripMenuItem.Text" xml:space="preserve">
+    <value>Remove All</value>
+  </data>
+  <data name="imageViewerPasteToolStripMenuItem.Text" xml:space="preserve">
+    <value>Paste</value>
+  </data>
+  <data name="redactionMarkAppearancePropertiesToolStripButton.Text" xml:space="preserve">
+    <value>Redaction Mark Appearance...</value>
+  </data>
+  <data name="deleteSelectedRedactionMarkToolStripButton.Text" xml:space="preserve">
+    <value>Delete Selected Redaction Mark</value>
+  </data>
+  <data name="markSelectedPagesFrmRedactionToolStripButton.Text" xml:space="preserve">
+    <value>Mark Selected Pages for Redaction</value>
+  </data>
+  <data name="applyRedactionMarksToolStripButton.Text" xml:space="preserve">
+    <value>Apply Redaction Marks</value>
+  </data>
+  <data name="showPackDialogAfterMarkAppliesCheckBox.Text" xml:space="preserve">
+    <value>Show Pack Dialog after Mark Applied</value>
+  </data>
+  <data name="deleteToolStripMenuItem.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="pasteToolStripMenuItem.Text" xml:space="preserve">
+    <value>Paste</value>
+  </data>
+  <data name="copyToolStripMenuItem.Text" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="cutToolStripMenuItem.Text" xml:space="preserve">
+    <value>Cut</value>
+  </data>
+  <data name="removeSelectedPageToolStripButton.Text" xml:space="preserve">
+    <value>Remove Selected Page</value>
+  </data>
+  <data name="removeAnnotationsToolStripButton.Text" xml:space="preserve">
+    <value>Remove Annotations</value>
+  </data>
+  <data name="removeVectorGraphicsToolStripButton.Text" xml:space="preserve">
+    <value>Remove Vector Graphics</value>
+  </data>
+  <data name="removeTextToolStripButton.Text" xml:space="preserve">
+    <value>Remove Text</value>
+  </data>
+  <data name="removeRasterGraphicsToolStripButton.Text" xml:space="preserve">
+    <value>Remove Raster Graphics</value>
+  </data>
+  <data name="removeAllToolStripButton.Text" xml:space="preserve">
+    <value>Remove All</value>
+  </data>
+  <data name="addRedactionMarkGroupBox.Text" xml:space="preserve">
+    <value>Add Redaction Mark</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </metadata>
 </root>

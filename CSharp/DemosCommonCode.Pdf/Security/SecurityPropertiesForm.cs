@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Windows.Forms;
 
 using Vintasoft.Imaging.Pdf;
@@ -45,9 +45,9 @@ namespace DemosCommonCode.Pdf.Security
                 authorizationResultLabel.Text = document.AuthorizationResult.ToString();
 
                 if (document.EncryptionSystem.ContainsUserPassword)
-                    userPasswordLabel.Text = "Yes";
+                    userPasswordLabel.Text = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_YES;
                 if (document.EncryptionSystem.ContainsOwnerPassword)
-                    ownerPasswordLabel.Text = "Yes";
+                    ownerPasswordLabel.Text = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_YES_ALT1;
 
 
                 // get the user access permissions
@@ -80,14 +80,14 @@ namespace DemosCommonCode.Pdf.Security
                 else
                 {
                     if ((permissions & UserAccessPermissions.PrintDocumentInHighResolution) == 0)
-                        printingLabel.Text += " (Low Resolution)";
+                        printingLabel.Text += PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY__LOW_RESOLUTION;
                     else
-                        printingLabel.Text += " (High Resolution)";
+                        printingLabel.Text += PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY__HIGH_RESOLUTION;
                 }
             }
             else
             {
-                encryptionLabel.Text = "No Encryption";
+                encryptionLabel.Text = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_NO_ENCRYPTION;
 
                 compatibilityModeLabel.Text = "";
             }

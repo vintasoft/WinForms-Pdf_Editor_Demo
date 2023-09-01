@@ -57,4 +57,22 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="resultTabPage.Text" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="executeButton.Text" xml:space="preserve">
+    <value>Execute</value>
+  </data>
+  <data name="showResultsAfretExecuteCheckBox.Text" xml:space="preserve">
+    <value>Open results after execute</value>
+  </data>
+  <data name="viewProcessingTreeStructureCheckBox.Text" xml:space="preserve">
+    <value>View Processing Tree Structure</value>
+  </data>
+  <data name="processingTabPage.Text" xml:space="preserve">
+    <value>Processing</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </metadata>
 </root>

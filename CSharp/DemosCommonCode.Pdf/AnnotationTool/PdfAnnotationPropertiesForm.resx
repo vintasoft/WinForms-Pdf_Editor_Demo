@@ -117,4 +117,61 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="$this.Text" xml:space="preserve">
+    <value>PDF Annotation Properties</value>
+  </data>
+  <data name="advancedTabPage.Text" xml:space="preserve">
+    <value>Advanced</value>
+  </data>
+  <data name="propertiesTabPage.Text" xml:space="preserve">
+    <value>Properties</value>
+  </data>
+  <data name="refreshAnnotationCheckBox.Text" xml:space="preserve">
+    <value>Refresh Annotation</value>
+  </data>
+  <data name="updateAnnotationAppearanceCheckBox.Text" xml:space="preserve">
+    <value>Update Annotation Appearance</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>OnPropertyChanged</value>
+  </data>
+  <data name="appearanceGeneratorFontButton.Text" xml:space="preserve">
+    <value>Font...</value>
+  </data>
+  <data name="appearanceGeneratorGroupBox.Text" xml:space="preserve">
+    <value>&amp;lt;TEXT&amp;gt;</value>
+  </data>
+  <data name="appearanceGeneratorTabPage.Text" xml:space="preserve">
+    <value>Appearance Generator</value>
+  </data>
+  <data name="annotationsTriggersTabPage.Text" xml:space="preserve">
+    <value>Actions</value>
+  </data>
+  <data name="annotationPropertiesTabPage.Text" xml:space="preserve">
+    <value>Properties</value>
+  </data>
+  <data name="annotationFontButton.Text" xml:space="preserve">
+    <value>Font...</value>
+  </data>
+  <data name="annotationTabPage.Text" xml:space="preserve">
+    <value>Annotation</value>
+  </data>
+  <data name="fieldTriggersTtabPage.Text" xml:space="preserve">
+    <value>Actions</value>
+  </data>
+  <data name="fieldPropertiesTabPage.Text" xml:space="preserve">
+    <value>Properties</value>
+  </data>
+  <data name="fieldFontButton.Text" xml:space="preserve">
+    <value>Font...</value>
+  </data>
+  <data name="fieldTabPage.Text" xml:space="preserve">
+    <value>Field</value>
+  </data>
+  <data name="closeButton.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </metadata>
 </root>

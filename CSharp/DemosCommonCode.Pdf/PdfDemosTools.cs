@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
@@ -87,7 +87,7 @@ namespace DemosCommonCode.Pdf
             }
             if (!result)
             {
-                DemosTools.ShowWarningMessage("One or several pages are not saved in current PDF document. Save document and try again.");
+                DemosTools.ShowWarningMessage(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_ONE_OR_SEVERAL_PAGES_ARE_NOT_SAVED_IN_CURRENT_PDF_DOCUMENT_SAVE_DOCUMENT_AND_TRY_AGAIN);
             }
             return result;
         }        
@@ -173,19 +173,19 @@ namespace DemosCommonCode.Pdf
             {
                 if (suggestToCreateDocumentInformationDictionary)
                 {
-                    if (MessageBox.Show("Document does not have the Information Dictionary. Do you want to create the Information Dictionary?", "", MessageBoxButtons.YesNo) == DialogResult.No)
+                    if (MessageBox.Show(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_DOCUMENT_DOES_NOT_HAVE_THE_INFORMATION_DICTIONARY_DO_YOU_WANT_TO_CREATE_THE_INFORMATION_DICTIONARY, "", MessageBoxButtons.YesNo) == DialogResult.No)
                         return;
                 }
                 else
                 {
-                    DemosTools.ShowInfoMessage("Document does not have Information Dictionary.");
+                    DemosTools.ShowInfoMessage(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_DOCUMENT_DOES_NOT_HAVE_INFORMATION_DICTIONARY);
                     return;
                 }
             }
 
             try
             {
-                using (PropertyGridForm dialog = new PropertyGridForm(document.DocumentInformation, "Document Information"))
+                using (PropertyGridForm dialog = new PropertyGridForm(document.DocumentInformation, PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_DOCUMENT_INFORMATION))
                 {
                     if (propertyValueChangedEventHandler != null)
                         dialog.PropertyGrid.PropertyValueChanged += propertyValueChangedEventHandler;
@@ -265,11 +265,11 @@ namespace DemosCommonCode.Pdf
             PdfWidgetAnnotation widgetAnnotation = annotation as PdfWidgetAnnotation;
             if (widgetAnnotation != null)
             {
-                return string.Format("Form field: {0} ({1})",
+                return string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_FORM_FIELD_ARG0_ARG1,
                     widgetAnnotation.Field.FullyQualifiedName,
                     widgetAnnotation.Field.GetType().Name);
             }
-            return string.Format("{0} annotation", annotation.AnnotationType);
+            return string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_ARG0_ANNOTATION, annotation.AnnotationType);
         }
 
         #endregion

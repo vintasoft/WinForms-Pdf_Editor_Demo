@@ -962,8 +962,8 @@ namespace PdfEditorDemo
             PdfActionExecutorManager.Initialize(
                 imageViewer1,
                 _annotationTool,
-                new PdfViewerNamedAction("Print", Print),
-                new PdfViewerNamedAction("SaveAs", SavePdfDocumentAs));
+                new PdfViewerNamedAction(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_PRINT, Print),
+                new PdfViewerNamedAction(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_SAVEAS, SavePdfDocumentAs));
 
             PdfDocumentLevelActionsExecutor documentLevelActionsExecutor;
             if (PdfJavaScriptManager.JsApp != null)
@@ -991,8 +991,8 @@ namespace PdfEditorDemo
 
             VisualToolAction textSelectionAndFillFormsAction = new VisualToolAction(
                 _defaultAnnotationTool,
-                "Text Selection / Commentation / Fill Forms",
-                "Text Selection, Navigation, Commentation, Fill Forms",
+                PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_TEXT_SELECTION_COMMENTATION_FILL_FORMS,
+                PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_TEXT_SELECTION_NAVIGATION_COMMENTATION_FILL_FORMS,
                 DemosResourcesManager.GetResourceAsBitmap("TextSelectionFillForms.png"));
             textSelectionAndFillFormsAction.Activated += new EventHandler(TextSelectionAndFillFormsAction_Executed);
             visualToolsToolStrip1.AddAction(textSelectionAndFillFormsAction);
@@ -1000,22 +1000,22 @@ namespace PdfEditorDemo
 
             VisualToolAction textSelectionAction = new VisualToolAction(
                 _textSelectionTool,
-                "Text Selection",
-                "Text Selection",
+                PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_TEXT_SELECTION,
+                PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_TEXT_SELECTION_ALT1,
                 DemosResourcesManager.GetResourceAsBitmap("TextExtraction.png"));
             textSelectionAction.Activated += new EventHandler(TextSelectionAction_Executed);
             visualToolsToolStrip1.AddAction(textSelectionAction);
 
 
             VisualToolAction annotationToolEditAnnotationsAction = new VisualToolAction(
-                "Edit Annotations",
-                "Edit Annotations",
+                PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_EDIT_ANNOTATIONS,
+                PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_EDIT_ANNOTATIONS_ALT1,
                 null,
                 false);
             annotationToolEditAnnotationsAction.Clicked += new EventHandler(annotationToolEditAnnotationsAction_Clicked);
             VisualToolAction annotationToolEditFormFieldsAction = new VisualToolAction(
-                "Edit Form Fields",
-                "Edit Interctive Form Fields",
+                PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_EDIT_FORM_FIELDS,
+                PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_EDIT_INTERCTIVE_FORM_FIELDS,
                 null,
                 false);
             annotationToolEditFormFieldsAction.Clicked += new EventHandler(annotationToolEditFormFieldsAction_Clicked);
@@ -1025,8 +1025,8 @@ namespace PdfEditorDemo
                 new Vintasoft.Imaging.Office.OpenXml.UI.VisualTools.UserInteraction.OfficeDocumentVisualEditorTextTool(),
 #endif
                     _annotationTool),
-                "Interactive Forms / Annotations",
-                "Edit Interactive Forms and Annotations",
+                PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_INTERACTIVE_FORMS_ANNOTATIONS,
+                PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_EDIT_INTERACTIVE_FORMS_AND_ANNOTATIONS,
                 DemosResourcesManager.GetResourceAsBitmap("EditInteractiveForms.png"),
                 annotationToolEditAnnotationsAction,
                 annotationToolEditFormFieldsAction);
@@ -1036,24 +1036,24 @@ namespace PdfEditorDemo
 #if !REMOVE_PDFVISUALEDITOR_PLUGIN
             VisualToolAction contentEditorToolAction = new VisualToolAction(
                _contentEditorToolComposition,
-               "Content Editor",
-               "Edit Page Content",
+               PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_CONTENT_EDITOR,
+               PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_EDIT_PAGE_CONTENT,
                DemosResourcesManager.GetResourceAsBitmap("ContentEditor.png"));
             contentEditorToolAction.Activated += new EventHandler(ContentEditorToolAction_Executed);
             visualToolsToolStrip1.AddAction(contentEditorToolAction);
 
             VisualToolAction removeContentToolAction = new VisualToolAction(
                _redactionTool,
-               "Remove Content",
-               "Remove Content & Black Out",
+               PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_REMOVE_CONTENT,
+               PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_REMOVE_CONTENT_BLACK_OUT,
                DemosResourcesManager.GetResourceAsBitmap("RemoveContent.png"));
             removeContentToolAction.Activated += new EventHandler(RemoveContentToolAction_Executed);
             visualToolsToolStrip1.AddAction(removeContentToolAction);
 
             VisualToolAction cropSelectionToolAction = new VisualToolAction(
                _cropSelectionTool,
-               "Crop Selection",
-               "Crop Selection",
+               PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_CROP_SELECTION,
+               PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_CROP_SELECTION_ALT1,
                DemosResourcesManager.GetResourceAsBitmap("CropSelection.png"));
             visualToolsToolStrip1.AddAction(cropSelectionToolAction);
 #endif
@@ -1063,8 +1063,8 @@ namespace PdfEditorDemo
 
             VisualToolAction highlightTextToolAction = new VisualToolAction(
                _defaultAnnotationTool,
-               "Highlight Text",
-               "Markup text using Highlight text markup annotation",
+               PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_HIGHLIGHT_TEXT,
+               PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_MARKUP_TEXT_USING_HIGHLIGHT_TEXT_MARKUP_ANNOTATION,
                DemosResourcesManager.GetResourceAsBitmap(string.Format(annotationResourceNameFormatString, "Highlight")));
             visualToolsToolStrip1.AddAction(highlightTextToolAction);
             highlightTextToolAction.Activated += HighlightTextToolAction_Activated;
@@ -1073,8 +1073,8 @@ namespace PdfEditorDemo
 
             VisualToolAction strikeoutTextToolAction = new VisualToolAction(
                _defaultAnnotationTool,
-               "Strikeout Text",
-               "Markup text using Strikeout text markup annotation",
+               PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_STRIKEOUT_TEXT,
+               PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_MARKUP_TEXT_USING_STRIKEOUT_TEXT_MARKUP_ANNOTATION,
                DemosResourcesManager.GetResourceAsBitmap(string.Format(annotationResourceNameFormatString, "Strikeout")));
             visualToolsToolStrip1.AddAction(strikeoutTextToolAction);
             strikeoutTextToolAction.Activated += StrikeoutTextToolAction_Activated;
@@ -1083,8 +1083,8 @@ namespace PdfEditorDemo
 
             VisualToolAction underlineTextToolAction = new VisualToolAction(
                _defaultAnnotationTool,
-               "Underline Text",
-               "Markup text using Underline text markup annotation",
+               PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_UNDERLINE_TEXT,
+               PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_MARKUP_TEXT_USING_UNDERLINE_TEXT_MARKUP_ANNOTATION,
                DemosResourcesManager.GetResourceAsBitmap(string.Format(annotationResourceNameFormatString, "Underline")));
             visualToolsToolStrip1.AddAction(underlineTextToolAction);
             underlineTextToolAction.Activated += UnderlineTextToolAction_Activated;
@@ -1093,8 +1093,8 @@ namespace PdfEditorDemo
 
             VisualToolAction squigglyTextToolAction = new VisualToolAction(
               _defaultAnnotationTool,
-              "Squiggly Underline Text",
-              "Markup text using Squiggly underline text markup annotation",
+              PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_SQUIGGLY_UNDERLINE_TEXT,
+              PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_MARKUP_TEXT_USING_SQUIGGLY_UNDERLINE_TEXT_MARKUP_ANNOTATION,
               DemosResourcesManager.GetResourceAsBitmap(string.Format(annotationResourceNameFormatString, "Squiggly")));
             visualToolsToolStrip1.AddAction(squigglyTextToolAction);
             squigglyTextToolAction.Activated += SquigglyTextToolAction_Activated;
@@ -1103,8 +1103,8 @@ namespace PdfEditorDemo
 
             VisualToolAction caretTextToolAction = new VisualToolAction(
               _defaultAnnotationTool,
-              "Insert Text Caret Annotation",
-              "Insert Text Caret Annotation under cursor position",
+              PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_INSERT_TEXT_CARET_ANNOTATION,
+              PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_INSERT_TEXT_CARET_ANNOTATION_UNDER_CURSOR_POSITION,
               DemosResourcesManager.GetResourceAsBitmap(string.Format(annotationResourceNameFormatString, "Caret")));
             visualToolsToolStrip1.AddAction(caretTextToolAction);
             caretTextToolAction.Activated += CaretTextToolAction_Activated;
@@ -1289,7 +1289,7 @@ namespace PdfEditorDemo
                 if (_document.HasDocumentInformation && _document.DocumentInformation.Title != "")
                     title = string.Format("{0} ({1})", _document.DocumentInformation.Title, title);
                 if (_document.IsEncrypted)
-                    title += " (SECURED)";
+                    title += PdfEditorDemo.Localization.Strings.PDFEDITORDEMO__SECURED;
                 if (_isDocumentChanged)
                     title += "*";
                 Text = string.Format(_titleFormatString, "- " + title);
@@ -1314,7 +1314,7 @@ namespace PdfEditorDemo
             string resolutionString;
             if (imageViewer1.Image.IsBad)
             {
-                pageInfoLabel.Text = "Bad image!";
+                pageInfoLabel.Text = PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_BAD_IMAGE;
             }
             else
             {
@@ -1322,9 +1322,9 @@ namespace PdfEditorDemo
                     resolutionString = resolution.Horizontal.ToString();
                 else
                     resolutionString = string.Format("{0}x{1}", resolution.Horizontal, resolution.Vertical);
-                pageInfoLabel.Text = string.Format("Resolution: {0} DPI; Size: {1}x{2} px", resolutionString, imageViewer1.Image.Width, imageViewer1.Image.Height);
+                pageInfoLabel.Text = string.Format(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_RESOLUTION_ARG0_DPI_SIZE_ARG1XARG2_PX, resolutionString, imageViewer1.Image.Width, imageViewer1.Image.Height);
                 if (imageViewer1.Image.LoadingError)
-                    pageInfoLabel.Text = string.Format("[Loading error: {0}] {1}", imageViewer1.Image.LoadingErrorString, pageInfoLabel.Text);
+                    pageInfoLabel.Text = string.Format(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_LOADING_ERROR_ARG0_ARG1, imageViewer1.Image.LoadingErrorString, pageInfoLabel.Text);
             }
         }
 
@@ -1369,7 +1369,7 @@ namespace PdfEditorDemo
             IsPdfFileOpening = true;
             try
             {
-                if (!CreateNewPdfDocument(PdfFormat.Pdf_17, "Save Portfolio As"))
+                if (!CreateNewPdfDocument(PdfFormat.Pdf_17, PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_SAVE_PORTFOLIO_AS))
                     return;
                 documentFilename = _pdfFileName;
             }
@@ -1380,7 +1380,7 @@ namespace PdfEditorDemo
             FolderBrowserDialog openFolder = new FolderBrowserDialog();
             openFolder.ShowNewFolderButton = false;
             openFolder.SelectedPath = Path.GetDirectoryName(documentFilename);
-            openFolder.Description = "Select root path from which files and folders will be imported to Portfolio.";
+            openFolder.Description = PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_SELECT_ROOT_PATH_FROM_WHICH_FILES_AND_FOLDERS_WILL_BE_IMPORTED_TO_PORTFOLIO;
             if (openFolder.ShowDialog() == DialogResult.OK)
             {
                 // add page to document
@@ -1396,7 +1396,7 @@ namespace PdfEditorDemo
                     textBox.Size = page.MediaBox.Size;
                     textBox.TextAlignment = PdfContentAlignment.Top | PdfContentAlignment.Left | PdfContentAlignment.Right;
                     textBox.TextBrush = new PdfBrush(Color.Black);
-                    textBox.Text = "This document is Portfolio\n(Attachment Collection)\nTo view Portfolio you should use PDF viewer compatible with PDF 1.7 ExtensionLevel 3.";
+                    textBox.Text = PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_THIS_DOCUMENT_IS_PORTFOLIORNATTACHMENT_COLLECTIONRNTO_VIEW_PORTFOLIO_YOU_SHOULD_USE_PDF_VIEWER_COMPATIBLE_WITH_PDF_17_EXTENSIONLEVEL_3;
                     textBox.Draw(g);
                 }
 
@@ -1418,7 +1418,7 @@ namespace PdfEditorDemo
                 // add files and folders to portfolio
                 StatusStripActionController actionController =
                     new StatusStripActionController(mainStatusStrip, statusLabel, progressBar);
-                actionController.StartAction("Add files to portfolio");
+                actionController.StartAction(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_ADD_FILES_TO_PORTFOLIO);
                 AddPathRecursively(_document.Attachments.RootFolder, openFolder.SelectedPath, false, PdfCompression.None, actionController);
                 actionController.EndAction();
 
@@ -1478,7 +1478,7 @@ namespace PdfEditorDemo
             {
                 if (openImageFileDialog.ShowDialog() == DialogResult.OK)
                 {
-                    StartAction("Add pages", false);
+                    StartAction(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_ADD_PAGES, false);
                     try
                     {
                         for (int i = 0; i < openImageFileDialog.FileNames.Length; i++)
@@ -1596,7 +1596,7 @@ namespace PdfEditorDemo
                         // create a dialog that allows to view the PDF generator
                         using (ProcessingCommandForm<ImageCollection> dialog = new ProcessingCommandForm<ImageCollection>(imageViewer1.Images, pdfGenerator))
                         {
-                            dialog.Text = "Add searchable PDF pages";
+                            dialog.Text = PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_ADD_SEARCHABLE_PDF_PAGES;
 
                             // process images (cleanup and recognize) and add results to imageViewer1.Images
                             dialog.ShowDialog();
@@ -1681,7 +1681,7 @@ namespace PdfEditorDemo
         {
             if (openPdfFileDialog.ShowDialog() == DialogResult.OK)
             {
-                if (MessageBox.Show("Current document will be saved automatically. Continue?", "Add PDF document", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                if (MessageBox.Show(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_CURRENT_DOCUMENT_WILL_BE_SAVED_AUTOMATICALLY_CONTINUE, PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_ADD_PDF_DOCUMENT, MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                 {
                     IsPdfFileOpening = true;
                     try
@@ -1806,7 +1806,7 @@ namespace PdfEditorDemo
         /// </summary>
         private void convertToTiffToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            convertToFileDialog.Filter = "TIFF Files|*.tif";
+            convertToFileDialog.Filter = PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_TIFF_FILESTIF;
 
             if (convertToFileDialog.ShowDialog() == DialogResult.OK)
             {
@@ -1826,7 +1826,7 @@ namespace PdfEditorDemo
                         tiffEncoder.SaveAndSwitchSource = false;
 
                         // start the 'Convert to SVG" action
-                        StartAction("Convert to TIFF", true);
+                        StartAction(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_CONVERT_TO_TIFF, true);
 
                         // start the asynchronous saving of PDF document to a TIFF file
                         imageViewer1.Images.SaveAsync(convertToFileDialog.FileName, tiffEncoder);
@@ -1840,7 +1840,7 @@ namespace PdfEditorDemo
         /// </summary>
         private void convertToSvgToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            convertToFileDialog.Filter = "SVG Files|*.svg";
+            convertToFileDialog.Filter = PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_SVG_FILESSVG;
 
             if (convertToFileDialog.ShowDialog() == DialogResult.OK)
             {
@@ -1860,7 +1860,7 @@ namespace PdfEditorDemo
                         svgEncoder.SaveAndSwitchSource = false;
 
                         // start the 'Convert to SVG" action
-                        StartAction("Convert to SVG", true);
+                        StartAction(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_CONVERT_TO_SVG, true);
 
                         // convert PDF document to SVG files in background thread
                         Thread savingThread = new Thread(new ParameterizedThreadStart(ConvertPdfDocumentToSvgFilesThread));
@@ -2039,24 +2039,24 @@ namespace PdfEditorDemo
         {
             if (thumbnailViewer1.Focused)
             {
-                UpdateEditMenuItem(cutToolStripMenuItem, null, "Cut");
-                UpdateEditMenuItem(copyToolStripMenuItem, null, "Copy");
-                UpdateEditMenuItem(pasteToolStripMenuItem, null, "Paste");
+                UpdateEditMenuItem(cutToolStripMenuItem, null, PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_CUT);
+                UpdateEditMenuItem(copyToolStripMenuItem, null, PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_COPY);
+                UpdateEditMenuItem(pasteToolStripMenuItem, null, PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_PASTE);
                 deleteToolStripMenuItem.Enabled = true;
-                deleteToolStripMenuItem.Text = "Delete Page(s)";
+                deleteToolStripMenuItem.Text = PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_DELETE_PAGES;
                 selectAllToolStripMenuItem.Enabled = true;
-                selectAllToolStripMenuItem.Text = "Select All Pages";
+                selectAllToolStripMenuItem.Text = PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_SELECT_ALL_PAGES;
                 deselectAllToolStripMenuItem.Enabled = false;
-                deselectAllToolStripMenuItem.Text = "Deselect All";
+                deselectAllToolStripMenuItem.Text = PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_DESELECT_ALL;
             }
             else
             {
-                UpdateEditMenuItem(cutToolStripMenuItem, PdfDemosTools.GetUIAction<CutItemUIAction>(CurrentTool), "Cut");
-                UpdateEditMenuItem(copyToolStripMenuItem, PdfDemosTools.GetUIAction<CopyItemUIAction>(CurrentTool), "Copy");
-                UpdateEditMenuItem(pasteToolStripMenuItem, PdfDemosTools.GetUIAction<PasteItemUIAction>(CurrentTool), "Paste");
-                UpdateEditMenuItem(deleteToolStripMenuItem, PdfDemosTools.GetUIAction<DeleteItemUIAction>(CurrentTool), "Delete");
-                UpdateEditMenuItem(selectAllToolStripMenuItem, PdfDemosTools.GetUIAction<SelectAllItemsUIAction>(CurrentTool), "Select All");
-                UpdateEditMenuItem(deselectAllToolStripMenuItem, PdfDemosTools.GetUIAction<DeselectAllItemsUIAction>(CurrentTool), "Deselect All");
+                UpdateEditMenuItem(cutToolStripMenuItem, PdfDemosTools.GetUIAction<CutItemUIAction>(CurrentTool), PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_CUT_ALT1);
+                UpdateEditMenuItem(copyToolStripMenuItem, PdfDemosTools.GetUIAction<CopyItemUIAction>(CurrentTool), PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_COPY_ALT1);
+                UpdateEditMenuItem(pasteToolStripMenuItem, PdfDemosTools.GetUIAction<PasteItemUIAction>(CurrentTool), PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_PASTE_ALT1);
+                UpdateEditMenuItem(deleteToolStripMenuItem, PdfDemosTools.GetUIAction<DeleteItemUIAction>(CurrentTool), PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_DELETE);
+                UpdateEditMenuItem(selectAllToolStripMenuItem, PdfDemosTools.GetUIAction<SelectAllItemsUIAction>(CurrentTool), PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_SELECT_ALL);
+                UpdateEditMenuItem(deselectAllToolStripMenuItem, PdfDemosTools.GetUIAction<DeselectAllItemsUIAction>(CurrentTool), PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_DESELECT_ALL_ALT1);
             }
         }
 
@@ -2503,7 +2503,7 @@ namespace PdfEditorDemo
             if (FontProgramsTools.RefreshPostScriptFontNamesOfProgramsController(this) == DialogResult.OK)
             {
                 if (imageViewer1.Images.Count > 0)
-                    DemosTools.ShowInfoMessage("Reopen the document for using new font names.");
+                    DemosTools.ShowInfoMessage(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_REOPEN_THE_DOCUMENT_FOR_USING_NEW_FONT_NAMES);
             }
         }
 
@@ -2561,16 +2561,16 @@ namespace PdfEditorDemo
             string message;
             if (_document.Extensions == null || _document.Extensions.Count == 0)
             {
-                message = "Document does not have developer extensions.";
+                message = PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_DOCUMENT_DOES_NOT_HAVE_DEVELOPER_EXTENSIONS;
             }
             else
             {
                 StringBuilder extensions = new StringBuilder();
                 foreach (string name in _document.Extensions.Keys)
                     extensions.AppendLine(string.Format("{0}: {1}", name, _document.Extensions[name]));
-                message = string.Format("Document has {0} developer extension(s):\n\n{1}", _document.Extensions.Count, extensions);
+                message = string.Format(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_DOCUMENT_HAS_ARG0_DEVELOPER_EXTENSIONSRNRNARG1, _document.Extensions.Count, extensions);
             }
-            MessageBox.Show(message, "Developer extensions", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show(message, PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_DEVELOPER_EXTENSIONS, MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
 
@@ -2832,7 +2832,7 @@ namespace PdfEditorDemo
             DocumentProcessingCommandForm.ExecuteDocumentProcessing(
                 _document,
                 ProcessingHelper.CreateTriggerActivationPredicate(
-                    "Overprint control is used",
+                    PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_OVERPRINT_CONTROL_IS_USED,
                     TriggerSeverity.Important,
                     new PdfDocumentProcessingTree(PdfTriggers.ContentStreamOperatorUsesOverprintControl)
                 ),
@@ -2948,7 +2948,7 @@ namespace PdfEditorDemo
         /// </summary>
         private void convertTrueTypeFontsToCFFFontToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            PdfFontProcessingCommandExecutor fontsProcessing = new PdfFontProcessingCommandExecutor("Document fonts processing",
+            PdfFontProcessingCommandExecutor fontsProcessing = new PdfFontProcessingCommandExecutor(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_DOCUMENT_FONTS_PROCESSING,
                 new TrueTypeToCffFontProgramConverter());
             DocumentProcessingCommandForm.ExecuteDocumentProcessing(
                 _document,
@@ -2963,7 +2963,7 @@ namespace PdfEditorDemo
         {
             PdfStreamCompressionConverter converter = new PdfStreamCompressionConverter(PdfCompression.None);
             converter.ProcessImageStreams = false;
-            PdfDocumentConverter decompressor = new PdfDocumentConverter("Data resources decompressor",
+            PdfDocumentConverter decompressor = new PdfDocumentConverter(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_DATA_RESOURCES_DECOMPRESSOR,
                 new PdfDocumentProcessingTree(converter));
             DocumentProcessingCommandForm.ExecuteDocumentProcessing(
                 _document,
@@ -2979,7 +2979,7 @@ namespace PdfEditorDemo
             PdfStreamCompressionConverter converter = new PdfStreamCompressionConverter(PdfCompression.Zip);
             converter.CompressionSettings.ZipCompressionLevel = 9;
             converter.ProcessImageStreams = false;
-            PdfDocumentConverter compressor = new PdfDocumentConverter("Data resources compressor",
+            PdfDocumentConverter compressor = new PdfDocumentConverter(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_DATA_RESOURCES_COMPRESSOR,
                 new PdfDocumentProcessingTree(converter));
             DocumentProcessingCommandForm.ExecuteDocumentProcessing(
                 _document,
@@ -2993,7 +2993,7 @@ namespace PdfEditorDemo
         /// </summary>
         private void removeTransparencyToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            ProcessingCommand<PdfDocument> command = ProcessingHelper.CreateCompositeProcessing<PdfDocument>("Remove transparency from document",
+            ProcessingCommand<PdfDocument> command = ProcessingHelper.CreateCompositeProcessing<PdfDocument>(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_REMOVE_TRANSPARENCY_FROM_DOCUMENT,
                 new PdfAnnotationProcessingCommandExecutor(PdfFixups.AnnotationUsesTransparencyFixup),
                 new PdfPageProcessingCommandExecutor(new RemoveTransparencyFromContentStreamCommand().ConvertTarget<PdfPage>())
             );
@@ -3171,7 +3171,7 @@ namespace PdfEditorDemo
             // create "Open file" dialog
             using (OpenFileDialog openFileDialog = new OpenFileDialog())
             {
-                openFileDialog.Filter = "XFDF Files|*.xfdf";
+                openFileDialog.Filter = PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_XFDF_FILESXFDF;
 
                 // show dialog
                 if (openFileDialog.ShowDialog() == DialogResult.OK)
@@ -3206,7 +3206,7 @@ namespace PdfEditorDemo
             // create "Save file" dialog
             using (SaveFileDialog saveFileDialog = new SaveFileDialog())
             {
-                saveFileDialog.Filter = "XFDF Files|*.xfdf";
+                saveFileDialog.Filter = PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_XFDF_FILESXFDF_ALT1;
 
                 // show dialog
                 if (saveFileDialog.ShowDialog() == DialogResult.OK)
@@ -3357,12 +3357,12 @@ namespace PdfEditorDemo
             // if PDF document version is less than 1.3
             if (_document.Format.VersionNumber < 13)
             {
-                DemosTools.ShowErrorMessage("PDF document version 1.3 or greater is required.");
+                DemosTools.ShowErrorMessage(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_PDF_DOCUMENT_VERSION_13_OR_GREATER_IS_REQUIRED);
             }
             // if PDF document version is equal or more than 1.3
             else
             {
-                if (MessageBox.Show("Use mouse for drawing the area (left click and drag mouse cursor) where signature must appear.", "Sign Document", MessageBoxButtons.OKCancel, MessageBoxIcon.Information) == DialogResult.OK)
+                if (MessageBox.Show(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_USE_MOUSE_FOR_DRAWING_THE_AREA_LEFT_CLICK_AND_DRAG_MOUSE_CURSOR_WHERE_SIGNATURE_MUST_APPEAR, PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_SIGN_DOCUMENT, MessageBoxButtons.OKCancel, MessageBoxIcon.Information) == DialogResult.OK)
                 {
                     // create visual tool that will create the signature field
                     SignatureMakerTool signatureMaker = new SignatureMakerTool(imageViewer1.VisualTool, _signatureAppearance, false);
@@ -3403,7 +3403,7 @@ namespace PdfEditorDemo
             // if document does NOT have empty signature fields
             if (emptySignatureFields.Count == 0)
             {
-                DemosTools.ShowInfoMessage("Document does not have empty signature fields.");
+                DemosTools.ShowInfoMessage(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_DOCUMENT_DOES_NOT_HAVE_EMPTY_SIGNATURE_FIELDS);
             }
             // if interactive form have empty signature fields
             else
@@ -3438,7 +3438,7 @@ namespace PdfEditorDemo
                 return;
             }
 
-            if (MessageBox.Show("Use mouse for drawing the area (left click and drag mouse cursor) where signature must appear.", "Sign Document", MessageBoxButtons.OKCancel, MessageBoxIcon.Information) == DialogResult.OK)
+            if (MessageBox.Show(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_USE_MOUSE_FOR_DRAWING_THE_AREA_LEFT_CLICK_AND_DRAG_MOUSE_CURSOR_WHERE_SIGNATURE_MUST_APPEAR_ALT1, PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_SIGN_DOCUMENT_ALT1, MessageBoxButtons.OKCancel, MessageBoxIcon.Information) == DialogResult.OK)
             {
                 // create visual tool that will create the signature field
                 SignatureMakerTool signatureMaker = new SignatureMakerTool(imageViewer1.VisualTool, _signatureAppearance, true);
@@ -3474,7 +3474,7 @@ namespace PdfEditorDemo
             // if document does NOT have signed signature fields
             if (signedSignatureFields.Count == 0)
             {
-                DemosTools.ShowInfoMessage("Document does NOT have signed signature fields.");
+                DemosTools.ShowInfoMessage(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_DOCUMENT_DOES_NOT_HAVE_SIGNED_SIGNATURE_FIELDS);
             }
             // if document has signed signature fields
             else
@@ -3512,7 +3512,7 @@ namespace PdfEditorDemo
             if (signatureFields != null && signatureFields.Length > 0)
             {
                 // if signature fields must be cleared
-                if (MessageBox.Show("Do you want to clear all signatures of PDF document?", "Clear all signatures", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                if (MessageBox.Show(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_DO_YOU_WANT_TO_CLEAR_ALL_SIGNATURES_OF_PDF_DOCUMENT, PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_CLEAR_ALL_SIGNATURES, MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                 {
                     // for each signature field
                     foreach (PdfInteractiveFormSignatureField field in signatureFields)
@@ -3529,7 +3529,7 @@ namespace PdfEditorDemo
             // if document does NOT have signature fields
             else
             {
-                DemosTools.ShowInfoMessage("Document does not have signature fields.");
+                DemosTools.ShowInfoMessage(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_DOCUMENT_DOES_NOT_HAVE_SIGNATURE_FIELDS);
             }
         }
 
@@ -3550,7 +3550,7 @@ namespace PdfEditorDemo
             // if document does NOT have signature fields
             if (signatureFields.Count == 0)
             {
-                DemosTools.ShowInfoMessage("Document does not have signature fields.");
+                DemosTools.ShowInfoMessage(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_DOCUMENT_DOES_NOT_HAVE_SIGNATURE_FIELDS_ALT1);
             }
             // if document has signature fields
             else
@@ -3587,13 +3587,13 @@ namespace PdfEditorDemo
             // if document does NOT have signature fields
             if (signatureFields == null || signatureFields.Length == 0)
             {
-                DemosTools.ShowInfoMessage("PDF document does NOT have digital signatures.");
+                DemosTools.ShowInfoMessage(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_PDF_DOCUMENT_DOES_NOT_HAVE_DIGITAL_SIGNATURES);
             }
             // if document has signature fields
             else
             {
                 // if signatures must be removed
-                if (MessageBox.Show("Do you want to remove all signatures from PDF document?", "Remove all signatures", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                if (MessageBox.Show(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_DO_YOU_WANT_TO_REMOVE_ALL_SIGNATURES_FROM_PDF_DOCUMENT, PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_REMOVE_ALL_SIGNATURES, MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                 {
                     // for each signature field
                     foreach (PdfInteractiveFormSignatureField field in signatureFields)
@@ -3606,7 +3606,7 @@ namespace PdfEditorDemo
                         ReloadImage(page);
                     }
 
-                    DemosTools.ShowInfoMessage(string.Format("{0} signatures are removed.", signatureFields.Length));
+                    DemosTools.ShowInfoMessage(string.Format(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_ARG0_SIGNATURES_ARE_REMOVED, signatureFields.Length));
                     UpdateUI();
                 }
             }
@@ -3673,7 +3673,7 @@ namespace PdfEditorDemo
         /// </summary>
         private void thumbnails_RemoveAllToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            StartAction("Remove thumbnails", false);
+            StartAction(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_REMOVE_THUMBNAILS, false);
             _document.Pages.RemoveThumbnails();
             EndAction();
         }
@@ -3683,7 +3683,7 @@ namespace PdfEditorDemo
         /// </summary>
         private void thumbnails_GenerateAllToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            StartAction("Generate thumbnails", true);
+            StartAction(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_GENERATE_THUMBNAILS, true);
             _document.Progress += _pdfDocument_ThumbnailGenerationProgress;
             _document.Pages.CreateThumbnails(128, 128);
             _document.Progress -= _pdfDocument_ThumbnailGenerationProgress;
@@ -3712,7 +3712,7 @@ namespace PdfEditorDemo
             }
             else
             {
-                MessageBox.Show("This PDF document does not contain thumbnails.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_THIS_PDF_DOCUMENT_DOES_NOT_CONTAIN_THUMBNAILS, PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_INFORMATION, MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
 
@@ -3760,7 +3760,7 @@ namespace PdfEditorDemo
         {
             if (_document.ViewerPreferences == null)
             {
-                if (MessageBox.Show("Document does not have Viewer Preferences. Do you want to create Viewer Preferences properties?", "Create Viewer Preferences?",
+                if (MessageBox.Show(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_DOCUMENT_DOES_NOT_HAVE_VIEWER_PREFERENCES_DO_YOU_WANT_TO_CREATE_VIEWER_PREFERENCES_PROPERTIES, PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_CREATE_VIEWER_PREFERENCES,
                     MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question) == DialogResult.Yes)
                 {
                     _document.ViewerPreferences = new PdfDocumentViewerPreferences(_document);
@@ -3770,7 +3770,7 @@ namespace PdfEditorDemo
                     return;
                 }
             }
-            using (PropertyGridForm viewerPreferencesForm = new PropertyGridForm(_document.ViewerPreferences, "Viewer Preferences"))
+            using (PropertyGridForm viewerPreferencesForm = new PropertyGridForm(_document.ViewerPreferences, PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_VIEWER_PREFERENCES))
             {
                 viewerPreferencesForm.ShowDialog();
             }
@@ -3819,7 +3819,7 @@ namespace PdfEditorDemo
         {
             if (_document.Attachments == null)
             {
-                if (MessageBox.Show("Document does not have attachments. Do you want to create attachments?", "", MessageBoxButtons.YesNo) == DialogResult.No)
+                if (MessageBox.Show(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_DOCUMENT_DOES_NOT_HAVE_ATTACHMENTS_DO_YOU_WANT_TO_CREATE_ATTACHMENTS, "", MessageBoxButtons.YesNo) == DialogResult.No)
                     return;
             }
             using (AttachmentsEditorForm dialog = new AttachmentsEditorForm(_document))
@@ -3834,7 +3834,7 @@ namespace PdfEditorDemo
         /// </summary>
         private void removeAttachmentsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Do you want to remove all attachments?", "", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            if (MessageBox.Show(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_DO_YOU_WANT_TO_REMOVE_ALL_ATTACHMENTS, "", MessageBoxButtons.YesNo) == DialogResult.Yes)
             {
                 _document.RemoveAttachments(true);
                 UpdateUI();
@@ -3879,7 +3879,7 @@ namespace PdfEditorDemo
         /// </summary>
         private void documentImageResourcesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            StartAction("Collect resources", false);
+            StartAction(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_COLLECT_RESOURCES, false);
             PdfImageResource[] images = _document.GetImages();
             EndAction();
             if (images.Length > 0)
@@ -3896,7 +3896,7 @@ namespace PdfEditorDemo
             }
             else
             {
-                MessageBox.Show("This PDF document does not contain image resources.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_THIS_PDF_DOCUMENT_DOES_NOT_CONTAIN_IMAGE_RESOURCES, PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_INFORMATION_ALT1, MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
 
@@ -3911,15 +3911,15 @@ namespace PdfEditorDemo
             if (result)
             {
                 StringBuilder messageString = new StringBuilder();
-                messageString.AppendLine("Resources will be removed from PDF document only after packing of PDF document.");
-                messageString.AppendLine("Do you want to pack PDF document right now?");
+                messageString.AppendLine(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_RESOURCES_WILL_BE_REMOVED_FROM_PDF_DOCUMENT_ONLY_AFTER_PACKING_OF_PDF_DOCUMENT);
+                messageString.AppendLine(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_DO_YOU_WANT_TO_PACK_PDF_DOCUMENT_RIGHT_NOW);
                 messageString.AppendLine();
-                messageString.AppendLine("Click 'Yes' if you want to pack PDF document right now.");
+                messageString.AppendLine(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_CLICK_YES_IF_YOU_WANT_TO_PACK_PDF_DOCUMENT_RIGHT_NOW);
                 messageString.AppendLine();
-                messageString.AppendLine("Click 'No' if you will pack PDF document later (\"File -> Pack\" menu) and now you want to work with unpacked PDF document.");
+                messageString.AppendLine(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_CLICK_NO_IF_YOU_WILL_PACK_PDF_DOCUMENT_LATER_FILE_PACK_MENU_AND_NOW_YOU_WANT_TO_WORK_WITH_UNPACKED_PDF_DOCUMENT);
 
                 if (MessageBox.Show(messageString.ToString(),
-                                    "Pack document?",
+                                    PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_PACK_DOCUMENT,
                                     MessageBoxButtons.YesNo,
                                     MessageBoxIcon.Warning) == DialogResult.Yes)
                 {
@@ -3935,8 +3935,8 @@ namespace PdfEditorDemo
             }
             else
             {
-                MessageBox.Show("This PDF document does not have unused resources.",
-                    "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_THIS_PDF_DOCUMENT_DOES_NOT_HAVE_UNUSED_RESOURCES,
+                    PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_INFORMATION_ALT2, MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
 
@@ -3960,7 +3960,7 @@ namespace PdfEditorDemo
 
                 if (fonts.Count == 0)
                 {
-                    MessageBox.Show("This document does not contain fonts.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_THIS_DOCUMENT_DOES_NOT_CONTAIN_FONTS, PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_INFORMATION_ALT3, MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
                 else
                 {
@@ -3979,12 +3979,12 @@ namespace PdfEditorDemo
         /// </summary>
         private void embedAllFontsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            string message = "Do you want to embed all external fonts of the document?";
-            if (MessageBox.Show(message, "Warning", MessageBoxButtons.OKCancel) == DialogResult.OK)
+            string message = PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_DO_YOU_WANT_TO_EMBED_ALL_EXTERNAL_FONTS_OF_THE_DOCUMENT;
+            if (MessageBox.Show(message, PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_WARNING, MessageBoxButtons.OKCancel) == DialogResult.OK)
             {
                 try
                 {
-                    StartAction("Embed fonts", false);
+                    StartAction(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_EMBED_FONTS, false);
                     // embed all external fonts for all PDF documents loaded in image viewer
                     foreach (PdfDocument document in GetPdfDocumentsAssociatedWithImageCollection(imageViewer1.Images))
                         document.FontManager.EmbedAllFonts();
@@ -4003,13 +4003,13 @@ namespace PdfEditorDemo
         /// </summary>
         private void subsetAllFontsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            string message = "Do you want to subset all fonts (remove all unused symbols from the fonts) of the document?";
-            if (MessageBox.Show(message, "Warning", MessageBoxButtons.OKCancel) == DialogResult.OK)
+            string message = PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_DO_YOU_WANT_TO_SUBSET_ALL_FONTS_REMOVE_ALL_UNUSED_SYMBOLS_FROM_THE_FONTS_OF_THE_DOCUMENT;
+            if (MessageBox.Show(message, PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_WARNING_ALT1, MessageBoxButtons.OKCancel) == DialogResult.OK)
             {
                 try
                 {
-                    StartAction("Subset fonts", false);
-                    using (ActionProgressForm progressForm = new ActionProgressForm(PackAllFonts, 2, "Subset all embedded fonts"))
+                    StartAction(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_SUBSET_FONTS, false);
+                    using (ActionProgressForm progressForm = new ActionProgressForm(PackAllFonts, 2, PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_SUBSET_ALL_EMBEDDED_FONTS))
                     {
                         if (progressForm.RunAndShowDialog(this) == DialogResult.OK)
                             EndAction();
@@ -4195,9 +4195,9 @@ namespace PdfEditorDemo
         private void pageUsesTransparencyToolStripMenuItem_Click(object sender, EventArgs e)
         {
             if (PdfTriggers.PageUsesTransparency.Execute(FocusedPage) != null)
-                MessageBox.Show("Page uses transparecy.");
+                MessageBox.Show(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_PAGE_USES_TRANSPARECY);
             else
-                MessageBox.Show("Page does not use transparecy.");
+                MessageBox.Show(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_PAGE_DOES_NOT_USE_TRANSPARECY);
         }
 
         #endregion
@@ -4213,7 +4213,7 @@ namespace PdfEditorDemo
                 ShowMessage_CurrentImageIsNotPdfPage();
                 return;
             }
-            using (PropertyGridForm propertyGridForm = new PropertyGridForm(FocusedPage, "Page properties"))
+            using (PropertyGridForm propertyGridForm = new PropertyGridForm(FocusedPage, PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_PAGE_PROPERTIES))
             {
                 propertyGridForm.PropertyGrid.PropertyValueChanged += new PropertyValueChangedEventHandler(propertyGrid_PropertyValueChanged);
                 propertyGridForm.ShowDialog();
@@ -4262,7 +4262,7 @@ namespace PdfEditorDemo
                     IList<PdfImageResource> images = FocusedPage.GetImages();
                     if (images.Count == 0)
                     {
-                        MessageBox.Show("This page does not contain image resources.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_THIS_PAGE_DOES_NOT_CONTAIN_IMAGE_RESOURCES, PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_INFORMATION_ALT4, MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
                     else
                     {
@@ -4301,7 +4301,7 @@ namespace PdfEditorDemo
 
                         if (renderingSettingsDialog.ShowDialog() == DialogResult.OK)
                         {
-                            StartAction("Rendering and save", false);
+                            StartAction(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_RENDERING_AND_SAVE, false);
                             RenderingSettings currentRenderingSettings = imageViewer1.Image.RenderingSettings;
                             imageViewer1.Image.RenderingSettings = settings;
                             try
@@ -4310,7 +4310,7 @@ namespace PdfEditorDemo
                             }
                             catch (Exception ex)
                             {
-                                MessageBox.Show(ex.Message, "Image saving error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                                MessageBox.Show(ex.Message, PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_IMAGE_SAVING_ERROR, MessageBoxButtons.OK, MessageBoxIcon.Error);
                             }
                             finally
                             {
@@ -4329,7 +4329,7 @@ namespace PdfEditorDemo
         private void propertyGrid_PropertyValueChanged(object s, PropertyValueChangedEventArgs e)
         {
             string propertyName = e.ChangedItem.PropertyDescriptor.Name;
-            if (propertyName == "Rotate" || propertyName == "UserUnitFactor" || propertyName.EndsWith("Box"))
+            if (propertyName == PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_ROTATE || propertyName == "UserUnitFactor" || propertyName.EndsWith("Box"))
             {
                 imageViewer1.Image.Reload(true);
                 _textSelectionTool.ClearSelection();
@@ -4454,7 +4454,7 @@ namespace PdfEditorDemo
             }
             else
             {
-                MessageBox.Show("No selected text.");
+                MessageBox.Show(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_NO_SELECTED_TEXT);
             }
         }
 
@@ -4480,7 +4480,7 @@ namespace PdfEditorDemo
             }
             else
             {
-                MessageBox.Show("No selected text.");
+                MessageBox.Show(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_NO_SELECTED_TEXT_ALT1);
             }
         }
 
@@ -4489,10 +4489,10 @@ namespace PdfEditorDemo
         /// </summary>
         private void currentPageToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            string message = "Do you want to obfuscate the encoding of all text of the page?";
-            if (MessageBox.Show(message, "Warning", MessageBoxButtons.OKCancel) == DialogResult.OK)
+            string message = PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_DO_YOU_WANT_TO_OBFUSCATE_THE_ENCODING_OF_ALL_TEXT_OF_THE_PAGE;
+            if (MessageBox.Show(message, PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_WARNING_ALT2, MessageBoxButtons.OKCancel) == DialogResult.OK)
             {
-                using (ActionProgressForm progressForm = new ActionProgressForm(ObfuscateTextEncodingOfCurrentPage, 2, "Obfuscate text encoding of current page"))
+                using (ActionProgressForm progressForm = new ActionProgressForm(ObfuscateTextEncodingOfCurrentPage, 2, PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_OBFUSCATE_TEXT_ENCODING_OF_CURRENT_PAGE))
                 {
                     if (progressForm.RunAndShowDialog(this) == DialogResult.OK)
                         ShowPackDialogAfterTextObfuscation();
@@ -4508,19 +4508,19 @@ namespace PdfEditorDemo
             VintasoftImage[] selectedImages = thumbnailViewer1.GetSelectedImages();
             if (selectedImages.Length == 0)
             {
-                MessageBox.Show("No selected pages.");
+                MessageBox.Show(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_NO_SELECTED_PAGES);
                 return;
             }
 
-            string message = "Do you want to obfuscate the encoding of all text of the selected pages?";
-            if (MessageBox.Show(message, "Warning", MessageBoxButtons.OKCancel) == DialogResult.OK)
+            string message = PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_DO_YOU_WANT_TO_OBFUSCATE_THE_ENCODING_OF_ALL_TEXT_OF_THE_SELECTED_PAGES;
+            if (MessageBox.Show(message, PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_WARNING_ALT3, MessageBoxButtons.OKCancel) == DialogResult.OK)
             {
                 PdfPage[] pages = new PdfPage[selectedImages.Length];
                 for (int i = 0; i < selectedImages.Length; i++)
                     pages[i] = PdfDocumentController.GetPageAssociatedWithImage(selectedImages[i]);
                 _pagesForObfuscation = pages;
 
-                using (ActionProgressForm progressForm = new ActionProgressForm(ObfuscateTextEncodingOfSelectedPages, 2, "Obfuscate text encoding of selected pages"))
+                using (ActionProgressForm progressForm = new ActionProgressForm(ObfuscateTextEncodingOfSelectedPages, 2, PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_OBFUSCATE_TEXT_ENCODING_OF_SELECTED_PAGES))
                 {
                     if (progressForm.RunAndShowDialog(this) == DialogResult.OK)
                         ShowPackDialogAfterTextObfuscation();
@@ -4535,10 +4535,10 @@ namespace PdfEditorDemo
         /// </summary>
         private void documentToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            string message = "Do you want to obfuscate the encoding of all text of the document?";
-            if (MessageBox.Show(message, "Warning", MessageBoxButtons.OKCancel) == DialogResult.OK)
+            string message = PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_DO_YOU_WANT_TO_OBFUSCATE_THE_ENCODING_OF_ALL_TEXT_OF_THE_DOCUMENT;
+            if (MessageBox.Show(message, PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_WARNING_ALT4, MessageBoxButtons.OKCancel) == DialogResult.OK)
             {
-                using (ActionProgressForm progressForm = new ActionProgressForm(ObfuscateTextEncodingOfDocument, 2, "Obfuscate text encoding of document"))
+                using (ActionProgressForm progressForm = new ActionProgressForm(ObfuscateTextEncodingOfDocument, 2, PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_OBFUSCATE_TEXT_ENCODING_OF_DOCUMENT))
                 {
                     if (progressForm.RunAndShowDialog(this) == DialogResult.OK)
                         ShowPackDialogAfterTextObfuscation();
@@ -4551,7 +4551,7 @@ namespace PdfEditorDemo
         /// </summary>
         private void settingsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            using (PropertyGridForm dialog = new PropertyGridForm(_textEncodingObfuscator, "Text encoding obfuscator settings", true))
+            using (PropertyGridForm dialog = new PropertyGridForm(_textEncodingObfuscator, PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_TEXT_ENCODING_OBFUSCATOR_SETTINGS, true))
             {
                 dialog.ShowDialog();
             }
@@ -4597,13 +4597,13 @@ namespace PdfEditorDemo
         {
             if (_document.InteractiveForm == null)
             {
-                MessageBox.Show("Data cannot be imported because PDF document does not have interactive form.",
-                    "Import Form Data", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_DATA_CANNOT_BE_IMPORTED_BECAUSE_PDF_DOCUMENT_DOES_NOT_HAVE_INTERACTIVE_FORM,
+                    PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_IMPORT_FORM_DATA, MessageBoxButtons.OK, MessageBoxIcon.Information);
                 return;
             }
             using (OpenFileDialog openFileDialog = new OpenFileDialog())
             {
-                openFileDialog.Filter = "XFDF Files|*.xfdf";
+                openFileDialog.Filter = PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_XFDF_FILESXFDF_ALT2;
 
                 if (openFileDialog.ShowDialog() == DialogResult.OK)
                 {
@@ -4644,7 +4644,7 @@ namespace PdfEditorDemo
         {
             using (SaveFileDialog saveFileDialog = new SaveFileDialog())
             {
-                saveFileDialog.Filter = "XFDF Files|*.xfdf";
+                saveFileDialog.Filter = PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_XFDF_FILESXFDF_ALT3;
 
                 if (saveFileDialog.ShowDialog() == DialogResult.OK)
                 {
@@ -4808,7 +4808,7 @@ namespace PdfEditorDemo
         /// </summary>
         private void MarkupTextToolAction_ShowSettings(object sender, EventArgs e)
         {
-            using (PropertyGridForm dialog = new PropertyGridForm(_textMarkupTool, "Text Markup Tool"))
+            using (PropertyGridForm dialog = new PropertyGridForm(_textMarkupTool, PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_TEXT_MARKUP_TOOL))
                 dialog.ShowDialog();
         }
 
@@ -4977,7 +4977,7 @@ namespace PdfEditorDemo
         /// </summary>
         private void imageViewer_ImageLoading(object sender, ImageLoadingEventArgs e)
         {
-            StartAction("Rendering", false);
+            StartAction(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_RENDERING, false);
         }
 
         /// <summary>
@@ -5027,7 +5027,7 @@ namespace PdfEditorDemo
         {
             EndAction();
             UpdateUI();
-            MessageBox.Show(e.Exception.Message, "Image loading exception", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            MessageBox.Show(e.Exception.Message, PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_IMAGE_LOADING_EXCEPTION, MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
 
         /// <summary>
@@ -5169,7 +5169,7 @@ namespace PdfEditorDemo
                 string status = string.Empty;
                 if (toolsTabControl.SelectedTab != pagesTabPage &&
                     toolsTabControl.SelectedTab != bookmarksTabPage)
-                    status = "Current image is not a PDF page. Save document and try again.";
+                    status = PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_CURRENT_IMAGE_IS_NOT_A_PDF_PAGE_SAVE_DOCUMENT_AND_TRY_AGAIN;
                 SetStatusLabelTextSafe(status);
             }
 
@@ -5308,7 +5308,7 @@ namespace PdfEditorDemo
             object sender,
             TextSearchingProgressEventArgs e)
         {
-            statusLabel.Text = string.Format("Search on page {0}...", e.ImageIndex + 1);
+            statusLabel.Text = string.Format(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_SEARCH_ON_PAGE_ARG0, e.ImageIndex + 1);
         }
 
         /// <summary>
@@ -5334,19 +5334,19 @@ namespace PdfEditorDemo
             switch (e.MarkupAnnotation.AnnotationType)
             {
                 case PdfAnnotationType.Caret:
-                    e.MarkupAnnotation.Subject = "Insert Text";
+                    e.MarkupAnnotation.Subject = PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_INSERT_TEXT;
                     break;
                 case PdfAnnotationType.StrikeOut:
-                    e.MarkupAnnotation.Subject = "Strikethrough Text";
+                    e.MarkupAnnotation.Subject = PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_STRIKETHROUGH_TEXT;
                     break;
                 case PdfAnnotationType.Highlight:
-                    e.MarkupAnnotation.Subject = "Highlighted Text";
+                    e.MarkupAnnotation.Subject = PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_HIGHLIGHTED_TEXT;
                     break;
                 case PdfAnnotationType.Squiggly:
-                    e.MarkupAnnotation.Subject = "Squiggly Underlined Text";
+                    e.MarkupAnnotation.Subject = PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_SQUIGGLY_UNDERLINED_TEXT;
                     break;
                 case PdfAnnotationType.Underline:
-                    e.MarkupAnnotation.Subject = "Underlined text";
+                    e.MarkupAnnotation.Subject = PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_UNDERLINED_TEXT;
                     break;
                 default:
                     e.MarkupAnnotation.Subject = e.MarkupAnnotation.AnnotationType.ToString();
@@ -5388,14 +5388,14 @@ namespace PdfEditorDemo
         private void ShowPackDialogAfterMarkIsApplied()
         {
             StringBuilder messageString = new StringBuilder();
-            messageString.AppendLine("Redacted content will be removed from PDF document only after packing of PDF document.");
-            messageString.AppendLine("Do you want to pack PDF document right now?");
+            messageString.AppendLine(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_REDACTED_CONTENT_WILL_BE_REMOVED_FROM_PDF_DOCUMENT_ONLY_AFTER_PACKING_OF_PDF_DOCUMENT);
+            messageString.AppendLine(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_DO_YOU_WANT_TO_PACK_PDF_DOCUMENT_RIGHT_NOW_ALT1);
             messageString.AppendLine();
-            messageString.AppendLine("Click 'Yes' if you want to pack PDF document right now.");
+            messageString.AppendLine(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_CLICK_YES_IF_YOU_WANT_TO_PACK_PDF_DOCUMENT_RIGHT_NOW_ALT1);
             messageString.AppendLine();
-            messageString.AppendLine("Click 'No' if you will pack PDF document later (\"File -> Pack\" menu) and now you want to work with unpacked PDF document.");
+            messageString.AppendLine(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_CLICK_NO_IF_YOU_WILL_PACK_PDF_DOCUMENT_LATER_FILE_PACK_MENU_AND_NOW_YOU_WANT_TO_WORK_WITH_UNPACKED_PDF_DOCUMENT_ALT1);
 
-            if (MessageBox.Show(messageString.ToString(), "Pack document?", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+            if (MessageBox.Show(messageString.ToString(), PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_PACK_DOCUMENT_ALT1, MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
                 SaveAndPackPdfDocument();
         }
 
@@ -5450,7 +5450,7 @@ namespace PdfEditorDemo
             if (FocusedPage != null)
             {
                 CurrentTool = _defaultAnnotationTool;
-                annotationToolControl.AnnotationsControl.AnnotationBuilderControl.AddAndBuildTextAnnotation("Comment");
+                annotationToolControl.AnnotationsControl.AnnotationBuilderControl.AddAndBuildTextAnnotation(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_COMMENT);
             }
         }
 
@@ -5555,7 +5555,7 @@ namespace PdfEditorDemo
                 return;
             }
 
-            StartAction("Open document", false);
+            StartAction(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_OPEN_DOCUMENT, false);
             try
             {
                 _document = PdfDocumentController.OpenDocument(_pdfFileStream);
@@ -5567,7 +5567,7 @@ namespace PdfEditorDemo
 
                 if (_document.Pages.Count == 0)
                 {
-                    DemosTools.ShowErrorMessage("PDF document does not contain pages.");
+                    DemosTools.ShowErrorMessage(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_PDF_DOCUMENT_DOES_NOT_CONTAIN_PAGES);
                     ClosePdfDocument();
                     return;
                 }
@@ -5798,7 +5798,7 @@ namespace PdfEditorDemo
             }
             else
             {
-                progressController.Start("Obfuscating text of loaded documents", loadedDocuments.Count, this);
+                progressController.Start(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_OBFUSCATING_TEXT_OF_LOADED_DOCUMENTS, loadedDocuments.Count, this);
                 foreach (PdfDocument document in loadedDocuments)
                 {
                     progressController.Next(false);
@@ -5814,14 +5814,14 @@ namespace PdfEditorDemo
         private void ShowPackDialogAfterTextObfuscation()
         {
             StringBuilder messageString = new StringBuilder();
-            messageString.AppendLine("Original fonts and content of pages will be removed from PDF document only after packing of PDF document.");
-            messageString.AppendLine("Do you want to pack PDF document right now?");
+            messageString.AppendLine(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_ORIGINAL_FONTS_AND_CONTENT_OF_PAGES_WILL_BE_REMOVED_FROM_PDF_DOCUMENT_ONLY_AFTER_PACKING_OF_PDF_DOCUMENT);
+            messageString.AppendLine(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_DO_YOU_WANT_TO_PACK_PDF_DOCUMENT_RIGHT_NOW_ALT2);
             messageString.AppendLine();
-            messageString.AppendLine("Click 'Yes' if you want to pack PDF document right now.");
+            messageString.AppendLine(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_CLICK_YES_IF_YOU_WANT_TO_PACK_PDF_DOCUMENT_RIGHT_NOW_ALT2);
             messageString.AppendLine();
-            messageString.AppendLine("Click 'No' if you will pack PDF document later (\"File -> Pack\" menu) and now you want to work with unpacked PDF document.");
+            messageString.AppendLine(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_CLICK_NO_IF_YOU_WILL_PACK_PDF_DOCUMENT_LATER_FILE_PACK_MENU_AND_NOW_YOU_WANT_TO_WORK_WITH_UNPACKED_PDF_DOCUMENT_ALT2);
 
-            if (MessageBox.Show(messageString.ToString(), "Pack document?", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+            if (MessageBox.Show(messageString.ToString(), PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_PACK_DOCUMENT_ALT2, MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
                 SaveAndPackPdfDocument();
         }
 
@@ -5873,8 +5873,8 @@ namespace PdfEditorDemo
                 else
                 {
                     MessageBox.Show(
-                        "This PDF document will not be packed(saved) after compression.",
-                        "Warning",
+                        PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_THIS_PDF_DOCUMENT_WILL_NOT_BE_PACKEDSAVED_AFTER_COMPRESSION,
+                        PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_WARNING_ALT5,
                         MessageBoxButtons.OK,
                         MessageBoxIcon.Warning);
                     pdfDocumentCompressor.PackDocument = false;
@@ -5939,13 +5939,13 @@ namespace PdfEditorDemo
         /// </summary>
         private void PackPdfDocument(PdfFormat format, EncryptionSystem encryptionSystem)
         {
-            StartAction("Cleanup", false);
+            StartAction(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_CLEANUP, false);
             _document.RemoveUnusedPages();
             _document.RemoveUnusedNames();
             EndAction();
 
             _document.Progress += _pdfDocument_PackProgress;
-            StartAction("Pack", true);
+            StartAction(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_PACK, true);
             long size = _document.StreamLength;
             try
             {
@@ -5956,7 +5956,7 @@ namespace PdfEditorDemo
                 DemosTools.ShowErrorMessage(ex);
             }
             EndAction();
-            statusLabel.Text += string.Format(" [{0}->{1} bytes]", size, _document.StreamLength);
+            statusLabel.Text += string.Format(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO__ARG0ARG1_BYTES, size, _document.StreamLength);
             _document.Progress -= _pdfDocument_PackProgress;
         }
 
@@ -6033,7 +6033,7 @@ namespace PdfEditorDemo
                 PdfEncoder encoder = CreateEncoder(format, encryptionSystem);
                 encoder.SaveAndSwitchSource = true;
                 encoder.Settings.UpdateMode = updateMode;
-                StartAction("Save", true);
+                StartAction(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_SAVE, true);
                 try
                 {
                     imageViewer1.Images.SaveSync(_pdfFileStream, encoder);
@@ -6042,7 +6042,7 @@ namespace PdfEditorDemo
                 catch (Exception e)
                 {
                     OnImageCollectionSaved(true);
-                    DemosTools.ShowErrorMessage("Saving error", e);
+                    DemosTools.ShowErrorMessage(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_SAVING_ERROR, e);
                 }
                 EndAction();
             }
@@ -6107,7 +6107,7 @@ namespace PdfEditorDemo
                 }
                 IsDocumentChanged = false;
 
-                StartAction("Save As", true);
+                StartAction(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_SAVE_AS, true);
                 _switchPdfFileStreamToNewStream = true;
 
                 ImageCollection images = imageViewer1.Images;
@@ -6122,7 +6122,7 @@ namespace PdfEditorDemo
                 catch (Exception e)
                 {
                     OnImageCollectionSaved(true);
-                    DemosTools.ShowErrorMessage("Saving error", e);
+                    DemosTools.ShowErrorMessage(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_SAVING_ERROR_ALT1, e);
                 }
                 finally
                 {
@@ -6133,7 +6133,7 @@ namespace PdfEditorDemo
             }
             else
             {
-                StartAction("Save To", true);
+                StartAction(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_SAVE_TO, true);
                 using (Stream destStream = File.Create(filename))
                 {
                     ImageCollection images = imageViewer1.Images;
@@ -6148,7 +6148,7 @@ namespace PdfEditorDemo
                     catch (Exception e)
                     {
                         OnImageCollectionSaved(true);
-                        DemosTools.ShowErrorMessage("Saving error", e);
+                        DemosTools.ShowErrorMessage(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_SAVING_ERROR_ALT2, e);
                     }
                     finally
                     {
@@ -6361,7 +6361,7 @@ namespace PdfEditorDemo
             ActionProgressController progressController = new ActionProgressController(ActionProgressHandlers.CreateActionProgressHandler(Images_ImageCollectionSavingProgress));
 
             // start progress controller
-            progressController.Start("Converting to SVG", imageViewer1.Images.Count, this);
+            progressController.Start(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_CONVERTING_TO_SVG, imageViewer1.Images.Count, this);
 
             try
             {
@@ -6442,7 +6442,7 @@ namespace PdfEditorDemo
             }
             else
             {
-                progressController.Start("Packing fonts of loaded documents", loadedDocuments.Count, this);
+                progressController.Start(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_PACKING_FONTS_OF_LOADED_DOCUMENTS, loadedDocuments.Count, this);
                 // pack all fonts of all PDF documents loaded in image viewer
                 foreach (PdfDocument document in loadedDocuments)
                 {
@@ -6469,7 +6469,7 @@ namespace PdfEditorDemo
         /// </summary>
         private void ShowMessage_CurrentImageIsNotPdfPage()
         {
-            MessageBox.Show("Current image is not a PDF page. Save document and try again.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_CURRENT_IMAGE_IS_NOT_A_PDF_PAGE_SAVE_DOCUMENT_AND_TRY_AGAIN_ALT1, PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_INFORMATION_ALT5, MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
 
@@ -6599,7 +6599,7 @@ namespace PdfEditorDemo
         {
             if (GetDocumentStructureIsChanged(imageViewer1.Images, _document))
             {
-                DemosTools.ShowInfoMessage("PDF Document Processing", "Current document has not saved structural changes, please save or pack document first.");
+                DemosTools.ShowInfoMessage(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_PDF_DOCUMENT_PROCESSING, PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_CURRENT_DOCUMENT_HAS_NOT_SAVED_STRUCTURAL_CHANGES_PLEASE_SAVE_OR_PACK_DOCUMENT_FIRST);
                 return null;
             }
             return _document;
@@ -6666,7 +6666,7 @@ namespace PdfEditorDemo
         {
             if (_actionName != "")
             {
-                SetStatusLabelTextSafe(string.Format("{0}: canceled", _actionName));
+                SetStatusLabelTextSafe(string.Format(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_ARG0_CANCELED, _actionName));
                 _actionName = "";
             }
         }

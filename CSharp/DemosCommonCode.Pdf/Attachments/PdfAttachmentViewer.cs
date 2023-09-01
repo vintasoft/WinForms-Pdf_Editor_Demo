@@ -625,7 +625,7 @@ namespace DemosCommonCode.Pdf
 
             Columns.Clear();
             // file name / folder name
-            Columns.Add("Name");
+            Columns.Add(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_NAME_ALT1);
             if (_document.Attachments.Schema != null)
             {
                 List<string> columnDisplayedNameList = new List<string>();
@@ -647,22 +647,22 @@ namespace DemosCommonCode.Pdf
                             switch (schemaField.DataType)
                             {
                                 case AttachmentCollectionSchemaFieldDataType.CompressedSize:
-                                    columnDisplayedNameList.Add("Compressed Size");
+                                    columnDisplayedNameList.Add(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_COMPRESSED_SIZE);
                                     break;
                                 case AttachmentCollectionSchemaFieldDataType.UncompressedSize:
-                                    columnDisplayedNameList.Add("Uncompressed Size");
+                                    columnDisplayedNameList.Add(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_UNCOMPRESSED_SIZE);
                                     break;
                                 case AttachmentCollectionSchemaFieldDataType.ModificationDate:
-                                    columnDisplayedNameList.Add("Modification Date");
+                                    columnDisplayedNameList.Add(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_MODIFICATION_DATE);
                                     break;
                                 case AttachmentCollectionSchemaFieldDataType.CreationDate:
-                                    columnDisplayedNameList.Add("Creation Date");
+                                    columnDisplayedNameList.Add(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_CREATION_DATE);
                                     break;
                                 case AttachmentCollectionSchemaFieldDataType.Filename:
-                                    columnDisplayedNameList.Add("File name");
+                                    columnDisplayedNameList.Add(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_FILE_NAME);
                                     break;
                                 case AttachmentCollectionSchemaFieldDataType.FileDescription:
-                                    columnDisplayedNameList.Add("Description");
+                                    columnDisplayedNameList.Add(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_DESCRIPTION);
                                     break;
                                 default:
                                     columnDisplayedNameList.Add(schemaFieldName);
@@ -692,9 +692,9 @@ namespace DemosCommonCode.Pdf
             }
             else
             {
-                Columns.Add("Compressed Size");
-                Columns.Add("Uncompressed Size");
-                Columns.Add("Modified date");
+                Columns.Add(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_COMPRESSED_SIZE_ALT1);
+                Columns.Add(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_UNCOMPRESSED_SIZE_ALT1);
+                Columns.Add(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_MODIFIED_DATE);
             }
 
             for (int i = 0; i < Columns.Count; i++)
@@ -1066,7 +1066,7 @@ namespace DemosCommonCode.Pdf
         private static string FileSizeToString(long sizeInBytes)
         {
             if (sizeInBytes < 1024)
-                return string.Format("{0} bytes", sizeInBytes);
+                return string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_ARG0_BYTES, sizeInBytes);
             if (sizeInBytes < 1024 * 1024)
                 return string.Format("{0:f1} KB", sizeInBytes / 1024f);
             return string.Format("{0:f1} MB", sizeInBytes / (1024f * 1024f));
@@ -1315,7 +1315,7 @@ namespace DemosCommonCode.Pdf
                     if (File.Exists(filename))
                     {
                         DialogResult dialogResult = MessageBox.Show(string.Format(
-                            "File '{0}' already exists, override it?", 
+                            PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_FILE_ARG0_ALREADY_EXISTS_OVERRIDE_IT, 
                             filename), "", MessageBoxButtons.YesNoCancel);
                         if (dialogResult == DialogResult.Cancel)
                             return false;

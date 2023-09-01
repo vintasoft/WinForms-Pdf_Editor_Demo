@@ -148,7 +148,7 @@ namespace DemosCommonCode.Pdf
         {
             string result = string.Empty;
             if (size != 0)
-                result = string.Format("{0} bytes", size);
+                result = string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_ARG0_BYTES_ALT4, size);
             return result;
         }
 

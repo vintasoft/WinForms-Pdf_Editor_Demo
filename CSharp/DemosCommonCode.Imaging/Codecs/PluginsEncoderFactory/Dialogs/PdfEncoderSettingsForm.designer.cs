@@ -28,6 +28,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PdfEncoderSettingsForm));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.compressionTabPage = new System.Windows.Forms.TabPage();
             this.pdfImageCompressionControl1 = new DemosCommonCode.Imaging.Codecs.Dialogs.PdfImageCompressionControl();
@@ -92,7 +93,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.compressionTabPage.Padding = new System.Windows.Forms.Padding(3);
             this.compressionTabPage.Size = new System.Drawing.Size(403, 297);
             this.compressionTabPage.TabIndex = 0;
-            this.compressionTabPage.Text = "Compression";
+            resources.ApplyResources(this.compressionTabPage, "compressionTabPage");
             this.compressionTabPage.UseVisualStyleBackColor = true;
             // 
             // pdfImageCompressionControl1
@@ -123,7 +124,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.imageTilesGroupBox.Size = new System.Drawing.Size(389, 63);
             this.imageTilesGroupBox.TabIndex = 28;
             this.imageTilesGroupBox.TabStop = false;
-            this.imageTilesGroupBox.Text = "Split image to tiles";
+            resources.ApplyResources(this.imageTilesGroupBox, "imageTilesGroupBox");
             // 
             // label8
             // 
@@ -132,7 +133,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(37, 15);
             this.label8.TabIndex = 29;
-            this.label8.Text = "pixels";
+            resources.ApplyResources(this.label8, "label8");
             // 
             // tileHeightCheckBox
             // 
@@ -141,7 +142,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.tileHeightCheckBox.Name = "tileHeightCheckBox";
             this.tileHeightCheckBox.Size = new System.Drawing.Size(173, 19);
             this.tileHeightCheckBox.TabIndex = 28;
-            this.tileHeightCheckBox.Text = "vertical direction, tile height";
+            resources.ApplyResources(this.tileHeightCheckBox, "tileHeightCheckBox");
             this.tileHeightCheckBox.UseVisualStyleBackColor = true;
             this.tileHeightCheckBox.CheckedChanged += new System.EventHandler(this.UpdateUI_Handler);
             // 
@@ -152,7 +153,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(37, 15);
             this.label1.TabIndex = 27;
-            this.label1.Text = "pixels";
+            resources.ApplyResources(this.label1, "label1");
             // 
             // tileWidthCheckBox
             // 
@@ -161,7 +162,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.tileWidthCheckBox.Name = "tileWidthCheckBox";
             this.tileWidthCheckBox.Size = new System.Drawing.Size(184, 19);
             this.tileWidthCheckBox.TabIndex = 26;
-            this.tileWidthCheckBox.Text = "horizontal direction, tile width";
+            resources.ApplyResources(this.tileWidthCheckBox, "tileWidthCheckBox");
             this.tileWidthCheckBox.UseVisualStyleBackColor = true;
             this.tileWidthCheckBox.CheckedChanged += new System.EventHandler(this.UpdateUI_Handler);
             // 
@@ -208,7 +209,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.annotationsTabPage.Name = "annotationsTabPage";
             this.annotationsTabPage.Size = new System.Drawing.Size(403, 297);
             this.annotationsTabPage.TabIndex = 2;
-            this.annotationsTabPage.Text = "Annotations";
+            resources.ApplyResources(this.annotationsTabPage, "annotationsTabPage");
             this.annotationsTabPage.UseVisualStyleBackColor = true;
             // 
             // annotationsPdfAppearanceCheckBox
@@ -218,7 +219,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.annotationsPdfAppearanceCheckBox.Name = "annotationsPdfAppearanceCheckBox";
             this.annotationsPdfAppearanceCheckBox.Size = new System.Drawing.Size(161, 19);
             this.annotationsPdfAppearanceCheckBox.TabIndex = 11;
-            this.annotationsPdfAppearanceCheckBox.Text = "Generate PDF appearance";
+            resources.ApplyResources(this.annotationsPdfAppearanceCheckBox, "annotationsPdfAppearanceCheckBox");
             this.annotationsPdfAppearanceCheckBox.UseVisualStyleBackColor = true;
             // 
             // annotationXmpCheckBox
@@ -260,7 +261,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.documentInformationTabPage.Padding = new System.Windows.Forms.Padding(3);
             this.documentInformationTabPage.Size = new System.Drawing.Size(403, 297);
             this.documentInformationTabPage.TabIndex = 1;
-            this.documentInformationTabPage.Text = "Document information";
+            resources.ApplyResources(this.documentInformationTabPage, "documentInformationTabPage");
             this.documentInformationTabPage.UseVisualStyleBackColor = true;
             // 
             // label7
@@ -270,7 +271,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(55, 15);
             this.label7.TabIndex = 11;
-            this.label7.Text = "Producer";
+            resources.ApplyResources(this.label7, "label7");
             // 
             // label6
             // 
@@ -279,7 +280,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(58, 15);
             this.label6.TabIndex = 10;
-            this.label6.Text = "Keywords";
+            resources.ApplyResources(this.label6, "label6");
             // 
             // label5
             // 
@@ -288,7 +289,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(46, 15);
             this.label5.TabIndex = 9;
-            this.label5.Text = "Subject";
+            resources.ApplyResources(this.label5, "label5");
             // 
             // label4
             // 
@@ -297,7 +298,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(46, 15);
             this.label4.TabIndex = 8;
-            this.label4.Text = "Creator";
+            resources.ApplyResources(this.label4, "label4");
             // 
             // label3
             // 
@@ -306,7 +307,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(44, 15);
             this.label3.TabIndex = 7;
-            this.label3.Text = "Author";
+            resources.ApplyResources(this.label3, "label3");
             // 
             // label2
             // 
@@ -315,7 +316,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(29, 15);
             this.label2.TabIndex = 6;
-            this.label2.Text = "Title";
+            resources.ApplyResources(this.label2, "label2");
             // 
             // producerTextBox
             // 
@@ -366,7 +367,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.appendCheckBox.Name = "appendCheckBox";
             this.appendCheckBox.Size = new System.Drawing.Size(184, 19);
             this.appendCheckBox.TabIndex = 8;
-            this.appendCheckBox.Text = "Append to existing document";
+            resources.ApplyResources(this.appendCheckBox, "appendCheckBox");
             this.appendCheckBox.UseVisualStyleBackColor = true;
             this.appendCheckBox.CheckedChanged += new System.EventHandler(this.appendCheckBox_CheckedChanged);
             // 
@@ -387,7 +388,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(75, 23);
             this.buttonCancel.TabIndex = 10;
-            this.buttonCancel.Text = "Cancel";
+            resources.ApplyResources(this.buttonCancel, "buttonCancel");
             this.buttonCancel.UseVisualStyleBackColor = true;
             this.buttonCancel.Click += new System.EventHandler(this.buttonCancel_Click);
             // 
@@ -398,7 +399,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.pdfaCheckBox.Name = "pdfaCheckBox";
             this.pdfaCheckBox.Size = new System.Drawing.Size(125, 19);
             this.pdfaCheckBox.TabIndex = 11;
-            this.pdfaCheckBox.Text = "PDF/A Compatible";
+            resources.ApplyResources(this.pdfaCheckBox, "pdfaCheckBox");
             this.pdfaCheckBox.UseVisualStyleBackColor = true;
             this.pdfaCheckBox.CheckedChanged += new System.EventHandler(this.pdfaCheckBox_CheckedChanged);
             // 
@@ -409,7 +410,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.createThumbnailsCheckBox.Name = "createThumbnailsCheckBox";
             this.createThumbnailsCheckBox.Size = new System.Drawing.Size(123, 19);
             this.createThumbnailsCheckBox.TabIndex = 12;
-            this.createThumbnailsCheckBox.Text = "Create thumbnails";
+            resources.ApplyResources(this.createThumbnailsCheckBox, "createThumbnailsCheckBox");
             this.createThumbnailsCheckBox.UseVisualStyleBackColor = true;
             // 
             // updateModeComboBox
@@ -428,7 +429,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(137, 15);
             this.label9.TabIndex = 14;
-            this.label9.Text = "Document update mode";
+            resources.ApplyResources(this.label9, "label9");
             // 
             // conformanceComboBox
             // 
@@ -461,7 +462,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.Name = "PdfEncoderSettingsForm";
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "PDF Encoder Settings";
+            resources.ApplyResources(this, "$this");
             this.tabControl1.ResumeLayout(false);
             this.compressionTabPage.ResumeLayout(false);
             this.imageTilesGroupBox.ResumeLayout(false);

@@ -888,7 +888,7 @@ namespace DemosCommonCode.Pdf
                         break;
 
                     case AnnotationType.Text_Comment:
-                        AddAndBuildTextAnnotation("Comment");
+                        AddAndBuildTextAnnotation(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_COMMENT);
                         break;
 
                     case AnnotationType.Text_Check:
@@ -916,11 +916,11 @@ namespace DemosCommonCode.Pdf
                         break;
 
                     case AnnotationType.Text_Help:
-                        AddAndBuildTextAnnotation("Help");
+                        AddAndBuildTextAnnotation(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_HELP);
                         break;
 
                     case AnnotationType.Text_Insert:
-                        AddAndBuildTextAnnotation("Insert");
+                        AddAndBuildTextAnnotation(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_INSERT);
                         break;
 
                     case AnnotationType.Text_Key:

@@ -198,7 +198,7 @@ namespace DemosCommonCode.Pdf
                     if (_embeddedFileSpecification.UncompressedSize > 0)
                     {
                         // set the information to the size text box
-                        sizeTextBox.Text = string.Format("{0} bytes", _embeddedFileSpecification.UncompressedSize);
+                        sizeTextBox.Text = string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_ARG0_BYTES_ALT2, _embeddedFileSpecification.UncompressedSize);
                     }
                     else
                     {
@@ -209,7 +209,7 @@ namespace DemosCommonCode.Pdf
                     if (_embeddedFileSpecification.CompressedSize > 0)
                     {
                         // set the information to the compressed size text box
-                        compressedSizeTextBox.Text = string.Format("{0} bytes", _embeddedFileSpecification.CompressedSize);
+                        compressedSizeTextBox.Text = string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_ARG0_BYTES_ALT3, _embeddedFileSpecification.CompressedSize);
                     }
                     else
                     {

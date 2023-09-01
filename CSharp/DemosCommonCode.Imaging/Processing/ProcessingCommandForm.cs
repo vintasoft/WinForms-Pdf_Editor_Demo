@@ -140,7 +140,7 @@ namespace DemosCommonCode.Imaging
             params IProcessingCommand<TTarget>[] processingCommands)
             : base()
         {
-            Text = string.Format("{0} processing", ProcessingDemosTools.GetReadableTypeName(typeof(TTarget)));
+            Text = string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_ARG0_PROCESSING, ProcessingDemosTools.GetReadableTypeName(typeof(TTarget)));
 
             if (processingTarget == null)
                 throw new ArgumentNullException("processingTarget");

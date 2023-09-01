@@ -53,11 +53,11 @@ namespace DemosCommonCode.Pdf
         {
             GraphicsFigure figure = figureView.Figure;
             if (figure is ContentStreamGraphicsFigure)
-                return string.Format("Content ({0})", figure.ContentType);
+                return string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_CONTENT_ARG0, figure.ContentType);
             if (figure is ContentStreamGraphicsFigureTextGroup)
-                return "Text content group";
+                return PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_TEXT_CONTENT_GROUP;
             if (figure is ContentStreamGraphicsFigureGroup)
-                return string.Format("Content group ({0})", figure.ContentType);
+                return string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_CONTENT_GROUP_ARG0, figure.ContentType);
             return figureView.Figure.GetType().Name;
         }
 

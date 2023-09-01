@@ -117,4 +117,49 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Create Signature Appearance</value>
+  </data>
+  <data name="buttonCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>Signature Appearance Visual Editor (click to edit)</value>
+  </data>
+  <data name="signatureImageRadioButton.Text" xml:space="preserve">
+    <value>Imported image...</value>
+  </data>
+  <data name="signatureNameRadioButton.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>Signature</value>
+  </data>
+  <data name="nameCheckBox.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="locationCheckBox.Text" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="dateCheckBox.Text" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="reasonCheckBox.Text" xml:space="preserve">
+    <value>Reason</value>
+  </data>
+  <data name="contactInfoCheckBox.Text" xml:space="preserve">
+    <value>Contact Info</value>
+  </data>
+  <data name="backgroundImageRadioButton.Text" xml:space="preserve">
+    <value>Imported image...</value>
+  </data>
+  <data name="backgroundColorRadioButton.Text" xml:space="preserve">
+    <value>Color...</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Background</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </metadata>
 </root>

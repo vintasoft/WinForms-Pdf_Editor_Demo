@@ -28,6 +28,7 @@ namespace DemosCommonCode.Pdf
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PdfTextFieldPropertiesEditorControl));
             this.mainPanel = new System.Windows.Forms.Panel();
             this.actionsTabControl = new System.Windows.Forms.TabControl();
             this.valueTabPage = new System.Windows.Forms.TabPage();
@@ -96,7 +97,7 @@ namespace DemosCommonCode.Pdf
             this.valueTabPage.Name = "valueTabPage";
             this.valueTabPage.Size = new System.Drawing.Size(303, 203);
             this.valueTabPage.TabIndex = 2;
-            this.valueTabPage.Text = "Value";
+            resources.ApplyResources(this.valueTabPage, "valueTabPage");
             this.valueTabPage.UseVisualStyleBackColor = true;
             // 
             // spellCheckCheckBox
@@ -107,7 +108,7 @@ namespace DemosCommonCode.Pdf
             this.spellCheckCheckBox.Name = "spellCheckCheckBox";
             this.spellCheckCheckBox.Size = new System.Drawing.Size(83, 17);
             this.spellCheckCheckBox.TabIndex = 19;
-            this.spellCheckCheckBox.Text = "Spell Check";
+            resources.ApplyResources(this.spellCheckCheckBox, "spellCheckCheckBox");
             this.spellCheckCheckBox.UseVisualStyleBackColor = true;
             this.spellCheckCheckBox.CheckedChanged += new System.EventHandler(this.spellCheckCheckBox_CheckedChanged);
             // 
@@ -119,7 +120,7 @@ namespace DemosCommonCode.Pdf
             this.passwordCheckBox.Name = "passwordCheckBox";
             this.passwordCheckBox.Size = new System.Drawing.Size(72, 17);
             this.passwordCheckBox.TabIndex = 18;
-            this.passwordCheckBox.Text = "Password";
+            resources.ApplyResources(this.passwordCheckBox, "passwordCheckBox");
             this.passwordCheckBox.UseVisualStyleBackColor = true;
             this.passwordCheckBox.CheckedChanged += new System.EventHandler(this.passwordCheckBox_CheckedChanged);
             // 
@@ -147,7 +148,7 @@ namespace DemosCommonCode.Pdf
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(77, 13);
             this.label3.TabIndex = 17;
-            this.label3.Text = "Text Quadding";
+            resources.ApplyResources(this.label3, "label3");
             // 
             // defaultValueTextBox
             // 
@@ -184,7 +185,7 @@ namespace DemosCommonCode.Pdf
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(39, 13);
             this.label1.TabIndex = 13;
-            this.label1.Text = "Value";
+            resources.ApplyResources(this.label1, "label1");
             // 
             // multilineCheckBox
             // 
@@ -194,7 +195,7 @@ namespace DemosCommonCode.Pdf
             this.multilineCheckBox.Name = "multilineCheckBox";
             this.multilineCheckBox.Size = new System.Drawing.Size(64, 17);
             this.multilineCheckBox.TabIndex = 15;
-            this.multilineCheckBox.Text = "Multiline";
+            resources.ApplyResources(this.multilineCheckBox, "multilineCheckBox");
             this.multilineCheckBox.UseVisualStyleBackColor = true;
             this.multilineCheckBox.CheckedChanged += new System.EventHandler(this.multilineCheckBox_CheckedChanged);
             // 
@@ -206,7 +207,7 @@ namespace DemosCommonCode.Pdf
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(71, 13);
             this.label2.TabIndex = 14;
-            this.label2.Text = "Default Value";
+            resources.ApplyResources(this.label2, "label2");
             // 
             // calculateActionTabPage
             // 
@@ -216,7 +217,7 @@ namespace DemosCommonCode.Pdf
             this.calculateActionTabPage.Padding = new System.Windows.Forms.Padding(3);
             this.calculateActionTabPage.Size = new System.Drawing.Size(303, 203);
             this.calculateActionTabPage.TabIndex = 0;
-            this.calculateActionTabPage.Text = "Calculate Action";
+            resources.ApplyResources(this.calculateActionTabPage, "calculateActionTabPage");
             this.calculateActionTabPage.UseVisualStyleBackColor = true;
             // 
             // calculatePdfActionEditorControl
@@ -240,7 +241,7 @@ namespace DemosCommonCode.Pdf
             this.validateActionTabPage.Padding = new System.Windows.Forms.Padding(3);
             this.validateActionTabPage.Size = new System.Drawing.Size(303, 203);
             this.validateActionTabPage.TabIndex = 1;
-            this.validateActionTabPage.Text = "Validate Action";
+            resources.ApplyResources(this.validateActionTabPage, "validateActionTabPage");
             this.validateActionTabPage.UseVisualStyleBackColor = true;
             // 
             // validatePdfActionEditorControl
@@ -264,7 +265,7 @@ namespace DemosCommonCode.Pdf
             this.formatActionTabPage.Padding = new System.Windows.Forms.Padding(3);
             this.formatActionTabPage.Size = new System.Drawing.Size(303, 203);
             this.formatActionTabPage.TabIndex = 3;
-            this.formatActionTabPage.Text = "Format Action";
+            resources.ApplyResources(this.formatActionTabPage, "formatActionTabPage");
             this.formatActionTabPage.UseVisualStyleBackColor = true;
             // 
             // formatPdfActionEditorControl
@@ -287,7 +288,7 @@ namespace DemosCommonCode.Pdf
             this.keystrokeActionTabPage.Name = "keystrokeActionTabPage";
             this.keystrokeActionTabPage.Size = new System.Drawing.Size(303, 203);
             this.keystrokeActionTabPage.TabIndex = 4;
-            this.keystrokeActionTabPage.Text = "Keystroke Action";
+            resources.ApplyResources(this.keystrokeActionTabPage, "keystrokeActionTabPage");
             this.keystrokeActionTabPage.UseVisualStyleBackColor = true;
             // 
             // keystrokePdfActionEditorControl

@@ -46,7 +46,7 @@ namespace DemosCommonCode.Imaging
             this.findTextToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.findTextToolStripButton.Name = "findTextToolStripButton";
             this.findTextToolStripButton.Size = new System.Drawing.Size(23, 22);
-            this.findTextToolStripButton.Text = "Find text...";
+            resources.ApplyResources(this.findTextToolStripButton, "findTextToolStripButton");
             this.findTextToolStripButton.Click += new System.EventHandler(this.findTextToolStripButton_Click);
             // 
             // fastFindToolStripComboBox
@@ -63,7 +63,7 @@ namespace DemosCommonCode.Imaging
             this.fastFindNextToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.fastFindNextToolStripButton.Name = "fastFindNextToolStripButton";
             this.fastFindNextToolStripButton.Size = new System.Drawing.Size(23, 20);
-            this.fastFindNextToolStripButton.Text = "Find next";
+            resources.ApplyResources(this.fastFindNextToolStripButton, "fastFindNextToolStripButton");
             this.fastFindNextToolStripButton.Click += new System.EventHandler(this.fastFindNextToolStripButton_Click);
             // 
             // stopFastFindToolStripButton
@@ -74,7 +74,7 @@ namespace DemosCommonCode.Imaging
             this.stopFastFindToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.stopFastFindToolStripButton.Name = "stopFastFindToolStripButton";
             this.stopFastFindToolStripButton.Size = new System.Drawing.Size(23, 20);
-            this.stopFastFindToolStripButton.Text = "Stop";
+            resources.ApplyResources(this.stopFastFindToolStripButton, "stopFastFindToolStripButton");
             this.stopFastFindToolStripButton.Visible = false;
             this.stopFastFindToolStripButton.Click += new System.EventHandler(this.stopFastFindToolStripButton_Click);
             // 

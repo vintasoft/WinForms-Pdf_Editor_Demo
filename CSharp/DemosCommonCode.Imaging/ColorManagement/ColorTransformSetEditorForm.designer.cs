@@ -28,6 +28,7 @@ namespace DemosCommonCode.Imaging.ColorManagement
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ColorTransformSetEditorForm));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.colorTransformsListBox = new System.Windows.Forms.ListBox();
             this.deleteButton = new System.Windows.Forms.Button();
@@ -52,7 +53,7 @@ namespace DemosCommonCode.Imaging.ColorManagement
             this.groupBox1.Size = new System.Drawing.Size(346, 239);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Current color transforms (transform set)";
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             // 
             // colorTransformsListBox
             // 
@@ -73,7 +74,7 @@ namespace DemosCommonCode.Imaging.ColorManagement
             this.deleteButton.Name = "deleteButton";
             this.deleteButton.Size = new System.Drawing.Size(117, 23);
             this.deleteButton.TabIndex = 4;
-            this.deleteButton.Text = "Delete selected";
+            resources.ApplyResources(this.deleteButton, "deleteButton");
             this.deleteButton.UseVisualStyleBackColor = true;
             this.deleteButton.Click += new System.EventHandler(this.deleteButton_Click);
             // 
@@ -88,7 +89,7 @@ namespace DemosCommonCode.Imaging.ColorManagement
             this.groupBox3.Size = new System.Drawing.Size(213, 239);
             this.groupBox3.TabIndex = 2;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Standard available color transforms";
+            resources.ApplyResources(this.groupBox3, "groupBox3");
             // 
             // availableColorTransformsListBox
             // 
@@ -109,7 +110,7 @@ namespace DemosCommonCode.Imaging.ColorManagement
             this.copyToTransformSetButton.Name = "copyToTransformSetButton";
             this.copyToTransformSetButton.Size = new System.Drawing.Size(176, 23);
             this.copyToTransformSetButton.TabIndex = 3;
-            this.copyToTransformSetButton.Text = "Copy selected to transform set";
+            resources.ApplyResources(this.copyToTransformSetButton, "copyToTransformSetButton");
             this.copyToTransformSetButton.UseVisualStyleBackColor = true;
             this.copyToTransformSetButton.Click += new System.EventHandler(this.copyToTransformSetButton_Click);
             // 
@@ -132,7 +133,7 @@ namespace DemosCommonCode.Imaging.ColorManagement
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(75, 23);
             this.buttonCancel.TabIndex = 8;
-            this.buttonCancel.Text = "Cancel";
+            resources.ApplyResources(this.buttonCancel, "buttonCancel");
             this.buttonCancel.UseVisualStyleBackColor = true;
             // 
             // ColorTransformSetEditorForm
@@ -148,7 +149,7 @@ namespace DemosCommonCode.Imaging.ColorManagement
             this.MinimumSize = new System.Drawing.Size(470, 250);
             this.Name = "ColorTransformSetEditorForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Color Transform Set";
+            resources.ApplyResources(this, "$this");
             this.groupBox1.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
             this.ResumeLayout(false);

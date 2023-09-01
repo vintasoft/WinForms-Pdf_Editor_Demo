@@ -117,4 +117,25 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Add Text</value>
+  </data>
+  <data name="addFontButton.Text" xml:space="preserve">
+    <value>Add Font...</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="buttonCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Font</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </metadata>
 </root>

@@ -288,4 +288,127 @@
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>77</value>
   </metadata>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Attachments (Portfolio) Editor</value>
+  </data>
+  <data name="encodeFilesImmediatelyToolStripMenuItem.Text" xml:space="preserve">
+    <value>Encode Files Immediately</value>
+  </data>
+  <data name="selectedFileDataFieldsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Selected Item Data Fields...</value>
+  </data>
+  <data name="schemaEditorToolStripMenuItem.Text" xml:space="preserve">
+    <value>Schema Editor...</value>
+  </data>
+  <data name="schemaToolStripMenuItem.Text" xml:space="preserve">
+    <value>Schema</value>
+  </data>
+  <data name="selectAllToolStripMenuItem.Text" xml:space="preserve">
+    <value>Select All</value>
+  </data>
+  <data name="deleteSelectedToolStripMenuItem.Text" xml:space="preserve">
+    <value>Delete Selected</value>
+  </data>
+  <data name="editToolStripMenuItem.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="setThumbnailForSelectedItemsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Set Thumbnail For Selected Items...</value>
+  </data>
+  <data name="setThumbnailForAllFoldersToolStripMenuItem.Text" xml:space="preserve">
+    <value>Set Thumbnail For All Folders...</value>
+  </data>
+  <data name="generateThumbnailsForlSelectedFilesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Generate Thumbnails For Selected Files...</value>
+  </data>
+  <data name="generateThumbnailsForAllFilesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Generate Thumbnails For All Files...</value>
+  </data>
+  <data name="resetColorsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Reset Colors</value>
+  </data>
+  <data name="colorsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Colors...</value>
+  </data>
+  <data name="moveToRootToolStripMenuItem.Text" xml:space="preserve">
+    <value>Move To Root</value>
+  </data>
+  <data name="levelUpToolStripMenuItem.Text" xml:space="preserve">
+    <value>Level Up</value>
+  </data>
+  <data name="removeSortInformationToolStripMenuItem.Text" xml:space="preserve">
+    <value>Remove Sort Information...</value>
+  </data>
+  <data name="ascendingOrderToolStripMenuItem.Text" xml:space="preserve">
+    <value>Ascending Order</value>
+  </data>
+  <data name="sortByFieldToolStripMenuItem.Text" xml:space="preserve">
+    <value>Sort by Field</value>
+  </data>
+  <data name="sortToolStripMenuItem.Text" xml:space="preserve">
+    <value>Sort</value>
+  </data>
+  <data name="initialViewModeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Initial View Mode</value>
+  </data>
+  <data name="viewModeToolStripMenuItem.Text" xml:space="preserve">
+    <value>View Mode</value>
+  </data>
+  <data name="viewToolStripMenuItem.Text" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="closeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="saveSelectedFilesToToolStripMenuItem.Text" xml:space="preserve">
+    <value>Save Selected Item(s) To...</value>
+  </data>
+  <data name="compressionOfNewFilesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Compression of New Files</value>
+  </data>
+  <data name="addExistingFolderStripMenuItem.Text" xml:space="preserve">
+    <value>Add Existing Folder...</value>
+  </data>
+  <data name="createNewFolderToolStripMenuItem.Text" xml:space="preserve">
+    <value>Add New Folder</value>
+  </data>
+  <data name="addFilesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Add Files...</value>
+  </data>
+  <data name="filesToolStripMenuItem.Text" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="deleteSelectedToolStripButton.Text" xml:space="preserve">
+    <value>Delete Selected Items</value>
+  </data>
+  <data name="saveSelectedItemsToolStripButton.Text" xml:space="preserve">
+    <value>Save Selected Items To...</value>
+  </data>
+  <data name="addExistingFolderStripButton.Text" xml:space="preserve">
+    <value>Add Existing Folder...</value>
+  </data>
+  <data name="addFilesToolStripButton.Text" xml:space="preserve">
+    <value>Add Files...</value>
+  </data>
+  <data name="createNewFolderToolStripButton.Text" xml:space="preserve">
+    <value>Create New Folder</value>
+  </data>
+  <data name="detailViewModeToolStripButton.Text" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="iconViewModeToolStripButton.Text" xml:space="preserve">
+    <value>Large Icons</value>
+  </data>
+  <data name="moveToRootToolStripButton.Text" xml:space="preserve">
+    <value>Move To Root</value>
+  </data>
+  <data name="levelUpToolStripButton.ToolTipText" xml:space="preserve">
+    <value>Level Up</value>
+  </data>
+  <data name="levelUpToolStripButton.Text" xml:space="preserve">
+    <value>Level Up</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </metadata>
 </root>

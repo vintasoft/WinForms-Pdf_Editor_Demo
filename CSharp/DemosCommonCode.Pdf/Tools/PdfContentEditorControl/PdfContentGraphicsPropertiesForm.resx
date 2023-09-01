@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -117,4 +117,52 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Set Content Graphics Properties</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Color Blending Mode</value>
+  </data>
+  <data name="colorBlendingGroupBox.Text" xml:space="preserve">
+    <value>Color Blending</value>
+  </data>
+  <data name="colorBlendingCheckBox.Text" xml:space="preserve">
+    <value>Set Color Blending</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Rendering Mode</value>
+  </data>
+  <data name="textPropertiesGroupBox.Text" xml:space="preserve">
+    <value>Text Properties</value>
+  </data>
+  <data name="textPropertiesCheckBox.Text" xml:space="preserve">
+    <value>Set Text Properties</value>
+  </data>
+  <data name="buttonCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Fill Color and Alpha</value>
+  </data>
+  <data name="fillGroupBox.Text" xml:space="preserve">
+    <value>Fill Properties</value>
+  </data>
+  <data name="fillPropertiesCheckBox.Text" xml:space="preserve">
+    <value>Set Fill Properties</value>
+  </data>
+  <data name="strokePropertiesCheckBox.Text" xml:space="preserve">
+    <value>Set Stroke Properties</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Stroke Color and Alpha</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Line Width</value>
+  </data>
+  <data name="strokeGroupBox.Text" xml:space="preserve">
+    <value>Stroke Properties</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </metadata>
 </root>

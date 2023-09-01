@@ -28,6 +28,7 @@ namespace DemosCommonCode.Pdf
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CreateFontForm));
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
@@ -131,7 +132,7 @@ namespace DemosCommonCode.Pdf
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(75, 23);
             this.buttonCancel.TabIndex = 17;
-            this.buttonCancel.Text = "Cancel";
+            resources.ApplyResources(this.buttonCancel, "buttonCancel");
             this.buttonCancel.UseVisualStyleBackColor = true;
             this.buttonCancel.Click += new System.EventHandler(this.buttonCancel_Click);
             // 
@@ -166,15 +167,15 @@ namespace DemosCommonCode.Pdf
             this.fontTypeGroupBox.Size = new System.Drawing.Size(144, 60);
             this.fontTypeGroupBox.TabIndex = 22;
             this.fontTypeGroupBox.TabStop = false;
-            this.fontTypeGroupBox.Text = "Type of new Font";
+            resources.ApplyResources(this.fontTypeGroupBox, "fontTypeGroupBox");
             // 
             // fontTypeComboBox
             // 
             this.fontTypeComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.fontTypeComboBox.FormattingEnabled = true;
             this.fontTypeComboBox.Items.AddRange(new object[] {
-            "Simple Font",
-            "CID Font (Composite)"});
+            resources.GetString("fontTypeComboBox.Items"),
+            resources.GetString("fontTypeComboBox.Items1")});
             this.fontTypeComboBox.Location = new System.Drawing.Point(6, 22);
             this.fontTypeComboBox.Name = "fontTypeComboBox";
             this.fontTypeComboBox.Size = new System.Drawing.Size(132, 21);
@@ -189,7 +190,7 @@ namespace DemosCommonCode.Pdf
             this.groupBox2.Size = new System.Drawing.Size(203, 60);
             this.groupBox2.TabIndex = 21;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Source Font";
+            resources.ApplyResources(this.groupBox2, "groupBox2");
             // 
             // fontsComboBox
             // 
@@ -212,7 +213,7 @@ namespace DemosCommonCode.Pdf
             this.groupBox1.Size = new System.Drawing.Size(269, 60);
             this.groupBox1.TabIndex = 20;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Fonts Source";
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             // 
             // standardFontRadioButton
             // 
@@ -221,7 +222,7 @@ namespace DemosCommonCode.Pdf
             this.standardFontRadioButton.Name = "standardFontRadioButton";
             this.standardFontRadioButton.Size = new System.Drawing.Size(97, 17);
             this.standardFontRadioButton.TabIndex = 19;
-            this.standardFontRadioButton.Text = "Standard Fonts";
+            resources.ApplyResources(this.standardFontRadioButton, "standardFontRadioButton");
             this.standardFontRadioButton.UseVisualStyleBackColor = true;
             this.standardFontRadioButton.CheckedChanged += new System.EventHandler(this.standardFontRadioButton_CheckedChanged);
             // 
@@ -232,7 +233,7 @@ namespace DemosCommonCode.Pdf
             this.systemFontRadioButton.Name = "systemFontRadioButton";
             this.systemFontRadioButton.Size = new System.Drawing.Size(143, 17);
             this.systemFontRadioButton.TabIndex = 14;
-            this.systemFontRadioButton.Text = "System Fonts (TrueType)";
+            resources.ApplyResources(this.systemFontRadioButton, "systemFontRadioButton");
             this.systemFontRadioButton.UseVisualStyleBackColor = true;
             this.systemFontRadioButton.CheckedChanged += new System.EventHandler(this.systemFontRadioButton_CheckedChanged);
             // 
@@ -243,7 +244,7 @@ namespace DemosCommonCode.Pdf
             this.fromTTFRadioButton.Name = "fromTTFRadioButton";
             this.fromTTFRadioButton.Size = new System.Drawing.Size(123, 17);
             this.fromTTFRadioButton.TabIndex = 15;
-            this.fromTTFRadioButton.Text = "TrueType Font File...";
+            resources.ApplyResources(this.fromTTFRadioButton, "fromTTFRadioButton");
             this.fromTTFRadioButton.UseVisualStyleBackColor = true;
             this.fromTTFRadioButton.CheckedChanged += new System.EventHandler(this.fromTTFRadioButton_CheckedChanged);
             // 
@@ -254,7 +255,7 @@ namespace DemosCommonCode.Pdf
             this.fromPDFDocumentRadioButton.Name = "fromPDFDocumentRadioButton";
             this.fromPDFDocumentRadioButton.Size = new System.Drawing.Size(107, 17);
             this.fromPDFDocumentRadioButton.TabIndex = 18;
-            this.fromPDFDocumentRadioButton.Text = "PDF Document...";
+            resources.ApplyResources(this.fromPDFDocumentRadioButton, "fromPDFDocumentRadioButton");
             this.fromPDFDocumentRadioButton.UseVisualStyleBackColor = true;
             this.fromPDFDocumentRadioButton.CheckedChanged += new System.EventHandler(this.fromPDFDocumentRadioButton_CheckedChanged);
             // 
@@ -279,7 +280,7 @@ namespace DemosCommonCode.Pdf
             this.Name = "CreateFontForm";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Create new PDF font";
+            resources.ApplyResources(this, "$this");
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.createFontForm_FormClosing);
             this.panel1.ResumeLayout(false);
             this.panel3.ResumeLayout(false);

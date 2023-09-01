@@ -28,6 +28,7 @@ namespace DemosCommonCode.Pdf
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PdfTriggersEditorForm));
             this.pdfTriggersEditorControl = new DemosCommonCode.Pdf.PdfTriggersEditorControl();
             this.okButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -63,7 +64,7 @@ namespace DemosCommonCode.Pdf
             this.Controls.Add(this.pdfTriggersEditorControl);
             this.MinimumSize = new System.Drawing.Size(269, 353);
             this.Name = "PdfTriggersEditorWindow";
-            this.Text = "Triggers Editor";
+            resources.ApplyResources(this, "$this");
             this.ResumeLayout(false);
 
         }

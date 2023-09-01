@@ -501,7 +501,7 @@ namespace DemosCommonCode.Pdf
                 // close comment with state
                 stateComment.IsOpen = false;
                 // update state comment text
-                stateComment.Text = string.Format("{0} sets by {1}", state, stateComment.UserName);
+                stateComment.Text = string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_ARG0_SETS_BY_ARG1, state, stateComment.UserName);
             }
 #endif
         }

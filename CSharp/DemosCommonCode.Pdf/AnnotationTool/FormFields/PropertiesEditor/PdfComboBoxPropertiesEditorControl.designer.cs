@@ -28,6 +28,7 @@ namespace DemosCommonCode.Pdf
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PdfComboBoxPropertiesEditorControl));
             this.editableCheckBox = new System.Windows.Forms.CheckBox();
             this.mainPanel = new System.Windows.Forms.Panel();
             this.actionsTabControl = new System.Windows.Forms.TabControl();
@@ -58,7 +59,7 @@ namespace DemosCommonCode.Pdf
             this.editableCheckBox.Name = "editableCheckBox";
             this.editableCheckBox.Size = new System.Drawing.Size(64, 17);
             this.editableCheckBox.TabIndex = 9;
-            this.editableCheckBox.Text = "Editable";
+            resources.ApplyResources(this.editableCheckBox, "editableCheckBox");
             this.editableCheckBox.UseVisualStyleBackColor = true;
             this.editableCheckBox.CheckedChanged += new System.EventHandler(this.editableCheckBox_CheckedChanged);
             // 
@@ -97,7 +98,7 @@ namespace DemosCommonCode.Pdf
             this.valueTabPage.Padding = new System.Windows.Forms.Padding(3);
             this.valueTabPage.Size = new System.Drawing.Size(307, 290);
             this.valueTabPage.TabIndex = 0;
-            this.valueTabPage.Text = "Value";
+            resources.ApplyResources(this.valueTabPage, "valueTabPage");
             this.valueTabPage.UseVisualStyleBackColor = true;
             // 
             // pdfInteractiveFormChoiceFieldEditorControl
@@ -121,7 +122,7 @@ namespace DemosCommonCode.Pdf
             this.calculateActionTabPage.Padding = new System.Windows.Forms.Padding(3);
             this.calculateActionTabPage.Size = new System.Drawing.Size(307, 290);
             this.calculateActionTabPage.TabIndex = 1;
-            this.calculateActionTabPage.Text = "Calculate Action";
+            resources.ApplyResources(this.calculateActionTabPage, "calculateActionTabPage");
             this.calculateActionTabPage.UseVisualStyleBackColor = true;
             // 
             // calculatePdfActionEditorControl
@@ -146,7 +147,7 @@ namespace DemosCommonCode.Pdf
             this.validateActionTabPage.Name = "validateActionTabPage";
             this.validateActionTabPage.Size = new System.Drawing.Size(307, 290);
             this.validateActionTabPage.TabIndex = 2;
-            this.validateActionTabPage.Text = "Validate Action";
+            resources.ApplyResources(this.validateActionTabPage, "validateActionTabPage");
             this.validateActionTabPage.UseVisualStyleBackColor = true;
             // 
             // validatePdfActionEditorControl
@@ -171,7 +172,7 @@ namespace DemosCommonCode.Pdf
             this.formatActionTabPage.Name = "formatActionTabPage";
             this.formatActionTabPage.Size = new System.Drawing.Size(307, 290);
             this.formatActionTabPage.TabIndex = 3;
-            this.formatActionTabPage.Text = "Format Action";
+            resources.ApplyResources(this.formatActionTabPage, "formatActionTabPage");
             this.formatActionTabPage.UseVisualStyleBackColor = true;
             // 
             // formatPdfActionEditorControl
@@ -196,7 +197,7 @@ namespace DemosCommonCode.Pdf
             this.keystrokeActionTabPage.Name = "keystrokeActionTabPage";
             this.keystrokeActionTabPage.Size = new System.Drawing.Size(307, 290);
             this.keystrokeActionTabPage.TabIndex = 4;
-            this.keystrokeActionTabPage.Text = "Keystroke Action";
+            resources.ApplyResources(this.keystrokeActionTabPage, "keystrokeActionTabPage");
             this.keystrokeActionTabPage.UseVisualStyleBackColor = true;
             // 
             // keystrokePdfActionEditorControl
@@ -221,7 +222,7 @@ namespace DemosCommonCode.Pdf
             this.spellCheckCheckBox.Name = "spellCheckCheckBox";
             this.spellCheckCheckBox.Size = new System.Drawing.Size(83, 17);
             this.spellCheckCheckBox.TabIndex = 12;
-            this.spellCheckCheckBox.Text = "Spell Check";
+            resources.ApplyResources(this.spellCheckCheckBox, "spellCheckCheckBox");
             this.spellCheckCheckBox.UseVisualStyleBackColor = true;
             this.spellCheckCheckBox.CheckedChanged += new System.EventHandler(this.spellCheckCheckBox_CheckedChanged);
             // 

@@ -30,14 +30,14 @@ namespace DemosCommonCode.Pdf
                     VintasoftImage destImage = gotoActionExecutor.GetImageAssociatedWithAction(gotoAction);
                     if (destImage != null)
                     {
-                        return string.Format("{0} ({1}): page number {2}",
+                        return string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_ARG0_ARG1_PAGE_NUMBER_ARG2,
                                gotoAction.GetType().Name,
                                gotoAction.Destination.GetType().Name,
                                gotoActionExecutor.ImageViewer.Images.IndexOf(destImage) + 1);
                     }
                     if (gotoAction.Destination != null && gotoAction.Destination.Page != null)
                     {
-                        return string.Format("{0} ({1}): document page number {2}",
+                        return string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_ARG0_ARG1_DOCUMENT_PAGE_NUMBER_ARG2,
                            gotoAction.GetType().Name,
                            gotoAction.Destination.GetType().Name,
                            gotoAction.Document.Pages.IndexOf(gotoAction.Destination.Page) + 1);
@@ -46,26 +46,26 @@ namespace DemosCommonCode.Pdf
             }
             else if (action is PdfNamedAction)
             {
-                return string.Format("Named Action: '{0}'",
+                return string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_NAMED_ACTION_ARG0,
                     ((PdfNamedAction)action).ActionName);
             }
             else if (action is PdfLaunchAction)
             {
-                return string.Format("Launch Application: '{0}'",
+                return string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_LAUNCH_APPLICATION_ARG0,
                     ((PdfLaunchAction)action).WinCommandLine);
             }
             else if (action is PdfUriAction)
             {
-                return string.Format("Open URL: '{0}'",
+                return string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_OPEN_URL_ARG0_ALT1,
                     ((PdfUriAction)action).URI);
             }
             else if (action is PdfSubmitFormAction)
             {
-                return string.Format("Submit Interactive Form ({0}): '{1}'",
+                return string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SUBMIT_INTERACTIVE_FORM_ARG0_ARG1,
                     ((PdfSubmitFormAction)action).SubmitFormat,
                     ((PdfSubmitFormAction)action).Url);
             }
-            return string.Format("{0} action ({1})", action.ActionType, action.GetType().Name);
+            return string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_ARG0_ACTION_ARG1, action.ActionType, action.GetType().Name);
         }
 
         /// <summary>
@@ -75,7 +75,7 @@ namespace DemosCommonCode.Pdf
         /// <returns>A description of "Activate" action of PDF annotation.</returns>
         public static string GetActivateActionDescription(PdfAnnotation annotation)
         {
-            PdfAction action = annotation.GetAction("Activate");
+            PdfAction action = annotation.GetAction(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_ACTIVATE);
             if (annotation.AdditionalActions != null)
             {
                 if (action == null)

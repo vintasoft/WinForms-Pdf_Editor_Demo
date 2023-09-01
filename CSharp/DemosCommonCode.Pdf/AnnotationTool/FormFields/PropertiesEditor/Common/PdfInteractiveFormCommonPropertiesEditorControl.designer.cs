@@ -28,6 +28,7 @@ namespace DemosCommonCode.Pdf
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PdfInteractiveFormCommonPropertiesEditorControl));
             this.label1 = new System.Windows.Forms.Label();
             this.nameTextBox = new System.Windows.Forms.TextBox();
             this.fontGroupBox = new System.Windows.Forms.GroupBox();
@@ -64,7 +65,7 @@ namespace DemosCommonCode.Pdf
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(39, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Name";
+            resources.ApplyResources(this.label1, "label1");
             // 
             // nameTextBox
             // 
@@ -95,7 +96,7 @@ namespace DemosCommonCode.Pdf
             this.fontGroupBox.Size = new System.Drawing.Size(383, 77);
             this.fontGroupBox.TabIndex = 2;
             this.fontGroupBox.TabStop = false;
-            this.fontGroupBox.Text = "Font";
+            resources.ApplyResources(this.fontGroupBox, "fontGroupBox");
             // 
             // autoFontSizeMaxValueComboBox
             // 
@@ -187,7 +188,7 @@ namespace DemosCommonCode.Pdf
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(31, 13);
             this.label4.TabIndex = 2;
-            this.label4.Text = "Color";
+            resources.ApplyResources(this.label4, "label4");
             // 
             // label3
             // 
@@ -196,7 +197,7 @@ namespace DemosCommonCode.Pdf
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(27, 13);
             this.label3.TabIndex = 1;
-            this.label3.Text = "Size";
+            resources.ApplyResources(this.label3, "label3");
             // 
             // label8
             // 
@@ -205,7 +206,7 @@ namespace DemosCommonCode.Pdf
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(59, 13);
             this.label8.TabIndex = 0;
-            this.label8.Text = "Font Name";
+            resources.ApplyResources(this.label8, "label8");
             // 
             // borderGroupBox
             // 
@@ -217,7 +218,7 @@ namespace DemosCommonCode.Pdf
             this.borderGroupBox.Size = new System.Drawing.Size(383, 77);
             this.borderGroupBox.TabIndex = 3;
             this.borderGroupBox.TabStop = false;
-            this.borderGroupBox.Text = "Border";
+            resources.ApplyResources(this.borderGroupBox, "borderGroupBox");
             // 
             // borderStyleControl
             // 
@@ -236,7 +237,7 @@ namespace DemosCommonCode.Pdf
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(55, 13);
             this.label7.TabIndex = 10;
-            this.label7.Text = "Backcolor";
+            resources.ApplyResources(this.label7, "label7");
             // 
             // requiredCheckBox
             // 
@@ -245,7 +246,7 @@ namespace DemosCommonCode.Pdf
             this.requiredCheckBox.Name = "requiredCheckBox";
             this.requiredCheckBox.Size = new System.Drawing.Size(69, 17);
             this.requiredCheckBox.TabIndex = 13;
-            this.requiredCheckBox.Text = "Required";
+            resources.ApplyResources(this.requiredCheckBox, "requiredCheckBox");
             this.requiredCheckBox.UseVisualStyleBackColor = true;
             this.requiredCheckBox.CheckedChanged += new System.EventHandler(this.requiredCheckBox_CheckedChanged);
             // 
@@ -256,7 +257,7 @@ namespace DemosCommonCode.Pdf
             this.readOnlyCheckBox.Name = "readOnlyCheckBox";
             this.readOnlyCheckBox.Size = new System.Drawing.Size(73, 17);
             this.readOnlyCheckBox.TabIndex = 14;
-            this.readOnlyCheckBox.Text = "ReadOnly";
+            resources.ApplyResources(this.readOnlyCheckBox, "readOnlyCheckBox");
             this.readOnlyCheckBox.UseVisualStyleBackColor = true;
             this.readOnlyCheckBox.CheckedChanged += new System.EventHandler(this.readOnlyCheckBox_CheckedChanged);
             // 

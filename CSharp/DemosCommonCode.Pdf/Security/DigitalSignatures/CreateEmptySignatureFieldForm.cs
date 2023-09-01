@@ -132,7 +132,7 @@ namespace DemosCommonCode.Pdf.Security
             }
             else
             {
-                DemosTools.ShowWarningMessage(string.Format("Document has annotation with name '{0}', change signature name.", signatureNameTextBox.Text));
+                DemosTools.ShowWarningMessage(string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_DOCUMENT_HAS_ANNOTATION_WITH_NAME_ARG0_CHANGE_SIGNATURE_NAME, signatureNameTextBox.Text));
             }
         }
 

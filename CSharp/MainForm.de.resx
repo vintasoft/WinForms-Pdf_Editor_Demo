@@ -1,0 +1,762 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="textBoxPasteToolStripMenuItem.Text" xml:space="preserve">
+    <value>Einfügen</value>
+  </data>
+  <data name="textBoxCopyToolStripMenuItem.Text" xml:space="preserve">
+    <value>Kopieren</value>
+  </data>
+  <data name="addThumbnailsToolStripStatusLabel.Text" xml:space="preserve">
+    <value>Miniaturansichten:</value>
+  </data>
+  <data name="contentEditorTabPage.Text" xml:space="preserve">
+    <value>Inhaltseditor</value>
+  </data>
+  <data name="removeContentTabPage.Text" xml:space="preserve">
+    <value>Schwärzen</value>
+  </data>
+  <data name="textExtractionTabPage.Text" xml:space="preserve">
+    <value>Textextraktion</value>
+  </data>
+  <data name="closeAllCommentsButton.Text" xml:space="preserve">
+    <value>Alle Kommentare schließen</value>
+  </data>
+  <data name="addCommentButton.Text" xml:space="preserve">
+    <value> Kommentar hinzufügen...</value>
+  </data>
+  <data name="commentsTabPage.Text" xml:space="preserve">
+    <value>Kommentare</value>
+  </data>
+  <data name="annotationToolTabPage.Text" xml:space="preserve">
+    <value>Anmerkungen/Formularfelder</value>
+  </data>
+  <data name="bookmarksTabPage.Text" xml:space="preserve">
+    <value>Lesezeichen</value>
+  </data>
+  <data name="pagesTabPage.Text" xml:space="preserve">
+    <value>Seiten</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
+    <value>Über das Programm...</value>
+  </data>
+  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
+    <value>Hilfe</value>
+  </data>
+  <data name="calculationOrderToolStripMenuItem.Text" xml:space="preserve">
+    <value>Berechnungsreihenfolge...</value>
+  </data>
+  <data name="updateAppearancesToolStripMenuItem.Text" xml:space="preserve">
+    <value>UpdateAppearances</value>
+  </data>
+  <data name="resetFormToolStripMenuItem.Text" xml:space="preserve">
+    <value>Formular zurücksetzen</value>
+  </data>
+  <data name="exportDataToolStripMenuItem.Text" xml:space="preserve">
+    <value>Daten nach XFDF exportieren...</value>
+  </data>
+  <data name="importDataToolStripMenuItem.Text" xml:space="preserve">
+    <value>Daten aus XFDF importieren...</value>
+  </data>
+  <data name="formsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Formulare</value>
+  </data>
+  <data name="settingsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Einstellungen...</value>
+  </data>
+  <data name="documentToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Für Dokument</value>
+  </data>
+  <data name="selectedPagesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Für ausgewählte Seiten</value>
+  </data>
+  <data name="currentPageToolStripMenuItem.Text" xml:space="preserve">
+    <value>Für aktuelle Seite</value>
+  </data>
+  <data name="obfuscateTextEncodingToolStripMenuItem.Text" xml:space="preserve">
+    <value>Textkodierung verschleiern</value>
+  </data>
+  <data name="addSelectedTextToRedactionMarksToolStripMenuItem.Text" xml:space="preserve">
+    <value>Ausgewählten Text zu Schwärzungsmarkierungen hinzufügen</value>
+  </data>
+  <data name="removeSelectedTextToolStripMenuItem.Text" xml:space="preserve">
+    <value>Ausgewählten Text entfernen</value>
+  </data>
+  <data name="highlightSelectedTextToolStripMenuItem.Text" xml:space="preserve">
+    <value>Ausgewählten Text hervorheben (Inhalt bearbeiten)</value>
+  </data>
+  <data name="squigglyUnderlineSelectedTextAnnotateToolStripMenuItem.Text" xml:space="preserve">
+    <value>Squiggly markierten Text unterstreichen (mit Anmerkungen versehen)</value>
+  </data>
+  <data name="underlineSelectedTextAnnotateToolStripMenuItem.Text" xml:space="preserve">
+    <value>Ausgewählten Text unterstreichen (Anmerken)</value>
+  </data>
+  <data name="strikeoutSelectedTextAnnotateToolStripMenuItem.Text" xml:space="preserve">
+    <value>Ausgewählten Text durchstreichen (mit Anmerkungen versehen)</value>
+  </data>
+  <data name="highlightSelectedTextAnnotateToolStripMenuItem.Text" xml:space="preserve">
+    <value>Ausgewählten Text hervorheben (Anmerken)</value>
+  </data>
+  <data name="findTextToolStripMenuItem.Text" xml:space="preserve">
+    <value>Suchen...</value>
+  </data>
+  <data name="saveAsImageToolStripMenuItem.Text" xml:space="preserve">
+    <value>Als Bild speichern...</value>
+  </data>
+  <data name="imageResourcesToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Bildressourcen...</value>
+  </data>
+  <data name="pageResourcesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Ressourcen...</value>
+  </data>
+  <data name="pageActionsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Aktionen...</value>
+  </data>
+  <data name="pagePropertiesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Eigenschaften...</value>
+  </data>
+  <data name="pageUsesTransparencyToolStripMenuItem.Text" xml:space="preserve">
+    <value>Verwendet die Seite Transparenz?</value>
+  </data>
+  <data name="removeUnusedResourcesFromPDFPageToolStripMenuItem.Text" xml:space="preserve">
+    <value>Nicht verwendete Ressourcen von der PDF-Seite entfernen...</value>
+  </data>
+  <data name="simplifyPageContentToolStripMenuItem.Text" xml:space="preserve">
+    <value>Seiteninhalt vereinfachen...</value>
+  </data>
+  <data name="convertToImageonlyToolStripMenuItem.Text" xml:space="preserve">
+    <value>In Nur-Bild konvertieren...</value>
+  </data>
+  <data name="invertPDFPageToolStripMenuItem.Text" xml:space="preserve">
+    <value>Farben der PDF-Seite umkehren</value>
+  </data>
+  <data name="colorBlendingTtoolStripMenuItem.Text" xml:space="preserve">
+    <value>Farbmischung...</value>
+  </data>
+  <data name="clearPDFPageContentToolStripMenuItem.Text" xml:space="preserve">
+    <value>PDF-Seiteninhalt löschen...</value>
+  </data>
+  <data name="rotatePDFPageBy90DegressToolStripMenuItem.Text" xml:space="preserve">
+    <value>PDF-Seite um 90 Grad drehen...</value>
+  </data>
+  <data name="resizeCanvasOfPDFPageToolStripMenuItem.Text" xml:space="preserve">
+    <value>Größe der PDF-Seite ändern...</value>
+  </data>
+  <data name="changeScaleOfPDFPageToolStripMenuItem.Text" xml:space="preserve">
+    <value>Skalierung der PDF-Seite ändern...</value>
+  </data>
+  <data name="removePdfAnnotationsFromPDFPageToolStripMenuItem.Text" xml:space="preserve">
+    <value>PDF-Anmerkungen von der PDF-Seite entfernen...</value>
+  </data>
+  <data name="burnThePDFAnnotationsOnPDFPageToolStripMenuItem.Text" xml:space="preserve">
+    <value>PDF-Anmerkungen auf PDF-Seite brennen...</value>
+  </data>
+  <data name="pageProcessingToolStripMenuItem.Text" xml:space="preserve">
+    <value>Verarbeitung</value>
+  </data>
+  <data name="pageToolStripMenuItem.Text" xml:space="preserve">
+    <value>Seite</value>
+  </data>
+  <data name="removeLayersOptionalContentToolStripMenuItem.Text" xml:space="preserve">
+    <value>Ebenen entfernen (optionaler Inhalt)...</value>
+  </data>
+  <data name="optionalContentToolStripMenuItem.Text" xml:space="preserve">
+    <value>Ebenen (optionaler Inhalt)...</value>
+  </data>
+  <data name="subsetAllFontsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Teilmenge aller eingebetteten Schriftarten...</value>
+  </data>
+  <data name="embedAllFontsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Alle Schriftarten einbetten...</value>
+  </data>
+  <data name="fontsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Schriftarten...</value>
+  </data>
+  <data name="imageResourcesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Bildressourcen...</value>
+  </data>
+  <data name="resourcesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Ressourcen...</value>
+  </data>
+  <data name="embeddedFilesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Eingebettete Dateien...</value>
+  </data>
+  <data name="removeAttachmentsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Anhänge entfernen (Portfolio)...</value>
+  </data>
+  <data name="attachmentsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Anhänge (Portfolio)...</value>
+  </data>
+  <data name="documentLevelJavaScriptsToolStripMenuItem.Text" xml:space="preserve">
+    <value>JavaScripts auf Dokumentebene...</value>
+  </data>
+  <data name="documentActionsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Aktionen...</value>
+  </data>
+  <data name="viewerPreferencesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Betrachtereinstellungen...</value>
+  </data>
+  <data name="toolStripMenuItem1.Text" xml:space="preserve">
+    <value>Viewer-Seitenlayout</value>
+  </data>
+  <data name="documentViewModeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Dokumentansichtsmodus</value>
+  </data>
+  <data name="thumbnails_ViewToolStripMenuItem.Text" xml:space="preserve">
+    <value>Anzeigen...</value>
+  </data>
+  <data name="thumbnails_GenerateAllToolStripMenuItem.Text" xml:space="preserve">
+    <value>Alle generieren</value>
+  </data>
+  <data name="thumbnails_RemoveAllToolStripMenuItem.Text" xml:space="preserve">
+    <value>Alle entfernen</value>
+  </data>
+  <data name="thumbnailsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Miniaturansichten</value>
+  </data>
+  <data name="bookmarks_DeleteToolStripMenuItem.Text" xml:space="preserve">
+    <value>Löschen</value>
+  </data>
+  <data name="bookmarks_EditToolStripMenuItem.Text" xml:space="preserve">
+    <value>Bearbeiten...</value>
+  </data>
+  <data name="bookmarks_AddToolStripMenuItem.Text" xml:space="preserve">
+    <value>Hinzufügen...</value>
+  </data>
+  <data name="bookmarksToolStripMenuItem.Text" xml:space="preserve">
+    <value>Lesezeichen</value>
+  </data>
+  <data name="removeAllSignaturesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Alle Signaturfelder entfernen</value>
+  </data>
+  <data name="removeSignatureToolStripMenuItem.Text" xml:space="preserve">
+    <value>Signaturfeld entfernen...</value>
+  </data>
+  <data name="clearAllSignaturesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Alle Signaturen löschen</value>
+  </data>
+  <data name="clearSignatureToolStripMenuItem.Text" xml:space="preserve">
+    <value>Signatur löschen...</value>
+  </data>
+  <data name="addEmptySignatureFieldToolStripMenuItem.Text" xml:space="preserve">
+    <value>Leeres Signaturfeld hinzufügen...</value>
+  </data>
+  <data name="signDocumentUsingExisingEmptySignatureFieldToolStripMenuItem.Text" xml:space="preserve">
+    <value>Dokument mit vorhandenem leeren Signaturfeld signieren...</value>
+  </data>
+  <data name="signDocumentUsingNewSignatureFieldToolStripMenuItem.Text" xml:space="preserve">
+    <value>Dokument mit neuem Signaturfeld signieren...</value>
+  </data>
+  <data name="digitalSignaturesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Digitale Signaturen anzeigen/überprüfen...</value>
+  </data>
+  <data name="signaturesSigningToolStripMenuItem.Text" xml:space="preserve">
+    <value>Signieren &amp;&amp; Signaturen</value>
+  </data>
+  <data name="securitySettingsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Sicherheitseinstellungen ändern...</value>
+  </data>
+  <data name="securityPropertiesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Sicherheitseigenschaften...</value>
+  </data>
+  <data name="extensionsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Erweiterungen...</value>
+  </data>
+  <data name="documentInformationToolStripMenuItem.Text" xml:space="preserve">
+    <value>Informationen...</value>
+  </data>
+  <data name="removeMarkupAnnotationsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Markup-Anmerkungen entfernen</value>
+  </data>
+  <data name="removeAllAnnotationsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Alle Anmerkungen entfernen</value>
+  </data>
+  <data name="exportToXFDFToolStripMenuItem.Text" xml:space="preserve">
+    <value>Nach XFDF exportieren...</value>
+  </data>
+  <data name="importFromXFDFToolStripMenuItem.Text" xml:space="preserve">
+    <value>Aus XFDF importieren...</value>
+  </data>
+  <data name="annotationsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Anmerkungen</value>
+  </data>
+  <data name="removeSignatureFieldsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Signaturfelder entfernen...</value>
+  </data>
+  <data name="convertTrueTypeFontsToCFFFontsToolStripMenuItem.Text" xml:space="preserve">
+    <value>TrueType-Schriftarten in CFF-Schriftarten konvertieren...</value>
+  </data>
+  <data name="removeTransparencyToolStripMenuItem.Text" xml:space="preserve">
+    <value>Transparenz entfernen...</value>
+  </data>
+  <data name="compressDataStreamsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Datenströme komprimieren...</value>
+  </data>
+  <data name="decompressStreamsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Datenströme dekomprimieren...</value>
+  </data>
+  <data name="toolsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Werkzeuge</value>
+  </data>
+  <data name="removeDuplicateResourcesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Duplizierte Ressourcen entfernen...</value>
+  </data>
+  <data name="removeUnusedResourcesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Nicht verwendete Ressourcen entfernen...</value>
+  </data>
+  <data name="cleanupDocumentToolStripMenuItem.Text" xml:space="preserve">
+    <value>Dokument bereinigen...</value>
+  </data>
+  <data name="cleanUpToolStripMenuItem.Text" xml:space="preserve">
+    <value>Aufräumen</value>
+  </data>
+  <data name="documentHasSignatureFieldsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Dokument hat Signaturfelder...</value>
+  </data>
+  <data name="overprintControlIsUsedToolStripMenuItem.Text" xml:space="preserve">
+    <value>Überdruckkontrolle wird verwendet</value>
+  </data>
+  <data name="pdfFileHasTheLinearizationInfoToolStripMenuItem.Text" xml:space="preserve">
+    <value>PDF-Datei enthält die Linearisierungsinformationen</value>
+  </data>
+  <data name="pdfFileHeaderOccursAtByteOffset0OfTheFileToolStripMenuItem.Text" xml:space="preserve">
+    <value>Der PDF-Datei-Header erscheint am Byte-Offset 0 der Datei</value>
+  </data>
+  <data name="documentUsesTheCompressedObjectStreamsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Dokument verwendet die komprimierten Objektströme</value>
+  </data>
+  <data name="theCrossreferenceInformationIsStoredInACrossreferenceStreamToolStripMenuItem.Text" xml:space="preserve">
+    <value>Die Querverweisinformationen werden in einem Querverweis-Stream gespeichert</value>
+  </data>
+  <data name="numberOfIndirectObjectsInAPDFFileToolStripMenuItem.Text" xml:space="preserve">
+    <value>Anzahl indirekter Objekte in einer PDF-Datei</value>
+  </data>
+  <data name="theCrossreferenceTableIsCorruptToolStripMenuItem.Text" xml:space="preserve">
+    <value>Die Querverweistabelle ist beschädigt</value>
+  </data>
+  <data name="detectTheConformanceUsingTheMetadataIdentificationSchemaToolStripMenuItem.Text" xml:space="preserve">
+    <value>Erkennen Sie die Konformität mithilfe des Metadaten-Identifikationsschemas</value>
+  </data>
+  <data name="analyzersToolStripMenuItem.Text" xml:space="preserve">
+    <value>Analysatoren</value>
+  </data>
+  <data name="documentProcessingToolStripMenuItem.Text" xml:space="preserve">
+    <value>Verarbeitung</value>
+  </data>
+  <data name="discardDocumentElementsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Dokumentelemente verwerfen...</value>
+  </data>
+  <data name="optimizeContentImagesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Inhaltsbilder optimieren...</value>
+  </data>
+  <data name="optimizeImagesColorDepthToolStripMenuItem.Text" xml:space="preserve">
+    <value>Farbtiefe der Bilder optimieren...</value>
+  </data>
+  <data name="compressImageResourcesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Bildressourcen komprimieren...</value>
+  </data>
+  <data name="compressDocumentToolStripMenuItem.Text" xml:space="preserve">
+    <value>Dokument komprimieren...</value>
+  </data>
+  <data name="compressionToolStripMenuItem.Text" xml:space="preserve">
+    <value>Komprimierung</value>
+  </data>
+  <data name="simplifyDocumentContentToolStripMenuItem.Text" xml:space="preserve">
+    <value>Dokumentinhalt vereinfachen...</value>
+  </data>
+  <data name="convertToImageonlyDocumentToolStripMenuItem.Text" xml:space="preserve">
+    <value>In reines Bilddokument konvertieren...</value>
+  </data>
+  <data name="pDFA4fConverterToolStripMenuItem.Text" xml:space="preserve">
+    <value>PDF/A-4f-Konverter...</value>
+  </data>
+  <data name="pDFA4eConverterToolStripMenuItem.Text" xml:space="preserve">
+    <value>PDF/A-4e-Konverter...</value>
+  </data>
+  <data name="pDFA4ConverterToolStripMenuItem.Text" xml:space="preserve">
+    <value>PDF/A-4-Konverter...</value>
+  </data>
+  <data name="pdfA3uConverterToolStripMenuItem.Text" xml:space="preserve">
+    <value>PDF/A-3u-Konverter...</value>
+  </data>
+  <data name="pdfA3bConverterToolStripMenuItem.Text" xml:space="preserve">
+    <value>PDF/A-3b-Konverter...</value>
+  </data>
+  <data name="pdfA3aConverterToolStripMenuItem.Text" xml:space="preserve">
+    <value>PDF/A-3a-Konverter...</value>
+  </data>
+  <data name="pdfA2uConverterToolStripMenuItem.Text" xml:space="preserve">
+    <value>PDF/A-2u-Konverter...</value>
+  </data>
+  <data name="pdfA2bConverterToolStripMenuItem.Text" xml:space="preserve">
+    <value>PDF/A-2b-Konverter...</value>
+  </data>
+  <data name="pdfA2aConverterToolStripMenuItem.Text" xml:space="preserve">
+    <value>PDF/A-2a-Konverter...</value>
+  </data>
+  <data name="pdfA1bConverterToolStripMenuItem.Text" xml:space="preserve">
+    <value>PDF/A-1b-Konverter...</value>
+  </data>
+  <data name="pdfA1aConverterToolStripMenuItem.Text" xml:space="preserve">
+    <value>PDF/A-1a-Konverter...</value>
+  </data>
+  <data name="documentConversionToolStripMenuItem.Text" xml:space="preserve">
+    <value>Konvertierung</value>
+  </data>
+  <data name="pDFA4eVerifierToolStripMenuItem.Text" xml:space="preserve">
+    <value>PDF/A-4e Verifier...</value>
+  </data>
+  <data name="pDFA4fVeriferToolStripMenuItem.Text" xml:space="preserve">
+    <value>PDF/A-4f Verifer...</value>
+  </data>
+  <data name="pDFA4VerifierToolStripMenuItem.Text" xml:space="preserve">
+    <value>PDF/A-4 Verifier...</value>
+  </data>
+  <data name="pdfA3uVerifierToolStripMenuItem.Text" xml:space="preserve">
+    <value>PDF/A-3u Verifier...</value>
+  </data>
+  <data name="pdfA3bVerifierToolStripMenuItem.Text" xml:space="preserve">
+    <value>PDF/A-3b Verifier...</value>
+  </data>
+  <data name="pdfA3aVerifierToolStripMenuItem.Text" xml:space="preserve">
+    <value>PDF/A-3a Verifier...</value>
+  </data>
+  <data name="pdfA2uVerifierToolStripMenuItem.Text" xml:space="preserve">
+    <value>PDF/A-2u Verifier...</value>
+  </data>
+  <data name="pdfA2bVerifierToolStripMenuItem.Text" xml:space="preserve">
+    <value>PDF/A-2b Verifier...</value>
+  </data>
+  <data name="pdfA2aVerifierToolStripMenuItem.Text" xml:space="preserve">
+    <value>PDF/A-2a Verifier...</value>
+  </data>
+  <data name="pdfA1bVerifierToolStripMenuItem.Text" xml:space="preserve">
+    <value>PDF/A-1b Verifier...</value>
+  </data>
+  <data name="pdfA1aVerifierToolStripMenuItem.Text" xml:space="preserve">
+    <value>PDF/A-1a Verifier...</value>
+  </data>
+  <data name="documentVerificationToolStripMenuItem.Text" xml:space="preserve">
+    <value>Verifizierung</value>
+  </data>
+  <data name="documentToolStripMenuItem.Text" xml:space="preserve">
+    <value>Dokument</value>
+  </data>
+  <data name="refreshPostScriptFontNamesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Schriftnamen aktualisieren...</value>
+  </data>
+  <data name="customRendererSettingsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Benutzerdefinierte Renderer-Einstellungen...</value>
+  </data>
+  <data name="useCustomRendererToolStripMenuItem.Text" xml:space="preserve">
+    <value>Benutzerdefinierten Renderer verwenden</value>
+  </data>
+  <data name="colorManagementToolStripMenuItem.Text" xml:space="preserve">
+    <value>Farbmanagement...</value>
+  </data>
+  <data name="enableAnnotationsSpellCheckingToolStripMenuItem.Text" xml:space="preserve">
+    <value>Rechtschreibprüfung für Anmerkungen aktivieren</value>
+  </data>
+  <data name="enableFormFieldsSpellCheckingToolStripMenuItem.Text" xml:space="preserve">
+    <value>Rechtschreibprüfung für Formularfelder aktivieren</value>
+  </data>
+  <data name="spellCheckViewSettingsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Einstellungen der Rechtschreibprüfungsansicht...</value>
+  </data>
+  <data name="spellCheckSettingsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Einstellungen für die Rechtschreibprüfung...</value>
+  </data>
+  <data name="magnifierSettingsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Lupeneinstellungen...</value>
+  </data>
+  <data name="viewerRenderingSettingsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Viewer-Rendering-Einstellungen...</value>
+  </data>
+  <data name="imageViewerSettingsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Bildbetrachter-Einstellungen...</value>
+  </data>
+  <data name="rotateCounterclockwiseToolStripMenuItem.Text" xml:space="preserve">
+    <value>Gegen den Uhrzeigersinn</value>
+  </data>
+  <data name="rotateClockwiseToolStripMenuItem.Text" xml:space="preserve">
+    <value>Im Uhrzeigersinn</value>
+  </data>
+  <data name="rotateViewToolStripMenuItem.Text" xml:space="preserve">
+    <value>Ansicht drehen</value>
+  </data>
+  <data name="pixelToPixelToolStripMenuItem.Text" xml:space="preserve">
+    <value>Pixel zu Pixel</value>
+  </data>
+  <data name="scaleToolStripMenuItem.Text" xml:space="preserve">
+    <value>Skalierung</value>
+  </data>
+  <data name="fitToHeightToolStripMenuItem.Text" xml:space="preserve">
+    <value>An Höhe anpassen</value>
+  </data>
+  <data name="fitToWidthToolStripMenuItem.Text" xml:space="preserve">
+    <value>An Breite anpassen</value>
+  </data>
+  <data name="bestFitToolStripMenuItem.Text" xml:space="preserve">
+    <value>Beste Passform</value>
+  </data>
+  <data name="normalImageToolStripMenuItem.Text" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="imageScaleModeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Bildskalierungsmodus</value>
+  </data>
+  <data name="twoContinuousColumnsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Zwei fortlaufende Spalten</value>
+  </data>
+  <data name="twoContinuousRowsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Zwei fortlaufende Zeilen</value>
+  </data>
+  <data name="singleContinuousColumnToolStripMenuItem.Text" xml:space="preserve">
+    <value>Einzelne fortlaufende Spalte</value>
+  </data>
+  <data name="singleContinuousRowToolStripMenuItem.Text" xml:space="preserve">
+    <value>Einzelne fortlaufende Zeile</value>
+  </data>
+  <data name="twoColumnsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Zwei Spalten</value>
+  </data>
+  <data name="singlePageToolStripMenuItem.Text" xml:space="preserve">
+    <value>Einzelne Seite</value>
+  </data>
+  <data name="imageDisplayModeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Bildanzeigemodus</value>
+  </data>
+  <data name="centerImageToolStripMenuItem.Text" xml:space="preserve">
+    <value>Bild zentrieren</value>
+  </data>
+  <data name="useEmbeddedThumbnailsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Eingebettete Miniaturansichten verwenden</value>
+  </data>
+  <data name="thumbnailViewerSettingsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Einstellungen für die Miniaturansichtsansicht...</value>
+  </data>
+  <data name="debuggerToolStripMenuItem.Text" xml:space="preserve">
+    <value>Debugger...</value>
+  </data>
+  <data name="enableJavaScriptExecutingToolStripMenuItem.Text" xml:space="preserve">
+    <value>JavaScript-Ausführung aktivieren</value>
+  </data>
+  <data name="javaScriptToolStripMenuItem.Text" xml:space="preserve">
+    <value>JavaScript</value>
+  </data>
+  <data name="enableExecuteActionsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Aktiviert die Ausführung von Aktionen</value>
+  </data>
+  <data name="interactionPointSettingsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Anmerkungen/Felder-Interaktionspunkteinstellungen...</value>
+  </data>
+  <data name="viewToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Anzeigen</value>
+  </data>
+  <data name="deselectAllToolStripMenuItem.Text" xml:space="preserve">
+    <value>Alle abwählen</value>
+  </data>
+  <data name="selectAllToolStripMenuItem.Text" xml:space="preserve">
+    <value>Alles auswählen</value>
+  </data>
+  <data name="deleteToolStripMenuItem.Text" xml:space="preserve">
+    <value>Löschen</value>
+  </data>
+  <data name="pasteToolStripMenuItem.Text" xml:space="preserve">
+    <value>Einfügen</value>
+  </data>
+  <data name="copyToolStripMenuItem.Text" xml:space="preserve">
+    <value>Kopieren</value>
+  </data>
+  <data name="cutToolStripMenuItem.Text" xml:space="preserve">
+    <value>Ausschneiden</value>
+  </data>
+  <data name="editToolStripMenuItem.Text" xml:space="preserve">
+    <value>Bearbeiten</value>
+  </data>
+  <data name="exitToolStripMenuItem.Text" xml:space="preserve">
+    <value>Beenden</value>
+  </data>
+  <data name="printToolStripMenuItem.Text" xml:space="preserve">
+    <value>Drucken...</value>
+  </data>
+  <data name="centerPrintingPageToolStripMenuItem.Text" xml:space="preserve">
+    <value>Mitteseite</value>
+  </data>
+  <data name="pageAutoOrientationToolStripMenuItem.Text" xml:space="preserve">
+    <value>Automatische Seitenausrichtung</value>
+  </data>
+  <data name="pageSettingsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Seiteneinstellungen...</value>
+  </data>
+  <data name="convertToSvgToolStripMenuItem.Text" xml:space="preserve">
+    <value>In SVG konvertieren...</value>
+  </data>
+  <data name="convertToTiffToolStripMenuItem.Text" xml:space="preserve">
+    <value>In TIFF konvertieren...</value>
+  </data>
+  <data name="saveToToolStripMenuItem.Text" xml:space="preserve">
+    <value>Speichern unter...</value>
+  </data>
+  <data name="saveAsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Speichern unter...</value>
+  </data>
+  <data name="saveToolStripMenuItem.Text" xml:space="preserve">
+    <value>Speichern</value>
+  </data>
+  <data name="packToolStripMenuItem.Text" xml:space="preserve">
+    <value>Paket...</value>
+  </data>
+  <data name="addPdfDocumentToolStripMenuItem.Text" xml:space="preserve">
+    <value>PDF-Dokument hinzufügen...</value>
+  </data>
+  <data name="addEmptyPageToolStripMenuItem.Text" xml:space="preserve">
+    <value>Leere Seite hinzufügen...</value>
+  </data>
+  <data name="addOcrPagesUsingTextOverImageModeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Text über Bild...</value>
+  </data>
+  <data name="addOcrPagesUsingImageOverTextModeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Bild über Text...</value>
+  </data>
+  <data name="addOcrPagesToolStripMenuItem.Text" xml:space="preserve">
+    <value>OCR-Seite(n) hinzufügen</value>
+  </data>
+  <data name="addImagePagesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Bild-/Dokumentseite(n) hinzufügen...</value>
+  </data>
+  <data name="closeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Schließen</value>
+  </data>
+  <data name="openToolStripMenuItem.Text" xml:space="preserve">
+    <value>Öffnen...</value>
+  </data>
+  <data name="createPortfolioToolStripMenuItem.Text" xml:space="preserve">
+    <value>Neues Portfolio erstellen...</value>
+  </data>
+  <data name="newToolStripMenuItem.Text" xml:space="preserve">
+    <value>Neu...</value>
+  </data>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>Datei</value>
+  </data>
+  <data name="visualToolsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Visuelle Tools</value>
+  </data>
+</root>

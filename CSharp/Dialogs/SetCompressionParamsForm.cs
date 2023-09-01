@@ -62,7 +62,7 @@ namespace PdfEditorDemo
 
             imageNumberLabel.Text = (index + 1).ToString();
             pixelFormatLabel.Text = image.PixelFormat.ToString();
-            sizeLabel.Text = string.Format("{0}x{1} pixels", image.Width, image.Height);
+            sizeLabel.Text = string.Format(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_ARG0XARG1_PIXELS, image.Width, image.Height);
         }
 
         #endregion

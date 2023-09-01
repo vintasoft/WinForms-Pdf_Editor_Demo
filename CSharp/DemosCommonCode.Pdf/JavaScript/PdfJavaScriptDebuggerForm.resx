@@ -148,4 +148,34 @@
   <metadata name="contextMenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <data name="$this.Text" xml:space="preserve">
+    <value>PDF JavaScript Interpreter Debugger</value>
+  </data>
+  <data name="debugModecheckBox.Text" xml:space="preserve">
+    <value>Debug Mode</value>
+  </data>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>JavaScript Engine Log</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>Console Output</value>
+  </data>
+  <data name="clearEngineLogButton.Text" xml:space="preserve">
+    <value>Clear Engine Log</value>
+  </data>
+  <data name="clearConsoleButton.Text" xml:space="preserve">
+    <value>Clear Console</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Evaluate Expression</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="topMostCheckBox.Text" xml:space="preserve">
+    <value>TopMost</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </metadata>
 </root>

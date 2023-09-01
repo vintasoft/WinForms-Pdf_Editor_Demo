@@ -28,6 +28,7 @@ namespace DemosCommonCode.Pdf.Security
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CreateSignatureFieldForm));
             this.certificateTextBox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.selectCertificateButton = new System.Windows.Forms.Button();
@@ -74,7 +75,7 @@ namespace DemosCommonCode.Pdf.Security
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(54, 13);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Certificate";
+            resources.ApplyResources(this.label1, "label1");
             // 
             // selectCertificateButton
             // 
@@ -95,7 +96,7 @@ namespace DemosCommonCode.Pdf.Security
             this.signatureAppearanceButton.Name = "signatureAppearanceButton";
             this.signatureAppearanceButton.Size = new System.Drawing.Size(311, 23);
             this.signatureAppearanceButton.TabIndex = 5;
-            this.signatureAppearanceButton.Text = "Signature Appearance...";
+            resources.ApplyResources(this.signatureAppearanceButton, "signatureAppearanceButton");
             this.signatureAppearanceButton.UseVisualStyleBackColor = true;
             this.signatureAppearanceButton.Click += new System.EventHandler(this.signatureAppearanceButton_Click);
             // 
@@ -118,7 +119,7 @@ namespace DemosCommonCode.Pdf.Security
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(75, 23);
             this.buttonCancel.TabIndex = 7;
-            this.buttonCancel.Text = "Cancel";
+            resources.ApplyResources(this.buttonCancel, "buttonCancel");
             this.buttonCancel.UseVisualStyleBackColor = true;
             this.buttonCancel.Click += new System.EventHandler(this.buttonCancel_Click);
             // 
@@ -138,7 +139,7 @@ namespace DemosCommonCode.Pdf.Security
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(35, 13);
             this.label3.TabIndex = 9;
-            this.label3.Text = "Name";
+            resources.ApplyResources(this.label3, "label3");
             // 
             // label4
             // 
@@ -147,7 +148,7 @@ namespace DemosCommonCode.Pdf.Security
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(68, 13);
             this.label4.TabIndex = 11;
-            this.label4.Text = "Signer Name";
+            resources.ApplyResources(this.label4, "label4");
             // 
             // signerNameTextBox
             // 
@@ -165,7 +166,7 @@ namespace DemosCommonCode.Pdf.Security
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(44, 13);
             this.label5.TabIndex = 13;
-            this.label5.Text = "Reason";
+            resources.ApplyResources(this.label5, "label5");
             // 
             // reasonTextBox
             // 
@@ -183,7 +184,7 @@ namespace DemosCommonCode.Pdf.Security
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(48, 13);
             this.label6.TabIndex = 15;
-            this.label6.Text = "Location";
+            resources.ApplyResources(this.label6, "label6");
             // 
             // locationTextBox
             // 
@@ -201,7 +202,7 @@ namespace DemosCommonCode.Pdf.Security
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(65, 13);
             this.label7.TabIndex = 17;
-            this.label7.Text = "Contact Info";
+            resources.ApplyResources(this.label7, "label7");
             // 
             // contactInfoTextBox
             // 
@@ -219,7 +220,7 @@ namespace DemosCommonCode.Pdf.Security
             this.certificateChainCheckBox.Name = "certificateChainCheckBox";
             this.certificateChainCheckBox.Size = new System.Drawing.Size(125, 17);
             this.certificateChainCheckBox.TabIndex = 18;
-            this.certificateChainCheckBox.Text = "Add Certificate Chain";
+            resources.ApplyResources(this.certificateChainCheckBox, "certificateChainCheckBox");
             this.certificateChainCheckBox.UseVisualStyleBackColor = true;
             this.certificateChainCheckBox.CheckedChanged += new System.EventHandler(this.signatureTypeComboBox_SelectedItemChanged);
             // 
@@ -242,7 +243,7 @@ namespace DemosCommonCode.Pdf.Security
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(79, 13);
             this.label8.TabIndex = 19;
-            this.label8.Text = "Signature Type";
+            resources.ApplyResources(this.label8, "label8");
             // 
             // addTimestampCheckBox
             // 
@@ -251,7 +252,7 @@ namespace DemosCommonCode.Pdf.Security
             this.addTimestampCheckBox.Name = "addTimestampCheckBox";
             this.addTimestampCheckBox.Size = new System.Drawing.Size(153, 17);
             this.addTimestampCheckBox.TabIndex = 21;
-            this.addTimestampCheckBox.Text = "Add Embedded Timestamp";
+            resources.ApplyResources(this.addTimestampCheckBox, "addTimestampCheckBox");
             this.addTimestampCheckBox.UseVisualStyleBackColor = true;
             this.addTimestampCheckBox.CheckedChanged += new System.EventHandler(this.addTimestampCheckBox_CheckedChanged);
             // 
@@ -263,7 +264,7 @@ namespace DemosCommonCode.Pdf.Security
             this.timestampServerSettingsButton.Name = "timestampServerSettingsButton";
             this.timestampServerSettingsButton.Size = new System.Drawing.Size(296, 23);
             this.timestampServerSettingsButton.TabIndex = 22;
-            this.timestampServerSettingsButton.Text = "Timestamp Server Settings...";
+            resources.ApplyResources(this.timestampServerSettingsButton, "timestampServerSettingsButton");
             this.timestampServerSettingsButton.UseVisualStyleBackColor = true;
             this.timestampServerSettingsButton.Click += new System.EventHandler(this.timestampServerSettingsButton_Click);
             // 
@@ -288,7 +289,7 @@ namespace DemosCommonCode.Pdf.Security
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(109, 13);
             this.label2.TabIndex = 24;
-            this.label2.Text = "Hash Algorithm Name";
+            resources.ApplyResources(this.label2, "label2");
             // 
             // timestampHashAlgorithmComboBox
             // 
@@ -334,7 +335,7 @@ namespace DemosCommonCode.Pdf.Security
             this.MinimizeBox = false;
             this.Name = "CreateSignatureFieldForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Create Digital Signature";
+            resources.ApplyResources(this, "$this");
             this.timestampProperitesGroupBox.ResumeLayout(false);
             this.timestampProperitesGroupBox.PerformLayout();
             this.ResumeLayout(false);

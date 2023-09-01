@@ -395,7 +395,7 @@ namespace DemosCommonCode.Pdf
                             else
                             {
                                 // show warning message
-                                DemosTools.ShowWarningMessage("This document does not contain fonts.");
+                                DemosTools.ShowWarningMessage(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_THIS_DOCUMENT_DOES_NOT_CONTAIN_FONTS);
                                 // close selected PDF document
                                 _selectedDocument.Dispose();
                                 _selectedDocument = null;

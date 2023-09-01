@@ -28,6 +28,7 @@ namespace DemosCommonCode.Imaging
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ActionProgressForm));
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.SuspendLayout();
             // 
@@ -56,7 +57,7 @@ namespace DemosCommonCode.Imaging
             this.Name = "ActionProgressForm";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Action Progress";
+            resources.ApplyResources(this, "$this");
             this.Load += new System.EventHandler(this.ActionProgressForm_Load);
             this.ResumeLayout(false);
 

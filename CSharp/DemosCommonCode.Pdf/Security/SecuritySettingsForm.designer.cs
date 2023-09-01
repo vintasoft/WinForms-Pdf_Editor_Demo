@@ -28,6 +28,7 @@ namespace DemosCommonCode.Pdf.Security
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SecuritySettingsForm));
             this.compatibilityModeComboBox = new System.Windows.Forms.ComboBox();
             this.okButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -86,7 +87,7 @@ namespace DemosCommonCode.Pdf.Security
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(84, 13);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Security Method";
+            resources.ApplyResources(this.label1, "label1");
             // 
             // buttonCancel
             // 
@@ -95,7 +96,7 @@ namespace DemosCommonCode.Pdf.Security
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(75, 25);
             this.buttonCancel.TabIndex = 3;
-            this.buttonCancel.Text = "Cancel";
+            resources.ApplyResources(this.buttonCancel, "buttonCancel");
             this.buttonCancel.UseVisualStyleBackColor = true;
             this.buttonCancel.Click += new System.EventHandler(this.cancelButton_Click);
             // 
@@ -111,7 +112,7 @@ namespace DemosCommonCode.Pdf.Security
             this.passwordsGroupBox.Size = new System.Drawing.Size(274, 96);
             this.passwordsGroupBox.TabIndex = 4;
             this.passwordsGroupBox.TabStop = false;
-            this.passwordsGroupBox.Text = "Document Passwords";
+            resources.ApplyResources(this.passwordsGroupBox, "passwordsGroupBox");
             // 
             // showPasswordsCheckBox
             // 
@@ -120,7 +121,7 @@ namespace DemosCommonCode.Pdf.Security
             this.showPasswordsCheckBox.Name = "showPasswordsCheckBox";
             this.showPasswordsCheckBox.Size = new System.Drawing.Size(107, 17);
             this.showPasswordsCheckBox.TabIndex = 4;
-            this.showPasswordsCheckBox.Text = "Show Passwords";
+            resources.ApplyResources(this.showPasswordsCheckBox, "showPasswordsCheckBox");
             this.showPasswordsCheckBox.UseVisualStyleBackColor = true;
             this.showPasswordsCheckBox.CheckedChanged += new System.EventHandler(this.showPasswordsCheckBox_CheckedChanged);
             // 
@@ -147,7 +148,7 @@ namespace DemosCommonCode.Pdf.Security
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(29, 13);
             this.label3.TabIndex = 1;
-            this.label3.Text = "User";
+            resources.ApplyResources(this.label3, "label3");
             // 
             // label2
             // 
@@ -156,7 +157,7 @@ namespace DemosCommonCode.Pdf.Security
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(38, 13);
             this.label2.TabIndex = 0;
-            this.label2.Text = "Owner";
+            resources.ApplyResources(this.label2, "label2");
             // 
             // permissionsGroupBox
             // 
@@ -173,7 +174,7 @@ namespace DemosCommonCode.Pdf.Security
             this.permissionsGroupBox.Size = new System.Drawing.Size(274, 204);
             this.permissionsGroupBox.TabIndex = 5;
             this.permissionsGroupBox.TabStop = false;
-            this.permissionsGroupBox.Text = "User Permissions";
+            resources.ApplyResources(this.permissionsGroupBox, "permissionsGroupBox");
             // 
             // extractTextAndGraphicsForAccessibilityCheckBox
             // 
@@ -184,7 +185,7 @@ namespace DemosCommonCode.Pdf.Security
             this.extractTextAndGraphicsForAccessibilityCheckBox.Name = "extractTextAndGraphicsForAccessibilityCheckBox";
             this.extractTextAndGraphicsForAccessibilityCheckBox.Size = new System.Drawing.Size(230, 17);
             this.extractTextAndGraphicsForAccessibilityCheckBox.TabIndex = 7;
-            this.extractTextAndGraphicsForAccessibilityCheckBox.Text = "Extract Text and Graphics (for Accessibility)";
+            resources.ApplyResources(this.extractTextAndGraphicsForAccessibilityCheckBox, "extractTextAndGraphicsForAccessibilityCheckBox");
             this.extractTextAndGraphicsForAccessibilityCheckBox.UseVisualStyleBackColor = true;
             // 
             // assembleDocumentCheckBox
@@ -196,7 +197,7 @@ namespace DemosCommonCode.Pdf.Security
             this.assembleDocumentCheckBox.Name = "assembleDocumentCheckBox";
             this.assembleDocumentCheckBox.Size = new System.Drawing.Size(123, 17);
             this.assembleDocumentCheckBox.TabIndex = 6;
-            this.assembleDocumentCheckBox.Text = "Assemble Document";
+            resources.ApplyResources(this.assembleDocumentCheckBox, "assembleDocumentCheckBox");
             this.assembleDocumentCheckBox.UseVisualStyleBackColor = true;
             // 
             // modifyAnnotationsCheckBox
@@ -208,7 +209,7 @@ namespace DemosCommonCode.Pdf.Security
             this.modifyAnnotationsCheckBox.Name = "modifyAnnotationsCheckBox";
             this.modifyAnnotationsCheckBox.Size = new System.Drawing.Size(116, 17);
             this.modifyAnnotationsCheckBox.TabIndex = 5;
-            this.modifyAnnotationsCheckBox.Text = "Modify Annotations";
+            resources.ApplyResources(this.modifyAnnotationsCheckBox, "modifyAnnotationsCheckBox");
             this.modifyAnnotationsCheckBox.UseVisualStyleBackColor = true;
             // 
             // fillInteractiveFormFieldsCheckBox
@@ -220,7 +221,7 @@ namespace DemosCommonCode.Pdf.Security
             this.fillInteractiveFormFieldsCheckBox.Name = "fillInteractiveFormFieldsCheckBox";
             this.fillInteractiveFormFieldsCheckBox.Size = new System.Drawing.Size(147, 17);
             this.fillInteractiveFormFieldsCheckBox.TabIndex = 4;
-            this.fillInteractiveFormFieldsCheckBox.Text = "Fill Interactive Form Fields";
+            resources.ApplyResources(this.fillInteractiveFormFieldsCheckBox, "fillInteractiveFormFieldsCheckBox");
             this.fillInteractiveFormFieldsCheckBox.UseVisualStyleBackColor = true;
             // 
             // extractTextAndGraphicsCheckBox
@@ -232,7 +233,7 @@ namespace DemosCommonCode.Pdf.Security
             this.extractTextAndGraphicsCheckBox.Name = "extractTextAndGraphicsCheckBox";
             this.extractTextAndGraphicsCheckBox.Size = new System.Drawing.Size(149, 17);
             this.extractTextAndGraphicsCheckBox.TabIndex = 3;
-            this.extractTextAndGraphicsCheckBox.Text = "Extract Text and Graphics";
+            resources.ApplyResources(this.extractTextAndGraphicsCheckBox, "extractTextAndGraphicsCheckBox");
             this.extractTextAndGraphicsCheckBox.UseVisualStyleBackColor = true;
             // 
             // modifyContentsCheckBox
@@ -244,7 +245,7 @@ namespace DemosCommonCode.Pdf.Security
             this.modifyContentsCheckBox.Name = "modifyContentsCheckBox";
             this.modifyContentsCheckBox.Size = new System.Drawing.Size(102, 17);
             this.modifyContentsCheckBox.TabIndex = 2;
-            this.modifyContentsCheckBox.Text = "Modify Contents";
+            resources.ApplyResources(this.modifyContentsCheckBox, "modifyContentsCheckBox");
             this.modifyContentsCheckBox.UseVisualStyleBackColor = true;
             // 
             // printInHighQualityCheckBox
@@ -256,7 +257,7 @@ namespace DemosCommonCode.Pdf.Security
             this.printInHighQualityCheckBox.Name = "printInHighQualityCheckBox";
             this.printInHighQualityCheckBox.Size = new System.Drawing.Size(116, 17);
             this.printInHighQualityCheckBox.TabIndex = 1;
-            this.printInHighQualityCheckBox.Text = "Print in High Quaity";
+            resources.ApplyResources(this.printInHighQualityCheckBox, "printInHighQualityCheckBox");
             this.printInHighQualityCheckBox.UseVisualStyleBackColor = true;
             // 
             // printInLowQualityCheckBox
@@ -268,7 +269,7 @@ namespace DemosCommonCode.Pdf.Security
             this.printInLowQualityCheckBox.Name = "printInLowQualityCheckBox";
             this.printInLowQualityCheckBox.Size = new System.Drawing.Size(116, 17);
             this.printInLowQualityCheckBox.TabIndex = 0;
-            this.printInLowQualityCheckBox.Text = "Print in Low Quality";
+            resources.ApplyResources(this.printInLowQualityCheckBox, "printInLowQualityCheckBox");
             this.printInLowQualityCheckBox.UseVisualStyleBackColor = true;
             this.printInLowQualityCheckBox.CheckedChanged += new System.EventHandler(this.printInLowQualityCheckBox_CheckedChanged);
             // 
@@ -281,7 +282,7 @@ namespace DemosCommonCode.Pdf.Security
             this.dontChangeRadioButton.Size = new System.Drawing.Size(90, 17);
             this.dontChangeRadioButton.TabIndex = 6;
             this.dontChangeRadioButton.TabStop = true;
-            this.dontChangeRadioButton.Text = "Don\'t Change";
+            resources.ApplyResources(this.dontChangeRadioButton, "dontChangeRadioButton");
             this.dontChangeRadioButton.UseVisualStyleBackColor = true;
             this.dontChangeRadioButton.CheckedChanged += new System.EventHandler(this.dontChangeRadioButton_CheckedChanged);
             // 
@@ -293,7 +294,7 @@ namespace DemosCommonCode.Pdf.Security
             this.noSecurityRadioButton.Size = new System.Drawing.Size(80, 17);
             this.noSecurityRadioButton.TabIndex = 7;
             this.noSecurityRadioButton.TabStop = true;
-            this.noSecurityRadioButton.Text = "No Security";
+            resources.ApplyResources(this.noSecurityRadioButton, "noSecurityRadioButton");
             this.noSecurityRadioButton.UseVisualStyleBackColor = true;
             this.noSecurityRadioButton.CheckedChanged += new System.EventHandler(this.noSecurityRadioButton_CheckedChanged);
             // 
@@ -305,7 +306,7 @@ namespace DemosCommonCode.Pdf.Security
             this.passwordProtectionRadioButton.Size = new System.Drawing.Size(122, 17);
             this.passwordProtectionRadioButton.TabIndex = 8;
             this.passwordProtectionRadioButton.TabStop = true;
-            this.passwordProtectionRadioButton.Text = "Password Protection";
+            resources.ApplyResources(this.passwordProtectionRadioButton, "passwordProtectionRadioButton");
             this.passwordProtectionRadioButton.UseVisualStyleBackColor = true;
             this.passwordProtectionRadioButton.CheckedChanged += new System.EventHandler(this.passwordProtectionRadioButton_CheckedChanged);
             // 
@@ -323,7 +324,7 @@ namespace DemosCommonCode.Pdf.Security
             this.securitySettingsGroupBox.Size = new System.Drawing.Size(290, 382);
             this.securitySettingsGroupBox.TabIndex = 9;
             this.securitySettingsGroupBox.TabStop = false;
-            this.securitySettingsGroupBox.Text = "Security Settings";
+            resources.ApplyResources(this.securitySettingsGroupBox, "securitySettingsGroupBox");
             // 
             // securityMethodLabel
             // 
@@ -332,7 +333,7 @@ namespace DemosCommonCode.Pdf.Security
             this.securityMethodLabel.Name = "securityMethodLabel";
             this.securityMethodLabel.Size = new System.Drawing.Size(105, 13);
             this.securityMethodLabel.TabIndex = 7;
-            this.securityMethodLabel.Text = "securityMethodLabel";
+            resources.ApplyResources(this.securityMethodLabel, "securityMethodLabel");
             // 
             // label4
             // 
@@ -341,7 +342,7 @@ namespace DemosCommonCode.Pdf.Security
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(65, 13);
             this.label4.TabIndex = 6;
-            this.label4.Text = "Compatibility";
+            resources.ApplyResources(this.label4, "label4");
             // 
             // SecuritySettingsForm
             // 
@@ -360,7 +361,7 @@ namespace DemosCommonCode.Pdf.Security
             this.Name = "SecuritySettingsForm";
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Document Security Settings";
+            resources.ApplyResources(this, "$this");
             this.passwordsGroupBox.ResumeLayout(false);
             this.passwordsGroupBox.PerformLayout();
             this.permissionsGroupBox.ResumeLayout(false);

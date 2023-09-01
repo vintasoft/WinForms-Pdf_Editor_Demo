@@ -29,6 +29,7 @@ namespace DemosCommonCode.Office
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(OpenXmlParagraphPropertiesForm));
             this.buttonCancel = new System.Windows.Forms.Button();
             this.buttonOk = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -65,7 +66,7 @@ namespace DemosCommonCode.Office
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(75, 23);
             this.buttonCancel.TabIndex = 3;
-            this.buttonCancel.Text = "Cancel";
+            resources.ApplyResources(this.buttonCancel, "buttonCancel");
             this.buttonCancel.UseVisualStyleBackColor = true;
             this.buttonCancel.Click += new System.EventHandler(this.buttonCancel_Click);
             // 
@@ -87,7 +88,7 @@ namespace DemosCommonCode.Office
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(86, 13);
             this.label1.TabIndex = 4;
-            this.label1.Text = "Text Justification";
+            resources.ApplyResources(this.label1, "label1");
             // 
             // textJustificationComboBox
             // 
@@ -111,7 +112,7 @@ namespace DemosCommonCode.Office
             this.groupBox1.Size = new System.Drawing.Size(267, 107);
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Indentation";
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             // 
             // firstLineIndentationComboBox
             // 
@@ -130,7 +131,7 @@ namespace DemosCommonCode.Office
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(87, 13);
             this.label4.TabIndex = 11;
-            this.label4.Text = "First Line (Points)";
+            resources.ApplyResources(this.label4, "label4");
             // 
             // rightIndentationComboBox
             // 
@@ -149,7 +150,7 @@ namespace DemosCommonCode.Office
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(70, 13);
             this.label3.TabIndex = 9;
-            this.label3.Text = "Right (Points)";
+            resources.ApplyResources(this.label3, "label3");
             // 
             // leftIndentationComboBox
             // 
@@ -168,7 +169,7 @@ namespace DemosCommonCode.Office
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(63, 13);
             this.label2.TabIndex = 7;
-            this.label2.Text = "Left (Points)";
+            resources.ApplyResources(this.label2, "label2");
             // 
             // groupBox2
             // 
@@ -183,7 +184,7 @@ namespace DemosCommonCode.Office
             this.groupBox2.Size = new System.Drawing.Size(267, 107);
             this.groupBox2.TabIndex = 13;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Spacing";
+            resources.ApplyResources(this.groupBox2, "groupBox2");
             // 
             // lineHeightComboBox
             // 
@@ -205,7 +206,7 @@ namespace DemosCommonCode.Office
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(89, 13);
             this.label5.TabIndex = 11;
-            this.label5.Text = "Line height factor";
+            resources.ApplyResources(this.label5, "label5");
             // 
             // spacingAfterComboBox
             // 
@@ -224,7 +225,7 @@ namespace DemosCommonCode.Office
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(67, 13);
             this.label6.TabIndex = 9;
-            this.label6.Text = "After (Points)";
+            resources.ApplyResources(this.label6, "label6");
             // 
             // spacingBeforeComboBox
             // 
@@ -243,7 +244,7 @@ namespace DemosCommonCode.Office
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(76, 13);
             this.label7.TabIndex = 7;
-            this.label7.Text = "Before (Points)";
+            resources.ApplyResources(this.label7, "label7");
             // 
             // label8
             // 
@@ -252,7 +253,7 @@ namespace DemosCommonCode.Office
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(31, 13);
             this.label8.TabIndex = 14;
-            this.label8.Text = "Color";
+            resources.ApplyResources(this.label8, "label8");
             // 
             // fillColorPanel
             // 
@@ -301,7 +302,7 @@ namespace DemosCommonCode.Office
             this.pageBreakBeforeCheckBox.Name = "pageBreakBeforeCheckBox";
             this.pageBreakBeforeCheckBox.Size = new System.Drawing.Size(116, 17);
             this.pageBreakBeforeCheckBox.TabIndex = 19;
-            this.pageBreakBeforeCheckBox.Text = "Page Break Before";
+            resources.ApplyResources(this.pageBreakBeforeCheckBox, "pageBreakBeforeCheckBox");
             this.pageBreakBeforeCheckBox.UseVisualStyleBackColor = true;
             // 
             // OpenXmlParagraphPropertiesForm
@@ -328,7 +329,7 @@ namespace DemosCommonCode.Office
             this.Name = "OpenXmlParagraphPropertiesForm";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Paragraph Properties";
+            resources.ApplyResources(this, "$this");
             this.TopMost = true;
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

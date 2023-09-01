@@ -28,6 +28,7 @@ namespace DemosCommonCode.Pdf
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PdfAnnotationBuilderControl));
             this.mainToolStrip = new System.Windows.Forms.ToolStrip();
             this.lineToolStripSplitButton = new DemosCommonCode.CustomControls.CheckedToolStripSplitButton();
             this.lineWithArrowToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -128,7 +129,7 @@ namespace DemosCommonCode.Pdf
             this.lineWithArrowToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.lineWithArrowToolStripMenuItem.Name = "lineWithArrowToolStripMenuItem";
             this.lineWithArrowToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
-            this.lineWithArrowToolStripMenuItem.Text = "Line with Arrow";
+            resources.ApplyResources(this.lineWithArrowToolStripMenuItem, "lineWithArrowToolStripMenuItem");
             this.lineWithArrowToolStripMenuItem.Click += new System.EventHandler(this.addAndBuildAnnotationToolStripButton_ButtonClick);
             // 
             // lineWithArrowsToolStripMenuItem
@@ -136,7 +137,7 @@ namespace DemosCommonCode.Pdf
             this.lineWithArrowsToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.lineWithArrowsToolStripMenuItem.Name = "lineWithArrowsToolStripMenuItem";
             this.lineWithArrowsToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
-            this.lineWithArrowsToolStripMenuItem.Text = "Line with Arrows";
+            resources.ApplyResources(this.lineWithArrowsToolStripMenuItem, "lineWithArrowsToolStripMenuItem");
             this.lineWithArrowsToolStripMenuItem.Click += new System.EventHandler(this.addAndBuildAnnotationToolStripButton_ButtonClick);
             // 
             // inkToolStripButton
@@ -145,7 +146,7 @@ namespace DemosCommonCode.Pdf
             this.inkToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.inkToolStripButton.Name = "inkToolStripButton";
             this.inkToolStripButton.Size = new System.Drawing.Size(70, 19);
-            this.inkToolStripButton.Text = "Ink (Pencil)";
+            resources.ApplyResources(this.inkToolStripButton, "inkToolStripButton");
             this.inkToolStripButton.Click += new System.EventHandler(this.addAndBuildAnnotationToolStripButton_ButtonClick);
             // 
             // rectangleToolStripSplitButton
@@ -167,7 +168,7 @@ namespace DemosCommonCode.Pdf
             this.filledRectangleToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.filledRectangleToolStripMenuItem.Name = "filledRectangleToolStripMenuItem";
             this.filledRectangleToolStripMenuItem.Size = new System.Drawing.Size(192, 22);
-            this.filledRectangleToolStripMenuItem.Text = "Filled Rectangle";
+            resources.ApplyResources(this.filledRectangleToolStripMenuItem, "filledRectangleToolStripMenuItem");
             this.filledRectangleToolStripMenuItem.Click += new System.EventHandler(this.addAndBuildAnnotationToolStripButton_ButtonClick);
             // 
             // cloudRectangleToolStripMenuItem
@@ -175,7 +176,7 @@ namespace DemosCommonCode.Pdf
             this.cloudRectangleToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.cloudRectangleToolStripMenuItem.Name = "cloudRectangleToolStripMenuItem";
             this.cloudRectangleToolStripMenuItem.Size = new System.Drawing.Size(192, 22);
-            this.cloudRectangleToolStripMenuItem.Text = "Cloud Rectangle";
+            resources.ApplyResources(this.cloudRectangleToolStripMenuItem, "cloudRectangleToolStripMenuItem");
             this.cloudRectangleToolStripMenuItem.Click += new System.EventHandler(this.addAndBuildAnnotationToolStripButton_ButtonClick);
             // 
             // cloudFilledRectangleToolStripMenuItem
@@ -183,7 +184,7 @@ namespace DemosCommonCode.Pdf
             this.cloudFilledRectangleToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.cloudFilledRectangleToolStripMenuItem.Name = "cloudFilledRectangleToolStripMenuItem";
             this.cloudFilledRectangleToolStripMenuItem.Size = new System.Drawing.Size(192, 22);
-            this.cloudFilledRectangleToolStripMenuItem.Text = "Cloud Filled Rectangle";
+            resources.ApplyResources(this.cloudFilledRectangleToolStripMenuItem, "cloudFilledRectangleToolStripMenuItem");
             this.cloudFilledRectangleToolStripMenuItem.Click += new System.EventHandler(this.addAndBuildAnnotationToolStripButton_ButtonClick);
             // 
             // ellipseToolStripSplitButton
@@ -205,7 +206,7 @@ namespace DemosCommonCode.Pdf
             this.filledEllipseToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.filledEllipseToolStripMenuItem.Name = "filledEllipseToolStripMenuItem";
             this.filledEllipseToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
-            this.filledEllipseToolStripMenuItem.Text = "Filled Ellipse";
+            resources.ApplyResources(this.filledEllipseToolStripMenuItem, "filledEllipseToolStripMenuItem");
             this.filledEllipseToolStripMenuItem.Click += new System.EventHandler(this.addAndBuildAnnotationToolStripButton_ButtonClick);
             // 
             // cloudEllipseToolStripMenuItem
@@ -213,7 +214,7 @@ namespace DemosCommonCode.Pdf
             this.cloudEllipseToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.cloudEllipseToolStripMenuItem.Name = "cloudEllipseToolStripMenuItem";
             this.cloudEllipseToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
-            this.cloudEllipseToolStripMenuItem.Text = "Cloud Ellipse";
+            resources.ApplyResources(this.cloudEllipseToolStripMenuItem, "cloudEllipseToolStripMenuItem");
             this.cloudEllipseToolStripMenuItem.Click += new System.EventHandler(this.addAndBuildAnnotationToolStripButton_ButtonClick);
             // 
             // cloudFilledEllipseToolStripMenuItem
@@ -221,7 +222,7 @@ namespace DemosCommonCode.Pdf
             this.cloudFilledEllipseToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.cloudFilledEllipseToolStripMenuItem.Name = "cloudFilledEllipseToolStripMenuItem";
             this.cloudFilledEllipseToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
-            this.cloudFilledEllipseToolStripMenuItem.Text = "Cloud Filled Ellipse";
+            resources.ApplyResources(this.cloudFilledEllipseToolStripMenuItem, "cloudFilledEllipseToolStripMenuItem");
             this.cloudFilledEllipseToolStripMenuItem.Click += new System.EventHandler(this.addAndBuildAnnotationToolStripButton_ButtonClick);
             // 
             // polylineToolStripSplitButton
@@ -243,7 +244,7 @@ namespace DemosCommonCode.Pdf
             this.polylineWithArrowToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.polylineWithArrowToolStripMenuItem.Name = "polylineWithArrowToolStripMenuItem";
             this.polylineWithArrowToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
-            this.polylineWithArrowToolStripMenuItem.Text = "Polyline with Arrow";
+            resources.ApplyResources(this.polylineWithArrowToolStripMenuItem, "polylineWithArrowToolStripMenuItem");
             this.polylineWithArrowToolStripMenuItem.Click += new System.EventHandler(this.addAndBuildAnnotationToolStripButton_ButtonClick);
             // 
             // polylineWithArrowsToolStripMenuItem
@@ -251,7 +252,7 @@ namespace DemosCommonCode.Pdf
             this.polylineWithArrowsToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.polylineWithArrowsToolStripMenuItem.Name = "polylineWithArrowsToolStripMenuItem";
             this.polylineWithArrowsToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
-            this.polylineWithArrowsToolStripMenuItem.Text = "Polyline with Arrows";
+            resources.ApplyResources(this.polylineWithArrowsToolStripMenuItem, "polylineWithArrowsToolStripMenuItem");
             this.polylineWithArrowsToolStripMenuItem.Click += new System.EventHandler(this.addAndBuildAnnotationToolStripButton_ButtonClick);
             // 
             // freehandPolylineToolStripMenuItem
@@ -259,7 +260,7 @@ namespace DemosCommonCode.Pdf
             this.freehandPolylineToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.freehandPolylineToolStripMenuItem.Name = "freehandPolylineToolStripMenuItem";
             this.freehandPolylineToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
-            this.freehandPolylineToolStripMenuItem.Text = "Freehand Polyline";
+            resources.ApplyResources(this.freehandPolylineToolStripMenuItem, "freehandPolylineToolStripMenuItem");
             this.freehandPolylineToolStripMenuItem.Click += new System.EventHandler(this.addAndBuildAnnotationToolStripButton_ButtonClick);
             // 
             // polygonToolStripSplitButton
@@ -281,7 +282,7 @@ namespace DemosCommonCode.Pdf
             // 
             this.filledPolygonToolStripMenuItem.Name = "filledPolygonToolStripMenuItem";
             this.filledPolygonToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
-            this.filledPolygonToolStripMenuItem.Text = "Filled Polygon";
+            resources.ApplyResources(this.filledPolygonToolStripMenuItem, "filledPolygonToolStripMenuItem");
             this.filledPolygonToolStripMenuItem.Click += new System.EventHandler(this.addAndBuildAnnotationToolStripButton_ButtonClick);
             // 
             // cloudPolygonToolStripMenuItem
@@ -289,14 +290,14 @@ namespace DemosCommonCode.Pdf
             this.cloudPolygonToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.cloudPolygonToolStripMenuItem.Name = "cloudPolygonToolStripMenuItem";
             this.cloudPolygonToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
-            this.cloudPolygonToolStripMenuItem.Text = "Cloud Polygon";
+            resources.ApplyResources(this.cloudPolygonToolStripMenuItem, "cloudPolygonToolStripMenuItem");
             this.cloudPolygonToolStripMenuItem.Click += new System.EventHandler(this.addAndBuildAnnotationToolStripButton_ButtonClick);
             // 
             // cloudFilledPolygonToolStripMenuItem
             // 
             this.cloudFilledPolygonToolStripMenuItem.Name = "cloudFilledPolygonToolStripMenuItem";
             this.cloudFilledPolygonToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
-            this.cloudFilledPolygonToolStripMenuItem.Text = "Cloud Filled Polygon";
+            resources.ApplyResources(this.cloudFilledPolygonToolStripMenuItem, "cloudFilledPolygonToolStripMenuItem");
             this.cloudFilledPolygonToolStripMenuItem.Click += new System.EventHandler(this.addAndBuildAnnotationToolStripButton_ButtonClick);
             // 
             // freehandPolygonToolStripMenuItem
@@ -304,7 +305,7 @@ namespace DemosCommonCode.Pdf
             this.freehandPolygonToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.freehandPolygonToolStripMenuItem.Name = "freehandPolygonToolStripMenuItem";
             this.freehandPolygonToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
-            this.freehandPolygonToolStripMenuItem.Text = "Freehand Polygon";
+            resources.ApplyResources(this.freehandPolygonToolStripMenuItem, "freehandPolygonToolStripMenuItem");
             this.freehandPolygonToolStripMenuItem.Click += new System.EventHandler(this.addAndBuildAnnotationToolStripButton_ButtonClick);
             // 
             // linkToolStripButton
@@ -342,7 +343,7 @@ namespace DemosCommonCode.Pdf
             this.cloudTextToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.cloudTextToolStripMenuItem.Name = "cloudTextToolStripMenuItem";
             this.cloudTextToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
-            this.cloudTextToolStripMenuItem.Text = "Cloud Text";
+            resources.ApplyResources(this.cloudTextToolStripMenuItem, "cloudTextToolStripMenuItem");
             this.cloudTextToolStripMenuItem.Click += new System.EventHandler(this.addAndBuildAnnotationToolStripButton_ButtonClick);
             // 
             // freeTextToolStripButton
@@ -362,7 +363,7 @@ namespace DemosCommonCode.Pdf
             this.cloudFreeTextToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.cloudFreeTextToolStripMenuItem.Name = "cloudFreeTextToolStripMenuItem";
             this.cloudFreeTextToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
-            this.cloudFreeTextToolStripMenuItem.Text = "Cloud Free Text";
+            resources.ApplyResources(this.cloudFreeTextToolStripMenuItem, "cloudFreeTextToolStripMenuItem");
             this.cloudFreeTextToolStripMenuItem.Click += new System.EventHandler(this.addAndBuildAnnotationToolStripButton_ButtonClick);
             // 
             // formattedTextToolStripSplitButton
@@ -381,7 +382,7 @@ namespace DemosCommonCode.Pdf
             // 
             this.officeDocumentToolStripMenuItem.Name = "officeDocumentToolStripMenuItem";
             this.officeDocumentToolStripMenuItem.Size = new System.Drawing.Size(165, 22);
-            this.officeDocumentToolStripMenuItem.Text = "Office Document";
+            resources.ApplyResources(this.officeDocumentToolStripMenuItem, "officeDocumentToolStripMenuItem");
             this.officeDocumentToolStripMenuItem.Click += new System.EventHandler(this.addAndBuildAnnotationToolStripButton_ButtonClick);
             // 
             // chartToolStripButton
@@ -413,7 +414,7 @@ namespace DemosCommonCode.Pdf
             this.graphFileAttachmentToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.graphFileAttachmentToolStripMenuItem.Name = "graphFileAttachmentToolStripMenuItem";
             this.graphFileAttachmentToolStripMenuItem.Size = new System.Drawing.Size(210, 22);
-            this.graphFileAttachmentToolStripMenuItem.Text = "Graph File Attachment";
+            resources.ApplyResources(this.graphFileAttachmentToolStripMenuItem, "graphFileAttachmentToolStripMenuItem");
             this.graphFileAttachmentToolStripMenuItem.Click += new System.EventHandler(this.addAndBuildAnnotationToolStripButton_ButtonClick);
             // 
             // pushPinFileAttachmentToolStripMenuItem
@@ -421,7 +422,7 @@ namespace DemosCommonCode.Pdf
             this.pushPinFileAttachmentToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.pushPinFileAttachmentToolStripMenuItem.Name = "pushPinFileAttachmentToolStripMenuItem";
             this.pushPinFileAttachmentToolStripMenuItem.Size = new System.Drawing.Size(210, 22);
-            this.pushPinFileAttachmentToolStripMenuItem.Text = "Push Pin File Attachment";
+            resources.ApplyResources(this.pushPinFileAttachmentToolStripMenuItem, "pushPinFileAttachmentToolStripMenuItem");
             this.pushPinFileAttachmentToolStripMenuItem.Click += new System.EventHandler(this.addAndBuildAnnotationToolStripButton_ButtonClick);
             // 
             // paperclipFileAttachmentToolStripMenuItem
@@ -429,7 +430,7 @@ namespace DemosCommonCode.Pdf
             this.paperclipFileAttachmentToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.paperclipFileAttachmentToolStripMenuItem.Name = "paperclipFileAttachmentToolStripMenuItem";
             this.paperclipFileAttachmentToolStripMenuItem.Size = new System.Drawing.Size(210, 22);
-            this.paperclipFileAttachmentToolStripMenuItem.Text = "Paperclip File Attachment";
+            resources.ApplyResources(this.paperclipFileAttachmentToolStripMenuItem, "paperclipFileAttachmentToolStripMenuItem");
             this.paperclipFileAttachmentToolStripMenuItem.Click += new System.EventHandler(this.addAndBuildAnnotationToolStripButton_ButtonClick);
             // 
             // tagFileAttachmentToolStripMenuItem
@@ -437,7 +438,7 @@ namespace DemosCommonCode.Pdf
             this.tagFileAttachmentToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.tagFileAttachmentToolStripMenuItem.Name = "tagFileAttachmentToolStripMenuItem";
             this.tagFileAttachmentToolStripMenuItem.Size = new System.Drawing.Size(210, 22);
-            this.tagFileAttachmentToolStripMenuItem.Text = "Tag File Attachment";
+            resources.ApplyResources(this.tagFileAttachmentToolStripMenuItem, "tagFileAttachmentToolStripMenuItem");
             this.tagFileAttachmentToolStripMenuItem.Click += new System.EventHandler(this.addAndBuildAnnotationToolStripButton_ButtonClick);
             // 
             // textCommentToolStripMenuItem
@@ -463,7 +464,7 @@ namespace DemosCommonCode.Pdf
             this.textCommentToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.textCommentToolStripMenuItem.Name = "textCommentToolStripMenuItem";
             this.textCommentToolStripMenuItem.Size = new System.Drawing.Size(77, 19);
-            this.textCommentToolStripMenuItem.Text = "Comment";
+            resources.ApplyResources(this.textCommentToolStripMenuItem, "textCommentToolStripMenuItem");
             this.textCommentToolStripMenuItem.ButtonClick += new System.EventHandler(this.addAndBuildAnnotationToolStripButton_ButtonClick);
             // 
             // textCheckToolStripMenuItem
@@ -505,21 +506,21 @@ namespace DemosCommonCode.Pdf
             // 
             this.textCrossHairsToolStripMenuItem.Name = "textCrossHairsToolStripMenuItem";
             this.textCrossHairsToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
-            this.textCrossHairsToolStripMenuItem.Text = "Cross Hairs";
+            resources.ApplyResources(this.textCrossHairsToolStripMenuItem, "textCrossHairsToolStripMenuItem");
             this.textCrossHairsToolStripMenuItem.Click += new System.EventHandler(this.addAndBuildAnnotationToolStripButton_ButtonClick);
             // 
             // textHelpToolStripMenuItem
             // 
             this.textHelpToolStripMenuItem.Name = "textHelpToolStripMenuItem";
             this.textHelpToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
-            this.textHelpToolStripMenuItem.Text = "Help";
+            resources.ApplyResources(this.textHelpToolStripMenuItem, "textHelpToolStripMenuItem");
             this.textHelpToolStripMenuItem.Click += new System.EventHandler(this.addAndBuildAnnotationToolStripButton_ButtonClick);
             // 
             // textInsertToolStripMenuItem
             // 
             this.textInsertToolStripMenuItem.Name = "textInsertToolStripMenuItem";
             this.textInsertToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
-            this.textInsertToolStripMenuItem.Text = "Insert";
+            resources.ApplyResources(this.textInsertToolStripMenuItem, "textInsertToolStripMenuItem");
             this.textInsertToolStripMenuItem.Click += new System.EventHandler(this.addAndBuildAnnotationToolStripButton_ButtonClick);
             // 
             // textKeyToolStripMenuItem
@@ -533,7 +534,7 @@ namespace DemosCommonCode.Pdf
             // 
             this.textNewParagraphToolStripMenuItem.Name = "textNewParagraphToolStripMenuItem";
             this.textNewParagraphToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
-            this.textNewParagraphToolStripMenuItem.Text = "New Paragraph";
+            resources.ApplyResources(this.textNewParagraphToolStripMenuItem, "textNewParagraphToolStripMenuItem");
             this.textNewParagraphToolStripMenuItem.Click += new System.EventHandler(this.addAndBuildAnnotationToolStripButton_ButtonClick);
             // 
             // textNoteToolStripMenuItem
@@ -554,14 +555,14 @@ namespace DemosCommonCode.Pdf
             // 
             this.textRightArrowToolStripMenuItem.Name = "textRightArrowToolStripMenuItem";
             this.textRightArrowToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
-            this.textRightArrowToolStripMenuItem.Text = "Right Arrow";
+            resources.ApplyResources(this.textRightArrowToolStripMenuItem, "textRightArrowToolStripMenuItem");
             this.textRightArrowToolStripMenuItem.Click += new System.EventHandler(this.addAndBuildAnnotationToolStripButton_ButtonClick);
             // 
             // textRightPointerToolStripMenuItem
             // 
             this.textRightPointerToolStripMenuItem.Name = "textRightPointerToolStripMenuItem";
             this.textRightPointerToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
-            this.textRightPointerToolStripMenuItem.Text = "Right Pointer";
+            resources.ApplyResources(this.textRightPointerToolStripMenuItem, "textRightPointerToolStripMenuItem");
             this.textRightPointerToolStripMenuItem.Click += new System.EventHandler(this.addAndBuildAnnotationToolStripButton_ButtonClick);
             // 
             // textStarToolStripMenuItem
@@ -575,14 +576,14 @@ namespace DemosCommonCode.Pdf
             // 
             this.textUpArrowToolStripMenuItem.Name = "textUpArrowToolStripMenuItem";
             this.textUpArrowToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
-            this.textUpArrowToolStripMenuItem.Text = "Up Arrow";
+            resources.ApplyResources(this.textUpArrowToolStripMenuItem, "textUpArrowToolStripMenuItem");
             this.textUpArrowToolStripMenuItem.Click += new System.EventHandler(this.addAndBuildAnnotationToolStripButton_ButtonClick);
             // 
             // textUpLeftArrowToolStripMenuItem
             // 
             this.textUpLeftArrowToolStripMenuItem.Name = "textUpLeftArrowToolStripMenuItem";
             this.textUpLeftArrowToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
-            this.textUpLeftArrowToolStripMenuItem.Text = "Up Left Arrow";
+            resources.ApplyResources(this.textUpLeftArrowToolStripMenuItem, "textUpLeftArrowToolStripMenuItem");
             this.textUpLeftArrowToolStripMenuItem.Click += new System.EventHandler(this.addAndBuildAnnotationToolStripButton_ButtonClick);
             // 
             // PdfAnnotationBuilderControl

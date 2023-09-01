@@ -120,4 +120,55 @@
   <metadata name="fieldContextMenuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <data name="addDigitalSignatureToolStripMenuItem.Text" xml:space="preserve">
+    <value>Add Digital Signature</value>
+  </data>
+  <data name="addBarcodeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Add Barcode</value>
+  </data>
+  <data name="showFieldNamesCheckBox.Text" xml:space="preserve">
+    <value>Show Field Names</value>
+  </data>
+  <data name="groupFormFieldsByPagesCheckBox.Text" xml:space="preserve">
+    <value>Group Form Fields by Pages</value>
+  </data>
+  <data name="propertiesToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Properties...</value>
+  </data>
+  <data name="addRadioButtonToolStripMenuItem.Text" xml:space="preserve">
+    <value>Add Radio Button</value>
+  </data>
+  <data name="addComboBoxToolStripMenuItem.Text" xml:space="preserve">
+    <value>Add Combo Box</value>
+  </data>
+  <data name="addListBoxToolStripMenuItem.Text" xml:space="preserve">
+    <value>Add List Box</value>
+  </data>
+  <data name="addButtonToolStripMenuItem.Text" xml:space="preserve">
+    <value>Add Button</value>
+  </data>
+  <data name="addCheckBoxToolStripMenuItem.Text" xml:space="preserve">
+    <value>Add Check Box</value>
+  </data>
+  <data name="addTextFieldToolStripMenuItem.Text" xml:space="preserve">
+    <value>Add Text Field</value>
+  </data>
+  <data name="deleteFieldToolStripMenuItem.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="pasteAnnotationOrFieldToolStripMenuItem.Text" xml:space="preserve">
+    <value>Paste</value>
+  </data>
+  <data name="copyFieldToolStripMenuItem.Text" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="cutFieldToolStripMenuItem.Text" xml:space="preserve">
+    <value>Cut</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Add Form Fields</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </metadata>
 </root>

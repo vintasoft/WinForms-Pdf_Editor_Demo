@@ -28,6 +28,7 @@ namespace DemosCommonCode.Annotation
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CommentStateHistoryForm));
             this.commentStateHistoryControl1 = new DemosCommonCode.Annotation.CommentStateHistoryControl();
             this.okButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -67,7 +68,7 @@ namespace DemosCommonCode.Annotation
             this.Name = "CommentStateHistoryForm";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Comment State History";
+            resources.ApplyResources(this, "$this");
             this.ResumeLayout(false);
 
         }

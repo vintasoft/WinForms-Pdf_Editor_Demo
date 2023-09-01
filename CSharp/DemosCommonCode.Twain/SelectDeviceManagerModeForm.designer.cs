@@ -28,6 +28,7 @@ namespace DemosCommonCode.Twain
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SelectDeviceManagerModeForm));
             this.okButton = new System.Windows.Forms.Button();
             this.buttonCancel = new System.Windows.Forms.Button();
             this.use32BitDevicesRadioButton = new System.Windows.Forms.RadioButton();
@@ -53,7 +54,7 @@ namespace DemosCommonCode.Twain
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(75, 23);
             this.buttonCancel.TabIndex = 1;
-            this.buttonCancel.Text = "Cancel";
+            resources.ApplyResources(this.buttonCancel, "buttonCancel");
             this.buttonCancel.UseVisualStyleBackColor = true;
             // 
             // use32BitDevicesRadioButton
@@ -64,7 +65,7 @@ namespace DemosCommonCode.Twain
             this.use32BitDevicesRadioButton.Size = new System.Drawing.Size(113, 17);
             this.use32BitDevicesRadioButton.TabIndex = 2;
             this.use32BitDevicesRadioButton.TabStop = true;
-            this.use32BitDevicesRadioButton.Text = "Use 32-bit devices";
+            resources.ApplyResources(this.use32BitDevicesRadioButton, "use32BitDevicesRadioButton");
             this.use32BitDevicesRadioButton.UseVisualStyleBackColor = true;
             // 
             // use64BitDevicesRadioButton
@@ -75,7 +76,7 @@ namespace DemosCommonCode.Twain
             this.use64BitDevicesRadioButton.Size = new System.Drawing.Size(113, 17);
             this.use64BitDevicesRadioButton.TabIndex = 3;
             this.use64BitDevicesRadioButton.TabStop = true;
-            this.use64BitDevicesRadioButton.Text = "Use 64-bit devices";
+            resources.ApplyResources(this.use64BitDevicesRadioButton, "use64BitDevicesRadioButton");
             this.use64BitDevicesRadioButton.UseVisualStyleBackColor = true;
             // 
             // SelectDeviceManagerModeForm
@@ -93,7 +94,7 @@ namespace DemosCommonCode.Twain
             this.MinimizeBox = false;
             this.Name = "SelectDeviceManagerModeForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Device Manager Mode";
+            resources.ApplyResources(this, "$this");
             this.ResumeLayout(false);
             this.PerformLayout();
 

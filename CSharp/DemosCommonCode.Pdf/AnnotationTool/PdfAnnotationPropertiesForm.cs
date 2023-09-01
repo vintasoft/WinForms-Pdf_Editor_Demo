@@ -409,7 +409,7 @@ namespace DemosCommonCode.Pdf
                 if (!(_annotation is PdfWidgetAnnotation))
                 {
                     commonPropertiesGroupBox.Controls.Clear();
-                    commonPropertiesGroupBox.Text = "Annotation Common Properties";
+                    commonPropertiesGroupBox.Text = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_ANNOTATION_COMMON_PROPERTIES;
                     PdfAnnotationCommonPropertiesEditorControl commonPropertiesEditorControl =
                         new PdfAnnotationCommonPropertiesEditorControl();
                     commonPropertiesEditorControl.Dock = DockStyle.Fill;
@@ -484,7 +484,7 @@ namespace DemosCommonCode.Pdf
                         string name = _annotation.GetType().Name;
                         if (name.StartsWith("Pdf") && name.Length > 3)
                             name = name.Substring(3);
-                        if (name.EndsWith("Annotation") && name.Length > 10)
+                        if (name.EndsWith(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_ANNOTATION) && name.Length > 10)
                             name = name.Substring(0, name.Length - 10);
 
                         annotationPropertiesEditorControl.Dock = DockStyle.Fill;
@@ -519,7 +519,7 @@ namespace DemosCommonCode.Pdf
                 if (_annotation == null || _annotation is PdfWidgetAnnotation)
                 {
                     commonPropertiesGroupBox.Controls.Clear();
-                    commonPropertiesGroupBox.Text = "Field Common Properties";
+                    commonPropertiesGroupBox.Text = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_FIELD_COMMON_PROPERTIES;
                     PdfInteractiveFormCommonPropertiesEditorControl commonPropertiesEditorControl =
                         new PdfInteractiveFormCommonPropertiesEditorControl();
                     commonPropertiesEditorControl.Dock = DockStyle.Fill;
@@ -608,7 +608,7 @@ namespace DemosCommonCode.Pdf
 
                         string name = _field.GetType().Name;
                         name = name.Replace("PdfInteractiveForm", "");
-                        if (name.EndsWith("Field") && name.Length > 5)
+                        if (name.EndsWith(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_FIELD) && name.Length > 5)
                             name = name.Substring(0, name.Length - 5);
 
                         customPropertiesGroupBox.Text = name;

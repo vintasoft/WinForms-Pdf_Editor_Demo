@@ -99,7 +99,7 @@ namespace DemosCommonCode.Pdf.Security
         private void addButton_Click(object sender, EventArgs e)
         {
             OpenFileDialog openFileDialog = new OpenFileDialog();
-            openFileDialog.Filter = "PKCS12 (PFX) Files|*.pfx";
+            openFileDialog.Filter = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_PKCS12_PFX_FILESPFX;
             if (openFileDialog.ShowDialog() == DialogResult.OK)
             {
                 try
@@ -152,7 +152,7 @@ namespace DemosCommonCode.Pdf.Security
             else
                 result = certificate.GetNameInfo(X509NameType.SimpleName, false);
             if (certificate.HasPrivateKey)
-                result += " (Has Private Key)";
+                result += PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY__HAS_PRIVATE_KEY;
             return result;
         }
 

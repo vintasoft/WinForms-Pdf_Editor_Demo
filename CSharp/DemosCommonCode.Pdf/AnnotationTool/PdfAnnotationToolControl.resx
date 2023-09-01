@@ -98,4 +98,109 @@
         SUVORK5CYII=
 </value>
   </data>
+  <data name="buildContinuouslyCheckBox.Text" xml:space="preserve">
+    <value>Build Continuously</value>
+  </data>
+  <data name="tabNavigationLoopedOnPageCheckBox.Text" xml:space="preserve">
+    <value>TAB Navigation looped on page</value>
+  </data>
+  <data name="highlightFieldsCheckBox.Text" xml:space="preserve">
+    <value>Highlight Form Fields</value>
+  </data>
+  <data name="propertiesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Properties...</value>
+  </data>
+  <data name="pointsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Points</value>
+  </data>
+  <data name="skewToolStripMenuItem.Text" xml:space="preserve">
+    <value>Skew</value>
+  </data>
+  <data name="distortionToolStripMenuItem.Text" xml:space="preserve">
+    <value>Distortion</value>
+  </data>
+  <data name="pointsMoveResizeRotateToolStripMenuItem.Text" xml:space="preserve">
+    <value>Points/Move/Resize/Rotate</value>
+  </data>
+  <data name="moveResizeRotateToolStripMenuItem.Text" xml:space="preserve">
+    <value>Move/Resize/Rotate</value>
+  </data>
+  <data name="defaultToolStripMenuItem.Text" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="transformersToolStripMenuItem.Text" xml:space="preserve">
+    <value>Transformers</value>
+  </data>
+  <data name="bringToBackToolStripMenuItem.Text" xml:space="preserve">
+    <value>Bring to Back</value>
+  </data>
+  <data name="bringToFrontToolStripMenuItem.Text" xml:space="preserve">
+    <value>Bring to Front</value>
+  </data>
+  <data name="deleteToolStripMenuItem.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="pasteToolStripMenuItem.Text" xml:space="preserve">
+    <value>Paste</value>
+  </data>
+  <data name="copyToolStripMenuItem.Text" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="cutToolStripMenuItem.Text" xml:space="preserve">
+    <value>Cut</value>
+  </data>
+  <data name="textMarkupSquigglyUnderlineToolStripMenuItem.Text" xml:space="preserve">
+    <value>Squiggly Underline</value>
+  </data>
+  <data name="textMarkupToolStripMenuItem.Text" xml:space="preserve">
+    <value>Text Markup</value>
+  </data>
+  <data name="statusCancelledToolStripMenuItem.Text" xml:space="preserve">
+    <value>Cancelled</value>
+  </data>
+  <data name="statusRejectedToolStripMenuItem.Text" xml:space="preserve">
+    <value>Rejected</value>
+  </data>
+  <data name="statusCompletedToolStripMenuItem.Text" xml:space="preserve">
+    <value>Completed</value>
+  </data>
+  <data name="statusAcceptedToolStripMenuItem.Text" xml:space="preserve">
+    <value>Accepted</value>
+  </data>
+  <data name="setStatusToolStripMenuItem.Text" xml:space="preserve">
+    <value>Set Status</value>
+  </data>
+  <data name="replyToolStripMenuItem.Text" xml:space="preserve">
+    <value>Reply</value>
+  </data>
+  <data name="toolTipCheckBox.Text" xml:space="preserve">
+    <value>Tooltips</value>
+  </data>
+  <data name="multiSelectCheckBox.Text" xml:space="preserve">
+    <value>Multiple Selection</value>
+  </data>
+  <data name="editModeSettingsGroupBox.Text" xml:space="preserve">
+    <value>Edit Mode Settings</value>
+  </data>
+  <data name="formFieldsTabPage.Text" xml:space="preserve">
+    <value>Form Fields</value>
+  </data>
+  <data name="annotationsTabPage.Text" xml:space="preserve">
+    <value>Annotations</value>
+  </data>
+  <data name="interactionModeViewRadioButton.Text" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="interactionModeEditRadioButton.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="interactionModeMarkupRadioButton.Text" xml:space="preserve">
+    <value>Markup</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Interaction Mode</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </metadata>
 </root>

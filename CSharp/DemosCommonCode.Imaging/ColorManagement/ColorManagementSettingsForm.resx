@@ -57,4 +57,46 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Color Management Settings</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Advanced settings</value>
+  </data>
+  <data name="decodingSettingsGroupBox.Text" xml:space="preserve">
+    <value>Color management decode settings</value>
+  </data>
+  <data name="blackPointCompensationCheckBox.Text" xml:space="preserve">
+    <value>Use black point compensation</value>
+  </data>
+  <data name="intentLabel.Text" xml:space="preserve">
+    <value>Rendering intent</value>
+  </data>
+  <data name="setOutputProfileButton.Text" xml:space="preserve">
+    <value>Set output profile...</value>
+  </data>
+  <data name="outputProfilesGroupBox.Text" xml:space="preserve">
+    <value>Output color profiles (from PCSXYZ)</value>
+  </data>
+  <data name="buttonCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="enableColorManagementCheckBox.Text" xml:space="preserve">
+    <value>Enable color management</value>
+  </data>
+  <data name="editColorTransformsButton.Text" xml:space="preserve">
+    <value>Edit color transforms...</value>
+  </data>
+  <data name="setInputProfileButton.Text" xml:space="preserve">
+    <value>Set input profile...</value>
+  </data>
+  <data name="useEmbeddedProfilesCheckBox.Text" xml:space="preserve">
+    <value>Use embedded input profile</value>
+  </data>
+  <data name="inputProfilesGroupBox.Text" xml:space="preserve">
+    <value>Input color profiles (to PCSXYZ)</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </metadata>
 </root>

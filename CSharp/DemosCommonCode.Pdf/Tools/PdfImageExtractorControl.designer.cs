@@ -30,6 +30,7 @@ namespace DemosCommonCode.Pdf
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PdfImageExtractorControl));
             this.components = new System.ComponentModel.Container();
             this.mainPanel = new System.Windows.Forms.Panel();
             this.viewContentImageButton = new System.Windows.Forms.Button();
@@ -70,7 +71,7 @@ namespace DemosCommonCode.Pdf
             this.viewContentImageButton.Name = "viewContentImageButton";
             this.viewContentImageButton.Size = new System.Drawing.Size(175, 23);
             this.viewContentImageButton.TabIndex = 4;
-            this.viewContentImageButton.Text = "View Content Image...";
+            resources.ApplyResources(this.viewContentImageButton, "viewContentImageButton");
             this.viewContentImageButton.UseVisualStyleBackColor = true;
             this.viewContentImageButton.Click += new System.EventHandler(this.viewContentImageButton_Click);
             // 
@@ -86,7 +87,7 @@ namespace DemosCommonCode.Pdf
             this.saveGroupBox.Size = new System.Drawing.Size(187, 77);
             this.saveGroupBox.TabIndex = 3;
             this.saveGroupBox.TabStop = false;
-            this.saveGroupBox.Text = "Save";
+            resources.ApplyResources(this.saveGroupBox, "saveGroupBox");
             // 
             // saveImageResourceButton
             // 
@@ -95,7 +96,7 @@ namespace DemosCommonCode.Pdf
             this.saveImageResourceButton.Name = "saveImageResourceButton";
             this.saveImageResourceButton.Size = new System.Drawing.Size(175, 23);
             this.saveImageResourceButton.TabIndex = 1;
-            this.saveImageResourceButton.Text = "Save Image Resource As...";
+            resources.ApplyResources(this.saveImageResourceButton, "saveImageResourceButton");
             this.saveImageResourceButton.UseVisualStyleBackColor = true;
             this.saveImageResourceButton.Click += new System.EventHandler(this.saveImageResourceButton_Click);
             // 
@@ -106,7 +107,7 @@ namespace DemosCommonCode.Pdf
             this.saveTransformedImageButton.Name = "saveTransformedImageButton";
             this.saveTransformedImageButton.Size = new System.Drawing.Size(175, 23);
             this.saveTransformedImageButton.TabIndex = 2;
-            this.saveTransformedImageButton.Text = "Save Transformed Image As...";
+            resources.ApplyResources(this.saveTransformedImageButton, "saveTransformedImageButton");
             this.saveTransformedImageButton.UseVisualStyleBackColor = true;
             this.saveTransformedImageButton.Click += new System.EventHandler(this.saveTransformedImageButton_Click);
             // 
@@ -140,7 +141,7 @@ namespace DemosCommonCode.Pdf
             // 
             this.viewContentImageToolStripMenuItem.Name = "viewContentImageToolStripMenuItem";
             this.viewContentImageToolStripMenuItem.Size = new System.Drawing.Size(214, 22);
-            this.viewContentImageToolStripMenuItem.Text = "View Content Image...";
+            resources.ApplyResources(this.viewContentImageToolStripMenuItem, "viewContentImageToolStripMenuItem");
             this.viewContentImageToolStripMenuItem.Click += new System.EventHandler(this.viewContentImageButton_Click);
             // 
             // toolStripSeparator1
@@ -152,21 +153,21 @@ namespace DemosCommonCode.Pdf
             // 
             this.saveImageResourceToolStripMenuItem1.Name = "saveImageResourceToolStripMenuItem1";
             this.saveImageResourceToolStripMenuItem1.Size = new System.Drawing.Size(214, 22);
-            this.saveImageResourceToolStripMenuItem1.Text = "Save Image Resource...";
+            resources.ApplyResources(this.saveImageResourceToolStripMenuItem1, "saveImageResourceToolStripMenuItem1");
             this.saveImageResourceToolStripMenuItem1.Click += new System.EventHandler(this.saveImageResourceButton_Click);
             // 
             // saveTransformedImageToolStripMenuItem
             // 
             this.saveTransformedImageToolStripMenuItem.Name = "saveTransformedImageToolStripMenuItem";
             this.saveTransformedImageToolStripMenuItem.Size = new System.Drawing.Size(214, 22);
-            this.saveTransformedImageToolStripMenuItem.Text = "Save Transformed Image...";
+            resources.ApplyResources(this.saveTransformedImageToolStripMenuItem, "saveTransformedImageToolStripMenuItem");
             this.saveTransformedImageToolStripMenuItem.Click += new System.EventHandler(this.saveTransformedImageButton_Click);
             // 
             // copyImageToClipboardToolStripMenuItem
             // 
             this.copyImageToClipboardToolStripMenuItem.Name = "copyImageToClipboardToolStripMenuItem";
             this.copyImageToClipboardToolStripMenuItem.Size = new System.Drawing.Size(214, 22);
-            this.copyImageToClipboardToolStripMenuItem.Text = "Copy Image to Clipboard";
+            resources.ApplyResources(this.copyImageToClipboardToolStripMenuItem, "copyImageToClipboardToolStripMenuItem");
             this.copyImageToClipboardToolStripMenuItem.Click += new System.EventHandler(this.copyImageToClipboardToolStripMenuItem_Click);
             // 
             // PdfImageExtractorControl

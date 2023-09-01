@@ -28,6 +28,7 @@ namespace DemosCommonCode.Pdf
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PdfAnnotationBorderStyleControl));
             this.widthNumericUpDown = new System.Windows.Forms.NumericUpDown();
             this.label5 = new System.Windows.Forms.Label();
             this.styleTypeComboBox = new System.Windows.Forms.ComboBox();
@@ -67,7 +68,7 @@ namespace DemosCommonCode.Pdf
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(35, 13);
             this.label5.TabIndex = 0;
-            this.label5.Text = "Width";
+            resources.ApplyResources(this.label5, "label5");
             // 
             // styleTypeComboBox
             // 
@@ -86,7 +87,7 @@ namespace DemosCommonCode.Pdf
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(30, 13);
             this.label7.TabIndex = 3;
-            this.label7.Text = "Style";
+            resources.ApplyResources(this.label7, "label7");
             // 
             // label6
             // 
@@ -95,7 +96,7 @@ namespace DemosCommonCode.Pdf
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(31, 13);
             this.label6.TabIndex = 1;
-            this.label6.Text = "Color";
+            resources.ApplyResources(this.label6, "label6");
             // 
             // dashPatternComboBox
             // 
@@ -119,7 +120,7 @@ namespace DemosCommonCode.Pdf
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(69, 13);
             this.label2.TabIndex = 21;
-            this.label2.Text = "Dash Pattern";
+            resources.ApplyResources(this.label2, "label2");
             // 
             // colorPanelControl
             // 

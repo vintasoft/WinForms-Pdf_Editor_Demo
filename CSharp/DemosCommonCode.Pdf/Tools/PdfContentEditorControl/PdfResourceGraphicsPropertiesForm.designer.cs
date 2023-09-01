@@ -29,6 +29,7 @@ namespace DemosCommonCode.Pdf
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PdfResourceGraphicsPropertiesForm));
             this.buttonOk = new System.Windows.Forms.Button();
             this.buttonCancel = new System.Windows.Forms.Button();
             this.colorBlendingCheckBox = new System.Windows.Forms.CheckBox();
@@ -57,7 +58,7 @@ namespace DemosCommonCode.Pdf
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(75, 23);
             this.buttonCancel.TabIndex = 6;
-            this.buttonCancel.Text = "Cancel";
+            resources.ApplyResources(this.buttonCancel, "buttonCancel");
             this.buttonCancel.UseVisualStyleBackColor = true;
             this.buttonCancel.Click += new System.EventHandler(this.buttonCancel_Click);
             // 
@@ -68,7 +69,7 @@ namespace DemosCommonCode.Pdf
             this.colorBlendingCheckBox.Name = "colorBlendingCheckBox";
             this.colorBlendingCheckBox.Size = new System.Drawing.Size(113, 17);
             this.colorBlendingCheckBox.TabIndex = 8;
-            this.colorBlendingCheckBox.Text = "Set Color Blending";
+            resources.ApplyResources(this.colorBlendingCheckBox, "colorBlendingCheckBox");
             this.colorBlendingCheckBox.UseVisualStyleBackColor = true;
             this.colorBlendingCheckBox.CheckedChanged += new System.EventHandler(this.colorBlendingCheckBox_CheckedChanged);
             // 
@@ -84,7 +85,7 @@ namespace DemosCommonCode.Pdf
             this.colorBlendingGroupBox.Size = new System.Drawing.Size(260, 48);
             this.colorBlendingGroupBox.TabIndex = 5;
             this.colorBlendingGroupBox.TabStop = false;
-            this.colorBlendingGroupBox.Text = "Color Blending";
+            resources.ApplyResources(this.colorBlendingGroupBox, "colorBlendingGroupBox");
             // 
             // colorBlendingComboBox
             // 
@@ -103,7 +104,7 @@ namespace DemosCommonCode.Pdf
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(105, 13);
             this.label5.TabIndex = 2;
-            this.label5.Text = "Color Blending Mode";
+            resources.ApplyResources(this.label5, "label5");
             // 
             // alphaConstantCheckBox
             // 
@@ -127,7 +128,7 @@ namespace DemosCommonCode.Pdf
             this.alphaConstantValueEditor.TabIndex = 0;
             this.alphaConstantValueEditor.Value = 255F;
             this.alphaConstantValueEditor.ValueName = "Alpha Contant";
-            this.alphaConstantValueEditor.ValueUnitOfMeasure = "";
+            resources.ApplyResources(this.alphaConstantValueEditor, "alphaConstantValueEditor");
             // 
             // PdfResourceGraphicsPropertiesForm
             // 
@@ -147,7 +148,7 @@ namespace DemosCommonCode.Pdf
             this.Name = "PdfResourceGraphicsPropertiesForm";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Content Graphics Properties";
+            resources.ApplyResources(this, "$this");
             this.colorBlendingGroupBox.ResumeLayout(false);
             this.colorBlendingGroupBox.PerformLayout();
             this.ResumeLayout(false);

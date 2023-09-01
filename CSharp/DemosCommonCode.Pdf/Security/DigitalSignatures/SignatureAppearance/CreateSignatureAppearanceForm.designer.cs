@@ -28,6 +28,7 @@ namespace DemosCommonCode.Pdf.Security
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CreateSignatureAppearanceForm));
             this.buttonOk = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.backgroundColorRadioButton = new System.Windows.Forms.RadioButton();
@@ -73,7 +74,7 @@ namespace DemosCommonCode.Pdf.Security
             this.groupBox1.Size = new System.Drawing.Size(168, 83);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Background";
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             // 
             // backgroundColorRadioButton
             // 
@@ -82,7 +83,7 @@ namespace DemosCommonCode.Pdf.Security
             this.backgroundColorRadioButton.Name = "backgroundColorRadioButton";
             this.backgroundColorRadioButton.Size = new System.Drawing.Size(58, 17);
             this.backgroundColorRadioButton.TabIndex = 2;
-            this.backgroundColorRadioButton.Text = "Color...";
+            resources.ApplyResources(this.backgroundColorRadioButton, "backgroundColorRadioButton");
             this.backgroundColorRadioButton.UseVisualStyleBackColor = true;
             this.backgroundColorRadioButton.Click += new System.EventHandler(this.backgroundColorRadioButton_Click);
             // 
@@ -93,7 +94,7 @@ namespace DemosCommonCode.Pdf.Security
             this.backgroundImageRadioButton.Name = "backgroundImageRadioButton";
             this.backgroundImageRadioButton.Size = new System.Drawing.Size(106, 17);
             this.backgroundImageRadioButton.TabIndex = 1;
-            this.backgroundImageRadioButton.Text = "Imported image...";
+            resources.ApplyResources(this.backgroundImageRadioButton, "backgroundImageRadioButton");
             this.backgroundImageRadioButton.UseVisualStyleBackColor = true;
             this.backgroundImageRadioButton.Click += new System.EventHandler(this.backgroundImageRadioButton_Click);
             // 
@@ -133,7 +134,7 @@ namespace DemosCommonCode.Pdf.Security
             this.contactInfoCheckBox.Name = "contactInfoCheckBox";
             this.contactInfoCheckBox.Size = new System.Drawing.Size(84, 17);
             this.contactInfoCheckBox.TabIndex = 4;
-            this.contactInfoCheckBox.Text = "Contact Info";
+            resources.ApplyResources(this.contactInfoCheckBox, "contactInfoCheckBox");
             this.contactInfoCheckBox.UseVisualStyleBackColor = true;
             this.contactInfoCheckBox.CheckedChanged += new System.EventHandler(this.textCheckBox_CheckedChanged);
             // 
@@ -146,7 +147,7 @@ namespace DemosCommonCode.Pdf.Security
             this.reasonCheckBox.Name = "reasonCheckBox";
             this.reasonCheckBox.Size = new System.Drawing.Size(63, 17);
             this.reasonCheckBox.TabIndex = 3;
-            this.reasonCheckBox.Text = "Reason";
+            resources.ApplyResources(this.reasonCheckBox, "reasonCheckBox");
             this.reasonCheckBox.UseVisualStyleBackColor = true;
             this.reasonCheckBox.CheckedChanged += new System.EventHandler(this.textCheckBox_CheckedChanged);
             // 
@@ -159,7 +160,7 @@ namespace DemosCommonCode.Pdf.Security
             this.dateCheckBox.Name = "dateCheckBox";
             this.dateCheckBox.Size = new System.Drawing.Size(49, 17);
             this.dateCheckBox.TabIndex = 2;
-            this.dateCheckBox.Text = "Date";
+            resources.ApplyResources(this.dateCheckBox, "dateCheckBox");
             this.dateCheckBox.UseVisualStyleBackColor = true;
             this.dateCheckBox.CheckedChanged += new System.EventHandler(this.textCheckBox_CheckedChanged);
             // 
@@ -172,7 +173,7 @@ namespace DemosCommonCode.Pdf.Security
             this.locationCheckBox.Name = "locationCheckBox";
             this.locationCheckBox.Size = new System.Drawing.Size(67, 17);
             this.locationCheckBox.TabIndex = 1;
-            this.locationCheckBox.Text = "Location";
+            resources.ApplyResources(this.locationCheckBox, "locationCheckBox");
             this.locationCheckBox.UseVisualStyleBackColor = true;
             this.locationCheckBox.CheckedChanged += new System.EventHandler(this.textCheckBox_CheckedChanged);
             // 
@@ -185,7 +186,7 @@ namespace DemosCommonCode.Pdf.Security
             this.nameCheckBox.Name = "nameCheckBox";
             this.nameCheckBox.Size = new System.Drawing.Size(54, 17);
             this.nameCheckBox.TabIndex = 0;
-            this.nameCheckBox.Text = "Name";
+            resources.ApplyResources(this.nameCheckBox, "nameCheckBox");
             this.nameCheckBox.UseVisualStyleBackColor = true;
             this.nameCheckBox.CheckedChanged += new System.EventHandler(this.textCheckBox_CheckedChanged);
             // 
@@ -199,7 +200,7 @@ namespace DemosCommonCode.Pdf.Security
             this.groupBox3.Size = new System.Drawing.Size(168, 87);
             this.groupBox3.TabIndex = 4;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Signature";
+            resources.ApplyResources(this.groupBox3, "groupBox3");
             // 
             // signatureNameRadioButton
             // 
@@ -208,7 +209,7 @@ namespace DemosCommonCode.Pdf.Security
             this.signatureNameRadioButton.Name = "signatureNameRadioButton";
             this.signatureNameRadioButton.Size = new System.Drawing.Size(53, 17);
             this.signatureNameRadioButton.TabIndex = 2;
-            this.signatureNameRadioButton.Text = "Name";
+            resources.ApplyResources(this.signatureNameRadioButton, "signatureNameRadioButton");
             this.signatureNameRadioButton.UseVisualStyleBackColor = true;
             this.signatureNameRadioButton.CheckedChanged += new System.EventHandler(this.signatureNameRadioButton_CheckedChanged);
             // 
@@ -219,7 +220,7 @@ namespace DemosCommonCode.Pdf.Security
             this.signatureImageRadioButton.Name = "signatureImageRadioButton";
             this.signatureImageRadioButton.Size = new System.Drawing.Size(106, 17);
             this.signatureImageRadioButton.TabIndex = 1;
-            this.signatureImageRadioButton.Text = "Imported image...";
+            resources.ApplyResources(this.signatureImageRadioButton, "signatureImageRadioButton");
             this.signatureImageRadioButton.UseVisualStyleBackColor = true;
             this.signatureImageRadioButton.Click += new System.EventHandler(this.signatureImageRadioButton_Click);
             // 
@@ -247,7 +248,7 @@ namespace DemosCommonCode.Pdf.Security
             this.groupBox4.Size = new System.Drawing.Size(434, 252);
             this.groupBox4.TabIndex = 5;
             this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Signature Appearance Visual Editor (click to edit)";
+            resources.ApplyResources(this.groupBox4, "groupBox4");
             // 
             // signatureAppearanceEditor
             // 
@@ -271,7 +272,7 @@ namespace DemosCommonCode.Pdf.Security
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(75, 23);
             this.buttonCancel.TabIndex = 0;
-            this.buttonCancel.Text = "Cancel";
+            resources.ApplyResources(this.buttonCancel, "buttonCancel");
             this.buttonCancel.UseVisualStyleBackColor = true;
             this.buttonCancel.Click += new System.EventHandler(this.buttonCancel_Click);
             // 
@@ -290,7 +291,7 @@ namespace DemosCommonCode.Pdf.Security
             this.MinimizeBox = false;
             this.Name = "CreateSignatureAppearanceForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Create Signature Appearance";
+            resources.ApplyResources(this, "$this");
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);

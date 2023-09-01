@@ -120,4 +120,43 @@
   <metadata name="saveFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <data name="$this.Text" xml:space="preserve">
+    <value>View content image</value>
+  </data>
+  <data name="transformedImageRadioButton.Text" xml:space="preserve">
+    <value>Transformed</value>
+  </data>
+  <data name="originalImageRadioButton.Text" xml:space="preserve">
+    <value>Original</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="saveAsButton.Text" xml:space="preserve">
+    <value>Save as...</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Original size</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Compression</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Compressed size</value>
+  </data>
+  <data name="regionGroupBox.Text" xml:space="preserve">
+    <value>Region in page content (Resolution: 0)</value>
+  </data>
+  <data name="compressedSizeLabel.Text" xml:space="preserve">
+    <value>0 bytes</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="viewResourceButton.Text" xml:space="preserve">
+    <value>View resource...</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </metadata>
 </root>

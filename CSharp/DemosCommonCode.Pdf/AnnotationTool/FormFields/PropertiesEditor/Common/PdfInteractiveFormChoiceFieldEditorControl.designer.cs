@@ -28,6 +28,7 @@ namespace DemosCommonCode.Pdf
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PdfInteractiveFormChoiceFieldEditorControl));
             this.itemsListBox = new System.Windows.Forms.ListBox();
             this.addButton = new System.Windows.Forms.Button();
             this.moveUpButton = new System.Windows.Forms.Button();
@@ -69,7 +70,7 @@ namespace DemosCommonCode.Pdf
             this.addButton.Name = "addButton";
             this.addButton.Size = new System.Drawing.Size(75, 23);
             this.addButton.TabIndex = 1;
-            this.addButton.Text = "Add";
+            resources.ApplyResources(this.addButton, "addButton");
             this.addButton.UseVisualStyleBackColor = true;
             this.addButton.Click += new System.EventHandler(this.addButton_Click);
             // 
@@ -81,7 +82,7 @@ namespace DemosCommonCode.Pdf
             this.moveUpButton.Name = "moveUpButton";
             this.moveUpButton.Size = new System.Drawing.Size(75, 23);
             this.moveUpButton.TabIndex = 2;
-            this.moveUpButton.Text = "Up";
+            resources.ApplyResources(this.moveUpButton, "moveUpButton");
             this.moveUpButton.UseVisualStyleBackColor = true;
             this.moveUpButton.Click += new System.EventHandler(this.moveUpButton_Click);
             // 
@@ -93,7 +94,7 @@ namespace DemosCommonCode.Pdf
             this.moveDownButton.Name = "moveDownButton";
             this.moveDownButton.Size = new System.Drawing.Size(75, 23);
             this.moveDownButton.TabIndex = 3;
-            this.moveDownButton.Text = "Down";
+            resources.ApplyResources(this.moveDownButton, "moveDownButton");
             this.moveDownButton.UseVisualStyleBackColor = true;
             this.moveDownButton.Click += new System.EventHandler(this.moveDownButton_Click);
             // 
@@ -115,7 +116,7 @@ namespace DemosCommonCode.Pdf
             this.deleteButton.Name = "deleteButton";
             this.deleteButton.Size = new System.Drawing.Size(75, 23);
             this.deleteButton.TabIndex = 5;
-            this.deleteButton.Text = "Delete";
+            resources.ApplyResources(this.deleteButton, "deleteButton");
             this.deleteButton.UseVisualStyleBackColor = true;
             this.deleteButton.Click += new System.EventHandler(this.deleteButton_Click);
             // 
@@ -143,7 +144,7 @@ namespace DemosCommonCode.Pdf
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(77, 13);
             this.label3.TabIndex = 16;
-            this.label3.Text = "Text Quadding";
+            resources.ApplyResources(this.label3, "label3");
             // 
             // textQuaddingComboBox
             // 
@@ -177,7 +178,7 @@ namespace DemosCommonCode.Pdf
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(39, 13);
             this.label1.TabIndex = 10;
-            this.label1.Text = "Value";
+            resources.ApplyResources(this.label1, "label1");
             // 
             // label2
             // 
@@ -186,7 +187,7 @@ namespace DemosCommonCode.Pdf
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(71, 13);
             this.label2.TabIndex = 11;
-            this.label2.Text = "Default Value";
+            resources.ApplyResources(this.label2, "label2");
             // 
             // defaultValueComboBox
             // 
@@ -219,7 +220,7 @@ namespace DemosCommonCode.Pdf
             this.groupBox1.Size = new System.Drawing.Size(329, 135);
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Items";
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             // 
             // label5
             // 
@@ -228,7 +229,7 @@ namespace DemosCommonCode.Pdf
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(83, 13);
             this.label5.TabIndex = 8;
-            this.label5.Text = "Displayed Value";
+            resources.ApplyResources(this.label5, "label5");
             // 
             // exportedValueTextBox
             // 
@@ -247,7 +248,7 @@ namespace DemosCommonCode.Pdf
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(79, 13);
             this.label4.TabIndex = 6;
-            this.label4.Text = "Exported Value";
+            resources.ApplyResources(this.label4, "label4");
             // 
             // PdfInteractiveFormChoiceFieldEditorControl
             // 

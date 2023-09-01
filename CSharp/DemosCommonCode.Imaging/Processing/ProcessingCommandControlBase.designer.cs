@@ -28,6 +28,7 @@ namespace DemosCommonCode.Imaging
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ProcessingCommandControlBase));
             this.components = new System.ComponentModel.Container();
             this.mainTabControl = new System.Windows.Forms.TabControl();
             this.processingTabPage = new System.Windows.Forms.TabPage();
@@ -74,7 +75,7 @@ namespace DemosCommonCode.Imaging
             this.processingTabPage.Padding = new System.Windows.Forms.Padding(3);
             this.processingTabPage.Size = new System.Drawing.Size(540, 471);
             this.processingTabPage.TabIndex = 0;
-            this.processingTabPage.Text = "Processing";
+            resources.ApplyResources(this.processingTabPage, "processingTabPage");
             this.processingTabPage.UseVisualStyleBackColor = true;
             // 
             // viewProcessingTreeStructureCheckBox
@@ -85,7 +86,7 @@ namespace DemosCommonCode.Imaging
             this.viewProcessingTreeStructureCheckBox.Name = "viewProcessingTreeStructureCheckBox";
             this.viewProcessingTreeStructureCheckBox.Size = new System.Drawing.Size(186, 19);
             this.viewProcessingTreeStructureCheckBox.TabIndex = 6;
-            this.viewProcessingTreeStructureCheckBox.Text = "View Processing Tree Structure";
+            resources.ApplyResources(this.viewProcessingTreeStructureCheckBox, "viewProcessingTreeStructureCheckBox");
             this.viewProcessingTreeStructureCheckBox.UseVisualStyleBackColor = true;
             this.viewProcessingTreeStructureCheckBox.CheckedChanged += new System.EventHandler(this.viewProcessingTreeStructureCheckBox_CheckedChanged);
             // 
@@ -99,7 +100,7 @@ namespace DemosCommonCode.Imaging
             this.showResultsAfretExecuteCheckBox.Name = "showResultsAfretExecuteCheckBox";
             this.showResultsAfretExecuteCheckBox.Size = new System.Drawing.Size(163, 19);
             this.showResultsAfretExecuteCheckBox.TabIndex = 5;
-            this.showResultsAfretExecuteCheckBox.Text = "Open results after execute";
+            resources.ApplyResources(this.showResultsAfretExecuteCheckBox, "showResultsAfretExecuteCheckBox");
             this.showResultsAfretExecuteCheckBox.UseVisualStyleBackColor = true;
             // 
             // splitContainer1
@@ -164,7 +165,7 @@ namespace DemosCommonCode.Imaging
             this.executeButton.Name = "executeButton";
             this.executeButton.Size = new System.Drawing.Size(75, 23);
             this.executeButton.TabIndex = 2;
-            this.executeButton.Text = "Execute";
+            resources.ApplyResources(this.executeButton, "executeButton");
             this.executeButton.UseVisualStyleBackColor = true;
             this.executeButton.Click += new System.EventHandler(this.executeButton_Click);
             // 
@@ -176,7 +177,7 @@ namespace DemosCommonCode.Imaging
             this.resultTabPage.Padding = new System.Windows.Forms.Padding(3);
             this.resultTabPage.Size = new System.Drawing.Size(540, 471);
             this.resultTabPage.TabIndex = 1;
-            this.resultTabPage.Text = "Result";
+            resources.ApplyResources(this.resultTabPage, "resultTabPage");
             this.resultTabPage.UseVisualStyleBackColor = true;
             // 
             // resultGroupBox

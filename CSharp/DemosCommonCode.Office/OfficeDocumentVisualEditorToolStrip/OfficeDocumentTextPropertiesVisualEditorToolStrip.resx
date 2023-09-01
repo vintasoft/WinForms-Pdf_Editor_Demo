@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -213,5 +213,59 @@
   </data>
   <metadata name="$this.TrayLargeIcon" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>False</value>
+  </metadata>
+  <data name="textPropertiesButton.ToolTipText" xml:space="preserve">
+    <value>Text properties...</value>
+  </data>
+  <data name="changeSuperscriptButton.ToolTipText" xml:space="preserve">
+    <value>Superscript</value>
+  </data>
+  <data name="changeSuperscriptButton.Text" xml:space="preserve">
+    <value>Superscipt</value>
+  </data>
+  <data name="changeSubscriptButton.ToolTipText" xml:space="preserve">
+    <value>Subscript</value>
+  </data>
+  <data name="changeSubscriptButton.Text" xml:space="preserve">
+    <value>Subscript</value>
+  </data>
+  <data name="changeStrikeoutButton.ToolTipText" xml:space="preserve">
+    <value>Strikeout </value>
+  </data>
+  <data name="changeStrikeoutButton.Text" xml:space="preserve">
+    <value>Strikeout text</value>
+  </data>
+  <data name="decreaseTextSizeButton.ToolTipText" xml:space="preserve">
+    <value>Decrease text size (Ctrl+Minus)</value>
+  </data>
+  <data name="decreaseTextSizeButton.Text" xml:space="preserve">
+    <value>Decrease text size </value>
+  </data>
+  <data name="increaseTextSizeButton.ToolTipText" xml:space="preserve">
+    <value>Increase text size (Ctrl+Plus)</value>
+  </data>
+  <data name="increaseTextSizeButton.Text" xml:space="preserve">
+    <value>Increase text size</value>
+  </data>
+  <data name="changeUnderlineButton.ToolTipText" xml:space="preserve">
+    <value>Underline (Ctrl+U)</value>
+  </data>
+  <data name="changeUnderlineButton.Text" xml:space="preserve">
+    <value>toolStripButton3</value>
+  </data>
+  <data name="changeItalicButton.ToolTipText" xml:space="preserve">
+    <value>Italic (Ctrl+I)</value>
+  </data>
+  <data name="changeItalicButton.Text" xml:space="preserve">
+    <value>Italic text</value>
+  </data>
+  <data name="changeBoldButton.ToolTipText" xml:space="preserve">
+    <value>Bold (Ctrl+B)</value>
+  </data>
+  <data name="changeBoldButton.Text" xml:space="preserve">
+    <value>Bold text</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
   </metadata>
 </root>

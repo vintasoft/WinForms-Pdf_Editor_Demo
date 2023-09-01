@@ -28,6 +28,7 @@ namespace DemosCommonCode.Pdf
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PdfInteractiveFormFieldBuilderControl));
             this.textFieldToolStripSplitButton = new DemosCommonCode.CustomControls.CheckedToolStripSplitButton();
             this.textFieldNoBorderToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.textFieldSingleBorderToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -95,7 +96,7 @@ namespace DemosCommonCode.Pdf
             // 
             this.textFieldNoBorderToolStripMenuItem.Name = "textFieldNoBorderToolStripMenuItem";
             this.textFieldNoBorderToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.textFieldNoBorderToolStripMenuItem.Text = "No Border";
+            resources.ApplyResources(this.textFieldNoBorderToolStripMenuItem, "textFieldNoBorderToolStripMenuItem");
             this.textFieldNoBorderToolStripMenuItem.CheckedChanged += new System.EventHandler(this.appearanceToolStripMenuItem_CheckedChanged);
             this.textFieldNoBorderToolStripMenuItem.Click += new System.EventHandler(this.addAndBuildInteractiveFormFieldToolStripButton_Click);
             // 
@@ -103,7 +104,7 @@ namespace DemosCommonCode.Pdf
             // 
             this.textFieldSingleBorderToolStripMenuItem.Name = "textFieldSingleBorderToolStripMenuItem";
             this.textFieldSingleBorderToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.textFieldSingleBorderToolStripMenuItem.Text = "Single Border";
+            resources.ApplyResources(this.textFieldSingleBorderToolStripMenuItem, "textFieldSingleBorderToolStripMenuItem");
             this.textFieldSingleBorderToolStripMenuItem.CheckedChanged += new System.EventHandler(this.appearanceToolStripMenuItem_CheckedChanged);
             this.textFieldSingleBorderToolStripMenuItem.Click += new System.EventHandler(this.addAndBuildInteractiveFormFieldToolStripButton_Click);
             // 
@@ -111,7 +112,7 @@ namespace DemosCommonCode.Pdf
             // 
             this.textField3DBorderToolStripMenuItem.Name = "textField3DBorderToolStripMenuItem";
             this.textField3DBorderToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.textField3DBorderToolStripMenuItem.Text = "3D Border";
+            resources.ApplyResources(this.textField3DBorderToolStripMenuItem, "textField3DBorderToolStripMenuItem");
             this.textField3DBorderToolStripMenuItem.CheckedChanged += new System.EventHandler(this.appearanceToolStripMenuItem_CheckedChanged);
             this.textField3DBorderToolStripMenuItem.Click += new System.EventHandler(this.addAndBuildInteractiveFormFieldToolStripButton_Click);
             // 
@@ -124,7 +125,7 @@ namespace DemosCommonCode.Pdf
             // 
             this.textFieldPropertiesToolStripMenuItem.Name = "textFieldPropertiesToolStripMenuItem";
             this.textFieldPropertiesToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.textFieldPropertiesToolStripMenuItem.Text = "Properties...";
+            resources.ApplyResources(this.textFieldPropertiesToolStripMenuItem, "textFieldPropertiesToolStripMenuItem");
             this.textFieldPropertiesToolStripMenuItem.Click += new System.EventHandler(this.fieldAppearanceGeneratorPropertiesToolStripMenuItem_Click);
             // 
             // checkBoxToolStripSplitButton
@@ -147,7 +148,7 @@ namespace DemosCommonCode.Pdf
             // 
             this.checkBoxStandardToolStripMenuItem.Name = "checkBoxStandardToolStripMenuItem";
             this.checkBoxStandardToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.checkBoxStandardToolStripMenuItem.Text = "Standard";
+            resources.ApplyResources(this.checkBoxStandardToolStripMenuItem, "checkBoxStandardToolStripMenuItem");
             this.checkBoxStandardToolStripMenuItem.CheckedChanged += new System.EventHandler(this.appearanceToolStripMenuItem_CheckedChanged);
             this.checkBoxStandardToolStripMenuItem.Click += new System.EventHandler(this.addAndBuildInteractiveFormFieldToolStripButton_Click);
             // 
@@ -155,7 +156,7 @@ namespace DemosCommonCode.Pdf
             // 
             this.checkBoxSimpleToolStripMenuItem.Name = "checkBoxSimpleToolStripMenuItem";
             this.checkBoxSimpleToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.checkBoxSimpleToolStripMenuItem.Text = "Simple";
+            resources.ApplyResources(this.checkBoxSimpleToolStripMenuItem, "checkBoxSimpleToolStripMenuItem");
             this.checkBoxSimpleToolStripMenuItem.CheckedChanged += new System.EventHandler(this.appearanceToolStripMenuItem_CheckedChanged);
             this.checkBoxSimpleToolStripMenuItem.Click += new System.EventHandler(this.addAndBuildInteractiveFormFieldToolStripButton_Click);
             // 
@@ -184,7 +185,7 @@ namespace DemosCommonCode.Pdf
             // 
             this.propertiesToolStripMenuItem1.Name = "propertiesToolStripMenuItem1";
             this.propertiesToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
-            this.propertiesToolStripMenuItem1.Text = "Properties...";
+            resources.ApplyResources(this.propertiesToolStripMenuItem1, "propertiesToolStripMenuItem1");
             this.propertiesToolStripMenuItem1.Click += new System.EventHandler(this.fieldAppearanceGeneratorPropertiesToolStripMenuItem_Click);
             // 
             // buttonToolStripSplitButton
@@ -205,7 +206,7 @@ namespace DemosCommonCode.Pdf
             // 
             this.buttonFlatBorderToolStripMenuItem.Name = "buttonFlatBorderToolStripMenuItem";
             this.buttonFlatBorderToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.buttonFlatBorderToolStripMenuItem.Text = "Flat Border";
+            resources.ApplyResources(this.buttonFlatBorderToolStripMenuItem, "buttonFlatBorderToolStripMenuItem");
             this.buttonFlatBorderToolStripMenuItem.CheckedChanged += new System.EventHandler(this.appearanceToolStripMenuItem_CheckedChanged);
             this.buttonFlatBorderToolStripMenuItem.Click += new System.EventHandler(this.addAndBuildInteractiveFormFieldToolStripButton_Click);
             // 
@@ -213,7 +214,7 @@ namespace DemosCommonCode.Pdf
             // 
             this.buttonBorder3DToolStripMenuItem.Name = "buttonBorder3DToolStripMenuItem";
             this.buttonBorder3DToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.buttonBorder3DToolStripMenuItem.Text = "3D Border";
+            resources.ApplyResources(this.buttonBorder3DToolStripMenuItem, "buttonBorder3DToolStripMenuItem");
             this.buttonBorder3DToolStripMenuItem.CheckedChanged += new System.EventHandler(this.appearanceToolStripMenuItem_CheckedChanged);
             this.buttonBorder3DToolStripMenuItem.Click += new System.EventHandler(this.addAndBuildInteractiveFormFieldToolStripButton_Click);
             // 
@@ -226,7 +227,7 @@ namespace DemosCommonCode.Pdf
             // 
             this.propertiesToolStripMenuItem.Name = "propertiesToolStripMenuItem";
             this.propertiesToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.propertiesToolStripMenuItem.Text = "Properties...";
+            resources.ApplyResources(this.propertiesToolStripMenuItem, "propertiesToolStripMenuItem");
             this.propertiesToolStripMenuItem.Click += new System.EventHandler(this.fieldAppearanceGeneratorPropertiesToolStripMenuItem_Click);
             // 
             // listBoxToolStripSplitButton
@@ -246,7 +247,7 @@ namespace DemosCommonCode.Pdf
             // 
             this.listBoxNoBorderToolStripMenuItem.Name = "listBoxNoBorderToolStripMenuItem";
             this.listBoxNoBorderToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.listBoxNoBorderToolStripMenuItem.Text = "No Border";
+            resources.ApplyResources(this.listBoxNoBorderToolStripMenuItem, "listBoxNoBorderToolStripMenuItem");
             this.listBoxNoBorderToolStripMenuItem.CheckedChanged += new System.EventHandler(this.appearanceToolStripMenuItem_CheckedChanged);
             this.listBoxNoBorderToolStripMenuItem.Click += new System.EventHandler(this.addAndBuildInteractiveFormFieldToolStripButton_Click);
             // 
@@ -259,7 +260,7 @@ namespace DemosCommonCode.Pdf
             // 
             this.propertiesToolStripMenuItem2.Name = "propertiesToolStripMenuItem2";
             this.propertiesToolStripMenuItem2.Size = new System.Drawing.Size(152, 22);
-            this.propertiesToolStripMenuItem2.Text = "Properties...";
+            resources.ApplyResources(this.propertiesToolStripMenuItem2, "propertiesToolStripMenuItem2");
             this.propertiesToolStripMenuItem2.Click += new System.EventHandler(this.fieldAppearanceGeneratorPropertiesToolStripMenuItem_Click);
             // 
             // comboBoxToolStripSplitButton
@@ -281,7 +282,7 @@ namespace DemosCommonCode.Pdf
             // 
             this.comboBoxNoBorderToolStripMenuItem.Name = "comboBoxNoBorderToolStripMenuItem";
             this.comboBoxNoBorderToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.comboBoxNoBorderToolStripMenuItem.Text = "No Border";
+            resources.ApplyResources(this.comboBoxNoBorderToolStripMenuItem, "comboBoxNoBorderToolStripMenuItem");
             this.comboBoxNoBorderToolStripMenuItem.CheckedChanged += new System.EventHandler(this.appearanceToolStripMenuItem_CheckedChanged);
             this.comboBoxNoBorderToolStripMenuItem.Click += new System.EventHandler(this.addAndBuildInteractiveFormFieldToolStripButton_Click);
             // 
@@ -289,7 +290,7 @@ namespace DemosCommonCode.Pdf
             // 
             this.comboBoxSingleBorderToolStripMenuItem.Name = "comboBoxSingleBorderToolStripMenuItem";
             this.comboBoxSingleBorderToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.comboBoxSingleBorderToolStripMenuItem.Text = "Single Border";
+            resources.ApplyResources(this.comboBoxSingleBorderToolStripMenuItem, "comboBoxSingleBorderToolStripMenuItem");
             this.comboBoxSingleBorderToolStripMenuItem.CheckedChanged += new System.EventHandler(this.appearanceToolStripMenuItem_CheckedChanged);
             this.comboBoxSingleBorderToolStripMenuItem.Click += new System.EventHandler(this.addAndBuildInteractiveFormFieldToolStripButton_Click);
             // 
@@ -297,7 +298,7 @@ namespace DemosCommonCode.Pdf
             // 
             this.comboBox3dBorderToolStripMenuItem.Name = "comboBox3dBorderToolStripMenuItem";
             this.comboBox3dBorderToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.comboBox3dBorderToolStripMenuItem.Text = "3D Border";
+            resources.ApplyResources(this.comboBox3dBorderToolStripMenuItem, "comboBox3dBorderToolStripMenuItem");
             this.comboBox3dBorderToolStripMenuItem.CheckedChanged += new System.EventHandler(this.appearanceToolStripMenuItem_CheckedChanged);
             this.comboBox3dBorderToolStripMenuItem.Click += new System.EventHandler(this.addAndBuildInteractiveFormFieldToolStripButton_Click);
             // 
@@ -310,7 +311,7 @@ namespace DemosCommonCode.Pdf
             // 
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
             this.toolStripMenuItem2.Size = new System.Drawing.Size(152, 22);
-            this.toolStripMenuItem2.Text = "Properties...";
+            resources.ApplyResources(this.toolStripMenuItem2, "toolStripMenuItem2");
             this.toolStripMenuItem2.Click += new System.EventHandler(this.fieldAppearanceGeneratorPropertiesToolStripMenuItem_Click);
             // 
             // radioButtonToolStripSplitButton
@@ -331,7 +332,7 @@ namespace DemosCommonCode.Pdf
             // 
             this.radioButtonStandardToolStripMenuItem.Name = "radioButtonStandardToolStripMenuItem";
             this.radioButtonStandardToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.radioButtonStandardToolStripMenuItem.Text = "Standard";
+            resources.ApplyResources(this.radioButtonStandardToolStripMenuItem, "radioButtonStandardToolStripMenuItem");
             this.radioButtonStandardToolStripMenuItem.CheckedChanged += new System.EventHandler(this.appearanceToolStripMenuItem_CheckedChanged);
             this.radioButtonStandardToolStripMenuItem.Click += new System.EventHandler(this.addAndBuildInteractiveFormFieldToolStripButton_Click);
             // 
@@ -339,7 +340,7 @@ namespace DemosCommonCode.Pdf
             // 
             this.radioButtonSymbolToolStripMenuItem.Name = "radioButtonSymbolToolStripMenuItem";
             this.radioButtonSymbolToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.radioButtonSymbolToolStripMenuItem.Text = "Symbol";
+            resources.ApplyResources(this.radioButtonSymbolToolStripMenuItem, "radioButtonSymbolToolStripMenuItem");
             this.radioButtonSymbolToolStripMenuItem.CheckedChanged += new System.EventHandler(this.appearanceToolStripMenuItem_CheckedChanged);
             this.radioButtonSymbolToolStripMenuItem.Click += new System.EventHandler(this.addAndBuildInteractiveFormFieldToolStripButton_Click);
             // 
@@ -352,7 +353,7 @@ namespace DemosCommonCode.Pdf
             // 
             this.propertiesToolStripMenuItem3.Name = "propertiesToolStripMenuItem3";
             this.propertiesToolStripMenuItem3.Size = new System.Drawing.Size(152, 22);
-            this.propertiesToolStripMenuItem3.Text = "Properties...";
+            resources.ApplyResources(this.propertiesToolStripMenuItem3, "propertiesToolStripMenuItem3");
             this.propertiesToolStripMenuItem3.Click += new System.EventHandler(this.fieldAppearanceGeneratorPropertiesToolStripMenuItem_Click);
             // 
             // barcodeToolStripSplitButton
@@ -399,7 +400,7 @@ namespace DemosCommonCode.Pdf
             // 
             this.vintasoftBarcodeToolStripMenuItem.Name = "vintasoftBarcodeToolStripMenuItem";
             this.vintasoftBarcodeToolStripMenuItem.Size = new System.Drawing.Size(276, 22);
-            this.vintasoftBarcodeToolStripMenuItem.Text = "Vintasoft Barcode (other symbologies)";
+            resources.ApplyResources(this.vintasoftBarcodeToolStripMenuItem, "vintasoftBarcodeToolStripMenuItem");
             this.vintasoftBarcodeToolStripMenuItem.CheckedChanged += new System.EventHandler(this.appearanceToolStripMenuItem_CheckedChanged);
             this.vintasoftBarcodeToolStripMenuItem.Click += new System.EventHandler(this.addAndBuildInteractiveFormFieldToolStripButton_Click);
             // 
@@ -412,7 +413,7 @@ namespace DemosCommonCode.Pdf
             // 
             this.propertiesToolStripMenuItem4.Name = "propertiesToolStripMenuItem4";
             this.propertiesToolStripMenuItem4.Size = new System.Drawing.Size(276, 22);
-            this.propertiesToolStripMenuItem4.Text = "Properties...";
+            resources.ApplyResources(this.propertiesToolStripMenuItem4, "propertiesToolStripMenuItem4");
             this.propertiesToolStripMenuItem4.Click += new System.EventHandler(this.fieldAppearanceGeneratorPropertiesToolStripMenuItem_Click);
             // 
             // mainToolStrip
@@ -453,7 +454,7 @@ namespace DemosCommonCode.Pdf
             // 
             this.signatureDefaultToolStripMenuItem.Name = "signatureDefaultToolStripMenuItem";
             this.signatureDefaultToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.signatureDefaultToolStripMenuItem.Text = "Default";
+            resources.ApplyResources(this.signatureDefaultToolStripMenuItem, "signatureDefaultToolStripMenuItem");
             this.signatureDefaultToolStripMenuItem.CheckedChanged += new System.EventHandler(this.appearanceToolStripMenuItem_CheckedChanged);
             this.signatureDefaultToolStripMenuItem.Click += new System.EventHandler(this.addAndBuildInteractiveFormFieldToolStripButton_Click);
             // 
@@ -466,7 +467,7 @@ namespace DemosCommonCode.Pdf
             // 
             this.propertiesToolStripMenuItem5.Name = "propertiesToolStripMenuItem5";
             this.propertiesToolStripMenuItem5.Size = new System.Drawing.Size(152, 22);
-            this.propertiesToolStripMenuItem5.Text = "Properties...";
+            resources.ApplyResources(this.propertiesToolStripMenuItem5, "propertiesToolStripMenuItem5");
             this.propertiesToolStripMenuItem5.Click += new System.EventHandler(this.fieldAppearanceGeneratorPropertiesToolStripMenuItem_Click);
             // 
             // PdfInteractiveFormFieldBuilderControl

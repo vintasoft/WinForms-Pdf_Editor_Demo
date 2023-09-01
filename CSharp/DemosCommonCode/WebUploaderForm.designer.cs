@@ -28,6 +28,7 @@ namespace DemosCommonCode
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(WebUploaderForm));
             this.logTextBox = new System.Windows.Forms.TextBox();
             this.closeButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -53,7 +54,7 @@ namespace DemosCommonCode
             this.closeButton.Name = "closeButton";
             this.closeButton.Size = new System.Drawing.Size(75, 23);
             this.closeButton.TabIndex = 1;
-            this.closeButton.Text = "Close";
+            resources.ApplyResources(this.closeButton, "closeButton");
             this.closeButton.UseVisualStyleBackColor = true;
             this.closeButton.Click += new System.EventHandler(this.closeButton_Click);
             // 
@@ -66,7 +67,7 @@ namespace DemosCommonCode
             this.Controls.Add(this.logTextBox);
             this.Name = "WebUploaderForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Upload Data (WebClient)";
+            resources.ApplyResources(this, "$this");
             this.ResumeLayout(false);
             this.PerformLayout();
 

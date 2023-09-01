@@ -92,7 +92,7 @@ namespace PdfEditorDemo
         {
             PdfPage page = PdfVisualTool.GetPageFromImage(ImageViewer.Image);
             if (page == null)
-                DemosTools.ShowErrorMessage("Is not PDF page, try save document before make signature.");
+                DemosTools.ShowErrorMessage(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_IS_NOT_PDF_PAGE_TRY_SAVE_DOCUMENT_BEFORE_MAKE_SIGNATURE);
             PdfDocument document = page.Document;
 
             PdfInteractiveFormSignatureField signatureField = null;

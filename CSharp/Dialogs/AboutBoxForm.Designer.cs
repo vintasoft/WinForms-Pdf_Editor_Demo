@@ -40,7 +40,7 @@ namespace PdfEditorDemo
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(469, 374);
             this.Name = "AboutBoxForm";
-            this.Text = "About";
+            resources.ApplyResources(this, "$this");
             this.ResumeLayout(false);
 
         }

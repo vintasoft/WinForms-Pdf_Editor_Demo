@@ -28,6 +28,7 @@ namespace DemosCommonCode.Pdf
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PdfInteractiveFormSwitchableButtonPropertiesEditorControl));
             this.mainPanel = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.pdfAnnotationAppearancesEditorControl = new DemosCommonCode.Pdf.PdfAnnotationAppearancesEditorControl();
@@ -91,7 +92,7 @@ namespace DemosCommonCode.Pdf
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(39, 13);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Value";
+            resources.ApplyResources(this.label1, "label1");
             // 
             // PdfInteractiveFormSwitchableButtonPropertiesEditorControl
             // 

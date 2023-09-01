@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -117,4 +117,55 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Font Properties</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Text Highlight</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Character Spacing (Points)</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Horizontal Scale</value>
+  </data>
+  <data name="doubleStrikeoutcheckBox.Text" xml:space="preserve">
+    <value>Double strikeout</value>
+  </data>
+  <data name="superscriptCheckBox.Text" xml:space="preserve">
+    <value>Superscript</value>
+  </data>
+  <data name="subscriptCheckBox.Text" xml:space="preserve">
+    <value>Subscript</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Underline Color</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Font Color</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Font</value>
+  </data>
+  <data name="fontStyleListBox.Items3" xml:space="preserve">
+    <value>Bold Italic</value>
+  </data>
+  <data name="fontStyleListBox.Items2" xml:space="preserve">
+    <value>Italic</value>
+  </data>
+  <data name="fontStyleListBox.Items1" xml:space="preserve">
+    <value>Bold</value>
+  </data>
+  <data name="fontStyleListBox.Items" xml:space="preserve">
+    <value>Ordinary</value>
+  </data>
+  <data name="buttonCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </metadata>
 </root>

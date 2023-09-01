@@ -28,6 +28,7 @@ namespace DemosCommonCode.Imaging
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DocumentPasswordForm));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.passwordTextBox = new System.Windows.Forms.TextBox();
@@ -44,7 +45,7 @@ namespace DemosCommonCode.Imaging
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(262, 15);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Document is protected. Please enter a password.";
+            resources.ApplyResources(this.label1, "label1");
             // 
             // label2
             // 
@@ -53,7 +54,7 @@ namespace DemosCommonCode.Imaging
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(90, 15);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Enter password:";
+            resources.ApplyResources(this.label2, "label2");
             // 
             // passwordTextBox
             // 
@@ -81,7 +82,7 @@ namespace DemosCommonCode.Imaging
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(75, 26);
             this.buttonCancel.TabIndex = 4;
-            this.buttonCancel.Text = "Cancel";
+            resources.ApplyResources(this.buttonCancel, "buttonCancel");
             this.buttonCancel.UseVisualStyleBackColor = true;
             // 
             // label3
@@ -91,14 +92,14 @@ namespace DemosCommonCode.Imaging
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(92, 15);
             this.label3.TabIndex = 5;
-            this.label3.Text = "Authenticate as:";
+            resources.ApplyResources(this.label3, "label3");
             // 
             // authenticateTypeComboBox
             // 
             this.authenticateTypeComboBox.FormattingEnabled = true;
             this.authenticateTypeComboBox.Items.AddRange(new object[] {
-            "User",
-            "Owner"});
+            resources.GetString("authenticateTypeComboBox.Items"),
+            resources.GetString("authenticateTypeComboBox.Items1")});
             this.authenticateTypeComboBox.Location = new System.Drawing.Point(99, 35);
             this.authenticateTypeComboBox.Name = "authenticateTypeComboBox";
             this.authenticateTypeComboBox.Size = new System.Drawing.Size(192, 23);
@@ -123,7 +124,7 @@ namespace DemosCommonCode.Imaging
             this.Name = "DocumentPasswordForm";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Authentication";
+            resources.ApplyResources(this, "$this");
             this.ResumeLayout(false);
             this.PerformLayout();
 

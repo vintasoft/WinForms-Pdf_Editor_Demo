@@ -434,7 +434,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
         {
 #if !REMOVE_DOCCLEANUP_PLUGIN && !REMOVE_PDF_PLUGIN
             // create image segmentation settings dialog
-            using (PropertyGridForm dialog = new PropertyGridForm(MrcCompressionSettings.ImageSegmentation, "Image segmentation settings"))
+            using (PropertyGridForm dialog = new PropertyGridForm(MrcCompressionSettings.ImageSegmentation, PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_IMAGE_SEGMENTATION_SETTINGS))
             {
                 // show dialog
                 dialog.ShowDialog();

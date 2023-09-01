@@ -470,7 +470,7 @@ namespace DemosCommonCode.Pdf
             ToolStripMenuItem item = (ToolStripMenuItem)sender;
             PdfAnnotationAppearanceGenerator appearanceGenerator = _annotationAppearanceGeneratorController[item.OwnerItem];
             // create property grid form
-            using (PropertyGridForm properties = new PropertyGridForm(appearanceGenerator, "Apperanace Generator Properties"))
+            using (PropertyGridForm properties = new PropertyGridForm(appearanceGenerator, PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_APPERANACE_GENERATOR_PROPERTIES))
             {
                 // show dialog
                 properties.ShowDialog();
@@ -996,7 +996,7 @@ namespace DemosCommonCode.Pdf
                 GetFieldName(parentField, "Barcode{0}"),
                 generator.BarcodeSymbology,
                 GetNewFieldRectangle(barcodeToolStripSplitButton));
-            field.TextValue = "Barcode value";
+            field.TextValue = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_BARCODE_VALUE;
 
             AddAndBuildTerminalField(field, generator, parentField);
         }
@@ -1026,7 +1026,7 @@ namespace DemosCommonCode.Pdf
         private void AddAndBuildSignatureField(PdfInteractiveFormField parentField)
         {
             SignatureAppearanceGenerator generator = (SignatureAppearanceGenerator)GetAppearanceGenerator(signatureToolStripSplitButton);
-            generator.SignatureAppearance.Text = "Empty Signatrue Field";
+            generator.SignatureAppearance.Text = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_EMPTY_SIGNATRUE_FIELD;
 
             PdfInteractiveFormSignatureField field = new PdfInteractiveFormSignatureField(
                 CurrentDocument,

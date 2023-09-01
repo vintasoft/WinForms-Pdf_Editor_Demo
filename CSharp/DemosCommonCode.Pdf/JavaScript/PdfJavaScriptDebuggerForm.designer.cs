@@ -126,7 +126,7 @@ namespace DemosCommonCode.Pdf.JavaScript
             this.topMostCheckBox.Name = "topMostCheckBox";
             this.topMostCheckBox.Size = new System.Drawing.Size(68, 17);
             this.topMostCheckBox.TabIndex = 6;
-            this.topMostCheckBox.Text = "TopMost";
+            resources.ApplyResources(this.topMostCheckBox, "topMostCheckBox");
             this.topMostCheckBox.UseVisualStyleBackColor = true;
             this.topMostCheckBox.CheckedChanged += new System.EventHandler(this.topMostCheckBox_CheckedChanged);
             // 
@@ -141,7 +141,7 @@ namespace DemosCommonCode.Pdf.JavaScript
             this.groupBox1.Size = new System.Drawing.Size(362, 141);
             this.groupBox1.TabIndex = 8;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Result";
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             // 
             // groupBox2
             // 
@@ -156,7 +156,7 @@ namespace DemosCommonCode.Pdf.JavaScript
             this.groupBox2.Size = new System.Drawing.Size(372, 240);
             this.groupBox2.TabIndex = 9;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Evaluate Expression";
+            resources.ApplyResources(this.groupBox2, "groupBox2");
             // 
             // deleteButton
             // 
@@ -188,7 +188,7 @@ namespace DemosCommonCode.Pdf.JavaScript
             this.clearConsoleButton.Name = "clearConsoleButton";
             this.clearConsoleButton.Size = new System.Drawing.Size(89, 23);
             this.clearConsoleButton.TabIndex = 10;
-            this.clearConsoleButton.Text = "Clear Console";
+            resources.ApplyResources(this.clearConsoleButton, "clearConsoleButton");
             this.clearConsoleButton.UseVisualStyleBackColor = true;
             this.clearConsoleButton.Click += new System.EventHandler(this.clearConsoleButton_Click);
             // 
@@ -198,7 +198,7 @@ namespace DemosCommonCode.Pdf.JavaScript
             this.clearEngineLogButton.Name = "clearEngineLogButton";
             this.clearEngineLogButton.Size = new System.Drawing.Size(89, 23);
             this.clearEngineLogButton.TabIndex = 11;
-            this.clearEngineLogButton.Text = "Clear Engine Log";
+            resources.ApplyResources(this.clearEngineLogButton, "clearEngineLogButton");
             this.clearEngineLogButton.UseVisualStyleBackColor = true;
             this.clearEngineLogButton.Click += new System.EventHandler(this.clearEngineLog_Click);
             // 
@@ -212,7 +212,7 @@ namespace DemosCommonCode.Pdf.JavaScript
             this.groupBox3.Size = new System.Drawing.Size(376, 155);
             this.groupBox3.TabIndex = 12;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Console Output";
+            resources.ApplyResources(this.groupBox3, "groupBox3");
             // 
             // groupBox4
             // 
@@ -225,7 +225,7 @@ namespace DemosCommonCode.Pdf.JavaScript
             this.groupBox4.Size = new System.Drawing.Size(376, 126);
             this.groupBox4.TabIndex = 13;
             this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "JavaScript Engine Log";
+            resources.ApplyResources(this.groupBox4, "groupBox4");
             // 
             // contextMenuStrip1
             // 
@@ -240,7 +240,7 @@ namespace DemosCommonCode.Pdf.JavaScript
             this.debugModecheckBox.Name = "debugModecheckBox";
             this.debugModecheckBox.Size = new System.Drawing.Size(88, 17);
             this.debugModecheckBox.TabIndex = 14;
-            this.debugModecheckBox.Text = "Debug Mode";
+            resources.ApplyResources(this.debugModecheckBox, "debugModecheckBox");
             this.debugModecheckBox.UseVisualStyleBackColor = true;
             this.debugModecheckBox.CheckedChanged += new System.EventHandler(this.debugModecheckBox_CheckedChanged);
             // 
@@ -257,7 +257,7 @@ namespace DemosCommonCode.Pdf.JavaScript
             this.Controls.Add(this.topMostCheckBox);
             this.Name = "PdfJavaScriptDebuggerForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "PDF JavaScript Interpreter Debugger";
+            resources.ApplyResources(this, "$this");
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);

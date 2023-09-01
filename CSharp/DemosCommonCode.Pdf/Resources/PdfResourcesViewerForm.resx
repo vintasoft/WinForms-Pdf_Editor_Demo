@@ -129,4 +129,46 @@
   <metadata name="openImageFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>394, 17</value>
   </metadata>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Resources Viewer</value>
+  </data>
+  <data name="linearToolStripMenuItem.Text" xml:space="preserve">
+    <value>Linear</value>
+  </data>
+  <data name="hierarchicalToolStripMenuItem.Text" xml:space="preserve">
+    <value>Hierarchical</value>
+  </data>
+  <data name="viewToolStripMenuItem.Text" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="saveAsImageToolStripMenuItem.Text" xml:space="preserve">
+    <value>Save As Image...</value>
+  </data>
+  <data name="saveAsBinaryToolStripMenuItem.Text" xml:space="preserve">
+    <value>Save As Binary Data...</value>
+  </data>
+  <data name="createResourceFromSelectedImageToolStripMenuItem.Text" xml:space="preserve">
+    <value>Create from Selected Image</value>
+  </data>
+  <data name="createResourceFromSelectedPageToolStripMenuItem.Text" xml:space="preserve">
+    <value>Create from Selected Page</value>
+  </data>
+  <data name="createResourceFromImageToolStripMenuItem.Text" xml:space="preserve">
+    <value>Create from Image...</value>
+  </data>
+  <data name="addFromDocumentToolStripMenuItem.Text" xml:space="preserve">
+    <value>Add from Document...</value>
+  </data>
+  <data name="resourcesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Resources</value>
+  </data>
+  <data name="defaultCompressionParamsButton.Text" xml:space="preserve">
+    <value>Default Compression Params...</value>
+  </data>
+  <data name="cancelButton1.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </metadata>
 </root>

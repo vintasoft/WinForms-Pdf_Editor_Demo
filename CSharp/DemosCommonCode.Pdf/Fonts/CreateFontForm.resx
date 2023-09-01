@@ -123,4 +123,40 @@
   <metadata name="openPdfDocumentDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>169, 17</value>
   </metadata>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Create new PDF font</value>
+  </data>
+  <data name="fromPDFDocumentRadioButton.Text" xml:space="preserve">
+    <value>PDF Document...</value>
+  </data>
+  <data name="fromTTFRadioButton.Text" xml:space="preserve">
+    <value>TrueType Font File...</value>
+  </data>
+  <data name="systemFontRadioButton.Text" xml:space="preserve">
+    <value>System Fonts (TrueType)</value>
+  </data>
+  <data name="standardFontRadioButton.Text" xml:space="preserve">
+    <value>Standard Fonts</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Fonts Source</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Source Font</value>
+  </data>
+  <data name="fontTypeComboBox.Items1" xml:space="preserve">
+    <value>CID Font (Composite)</value>
+  </data>
+  <data name="fontTypeComboBox.Items" xml:space="preserve">
+    <value>Simple Font</value>
+  </data>
+  <data name="fontTypeGroupBox.Text" xml:space="preserve">
+    <value>Type of new Font</value>
+  </data>
+  <data name="buttonCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </metadata>
 </root>

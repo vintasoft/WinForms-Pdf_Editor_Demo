@@ -117,4 +117,49 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Create Digital Signature</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Hash Algorithm Name</value>
+  </data>
+  <data name="timestampServerSettingsButton.Text" xml:space="preserve">
+    <value>Timestamp Server Settings...</value>
+  </data>
+  <data name="addTimestampCheckBox.Text" xml:space="preserve">
+    <value>Add Embedded Timestamp</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Signature Type</value>
+  </data>
+  <data name="certificateChainCheckBox.Text" xml:space="preserve">
+    <value>Add Certificate Chain</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Contact Info</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Reason</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Signer Name</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="buttonCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="signatureAppearanceButton.Text" xml:space="preserve">
+    <value>Signature Appearance...</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Certificate</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </metadata>
 </root>

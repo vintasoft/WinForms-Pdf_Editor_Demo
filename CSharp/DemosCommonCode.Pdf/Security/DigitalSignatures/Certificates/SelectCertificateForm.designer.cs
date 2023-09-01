@@ -28,6 +28,7 @@ namespace DemosCommonCode.Pdf.Security
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SelectCertificateForm));
             this.certificatesListBox = new System.Windows.Forms.ListBox();
             this.addButton = new System.Windows.Forms.Button();
             this.buttonCancel = new System.Windows.Forms.Button();
@@ -57,7 +58,7 @@ namespace DemosCommonCode.Pdf.Security
             this.addButton.Name = "addButton";
             this.addButton.Size = new System.Drawing.Size(98, 23);
             this.addButton.TabIndex = 1;
-            this.addButton.Text = "Add From File...";
+            resources.ApplyResources(this.addButton, "addButton");
             this.addButton.UseVisualStyleBackColor = true;
             this.addButton.Click += new System.EventHandler(this.addButton_Click);
             // 
@@ -69,7 +70,7 @@ namespace DemosCommonCode.Pdf.Security
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(75, 23);
             this.buttonCancel.TabIndex = 2;
-            this.buttonCancel.Text = "Cancel";
+            resources.ApplyResources(this.buttonCancel, "buttonCancel");
             this.buttonCancel.UseVisualStyleBackColor = true;
             this.buttonCancel.Click += new System.EventHandler(this.buttonCancel_Click);
             // 
@@ -91,7 +92,7 @@ namespace DemosCommonCode.Pdf.Security
             this.certDitailsButton.Name = "certDitailsButton";
             this.certDitailsButton.Size = new System.Drawing.Size(98, 23);
             this.certDitailsButton.TabIndex = 4;
-            this.certDitailsButton.Text = "Details...";
+            resources.ApplyResources(this.certDitailsButton, "certDitailsButton");
             this.certDitailsButton.UseVisualStyleBackColor = true;
             this.certDitailsButton.Click += new System.EventHandler(this.certDitailsButton_Click);
             // 
@@ -110,7 +111,7 @@ namespace DemosCommonCode.Pdf.Security
             this.MinimizeBox = false;
             this.Name = "SelectCertificateForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Select Certificate";
+            resources.ApplyResources(this, "$this");
             this.ResumeLayout(false);
 
         }

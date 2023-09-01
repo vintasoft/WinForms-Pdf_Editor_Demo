@@ -29,6 +29,7 @@ namespace DemosCommonCode.Office
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(OpenXmlTextPropertiesForm));
             this.buttonOk = new System.Windows.Forms.Button();
             this.buttonCancel = new System.Windows.Forms.Button();
             this.fontListBox = new System.Windows.Forms.ListBox();
@@ -73,7 +74,7 @@ namespace DemosCommonCode.Office
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(75, 23);
             this.buttonCancel.TabIndex = 1;
-            this.buttonCancel.Text = "Cancel";
+            resources.ApplyResources(this.buttonCancel, "buttonCancel");
             this.buttonCancel.UseVisualStyleBackColor = true;
             this.buttonCancel.Click += new System.EventHandler(this.buttonCancel_Click);
             // 
@@ -92,10 +93,10 @@ namespace DemosCommonCode.Office
             this.fontStyleListBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.fontStyleListBox.FormattingEnabled = true;
             this.fontStyleListBox.Items.AddRange(new object[] {
-            "Ordinary",
-            "Bold",
-            "Italic",
-            "Bold Italic"});
+            resources.GetString("fontStyleListBox.Items"),
+            resources.GetString("fontStyleListBox.Items1"),
+            resources.GetString("fontStyleListBox.Items2"),
+            resources.GetString("fontStyleListBox.Items3")});
             this.fontStyleListBox.Location = new System.Drawing.Point(230, 51);
             this.fontStyleListBox.Name = "fontStyleListBox";
             this.fontStyleListBox.Size = new System.Drawing.Size(93, 69);
@@ -133,7 +134,7 @@ namespace DemosCommonCode.Office
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(28, 13);
             this.label1.TabIndex = 5;
-            this.label1.Text = "Font";
+            resources.ApplyResources(this.label1, "label1");
             // 
             // label2
             // 
@@ -143,7 +144,7 @@ namespace DemosCommonCode.Office
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(27, 13);
             this.label2.TabIndex = 6;
-            this.label2.Text = "Size";
+            resources.ApplyResources(this.label2, "label2");
             // 
             // label3
             // 
@@ -153,7 +154,7 @@ namespace DemosCommonCode.Office
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(55, 13);
             this.label3.TabIndex = 8;
-            this.label3.Text = "Font Color";
+            resources.ApplyResources(this.label3, "label3");
             // 
             // label4
             // 
@@ -183,7 +184,7 @@ namespace DemosCommonCode.Office
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(79, 13);
             this.label5.TabIndex = 11;
-            this.label5.Text = "Underline Color";
+            resources.ApplyResources(this.label5, "label5");
             // 
             // subscriptCheckBox
             // 
@@ -193,7 +194,7 @@ namespace DemosCommonCode.Office
             this.subscriptCheckBox.Name = "subscriptCheckBox";
             this.subscriptCheckBox.Size = new System.Drawing.Size(70, 17);
             this.subscriptCheckBox.TabIndex = 13;
-            this.subscriptCheckBox.Text = "Subscript";
+            resources.ApplyResources(this.subscriptCheckBox, "subscriptCheckBox");
             this.subscriptCheckBox.UseVisualStyleBackColor = true;
             this.subscriptCheckBox.CheckedChanged += new System.EventHandler(this.subscriptCheckBox_CheckedChanged);
             // 
@@ -205,7 +206,7 @@ namespace DemosCommonCode.Office
             this.superscriptCheckBox.Name = "superscriptCheckBox";
             this.superscriptCheckBox.Size = new System.Drawing.Size(79, 17);
             this.superscriptCheckBox.TabIndex = 14;
-            this.superscriptCheckBox.Text = "Superscript";
+            resources.ApplyResources(this.superscriptCheckBox, "superscriptCheckBox");
             this.superscriptCheckBox.UseVisualStyleBackColor = true;
             this.superscriptCheckBox.CheckedChanged += new System.EventHandler(this.superscriptCheckBox_CheckedChanged);
             // 
@@ -229,7 +230,7 @@ namespace DemosCommonCode.Office
             this.doubleStrikeoutcheckBox.Name = "doubleStrikeoutcheckBox";
             this.doubleStrikeoutcheckBox.Size = new System.Drawing.Size(103, 17);
             this.doubleStrikeoutcheckBox.TabIndex = 16;
-            this.doubleStrikeoutcheckBox.Text = "Double strikeout";
+            resources.ApplyResources(this.doubleStrikeoutcheckBox, "doubleStrikeoutcheckBox");
             this.doubleStrikeoutcheckBox.UseVisualStyleBackColor = true;
             this.doubleStrikeoutcheckBox.CheckedChanged += new System.EventHandler(this.doubleStrikeoutcheckBox_CheckedChanged);
             // 
@@ -257,7 +258,7 @@ namespace DemosCommonCode.Office
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(84, 13);
             this.label6.TabIndex = 17;
-            this.label6.Text = "Horizontal Scale";
+            resources.ApplyResources(this.label6, "label6");
             // 
             // characterSpacingComboBox
             // 
@@ -282,7 +283,7 @@ namespace DemosCommonCode.Office
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(133, 13);
             this.label7.TabIndex = 19;
-            this.label7.Text = "Character Spacing (Points)";
+            resources.ApplyResources(this.label7, "label7");
             // 
             // underlineColorPanel
             // 
@@ -324,7 +325,7 @@ namespace DemosCommonCode.Office
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(72, 13);
             this.label8.TabIndex = 21;
-            this.label8.Text = "Text Highlight";
+            resources.ApplyResources(this.label8, "label8");
             // 
             // OpenXmlTextPropertiesForm
             // 
@@ -361,7 +362,7 @@ namespace DemosCommonCode.Office
             this.Name = "OpenXmlTextPropertiesForm";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Font Properties";
+            resources.ApplyResources(this, "$this");
             this.TopMost = true;
             this.ResumeLayout(false);
             this.PerformLayout();

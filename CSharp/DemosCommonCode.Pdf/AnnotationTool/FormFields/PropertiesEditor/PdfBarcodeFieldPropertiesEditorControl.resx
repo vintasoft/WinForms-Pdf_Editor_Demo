@@ -117,4 +117,31 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="calculateTabPage.Text" xml:space="preserve">
+    <value>Calculate Action</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Error Correction Coefficient</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Default Value</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Module Width</value>
+  </data>
+  <data name="valueTabPage.Text" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Data Preparation Steps</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Barcode Symbology</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </metadata>
 </root>

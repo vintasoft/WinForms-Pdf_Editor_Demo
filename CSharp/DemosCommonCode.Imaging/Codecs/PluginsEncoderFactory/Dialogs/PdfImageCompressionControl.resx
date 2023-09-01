@@ -57,4 +57,73 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="mrcFrontTabPage.Text" xml:space="preserve">
+    <value>Front</value>
+  </data>
+  <data name="mrcMaskTabPage.Text" xml:space="preserve">
+    <value>Mask</value>
+  </data>
+  <data name="mrcImagesTabPage.Text" xml:space="preserve">
+    <value>Images</value>
+  </data>
+  <data name="mrcBackgroundTabPage.Text" xml:space="preserve">
+    <value>Background</value>
+  </data>
+  <data name="mrcUseFrontCheckBox.Text" xml:space="preserve">
+    <value>Use front layer (text color layer)</value>
+  </data>
+  <data name="mrcHiQualityMaskCheckBox.Text" xml:space="preserve">
+    <value>High quality mask</value>
+  </data>
+  <data name="mrcUseBackgroundLayerCheckBox.Text" xml:space="preserve">
+    <value>Use background layer</value>
+  </data>
+  <data name="mrcImageSegmentationCheckBox.Text" xml:space="preserve">
+    <value>Detect images, place images to</value>
+  </data>
+  <data name="mrcNotUseImagesLayerRadioButton.Text" xml:space="preserve">
+    <value>background layer</value>
+  </data>
+  <data name="mrcUseImagesLayerRadioButton.Text" xml:space="preserve">
+    <value>images layer (each image as resource)</value>
+  </data>
+  <data name="mrcHiQualityFrontLayerCheckBox.Text" xml:space="preserve">
+    <value>High quality front layer</value>
+  </data>
+  <data name="mrcImageSegmentationSettingsButton.Text" xml:space="preserve">
+    <value>Settings...</value>
+  </data>
+  <data name="mrcCommonTabPage.Text" xml:space="preserve">
+    <value>Common</value>
+  </data>
+  <data name="mrcCompressionSettingsGroupBox.Text" xml:space="preserve">
+    <value>MRC layers compression settings</value>
+  </data>
+  <data name="compressionImageRadioButton.Text" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="mrcCompressionProfileComboBox.Items6" xml:space="preserve">
+    <value>Document, best compression</value>
+  </data>
+  <data name="mrcCompressionProfileComboBox.Items5" xml:space="preserve">
+    <value>Document, optimal</value>
+  </data>
+  <data name="mrcCompressionProfileComboBox.Items4" xml:space="preserve">
+    <value>Document, best quality</value>
+  </data>
+  <data name="mrcCompressionProfileComboBox.Items3" xml:space="preserve">
+    <value>Document with images, best compression</value>
+  </data>
+  <data name="mrcCompressionProfileComboBox.Items2" xml:space="preserve">
+    <value>Document with images, optimal</value>
+  </data>
+  <data name="mrcCompressionProfileComboBox.Items1" xml:space="preserve">
+    <value>Document with images, best quality</value>
+  </data>
+  <data name="mrcCompressionProfileComboBox.Items" xml:space="preserve">
+    <value>Custom</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </metadata>
 </root>

@@ -76,8 +76,8 @@ namespace DemosCommonCode.Pdf
             PdfSubmitFormAction submitFormAction = action as PdfSubmitFormAction;
             if (submitFormAction != null)
             {
-                string message = string.Format("Form submit: document must connect to '{0}'.\n Allow?", submitFormAction.Url);
-                if (MessageBox.Show(message, "Submit action", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) != DialogResult.Yes)
+                string message = string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_FORM_SUBMIT_DOCUMENT_MUST_CONNECT_TO_ARG0RN_ALLOW, submitFormAction.Url);
+                if (MessageBox.Show(message, PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SUBMIT_ACTION, MessageBoxButtons.YesNo, MessageBoxIcon.Warning) != DialogResult.Yes)
                     return false;
 
                 // get fields to submit
@@ -86,8 +86,8 @@ namespace DemosCommonCode.Pdf
                 if (fields.Length == 0)
                 {
                     string errorMessage = string.Format(
-                        "The interactive form fields can not be submitted to '{0}', " +
-                        "because the document does not contain the interactive form fields",
+                        PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_THE_INTERACTIVE_FORM_FIELDS_CAN_NOT_BE_SUBMITTED_TO_ARG0 +
+                        PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_BECAUSE_THE_DOCUMENT_DOES_NOT_CONTAIN_THE_INTERACTIVE_FORM_FIELDS,
                         submitFormAction.Url);
                     DemosTools.ShowErrorMessage(errorMessage);
                     return false;
@@ -109,7 +109,7 @@ namespace DemosCommonCode.Pdf
                             }
                         }
 
-                        DemosTools.ShowErrorMessage(string.Format("Field '{0}' is required but not filled.", field.FullyQualifiedName));
+                        DemosTools.ShowErrorMessage(string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_FIELD_ARG0_IS_REQUIRED_BUT_NOT_FILLED, field.FullyQualifiedName));
                         return false;
                     }
                 }
@@ -137,11 +137,11 @@ namespace DemosCommonCode.Pdf
                             break;
 
                         case PdfInteractiveFormFieldSubmitFormat.FDF:
-                            DemosTools.ShowErrorMessage("FDF submit format is not supported now.");
+                            DemosTools.ShowErrorMessage(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_FDF_SUBMIT_FORMAT_IS_NOT_SUPPORTED_NOW);
                             return false;
 
                         case PdfInteractiveFormFieldSubmitFormat.HTML:
-                            DemosTools.ShowErrorMessage("HTML submit format is not supported now.");
+                            DemosTools.ShowErrorMessage(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_HTML_SUBMIT_FORMAT_IS_NOT_SUPPORTED_NOW);
                             return false;
                     }
 

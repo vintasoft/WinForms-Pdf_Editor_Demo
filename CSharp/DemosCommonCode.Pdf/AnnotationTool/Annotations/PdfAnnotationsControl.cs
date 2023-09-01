@@ -316,13 +316,13 @@ namespace DemosCommonCode.Pdf
 
                 // get message for message box
                 string message =
-                    "Open file '{0}' ({1}) using the default application, or save file to a disk?\n" +
-                    "Press 'Yes' to open file using the default application.\n" +
-                    "Press 'No' to save file to a disk.\n" +
-                    "Press 'Cancel' to cancel this action.";
+                    PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_OPEN_FILE_ARG0_ARG1_USING_THE_DEFAULT_APPLICATION_OR_SAVE_FILE_TO_A_DISKRN +
+                    PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_PRESS_YES_TO_OPEN_FILE_USING_THE_DEFAULT_APPLICATIONRN +
+                    PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_PRESS_NO_TO_SAVE_FILE_TO_A_DISKRN +
+                    PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_PRESS_CANCEL_TO_CANCEL_THIS_ACTION;
                 // show message box
                 DialogResult result = MessageBox.Show(string.Format(message, filename, description),
-                    "Embedded File", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question);
+                    PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_EMBEDDED_FILE, MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question);
 
                 // if dialog result is YES
                 if (result == DialogResult.Yes)

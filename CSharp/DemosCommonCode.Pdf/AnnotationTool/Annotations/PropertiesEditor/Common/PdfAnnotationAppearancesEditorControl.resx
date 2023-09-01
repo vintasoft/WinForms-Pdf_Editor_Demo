@@ -117,4 +117,19 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Appearance Type</value>
+  </data>
+  <data name="changeAppearanceButton.Text" xml:space="preserve">
+    <value>Change...</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Appearance State Name</value>
+  </data>
+  <data name="removeAppearanceButton.Text" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </metadata>
 </root>

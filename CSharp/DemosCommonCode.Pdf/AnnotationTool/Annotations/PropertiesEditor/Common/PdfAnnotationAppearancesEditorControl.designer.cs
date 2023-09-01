@@ -28,6 +28,7 @@ namespace DemosCommonCode.Pdf
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PdfAnnotationAppearancesEditorControl));
             this.mainPanel = new System.Windows.Forms.Panel();
             this.removeAppearanceButton = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
@@ -62,7 +63,7 @@ namespace DemosCommonCode.Pdf
             this.removeAppearanceButton.Name = "removeAppearanceButton";
             this.removeAppearanceButton.Size = new System.Drawing.Size(75, 23);
             this.removeAppearanceButton.TabIndex = 6;
-            this.removeAppearanceButton.Text = "Remove";
+            resources.ApplyResources(this.removeAppearanceButton, "removeAppearanceButton");
             this.removeAppearanceButton.UseVisualStyleBackColor = true;
             this.removeAppearanceButton.Click += new System.EventHandler(this.removeAppearanceButton_Click);
             // 
@@ -73,7 +74,7 @@ namespace DemosCommonCode.Pdf
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(124, 13);
             this.label2.TabIndex = 5;
-            this.label2.Text = "Appearance State Name";
+            resources.ApplyResources(this.label2, "label2");
             // 
             // appearanceStateNameComboBox
             // 
@@ -94,7 +95,7 @@ namespace DemosCommonCode.Pdf
             this.changeAppearanceButton.Name = "changeAppearanceButton";
             this.changeAppearanceButton.Size = new System.Drawing.Size(75, 23);
             this.changeAppearanceButton.TabIndex = 3;
-            this.changeAppearanceButton.Text = "Change...";
+            resources.ApplyResources(this.changeAppearanceButton, "changeAppearanceButton");
             this.changeAppearanceButton.UseVisualStyleBackColor = true;
             this.changeAppearanceButton.Click += new System.EventHandler(this.changeAppearanceButton_Click);
             // 
@@ -123,7 +124,7 @@ namespace DemosCommonCode.Pdf
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(92, 13);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Appearance Type";
+            resources.ApplyResources(this.label1, "label1");
             // 
             // appearanceTypeComboBox
             // 

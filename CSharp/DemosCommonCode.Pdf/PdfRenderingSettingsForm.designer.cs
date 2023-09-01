@@ -28,6 +28,7 @@ namespace DemosCommonCode.Pdf
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PdfRenderingSettingsForm));
             this.label2 = new System.Windows.Forms.Label();
             this.verticalResolutionNumericUpDown = new System.Windows.Forms.NumericUpDown();
             this.horizontalResolutionNumericUpDown = new System.Windows.Forms.NumericUpDown();
@@ -118,7 +119,7 @@ namespace DemosCommonCode.Pdf
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(95, 15);
             this.label5.TabIndex = 17;
-            this.label5.Text = "Rendering Mode";
+            resources.ApplyResources(this.label5, "label5");
             // 
             // renderingMode
             // 
@@ -136,7 +137,7 @@ namespace DemosCommonCode.Pdf
             this.drawAnnotationsCheckBox.Name = "drawAnnotationsCheckBox";
             this.drawAnnotationsCheckBox.Size = new System.Drawing.Size(121, 19);
             this.drawAnnotationsCheckBox.TabIndex = 21;
-            this.drawAnnotationsCheckBox.Text = "Draw Annotations";
+            resources.ApplyResources(this.drawAnnotationsCheckBox, "drawAnnotationsCheckBox");
             this.drawAnnotationsCheckBox.UseVisualStyleBackColor = true;
             // 
             // cacheResourcesCheckBox
@@ -146,7 +147,7 @@ namespace DemosCommonCode.Pdf
             this.cacheResourcesCheckBox.Name = "cacheResourcesCheckBox";
             this.cacheResourcesCheckBox.Size = new System.Drawing.Size(115, 19);
             this.cacheResourcesCheckBox.TabIndex = 22;
-            this.cacheResourcesCheckBox.Text = "Cache Resources";
+            resources.ApplyResources(this.cacheResourcesCheckBox, "cacheResourcesCheckBox");
             this.cacheResourcesCheckBox.UseVisualStyleBackColor = true;
             // 
             // cropPageAtCropBoxCheckBox
@@ -156,7 +157,7 @@ namespace DemosCommonCode.Pdf
             this.cropPageAtCropBoxCheckBox.Name = "cropPageAtCropBoxCheckBox";
             this.cropPageAtCropBoxCheckBox.Size = new System.Drawing.Size(143, 19);
             this.cropPageAtCropBoxCheckBox.TabIndex = 23;
-            this.cropPageAtCropBoxCheckBox.Text = "Crop Page at CropBox";
+            resources.ApplyResources(this.cropPageAtCropBoxCheckBox, "cropPageAtCropBoxCheckBox");
             this.cropPageAtCropBoxCheckBox.UseVisualStyleBackColor = true;
             // 
             // defaultDpiCheckBox
@@ -166,7 +167,7 @@ namespace DemosCommonCode.Pdf
             this.defaultDpiCheckBox.Name = "defaultDpiCheckBox";
             this.defaultDpiCheckBox.Size = new System.Drawing.Size(64, 19);
             this.defaultDpiCheckBox.TabIndex = 24;
-            this.defaultDpiCheckBox.Text = "Default";
+            resources.ApplyResources(this.defaultDpiCheckBox, "defaultDpiCheckBox");
             this.defaultDpiCheckBox.UseVisualStyleBackColor = true;
             this.defaultDpiCheckBox.CheckedChanged += new System.EventHandler(this.defaultDpiCheckBox_CheckedChanged);
             // 
@@ -182,7 +183,7 @@ namespace DemosCommonCode.Pdf
             this.resolutionGroupBox.Size = new System.Drawing.Size(234, 50);
             this.resolutionGroupBox.TabIndex = 25;
             this.resolutionGroupBox.TabStop = false;
-            this.resolutionGroupBox.Text = "Resolution";
+            resources.ApplyResources(this.resolutionGroupBox, "resolutionGroupBox");
             // 
             // label1
             // 
@@ -200,7 +201,7 @@ namespace DemosCommonCode.Pdf
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(87, 23);
             this.buttonCancel.TabIndex = 26;
-            this.buttonCancel.Text = "Cancel";
+            resources.ApplyResources(this.buttonCancel, "buttonCancel");
             this.buttonCancel.UseVisualStyleBackColor = true;
             this.buttonCancel.Click += new System.EventHandler(this.cancelButton_Click);
             // 
@@ -211,7 +212,7 @@ namespace DemosCommonCode.Pdf
             this.useRotatePropertyCheckBox.Name = "useRotatePropertyCheckBox";
             this.useRotatePropertyCheckBox.Size = new System.Drawing.Size(130, 19);
             this.useRotatePropertyCheckBox.TabIndex = 27;
-            this.useRotatePropertyCheckBox.Text = "Use Rotate property";
+            resources.ApplyResources(this.useRotatePropertyCheckBox, "useRotatePropertyCheckBox");
             this.useRotatePropertyCheckBox.UseVisualStyleBackColor = true;
             // 
             // PdfRenderingSettingsForm
@@ -235,7 +236,7 @@ namespace DemosCommonCode.Pdf
             this.Name = "PdfRenderingSettingsForm";
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "PDF Rendering Settings";
+            resources.ApplyResources(this, "$this");
             ((System.ComponentModel.ISupportInitialize)(this.verticalResolutionNumericUpDown)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.horizontalResolutionNumericUpDown)).EndInit();
             this.resolutionGroupBox.ResumeLayout(false);

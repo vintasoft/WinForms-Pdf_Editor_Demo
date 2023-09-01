@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -167,5 +167,20 @@
   </metadata>
   <metadata name="textPropertiesVisualEditorToolStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 56</value>
+  </metadata>
+  <data name="decreaseContentScaleButton.ToolTipText" xml:space="preserve">
+    <value>Decrease content scale</value>
+  </data>
+  <data name="decreaseContentScaleButton.Text" xml:space="preserve">
+    <value>toolStripButton3</value>
+  </data>
+  <data name="increaseContentScaleButton.ToolTipText" xml:space="preserve">
+    <value>Increase content scale</value>
+  </data>
+  <data name="chartsButton.Text" xml:space="preserve">
+    <value>Charts...</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
   </metadata>
 </root>

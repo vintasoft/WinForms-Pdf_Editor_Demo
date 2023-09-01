@@ -117,4 +117,76 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Content Renderer Settings</value>
+  </data>
+  <data name="drawTextCheckBox.Text" xml:space="preserve">
+    <value>Draw Text</value>
+  </data>
+  <data name="drawInvisibleTextCheckBox.Text" xml:space="preserve">
+    <value>Draw Invisible Text</value>
+  </data>
+  <data name="buttonCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="drawFormsCheckBox.Text" xml:space="preserve">
+    <value>Draw Forms</value>
+  </data>
+  <data name="drawAnnotationsCheckBox.Text" xml:space="preserve">
+    <value>Draw Annotations</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>Forms &amp;&amp; Annotations</value>
+  </data>
+  <data name="drawImageResourcesCheckBox.Text" xml:space="preserve">
+    <value>Draw Images</value>
+  </data>
+  <data name="drawInlineImagesCheckBox.Text" xml:space="preserve">
+    <value>Draw Inline Images</value>
+  </data>
+  <data name="convertToGrayscaleCheckBox.Text" xml:space="preserve">
+    <value>Convert to Grayscale</value>
+  </data>
+  <data name="autoColorsCheckBox.Text" xml:space="preserve">
+    <value>Auto Colors</value>
+  </data>
+  <data name="autoLevelsCheckBox.Text" xml:space="preserve">
+    <value>Auto Levels</value>
+  </data>
+  <data name="autoContrastCheckBox.Text" xml:space="preserve">
+    <value>Auto Contrast</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Processing</value>
+  </data>
+  <data name="imagesGroupBox.Text" xml:space="preserve">
+    <value>Images</value>
+  </data>
+  <data name="useClipPathsCheckBox.Text" xml:space="preserve">
+    <value>Use Clip Paths</value>
+  </data>
+  <data name="fillAreaUseShadigPatternsCheckBox.Text" xml:space="preserve">
+    <value>Fill Area using Shading Patterns</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Paths &amp;&amp; Lines</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Lines Weight (%)</value>
+  </data>
+  <data name="drawPathsCheckBox.Text" xml:space="preserve">
+    <value>Draw Paths</value>
+  </data>
+  <data name="useShadingPatternsCheckBox.Text" xml:space="preserve">
+    <value>Fill Paths using Shading Patterns</value>
+  </data>
+  <data name="useTilingPatternsCheckBox.Text" xml:space="preserve">
+    <value>Fill Paths using Tiling Patterns</value>
+  </data>
+  <data name="fillPathsCheckBox.Text" xml:space="preserve">
+    <value>Fill Paths</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </metadata>
 </root>
