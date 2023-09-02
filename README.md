@@ -33,6 +33,7 @@ This C# project uses <a href="https://www.vintasoft.com/vsimaging-dotnet-index.h
 * Pack PDF document.
 * Save changes in PDF document.
 * Convert PDF document to a TIFF file.
+* Application contains German localization as an example how to translate application UI to any language.
 
 
 ## Screenshot
