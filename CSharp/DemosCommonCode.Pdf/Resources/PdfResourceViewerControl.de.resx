@@ -117,49 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Digitale Signatur erstellen</value>
-  </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>Name des Hash-Algorithmus</value>
-  </data>
-  <data name="timestampServerSettingsButton.Text" xml:space="preserve">
-    <value>Zeitstempel-Servereinstellungen...</value>
-  </data>
-  <data name="addTimestampCheckBox.Text" xml:space="preserve">
-    <value>Eingebetteten Zeitstempel hinzufügen</value>
-  </data>
-  <data name="label8.Text" xml:space="preserve">
-    <value>Signaturtyp</value>
-  </data>
-  <data name="certificateChainCheckBox.Text" xml:space="preserve">
-    <value>Zertifikatkette hinzufügen</value>
-  </data>
-  <data name="label7.Text" xml:space="preserve">
-    <value>Kontaktinformationen</value>
-  </data>
-  <data name="label6.Text" xml:space="preserve">
-    <value>Standort</value>
-  </data>
-  <data name="label5.Text" xml:space="preserve">
-    <value>Grund</value>
-  </data>
-  <data name="label4.Text" xml:space="preserve">
-    <value>Name des Unterzeichners</value>
-  </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>Name</value>
-  </data>
-  <data name="buttonCancel.Text" xml:space="preserve">
-    <value>Abbrechen</value>
-  </data>
-  <data name="signatureAppearanceButton.Text" xml:space="preserve">
-    <value>Signaturdarstellung...</value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Zertifikat</value>
-  </data>
-  <data name="certificateTextBox.Text" xml:space="preserve">
-    <value>(Klicken Sie, um das Zertifikat auszuwählen)</value>
+  <data name="resourceTextBox.Text" xml:space="preserve">
+    <value>Daten</value>
   </data>
 </root>

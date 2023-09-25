@@ -122,7 +122,7 @@ namespace DemosCommonCode.Annotation
             this.textBox.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.textBox.Size = new System.Drawing.Size(379, 92);
             this.textBox.TabIndex = 18;
-            this.textBox.Text = "<Text>";
+            resources.ApplyResources(this.textBox, "textBox");
             this.textBox.TextChanged += new System.EventHandler(this.textBox_TextChanged);
             // 
             // label7
@@ -146,7 +146,7 @@ namespace DemosCommonCode.Annotation
             this.creationDateTimeTextBox.ReadOnly = true;
             this.creationDateTimeTextBox.Size = new System.Drawing.Size(379, 13);
             this.creationDateTimeTextBox.TabIndex = 16;
-            this.creationDateTimeTextBox.Text = "<CreationDate>";
+            resources.ApplyResources(this.creationDateTimeTextBox, "creationDateTimeTextBox");
             // 
             // modifyDateTimeTextBox
             // 
@@ -160,7 +160,7 @@ namespace DemosCommonCode.Annotation
             this.modifyDateTimeTextBox.ReadOnly = true;
             this.modifyDateTimeTextBox.Size = new System.Drawing.Size(379, 13);
             this.modifyDateTimeTextBox.TabIndex = 15;
-            this.modifyDateTimeTextBox.Text = "<ModifyDate>";
+            resources.ApplyResources(this.modifyDateTimeTextBox, "modifyDateTimeTextBox");
             // 
             // subjectTextBox
             // 
@@ -172,7 +172,7 @@ namespace DemosCommonCode.Annotation
             this.subjectTextBox.Name = "subjectTextBox";
             this.subjectTextBox.Size = new System.Drawing.Size(379, 20);
             this.subjectTextBox.TabIndex = 12;
-            this.subjectTextBox.Text = "<Subject>";
+            resources.ApplyResources(this.subjectTextBox, "subjectTextBox");
             this.subjectTextBox.TextChanged += new System.EventHandler(this.subjectTextBox_TextChanged);
             // 
             // userNameTextBox
@@ -185,7 +185,7 @@ namespace DemosCommonCode.Annotation
             this.userNameTextBox.Name = "userNameTextBox";
             this.userNameTextBox.Size = new System.Drawing.Size(379, 20);
             this.userNameTextBox.TabIndex = 11;
-            this.userNameTextBox.Text = "<UserName>";
+            resources.ApplyResources(this.userNameTextBox, "userNameTextBox");
             this.userNameTextBox.TextChanged += new System.EventHandler(this.userNameTextBox_TextChanged);
             // 
             // colorPanelControl

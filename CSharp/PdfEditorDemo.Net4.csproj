@@ -1646,6 +1646,9 @@
     <EmbeddedResource Include="DemosCommonCode.Pdf\Resources\PdfResourcesViewerForm.de.resx">
       <DependentUpon>PdfResourcesViewerForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="DemosCommonCode.Pdf\Resources\PdfResourceViewerControl.de.resx">
+      <DependentUpon>PdfResourceViewerControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DemosCommonCode.Pdf\Resources\ViewContentImageForm.de.resx">
       <DependentUpon>ViewContentImageForm.cs</DependentUpon>
     </EmbeddedResource>

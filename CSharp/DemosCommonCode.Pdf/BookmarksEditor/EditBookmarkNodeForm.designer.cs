@@ -82,7 +82,7 @@ namespace DemosCommonCode.Pdf
             this.bookmarkTitle.Name = "bookmarkTitle";
             this.bookmarkTitle.Size = new System.Drawing.Size(157, 23);
             this.bookmarkTitle.TabIndex = 7;
-            this.bookmarkTitle.Text = "Bookmark1";
+            resources.ApplyResources(this.bookmarkTitle, "bookmarkTitle");
             // 
             // bookmarkTextBold
             // 

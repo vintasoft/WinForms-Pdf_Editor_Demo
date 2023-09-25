@@ -280,7 +280,7 @@ namespace DemosCommonCode.Pdf
             this.appearanceGeneratorGroupBox.Size = new System.Drawing.Size(422, 529);
             this.appearanceGeneratorGroupBox.TabIndex = 2;
             this.appearanceGeneratorGroupBox.TabStop = false;
-            resources.ApplyResources(this.appearanceGeneratorGroupBox, "appearanceGeneratorGroupBox");
+            this.appearanceGeneratorGroupBox.Text = "<TEXT>";
             // 
             // appearanceGeneratorFontButton
             // 

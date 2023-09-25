@@ -87,6 +87,9 @@
   <data name="bookmarkTextBold.Text" xml:space="preserve">
     <value>Bold</value>
   </data>
+  <data name="bookmarkTitle.Text" xml:space="preserve">
+    <value>Bookmark1</value>
+  </data>
   <data name="label1.Text" xml:space="preserve">
     <value>Title</value>
   </data>

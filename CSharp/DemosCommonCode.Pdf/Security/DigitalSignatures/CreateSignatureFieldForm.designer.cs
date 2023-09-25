@@ -65,7 +65,7 @@ namespace DemosCommonCode.Pdf.Security
             this.certificateTextBox.ReadOnly = true;
             this.certificateTextBox.Size = new System.Drawing.Size(269, 20);
             this.certificateTextBox.TabIndex = 0;
-            this.certificateTextBox.Text = "(Click to select certificate)";
+            resources.ApplyResources(this.certificateTextBox, "certificateTextBox");
             this.certificateTextBox.MouseClick += new System.Windows.Forms.MouseEventHandler(this.certificateTextBox_MouseClick);
             // 
             // label1

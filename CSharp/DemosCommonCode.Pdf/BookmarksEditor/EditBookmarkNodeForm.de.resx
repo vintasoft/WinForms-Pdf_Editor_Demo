@@ -144,6 +144,9 @@
   <data name="bookmarkTextBold.Text" xml:space="preserve">
     <value>Fett</value>
   </data>
+  <data name="bookmarkTitle.Text" xml:space="preserve">
+    <value>Lesezeichen1</value>
+  </data>
   <data name="label1.Text" xml:space="preserve">
     <value>Titel</value>
   </data>

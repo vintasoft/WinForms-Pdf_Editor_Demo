@@ -159,6 +159,9 @@
   <data name="label1.Text" xml:space="preserve">
     <value>Certificate</value>
   </data>
+  <data name="certificateTextBox.Text" xml:space="preserve">
+    <value>(Click to select certificate)</value>
+  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib">
     <value>True</value>
   </metadata>

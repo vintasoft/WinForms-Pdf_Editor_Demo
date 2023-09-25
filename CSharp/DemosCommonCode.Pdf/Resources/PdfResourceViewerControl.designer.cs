@@ -15,6 +15,7 @@ namespace DemosCommonCode.Pdf
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PdfResourceViewerControl));
             this.resourceImageViewer = new Vintasoft.Imaging.UI.ImageViewer();
             this.resourceTextBox = new System.Windows.Forms.TextBox();
             this.sizeModeComboBox = new System.Windows.Forms.ComboBox();
@@ -64,7 +65,7 @@ namespace DemosCommonCode.Pdf
             this.resourceTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.resourceTextBox.Size = new System.Drawing.Size(224, 43);
             this.resourceTextBox.TabIndex = 1;
-            this.resourceTextBox.Text = "Data";
+            resources.ApplyResources(this.resourceTextBox, "resourceTextBox");
             // 
             // sizeModeComboBox
             // 

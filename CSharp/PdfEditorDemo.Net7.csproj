@@ -12,7 +12,7 @@
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
     <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>    
     <EnableDefaultItems>false</EnableDefaultItems>
-    <Version>12.2.7.1</Version>
+    <Version>12.2.8.1</Version>
     <AssemblyName>PdfEditorDemo</AssemblyName>
     <RootNamespace>PdfEditorDemo</RootNamespace>
     <StartupObject>PdfEditorDemo.Program</StartupObject>
@@ -1599,6 +1599,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DemosCommonCode.Pdf\Resources\PdfResourcesViewerForm.de.resx">
       <DependentUpon>PdfResourcesViewerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DemosCommonCode.Pdf\Resources\PdfResourceViewerControl.de.resx">
+      <DependentUpon>PdfResourceViewerControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DemosCommonCode.Pdf\Resources\ViewContentImageForm.de.resx">
       <DependentUpon>ViewContentImageForm.cs</DependentUpon>

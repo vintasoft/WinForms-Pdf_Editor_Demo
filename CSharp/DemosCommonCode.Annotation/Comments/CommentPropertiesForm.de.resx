@@ -147,8 +147,23 @@
   <data name="label6.Text" xml:space="preserve">
     <value>Betreff:</value>
   </data>
+  <data name="userNameTextBox.Text" xml:space="preserve">
+    <value>&lt;Benutzername&gt;</value>
+  </data>
+  <data name="subjectTextBox.Text" xml:space="preserve">
+    <value>&lt;Betreff&gt;</value>
+  </data>
+  <data name="modifyDateTimeTextBox.Text" xml:space="preserve">
+    <value>&lt;Änderungsdatum&gt;</value>
+  </data>
+  <data name="creationDateTimeTextBox.Text" xml:space="preserve">
+    <value>&lt;Erstellungsdatum&gt;</value>
+  </data>
   <data name="label7.Text" xml:space="preserve">
     <value>Text:</value>
+  </data>
+  <data name="textBox.Text" xml:space="preserve">
+    <value>&lt;Text&gt;</value>
   </data>
   <data name="isOpenCheckBox.Text" xml:space="preserve">
     <value>Offen</value>

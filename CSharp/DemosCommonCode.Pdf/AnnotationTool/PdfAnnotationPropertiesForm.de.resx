@@ -138,9 +138,6 @@
   <data name="appearanceGeneratorFontButton.Text" xml:space="preserve">
     <value>Schriftart...</value>
   </data>
-  <data name="appearanceGeneratorGroupBox.Text" xml:space="preserve">
-    <value>&lt;TEXT&gt;</value>
-  </data>
   <data name="appearanceGeneratorTabPage.Text" xml:space="preserve">
     <value>Aussehensgenerator</value>
   </data>
