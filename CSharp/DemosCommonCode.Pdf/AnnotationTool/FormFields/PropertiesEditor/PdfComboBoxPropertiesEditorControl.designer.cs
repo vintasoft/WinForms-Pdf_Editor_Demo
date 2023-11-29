@@ -33,6 +33,7 @@ namespace DemosCommonCode.Pdf
             this.mainPanel = new System.Windows.Forms.Panel();
             this.actionsTabControl = new System.Windows.Forms.TabControl();
             this.valueTabPage = new System.Windows.Forms.TabPage();
+            this.spellCheckCheckBox = new System.Windows.Forms.CheckBox();
             this.pdfInteractiveFormChoiceFieldEditorControl = new DemosCommonCode.Pdf.PdfInteractiveFormChoiceFieldEditorControl();
             this.calculateActionTabPage = new System.Windows.Forms.TabPage();
             this.calculatePdfActionEditorControl = new DemosCommonCode.Pdf.PdfActionEditorControl();
@@ -42,7 +43,7 @@ namespace DemosCommonCode.Pdf
             this.formatPdfActionEditorControl = new DemosCommonCode.Pdf.PdfActionEditorControl();
             this.keystrokeActionTabPage = new System.Windows.Forms.TabPage();
             this.keystrokePdfActionEditorControl = new DemosCommonCode.Pdf.PdfActionEditorControl();
-            this.spellCheckCheckBox = new System.Windows.Forms.CheckBox();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.mainPanel.SuspendLayout();
             this.actionsTabControl.SuspendLayout();
             this.valueTabPage.SuspendLayout();
@@ -50,12 +51,13 @@ namespace DemosCommonCode.Pdf
             this.validateActionTabPage.SuspendLayout();
             this.formatActionTabPage.SuspendLayout();
             this.keystrokeActionTabPage.SuspendLayout();
+            this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // editableCheckBox
             // 
             this.editableCheckBox.AutoSize = true;
-            this.editableCheckBox.Location = new System.Drawing.Point(89, 1);
+            this.editableCheckBox.Location = new System.Drawing.Point(77, 3);
             this.editableCheckBox.Name = "editableCheckBox";
             this.editableCheckBox.Size = new System.Drawing.Size(64, 17);
             this.editableCheckBox.TabIndex = 9;
@@ -90,9 +92,8 @@ namespace DemosCommonCode.Pdf
             // 
             // valueTabPage
             // 
-            this.valueTabPage.Controls.Add(this.spellCheckCheckBox);
+            this.valueTabPage.Controls.Add(this.tableLayoutPanel1);
             this.valueTabPage.Controls.Add(this.pdfInteractiveFormChoiceFieldEditorControl);
-            this.valueTabPage.Controls.Add(this.editableCheckBox);
             this.valueTabPage.Location = new System.Drawing.Point(4, 22);
             this.valueTabPage.Name = "valueTabPage";
             this.valueTabPage.Padding = new System.Windows.Forms.Padding(3);
@@ -101,11 +102,22 @@ namespace DemosCommonCode.Pdf
             resources.ApplyResources(this.valueTabPage, "valueTabPage");
             this.valueTabPage.UseVisualStyleBackColor = true;
             // 
+            // spellCheckCheckBox
+            // 
+            this.spellCheckCheckBox.AutoSize = true;
+            this.spellCheckCheckBox.Location = new System.Drawing.Point(147, 3);
+            this.spellCheckCheckBox.Name = "spellCheckCheckBox";
+            this.spellCheckCheckBox.Size = new System.Drawing.Size(83, 17);
+            this.spellCheckCheckBox.TabIndex = 12;
+            resources.ApplyResources(this.spellCheckCheckBox, "spellCheckCheckBox");
+            this.spellCheckCheckBox.UseVisualStyleBackColor = true;
+            this.spellCheckCheckBox.CheckedChanged += new System.EventHandler(this.spellCheckCheckBox_CheckedChanged);
+            // 
             // pdfInteractiveFormChoiceFieldEditorControl
             // 
-            this.pdfInteractiveFormChoiceFieldEditorControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.pdfInteractiveFormChoiceFieldEditorControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.pdfInteractiveFormChoiceFieldEditorControl.Field = null;
             this.pdfInteractiveFormChoiceFieldEditorControl.Location = new System.Drawing.Point(0, 24);
             this.pdfInteractiveFormChoiceFieldEditorControl.MinimumSize = new System.Drawing.Size(182, 120);
@@ -128,9 +140,10 @@ namespace DemosCommonCode.Pdf
             // calculatePdfActionEditorControl
             // 
             this.calculatePdfActionEditorControl.Action = null;
-            this.calculatePdfActionEditorControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.calculatePdfActionEditorControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.calculatePdfActionEditorControl.AutoSize = true;
             this.calculatePdfActionEditorControl.Document = null;
             this.calculatePdfActionEditorControl.ImageCollection = null;
             this.calculatePdfActionEditorControl.Location = new System.Drawing.Point(3, 3);
@@ -153,9 +166,10 @@ namespace DemosCommonCode.Pdf
             // validatePdfActionEditorControl
             // 
             this.validatePdfActionEditorControl.Action = null;
-            this.validatePdfActionEditorControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.validatePdfActionEditorControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.validatePdfActionEditorControl.AutoSize = true;
             this.validatePdfActionEditorControl.Document = null;
             this.validatePdfActionEditorControl.ImageCollection = null;
             this.validatePdfActionEditorControl.Location = new System.Drawing.Point(3, 3);
@@ -178,9 +192,10 @@ namespace DemosCommonCode.Pdf
             // formatPdfActionEditorControl
             // 
             this.formatPdfActionEditorControl.Action = null;
-            this.formatPdfActionEditorControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.formatPdfActionEditorControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.formatPdfActionEditorControl.AutoSize = true;
             this.formatPdfActionEditorControl.Document = null;
             this.formatPdfActionEditorControl.ImageCollection = null;
             this.formatPdfActionEditorControl.Location = new System.Drawing.Point(3, 3);
@@ -203,9 +218,10 @@ namespace DemosCommonCode.Pdf
             // keystrokePdfActionEditorControl
             // 
             this.keystrokePdfActionEditorControl.Action = null;
-            this.keystrokePdfActionEditorControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.keystrokePdfActionEditorControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.keystrokePdfActionEditorControl.AutoSize = true;
             this.keystrokePdfActionEditorControl.Document = null;
             this.keystrokePdfActionEditorControl.ImageCollection = null;
             this.keystrokePdfActionEditorControl.Location = new System.Drawing.Point(3, 3);
@@ -215,16 +231,22 @@ namespace DemosCommonCode.Pdf
             this.keystrokePdfActionEditorControl.TabIndex = 3;
             this.keystrokePdfActionEditorControl.ActionChanged += new System.EventHandler(this.keystrokePdfActionEditorControl_ActionChanged);
             // 
-            // spellCheckCheckBox
+            // tableLayoutPanel1
             // 
-            this.spellCheckCheckBox.AutoSize = true;
-            this.spellCheckCheckBox.Location = new System.Drawing.Point(159, 1);
-            this.spellCheckCheckBox.Name = "spellCheckCheckBox";
-            this.spellCheckCheckBox.Size = new System.Drawing.Size(83, 17);
-            this.spellCheckCheckBox.TabIndex = 12;
-            resources.ApplyResources(this.spellCheckCheckBox, "spellCheckCheckBox");
-            this.spellCheckCheckBox.UseVisualStyleBackColor = true;
-            this.spellCheckCheckBox.CheckedChanged += new System.EventHandler(this.spellCheckCheckBox_CheckedChanged);
+            this.tableLayoutPanel1.ColumnCount = 4;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.Controls.Add(this.editableCheckBox, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.spellCheckCheckBox, 2, 0);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(0);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 1;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(307, 24);
+            this.tableLayoutPanel1.TabIndex = 13;
             // 
             // PdfComboBoxPropertiesEditorControl
             // 
@@ -237,11 +259,16 @@ namespace DemosCommonCode.Pdf
             this.mainPanel.ResumeLayout(false);
             this.actionsTabControl.ResumeLayout(false);
             this.valueTabPage.ResumeLayout(false);
-            this.valueTabPage.PerformLayout();
             this.calculateActionTabPage.ResumeLayout(false);
+            this.calculateActionTabPage.PerformLayout();
             this.validateActionTabPage.ResumeLayout(false);
+            this.validateActionTabPage.PerformLayout();
             this.formatActionTabPage.ResumeLayout(false);
+            this.formatActionTabPage.PerformLayout();
             this.keystrokeActionTabPage.ResumeLayout(false);
+            this.keystrokeActionTabPage.PerformLayout();
+            this.tableLayoutPanel1.ResumeLayout(false);
+            this.tableLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -262,5 +289,6 @@ namespace DemosCommonCode.Pdf
         private PdfActionEditorControl formatPdfActionEditorControl;
         private PdfActionEditorControl keystrokePdfActionEditorControl;
         private System.Windows.Forms.CheckBox spellCheckCheckBox;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
     }
 }

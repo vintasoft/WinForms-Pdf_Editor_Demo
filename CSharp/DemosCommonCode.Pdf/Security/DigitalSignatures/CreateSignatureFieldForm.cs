@@ -1,4 +1,8 @@
-﻿using System;
+﻿#if REMOVE_PDF_PLUGIN
+#error Remove CreateSignatureFieldForm from project.
+#endif
+
+using System;
 using System.Drawing;
 using System.Globalization;
 using System.Security.Cryptography.X509Certificates;
@@ -51,12 +55,6 @@ namespace DemosCommonCode.Pdf.Security
         /// </summary>
         X509Certificate2 _certificate;
 
-        /// <summary>
-        /// The signature appearance used for editing the signature appearance
-        /// of specified signature field.
-        /// </summary>
-        SignatureAppearanceGraphicsFigure _signatureAppearance;
-
         #endregion
 
 
@@ -78,16 +76,13 @@ namespace DemosCommonCode.Pdf.Security
         /// </summary>
         /// <param name="document">The document.</param>
         /// <param name="annotationRect">The annotation rectangle of new signature field.</param>
-        /// <param name="signatureAppearance">The signature appearance.</param>
         public CreateSignatureFieldForm(
             PdfDocument document,
-            RectangleF annotationRect,
-            SignatureAppearanceGraphicsFigure signatureAppearance)
+            RectangleF annotationRect)
             : this()
         {
             _annotationRect = annotationRect;
             _document = document;
-            _signatureAppearance = signatureAppearance;
 
             signatureNameTextBox.Text = GetNewSignatureName();
 
@@ -103,16 +98,15 @@ namespace DemosCommonCode.Pdf.Security
         /// Initializes a new instance of the <see cref="CreateSignatureForm"/> class.
         /// </summary>
         /// <param name="signatureField">The signature field.</param>
-        /// <param name="signatureAppearance">The signature appearance.</param>
-        public CreateSignatureFieldForm(
-            PdfInteractiveFormSignatureField signatureField,
-            SignatureAppearanceGraphicsFigure signatureAppearance)
+        public CreateSignatureFieldForm(PdfInteractiveFormSignatureField signatureField)
             : this(signatureField.Document,
-                   signatureField.Annotation.Rectangle,
-                   signatureAppearance)
+                   signatureField.Annotation.Rectangle)
         {
             _signatureField = signatureField;
             signatureNameTextBox.Text = _signatureField.PartialName;
+
+            if (string.IsNullOrEmpty(signatureNameTextBox.Text))
+                signatureNameTextBox.Text = GetNewSignatureName();
         }
 
         #endregion
@@ -130,6 +124,24 @@ namespace DemosCommonCode.Pdf.Security
             get
             {
                 return _signatureField;
+            }
+        }
+
+        /// <summary>
+        /// Gets or sets a value indicating whether this form can change signature appearance.
+        /// </summary>
+        /// <value>
+        /// <b>True</b> if this form can change signature appearance; otherwise, <b>false</b>.
+        /// </value>
+        public bool CanChangeSignatureAppearance
+        {
+            get
+            {
+                return signatureAppearanceButton.Visible;
+            }
+            set
+            {
+                signatureAppearanceButton.Visible = value;
             }
         }
 
@@ -174,14 +186,11 @@ namespace DemosCommonCode.Pdf.Security
             if (InitSignatureField())
             {
                 // if annotation appearance of signature field is NOT set
-                if (_signatureField.Annotation.Appearances == null)
+                if (CanChangeSignatureAppearance && _signatureField.Annotation.Appearances == null)
                 {
-                    // associate the signature field with signature appearance
-                    _signatureAppearance.SignatureField = _signatureField;
-                    // create a form for creating or editing the appearance of the signature field
-                    CreateSignatureAppearanceForm createSignatureAppearance = new CreateSignatureAppearanceForm(_signatureAppearance);
-                    // create or edit the appearance of the signature field
-                    if (createSignatureAppearance.ShowDialog() == DialogResult.Cancel)
+                    CreateSignatureAppearanceEventArgs args = new CreateSignatureAppearanceEventArgs(_signatureField);
+                    OnCreateSignatureAppearance(args);
+                    if (args.Cancel)
                         return;
                 }
 
@@ -286,8 +295,8 @@ namespace DemosCommonCode.Pdf.Security
                 try
                 {
                     PdfPkcsSignatureCreationParams creationParams = new PdfPkcsSignatureCreationParams(_certificate, addCertificateChain);
-					
-					// set ParentWindowHandle
+
+                    // set ParentWindowHandle
                     creationParams.ParentWindowHandle = Application.OpenForms[0].Handle;
 
                     // if timestamp must be embedded into signature
@@ -297,7 +306,7 @@ namespace DemosCommonCode.Pdf.Security
                         timestampRequest.HashAlgorithmName = timestampHashAlgorithmComboBox.Text;
                         creationParams.TimestampAuthorityClient = timestampRequest;
                     }
-                 
+
                     if (signatureTypeComboBox.SelectedIndex == 1)
                         creationParams.SignatureFormat = PdfPkcsSignatureFormat.CMS;
                     else if (signatureTypeComboBox.SelectedIndex == 2)
@@ -315,7 +324,7 @@ namespace DemosCommonCode.Pdf.Security
             }
 
             // create signature information
-            return new PdfSignatureInformation(_document, signature);         
+            return new PdfSignatureInformation(_document, signature);
         }
 
         /// <summary>
@@ -343,12 +352,8 @@ namespace DemosCommonCode.Pdf.Security
             // init the signature field
             if (InitSignatureField())
             {
-                // associate the signature field with signature appearance
-                _signatureAppearance.SignatureField = _signatureField;
-                // create a form for creating or editing the appearance of the signature field
-                CreateSignatureAppearanceForm createSignatureAppearance = new CreateSignatureAppearanceForm(_signatureAppearance);
-                // create or edit the appearance of the signature field
-                createSignatureAppearance.ShowDialog();
+                if (CanChangeSignatureAppearance)
+                    OnCreateSignatureAppearance(new CreateSignatureAppearanceEventArgs(_signatureField));
             }
         }
 
@@ -365,8 +370,8 @@ namespace DemosCommonCode.Pdf.Security
             signatureTypeComboBox.Enabled = isCertificateSelected;
             certificateChainCheckBox.Enabled = isCertificateSelected;
 
-            bool canEmbedTimestamp = 
-                signatureTypeComboBox.SelectedIndex == 1||
+            bool canEmbedTimestamp =
+                signatureTypeComboBox.SelectedIndex == 1 ||
                 signatureTypeComboBox.SelectedIndex == 2;
             if (!canEmbedTimestamp)
                 addTimestampCheckBox.Checked = false;
@@ -424,7 +429,7 @@ namespace DemosCommonCode.Pdf.Security
                     certificateTextBox.Text = ConvertCertificateToString(_certificate);
                     signerNameTextBox.Text = _certificate.GetNameInfo(X509NameType.SimpleName, false);
                     locationTextBox.Text = CultureInfo.CurrentCulture.EnglishName;
-                    if (_signatureField != null)
+                    if (CanChangeSignatureAppearance && _signatureField != null)
                         _signatureField.Annotation.Appearances = null;
                 }
             }
@@ -492,6 +497,27 @@ namespace DemosCommonCode.Pdf.Security
         {
             timestampProperitesGroupBox.Enabled = addTimestampCheckBox.Checked;
         }
+
+        /// <summary>
+        /// Raises the <see cref="E:CreateSignatureAppearance" /> event.
+        /// </summary>
+        /// <param name="args">The <see cref="CreateSignatureAppearanceEventArgs"/> instance containing the event data.</param>
+        private void OnCreateSignatureAppearance(CreateSignatureAppearanceEventArgs args)
+        {
+            if (CreateSignatureAppearance != null)
+                CreateSignatureAppearance(this, args);
+        }
+
+        #endregion
+
+
+
+        #region Events
+
+        /// <summary>
+        /// Occurs when the signature appearance must be created.
+        /// </summary>
+        public event EventHandler<CreateSignatureAppearanceEventArgs> CreateSignatureAppearance;
 
         #endregion
 

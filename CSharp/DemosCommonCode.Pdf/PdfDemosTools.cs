@@ -62,6 +62,32 @@ namespace DemosCommonCode.Pdf
         #region PUBLIC
 
         /// <summary>
+        /// Adds the long-term validation information (LTV) to the PDF document.
+        /// </summary>
+        /// <param name="document">The PDF document.</param>
+        public static void AddLongTimeValidationInfo(PdfDocument document)
+        {
+            if (document.IsChanged)
+            {
+                DemosTools.ShowInfoMessage(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_DOCUMENT_IS_CHANGED_FIRST_PLEASE_SIGN_AND_SAVE_DOCUMENT);
+                return;
+            }
+            try
+            {
+                int count = Vintasoft.Imaging.Pdf.Tree.DigitalSignatures.PdfDocumentLtv.AddLtvInfo(document);
+                if (count == 0)
+                    DemosTools.ShowInfoMessage(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_LTV_INFORMATION_IS_NOT_REQUIRED_FOR_THIS_DOCUMENT);
+                else
+                    DemosTools.ShowInfoMessage(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_LTV_INFORMATION_IS_ADDED);
+            }
+            catch (Exception ex)
+            {
+                DemosTools.ShowErrorMessage(ex);
+                return;
+            }
+        }
+
+        /// <summary>
         /// Returns a value indicating whether all specified images are contained in specified PDF document.
         /// </summary>
         /// <param name="images">An image collection.</param>
@@ -87,7 +113,7 @@ namespace DemosCommonCode.Pdf
             }
             if (!result)
             {
-                DemosTools.ShowWarningMessage(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_ONE_OR_SEVERAL_PAGES_ARE_NOT_SAVED_IN_CURRENT_PDF_DOCUMENT_SAVE_DOCUMENT_AND_TRY_AGAIN);
+                DemosTools.ShowWarningMessage(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_ONE_OR_SEVERAL_PAGES_ARE_NOT_SAVED_IN_PDF_DOCUMENT_SAVE_DOCUMENT_AND_TRY_AGAIN);
             }
             return result;
         }        
@@ -173,12 +199,12 @@ namespace DemosCommonCode.Pdf
             {
                 if (suggestToCreateDocumentInformationDictionary)
                 {
-                    if (MessageBox.Show(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_DOCUMENT_DOES_NOT_HAVE_THE_INFORMATION_DICTIONARY_DO_YOU_WANT_TO_CREATE_THE_INFORMATION_DICTIONARY, "", MessageBoxButtons.YesNo) == DialogResult.No)
+                    if (MessageBox.Show(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_PDF_DOCUMENT_DOES_NOT_HAVE_THE_INFORMATION_DICTIONARY_DO_YOU_WANT_TO_CREATE_THE_INFORMATION_DICTIONARY, "", MessageBoxButtons.YesNo) == DialogResult.No)
                         return;
                 }
                 else
                 {
-                    DemosTools.ShowInfoMessage(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_DOCUMENT_DOES_NOT_HAVE_INFORMATION_DICTIONARY);
+                    DemosTools.ShowInfoMessage(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_PDF_DOCUMENT_DOES_NOT_HAVE_THE_INFORMATION_DICTIONARY);
                     return;
                 }
             }

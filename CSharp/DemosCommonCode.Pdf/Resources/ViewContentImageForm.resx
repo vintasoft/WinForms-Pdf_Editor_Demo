@@ -112,31 +112,25 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="saveFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <metadata name="saveFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
   <data name="$this.Text" xml:space="preserve">
     <value>View content image</value>
   </data>
-  <data name="transformedImageRadioButton.Text" xml:space="preserve">
-    <value>Transformed</value>
-  </data>
-  <data name="originalImageRadioButton.Text" xml:space="preserve">
-    <value>Original</value>
-  </data>
-  <data name="groupBox1.Text" xml:space="preserve">
-    <value>View</value>
-  </data>
-  <data name="saveAsButton.Text" xml:space="preserve">
-    <value>Save as...</value>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Information</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>Original size</value>
+  </data>
+  <data name="compressedSizeLabel.Text" xml:space="preserve">
+    <value>0 bytes</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
     <value>Compression</value>
@@ -147,14 +141,20 @@
   <data name="regionGroupBox.Text" xml:space="preserve">
     <value>Region in page content (Resolution: 0)</value>
   </data>
-  <data name="compressedSizeLabel.Text" xml:space="preserve">
-    <value>0 bytes</value>
-  </data>
-  <data name="groupBox2.Text" xml:space="preserve">
-    <value>Information</value>
+  <data name="saveAsButton.Text" xml:space="preserve">
+    <value>Save as...</value>
   </data>
   <data name="viewResourceButton.Text" xml:space="preserve">
     <value>View resource...</value>
+  </data>
+  <data name="transformedImageRadioButton.Text" xml:space="preserve">
+    <value>Transformed</value>
+  </data>
+  <data name="originalImageRadioButton.Text" xml:space="preserve">
+    <value>Original</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>View</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib">
     <value>True</value>

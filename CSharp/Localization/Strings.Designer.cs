@@ -2162,30 +2162,20 @@ namespace PdfEditorDemo.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Document does not have Information Dictionary..
-        /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_DOCUMENT_DOES_NOT_HAVE_INFORMATION_DICTIONARY {
-            get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_DOCUMENT_DOES_NOT_HAVE_INFORMATION_DICTIONARY", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Document does not have the Information Dictionary. Do you want to create the Information Dictionary?.
-        /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_DOCUMENT_DOES_NOT_HAVE_THE_INFORMATION_DICTIONARY_DO_YOU_WANT_TO_CREATE_THE_INFORMATION_DICTIONARY {
-            get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_DOCUMENT_DOES_NOT_HAVE_THE_INFORMATION_DICTIONARY_DO_YOU_WANT" +
-                        "_TO_CREATE_THE_INFORMATION_DICTIONARY", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Document Information.
         /// </summary>
         internal static string DEMOSCOMMONCODE_PDF_DOCUMENT_INFORMATION {
             get {
                 return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_DOCUMENT_INFORMATION", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Document is changed. First please sign and save document..
+        /// </summary>
+        internal static string DEMOSCOMMONCODE_PDF_DOCUMENT_IS_CHANGED_FIRST_PLEASE_SIGN_AND_SAVE_DOCUMENT {
+            get {
+                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_DOCUMENT_IS_CHANGED_FIRST_PLEASE_SIGN_AND_SAVE_DOCUMENT", resourceCulture);
             }
         }
         
@@ -2590,6 +2580,24 @@ namespace PdfEditorDemo.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to LTV information is added..
+        /// </summary>
+        internal static string DEMOSCOMMONCODE_PDF_LTV_INFORMATION_IS_ADDED {
+            get {
+                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_LTV_INFORMATION_IS_ADDED", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to LTV information is not required for this document..
+        /// </summary>
+        internal static string DEMOSCOMMONCODE_PDF_LTV_INFORMATION_IS_NOT_REQUIRED_FOR_THIS_DOCUMENT {
+            get {
+                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_LTV_INFORMATION_IS_NOT_REQUIRED_FOR_THIS_DOCUMENT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Modification Date.
         /// </summary>
         internal static string DEMOSCOMMONCODE_PDF_MODIFICATION_DATE {
@@ -2653,12 +2661,12 @@ namespace PdfEditorDemo.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to One or several pages are not saved in current PDF document. Save document and try again..
+        ///   Looks up a localized string similar to One or several pages are not saved in PDF document. Save document and try again..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_ONE_OR_SEVERAL_PAGES_ARE_NOT_SAVED_IN_CURRENT_PDF_DOCUMENT_SAVE_DOCUMENT_AND_TRY_AGAIN {
+        internal static string DEMOSCOMMONCODE_PDF_ONE_OR_SEVERAL_PAGES_ARE_NOT_SAVED_IN_PDF_DOCUMENT_SAVE_DOCUMENT_AND_TRY_AGAIN {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_ONE_OR_SEVERAL_PAGES_ARE_NOT_SAVED_IN_CURRENT_PDF_DOCUMENT_SA" +
-                        "VE_DOCUMENT_AND_TRY_AGAIN", resourceCulture);
+                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_ONE_OR_SEVERAL_PAGES_ARE_NOT_SAVED_IN_PDF_DOCUMENT_SAVE_DOCUM" +
+                        "ENT_AND_TRY_AGAIN", resourceCulture);
             }
         }
         
@@ -2810,6 +2818,25 @@ namespace PdfEditorDemo.Localization {
         internal static string DEMOSCOMMONCODE_PDF_PAGE03_ARG1 {
             get {
                 return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_PAGE03_ARG1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to PDF document does not have the Information Dictionary..
+        /// </summary>
+        internal static string DEMOSCOMMONCODE_PDF_PDF_DOCUMENT_DOES_NOT_HAVE_THE_INFORMATION_DICTIONARY {
+            get {
+                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_PDF_DOCUMENT_DOES_NOT_HAVE_THE_INFORMATION_DICTIONARY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to PDF document does not have the Information Dictionary. Do you want to create the Information Dictionary?.
+        /// </summary>
+        internal static string DEMOSCOMMONCODE_PDF_PDF_DOCUMENT_DOES_NOT_HAVE_THE_INFORMATION_DICTIONARY_DO_YOU_WANT_TO_CREATE_THE_INFORMATION_DICTIONARY {
+            get {
+                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_PDF_DOCUMENT_DOES_NOT_HAVE_THE_INFORMATION_DICTIONARY_DO_YOU_" +
+                        "WANT_TO_CREATE_THE_INFORMATION_DICTIONARY", resourceCulture);
             }
         }
         

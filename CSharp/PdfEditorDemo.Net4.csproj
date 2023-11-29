@@ -89,29 +89,29 @@
     <Reference Include="System.Security" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
-    <PackageReference Include="Vintasoft.Barcode" Version="14.1.16.1" />
-    <PackageReference Include="Vintasoft.Imaging" Version="12.2.7.1" />
-    <PackageReference Include="Vintasoft.Imaging.Gdi" Version="12.2.7.1" />
-    <PackageReference Include="Vintasoft.Imaging.Annotation" Version="12.2.7.1" />
-    <PackageReference Include="Vintasoft.Imaging.Annotation.Pdf" Version="12.2.7.1" />
-    <PackageReference Include="Vintasoft.Imaging.Annotation.UI" Version="12.2.7.1" />
-    <PackageReference Include="Vintasoft.Imaging.DocCleanup" Version="7.2.7.1" />
-    <PackageReference Include="Vintasoft.Imaging.Jbig2Codec" Version="9.2.7.1" />
-    <PackageReference Include="Vintasoft.Imaging.Jpeg2000Codec" Version="8.2.7.1" />
-    <PackageReference Include="Vintasoft.Imaging.Office.OpenXml" Version="4.2.7.1" />
-    <PackageReference Include="Vintasoft.Imaging.Office.OpenXml.UI" Version="4.2.7.1" />
-    <PackageReference Include="Vintasoft.Imaging.Pdf" Version="9.2.7.1" />
-    <PackageReference Include="Vintasoft.Imaging.Pdf.JavaScript" Version="9.2.7.1" />
-    <PackageReference Include="Vintasoft.Imaging.Pdf.Mrc" Version="9.2.7.1" />
-    <PackageReference Include="Vintasoft.Imaging.Ocr" Version="7.2.7.1" />
-    <PackageReference Include="Vintasoft.Imaging.Ocr.Tesseract" Version="7.2.7.1" />
-    <PackageReference Include="Vintasoft.Imaging.Pdf.Ocr" Version="9.2.7.1" />
-    <PackageReference Include="Vintasoft.Imaging.Pdf.Office" Version="9.2.7.1" />
-    <PackageReference Include="Vintasoft.Imaging.Pdf.Office.UI" Version="9.2.7.1" />
-    <PackageReference Include="Vintasoft.Imaging.Pdf.UI" Version="9.2.7.1" />
-    <PackageReference Include="Vintasoft.Imaging.UI" Version="12.2.7.1" />
-    <PackageReference Include="Vintasoft.Shared" Version="4.0.0.3" />
-    <PackageReference Include="Vintasoft.Twain" Version="14.0.8.1" />
+    <PackageReference Include="Vintasoft.Barcode" Version="14.2.0.1" />
+    <PackageReference Include="Vintasoft.Imaging" Version="12.3.0.1" />
+    <PackageReference Include="Vintasoft.Imaging.Gdi" Version="12.3.0.1" />
+    <PackageReference Include="Vintasoft.Imaging.Annotation" Version="12.3.0.1" />
+    <PackageReference Include="Vintasoft.Imaging.Annotation.Pdf" Version="12.3.0.1" />
+    <PackageReference Include="Vintasoft.Imaging.Annotation.UI" Version="12.3.0.1" />
+    <PackageReference Include="Vintasoft.Imaging.DocCleanup" Version="7.3.0.1" />
+    <PackageReference Include="Vintasoft.Imaging.Jbig2Codec" Version="9.3.0.1" />
+    <PackageReference Include="Vintasoft.Imaging.Jpeg2000Codec" Version="8.3.0.1" />
+    <PackageReference Include="Vintasoft.Imaging.Office.OpenXml" Version="4.3.0.1" />
+    <PackageReference Include="Vintasoft.Imaging.Office.OpenXml.UI" Version="4.3.0.1" />
+    <PackageReference Include="Vintasoft.Imaging.Pdf" Version="9.3.0.1" />
+    <PackageReference Include="Vintasoft.Imaging.Pdf.JavaScript" Version="9.3.0.1" />
+    <PackageReference Include="Vintasoft.Imaging.Pdf.Mrc" Version="9.3.0.1" />
+    <PackageReference Include="Vintasoft.Imaging.Ocr" Version="7.3.0.1" />
+    <PackageReference Include="Vintasoft.Imaging.Ocr.Tesseract" Version="7.3.0.1" />
+    <PackageReference Include="Vintasoft.Imaging.Pdf.Ocr" Version="9.3.0.1" />
+    <PackageReference Include="Vintasoft.Imaging.Pdf.Office" Version="9.3.0.1" />
+    <PackageReference Include="Vintasoft.Imaging.Pdf.Office.UI" Version="9.3.0.1" />
+    <PackageReference Include="Vintasoft.Imaging.Pdf.UI" Version="9.3.0.1" />
+    <PackageReference Include="Vintasoft.Imaging.UI" Version="12.3.0.1" />
+    <PackageReference Include="Vintasoft.Shared" Version="4.1.0.1" />
+    <PackageReference Include="Vintasoft.Twain" Version="14.1.0.1" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CustomControls\AnchorTypeEditorControl.cs">
@@ -598,8 +598,6 @@
       <DependentUpon>PdfFontPanelControl.cs</DependentUpon>
     </Compile>
     <Compile Include="DemosCommonCode.Imaging\VisualToolsToolStrip\VisualTools\PdfContentXObjectTool\Actions\PdfContentXObjectToolAction.cs">
-    </Compile>
-    <Compile Include="DemosCommonCode.Imaging\VisualTools\UserInteraction\PdfInteractionAreaAppearanceManager.cs">
     </Compile>
     <Compile Include="DemosCommonCode.Ocr\AddImagesForm.cs">
       <SubType>Form</SubType>
@@ -1102,11 +1100,15 @@
     <Compile Include="DemosCommonCode.Pdf\Security\DigitalSignatures\CreateEmptySignatureFieldForm.designer.cs">
       <DependentUpon>CreateEmptySignatureFieldForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="DemosCommonCode.Pdf\Security\DigitalSignatures\CreateSignatureAppearanceEventArgs.cs">
+    </Compile>
     <Compile Include="DemosCommonCode.Pdf\Security\DigitalSignatures\CreateSignatureFieldForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="DemosCommonCode.Pdf\Security\DigitalSignatures\CreateSignatureFieldForm.designer.cs">
       <DependentUpon>CreateSignatureFieldForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DemosCommonCode.Pdf\Security\DigitalSignatures\CreateSignatureFieldWithAppearance.cs">
     </Compile>
     <Compile Include="DemosCommonCode.Pdf\Security\DigitalSignatures\DocumentSignaturesForm.cs">
       <SubType>Form</SubType>
@@ -2774,13 +2776,4 @@
     <EmbeddedResource Include="Resources\TextExtraction.png" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
-       Other similar extension points exist, see Microsoft.Common.targets.
-  <Target Name="BeforeBuild">
-  </Target>
-  <Target Name="AfterBuild">
-  </Target>
-  -->
-  <PropertyGroup>
-  </PropertyGroup>
 </Project>

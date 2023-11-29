@@ -30,6 +30,7 @@ namespace DemosCommonCode.Pdf
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EmbeddedFilesForm));
             this.controlButtonsPanel = new System.Windows.Forms.Panel();
+            this.encodeFilesImmediatelyCheckBox = new System.Windows.Forms.CheckBox();
             this.saveAsButton = new System.Windows.Forms.Button();
             this.removeButton = new System.Windows.Forms.Button();
             this.addButton = new System.Windows.Forms.Button();
@@ -54,7 +55,8 @@ namespace DemosCommonCode.Pdf
             this.label1 = new System.Windows.Forms.Label();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.encodeFilesImmediatelyCheckBox = new System.Windows.Forms.CheckBox();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.controlButtonsPanel.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -64,24 +66,37 @@ namespace DemosCommonCode.Pdf
             this.panel6.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.panel5.SuspendLayout();
+            this.tableLayoutPanel1.SuspendLayout();
+            this.tableLayoutPanel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // controlButtonsPanel
             // 
-            this.controlButtonsPanel.Controls.Add(this.encodeFilesImmediatelyCheckBox);
-            this.controlButtonsPanel.Controls.Add(this.saveAsButton);
-            this.controlButtonsPanel.Controls.Add(this.removeButton);
-            this.controlButtonsPanel.Controls.Add(this.addButton);
-            this.controlButtonsPanel.Controls.Add(this.okButton);
+            this.controlButtonsPanel.Controls.Add(this.tableLayoutPanel2);
             this.controlButtonsPanel.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.controlButtonsPanel.Location = new System.Drawing.Point(0, 235);
             this.controlButtonsPanel.Name = "controlButtonsPanel";
             this.controlButtonsPanel.Size = new System.Drawing.Size(748, 47);
             this.controlButtonsPanel.TabIndex = 0;
             // 
+            // encodeFilesImmediatelyCheckBox
+            // 
+            this.encodeFilesImmediatelyCheckBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.encodeFilesImmediatelyCheckBox.AutoSize = true;
+            this.encodeFilesImmediatelyCheckBox.Checked = true;
+            this.encodeFilesImmediatelyCheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.encodeFilesImmediatelyCheckBox.Location = new System.Drawing.Point(518, 15);
+            this.encodeFilesImmediatelyCheckBox.Name = "encodeFilesImmediatelyCheckBox";
+            this.encodeFilesImmediatelyCheckBox.Size = new System.Drawing.Size(145, 17);
+            this.encodeFilesImmediatelyCheckBox.TabIndex = 4;
+            resources.ApplyResources(this.encodeFilesImmediatelyCheckBox, "encodeFilesImmediatelyCheckBox");
+            this.encodeFilesImmediatelyCheckBox.UseVisualStyleBackColor = true;
+            // 
             // saveAsButton
             // 
-            this.saveAsButton.Location = new System.Drawing.Point(12, 12);
+            this.saveAsButton.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.saveAsButton.AutoSize = true;
+            this.saveAsButton.Location = new System.Drawing.Point(3, 12);
             this.saveAsButton.Name = "saveAsButton";
             this.saveAsButton.Size = new System.Drawing.Size(75, 23);
             this.saveAsButton.TabIndex = 3;
@@ -91,7 +106,9 @@ namespace DemosCommonCode.Pdf
             // 
             // removeButton
             // 
-            this.removeButton.Location = new System.Drawing.Point(188, 12);
+            this.removeButton.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.removeButton.AutoSize = true;
+            this.removeButton.Location = new System.Drawing.Point(301, 12);
             this.removeButton.Name = "removeButton";
             this.removeButton.Size = new System.Drawing.Size(75, 23);
             this.removeButton.TabIndex = 2;
@@ -101,7 +118,9 @@ namespace DemosCommonCode.Pdf
             // 
             // addButton
             // 
-            this.addButton.Location = new System.Drawing.Point(107, 12);
+            this.addButton.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.addButton.AutoSize = true;
+            this.addButton.Location = new System.Drawing.Point(220, 12);
             this.addButton.Name = "addButton";
             this.addButton.Size = new System.Drawing.Size(75, 23);
             this.addButton.TabIndex = 1;
@@ -111,9 +130,9 @@ namespace DemosCommonCode.Pdf
             // 
             // okButton
             // 
-            this.okButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.okButton.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.okButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.okButton.Location = new System.Drawing.Point(661, 12);
+            this.okButton.Location = new System.Drawing.Point(669, 12);
             this.okButton.Name = "okButton";
             this.okButton.Size = new System.Drawing.Size(75, 23);
             this.okButton.TabIndex = 0;
@@ -239,10 +258,7 @@ namespace DemosCommonCode.Pdf
             // 
             // panel5
             // 
-            this.panel5.Controls.Add(this.label4);
-            this.panel5.Controls.Add(this.createDateLabel);
-            this.panel5.Controls.Add(this.modifyDateLabel);
-            this.panel5.Controls.Add(this.label2);
+            this.panel5.Controls.Add(this.tableLayoutPanel1);
             this.panel5.Controls.Add(this.compressionComboBox);
             this.panel5.Controls.Add(this.label1);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
@@ -253,8 +269,9 @@ namespace DemosCommonCode.Pdf
             // 
             // label4
             // 
+            this.label4.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(3, 52);
+            this.label4.Location = new System.Drawing.Point(3, 53);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(64, 13);
             this.label4.TabIndex = 10;
@@ -262,8 +279,9 @@ namespace DemosCommonCode.Pdf
             // 
             // createDateLabel
             // 
+            this.createDateLabel.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.createDateLabel.AutoSize = true;
-            this.createDateLabel.Location = new System.Drawing.Point(73, 30);
+            this.createDateLabel.Location = new System.Drawing.Point(73, 13);
             this.createDateLabel.Name = "createDateLabel";
             this.createDateLabel.Size = new System.Drawing.Size(106, 13);
             this.createDateLabel.TabIndex = 9;
@@ -271,8 +289,9 @@ namespace DemosCommonCode.Pdf
             // 
             // modifyDateLabel
             // 
+            this.modifyDateLabel.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.modifyDateLabel.AutoSize = true;
-            this.modifyDateLabel.Location = new System.Drawing.Point(73, 52);
+            this.modifyDateLabel.Location = new System.Drawing.Point(73, 53);
             this.modifyDateLabel.Name = "modifyDateLabel";
             this.modifyDateLabel.Size = new System.Drawing.Size(106, 13);
             this.modifyDateLabel.TabIndex = 8;
@@ -280,8 +299,9 @@ namespace DemosCommonCode.Pdf
             // 
             // label2
             // 
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(3, 30);
+            this.label2.Location = new System.Drawing.Point(3, 13);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(64, 13);
             this.label2.TabIndex = 7;
@@ -310,18 +330,46 @@ namespace DemosCommonCode.Pdf
             // 
             this.openFileDialog1.Multiselect = true;
             // 
-            // encodeFilesImmediatelyCheckBox
+            // tableLayoutPanel1
             // 
-            this.encodeFilesImmediatelyCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.encodeFilesImmediatelyCheckBox.AutoSize = true;
-            this.encodeFilesImmediatelyCheckBox.Checked = true;
-            this.encodeFilesImmediatelyCheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.encodeFilesImmediatelyCheckBox.Location = new System.Drawing.Point(510, 16);
-            this.encodeFilesImmediatelyCheckBox.Name = "encodeFilesImmediatelyCheckBox";
-            this.encodeFilesImmediatelyCheckBox.Size = new System.Drawing.Size(145, 17);
-            this.encodeFilesImmediatelyCheckBox.TabIndex = 4;
-            resources.ApplyResources(this.encodeFilesImmediatelyCheckBox, "encodeFilesImmediatelyCheckBox");
-            this.encodeFilesImmediatelyCheckBox.UseVisualStyleBackColor = true;
+            this.tableLayoutPanel1.AutoSize = true;
+            this.tableLayoutPanel1.ColumnCount = 2;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel1.Controls.Add(this.label2, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.modifyDateLabel, 1, 1);
+            this.tableLayoutPanel1.Controls.Add(this.createDateLabel, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.label4, 0, 1);
+            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(0);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 2;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(206, 80);
+            this.tableLayoutPanel1.TabIndex = 11;
+            // 
+            // tableLayoutPanel2
+            // 
+            this.tableLayoutPanel2.ColumnCount = 5;
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel2.Controls.Add(this.saveAsButton, 0, 0);
+            this.tableLayoutPanel2.Controls.Add(this.okButton, 4, 0);
+            this.tableLayoutPanel2.Controls.Add(this.encodeFilesImmediatelyCheckBox, 3, 0);
+            this.tableLayoutPanel2.Controls.Add(this.addButton, 1, 0);
+            this.tableLayoutPanel2.Controls.Add(this.removeButton, 2, 0);
+            this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
+            this.tableLayoutPanel2.RowCount = 1;
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(748, 47);
+            this.tableLayoutPanel2.TabIndex = 5;
             // 
             // EmbeddedFilesForm
             // 
@@ -335,7 +383,6 @@ namespace DemosCommonCode.Pdf
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             resources.ApplyResources(this, "$this");
             this.controlButtonsPanel.ResumeLayout(false);
-            this.controlButtonsPanel.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.embeddedFilesDataGridView)).EndInit();
@@ -346,6 +393,10 @@ namespace DemosCommonCode.Pdf
             this.groupBox2.PerformLayout();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
+            this.tableLayoutPanel1.ResumeLayout(false);
+            this.tableLayoutPanel1.PerformLayout();
+            this.tableLayoutPanel2.ResumeLayout(false);
+            this.tableLayoutPanel2.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -378,5 +429,7 @@ namespace DemosCommonCode.Pdf
         private System.Windows.Forms.DataGridViewTextBoxColumn sizeColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn compressedSizeColumn;
         private System.Windows.Forms.CheckBox encodeFilesImmediatelyCheckBox;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
     }
 }

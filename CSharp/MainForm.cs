@@ -476,6 +476,8 @@ namespace PdfEditorDemo
                         @"Release\net6.0-windows\TesseractOCR\",
                         @"Debug\net7.0-windows\TesseractOCR\",
                         @"Release\net7.0-windows\TesseractOCR\",
+                        @"Debug\net8.0-windows\TesseractOCR\",
+                        @"Release\net8.0-windows\TesseractOCR\",
                     };
 
                     // search tesseract dll
@@ -3413,15 +3415,10 @@ namespace PdfEditorDemo
                 // if signature field is selected
                 if (field != null)
                 {
-                    // create a form that allows to perform signing of PDF document
-                    // using existing signature field
-                    using (CreateSignatureFieldForm createSignature = new CreateSignatureFieldForm(field, _signatureAppearance))
+                    // if new signature field is created
+                    if (CreateSignatureFieldWithAppearance.ShowDialog(field, _signatureAppearance) == DialogResult.OK)
                     {
-                        // if new signature field is created
-                        if (createSignature.ShowDialog() == DialogResult.OK)
-                        {
-                            SavePdfDocumentToSourceOrNewFile(true);
-                        }
+                        SavePdfDocumentToSourceOrNewFile(true);
                     }
                 }
             }
@@ -5762,6 +5759,14 @@ namespace PdfEditorDemo
             return null;
         }
 
+        /// <summary>
+        /// Handles the Click event of AddLongTimeValidationInfoLTVToolStripMenuItem object.
+        /// </summary>
+        private void addLongTimeValidationInfoLTVToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            PdfDemosTools.AddLongTimeValidationInfo(_document);
+        }
+
         #endregion
 
 
@@ -6718,8 +6723,9 @@ namespace PdfEditorDemo
 
 
 
+
         #endregion
 
-
+       
     }
 }

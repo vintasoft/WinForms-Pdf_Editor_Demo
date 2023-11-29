@@ -42,25 +42,27 @@ namespace DemosCommonCode.Pdf
             this.pdfFontViewerControl = new Vintasoft.Imaging.Pdf.UI.PdfFontViewerControl();
             this.addFontButton = new System.Windows.Forms.Button();
             this.colorPanelControl = new DemosCommonCode.CustomControls.ColorPanelControl();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1.SuspendLayout();
+            this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // fontComboBox
             // 
-            this.fontComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.fontComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.fontComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.fontComboBox.FormattingEnabled = true;
-            this.fontComboBox.Location = new System.Drawing.Point(12, 111);
+            this.fontComboBox.Location = new System.Drawing.Point(3, 17);
             this.fontComboBox.Name = "fontComboBox";
-            this.fontComboBox.Size = new System.Drawing.Size(281, 21);
+            this.fontComboBox.Size = new System.Drawing.Size(292, 21);
             this.fontComboBox.TabIndex = 0;
             this.fontComboBox.SelectedIndexChanged += new System.EventHandler(this.fontComboBox_SelectedIndexChanged);
             // 
             // label1
             // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(9, 95);
+            this.label1.Location = new System.Drawing.Point(3, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(28, 13);
             this.label1.TabIndex = 1;
@@ -68,9 +70,9 @@ namespace DemosCommonCode.Pdf
             // 
             // label2
             // 
-            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(410, 97);
+            this.label2.Location = new System.Drawing.Point(398, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(27, 13);
             this.label2.TabIndex = 2;
@@ -78,7 +80,7 @@ namespace DemosCommonCode.Pdf
             // 
             // fontSizeComboBox
             // 
-            this.fontSizeComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.fontSizeComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.fontSizeComboBox.FormattingEnabled = true;
             this.fontSizeComboBox.Items.AddRange(new object[] {
             "8",
@@ -92,7 +94,7 @@ namespace DemosCommonCode.Pdf
             "100",
             "120",
             "200"});
-            this.fontSizeComboBox.Location = new System.Drawing.Point(413, 112);
+            this.fontSizeComboBox.Location = new System.Drawing.Point(398, 17);
             this.fontSizeComboBox.Name = "fontSizeComboBox";
             this.fontSizeComboBox.Size = new System.Drawing.Size(107, 21);
             this.fontSizeComboBox.TabIndex = 3;
@@ -108,8 +110,8 @@ namespace DemosCommonCode.Pdf
             // 
             // textBox
             // 
-            this.textBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox.Location = new System.Drawing.Point(12, 26);
             this.textBox.Multiline = true;
             this.textBox.Name = "textBox";
@@ -143,9 +145,9 @@ namespace DemosCommonCode.Pdf
             // 
             // label4
             // 
-            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label4.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(526, 98);
+            this.label4.Location = new System.Drawing.Point(511, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(31, 13);
             this.label4.TabIndex = 9;
@@ -153,9 +155,9 @@ namespace DemosCommonCode.Pdf
             // 
             // panel1
             // 
-            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.AutoScroll = true;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel1.Controls.Add(this.pdfFontViewerControl);
@@ -181,9 +183,10 @@ namespace DemosCommonCode.Pdf
             // 
             // addFontButton
             // 
-            this.addFontButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.addFontButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.addFontButton.AutoSize = true;
             this.addFontButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.addFontButton.Location = new System.Drawing.Point(299, 110);
+            this.addFontButton.Location = new System.Drawing.Point(301, 16);
             this.addFontButton.Name = "addFontButton";
             this.addFontButton.Size = new System.Drawing.Size(91, 23);
             this.addFontButton.TabIndex = 12;
@@ -193,38 +196,57 @@ namespace DemosCommonCode.Pdf
             // 
             // colorPanelControl
             // 
-            this.colorPanelControl.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.colorPanelControl.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.colorPanelControl.Color = System.Drawing.Color.Black;
             this.colorPanelControl.ColorButtonMargin = 6;
             this.colorPanelControl.ColorButtonWidth = 32;
             this.colorPanelControl.DefaultColor = System.Drawing.Color.Empty;
-            this.colorPanelControl.Location = new System.Drawing.Point(526, 111);
+            this.colorPanelControl.Location = new System.Drawing.Point(511, 16);
             this.colorPanelControl.Name = "colorPanelControl";
             this.colorPanelControl.Size = new System.Drawing.Size(96, 22);
             this.colorPanelControl.TabIndex = 13;
+            // 
+            // tableLayoutPanel1
+            // 
+            this.tableLayoutPanel1.ColumnCount = 4;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel1.Controls.Add(this.label1, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.colorPanelControl, 3, 1);
+            this.tableLayoutPanel1.Controls.Add(this.fontComboBox, 0, 1);
+            this.tableLayoutPanel1.Controls.Add(this.addFontButton, 1, 1);
+            this.tableLayoutPanel1.Controls.Add(this.label2, 2, 0);
+            this.tableLayoutPanel1.Controls.Add(this.fontSizeComboBox, 2, 1);
+            this.tableLayoutPanel1.Controls.Add(this.label4, 3, 0);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(12, 95);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(0);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 2;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(610, 42);
+            this.tableLayoutPanel1.TabIndex = 14;
             // 
             // AddTextForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.buttonCancel;
             this.ClientSize = new System.Drawing.Size(636, 454);
-            this.Controls.Add(this.colorPanelControl);
-            this.Controls.Add(this.addFontButton);
+            this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.textBox);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.label4);
             this.Controls.Add(this.buttonCancel);
             this.Controls.Add(this.okButton);
-            this.Controls.Add(this.fontSizeComboBox);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.fontComboBox);
             this.MinimizeBox = false;
             this.Name = "AddTextForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             resources.ApplyResources(this, "$this");
             this.panel1.ResumeLayout(false);
+            this.tableLayoutPanel1.ResumeLayout(false);
+            this.tableLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -245,5 +267,6 @@ namespace DemosCommonCode.Pdf
         private Vintasoft.Imaging.Pdf.UI.PdfFontViewerControl pdfFontViewerControl;
         private System.Windows.Forms.Button addFontButton;
         private DemosCommonCode.CustomControls.ColorPanelControl colorPanelControl;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
     }
 }

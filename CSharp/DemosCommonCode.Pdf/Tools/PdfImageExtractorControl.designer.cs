@@ -45,13 +45,16 @@ namespace DemosCommonCode.Pdf
             this.saveImageResourceToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.saveTransformedImageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.copyImageToClipboardToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.mainPanel.SuspendLayout();
             this.saveGroupBox.SuspendLayout();
             this.ImageExtractorContextMenuStrip.SuspendLayout();
+            this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // mainPanel
             // 
+            this.mainPanel.AutoSize = true;
             this.mainPanel.Controls.Add(this.viewContentImageButton);
             this.mainPanel.Controls.Add(this.saveGroupBox);
             this.mainPanel.Controls.Add(this.imageResourcesListBox);
@@ -64,8 +67,9 @@ namespace DemosCommonCode.Pdf
             // 
             // viewContentImageButton
             // 
-            this.viewContentImageButton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.viewContentImageButton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.viewContentImageButton.AutoSize = true;
             this.viewContentImageButton.Enabled = false;
             this.viewContentImageButton.Location = new System.Drawing.Point(9, 165);
             this.viewContentImageButton.Name = "viewContentImageButton";
@@ -77,10 +81,10 @@ namespace DemosCommonCode.Pdf
             // 
             // saveGroupBox
             // 
-            this.saveGroupBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.saveGroupBox.Controls.Add(this.saveImageResourceButton);
-            this.saveGroupBox.Controls.Add(this.saveTransformedImageButton);
+            this.saveGroupBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.saveGroupBox.AutoSize = true;
+            this.saveGroupBox.Controls.Add(this.tableLayoutPanel1);
             this.saveGroupBox.Enabled = false;
             this.saveGroupBox.Location = new System.Drawing.Point(3, 194);
             this.saveGroupBox.Name = "saveGroupBox";
@@ -92,7 +96,8 @@ namespace DemosCommonCode.Pdf
             // saveImageResourceButton
             // 
             this.saveImageResourceButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.saveImageResourceButton.Location = new System.Drawing.Point(6, 19);
+            this.saveImageResourceButton.AutoSize = true;
+            this.saveImageResourceButton.Location = new System.Drawing.Point(3, 3);
             this.saveImageResourceButton.Name = "saveImageResourceButton";
             this.saveImageResourceButton.Size = new System.Drawing.Size(175, 23);
             this.saveImageResourceButton.TabIndex = 1;
@@ -103,7 +108,8 @@ namespace DemosCommonCode.Pdf
             // saveTransformedImageButton
             // 
             this.saveTransformedImageButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.saveTransformedImageButton.Location = new System.Drawing.Point(6, 48);
+            this.saveTransformedImageButton.AutoSize = true;
+            this.saveTransformedImageButton.Location = new System.Drawing.Point(3, 32);
             this.saveTransformedImageButton.Name = "saveTransformedImageButton";
             this.saveTransformedImageButton.Size = new System.Drawing.Size(175, 23);
             this.saveTransformedImageButton.TabIndex = 2;
@@ -113,17 +119,17 @@ namespace DemosCommonCode.Pdf
             // 
             // imageResourcesListBox
             // 
-            this.imageResourcesListBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.imageResourcesListBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.imageResourcesListBox.FormattingEnabled = true;
             this.imageResourcesListBox.HorizontalScrollbar = true;
             this.imageResourcesListBox.Location = new System.Drawing.Point(3, 3);
             this.imageResourcesListBox.Name = "imageResourcesListBox";
             this.imageResourcesListBox.Size = new System.Drawing.Size(187, 147);
             this.imageResourcesListBox.TabIndex = 0;
-            this.imageResourcesListBox.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.imageResourcesListBox_MouseDoubleClick);
             this.imageResourcesListBox.SelectedIndexChanged += new System.EventHandler(this.imageResourcesListBox_SelectedIndexChanged);
+            this.imageResourcesListBox.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.imageResourcesListBox_MouseDoubleClick);
             // 
             // ImageExtractorContextMenuStrip
             // 
@@ -134,41 +140,58 @@ namespace DemosCommonCode.Pdf
             this.saveTransformedImageToolStripMenuItem,
             this.copyImageToClipboardToolStripMenuItem});
             this.ImageExtractorContextMenuStrip.Name = "ImageExtractorContextMenuStrip";
-            this.ImageExtractorContextMenuStrip.Size = new System.Drawing.Size(215, 120);
+            this.ImageExtractorContextMenuStrip.Size = new System.Drawing.Size(213, 98);
             this.ImageExtractorContextMenuStrip.Opening += new System.ComponentModel.CancelEventHandler(this.ImageExtractorContextMenuStrip_Opening);
             // 
             // viewContentImageToolStripMenuItem
             // 
             this.viewContentImageToolStripMenuItem.Name = "viewContentImageToolStripMenuItem";
-            this.viewContentImageToolStripMenuItem.Size = new System.Drawing.Size(214, 22);
+            this.viewContentImageToolStripMenuItem.Size = new System.Drawing.Size(212, 22);
             resources.ApplyResources(this.viewContentImageToolStripMenuItem, "viewContentImageToolStripMenuItem");
             this.viewContentImageToolStripMenuItem.Click += new System.EventHandler(this.viewContentImageButton_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(211, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(209, 6);
             // 
             // saveImageResourceToolStripMenuItem1
             // 
             this.saveImageResourceToolStripMenuItem1.Name = "saveImageResourceToolStripMenuItem1";
-            this.saveImageResourceToolStripMenuItem1.Size = new System.Drawing.Size(214, 22);
+            this.saveImageResourceToolStripMenuItem1.Size = new System.Drawing.Size(212, 22);
             resources.ApplyResources(this.saveImageResourceToolStripMenuItem1, "saveImageResourceToolStripMenuItem1");
             this.saveImageResourceToolStripMenuItem1.Click += new System.EventHandler(this.saveImageResourceButton_Click);
             // 
             // saveTransformedImageToolStripMenuItem
             // 
             this.saveTransformedImageToolStripMenuItem.Name = "saveTransformedImageToolStripMenuItem";
-            this.saveTransformedImageToolStripMenuItem.Size = new System.Drawing.Size(214, 22);
+            this.saveTransformedImageToolStripMenuItem.Size = new System.Drawing.Size(212, 22);
             resources.ApplyResources(this.saveTransformedImageToolStripMenuItem, "saveTransformedImageToolStripMenuItem");
             this.saveTransformedImageToolStripMenuItem.Click += new System.EventHandler(this.saveTransformedImageButton_Click);
             // 
             // copyImageToClipboardToolStripMenuItem
             // 
             this.copyImageToClipboardToolStripMenuItem.Name = "copyImageToClipboardToolStripMenuItem";
-            this.copyImageToClipboardToolStripMenuItem.Size = new System.Drawing.Size(214, 22);
+            this.copyImageToClipboardToolStripMenuItem.Size = new System.Drawing.Size(212, 22);
             resources.ApplyResources(this.copyImageToClipboardToolStripMenuItem, "copyImageToClipboardToolStripMenuItem");
             this.copyImageToClipboardToolStripMenuItem.Click += new System.EventHandler(this.copyImageToClipboardToolStripMenuItem_Click);
+            // 
+            // tableLayoutPanel1
+            // 
+            this.tableLayoutPanel1.AutoSize = true;
+            this.tableLayoutPanel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.tableLayoutPanel1.ColumnCount = 1;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel1.Controls.Add(this.saveImageResourceButton, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.saveTransformedImageButton, 0, 1);
+            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(3, 16);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 2;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(181, 58);
+            this.tableLayoutPanel1.TabIndex = 3;
             // 
             // PdfImageExtractorControl
             // 
@@ -178,9 +201,14 @@ namespace DemosCommonCode.Pdf
             this.Name = "PdfImageExtractorControl";
             this.Size = new System.Drawing.Size(193, 274);
             this.mainPanel.ResumeLayout(false);
+            this.mainPanel.PerformLayout();
             this.saveGroupBox.ResumeLayout(false);
+            this.saveGroupBox.PerformLayout();
             this.ImageExtractorContextMenuStrip.ResumeLayout(false);
+            this.tableLayoutPanel1.ResumeLayout(false);
+            this.tableLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -199,5 +227,6 @@ namespace DemosCommonCode.Pdf
         private System.Windows.Forms.ToolStripMenuItem saveImageResourceToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem saveTransformedImageToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem copyImageToClipboardToolStripMenuItem;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
     }
 }

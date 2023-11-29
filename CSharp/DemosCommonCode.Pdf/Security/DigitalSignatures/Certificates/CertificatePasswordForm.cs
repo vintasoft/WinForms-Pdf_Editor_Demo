@@ -2,9 +2,6 @@
 using System.IO;
 using System.Windows.Forms;
 
-using Vintasoft.Imaging.Pdf;
-using Vintasoft.Imaging.Pdf.Security;
-
 namespace DemosCommonCode.Pdf.Security
 {
     /// <summary>

@@ -291,13 +291,9 @@ namespace DemosCommonCode.Pdf
                 // check pages of PDF document
                 if (PdfDemosTools.CheckAllPagesFromDocument(this.AnnotationTool.ImageViewer.Images, signatureView.Field.Document))
                 {
-                    using (CreateSignatureFieldForm createSignature = new CreateSignatureFieldForm(
-                        signatureView.Field, signatureAppearanceGraphicsFigure))
+                    if (CreateSignatureFieldWithAppearance.ShowDialog(signatureView.Field, signatureAppearanceGraphicsFigure) == DialogResult.OK)
                     {
-                        if (createSignature.ShowDialog() == DialogResult.OK)
-                        {
-                            signatureView.Invalidate();
-                        }
+                        signatureView.Invalidate();
                     }
                 }
             }
@@ -438,7 +434,7 @@ namespace DemosCommonCode.Pdf
             // add and build annotation
             AddAndBuildInteractiveFormField(interactiveFormFieldType);
         }
-        
+
         /// <summary>
         /// Handles the CheckedChanged event of AppearanceToolStripMenuItem object.
         /// </summary>

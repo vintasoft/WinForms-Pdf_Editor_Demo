@@ -38,7 +38,9 @@ namespace DemosCommonCode.Pdf
             this.label5 = new System.Windows.Forms.Label();
             this.alphaConstantCheckBox = new System.Windows.Forms.CheckBox();
             this.alphaConstantValueEditor = new DemosCommonCode.CustomControls.ValueEditorControl();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.colorBlendingGroupBox.SuspendLayout();
+            this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // buttonOk
@@ -77,8 +79,8 @@ namespace DemosCommonCode.Pdf
             // 
             this.colorBlendingGroupBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.colorBlendingGroupBox.Controls.Add(this.colorBlendingComboBox);
-            this.colorBlendingGroupBox.Controls.Add(this.label5);
+            this.colorBlendingGroupBox.AutoSize = true;
+            this.colorBlendingGroupBox.Controls.Add(this.tableLayoutPanel1);
             this.colorBlendingGroupBox.Enabled = false;
             this.colorBlendingGroupBox.Location = new System.Drawing.Point(12, 138);
             this.colorBlendingGroupBox.Name = "colorBlendingGroupBox";
@@ -89,18 +91,19 @@ namespace DemosCommonCode.Pdf
             // 
             // colorBlendingComboBox
             // 
-            this.colorBlendingComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.colorBlendingComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.colorBlendingComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.colorBlendingComboBox.FormattingEnabled = true;
-            this.colorBlendingComboBox.Location = new System.Drawing.Point(133, 19);
+            this.colorBlendingComboBox.Location = new System.Drawing.Point(130, 4);
             this.colorBlendingComboBox.Name = "colorBlendingComboBox";
             this.colorBlendingComboBox.Size = new System.Drawing.Size(121, 21);
             this.colorBlendingComboBox.TabIndex = 3;
             // 
             // label5
             // 
+            this.label5.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(6, 21);
+            this.label5.Location = new System.Drawing.Point(3, 8);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(105, 13);
             this.label5.TabIndex = 2;
@@ -119,6 +122,8 @@ namespace DemosCommonCode.Pdf
             // 
             // alphaConstantValueEditor
             // 
+            this.alphaConstantValueEditor.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.alphaConstantValueEditor.DefaultValue = 255F;
             this.alphaConstantValueEditor.Enabled = false;
             this.alphaConstantValueEditor.Location = new System.Drawing.Point(12, 31);
@@ -130,10 +135,28 @@ namespace DemosCommonCode.Pdf
             this.alphaConstantValueEditor.ValueName = "Alpha Contant";
             resources.ApplyResources(this.alphaConstantValueEditor, "alphaConstantValueEditor");
             // 
+            // tableLayoutPanel1
+            // 
+            this.tableLayoutPanel1.AutoSize = true;
+            this.tableLayoutPanel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.tableLayoutPanel1.ColumnCount = 2;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel1.Controls.Add(this.label5, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.colorBlendingComboBox, 1, 0);
+            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(3, 16);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 1;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(254, 29);
+            this.tableLayoutPanel1.TabIndex = 10;
+            // 
             // PdfResourceGraphicsPropertiesForm
             // 
             this.AcceptButton = this.buttonOk;
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.CancelButton = this.buttonCancel;
             this.ClientSize = new System.Drawing.Size(284, 224);
             this.Controls.Add(this.alphaConstantValueEditor);
@@ -151,6 +174,8 @@ namespace DemosCommonCode.Pdf
             resources.ApplyResources(this, "$this");
             this.colorBlendingGroupBox.ResumeLayout(false);
             this.colorBlendingGroupBox.PerformLayout();
+            this.tableLayoutPanel1.ResumeLayout(false);
+            this.tableLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -165,5 +190,6 @@ namespace DemosCommonCode.Pdf
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.CheckBox alphaConstantCheckBox;
         private CustomControls.ValueEditorControl alphaConstantValueEditor;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
     }
 }

@@ -135,9 +135,6 @@
   <data name="$this.Text" xml:space="preserve">
     <value>Embedded Files</value>
   </data>
-  <data name="encodeFilesImmediatelyCheckBox.Text" xml:space="preserve">
-    <value>Encode Files Immediately</value>
-  </data>
   <data name="label1.Text" xml:space="preserve">
     <value>Compression</value>
   </data>
@@ -170,6 +167,9 @@
   </data>
   <data name="saveAsButton.Text" xml:space="preserve">
     <value>Save As...</value>
+  </data>
+  <data name="encodeFilesImmediatelyCheckBox.Text" xml:space="preserve">
+    <value>Encode Files Immediately</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib">
     <value>True</value>

@@ -112,19 +112,13 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="$this.Text" xml:space="preserve">
     <value>Document Security</value>
-  </data>
-  <data name="label13.Text" xml:space="preserve">
-    <value>Extract Text and Graphics (for Accessibility):</value>
-  </data>
-  <data name="extractTextAndGraphicsForAccessibilityLabel.Text" xml:space="preserve">
-    <value>Allowed</value>
   </data>
   <data name="label10.Text" xml:space="preserve">
     <value>Adobe Acrobat Compatibility:</value>
@@ -141,37 +135,43 @@
   <data name="label2.Text" xml:space="preserve">
     <value>Printing:</value>
   </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>Modify Contents:</value>
-  </data>
-  <data name="label4.Text" xml:space="preserve">
-    <value>Fill Interactive Form Fields:</value>
-  </data>
-  <data name="label5.Text" xml:space="preserve">
-    <value>Modify Annotations:</value>
-  </data>
   <data name="label6.Text" xml:space="preserve">
     <value>Extract Text and Graphics:</value>
   </data>
-  <data name="label7.Text" xml:space="preserve">
-    <value>Assemble Document:</value>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Modify Contents:</value>
   </data>
-  <data name="printingLabel.Text" xml:space="preserve">
-    <value>Allowed</value>
-  </data>
-  <data name="extractTextAndGraphicsLabel.Text" xml:space="preserve">
+  <data name="modifyAnnotationLabel.Text" xml:space="preserve">
     <value>Allowed</value>
   </data>
   <data name="modifyContentsLabel.Text" xml:space="preserve">
     <value>Allowed</value>
   </data>
-  <data name="modifyAnnotationLabel.Text" xml:space="preserve">
+  <data name="label5.Text" xml:space="preserve">
+    <value>Modify Annotations:</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Fill Interactive Form Fields:</value>
+  </data>
+  <data name="extractTextAndGraphicsLabel.Text" xml:space="preserve">
+    <value>Allowed</value>
+  </data>
+  <data name="extractTextAndGraphicsForAccessibilityLabel.Text" xml:space="preserve">
     <value>Allowed</value>
   </data>
   <data name="fillInteractiveFormFieldsLabel.Text" xml:space="preserve">
     <value>Allowed</value>
   </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Assemble Document:</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>Extract Text and Graphics (for Accessibility):</value>
+  </data>
   <data name="assembleDocumentLabel.Text" xml:space="preserve">
+    <value>Allowed</value>
+  </data>
+  <data name="printingLabel.Text" xml:space="preserve">
     <value>Allowed</value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">

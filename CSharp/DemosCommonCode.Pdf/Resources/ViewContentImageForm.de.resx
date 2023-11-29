@@ -120,20 +120,14 @@
   <data name="$this.Text" xml:space="preserve">
     <value>Inhaltsbild anzeigen</value>
   </data>
-  <data name="transformedImageRadioButton.Text" xml:space="preserve">
-    <value>Transformiert</value>
-  </data>
-  <data name="originalImageRadioButton.Text" xml:space="preserve">
-    <value>Original</value>
-  </data>
-  <data name="groupBox1.Text" xml:space="preserve">
-    <value>Anzeigen</value>
-  </data>
-  <data name="saveAsButton.Text" xml:space="preserve">
-    <value>Speichern unter...</value>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Informationen</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>Originalgröße</value>
+  </data>
+  <data name="compressedSizeLabel.Text" xml:space="preserve">
+    <value>0 Bytes</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
     <value>Komprimierung</value>
@@ -144,13 +138,19 @@
   <data name="regionGroupBox.Text" xml:space="preserve">
     <value>Bereich im Seiteninhalt (Auflösung: 0)</value>
   </data>
-  <data name="compressedSizeLabel.Text" xml:space="preserve">
-    <value>0 Bytes</value>
-  </data>
-  <data name="groupBox2.Text" xml:space="preserve">
-    <value>Informationen</value>
+  <data name="saveAsButton.Text" xml:space="preserve">
+    <value>Speichern unter...</value>
   </data>
   <data name="viewResourceButton.Text" xml:space="preserve">
     <value>Ressource anzeigen...</value>
+  </data>
+  <data name="transformedImageRadioButton.Text" xml:space="preserve">
+    <value>Transformiert</value>
+  </data>
+  <data name="originalImageRadioButton.Text" xml:space="preserve">
+    <value>Original</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Anzeigen</value>
   </data>
 </root>

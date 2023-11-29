@@ -43,13 +43,18 @@ namespace DemosCommonCode.Pdf
             this.destRadioButton = new System.Windows.Forms.RadioButton();
             this.actionRadioButton = new System.Windows.Forms.RadioButton();
             this.editActionButton = new System.Windows.Forms.Button();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             ((System.ComponentModel.ISupportInitialize)(this.pageNumber)).BeginInit();
+            this.tableLayoutPanel1.SuspendLayout();
+            this.tableLayoutPanel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // buttonCancel
             // 
+            this.buttonCancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.buttonCancel.Location = new System.Drawing.Point(216, 130);
+            this.buttonCancel.Location = new System.Drawing.Point(109, 3);
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(75, 27);
             this.buttonCancel.TabIndex = 5;
@@ -59,7 +64,8 @@ namespace DemosCommonCode.Pdf
             // 
             // okButton
             // 
-            this.okButton.Location = new System.Drawing.Point(135, 130);
+            this.okButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.okButton.Location = new System.Drawing.Point(28, 3);
             this.okButton.Name = "okButton";
             this.okButton.Size = new System.Drawing.Size(75, 27);
             this.okButton.TabIndex = 4;
@@ -69,46 +75,53 @@ namespace DemosCommonCode.Pdf
             // 
             // label1
             // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(11, 15);
+            this.label1.Location = new System.Drawing.Point(3, 6);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(29, 15);
+            this.label1.Size = new System.Drawing.Size(27, 13);
             this.label1.TabIndex = 6;
             resources.ApplyResources(this.label1, "label1");
             // 
             // bookmarkTitle
             // 
-            this.bookmarkTitle.Location = new System.Drawing.Point(132, 12);
+            this.bookmarkTitle.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.tableLayoutPanel1.SetColumnSpan(this.bookmarkTitle, 3);
+            this.bookmarkTitle.Location = new System.Drawing.Point(115, 3);
+            this.bookmarkTitle.MinimumSize = new System.Drawing.Size(120, 0);
             this.bookmarkTitle.Name = "bookmarkTitle";
-            this.bookmarkTitle.Size = new System.Drawing.Size(157, 23);
+            this.bookmarkTitle.Size = new System.Drawing.Size(181, 20);
             this.bookmarkTitle.TabIndex = 7;
             resources.ApplyResources(this.bookmarkTitle, "bookmarkTitle");
             // 
             // bookmarkTextBold
             // 
+            this.bookmarkTextBold.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.bookmarkTextBold.AutoSize = true;
-            this.bookmarkTextBold.Location = new System.Drawing.Point(161, 95);
+            this.bookmarkTextBold.Location = new System.Drawing.Point(169, 87);
             this.bookmarkTextBold.Name = "bookmarkTextBold";
-            this.bookmarkTextBold.Size = new System.Drawing.Size(50, 19);
+            this.bookmarkTextBold.Size = new System.Drawing.Size(47, 17);
             this.bookmarkTextBold.TabIndex = 8;
             resources.ApplyResources(this.bookmarkTextBold, "bookmarkTextBold");
             this.bookmarkTextBold.UseVisualStyleBackColor = true;
             // 
             // bookmarkTextItalic
             // 
+            this.bookmarkTextItalic.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.bookmarkTextItalic.AutoSize = true;
-            this.bookmarkTextItalic.Location = new System.Drawing.Point(107, 95);
+            this.bookmarkTextItalic.Location = new System.Drawing.Point(115, 87);
             this.bookmarkTextItalic.Name = "bookmarkTextItalic";
-            this.bookmarkTextItalic.Size = new System.Drawing.Size(51, 19);
+            this.bookmarkTextItalic.Size = new System.Drawing.Size(48, 17);
             this.bookmarkTextItalic.TabIndex = 9;
             resources.ApplyResources(this.bookmarkTextItalic, "bookmarkTextItalic");
             this.bookmarkTextItalic.UseVisualStyleBackColor = true;
             // 
             // colorButton
             // 
-            this.colorButton.Location = new System.Drawing.Point(12, 91);
+            this.colorButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.colorButton.Location = new System.Drawing.Point(3, 84);
             this.colorButton.Name = "colorButton";
-            this.colorButton.Size = new System.Drawing.Size(75, 23);
+            this.colorButton.Size = new System.Drawing.Size(106, 23);
             this.colorButton.TabIndex = 10;
             resources.ApplyResources(this.colorButton, "colorButton");
             this.colorButton.UseVisualStyleBackColor = true;
@@ -116,17 +129,20 @@ namespace DemosCommonCode.Pdf
             // 
             // bookmarkExpanded
             // 
+            this.bookmarkExpanded.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.bookmarkExpanded.AutoSize = true;
-            this.bookmarkExpanded.Location = new System.Drawing.Point(214, 95);
+            this.bookmarkExpanded.Location = new System.Drawing.Point(222, 87);
             this.bookmarkExpanded.Name = "bookmarkExpanded";
-            this.bookmarkExpanded.Size = new System.Drawing.Size(78, 19);
+            this.bookmarkExpanded.Size = new System.Drawing.Size(74, 17);
             this.bookmarkExpanded.TabIndex = 11;
             resources.ApplyResources(this.bookmarkExpanded, "bookmarkExpanded");
             this.bookmarkExpanded.UseVisualStyleBackColor = true;
             // 
             // pageNumber
             // 
-            this.pageNumber.Location = new System.Drawing.Point(132, 37);
+            this.pageNumber.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.tableLayoutPanel1.SetColumnSpan(this.pageNumber, 3);
+            this.pageNumber.Location = new System.Drawing.Point(115, 29);
             this.pageNumber.Maximum = new decimal(new int[] {
             1,
             0,
@@ -137,8 +153,9 @@ namespace DemosCommonCode.Pdf
             0,
             0,
             0});
+            this.pageNumber.MinimumSize = new System.Drawing.Size(120, 0);
             this.pageNumber.Name = "pageNumber";
-            this.pageNumber.Size = new System.Drawing.Size(89, 23);
+            this.pageNumber.Size = new System.Drawing.Size(181, 20);
             this.pageNumber.TabIndex = 13;
             this.pageNumber.Value = new decimal(new int[] {
             1,
@@ -148,20 +165,22 @@ namespace DemosCommonCode.Pdf
             // 
             // addToRootCheckBox
             // 
+            this.addToRootCheckBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.addToRootCheckBox.AutoSize = true;
-            this.addToRootCheckBox.Location = new System.Drawing.Point(12, 132);
+            this.addToRootCheckBox.Location = new System.Drawing.Point(3, 118);
             this.addToRootCheckBox.Name = "addToRootCheckBox";
-            this.addToRootCheckBox.Size = new System.Drawing.Size(91, 19);
+            this.addToRootCheckBox.Size = new System.Drawing.Size(87, 17);
             this.addToRootCheckBox.TabIndex = 14;
             resources.ApplyResources(this.addToRootCheckBox, "addToRootCheckBox");
             this.addToRootCheckBox.UseVisualStyleBackColor = true;
             // 
             // destRadioButton
             // 
+            this.destRadioButton.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.destRadioButton.AutoSize = true;
-            this.destRadioButton.Location = new System.Drawing.Point(12, 37);
+            this.destRadioButton.Location = new System.Drawing.Point(3, 30);
             this.destRadioButton.Name = "destRadioButton";
-            this.destRadioButton.Size = new System.Drawing.Size(114, 19);
+            this.destRadioButton.Size = new System.Drawing.Size(106, 17);
             this.destRadioButton.TabIndex = 15;
             this.destRadioButton.TabStop = true;
             resources.ApplyResources(this.destRadioButton, "destRadioButton");
@@ -169,10 +188,11 @@ namespace DemosCommonCode.Pdf
             // 
             // actionRadioButton
             // 
+            this.actionRadioButton.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.actionRadioButton.AutoSize = true;
-            this.actionRadioButton.Location = new System.Drawing.Point(12, 60);
+            this.actionRadioButton.Location = new System.Drawing.Point(3, 58);
             this.actionRadioButton.Name = "actionRadioButton";
-            this.actionRadioButton.Size = new System.Drawing.Size(60, 19);
+            this.actionRadioButton.Size = new System.Drawing.Size(55, 17);
             this.actionRadioButton.TabIndex = 16;
             this.actionRadioButton.TabStop = true;
             resources.ApplyResources(this.actionRadioButton, "actionRadioButton");
@@ -181,34 +201,78 @@ namespace DemosCommonCode.Pdf
             // 
             // editActionButton
             // 
+            this.editActionButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.editActionButton.AutoSize = true;
+            this.editActionButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.tableLayoutPanel1.SetColumnSpan(this.editActionButton, 3);
             this.editActionButton.Enabled = false;
-            this.editActionButton.Location = new System.Drawing.Point(132, 58);
+            this.editActionButton.Location = new System.Drawing.Point(115, 55);
             this.editActionButton.Name = "editActionButton";
-            this.editActionButton.Size = new System.Drawing.Size(89, 23);
+            this.editActionButton.Size = new System.Drawing.Size(181, 23);
             this.editActionButton.TabIndex = 17;
             resources.ApplyResources(this.editActionButton, "editActionButton");
             this.editActionButton.UseVisualStyleBackColor = true;
             this.editActionButton.Click += new System.EventHandler(this.editActionButton_Click);
             // 
+            // tableLayoutPanel1
+            // 
+            this.tableLayoutPanel1.AutoSize = true;
+            this.tableLayoutPanel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.tableLayoutPanel1.ColumnCount = 4;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel2, 1, 4);
+            this.tableLayoutPanel1.Controls.Add(this.label1, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.actionRadioButton, 0, 2);
+            this.tableLayoutPanel1.Controls.Add(this.addToRootCheckBox, 0, 4);
+            this.tableLayoutPanel1.Controls.Add(this.bookmarkExpanded, 3, 3);
+            this.tableLayoutPanel1.Controls.Add(this.editActionButton, 1, 2);
+            this.tableLayoutPanel1.Controls.Add(this.bookmarkTextBold, 2, 3);
+            this.tableLayoutPanel1.Controls.Add(this.bookmarkTextItalic, 1, 3);
+            this.tableLayoutPanel1.Controls.Add(this.colorButton, 0, 3);
+            this.tableLayoutPanel1.Controls.Add(this.destRadioButton, 0, 1);
+            this.tableLayoutPanel1.Controls.Add(this.bookmarkTitle, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.pageNumber, 1, 1);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(12, 12);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 5;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(299, 143);
+            this.tableLayoutPanel1.TabIndex = 18;
+            // 
+            // tableLayoutPanel2
+            // 
+            this.tableLayoutPanel2.AutoSize = true;
+            this.tableLayoutPanel2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.tableLayoutPanel2.ColumnCount = 2;
+            this.tableLayoutPanel1.SetColumnSpan(this.tableLayoutPanel2, 3);
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel2.Controls.Add(this.okButton, 0, 0);
+            this.tableLayoutPanel2.Controls.Add(this.buttonCancel, 1, 0);
+            this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(112, 110);
+            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(0);
+            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
+            this.tableLayoutPanel2.RowCount = 1;
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(187, 33);
+            this.tableLayoutPanel2.TabIndex = 19;
+            // 
             // EditBookmarkNodeForm
             // 
             this.AcceptButton = this.okButton;
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.AutoSize = true;
             this.CancelButton = this.buttonCancel;
-            this.ClientSize = new System.Drawing.Size(301, 165);
-            this.Controls.Add(this.editActionButton);
-            this.Controls.Add(this.actionRadioButton);
-            this.Controls.Add(this.destRadioButton);
-            this.Controls.Add(this.addToRootCheckBox);
-            this.Controls.Add(this.pageNumber);
-            this.Controls.Add(this.bookmarkExpanded);
-            this.Controls.Add(this.colorButton);
-            this.Controls.Add(this.bookmarkTextItalic);
-            this.Controls.Add(this.bookmarkTextBold);
-            this.Controls.Add(this.bookmarkTitle);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.buttonCancel);
-            this.Controls.Add(this.okButton);
+            this.ClientSize = new System.Drawing.Size(324, 166);
+            this.Controls.Add(this.tableLayoutPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -216,6 +280,9 @@ namespace DemosCommonCode.Pdf
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             resources.ApplyResources(this, "$this");
             ((System.ComponentModel.ISupportInitialize)(this.pageNumber)).EndInit();
+            this.tableLayoutPanel1.ResumeLayout(false);
+            this.tableLayoutPanel1.PerformLayout();
+            this.tableLayoutPanel2.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -237,5 +304,7 @@ namespace DemosCommonCode.Pdf
         private System.Windows.Forms.RadioButton destRadioButton;
         private System.Windows.Forms.RadioButton actionRadioButton;
         private System.Windows.Forms.Button editActionButton;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
     }
 }

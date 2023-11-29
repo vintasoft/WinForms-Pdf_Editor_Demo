@@ -342,6 +342,9 @@
   <data name="bookmarksToolStripMenuItem.Text" xml:space="preserve">
     <value>Lesezeichen</value>
   </data>
+  <data name="addLongTimeValidationInfoLTVToolStripMenuItem.Text" xml:space="preserve">
+    <value>Informationen zur Langzeitvalidierung (LTV) hinzufügen</value>
+  </data>
   <data name="removeAllSignaturesToolStripMenuItem.Text" xml:space="preserve">
     <value>Alle Signaturfelder entfernen</value>
   </data>

@@ -168,7 +168,7 @@ namespace DemosCommonCode.Pdf
             | System.Windows.Forms.AnchorStyles.Right)));
             this.defaultCompressionParamsButton.Location = new System.Drawing.Point(3, 3);
             this.defaultCompressionParamsButton.Name = "defaultCompressionParamsButton";
-            this.defaultCompressionParamsButton.Size = new System.Drawing.Size(184, 23);
+            this.defaultCompressionParamsButton.Size = new System.Drawing.Size(184, 41);
             this.defaultCompressionParamsButton.TabIndex = 10;
             resources.ApplyResources(this.defaultCompressionParamsButton, "defaultCompressionParamsButton");
             this.defaultCompressionParamsButton.UseVisualStyleBackColor = true;
@@ -179,9 +179,9 @@ namespace DemosCommonCode.Pdf
             this.propertyGrid.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.propertyGrid.Location = new System.Drawing.Point(3, 32);
+            this.propertyGrid.Location = new System.Drawing.Point(3, 50);
             this.propertyGrid.Name = "propertyGrid";
-            this.propertyGrid.Size = new System.Drawing.Size(184, 395);
+            this.propertyGrid.Size = new System.Drawing.Size(184, 377);
             this.propertyGrid.TabIndex = 0;
             this.propertyGrid.PropertyValueChanged += new System.Windows.Forms.PropertyValueChangedEventHandler(this.propertyGrid_PropertyValueChanged);
             // 

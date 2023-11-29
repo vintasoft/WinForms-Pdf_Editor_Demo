@@ -112,19 +112,19 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="$this.Text" xml:space="preserve">
     <value>Document Security Settings</value>
   </data>
-  <data name="label4.Text" xml:space="preserve">
-    <value>Compatibility</value>
-  </data>
   <data name="securityMethodLabel.Text" xml:space="preserve">
     <value>securityMethodLabel</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Compatibility</value>
   </data>
   <data name="securitySettingsGroupBox.Text" xml:space="preserve">
     <value>Security Settings</value>
@@ -138,41 +138,41 @@
   <data name="dontChangeRadioButton.Text" xml:space="preserve">
     <value>Don\&#39;t Change</value>
   </data>
-  <data name="printInLowQualityCheckBox.Text" xml:space="preserve">
-    <value>Print in Low Quality</value>
-  </data>
-  <data name="printInHighQualityCheckBox.Text" xml:space="preserve">
-    <value>Print in High Quaity</value>
-  </data>
   <data name="modifyContentsCheckBox.Text" xml:space="preserve">
     <value>Modify Contents</value>
   </data>
   <data name="extractTextAndGraphicsCheckBox.Text" xml:space="preserve">
     <value>Extract Text and Graphics</value>
   </data>
-  <data name="fillInteractiveFormFieldsCheckBox.Text" xml:space="preserve">
-    <value>Fill Interactive Form Fields</value>
+  <data name="printInHighQualityCheckBox.Text" xml:space="preserve">
+    <value>Print in High Quaity</value>
   </data>
   <data name="modifyAnnotationsCheckBox.Text" xml:space="preserve">
     <value>Modify Annotations</value>
   </data>
-  <data name="assembleDocumentCheckBox.Text" xml:space="preserve">
-    <value>Assemble Document</value>
+  <data name="fillInteractiveFormFieldsCheckBox.Text" xml:space="preserve">
+    <value>Fill Interactive Form Fields</value>
   </data>
   <data name="extractTextAndGraphicsForAccessibilityCheckBox.Text" xml:space="preserve">
     <value>Extract Text and Graphics (for Accessibility)</value>
   </data>
+  <data name="assembleDocumentCheckBox.Text" xml:space="preserve">
+    <value>Assemble Document</value>
+  </data>
+  <data name="printInLowQualityCheckBox.Text" xml:space="preserve">
+    <value>Print in Low Quality</value>
+  </data>
   <data name="permissionsGroupBox.Text" xml:space="preserve">
     <value>User Permissions</value>
-  </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>Owner</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
     <value>User</value>
   </data>
   <data name="showPasswordsCheckBox.Text" xml:space="preserve">
     <value>Show Passwords</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Owner</value>
   </data>
   <data name="passwordsGroupBox.Text" xml:space="preserve">
     <value>Document Passwords</value>

@@ -29,36 +29,42 @@ namespace DemosCommonCode.Pdf.Security
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RedactionMarkAppearanceEditor));
-            Vintasoft.Imaging.Utils.WinFormsSystemClipboard winFormsSystemClipboard1 = new Vintasoft.Imaging.Utils.WinFormsSystemClipboard();
-            Vintasoft.Imaging.Codecs.Decoders.RenderingSettings renderingSettings1 = new Vintasoft.Imaging.Codecs.Decoders.RenderingSettings();
+            Vintasoft.Imaging.Utils.WinFormsSystemClipboard winFormsSystemClipboard2 = new Vintasoft.Imaging.Utils.WinFormsSystemClipboard();
+            Vintasoft.Imaging.Codecs.Decoders.RenderingSettings renderingSettings2 = new Vintasoft.Imaging.Codecs.Decoders.RenderingSettings();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.redactionMarkEditor = new Vintasoft.Imaging.UI.ImageViewer();
             this.buttonOk = new System.Windows.Forms.Button();
             this.isFillColorEnabledCheckBox = new System.Windows.Forms.CheckBox();
             this.overlayTextGroupBox = new System.Windows.Forms.GroupBox();
-            this.fontColorPanelControl = new DemosCommonCode.CustomControls.ColorPanelControl();
-            this.label3 = new System.Windows.Forms.Label();
+            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.alignmentComboBox = new System.Windows.Forms.ComboBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.autoFontSizeCheckBox = new System.Windows.Forms.CheckBox();
+            this.overlayTextBox = new System.Windows.Forms.TextBox();
+            this.fontColorPanelControl = new DemosCommonCode.CustomControls.ColorPanelControl();
+            this.fontButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.fontSizeNumericUpDown = new System.Windows.Forms.NumericUpDown();
-            this.fontButton = new System.Windows.Forms.Button();
-            this.overlayTextBox = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.autoFontSizeCheckBox = new System.Windows.Forms.CheckBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.fillColorPanelControl = new DemosCommonCode.CustomControls.ColorPanelControl();
             this.fillColorGroupBox = new System.Windows.Forms.GroupBox();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.fillColorLabel = new System.Windows.Forms.Label();
             this.borderPropertiesGroupBox = new System.Windows.Forms.GroupBox();
-            this.borderWidthNumericUpDown = new System.Windows.Forms.NumericUpDown();
-            this.borderWidthLabel = new System.Windows.Forms.Label();
-            this.borderColorPanelControl = new DemosCommonCode.CustomControls.ColorPanelControl();
+            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.borderColorLabel = new System.Windows.Forms.Label();
+            this.borderWidthNumericUpDown = new System.Windows.Forms.NumericUpDown();
+            this.borderColorPanelControl = new DemosCommonCode.CustomControls.ColorPanelControl();
+            this.borderWidthLabel = new System.Windows.Forms.Label();
             this.isBorderPropertiesEnabledCheckBox = new System.Windows.Forms.CheckBox();
             this.groupBox4.SuspendLayout();
             this.overlayTextGroupBox.SuspendLayout();
+            this.tableLayoutPanel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.fontSizeNumericUpDown)).BeginInit();
             this.fillColorGroupBox.SuspendLayout();
+            this.tableLayoutPanel1.SuspendLayout();
             this.borderPropertiesGroupBox.SuspendLayout();
+            this.tableLayoutPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.borderWidthNumericUpDown)).BeginInit();
             this.SuspendLayout();
             // 
@@ -81,8 +87,9 @@ namespace DemosCommonCode.Pdf.Security
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.redactionMarkEditor.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.redactionMarkEditor.Clipboard = winFormsSystemClipboard1;
-            this.redactionMarkEditor.ImageRenderingSettings = renderingSettings1;
+            this.redactionMarkEditor.Clipboard = winFormsSystemClipboard2;
+            this.redactionMarkEditor.ImageRenderingSettings = renderingSettings2;
+            this.redactionMarkEditor.ImageRotationAngle = 0;
             this.redactionMarkEditor.Location = new System.Drawing.Point(6, 19);
             this.redactionMarkEditor.Name = "redactionMarkEditor";
             this.redactionMarkEditor.Size = new System.Drawing.Size(528, 275);
@@ -116,78 +123,95 @@ namespace DemosCommonCode.Pdf.Security
             // 
             this.overlayTextGroupBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.overlayTextGroupBox.Controls.Add(this.fontColorPanelControl);
+            this.overlayTextGroupBox.Controls.Add(this.tableLayoutPanel3);
             this.overlayTextGroupBox.Controls.Add(this.label3);
-            this.overlayTextGroupBox.Controls.Add(this.alignmentComboBox);
-            this.overlayTextGroupBox.Controls.Add(this.label2);
-            this.overlayTextGroupBox.Controls.Add(this.autoFontSizeCheckBox);
-            this.overlayTextGroupBox.Controls.Add(this.label1);
-            this.overlayTextGroupBox.Controls.Add(this.fontSizeNumericUpDown);
-            this.overlayTextGroupBox.Controls.Add(this.fontButton);
-            this.overlayTextGroupBox.Controls.Add(this.overlayTextBox);
             this.overlayTextGroupBox.Location = new System.Drawing.Point(3, 83);
             this.overlayTextGroupBox.Name = "overlayTextGroupBox";
             this.overlayTextGroupBox.Size = new System.Drawing.Size(540, 78);
             this.overlayTextGroupBox.TabIndex = 14;
             this.overlayTextGroupBox.TabStop = false;
             // 
+            // tableLayoutPanel3
+            // 
+            this.tableLayoutPanel3.ColumnCount = 6;
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel3.Controls.Add(this.overlayTextBox, 0, 0);
+            this.tableLayoutPanel3.Controls.Add(this.fontColorPanelControl, 5, 1);
+            this.tableLayoutPanel3.Controls.Add(this.alignmentComboBox, 4, 0);
+            this.tableLayoutPanel3.Controls.Add(this.fontButton, 0, 1);
+            this.tableLayoutPanel3.Controls.Add(this.label1, 1, 1);
+            this.tableLayoutPanel3.Controls.Add(this.fontSizeNumericUpDown, 2, 1);
+            this.tableLayoutPanel3.Controls.Add(this.label2, 4, 1);
+            this.tableLayoutPanel3.Controls.Add(this.autoFontSizeCheckBox, 3, 1);
+            this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(3, 16);
+            this.tableLayoutPanel3.Margin = new System.Windows.Forms.Padding(0);
+            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
+            this.tableLayoutPanel3.RowCount = 2;
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(534, 59);
+            this.tableLayoutPanel3.TabIndex = 27;
+            // 
+            // alignmentComboBox
+            // 
+            this.alignmentComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.tableLayoutPanel3.SetColumnSpan(this.alignmentComboBox, 2);
+            this.alignmentComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.alignmentComboBox.FormattingEnabled = true;
+            this.alignmentComboBox.Location = new System.Drawing.Point(305, 4);
+            this.alignmentComboBox.Name = "alignmentComboBox";
+            this.alignmentComboBox.Size = new System.Drawing.Size(226, 21);
+            this.alignmentComboBox.TabIndex = 25;
+            this.alignmentComboBox.SelectedIndexChanged += new System.EventHandler(this.alignmentComboBox_SelectedIndexChanged);
+            // 
+            // overlayTextBox
+            // 
+            this.overlayTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.tableLayoutPanel3.SetColumnSpan(this.overlayTextBox, 4);
+            this.overlayTextBox.Location = new System.Drawing.Point(3, 4);
+            this.overlayTextBox.Multiline = true;
+            this.overlayTextBox.Name = "overlayTextBox";
+            this.overlayTextBox.Size = new System.Drawing.Size(296, 20);
+            this.overlayTextBox.TabIndex = 14;
+            this.overlayTextBox.TextChanged += new System.EventHandler(this.overlayTextBox_TextChanged);
+            // 
             // fontColorPanelControl
             // 
+            this.fontColorPanelControl.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.fontColorPanelControl.Color = System.Drawing.SystemColors.Control;
             this.fontColorPanelControl.ColorButtonMargin = 6;
             this.fontColorPanelControl.ColorButtonWidth = 38;
             this.fontColorPanelControl.DefaultColor = System.Drawing.Color.Empty;
-            this.fontColorPanelControl.Location = new System.Drawing.Point(448, 43);
+            this.fontColorPanelControl.Location = new System.Drawing.Point(366, 33);
             this.fontColorPanelControl.Name = "fontColorPanelControl";
-            this.fontColorPanelControl.Size = new System.Drawing.Size(85, 22);
+            this.fontColorPanelControl.Size = new System.Drawing.Size(165, 22);
             this.fontColorPanelControl.TabIndex = 4;
             this.fontColorPanelControl.ColorChanged += new System.EventHandler(this.fontColorPanelControl_ColorChanged);
             // 
-            // label3
+            // fontButton
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(9, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(67, 13);
-            this.label3.TabIndex = 26;
-            resources.ApplyResources(this.label3, "label3");
-            // 
-            // alignmentComboBox
-            // 
-            this.alignmentComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.alignmentComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.alignmentComboBox.FormattingEnabled = true;
-            this.alignmentComboBox.Location = new System.Drawing.Point(390, 18);
-            this.alignmentComboBox.Name = "alignmentComboBox";
-            this.alignmentComboBox.Size = new System.Drawing.Size(143, 21);
-            this.alignmentComboBox.TabIndex = 25;
-            this.alignmentComboBox.SelectedIndexChanged += new System.EventHandler(this.alignmentComboBox_SelectedIndexChanged);
-            // 
-            // label2
-            // 
-            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(387, 48);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(55, 13);
-            this.label2.TabIndex = 21;
-            resources.ApplyResources(this.label2, "label2");
-            // 
-            // autoFontSizeCheckBox
-            // 
-            this.autoFontSizeCheckBox.AutoSize = true;
-            this.autoFontSizeCheckBox.Location = new System.Drawing.Point(213, 48);
-            this.autoFontSizeCheckBox.Name = "autoFontSizeCheckBox";
-            this.autoFontSizeCheckBox.Size = new System.Drawing.Size(95, 17);
-            this.autoFontSizeCheckBox.TabIndex = 18;
-            resources.ApplyResources(this.autoFontSizeCheckBox, "autoFontSizeCheckBox");
-            this.autoFontSizeCheckBox.UseVisualStyleBackColor = true;
-            this.autoFontSizeCheckBox.CheckedChanged += new System.EventHandler(this.autoFontSizeCheckBox_CheckedChanged);
+            this.fontButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.fontButton.AutoSize = true;
+            this.fontButton.Location = new System.Drawing.Point(3, 32);
+            this.fontButton.Name = "fontButton";
+            this.fontButton.Size = new System.Drawing.Size(75, 23);
+            this.fontButton.TabIndex = 15;
+            resources.ApplyResources(this.fontButton, "fontButton");
+            this.fontButton.UseVisualStyleBackColor = true;
+            this.fontButton.Click += new System.EventHandler(this.fontButton_Click);
             // 
             // label1
             // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(88, 49);
+            this.label1.Location = new System.Drawing.Point(84, 37);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(51, 13);
             this.label1.TabIndex = 17;
@@ -195,7 +219,8 @@ namespace DemosCommonCode.Pdf.Security
             // 
             // fontSizeNumericUpDown
             // 
-            this.fontSizeNumericUpDown.Location = new System.Drawing.Point(145, 46);
+            this.fontSizeNumericUpDown.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.fontSizeNumericUpDown.Location = new System.Drawing.Point(141, 34);
             this.fontSizeNumericUpDown.Maximum = new decimal(new int[] {
             1000,
             0,
@@ -216,53 +241,80 @@ namespace DemosCommonCode.Pdf.Security
             0});
             this.fontSizeNumericUpDown.ValueChanged += new System.EventHandler(this.fontSizeNumericUpDown_ValueChanged);
             // 
-            // fontButton
+            // label2
             // 
-            this.fontButton.Location = new System.Drawing.Point(6, 44);
-            this.fontButton.Name = "fontButton";
-            this.fontButton.Size = new System.Drawing.Size(75, 23);
-            this.fontButton.TabIndex = 15;
-            resources.ApplyResources(this.fontButton, "fontButton");
-            this.fontButton.UseVisualStyleBackColor = true;
-            this.fontButton.Click += new System.EventHandler(this.fontButton_Click);
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(305, 37);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(55, 13);
+            this.label2.TabIndex = 21;
+            resources.ApplyResources(this.label2, "label2");
             // 
-            // overlayTextBox
+            // autoFontSizeCheckBox
             // 
-            this.overlayTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.overlayTextBox.Location = new System.Drawing.Point(6, 19);
-            this.overlayTextBox.Multiline = true;
-            this.overlayTextBox.Name = "overlayTextBox";
-            this.overlayTextBox.Size = new System.Drawing.Size(378, 20);
-            this.overlayTextBox.TabIndex = 14;
-            this.overlayTextBox.TextChanged += new System.EventHandler(this.overlayTextBox_TextChanged);
+            this.autoFontSizeCheckBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.autoFontSizeCheckBox.AutoSize = true;
+            this.autoFontSizeCheckBox.Location = new System.Drawing.Point(204, 35);
+            this.autoFontSizeCheckBox.Name = "autoFontSizeCheckBox";
+            this.autoFontSizeCheckBox.Size = new System.Drawing.Size(95, 17);
+            this.autoFontSizeCheckBox.TabIndex = 18;
+            resources.ApplyResources(this.autoFontSizeCheckBox, "autoFontSizeCheckBox");
+            this.autoFontSizeCheckBox.UseVisualStyleBackColor = true;
+            this.autoFontSizeCheckBox.CheckedChanged += new System.EventHandler(this.autoFontSizeCheckBox_CheckedChanged);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(9, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(67, 13);
+            this.label3.TabIndex = 26;
+            resources.ApplyResources(this.label3, "label3");
             // 
             // fillColorPanelControl
             // 
+            this.fillColorPanelControl.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.fillColorPanelControl.Color = System.Drawing.SystemColors.Control;
             this.fillColorPanelControl.ColorButtonMargin = 6;
             this.fillColorPanelControl.ColorButtonWidth = 40;
             this.fillColorPanelControl.DefaultColor = System.Drawing.Color.Empty;
-            this.fillColorPanelControl.Location = new System.Drawing.Point(49, 26);
+            this.fillColorPanelControl.Location = new System.Drawing.Point(40, 11);
             this.fillColorPanelControl.Name = "fillColorPanelControl";
-            this.fillColorPanelControl.Size = new System.Drawing.Size(195, 19);
+            this.fillColorPanelControl.Size = new System.Drawing.Size(218, 19);
             this.fillColorPanelControl.TabIndex = 15;
             this.fillColorPanelControl.ColorChanged += new System.EventHandler(this.fillColorPanelControl_ColorChanged);
             // 
             // fillColorGroupBox
             // 
-            this.fillColorGroupBox.Controls.Add(this.fillColorLabel);
-            this.fillColorGroupBox.Controls.Add(this.fillColorPanelControl);
+            this.fillColorGroupBox.Controls.Add(this.tableLayoutPanel1);
             this.fillColorGroupBox.Location = new System.Drawing.Point(3, 10);
             this.fillColorGroupBox.Name = "fillColorGroupBox";
             this.fillColorGroupBox.Size = new System.Drawing.Size(267, 60);
             this.fillColorGroupBox.TabIndex = 16;
             this.fillColorGroupBox.TabStop = false;
             // 
+            // tableLayoutPanel1
+            // 
+            this.tableLayoutPanel1.ColumnCount = 2;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel1.Controls.Add(this.fillColorLabel, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.fillColorPanelControl, 1, 0);
+            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(3, 16);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(0);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 1;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(261, 41);
+            this.tableLayoutPanel1.TabIndex = 4;
+            // 
             // fillColorLabel
             // 
+            this.fillColorLabel.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.fillColorLabel.AutoSize = true;
-            this.fillColorLabel.Location = new System.Drawing.Point(12, 28);
+            this.fillColorLabel.Location = new System.Drawing.Point(3, 14);
             this.fillColorLabel.Name = "fillColorLabel";
             this.fillColorLabel.Size = new System.Drawing.Size(31, 13);
             this.fillColorLabel.TabIndex = 16;
@@ -270,51 +322,72 @@ namespace DemosCommonCode.Pdf.Security
             // 
             // borderPropertiesGroupBox
             // 
-            this.borderPropertiesGroupBox.Controls.Add(this.borderWidthNumericUpDown);
-            this.borderPropertiesGroupBox.Controls.Add(this.borderWidthLabel);
-            this.borderPropertiesGroupBox.Controls.Add(this.borderColorPanelControl);
-            this.borderPropertiesGroupBox.Controls.Add(this.borderColorLabel);
+            this.borderPropertiesGroupBox.Controls.Add(this.tableLayoutPanel2);
             this.borderPropertiesGroupBox.Location = new System.Drawing.Point(276, 10);
             this.borderPropertiesGroupBox.Name = "borderPropertiesGroupBox";
             this.borderPropertiesGroupBox.Size = new System.Drawing.Size(267, 60);
             this.borderPropertiesGroupBox.TabIndex = 16;
             this.borderPropertiesGroupBox.TabStop = false;
             // 
+            // tableLayoutPanel2
+            // 
+            this.tableLayoutPanel2.ColumnCount = 4;
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel2.Controls.Add(this.borderColorLabel, 0, 0);
+            this.tableLayoutPanel2.Controls.Add(this.borderWidthNumericUpDown, 3, 0);
+            this.tableLayoutPanel2.Controls.Add(this.borderColorPanelControl, 1, 0);
+            this.tableLayoutPanel2.Controls.Add(this.borderWidthLabel, 2, 0);
+            this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 16);
+            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(0);
+            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
+            this.tableLayoutPanel2.RowCount = 1;
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(261, 41);
+            this.tableLayoutPanel2.TabIndex = 17;
+            // 
+            // borderColorLabel
+            // 
+            this.borderColorLabel.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.borderColorLabel.AutoSize = true;
+            this.borderColorLabel.Location = new System.Drawing.Point(3, 14);
+            this.borderColorLabel.Name = "borderColorLabel";
+            this.borderColorLabel.Size = new System.Drawing.Size(31, 13);
+            this.borderColorLabel.TabIndex = 0;
+            resources.ApplyResources(this.borderColorLabel, "borderColorLabel");
+            // 
             // borderWidthNumericUpDown
             // 
-            this.borderWidthNumericUpDown.Location = new System.Drawing.Point(212, 25);
+            this.borderWidthNumericUpDown.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.borderWidthNumericUpDown.Location = new System.Drawing.Point(210, 10);
             this.borderWidthNumericUpDown.Name = "borderWidthNumericUpDown";
             this.borderWidthNumericUpDown.Size = new System.Drawing.Size(48, 20);
             this.borderWidthNumericUpDown.TabIndex = 3;
             this.borderWidthNumericUpDown.ValueChanged += new System.EventHandler(this.borderWidthNumericUpDown_ValueChanged);
             // 
+            // borderColorPanelControl
+            // 
+            this.borderColorPanelControl.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.borderColorPanelControl.Color = System.Drawing.Color.Transparent;
+            this.borderColorPanelControl.DefaultColor = System.Drawing.Color.Empty;
+            this.borderColorPanelControl.Location = new System.Drawing.Point(40, 11);
+            this.borderColorPanelControl.Name = "borderColorPanelControl";
+            this.borderColorPanelControl.Size = new System.Drawing.Size(123, 19);
+            this.borderColorPanelControl.TabIndex = 1;
+            this.borderColorPanelControl.ColorChanged += new System.EventHandler(this.borderColorPanelControl_ColorChanged);
+            // 
             // borderWidthLabel
             // 
+            this.borderWidthLabel.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.borderWidthLabel.AutoSize = true;
-            this.borderWidthLabel.Location = new System.Drawing.Point(171, 28);
+            this.borderWidthLabel.Location = new System.Drawing.Point(169, 14);
             this.borderWidthLabel.Name = "borderWidthLabel";
             this.borderWidthLabel.Size = new System.Drawing.Size(35, 13);
             this.borderWidthLabel.TabIndex = 2;
             resources.ApplyResources(this.borderWidthLabel, "borderWidthLabel");
-            // 
-            // borderColorPanelControl
-            // 
-            this.borderColorPanelControl.Color = System.Drawing.Color.Transparent;
-            this.borderColorPanelControl.DefaultColor = System.Drawing.Color.Empty;
-            this.borderColorPanelControl.Location = new System.Drawing.Point(49, 26);
-            this.borderColorPanelControl.Name = "borderColorPanelControl";
-            this.borderColorPanelControl.Size = new System.Drawing.Size(95, 19);
-            this.borderColorPanelControl.TabIndex = 1;
-            this.borderColorPanelControl.ColorChanged += new System.EventHandler(this.borderColorPanelControl_ColorChanged);
-            // 
-            // borderColorLabel
-            // 
-            this.borderColorLabel.AutoSize = true;
-            this.borderColorLabel.Location = new System.Drawing.Point(12, 28);
-            this.borderColorLabel.Name = "borderColorLabel";
-            this.borderColorLabel.Size = new System.Drawing.Size(31, 13);
-            this.borderColorLabel.TabIndex = 0;
-            resources.ApplyResources(this.borderColorLabel, "borderColorLabel");
             // 
             // isBorderPropertiesEnabledCheckBox
             // 
@@ -344,11 +417,15 @@ namespace DemosCommonCode.Pdf.Security
             this.groupBox4.ResumeLayout(false);
             this.overlayTextGroupBox.ResumeLayout(false);
             this.overlayTextGroupBox.PerformLayout();
+            this.tableLayoutPanel3.ResumeLayout(false);
+            this.tableLayoutPanel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.fontSizeNumericUpDown)).EndInit();
             this.fillColorGroupBox.ResumeLayout(false);
-            this.fillColorGroupBox.PerformLayout();
+            this.tableLayoutPanel1.ResumeLayout(false);
+            this.tableLayoutPanel1.PerformLayout();
             this.borderPropertiesGroupBox.ResumeLayout(false);
-            this.borderPropertiesGroupBox.PerformLayout();
+            this.tableLayoutPanel2.ResumeLayout(false);
+            this.tableLayoutPanel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.borderWidthNumericUpDown)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -380,5 +457,8 @@ namespace DemosCommonCode.Pdf.Security
         private CustomControls.ColorPanelControl borderColorPanelControl;
         private System.Windows.Forms.Label borderColorLabel;
         private System.Windows.Forms.CheckBox isBorderPropertiesEnabledCheckBox;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
     }
 }

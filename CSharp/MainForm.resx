@@ -136,7 +136,7 @@
   <data name="addCommentButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wAAADsABataJCQAAABl0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMC4xMK0KCsAAAACDSURBVDhPvY5L
+        vAAADrwBlbxySQAAABl0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMC4xMK0KCsAAAACDSURBVDhPvY5L
         DsAgCAW5/43sPXSlRzFULEiItsqmJmPy+IwCIkI7dLnhXcCcu8dFKUOkxVrPkHkjoAYXtoiEsxpPWQp+
         /YFgBGL1MAm4sGT1APfmxilDEMJ64IvrYgElNnXkqylp7Y2+26eZpwgYow7ssKFFzzJhQ4ueZcIG5zIi
         wg1osVzXB2ZpWAAAAABJRU5ErkJggg==
@@ -699,6 +699,9 @@
   </data>
   <data name="bookmarksToolStripMenuItem.Text" xml:space="preserve">
     <value>Bookmarks</value>
+  </data>
+  <data name="addLongTimeValidationInfoLTVToolStripMenuItem.Text" xml:space="preserve">
+    <value>Add Long-Term Validation (LTV) Info</value>
   </data>
   <data name="removeAllSignaturesToolStripMenuItem.Text" xml:space="preserve">
     <value>Remove All Signature Fields</value>

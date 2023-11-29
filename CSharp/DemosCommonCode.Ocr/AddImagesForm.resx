@@ -112,46 +112,46 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="openFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <metadata name="openImageFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
   <data name="$this.Text" xml:space="preserve">
     <value>Add Images</value>
   </data>
-  <data name="rotateButton.Text" xml:space="preserve">
-    <value>Rotate</value>
-  </data>
-  <data name="invertButton.Text" xml:space="preserve">
-    <value>Invert</value>
-  </data>
-  <data name="adaptiveBinarizeButton.Text" xml:space="preserve">
-    <value>Adaptive Binarize</value>
+  <data name="thresholdBinarizeButton.Text" xml:space="preserve">
+    <value>Threshold Binarize</value>
   </data>
   <data name="globalBinarizeButton.Text" xml:space="preserve">
     <value>Global Binarize</value>
   </data>
-  <data name="thresholdBinarizeButton.Text" xml:space="preserve">
-    <value>Threshold Binarize</value>
+  <data name="adaptiveBinarizeButton.Text" xml:space="preserve">
+    <value>Adaptive Binarize</value>
   </data>
-  <data name="currentImageRadioButton.Text" xml:space="preserve">
-    <value>Current Image</value>
+  <data name="invertButton.Text" xml:space="preserve">
+    <value>Invert</value>
   </data>
-  <data name="allImagesRadioButton.Text" xml:space="preserve">
-    <value>All Images</value>
-  </data>
-  <data name="removeTablesButton.Text" xml:space="preserve">
-    <value>Remove Tables</value>
+  <data name="rotateButton.Text" xml:space="preserve">
+    <value>Rotate</value>
   </data>
   <data name="autoTextInvertButton.Text" xml:space="preserve">
     <value>Auto Text Invert</value>
   </data>
+  <data name="removeTablesButton.Text" xml:space="preserve">
+    <value>Remove Tables</value>
+  </data>
   <data name="autoOrientationButton.Text" xml:space="preserve">
     <value>Auto Orientation</value>
+  </data>
+  <data name="allImagesRadioButton.Text" xml:space="preserve">
+    <value>All Images</value>
+  </data>
+  <data name="currentImageRadioButton.Text" xml:space="preserve">
+    <value>Current Image</value>
   </data>
   <data name="processingGroupBox.Text" xml:space="preserve">
     <value>Processing</value>
@@ -162,29 +162,29 @@
   <data name="ocrPreprocessingCheckBox.Text" xml:space="preserve">
     <value>OCR Preprocessing</value>
   </data>
+  <data name="deskewChekBox.Text" xml:space="preserve">
+    <value>Deskew</value>
+  </data>
   <data name="despeckleCheckBox.Text" xml:space="preserve">
     <value>Despeckle</value>
   </data>
   <data name="clearBorderCheckBox.Text" xml:space="preserve">
     <value>Clear Border</value>
   </data>
-  <data name="deskewChekBox.Text" xml:space="preserve">
-    <value>Deskew</value>
+  <data name="holePunchRemovalCheckBox.Text" xml:space="preserve">
+    <value>Hole Punch Removal</value>
+  </data>
+  <data name="halftoneRemovalCheckBox.Text" xml:space="preserve">
+    <value>Halftone Removal</value>
+  </data>
+  <data name="autoOrientationCheckBox.Text" xml:space="preserve">
+    <value>Auto Orienation</value>
   </data>
   <data name="segmentationCheckBox.Text" xml:space="preserve">
     <value>Segmentation</value>
   </data>
   <data name="autoInvertCheckBox.Text" xml:space="preserve">
     <value>Auto Invert</value>
-  </data>
-  <data name="holePunchRemovalCheckBox.Text" xml:space="preserve">
-    <value>Hole Punch Removal</value>
-  </data>
-  <data name="autoOrientationCheckBox.Text" xml:space="preserve">
-    <value>Auto Orienation</value>
-  </data>
-  <data name="halftoneRemovalCheckBox.Text" xml:space="preserve">
-    <value>Halftone Removal</value>
   </data>
   <data name="addFromScannerButton.Text" xml:space="preserve">
     <value>Scan...</value>

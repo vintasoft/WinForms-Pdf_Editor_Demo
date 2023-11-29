@@ -1095,14 +1095,23 @@ Drücken Sie "Ja", um automatische Zustände zu löschen.</value>
   <data name="DEMOSCOMMONCODE_PDF_NO_NAME" xml:space="preserve">
     <value>(kein Name)</value>
   </data>
-  <data name="DEMOSCOMMONCODE_PDF_ONE_OR_SEVERAL_PAGES_ARE_NOT_SAVED_IN_CURRENT_PDF_DOCUMENT_SAVE_DOCUMENT_AND_TRY_AGAIN" xml:space="preserve">
-    <value>Eine oder mehrere Seiten werden nicht im aktuellen PDF-Dokument gespeichert. Dokument speichern und erneut versuchen.</value>
+  <data name="DEMOSCOMMONCODE_PDF_DOCUMENT_IS_CHANGED_FIRST_PLEASE_SIGN_AND_SAVE_DOCUMENT" xml:space="preserve">
+    <value>Dokument wurde geändert. Bitte unterschreiben und speichern Sie zunächst das Dokument.</value>
   </data>
-  <data name="DEMOSCOMMONCODE_PDF_DOCUMENT_DOES_NOT_HAVE_THE_INFORMATION_DICTIONARY_DO_YOU_WANT_TO_CREATE_THE_INFORMATION_DICTIONARY" xml:space="preserve">
-    <value>Das Dokument verfügt nicht über das Informationswörterbuch. Möchten Sie das Informationswörterbuch erstellen?</value>
+  <data name="DEMOSCOMMONCODE_PDF_LTV_INFORMATION_IS_NOT_REQUIRED_FOR_THIS_DOCUMENT" xml:space="preserve">
+    <value>LTV-Informationen sind für dieses Dokument nicht erforderlich.</value>
   </data>
-  <data name="DEMOSCOMMONCODE_PDF_DOCUMENT_DOES_NOT_HAVE_INFORMATION_DICTIONARY" xml:space="preserve">
-    <value>Das Dokument verfügt nicht über ein Informationswörterbuch.</value>
+  <data name="DEMOSCOMMONCODE_PDF_LTV_INFORMATION_IS_ADDED" xml:space="preserve">
+    <value>LTV-Informationen wurden hinzugefügt.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_ONE_OR_SEVERAL_PAGES_ARE_NOT_SAVED_IN_PDF_DOCUMENT_SAVE_DOCUMENT_AND_TRY_AGAIN" xml:space="preserve">
+    <value>Eine oder mehrere Seiten werden nicht im PDF-Dokument gespeichert. Dokument speichern und erneut versuchen.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_PDF_DOCUMENT_DOES_NOT_HAVE_THE_INFORMATION_DICTIONARY_DO_YOU_WANT_TO_CREATE_THE_INFORMATION_DICTIONARY" xml:space="preserve">
+    <value>PDF-Dokument verfügt nicht über das Informationswörterbuch. Möchten Sie das Informationswörterbuch erstellen?</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_PDF_DOCUMENT_DOES_NOT_HAVE_THE_INFORMATION_DICTIONARY" xml:space="preserve">
+    <value>PDF-Dokument verfügt nicht über das Informationswörterbuch.</value>
   </data>
   <data name="DEMOSCOMMONCODE_PDF_DOCUMENT_INFORMATION" xml:space="preserve">
     <value>Dokumentinformationen</value>

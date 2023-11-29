@@ -43,12 +43,15 @@ namespace DemosCommonCode.Pdf
             this.fileDescriptionTextBox = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.saveAsButton = new System.Windows.Forms.Button();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // buttonOk
             // 
-            this.buttonOk.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonOk.Location = new System.Drawing.Point(373, 108);
+            this.buttonOk.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.buttonOk.AutoSize = true;
+            this.buttonOk.Location = new System.Drawing.Point(303, 111);
             this.buttonOk.Name = "buttonOk";
             this.buttonOk.Size = new System.Drawing.Size(75, 23);
             this.buttonOk.TabIndex = 0;
@@ -58,8 +61,9 @@ namespace DemosCommonCode.Pdf
             // 
             // buttonCancel
             // 
-            this.buttonCancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonCancel.Location = new System.Drawing.Point(454, 108);
+            this.buttonCancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.buttonCancel.AutoSize = true;
+            this.buttonCancel.Location = new System.Drawing.Point(384, 111);
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(75, 23);
             this.buttonCancel.TabIndex = 1;
@@ -69,8 +73,9 @@ namespace DemosCommonCode.Pdf
             // 
             // label1
             // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 9);
+            this.label1.Location = new System.Drawing.Point(3, 8);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(23, 13);
             this.label1.TabIndex = 2;
@@ -78,17 +83,18 @@ namespace DemosCommonCode.Pdf
             // 
             // filenameTextBox
             // 
-            this.filenameTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.filenameTextBox.Location = new System.Drawing.Point(105, 6);
+            this.filenameTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.filenameTextBox.Location = new System.Drawing.Point(97, 4);
+            this.filenameTextBox.MinimumSize = new System.Drawing.Size(200, 0);
             this.filenameTextBox.Name = "filenameTextBox";
-            this.filenameTextBox.Size = new System.Drawing.Size(262, 20);
+            this.filenameTextBox.Size = new System.Drawing.Size(200, 20);
             this.filenameTextBox.TabIndex = 3;
             // 
             // browseButton
             // 
-            this.browseButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.browseButton.Location = new System.Drawing.Point(373, 4);
+            this.browseButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.browseButton.AutoSize = true;
+            this.browseButton.Location = new System.Drawing.Point(303, 3);
             this.browseButton.Name = "browseButton";
             this.browseButton.Size = new System.Drawing.Size(75, 23);
             this.browseButton.TabIndex = 4;
@@ -98,8 +104,9 @@ namespace DemosCommonCode.Pdf
             // 
             // label2
             // 
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 87);
+            this.label2.Location = new System.Drawing.Point(3, 88);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(67, 13);
             this.label2.TabIndex = 5;
@@ -107,18 +114,20 @@ namespace DemosCommonCode.Pdf
             // 
             // compressionComboBox
             // 
+            this.compressionComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.compressionComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.compressionComboBox.FormattingEnabled = true;
-            this.compressionComboBox.Location = new System.Drawing.Point(105, 84);
+            this.compressionComboBox.Location = new System.Drawing.Point(97, 84);
             this.compressionComboBox.Name = "compressionComboBox";
-            this.compressionComboBox.Size = new System.Drawing.Size(151, 21);
+            this.compressionComboBox.Size = new System.Drawing.Size(200, 21);
             this.compressionComboBox.TabIndex = 6;
             this.compressionComboBox.SelectedIndexChanged += new System.EventHandler(this.compressionComboBox_SelectedIndexChanged);
             // 
             // label3
             // 
+            this.label3.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 61);
+            this.label3.Location = new System.Drawing.Point(3, 61);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(46, 13);
             this.label3.TabIndex = 7;
@@ -126,24 +135,27 @@ namespace DemosCommonCode.Pdf
             // 
             // sizeTextBox
             // 
-            this.sizeTextBox.Location = new System.Drawing.Point(105, 59);
+            this.sizeTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.sizeTextBox.Location = new System.Drawing.Point(97, 58);
             this.sizeTextBox.Name = "sizeTextBox";
             this.sizeTextBox.ReadOnly = true;
-            this.sizeTextBox.Size = new System.Drawing.Size(151, 20);
+            this.sizeTextBox.Size = new System.Drawing.Size(200, 20);
             this.sizeTextBox.TabIndex = 8;
             // 
             // compressedSizeTextBox
             // 
-            this.compressedSizeTextBox.Location = new System.Drawing.Point(105, 110);
+            this.compressedSizeTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.compressedSizeTextBox.Location = new System.Drawing.Point(97, 112);
             this.compressedSizeTextBox.Name = "compressedSizeTextBox";
             this.compressedSizeTextBox.ReadOnly = true;
-            this.compressedSizeTextBox.Size = new System.Drawing.Size(151, 20);
+            this.compressedSizeTextBox.Size = new System.Drawing.Size(200, 20);
             this.compressedSizeTextBox.TabIndex = 10;
             // 
             // label4
             // 
+            this.label4.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(12, 113);
+            this.label4.Location = new System.Drawing.Point(3, 116);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(88, 13);
             this.label4.TabIndex = 9;
@@ -151,17 +163,17 @@ namespace DemosCommonCode.Pdf
             // 
             // fileDescriptionTextBox
             // 
-            this.fileDescriptionTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.fileDescriptionTextBox.Location = new System.Drawing.Point(105, 32);
+            this.fileDescriptionTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.fileDescriptionTextBox.Location = new System.Drawing.Point(97, 32);
             this.fileDescriptionTextBox.Name = "fileDescriptionTextBox";
-            this.fileDescriptionTextBox.Size = new System.Drawing.Size(424, 20);
+            this.fileDescriptionTextBox.Size = new System.Drawing.Size(200, 20);
             this.fileDescriptionTextBox.TabIndex = 11;
             // 
             // label5
             // 
+            this.label5.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(12, 35);
+            this.label5.Location = new System.Drawing.Point(3, 35);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(60, 13);
             this.label5.TabIndex = 12;
@@ -169,8 +181,9 @@ namespace DemosCommonCode.Pdf
             // 
             // saveAsButton
             // 
-            this.saveAsButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.saveAsButton.Location = new System.Drawing.Point(454, 4);
+            this.saveAsButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.saveAsButton.AutoSize = true;
+            this.saveAsButton.Location = new System.Drawing.Point(384, 3);
             this.saveAsButton.Name = "saveAsButton";
             this.saveAsButton.Size = new System.Drawing.Size(75, 23);
             this.saveAsButton.TabIndex = 13;
@@ -178,31 +191,55 @@ namespace DemosCommonCode.Pdf
             this.saveAsButton.UseVisualStyleBackColor = true;
             this.saveAsButton.Click += new System.EventHandler(this.saveAsButton_Click);
             // 
+            // tableLayoutPanel1
+            // 
+            this.tableLayoutPanel1.AutoSize = true;
+            this.tableLayoutPanel1.ColumnCount = 4;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel1.Controls.Add(this.label1, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.buttonCancel, 3, 4);
+            this.tableLayoutPanel1.Controls.Add(this.compressedSizeTextBox, 1, 4);
+            this.tableLayoutPanel1.Controls.Add(this.buttonOk, 2, 4);
+            this.tableLayoutPanel1.Controls.Add(this.fileDescriptionTextBox, 1, 1);
+            this.tableLayoutPanel1.Controls.Add(this.label4, 0, 4);
+            this.tableLayoutPanel1.Controls.Add(this.label5, 0, 1);
+            this.tableLayoutPanel1.Controls.Add(this.compressionComboBox, 1, 3);
+            this.tableLayoutPanel1.Controls.Add(this.sizeTextBox, 1, 2);
+            this.tableLayoutPanel1.Controls.Add(this.label2, 0, 3);
+            this.tableLayoutPanel1.Controls.Add(this.saveAsButton, 3, 0);
+            this.tableLayoutPanel1.Controls.Add(this.label3, 0, 2);
+            this.tableLayoutPanel1.Controls.Add(this.filenameTextBox, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.browseButton, 2, 0);
+            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 5;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(462, 136);
+            this.tableLayoutPanel1.TabIndex = 14;
+            // 
             // EmbeddedFileSpecificationForm
             // 
             this.AcceptButton = this.buttonOk;
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(537, 135);
-            this.Controls.Add(this.saveAsButton);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.fileDescriptionTextBox);
-            this.Controls.Add(this.compressedSizeTextBox);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.sizeTextBox);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.compressionComboBox);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.browseButton);
-            this.Controls.Add(this.filenameTextBox);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.buttonCancel);
-            this.Controls.Add(this.buttonOk);
+            this.AutoSize = true;
+            this.ClientSize = new System.Drawing.Size(462, 136);
+            this.Controls.Add(this.tableLayoutPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "EmbeddedFileSpecificationForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             resources.ApplyResources(this, "$this");
+            this.tableLayoutPanel1.ResumeLayout(false);
+            this.tableLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -224,5 +261,6 @@ namespace DemosCommonCode.Pdf
         private System.Windows.Forms.TextBox fileDescriptionTextBox;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button saveAsButton;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
     }
 }

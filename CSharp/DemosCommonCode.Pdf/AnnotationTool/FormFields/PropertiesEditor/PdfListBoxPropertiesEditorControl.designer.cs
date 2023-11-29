@@ -34,14 +34,16 @@ namespace DemosCommonCode.Pdf
             this.selectionBrushColorPanelControl = new DemosCommonCode.CustomControls.ColorPanelControl();
             this.label1 = new System.Windows.Forms.Label();
             this.pdfInteractiveFormChoiceFieldEditorControl = new DemosCommonCode.Pdf.PdfInteractiveFormChoiceFieldEditorControl();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.mainPanel.SuspendLayout();
+            this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // multiselectCheckBox
             // 
-            this.multiselectCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.multiselectCheckBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.multiselectCheckBox.AutoSize = true;
-            this.multiselectCheckBox.Location = new System.Drawing.Point(251, 3);
+            this.multiselectCheckBox.Location = new System.Drawing.Point(260, 3);
             this.multiselectCheckBox.Name = "multiselectCheckBox";
             this.multiselectCheckBox.Size = new System.Drawing.Size(76, 17);
             this.multiselectCheckBox.TabIndex = 1;
@@ -51,9 +53,7 @@ namespace DemosCommonCode.Pdf
             // 
             // mainPanel
             // 
-            this.mainPanel.Controls.Add(this.selectionBrushColorPanelControl);
-            this.mainPanel.Controls.Add(this.label1);
-            this.mainPanel.Controls.Add(this.multiselectCheckBox);
+            this.mainPanel.Controls.Add(this.tableLayoutPanel1);
             this.mainPanel.Controls.Add(this.pdfInteractiveFormChoiceFieldEditorControl);
             this.mainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.mainPanel.Location = new System.Drawing.Point(0, 0);
@@ -63,20 +63,20 @@ namespace DemosCommonCode.Pdf
             // 
             // selectionBrushColorPanelControl
             // 
-            this.selectionBrushColorPanelControl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.selectionBrushColorPanelControl.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.selectionBrushColorPanelControl.Color = System.Drawing.Color.Transparent;
             this.selectionBrushColorPanelControl.DefaultColor = System.Drawing.Color.Empty;
-            this.selectionBrushColorPanelControl.Location = new System.Drawing.Point(91, 0);
+            this.selectionBrushColorPanelControl.Location = new System.Drawing.Point(90, 3);
             this.selectionBrushColorPanelControl.Name = "selectionBrushColorPanelControl";
-            this.selectionBrushColorPanelControl.Size = new System.Drawing.Size(154, 21);
+            this.selectionBrushColorPanelControl.Size = new System.Drawing.Size(164, 17);
             this.selectionBrushColorPanelControl.TabIndex = 3;
             this.selectionBrushColorPanelControl.ColorChanged += new System.EventHandler(this.selectionBrushColorPanelControl_ColorChanged);
             // 
             // label1
             // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(7, 4);
+            this.label1.Location = new System.Drawing.Point(3, 5);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(81, 13);
             this.label1.TabIndex = 2;
@@ -84,9 +84,9 @@ namespace DemosCommonCode.Pdf
             // 
             // pdfInteractiveFormChoiceFieldEditorControl
             // 
-            this.pdfInteractiveFormChoiceFieldEditorControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.pdfInteractiveFormChoiceFieldEditorControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.pdfInteractiveFormChoiceFieldEditorControl.Field = null;
             this.pdfInteractiveFormChoiceFieldEditorControl.Location = new System.Drawing.Point(0, 26);
             this.pdfInteractiveFormChoiceFieldEditorControl.MinimumSize = new System.Drawing.Size(190, 230);
@@ -94,6 +94,23 @@ namespace DemosCommonCode.Pdf
             this.pdfInteractiveFormChoiceFieldEditorControl.Size = new System.Drawing.Size(339, 233);
             this.pdfInteractiveFormChoiceFieldEditorControl.TabIndex = 0;
             this.pdfInteractiveFormChoiceFieldEditorControl.PropertyValueChanged += new System.EventHandler(this.pdfInteractiveFormChoiceFieldEditorControl_PropertyValueChanged);
+            // 
+            // tableLayoutPanel1
+            // 
+            this.tableLayoutPanel1.ColumnCount = 3;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel1.Controls.Add(this.label1, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.multiselectCheckBox, 2, 0);
+            this.tableLayoutPanel1.Controls.Add(this.selectionBrushColorPanelControl, 1, 0);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(0);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 1;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(339, 23);
+            this.tableLayoutPanel1.TabIndex = 4;
             // 
             // PdfListBoxPropertiesEditorControl
             // 
@@ -103,7 +120,8 @@ namespace DemosCommonCode.Pdf
             this.Name = "PdfListBoxPropertiesEditorControl";
             this.Size = new System.Drawing.Size(339, 259);
             this.mainPanel.ResumeLayout(false);
-            this.mainPanel.PerformLayout();
+            this.tableLayoutPanel1.ResumeLayout(false);
+            this.tableLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -115,5 +133,6 @@ namespace DemosCommonCode.Pdf
         private System.Windows.Forms.Panel mainPanel;
         private DemosCommonCode.CustomControls.ColorPanelControl selectionBrushColorPanelControl;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
     }
 }

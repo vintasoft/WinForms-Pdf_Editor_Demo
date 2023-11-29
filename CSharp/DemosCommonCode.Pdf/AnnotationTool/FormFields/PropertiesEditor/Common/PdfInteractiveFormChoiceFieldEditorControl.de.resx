@@ -126,14 +126,14 @@
   <data name="groupBox1.Text" xml:space="preserve">
     <value>Artikel</value>
   </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Text-Quadding</value>
+  </data>
   <data name="label2.Text" xml:space="preserve">
     <value>Standardwert</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>Wert</value>
-  </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>Text-Quadding</value>
   </data>
   <data name="deleteButton.Text" xml:space="preserve">
     <value>Löschen</value>

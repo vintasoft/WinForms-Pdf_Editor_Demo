@@ -120,12 +120,6 @@
   <data name="$this.Text" xml:space="preserve">
     <value>Dokumentensicherheit</value>
   </data>
-  <data name="label13.Text" xml:space="preserve">
-    <value>Text und Grafiken extrahieren (für Barrierefreiheit):</value>
-  </data>
-  <data name="extractTextAndGraphicsForAccessibilityLabel.Text" xml:space="preserve">
-    <value>Zulässig</value>
-  </data>
   <data name="label10.Text" xml:space="preserve">
     <value>Adobe Acrobat-Kompatibilität:</value>
   </data>
@@ -141,37 +135,43 @@
   <data name="label2.Text" xml:space="preserve">
     <value>Drucken:</value>
   </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>Inhalt ändern:</value>
-  </data>
-  <data name="label4.Text" xml:space="preserve">
-    <value>Interaktive Formularfelder ausfüllen:</value>
-  </data>
-  <data name="label5.Text" xml:space="preserve">
-    <value>Anmerkungen ändern:</value>
-  </data>
   <data name="label6.Text" xml:space="preserve">
     <value>Text und Grafiken extrahieren:</value>
   </data>
-  <data name="label7.Text" xml:space="preserve">
-    <value>Dokument zusammenstellen:</value>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Inhalt ändern:</value>
   </data>
-  <data name="printingLabel.Text" xml:space="preserve">
-    <value>Zulässig</value>
-  </data>
-  <data name="extractTextAndGraphicsLabel.Text" xml:space="preserve">
+  <data name="modifyAnnotationLabel.Text" xml:space="preserve">
     <value>Zulässig</value>
   </data>
   <data name="modifyContentsLabel.Text" xml:space="preserve">
     <value>Zulässig</value>
   </data>
-  <data name="modifyAnnotationLabel.Text" xml:space="preserve">
+  <data name="label5.Text" xml:space="preserve">
+    <value>Anmerkungen ändern:</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Interaktive Formularfelder ausfüllen:</value>
+  </data>
+  <data name="extractTextAndGraphicsLabel.Text" xml:space="preserve">
+    <value>Zulässig</value>
+  </data>
+  <data name="extractTextAndGraphicsForAccessibilityLabel.Text" xml:space="preserve">
     <value>Zulässig</value>
   </data>
   <data name="fillInteractiveFormFieldsLabel.Text" xml:space="preserve">
     <value>Zulässig</value>
   </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Dokument zusammenstellen:</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>Text und Grafiken extrahieren (für Barrierefreiheit):</value>
+  </data>
   <data name="assembleDocumentLabel.Text" xml:space="preserve">
+    <value>Zulässig</value>
+  </data>
+  <data name="printingLabel.Text" xml:space="preserve">
     <value>Zulässig</value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">

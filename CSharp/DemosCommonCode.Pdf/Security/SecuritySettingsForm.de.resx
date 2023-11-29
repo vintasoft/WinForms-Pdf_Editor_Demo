@@ -120,11 +120,11 @@
   <data name="$this.Text" xml:space="preserve">
     <value>Dokumentsicherheitseinstellungen</value>
   </data>
-  <data name="label4.Text" xml:space="preserve">
-    <value>Kompatibilität</value>
-  </data>
   <data name="securityMethodLabel.Text" xml:space="preserve">
     <value>securityMethodLabel</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Kompatibilität</value>
   </data>
   <data name="securitySettingsGroupBox.Text" xml:space="preserve">
     <value>Sicherheitseinstellungen</value>
@@ -138,41 +138,41 @@
   <data name="dontChangeRadioButton.Text" xml:space="preserve">
     <value>Nicht ändern</value>
   </data>
-  <data name="printInLowQualityCheckBox.Text" xml:space="preserve">
-    <value>Drucken in niedriger Qualität</value>
-  </data>
-  <data name="printInHighQualityCheckBox.Text" xml:space="preserve">
-    <value>Drucken in hoher Qualität</value>
-  </data>
   <data name="modifyContentsCheckBox.Text" xml:space="preserve">
     <value>Inhalt ändern</value>
   </data>
   <data name="extractTextAndGraphicsCheckBox.Text" xml:space="preserve">
     <value>Text und Grafiken extrahieren</value>
   </data>
-  <data name="fillInteractiveFormFieldsCheckBox.Text" xml:space="preserve">
-    <value>Interaktive Formularfelder ausfüllen</value>
+  <data name="printInHighQualityCheckBox.Text" xml:space="preserve">
+    <value>Drucken in hoher Qualität</value>
   </data>
   <data name="modifyAnnotationsCheckBox.Text" xml:space="preserve">
     <value>Anmerkungen ändern</value>
   </data>
-  <data name="assembleDocumentCheckBox.Text" xml:space="preserve">
-    <value>Dokument zusammenstellen</value>
+  <data name="fillInteractiveFormFieldsCheckBox.Text" xml:space="preserve">
+    <value>Interaktive Formularfelder ausfüllen</value>
   </data>
   <data name="extractTextAndGraphicsForAccessibilityCheckBox.Text" xml:space="preserve">
     <value>Text und Grafiken extrahieren (für Barrierefreiheit)</value>
   </data>
+  <data name="assembleDocumentCheckBox.Text" xml:space="preserve">
+    <value>Dokument zusammenstellen</value>
+  </data>
+  <data name="printInLowQualityCheckBox.Text" xml:space="preserve">
+    <value>Drucken in niedriger Qualität</value>
+  </data>
   <data name="permissionsGroupBox.Text" xml:space="preserve">
     <value>Benutzerberechtigungen</value>
-  </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>Eigentümer</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
     <value>Benutzer</value>
   </data>
   <data name="showPasswordsCheckBox.Text" xml:space="preserve">
     <value>Passwörter anzeigen</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Eigentümer</value>
   </data>
   <data name="passwordsGroupBox.Text" xml:space="preserve">
     <value>Dokumentpasswörter</value>

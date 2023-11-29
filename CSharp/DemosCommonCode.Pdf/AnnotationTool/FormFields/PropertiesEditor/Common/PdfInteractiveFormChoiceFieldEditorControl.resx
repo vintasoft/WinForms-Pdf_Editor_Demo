@@ -112,10 +112,10 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label4.Text" xml:space="preserve">
     <value>Exported Value</value>
@@ -126,14 +126,14 @@
   <data name="groupBox1.Text" xml:space="preserve">
     <value>Items</value>
   </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Text Quadding</value>
+  </data>
   <data name="label2.Text" xml:space="preserve">
     <value>Default Value</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>Value</value>
-  </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>Text Quadding</value>
   </data>
   <data name="deleteButton.Text" xml:space="preserve">
     <value>Delete</value>

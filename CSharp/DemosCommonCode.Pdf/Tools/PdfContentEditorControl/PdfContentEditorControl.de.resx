@@ -117,9 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="contentGraphicsPropertiesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Inhaltsgrafikeigenschaften...</value>
-  </data>
   <data name="removeAllToolStripMenuItem.Text" xml:space="preserve">
     <value>Alle entfernen</value>
   </data>
@@ -128,6 +125,9 @@
   </data>
   <data name="propertiesToolStripMenuItem.Text" xml:space="preserve">
     <value>Eigenschaften...</value>
+  </data>
+  <data name="contentGraphicsPropertiesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Inhaltsgrafikeigenschaften...</value>
   </data>
   <data name="replaceResourceToolStripMenuItem.Text" xml:space="preserve">
     <value>Bild oder Formular ersetzen...</value>
@@ -152,12 +152,6 @@
   </data>
   <data name="cutToolStripMenuItem.Text" xml:space="preserve">
     <value>Ausschneiden</value>
-  </data>
-  <data name="renderFiguresButton.Text" xml:space="preserve">
-    <value>Inhalt anhängen</value>
-  </data>
-  <data name="removeAllButton.Text" xml:space="preserve">
-    <value>Alle entfernen</value>
   </data>
   <data name="drawClosedCurvesToolStripButton.Text" xml:space="preserve">
     <value>Geschlossene Kurven</value>
@@ -203,9 +197,6 @@
   </data>
   <data name="figuresGroupBox.Text" xml:space="preserve">
     <value>Grafikfigur hinzufügen</value>
-  </data>
-  <data name="removeButton.Text" xml:space="preserve">
-    <value>Entfernen</value>
   </data>
   <data name="clipContentToolStripButton.Text" xml:space="preserve">
     <value>Clippfade bearbeiten</value>
@@ -269,5 +260,14 @@
   </data>
   <data name="undoToolStripSplitButton.Text" xml:space="preserve">
     <value>Rückgängig</value>
+  </data>
+  <data name="removeAllButton.Text" xml:space="preserve">
+    <value>Alle entfernen</value>
+  </data>
+  <data name="removeButton.Text" xml:space="preserve">
+    <value>Entfernen</value>
+  </data>
+  <data name="renderFiguresButton.Text" xml:space="preserve">
+    <value>Inhalt anhängen</value>
   </data>
 </root>

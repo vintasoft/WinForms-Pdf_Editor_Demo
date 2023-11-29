@@ -120,6 +120,18 @@
   <data name="$this.Text" xml:space="preserve">
     <value>Interaktionsbereichseinstellungen</value>
   </data>
+  <data name="textBoxEditorAreaCursorPanelControl.Items23" xml:space="preserve">
+    <value>Hilfe</value>
+  </data>
+  <data name="textBoxEditorAreaCursorPanelControl.Items22" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="textBoxEditorAreaCursorPanelControl.Items21" xml:space="preserve">
+    <value>Hilfe</value>
+  </data>
+  <data name="textBoxEditorAreaCursorPanelControl.Items20" xml:space="preserve">
+    <value>Standard</value>
+  </data>
   <data name="textBoxEditorAreaCursorPanelControl.Items19" xml:space="preserve">
     <value>Hilfe</value>
   </data>
@@ -180,6 +192,18 @@
   <data name="textBoxEditorAreaCursorPanelControl.Items" xml:space="preserve">
     <value>Standard</value>
   </data>
+  <data name="resizePointsCursorPanelControl.Items15" xml:space="preserve">
+    <value>Hilfe</value>
+  </data>
+  <data name="resizePointsCursorPanelControl.Items14" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="resizePointsCursorPanelControl.Items13" xml:space="preserve">
+    <value>Hilfe</value>
+  </data>
+  <data name="resizePointsCursorPanelControl.Items12" xml:space="preserve">
+    <value>Standard</value>
+  </data>
   <data name="resizePointsCursorPanelControl.Items11" xml:space="preserve">
     <value>Hilfe</value>
   </data>
@@ -222,14 +246,23 @@
   <data name="label25.Text" xml:space="preserve">
     <value>Hintergrundfarbe</value>
   </data>
-  <data name="label24.Text" xml:space="preserve">
-    <value>Textschriftart</value>
-  </data>
   <data name="label26.Text" xml:space="preserve">
     <value>Textfarbe</value>
   </data>
   <data name="label34.Text" xml:space="preserve">
     <value>Cursor</value>
+  </data>
+  <data name="textBoxCursorPanelControl.Items5" xml:space="preserve">
+    <value>Hilfe</value>
+  </data>
+  <data name="textBoxCursorPanelControl.Items4" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="textBoxCursorPanelControl.Items3" xml:space="preserve">
+    <value>Hilfe</value>
+  </data>
+  <data name="textBoxCursorPanelControl.Items2" xml:space="preserve">
+    <value>Standard</value>
   </data>
   <data name="textBoxCursorPanelControl.Items1" xml:space="preserve">
     <value>Hilfe</value>
@@ -240,20 +273,20 @@
   <data name="fontButton.Text" xml:space="preserve">
     <value>Schriftart auswählen...</value>
   </data>
+  <data name="label24.Text" xml:space="preserve">
+    <value>Textschriftart</value>
+  </data>
   <data name="groupBox1.Text" xml:space="preserve">
     <value>Rechtschreibprüfungs-Manager</value>
   </data>
   <data name="textBoxTabPage.Text" xml:space="preserve">
     <value>Textfeld</value>
   </data>
-  <data name="label21.Text" xml:space="preserve">
-    <value>Entfernung</value>
+  <data name="label12.Text" xml:space="preserve">
+    <value>Rahmenfarbe</value>
   </data>
   <data name="label13.Text" xml:space="preserve">
     <value>Hintergrundfarbe</value>
-  </data>
-  <data name="label12.Text" xml:space="preserve">
-    <value>Rahmenfarbe</value>
   </data>
   <data name="label14.Text" xml:space="preserve">
     <value>Interaktionsradius</value>
@@ -261,11 +294,23 @@
   <data name="label11.Text" xml:space="preserve">
     <value>Breite des Randstifts</value>
   </data>
-  <data name="label15.Text" xml:space="preserve">
-    <value>Radius</value>
+  <data name="label21.Text" xml:space="preserve">
+    <value>Entfernung</value>
   </data>
   <data name="label27.Text" xml:space="preserve">
     <value>Cursor</value>
+  </data>
+  <data name="rotationPointCursorPanelControl.Items5" xml:space="preserve">
+    <value>Hilfe</value>
+  </data>
+  <data name="rotationPointCursorPanelControl.Items4" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="rotationPointCursorPanelControl.Items3" xml:space="preserve">
+    <value>Hilfe</value>
+  </data>
+  <data name="rotationPointCursorPanelControl.Items2" xml:space="preserve">
+    <value>Standard</value>
   </data>
   <data name="rotationPointCursorPanelControl.Items1" xml:space="preserve">
     <value>Hilfe</value>
@@ -273,14 +318,11 @@
   <data name="rotationPointCursorPanelControl.Items" xml:space="preserve">
     <value>Standard</value>
   </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>Radius</value>
+  </data>
   <data name="rotationPointTabPage.Text" xml:space="preserve">
     <value>Rotationspunkt</value>
-  </data>
-  <data name="label23.Text" xml:space="preserve">
-    <value>Diskreter Winkel</value>
-  </data>
-  <data name="label20.Text" xml:space="preserve">
-    <value>Radius</value>
   </data>
   <data name="label18.Text" xml:space="preserve">
     <value>Hintergrundfarbe</value>
@@ -288,14 +330,29 @@
   <data name="label17.Text" xml:space="preserve">
     <value>Rahmenfarbe</value>
   </data>
+  <data name="label20.Text" xml:space="preserve">
+    <value>Radius</value>
+  </data>
   <data name="label16.Text" xml:space="preserve">
     <value>Breite des Randstifts</value>
+  </data>
+  <data name="label23.Text" xml:space="preserve">
+    <value>Diskreter Winkel</value>
   </data>
   <data name="rotationAssistantTabPage.Text" xml:space="preserve">
     <value>Rotationsassistent</value>
   </data>
-  <data name="label28.Text" xml:space="preserve">
-    <value>Cursor</value>
+  <data name="moveAreaCursorPanelControl.Items5" xml:space="preserve">
+    <value>Hilfe</value>
+  </data>
+  <data name="moveAreaCursorPanelControl.Items4" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="moveAreaCursorPanelControl.Items3" xml:space="preserve">
+    <value>Hilfe</value>
+  </data>
+  <data name="moveAreaCursorPanelControl.Items2" xml:space="preserve">
+    <value>Standard</value>
   </data>
   <data name="moveAreaCursorPanelControl.Items1" xml:space="preserve">
     <value>Hilfe</value>
@@ -303,29 +360,41 @@
   <data name="moveAreaCursorPanelControl.Items" xml:space="preserve">
     <value>Standard</value>
   </data>
+  <data name="label28.Text" xml:space="preserve">
+    <value>Cursor</value>
+  </data>
   <data name="moveAreaTabPage.Text" xml:space="preserve">
     <value>Mova-Bereich</value>
-  </data>
-  <data name="label7.Text" xml:space="preserve">
-    <value>Rahmenfarbe</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
     <value>Hintergrundfarbe</value>
   </data>
-  <data name="label6.Text" xml:space="preserve">
-    <value>Breite des Randstifts</value>
-  </data>
   <data name="label9.Text" xml:space="preserve">
     <value>Interaktionsradius</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Rahmenfarbe</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Breite des Randstifts</value>
   </data>
   <data name="label10.Text" xml:space="preserve">
     <value>Radius</value>
   </data>
-  <data name="label22.Text" xml:space="preserve">
-    <value>Hintergrundfarbe</value>
-  </data>
   <data name="label29.Text" xml:space="preserve">
     <value>Cursor</value>
+  </data>
+  <data name="polygonPointCursorPanelControl.Items5" xml:space="preserve">
+    <value>Hilfe</value>
+  </data>
+  <data name="polygonPointCursorPanelControl.Items4" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="polygonPointCursorPanelControl.Items3" xml:space="preserve">
+    <value>Hilfe</value>
+  </data>
+  <data name="polygonPointCursorPanelControl.Items2" xml:space="preserve">
+    <value>Standard</value>
   </data>
   <data name="polygonPointCursorPanelControl.Items1" xml:space="preserve">
     <value>Hilfe</value>
@@ -333,8 +402,35 @@
   <data name="polygonPointCursorPanelControl.Items" xml:space="preserve">
     <value>Standard</value>
   </data>
+  <data name="label22.Text" xml:space="preserve">
+    <value>Hintergrundfarbe</value>
+  </data>
   <data name="polygonPointsTabPage.Text" xml:space="preserve">
     <value>Polygonpunkte</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Rahmenfarbe</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Breite des Randstifts</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Hintergrundfarbe</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Interaktionsradius</value>
+  </data>
+  <data name="resizePointsNeswCursorPanelControl.Items5" xml:space="preserve">
+    <value>Hilfe</value>
+  </data>
+  <data name="resizePointsNeswCursorPanelControl.Items4" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="resizePointsNeswCursorPanelControl.Items3" xml:space="preserve">
+    <value>Hilfe</value>
+  </data>
+  <data name="resizePointsNeswCursorPanelControl.Items2" xml:space="preserve">
+    <value>Standard</value>
   </data>
   <data name="resizePointsNeswCursorPanelControl.Items1" xml:space="preserve">
     <value>Hilfe</value>
@@ -342,17 +438,17 @@
   <data name="resizePointsNeswCursorPanelControl.Items" xml:space="preserve">
     <value>Standard</value>
   </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>Hintergrundfarbe</value>
+  <data name="resizePointsNsCursorPanelControl.Items5" xml:space="preserve">
+    <value>Hilfe</value>
   </data>
-  <data name="label4.Text" xml:space="preserve">
-    <value>Rahmenfarbe</value>
+  <data name="resizePointsNsCursorPanelControl.Items4" xml:space="preserve">
+    <value>Standard</value>
   </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>Interaktionsradius</value>
+  <data name="resizePointsNsCursorPanelControl.Items3" xml:space="preserve">
+    <value>Hilfe</value>
   </data>
-  <data name="label5.Text" xml:space="preserve">
-    <value>Breite des Randstifts</value>
+  <data name="resizePointsNsCursorPanelControl.Items2" xml:space="preserve">
+    <value>Standard</value>
   </data>
   <data name="resizePointsNsCursorPanelControl.Items1" xml:space="preserve">
     <value>Hilfe</value>
@@ -360,13 +456,16 @@
   <data name="resizePointsNsCursorPanelControl.Items" xml:space="preserve">
     <value>Standard</value>
   </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Radius</value>
-  </data>
-  <data name="resizePointsWeCursorPanelControl.Items1" xml:space="preserve">
+  <data name="resizePointsNwseCursorPanelControl.Items5" xml:space="preserve">
     <value>Hilfe</value>
   </data>
-  <data name="resizePointsWeCursorPanelControl.Items" xml:space="preserve">
+  <data name="resizePointsNwseCursorPanelControl.Items4" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="resizePointsNwseCursorPanelControl.Items3" xml:space="preserve">
+    <value>Hilfe</value>
+  </data>
+  <data name="resizePointsNwseCursorPanelControl.Items2" xml:space="preserve">
     <value>Standard</value>
   </data>
   <data name="resizePointsNwseCursorPanelControl.Items1" xml:space="preserve">
@@ -374,6 +473,27 @@
   </data>
   <data name="resizePointsNwseCursorPanelControl.Items" xml:space="preserve">
     <value>Standard</value>
+  </data>
+  <data name="resizePointsWeCursorPanelControl.Items5" xml:space="preserve">
+    <value>Hilfe</value>
+  </data>
+  <data name="resizePointsWeCursorPanelControl.Items4" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="resizePointsWeCursorPanelControl.Items3" xml:space="preserve">
+    <value>Hilfe</value>
+  </data>
+  <data name="resizePointsWeCursorPanelControl.Items2" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="resizePointsWeCursorPanelControl.Items1" xml:space="preserve">
+    <value>Hilfe</value>
+  </data>
+  <data name="resizePointsWeCursorPanelControl.Items" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Radius</value>
   </data>
   <data name="resizePointsTabPage.Text" xml:space="preserve">
     <value>Größe der Punkte ändern</value>

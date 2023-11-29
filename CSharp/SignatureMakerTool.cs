@@ -99,29 +99,29 @@ namespace PdfEditorDemo
             // if signature field without certificate must be created
             if (_createEmptySignature)
             {
-                CreateEmptySignatureFieldForm createSignatureForm = new CreateEmptySignatureFieldForm(
-                    document,
-                    ConvertRectangleFromImageSpaceToPageSpace(Rectangle, ImageViewer.Image.Resolution, page),
-                    _signatureAppearence);
-                if (createSignatureForm.ShowDialog() == System.Windows.Forms.DialogResult.OK)
-                {
-                    // get a new empty signature field
-                    signatureField = createSignatureForm.SignatureField;
-                }
-            }
-            // if signature field with certificate must be created
-            else
-            {
-                using (CreateSignatureFieldForm createSignatureForm = new CreateSignatureFieldForm(
+                using (CreateEmptySignatureFieldForm createSignatureForm = new CreateEmptySignatureFieldForm(
                     document,
                     ConvertRectangleFromImageSpaceToPageSpace(Rectangle, ImageViewer.Image.Resolution, page),
                     _signatureAppearence))
                 {
                     if (createSignatureForm.ShowDialog() == System.Windows.Forms.DialogResult.OK)
                     {
-                        // get a new signature field
+                        // get a new empty signature field
                         signatureField = createSignatureForm.SignatureField;
                     }
+                }
+            }
+            // if signature field with certificate must be created
+            else
+            {
+                PdfInteractiveFormSignatureField createdSignatureField = null;
+                if (CreateSignatureFieldWithAppearance.ShowDialog(document,
+                        ConvertRectangleFromImageSpaceToPageSpace(Rectangle, ImageViewer.Image.Resolution, page),
+                        _signatureAppearence,
+                        out createdSignatureField) == System.Windows.Forms.DialogResult.OK)
+                {
+                    // get a new signature field
+                    signatureField = createdSignatureField;
                 }
             }
 
@@ -171,8 +171,8 @@ namespace PdfEditorDemo
             RectangleF rect, Resolution imageResolution, PdfPage page)
         {
             // Rectangle -> PointF[]
-            PointF[] points = new PointF[] { 
-                rect.Location, 
+            PointF[] points = new PointF[] {
+                rect.Location,
                 new PointF(rect.X + rect.Width, rect.Y + rect.Height) };
 
             // ImageSpace -> PageSpace

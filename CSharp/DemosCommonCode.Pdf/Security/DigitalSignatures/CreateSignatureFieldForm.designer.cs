@@ -51,9 +51,11 @@ namespace DemosCommonCode.Pdf.Security
             this.addTimestampCheckBox = new System.Windows.Forms.CheckBox();
             this.timestampServerSettingsButton = new System.Windows.Forms.Button();
             this.timestampProperitesGroupBox = new System.Windows.Forms.GroupBox();
-            this.label2 = new System.Windows.Forms.Label();
             this.timestampHashAlgorithmComboBox = new System.Windows.Forms.ComboBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.timestampProperitesGroupBox.SuspendLayout();
+            this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // certificateTextBox
@@ -262,7 +264,7 @@ namespace DemosCommonCode.Pdf.Security
             | System.Windows.Forms.AnchorStyles.Right)));
             this.timestampServerSettingsButton.Location = new System.Drawing.Point(6, 19);
             this.timestampServerSettingsButton.Name = "timestampServerSettingsButton";
-            this.timestampServerSettingsButton.Size = new System.Drawing.Size(296, 23);
+            this.timestampServerSettingsButton.Size = new System.Drawing.Size(302, 23);
             this.timestampServerSettingsButton.TabIndex = 22;
             resources.ApplyResources(this.timestampServerSettingsButton, "timestampServerSettingsButton");
             this.timestampServerSettingsButton.UseVisualStyleBackColor = true;
@@ -272,37 +274,54 @@ namespace DemosCommonCode.Pdf.Security
             // 
             this.timestampProperitesGroupBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.timestampProperitesGroupBox.Controls.Add(this.timestampHashAlgorithmComboBox);
-            this.timestampProperitesGroupBox.Controls.Add(this.label2);
+            this.timestampProperitesGroupBox.Controls.Add(this.tableLayoutPanel1);
             this.timestampProperitesGroupBox.Controls.Add(this.timestampServerSettingsButton);
             this.timestampProperitesGroupBox.Enabled = false;
-            this.timestampProperitesGroupBox.Location = new System.Drawing.Point(17, 161);
+            this.timestampProperitesGroupBox.Location = new System.Drawing.Point(12, 161);
             this.timestampProperitesGroupBox.Name = "timestampProperitesGroupBox";
-            this.timestampProperitesGroupBox.Size = new System.Drawing.Size(308, 72);
+            this.timestampProperitesGroupBox.Size = new System.Drawing.Size(314, 72);
             this.timestampProperitesGroupBox.TabIndex = 23;
             this.timestampProperitesGroupBox.TabStop = false;
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(6, 48);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(109, 13);
-            this.label2.TabIndex = 24;
-            resources.ApplyResources(this.label2, "label2");
-            // 
             // timestampHashAlgorithmComboBox
             // 
-            this.timestampHashAlgorithmComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.timestampHashAlgorithmComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.timestampHashAlgorithmComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.timestampHashAlgorithmComboBox.FormattingEnabled = true;
             this.timestampHashAlgorithmComboBox.Items.AddRange(new object[] {
             "SHA1",
             "SHA256"});
-            this.timestampHashAlgorithmComboBox.Location = new System.Drawing.Point(154, 45);
+            this.timestampHashAlgorithmComboBox.Location = new System.Drawing.Point(118, 3);
             this.timestampHashAlgorithmComboBox.Name = "timestampHashAlgorithmComboBox";
-            this.timestampHashAlgorithmComboBox.Size = new System.Drawing.Size(147, 21);
+            this.timestampHashAlgorithmComboBox.Size = new System.Drawing.Size(187, 21);
             this.timestampHashAlgorithmComboBox.TabIndex = 24;
+            // 
+            // label2
+            // 
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(3, 7);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(109, 13);
+            this.label2.TabIndex = 24;
+            resources.ApplyResources(this.label2, "label2");
+            // 
+            // tableLayoutPanel1
+            // 
+            this.tableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tableLayoutPanel1.ColumnCount = 2;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel1.Controls.Add(this.label2, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.timestampHashAlgorithmComboBox, 1, 0);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(3, 45);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(0);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 1;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(308, 27);
+            this.tableLayoutPanel1.TabIndex = 24;
             // 
             // CreateSignatureFieldForm
             // 
@@ -337,7 +356,8 @@ namespace DemosCommonCode.Pdf.Security
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             resources.ApplyResources(this, "$this");
             this.timestampProperitesGroupBox.ResumeLayout(false);
-            this.timestampProperitesGroupBox.PerformLayout();
+            this.tableLayoutPanel1.ResumeLayout(false);
+            this.tableLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -369,5 +389,6 @@ namespace DemosCommonCode.Pdf.Security
         private System.Windows.Forms.GroupBox timestampProperitesGroupBox;
         private System.Windows.Forms.ComboBox timestampHashAlgorithmComboBox;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
     }
 }

@@ -222,6 +222,8 @@ namespace PdfEditorDemo
             this.toolStripSeparator17 = new System.Windows.Forms.ToolStripSeparator();
             this.removeSignatureToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.removeAllSignaturesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator47 = new System.Windows.Forms.ToolStripSeparator();
+            this.addLongTimeValidationInfoLTVToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator19 = new System.Windows.Forms.ToolStripSeparator();
             this.bookmarksToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.bookmarks_AddToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -379,7 +381,7 @@ namespace PdfEditorDemo
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1100, 55);
+            this.panel1.Size = new System.Drawing.Size(1134, 55);
             this.panel1.TabIndex = 0;
             // 
             // toolStripPanel
@@ -393,7 +395,7 @@ namespace PdfEditorDemo
             this.toolStripPanel.Name = "toolStripPanel";
             this.toolStripPanel.Orientation = System.Windows.Forms.Orientation.Horizontal;
             this.toolStripPanel.RowMargin = new System.Windows.Forms.Padding(3, 0, 0, 0);
-            this.toolStripPanel.Size = new System.Drawing.Size(1100, 31);
+            this.toolStripPanel.Size = new System.Drawing.Size(1134, 31);
             // 
             // viewerToolStrip
             // 
@@ -429,7 +431,7 @@ namespace PdfEditorDemo
             this.imageViewer1.ShortcutDelete = System.Windows.Forms.Shortcut.None;
             this.imageViewer1.ShortcutInsert = System.Windows.Forms.Shortcut.None;
             this.imageViewer1.ShortcutSelectAll = System.Windows.Forms.Shortcut.None;
-            this.imageViewer1.Size = new System.Drawing.Size(778, 719);
+            this.imageViewer1.Size = new System.Drawing.Size(772, 730);
             this.imageViewer1.SizeMode = Vintasoft.Imaging.UI.ImageSizeMode.BestFit;
             this.imageViewer1.TabIndex = 1;
             this.imageViewer1.ImageLoading += new System.EventHandler<Vintasoft.Imaging.ImageLoadingEventArgs>(this.imageViewer_ImageLoading);
@@ -489,7 +491,7 @@ namespace PdfEditorDemo
             this.helpToolStripMenuItem});
             this.mainMenu.Location = new System.Drawing.Point(0, 0);
             this.mainMenu.Name = "mainMenu";
-            this.mainMenu.Size = new System.Drawing.Size(1100, 24);
+            this.mainMenu.Size = new System.Drawing.Size(1134, 24);
             this.mainMenu.TabIndex = 2;
             this.mainMenu.Text = "menuStrip1";
             // 
@@ -1797,7 +1799,9 @@ namespace PdfEditorDemo
             this.clearAllSignaturesToolStripMenuItem,
             this.toolStripSeparator17,
             this.removeSignatureToolStripMenuItem,
-            this.removeAllSignaturesToolStripMenuItem});
+            this.removeAllSignaturesToolStripMenuItem,
+            this.toolStripSeparator47,
+            this.addLongTimeValidationInfoLTVToolStripMenuItem});
             this.signaturesSigningToolStripMenuItem.Name = "signaturesSigningToolStripMenuItem";
             this.signaturesSigningToolStripMenuItem.Size = new System.Drawing.Size(265, 22);
             resources.ApplyResources(this.signaturesSigningToolStripMenuItem, "signaturesSigningToolStripMenuItem");
@@ -1878,6 +1882,18 @@ namespace PdfEditorDemo
             resources.ApplyResources(this.removeAllSignaturesToolStripMenuItem, "removeAllSignaturesToolStripMenuItem");
             this.removeAllSignaturesToolStripMenuItem.Click += new System.EventHandler(this.removeAllSignaturesToolStripMenuItem_Click);
             // 
+            // toolStripSeparator47
+            // 
+            this.toolStripSeparator47.Name = "toolStripSeparator47";
+            this.toolStripSeparator47.Size = new System.Drawing.Size(356, 6);
+            // 
+            // addLongTimeValidationInfoLTVToolStripMenuItem
+            // 
+            this.addLongTimeValidationInfoLTVToolStripMenuItem.Name = "addLongTimeValidationInfoLTVToolStripMenuItem";
+            this.addLongTimeValidationInfoLTVToolStripMenuItem.Size = new System.Drawing.Size(359, 22);
+            resources.ApplyResources(this.addLongTimeValidationInfoLTVToolStripMenuItem, "addLongTimeValidationInfoLTVToolStripMenuItem");
+            this.addLongTimeValidationInfoLTVToolStripMenuItem.Click += new System.EventHandler(this.addLongTimeValidationInfoLTVToolStripMenuItem_Click);
+            // 
             // toolStripSeparator19
             // 
             this.toolStripSeparator19.Name = "toolStripSeparator19";
@@ -1927,21 +1943,21 @@ namespace PdfEditorDemo
             // thumbnails_RemoveAllToolStripMenuItem
             // 
             this.thumbnails_RemoveAllToolStripMenuItem.Name = "thumbnails_RemoveAllToolStripMenuItem";
-            this.thumbnails_RemoveAllToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
+            this.thumbnails_RemoveAllToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             resources.ApplyResources(this.thumbnails_RemoveAllToolStripMenuItem, "thumbnails_RemoveAllToolStripMenuItem");
             this.thumbnails_RemoveAllToolStripMenuItem.Click += new System.EventHandler(this.thumbnails_RemoveAllToolStripMenuItem_Click);
             // 
             // thumbnails_GenerateAllToolStripMenuItem
             // 
             this.thumbnails_GenerateAllToolStripMenuItem.Name = "thumbnails_GenerateAllToolStripMenuItem";
-            this.thumbnails_GenerateAllToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
+            this.thumbnails_GenerateAllToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             resources.ApplyResources(this.thumbnails_GenerateAllToolStripMenuItem, "thumbnails_GenerateAllToolStripMenuItem");
             this.thumbnails_GenerateAllToolStripMenuItem.Click += new System.EventHandler(this.thumbnails_GenerateAllToolStripMenuItem_Click);
             // 
             // thumbnails_ViewToolStripMenuItem
             // 
             this.thumbnails_ViewToolStripMenuItem.Name = "thumbnails_ViewToolStripMenuItem";
-            this.thumbnails_ViewToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
+            this.thumbnails_ViewToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             resources.ApplyResources(this.thumbnails_ViewToolStripMenuItem, "thumbnails_ViewToolStripMenuItem");
             this.thumbnails_ViewToolStripMenuItem.Click += new System.EventHandler(this.thumbnails_ViewToolStripMenuItem_Click);
             // 
@@ -2126,7 +2142,7 @@ namespace PdfEditorDemo
             this.toolStripSeparator44,
             this.pageUsesTransparencyToolStripMenuItem});
             this.pageProcessingToolStripMenuItem.Name = "pageProcessingToolStripMenuItem";
-            this.pageProcessingToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
+            this.pageProcessingToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             resources.ApplyResources(this.pageProcessingToolStripMenuItem, "pageProcessingToolStripMenuItem");
             // 
             // burnThePDFAnnotationsOnPDFPageToolStripMenuItem
@@ -2231,50 +2247,50 @@ namespace PdfEditorDemo
             // toolStripSeparator40
             // 
             this.toolStripSeparator40.Name = "toolStripSeparator40";
-            this.toolStripSeparator40.Size = new System.Drawing.Size(169, 6);
+            this.toolStripSeparator40.Size = new System.Drawing.Size(177, 6);
             // 
             // pagePropertiesToolStripMenuItem
             // 
             this.pagePropertiesToolStripMenuItem.Name = "pagePropertiesToolStripMenuItem";
-            this.pagePropertiesToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
+            this.pagePropertiesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             resources.ApplyResources(this.pagePropertiesToolStripMenuItem, "pagePropertiesToolStripMenuItem");
             this.pagePropertiesToolStripMenuItem.Click += new System.EventHandler(this.pagePropertiesToolStripMenuItem_Click);
             // 
             // pageActionsToolStripMenuItem
             // 
             this.pageActionsToolStripMenuItem.Name = "pageActionsToolStripMenuItem";
-            this.pageActionsToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
+            this.pageActionsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             resources.ApplyResources(this.pageActionsToolStripMenuItem, "pageActionsToolStripMenuItem");
             this.pageActionsToolStripMenuItem.Click += new System.EventHandler(this.pageActionsToolStripMenuItem_Click);
             // 
             // toolStripSeparator22
             // 
             this.toolStripSeparator22.Name = "toolStripSeparator22";
-            this.toolStripSeparator22.Size = new System.Drawing.Size(169, 6);
+            this.toolStripSeparator22.Size = new System.Drawing.Size(177, 6);
             // 
             // pageResourcesToolStripMenuItem
             // 
             this.pageResourcesToolStripMenuItem.Name = "pageResourcesToolStripMenuItem";
-            this.pageResourcesToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
+            this.pageResourcesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             resources.ApplyResources(this.pageResourcesToolStripMenuItem, "pageResourcesToolStripMenuItem");
             this.pageResourcesToolStripMenuItem.Click += new System.EventHandler(this.pageResourcesToolStripMenuItem_Click);
             // 
             // imageResourcesToolStripMenuItem1
             // 
             this.imageResourcesToolStripMenuItem1.Name = "imageResourcesToolStripMenuItem1";
-            this.imageResourcesToolStripMenuItem1.Size = new System.Drawing.Size(172, 22);
+            this.imageResourcesToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             resources.ApplyResources(this.imageResourcesToolStripMenuItem1, "imageResourcesToolStripMenuItem1");
             this.imageResourcesToolStripMenuItem1.Click += new System.EventHandler(this.pageImageResourcesToolStripMenuItem_Click);
             // 
             // toolStripSeparator8
             // 
             this.toolStripSeparator8.Name = "toolStripSeparator8";
-            this.toolStripSeparator8.Size = new System.Drawing.Size(169, 6);
+            this.toolStripSeparator8.Size = new System.Drawing.Size(177, 6);
             // 
             // saveAsImageToolStripMenuItem
             // 
             this.saveAsImageToolStripMenuItem.Name = "saveAsImageToolStripMenuItem";
-            this.saveAsImageToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
+            this.saveAsImageToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             resources.ApplyResources(this.saveAsImageToolStripMenuItem, "saveAsImageToolStripMenuItem");
             this.saveAsImageToolStripMenuItem.Click += new System.EventHandler(this.saveAsImageToolStripMenuItem_Click);
             // 
@@ -2486,7 +2502,7 @@ namespace PdfEditorDemo
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(0, 55);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1100, 745);
+            this.panel2.Size = new System.Drawing.Size(1134, 756);
             this.panel2.TabIndex = 1;
             // 
             // toolsAndImageViewerPanel
@@ -2495,7 +2511,7 @@ namespace PdfEditorDemo
             this.toolsAndImageViewerPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.toolsAndImageViewerPanel.Location = new System.Drawing.Point(0, 0);
             this.toolsAndImageViewerPanel.Name = "toolsAndImageViewerPanel";
-            this.toolsAndImageViewerPanel.Size = new System.Drawing.Size(1100, 723);
+            this.toolsAndImageViewerPanel.Size = new System.Drawing.Size(1134, 734);
             this.toolsAndImageViewerPanel.TabIndex = 1;
             // 
             // splitContainerMain
@@ -2514,8 +2530,8 @@ namespace PdfEditorDemo
             // 
             this.splitContainerMain.Panel2.Controls.Add(this.panel5);
             this.splitContainerMain.Panel2.Padding = new System.Windows.Forms.Padding(0, 1, 1, 1);
-            this.splitContainerMain.Size = new System.Drawing.Size(1100, 723);
-            this.splitContainerMain.SplitterDistance = 315;
+            this.splitContainerMain.Size = new System.Drawing.Size(1134, 734);
+            this.splitContainerMain.SplitterDistance = 355;
             this.splitContainerMain.TabIndex = 1;
             // 
             // toolsTabControl
@@ -2532,7 +2548,7 @@ namespace PdfEditorDemo
             this.toolsTabControl.Multiline = true;
             this.toolsTabControl.Name = "toolsTabControl";
             this.toolsTabControl.SelectedIndex = 0;
-            this.toolsTabControl.Size = new System.Drawing.Size(314, 723);
+            this.toolsTabControl.Size = new System.Drawing.Size(354, 734);
             this.toolsTabControl.TabIndex = 0;
             this.toolsTabControl.SelectedIndexChanged += new System.EventHandler(this.toolsTabControl_SelectedIndexChanged);
             // 
@@ -2542,7 +2558,7 @@ namespace PdfEditorDemo
             this.pagesTabPage.Location = new System.Drawing.Point(4, 40);
             this.pagesTabPage.Name = "pagesTabPage";
             this.pagesTabPage.Padding = new System.Windows.Forms.Padding(3);
-            this.pagesTabPage.Size = new System.Drawing.Size(306, 679);
+            this.pagesTabPage.Size = new System.Drawing.Size(346, 690);
             this.pagesTabPage.TabIndex = 0;
             resources.ApplyResources(this.pagesTabPage, "pagesTabPage");
             this.pagesTabPage.UseVisualStyleBackColor = true;
@@ -2583,7 +2599,7 @@ namespace PdfEditorDemo
             this.thumbnailViewer1.ShortcutCopy = System.Windows.Forms.Shortcut.None;
             this.thumbnailViewer1.ShortcutCut = System.Windows.Forms.Shortcut.None;
             this.thumbnailViewer1.ShortcutInsert = System.Windows.Forms.Shortcut.None;
-            this.thumbnailViewer1.Size = new System.Drawing.Size(300, 673);
+            this.thumbnailViewer1.Size = new System.Drawing.Size(340, 684);
             this.thumbnailViewer1.TabIndex = 0;
             this.thumbnailViewer1.Text = "thumbnailViewer1";
             thumbnailAppearance5.BackColor = System.Drawing.Color.Transparent;
@@ -2608,7 +2624,7 @@ namespace PdfEditorDemo
             this.bookmarksTabPage.Location = new System.Drawing.Point(4, 40);
             this.bookmarksTabPage.Name = "bookmarksTabPage";
             this.bookmarksTabPage.Padding = new System.Windows.Forms.Padding(3);
-            this.bookmarksTabPage.Size = new System.Drawing.Size(306, 679);
+            this.bookmarksTabPage.Size = new System.Drawing.Size(346, 690);
             this.bookmarksTabPage.TabIndex = 1;
             resources.ApplyResources(this.bookmarksTabPage, "bookmarksTabPage");
             this.bookmarksTabPage.UseVisualStyleBackColor = true;
@@ -2622,7 +2638,7 @@ namespace PdfEditorDemo
             this.documentBookmarks.Document = null;
             this.documentBookmarks.Location = new System.Drawing.Point(3, 3);
             this.documentBookmarks.Name = "documentBookmarks";
-            this.documentBookmarks.Size = new System.Drawing.Size(300, 673);
+            this.documentBookmarks.Size = new System.Drawing.Size(340, 684);
             this.documentBookmarks.TabIndex = 0;
             this.documentBookmarks.Viewer = this.imageViewer1;
             // 
@@ -2632,7 +2648,7 @@ namespace PdfEditorDemo
             this.annotationToolTabPage.Location = new System.Drawing.Point(4, 40);
             this.annotationToolTabPage.Name = "annotationToolTabPage";
             this.annotationToolTabPage.Padding = new System.Windows.Forms.Padding(3);
-            this.annotationToolTabPage.Size = new System.Drawing.Size(306, 679);
+            this.annotationToolTabPage.Size = new System.Drawing.Size(346, 690);
             this.annotationToolTabPage.TabIndex = 3;
             resources.ApplyResources(this.annotationToolTabPage, "annotationToolTabPage");
             this.annotationToolTabPage.UseVisualStyleBackColor = true;
@@ -2644,7 +2660,7 @@ namespace PdfEditorDemo
             this.annotationToolControl.Location = new System.Drawing.Point(3, 3);
             this.annotationToolControl.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.annotationToolControl.Name = "annotationToolControl";
-            this.annotationToolControl.Size = new System.Drawing.Size(300, 673);
+            this.annotationToolControl.Size = new System.Drawing.Size(340, 684);
             this.annotationToolControl.TabIndex = 0;
             // 
             // commentsTabPage
@@ -2653,7 +2669,7 @@ namespace PdfEditorDemo
             this.commentsTabPage.Controls.Add(this.panel4);
             this.commentsTabPage.Location = new System.Drawing.Point(4, 40);
             this.commentsTabPage.Name = "commentsTabPage";
-            this.commentsTabPage.Size = new System.Drawing.Size(306, 679);
+            this.commentsTabPage.Size = new System.Drawing.Size(346, 690);
             this.commentsTabPage.TabIndex = 9;
             resources.ApplyResources(this.commentsTabPage, "commentsTabPage");
             this.commentsTabPage.UseVisualStyleBackColor = true;
@@ -2664,7 +2680,7 @@ namespace PdfEditorDemo
             this.panel6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel6.Location = new System.Drawing.Point(0, 37);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(306, 642);
+            this.panel6.Size = new System.Drawing.Size(346, 653);
             this.panel6.TabIndex = 4;
             // 
             // commentsControl
@@ -2673,7 +2689,7 @@ namespace PdfEditorDemo
             this.commentsControl.ImageViewer = this.imageViewer1;
             this.commentsControl.Location = new System.Drawing.Point(0, 0);
             this.commentsControl.Name = "commentsControl";
-            this.commentsControl.Size = new System.Drawing.Size(306, 642);
+            this.commentsControl.Size = new System.Drawing.Size(346, 653);
             this.commentsControl.TabIndex = 0;
             // 
             // panel4
@@ -2683,7 +2699,7 @@ namespace PdfEditorDemo
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel4.Location = new System.Drawing.Point(0, 0);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(306, 37);
+            this.panel4.Size = new System.Drawing.Size(346, 37);
             this.panel4.TabIndex = 3;
             // 
             // addCommentButton
@@ -2702,7 +2718,7 @@ namespace PdfEditorDemo
             // 
             this.closeAllCommentsButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.closeAllCommentsButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.closeAllCommentsButton.Location = new System.Drawing.Point(178, 7);
+            this.closeAllCommentsButton.Location = new System.Drawing.Point(218, 7);
             this.closeAllCommentsButton.Name = "closeAllCommentsButton";
             this.closeAllCommentsButton.Size = new System.Drawing.Size(124, 23);
             this.closeAllCommentsButton.TabIndex = 2;
@@ -2716,7 +2732,7 @@ namespace PdfEditorDemo
             this.textExtractionTabPage.Location = new System.Drawing.Point(4, 40);
             this.textExtractionTabPage.Name = "textExtractionTabPage";
             this.textExtractionTabPage.Padding = new System.Windows.Forms.Padding(3);
-            this.textExtractionTabPage.Size = new System.Drawing.Size(306, 679);
+            this.textExtractionTabPage.Size = new System.Drawing.Size(346, 690);
             this.textExtractionTabPage.TabIndex = 5;
             resources.ApplyResources(this.textExtractionTabPage, "textExtractionTabPage");
             this.textExtractionTabPage.UseVisualStyleBackColor = true;
@@ -2728,7 +2744,7 @@ namespace PdfEditorDemo
             this.pdfTextSelectionControl1.Location = new System.Drawing.Point(3, 3);
             this.pdfTextSelectionControl1.MinimumSize = new System.Drawing.Size(183, 340);
             this.pdfTextSelectionControl1.Name = "pdfTextSelectionControl1";
-            this.pdfTextSelectionControl1.Size = new System.Drawing.Size(300, 673);
+            this.pdfTextSelectionControl1.Size = new System.Drawing.Size(340, 684);
             this.pdfTextSelectionControl1.TabIndex = 0;
             this.pdfTextSelectionControl1.TextSelectionTool = null;
             // 
@@ -2738,7 +2754,7 @@ namespace PdfEditorDemo
             this.removeContentTabPage.Location = new System.Drawing.Point(4, 40);
             this.removeContentTabPage.Name = "removeContentTabPage";
             this.removeContentTabPage.Padding = new System.Windows.Forms.Padding(3);
-            this.removeContentTabPage.Size = new System.Drawing.Size(306, 679);
+            this.removeContentTabPage.Size = new System.Drawing.Size(346, 690);
             this.removeContentTabPage.TabIndex = 6;
             resources.ApplyResources(this.removeContentTabPage, "removeContentTabPage");
             this.removeContentTabPage.UseVisualStyleBackColor = true;
@@ -2750,7 +2766,7 @@ namespace PdfEditorDemo
             this.pdfRemoveContentControl1.MinimumSize = new System.Drawing.Size(168, 340);
             this.pdfRemoveContentControl1.Name = "pdfRemoveContentControl1";
             this.pdfRemoveContentControl1.RemoveContentTool = null;
-            this.pdfRemoveContentControl1.Size = new System.Drawing.Size(300, 673);
+            this.pdfRemoveContentControl1.Size = new System.Drawing.Size(340, 684);
             this.pdfRemoveContentControl1.TabIndex = 0;
             this.pdfRemoveContentControl1.TextSelectionTool = null;
             this.pdfRemoveContentControl1.ThumbnailViewer = null;
@@ -2760,7 +2776,7 @@ namespace PdfEditorDemo
             this.contentEditorTabPage.Controls.Add(this.pdfContentEditorControl1);
             this.contentEditorTabPage.Location = new System.Drawing.Point(4, 40);
             this.contentEditorTabPage.Name = "contentEditorTabPage";
-            this.contentEditorTabPage.Size = new System.Drawing.Size(306, 679);
+            this.contentEditorTabPage.Size = new System.Drawing.Size(346, 690);
             this.contentEditorTabPage.TabIndex = 7;
             resources.ApplyResources(this.contentEditorTabPage, "contentEditorTabPage");
             this.contentEditorTabPage.UseVisualStyleBackColor = true;
@@ -2772,7 +2788,7 @@ namespace PdfEditorDemo
             this.pdfContentEditorControl1.Location = new System.Drawing.Point(0, 0);
             this.pdfContentEditorControl1.MinimumSize = new System.Drawing.Size(241, 382);
             this.pdfContentEditorControl1.Name = "pdfContentEditorControl1";
-            this.pdfContentEditorControl1.Size = new System.Drawing.Size(306, 679);
+            this.pdfContentEditorControl1.Size = new System.Drawing.Size(346, 690);
             this.pdfContentEditorControl1.TabIndex = 0;
             // 
             // panel5
@@ -2782,16 +2798,16 @@ namespace PdfEditorDemo
             this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel5.Location = new System.Drawing.Point(0, 1);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(780, 721);
+            this.panel5.Size = new System.Drawing.Size(774, 732);
             this.panel5.TabIndex = 0;
             // 
             // panel3
             // 
             this.panel3.Controls.Add(this.mainStatusStrip);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel3.Location = new System.Drawing.Point(0, 723);
+            this.panel3.Location = new System.Drawing.Point(0, 734);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1100, 22);
+            this.panel3.Size = new System.Drawing.Size(1134, 22);
             this.panel3.TabIndex = 0;
             // 
             // mainStatusStrip
@@ -2807,7 +2823,7 @@ namespace PdfEditorDemo
             this.pageInfoLabel});
             this.mainStatusStrip.Location = new System.Drawing.Point(0, 0);
             this.mainStatusStrip.Name = "mainStatusStrip";
-            this.mainStatusStrip.Size = new System.Drawing.Size(1100, 22);
+            this.mainStatusStrip.Size = new System.Drawing.Size(1134, 22);
             this.mainStatusStrip.TabIndex = 0;
             this.mainStatusStrip.Text = "statusStrip1";
             // 
@@ -2844,7 +2860,7 @@ namespace PdfEditorDemo
             // toolStripStatusLabel1
             // 
             this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(1075, 17);
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(1109, 17);
             this.toolStripStatusLabel1.Spring = true;
             // 
             // pageInfoLabel
@@ -2927,7 +2943,7 @@ namespace PdfEditorDemo
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(1100, 800);
+            this.ClientSize = new System.Drawing.Size(1134, 811);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -3281,5 +3297,7 @@ namespace PdfEditorDemo
         private System.Windows.Forms.ToolStripMenuItem updateAppearancesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem pageAutoOrientationToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem centerPrintingPageToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator47;
+        private System.Windows.Forms.ToolStripMenuItem addLongTimeValidationInfoLTVToolStripMenuItem;
     }
 }

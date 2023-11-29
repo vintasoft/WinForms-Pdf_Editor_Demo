@@ -123,23 +123,17 @@
   <data name="copyToolStripMenuItem.Text" xml:space="preserve">
     <value>Kopieren</value>
   </data>
-  <data name="formattingModeParagraphsRadioButton.Text" xml:space="preserve">
-    <value>Absätze</value>
-  </data>
   <data name="formattingModeLinesRadioButton.Text" xml:space="preserve">
     <value>Linien</value>
   </data>
   <data name="formattingModeMonospaceRadioButton.Text" xml:space="preserve">
     <value>Monospace</value>
   </data>
+  <data name="formattingModeParagraphsRadioButton.Text" xml:space="preserve">
+    <value>Absätze</value>
+  </data>
   <data name="groupBox2.Text" xml:space="preserve">
     <value>Formatierungsmodus</value>
-  </data>
-  <data name="mouseSelectionCheckBox.Text" xml:space="preserve">
-    <value>Mausauswahl</value>
-  </data>
-  <data name="keyboardSelectionCheckBox.Text" xml:space="preserve">
-    <value>Tastaturauswahl</value>
   </data>
   <data name="label12.Text" xml:space="preserve">
     <value>Blinkintervall (ms):</value>
@@ -150,35 +144,41 @@
   <data name="groupBox4.Text" xml:space="preserve">
     <value>Text-Caret</value>
   </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Standort (Bildbereich):</value>
+  <data name="mouseSelectionCheckBox.Text" xml:space="preserve">
+    <value>Mausauswahl</value>
   </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>Standort (Textbereich):</value>
-  </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>Symbol:</value>
+  <data name="keyboardSelectionCheckBox.Text" xml:space="preserve">
+    <value>Tastaturauswahl</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
     <value>Symbolcode:</value>
   </data>
-  <data name="label5.Text" xml:space="preserve">
-    <value>Schriftgröße:</value>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Symbol:</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
     <value>Schriftart:</value>
   </data>
-  <data name="label7.Text" xml:space="preserve">
-    <value>Farbe:</value>
-  </data>
   <data name="label9.Text" xml:space="preserve">
     <value>Symbol Rect:</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Schriftgröße:</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Inhaltscode:</value>
   </data>
   <data name="label10.Text" xml:space="preserve">
     <value>Rendering-Modus:</value>
   </data>
-  <data name="label11.Text" xml:space="preserve">
-    <value>Inhaltscode:</value>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Farbe:</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Standort (Textbereich):</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Standort (Bildbereich):</value>
   </data>
   <data name="cursorGroupBox.Text" xml:space="preserve">
     <value>Fokussiertes Textsymbol</value>

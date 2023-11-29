@@ -31,6 +31,10 @@ namespace DemosCommonCode.Pdf
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PdfContentEditorControl));
             this.mainPanel = new System.Windows.Forms.Panel();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.renderFiguresButton = new System.Windows.Forms.Button();
+            this.removeButton = new System.Windows.Forms.Button();
+            this.removeAllButton = new System.Windows.Forms.Button();
             this.contentFiguresEditorToolStrip = new System.Windows.Forms.ToolStrip();
             this.undoToolStripSplitButton = new System.Windows.Forms.ToolStripSplitButton();
             this.redoToolStripSplitButton = new System.Windows.Forms.ToolStripSplitButton();
@@ -58,7 +62,6 @@ namespace DemosCommonCode.Pdf
             this.fillPathContentToolStripButton = new System.Windows.Forms.ToolStripButton();
             this.shadingFillContentToolStripButton = new System.Windows.Forms.ToolStripButton();
             this.clipContentToolStripButton = new System.Windows.Forms.ToolStripButton();
-            this.removeButton = new System.Windows.Forms.Button();
             this.figuresGroupBox = new System.Windows.Forms.GroupBox();
             this.figureBuilderToolStrip = new System.Windows.Forms.ToolStrip();
             this.addTextToolStripButton = new System.Windows.Forms.ToolStripButton();
@@ -79,8 +82,6 @@ namespace DemosCommonCode.Pdf
             this.drawCurvesToolStripButton = new System.Windows.Forms.ToolStripButton();
             this.drawPolygonToolStripButton = new System.Windows.Forms.ToolStripButton();
             this.drawClosedCurvesToolStripButton = new System.Windows.Forms.ToolStripButton();
-            this.removeAllButton = new System.Windows.Forms.Button();
-            this.renderFiguresButton = new System.Windows.Forms.Button();
             this.figuresListBox = new System.Windows.Forms.ListBox();
             this.figureViewContextMenuStrip = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.cutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -95,13 +96,14 @@ namespace DemosCommonCode.Pdf
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.replaceResourceToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
+            this.contentGraphicsPropertiesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.propertiesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.imageViewerContextMenuStrip = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.pasteToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.removeAllToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.textEditingExceptionToolTip = new System.Windows.Forms.ToolTip(this.components);
-            this.contentGraphicsPropertiesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mainPanel.SuspendLayout();
+            this.tableLayoutPanel1.SuspendLayout();
             this.contentFiguresEditorToolStrip.SuspendLayout();
             this.contentEditorToolStrip.SuspendLayout();
             this.figuresGroupBox.SuspendLayout();
@@ -112,12 +114,10 @@ namespace DemosCommonCode.Pdf
             // 
             // mainPanel
             // 
+            this.mainPanel.Controls.Add(this.tableLayoutPanel1);
             this.mainPanel.Controls.Add(this.contentFiguresEditorToolStrip);
             this.mainPanel.Controls.Add(this.contentEditorToolStrip);
-            this.mainPanel.Controls.Add(this.removeButton);
             this.mainPanel.Controls.Add(this.figuresGroupBox);
-            this.mainPanel.Controls.Add(this.removeAllButton);
-            this.mainPanel.Controls.Add(this.renderFiguresButton);
             this.mainPanel.Controls.Add(this.figuresListBox);
             this.mainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.mainPanel.Enabled = false;
@@ -125,6 +125,59 @@ namespace DemosCommonCode.Pdf
             this.mainPanel.Name = "mainPanel";
             this.mainPanel.Size = new System.Drawing.Size(320, 603);
             this.mainPanel.TabIndex = 0;
+            // 
+            // tableLayoutPanel1
+            // 
+            this.tableLayoutPanel1.ColumnCount = 3;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel1.Controls.Add(this.renderFiguresButton, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.removeButton, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.removeAllButton, 2, 0);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(3, 489);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(0);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 1;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(314, 27);
+            this.tableLayoutPanel1.TabIndex = 12;
+            // 
+            // renderFiguresButton
+            // 
+            this.renderFiguresButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.renderFiguresButton.AutoSize = true;
+            this.renderFiguresButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.renderFiguresButton.Location = new System.Drawing.Point(3, 3);
+            this.renderFiguresButton.Name = "renderFiguresButton";
+            this.renderFiguresButton.Size = new System.Drawing.Size(130, 23);
+            this.renderFiguresButton.TabIndex = 2;
+            resources.ApplyResources(this.renderFiguresButton, "renderFiguresButton");
+            this.renderFiguresButton.UseVisualStyleBackColor = true;
+            this.renderFiguresButton.Click += new System.EventHandler(this.renderFiguresButton_Click);
+            // 
+            // removeButton
+            // 
+            this.removeButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.removeButton.AutoSize = true;
+            this.removeButton.Location = new System.Drawing.Point(139, 3);
+            this.removeButton.Name = "removeButton";
+            this.removeButton.Size = new System.Drawing.Size(59, 23);
+            this.removeButton.TabIndex = 5;
+            resources.ApplyResources(this.removeButton, "removeButton");
+            this.removeButton.UseVisualStyleBackColor = true;
+            this.removeButton.Click += new System.EventHandler(this.removeButton_Click);
+            // 
+            // removeAllButton
+            // 
+            this.removeAllButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.removeAllButton.Location = new System.Drawing.Point(204, 3);
+            this.removeAllButton.Name = "removeAllButton";
+            this.removeAllButton.Size = new System.Drawing.Size(107, 23);
+            this.removeAllButton.TabIndex = 3;
+            resources.ApplyResources(this.removeAllButton, "removeAllButton");
+            this.removeAllButton.UseVisualStyleBackColor = true;
+            this.removeAllButton.Click += new System.EventHandler(this.removeAllToolStripMenuItem_Click);
             // 
             // contentFiguresEditorToolStrip
             // 
@@ -423,17 +476,6 @@ namespace DemosCommonCode.Pdf
             this.clipContentToolStripButton.CheckedChanged += new System.EventHandler(this.interactiveContentTypeToolStripButton_CheckedChanged);
             this.clipContentToolStripButton.MouseDown += new System.Windows.Forms.MouseEventHandler(this.interactiveContentTypeToolStripButton_MouseDown);
             // 
-            // removeButton
-            // 
-            this.removeButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.removeButton.Location = new System.Drawing.Point(182, 490);
-            this.removeButton.Name = "removeButton";
-            this.removeButton.Size = new System.Drawing.Size(59, 23);
-            this.removeButton.TabIndex = 5;
-            resources.ApplyResources(this.removeButton, "removeButton");
-            this.removeButton.UseVisualStyleBackColor = true;
-            this.removeButton.Click += new System.EventHandler(this.removeButton_Click);
-            // 
             // figuresGroupBox
             // 
             this.figuresGroupBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -656,30 +698,6 @@ namespace DemosCommonCode.Pdf
             resources.ApplyResources(this.drawClosedCurvesToolStripButton, "drawClosedCurvesToolStripButton");
             this.drawClosedCurvesToolStripButton.Click += new System.EventHandler(this.drawClosedCurvesToolStripButton_Click);
             // 
-            // removeAllButton
-            // 
-            this.removeAllButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.removeAllButton.Location = new System.Drawing.Point(244, 490);
-            this.removeAllButton.Name = "removeAllButton";
-            this.removeAllButton.Size = new System.Drawing.Size(70, 23);
-            this.removeAllButton.TabIndex = 3;
-            resources.ApplyResources(this.removeAllButton, "removeAllButton");
-            this.removeAllButton.UseVisualStyleBackColor = true;
-            this.removeAllButton.Click += new System.EventHandler(this.removeAllToolStripMenuItem_Click);
-            // 
-            // renderFiguresButton
-            // 
-            this.renderFiguresButton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.renderFiguresButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.renderFiguresButton.Location = new System.Drawing.Point(4, 490);
-            this.renderFiguresButton.Name = "renderFiguresButton";
-            this.renderFiguresButton.Size = new System.Drawing.Size(172, 23);
-            this.renderFiguresButton.TabIndex = 2;
-            resources.ApplyResources(this.renderFiguresButton, "renderFiguresButton");
-            this.renderFiguresButton.UseVisualStyleBackColor = true;
-            this.renderFiguresButton.Click += new System.EventHandler(this.renderFiguresButton_Click);
-            // 
             // figuresListBox
             // 
             this.figuresListBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -789,6 +807,13 @@ namespace DemosCommonCode.Pdf
             this.toolStripSeparator6.Name = "toolStripSeparator6";
             this.toolStripSeparator6.Size = new System.Drawing.Size(228, 6);
             // 
+            // contentGraphicsPropertiesToolStripMenuItem
+            // 
+            this.contentGraphicsPropertiesToolStripMenuItem.Name = "contentGraphicsPropertiesToolStripMenuItem";
+            this.contentGraphicsPropertiesToolStripMenuItem.Size = new System.Drawing.Size(231, 22);
+            resources.ApplyResources(this.contentGraphicsPropertiesToolStripMenuItem, "contentGraphicsPropertiesToolStripMenuItem");
+            this.contentGraphicsPropertiesToolStripMenuItem.Click += new System.EventHandler(this.contentGraphicsPropertiesToolStripButton_Click);
+            // 
             // propertiesToolStripMenuItem
             // 
             this.propertiesToolStripMenuItem.Name = "propertiesToolStripMenuItem";
@@ -825,13 +850,6 @@ namespace DemosCommonCode.Pdf
             this.textEditingExceptionToolTip.InitialDelay = 500;
             this.textEditingExceptionToolTip.ReshowDelay = 0;
             // 
-            // contentGraphicsPropertiesToolStripMenuItem
-            // 
-            this.contentGraphicsPropertiesToolStripMenuItem.Name = "contentGraphicsPropertiesToolStripMenuItem";
-            this.contentGraphicsPropertiesToolStripMenuItem.Size = new System.Drawing.Size(231, 22);
-            resources.ApplyResources(this.contentGraphicsPropertiesToolStripMenuItem, "contentGraphicsPropertiesToolStripMenuItem");
-            this.contentGraphicsPropertiesToolStripMenuItem.Click += new System.EventHandler(this.contentGraphicsPropertiesToolStripButton_Click);
-            // 
             // PdfContentEditorControl
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -841,6 +859,8 @@ namespace DemosCommonCode.Pdf
             this.Size = new System.Drawing.Size(320, 603);
             this.mainPanel.ResumeLayout(false);
             this.mainPanel.PerformLayout();
+            this.tableLayoutPanel1.ResumeLayout(false);
+            this.tableLayoutPanel1.PerformLayout();
             this.contentFiguresEditorToolStrip.ResumeLayout(false);
             this.contentFiguresEditorToolStrip.PerformLayout();
             this.contentEditorToolStrip.ResumeLayout(false);
@@ -928,5 +948,6 @@ namespace DemosCommonCode.Pdf
         private System.Windows.Forms.ToolTip textEditingExceptionToolTip;
         private System.Windows.Forms.ToolStripButton contentGraphicsPropertiesToolStripButton;
         private System.Windows.Forms.ToolStripMenuItem contentGraphicsPropertiesToolStripMenuItem;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
     }
 }

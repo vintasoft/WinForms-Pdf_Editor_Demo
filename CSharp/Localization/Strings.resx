@@ -1095,14 +1095,23 @@ Press 'Yes' to delete auto states.</value>
   <data name="DEMOSCOMMONCODE_PDF_NO_NAME" xml:space="preserve">
     <value>(no name)</value>
   </data>
-  <data name="DEMOSCOMMONCODE_PDF_ONE_OR_SEVERAL_PAGES_ARE_NOT_SAVED_IN_CURRENT_PDF_DOCUMENT_SAVE_DOCUMENT_AND_TRY_AGAIN" xml:space="preserve">
-    <value>One or several pages are not saved in current PDF document. Save document and try again.</value>
+  <data name="DEMOSCOMMONCODE_PDF_DOCUMENT_IS_CHANGED_FIRST_PLEASE_SIGN_AND_SAVE_DOCUMENT" xml:space="preserve">
+    <value>Document is changed. First please sign and save document.</value>
   </data>
-  <data name="DEMOSCOMMONCODE_PDF_DOCUMENT_DOES_NOT_HAVE_THE_INFORMATION_DICTIONARY_DO_YOU_WANT_TO_CREATE_THE_INFORMATION_DICTIONARY" xml:space="preserve">
-    <value>Document does not have the Information Dictionary. Do you want to create the Information Dictionary?</value>
+  <data name="DEMOSCOMMONCODE_PDF_LTV_INFORMATION_IS_NOT_REQUIRED_FOR_THIS_DOCUMENT" xml:space="preserve">
+    <value>LTV information is not required for this document.</value>
   </data>
-  <data name="DEMOSCOMMONCODE_PDF_DOCUMENT_DOES_NOT_HAVE_INFORMATION_DICTIONARY" xml:space="preserve">
-    <value>Document does not have Information Dictionary.</value>
+  <data name="DEMOSCOMMONCODE_PDF_LTV_INFORMATION_IS_ADDED" xml:space="preserve">
+    <value>LTV information is added.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_ONE_OR_SEVERAL_PAGES_ARE_NOT_SAVED_IN_PDF_DOCUMENT_SAVE_DOCUMENT_AND_TRY_AGAIN" xml:space="preserve">
+    <value>One or several pages are not saved in PDF document. Save document and try again.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_PDF_DOCUMENT_DOES_NOT_HAVE_THE_INFORMATION_DICTIONARY_DO_YOU_WANT_TO_CREATE_THE_INFORMATION_DICTIONARY" xml:space="preserve">
+    <value>PDF document does not have the Information Dictionary. Do you want to create the Information Dictionary?</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_PDF_PDF_DOCUMENT_DOES_NOT_HAVE_THE_INFORMATION_DICTIONARY" xml:space="preserve">
+    <value>PDF document does not have the Information Dictionary.</value>
   </data>
   <data name="DEMOSCOMMONCODE_PDF_DOCUMENT_INFORMATION" xml:space="preserve">
     <value>Document Information</value>

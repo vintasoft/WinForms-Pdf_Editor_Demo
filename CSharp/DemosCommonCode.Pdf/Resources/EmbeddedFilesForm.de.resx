@@ -120,9 +120,6 @@
   <data name="$this.Text" xml:space="preserve">
     <value>Eingebettete Dateien</value>
   </data>
-  <data name="encodeFilesImmediatelyCheckBox.Text" xml:space="preserve">
-    <value>Dateien sofort kodieren</value>
-  </data>
   <data name="label1.Text" xml:space="preserve">
     <value>Komprimierung</value>
   </data>
@@ -155,5 +152,8 @@
   </data>
   <data name="saveAsButton.Text" xml:space="preserve">
     <value>Speichern unter...</value>
+  </data>
+  <data name="encodeFilesImmediatelyCheckBox.Text" xml:space="preserve">
+    <value>Dateien sofort kodieren</value>
   </data>
 </root>

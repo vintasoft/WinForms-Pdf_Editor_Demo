@@ -123,20 +123,17 @@
   <data name="isBorderPropertiesEnabledCheckBox.Text" xml:space="preserve">
     <value>Rand</value>
   </data>
-  <data name="borderColorLabel.Text" xml:space="preserve">
-    <value>Farbe</value>
-  </data>
   <data name="borderWidthLabel.Text" xml:space="preserve">
     <value>Breite</value>
+  </data>
+  <data name="borderColorLabel.Text" xml:space="preserve">
+    <value>Farbe</value>
   </data>
   <data name="fillColorLabel.Text" xml:space="preserve">
     <value>Farbe</value>
   </data>
-  <data name="fontButton.Text" xml:space="preserve">
-    <value>Schriftart...</value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Schriftgröße</value>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Overlay-Text</value>
   </data>
   <data name="autoFontSizeCheckBox.Text" xml:space="preserve">
     <value>Automatische Schriftgröße</value>
@@ -144,8 +141,11 @@
   <data name="label2.Text" xml:space="preserve">
     <value>Schriftfarbe</value>
   </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>Overlay-Text</value>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Schriftgröße</value>
+  </data>
+  <data name="fontButton.Text" xml:space="preserve">
+    <value>Schriftart...</value>
   </data>
   <data name="isFillColorEnabledCheckBox.Text" xml:space="preserve">
     <value>Füllen</value>

@@ -120,9 +120,6 @@
   <data name="$this.Text" xml:space="preserve">
     <value>Bildkomprimierung festlegen</value>
   </data>
-  <data name="jpeg200SettingsButton.Text" xml:space="preserve">
-    <value>Einstellungen...</value>
-  </data>
   <data name="forAllButton.Text" xml:space="preserve">
     <value>Für alle verwenden</value>
   </data>
@@ -135,17 +132,20 @@
   <data name="label4.Text" xml:space="preserve">
     <value>Qualität</value>
   </data>
+  <data name="jpeg200SettingsButton.Text" xml:space="preserve">
+    <value>Einstellungen...</value>
+  </data>
   <data name="groupBox2.Text" xml:space="preserve">
     <value>Komprimierung</value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Anzahl</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
     <value>Pixelformat</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
     <value>Größe</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Anzahl</value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
     <value>Bildinformationen</value>

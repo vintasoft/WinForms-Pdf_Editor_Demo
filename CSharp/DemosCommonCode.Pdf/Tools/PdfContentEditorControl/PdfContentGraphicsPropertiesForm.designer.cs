@@ -50,33 +50,42 @@ namespace DemosCommonCode.Pdf
             this.colorBlendingGroupBox = new System.Windows.Forms.GroupBox();
             this.colorBlendingComboBox = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
             this.strokeGroupBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.lineWidthNumericUpDown)).BeginInit();
             this.fillGroupBox.SuspendLayout();
             this.textPropertiesGroupBox.SuspendLayout();
             this.colorBlendingGroupBox.SuspendLayout();
+            this.tableLayoutPanel1.SuspendLayout();
+            this.tableLayoutPanel2.SuspendLayout();
+            this.tableLayoutPanel3.SuspendLayout();
+            this.tableLayoutPanel4.SuspendLayout();
+            this.tableLayoutPanel5.SuspendLayout();
             this.SuspendLayout();
             // 
             // strokeGroupBox
             // 
             this.strokeGroupBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.strokeGroupBox.Controls.Add(this.label3);
-            this.strokeGroupBox.Controls.Add(this.lineWidthNumericUpDown);
-            this.strokeGroupBox.Controls.Add(this.label1);
-            this.strokeGroupBox.Controls.Add(this.strokeColorPanelControl);
+            this.strokeGroupBox.AutoSize = true;
+            this.strokeGroupBox.Controls.Add(this.tableLayoutPanel2);
             this.strokeGroupBox.Enabled = false;
-            this.strokeGroupBox.Location = new System.Drawing.Point(12, 116);
+            this.strokeGroupBox.Location = new System.Drawing.Point(3, 108);
             this.strokeGroupBox.Name = "strokeGroupBox";
-            this.strokeGroupBox.Size = new System.Drawing.Size(260, 80);
+            this.strokeGroupBox.Size = new System.Drawing.Size(255, 75);
             this.strokeGroupBox.TabIndex = 2;
             this.strokeGroupBox.TabStop = false;
             resources.ApplyResources(this.strokeGroupBox, "strokeGroupBox");
             // 
             // label3
             // 
+            this.label3.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(7, 50);
+            this.label3.Location = new System.Drawing.Point(3, 35);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(58, 13);
             this.label3.TabIndex = 3;
@@ -84,8 +93,8 @@ namespace DemosCommonCode.Pdf
             // 
             // lineWidthNumericUpDown
             // 
-            this.lineWidthNumericUpDown.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.lineWidthNumericUpDown.Location = new System.Drawing.Point(133, 47);
+            this.lineWidthNumericUpDown.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.lineWidthNumericUpDown.Location = new System.Drawing.Point(125, 32);
             this.lineWidthNumericUpDown.Maximum = new decimal(new int[] {
             100000,
             0,
@@ -97,8 +106,9 @@ namespace DemosCommonCode.Pdf
             // 
             // label1
             // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(6, 25);
+            this.label1.Location = new System.Drawing.Point(3, 7);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(116, 13);
             this.label1.TabIndex = 1;
@@ -106,10 +116,10 @@ namespace DemosCommonCode.Pdf
             // 
             // strokeColorPanelControl
             // 
-            this.strokeColorPanelControl.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.strokeColorPanelControl.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.strokeColorPanelControl.Color = System.Drawing.Color.Black;
             this.strokeColorPanelControl.DefaultColor = System.Drawing.Color.Empty;
-            this.strokeColorPanelControl.Location = new System.Drawing.Point(133, 19);
+            this.strokeColorPanelControl.Location = new System.Drawing.Point(125, 3);
             this.strokeColorPanelControl.Name = "strokeColorPanelControl";
             this.strokeColorPanelControl.Size = new System.Drawing.Size(121, 22);
             this.strokeColorPanelControl.TabIndex = 0;
@@ -117,7 +127,8 @@ namespace DemosCommonCode.Pdf
             // strokePropertiesCheckBox
             // 
             this.strokePropertiesCheckBox.AutoSize = true;
-            this.strokePropertiesCheckBox.Location = new System.Drawing.Point(12, 97);
+            this.strokePropertiesCheckBox.Location = new System.Drawing.Point(3, 85);
+            this.strokePropertiesCheckBox.Margin = new System.Windows.Forms.Padding(3, 6, 3, 3);
             this.strokePropertiesCheckBox.Name = "strokePropertiesCheckBox";
             this.strokePropertiesCheckBox.Size = new System.Drawing.Size(126, 17);
             this.strokePropertiesCheckBox.TabIndex = 3;
@@ -128,7 +139,8 @@ namespace DemosCommonCode.Pdf
             // fillPropertiesCheckBox
             // 
             this.fillPropertiesCheckBox.AutoSize = true;
-            this.fillPropertiesCheckBox.Location = new System.Drawing.Point(12, 16);
+            this.fillPropertiesCheckBox.Location = new System.Drawing.Point(3, 6);
+            this.fillPropertiesCheckBox.Margin = new System.Windows.Forms.Padding(3, 6, 3, 3);
             this.fillPropertiesCheckBox.Name = "fillPropertiesCheckBox";
             this.fillPropertiesCheckBox.Size = new System.Drawing.Size(107, 17);
             this.fillPropertiesCheckBox.TabIndex = 4;
@@ -140,20 +152,21 @@ namespace DemosCommonCode.Pdf
             // 
             this.fillGroupBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.fillGroupBox.Controls.Add(this.label2);
-            this.fillGroupBox.Controls.Add(this.fillColorPanelControl);
+            this.fillGroupBox.AutoSize = true;
+            this.fillGroupBox.Controls.Add(this.tableLayoutPanel1);
             this.fillGroupBox.Enabled = false;
-            this.fillGroupBox.Location = new System.Drawing.Point(12, 35);
+            this.fillGroupBox.Location = new System.Drawing.Point(3, 29);
             this.fillGroupBox.Name = "fillGroupBox";
-            this.fillGroupBox.Size = new System.Drawing.Size(260, 52);
+            this.fillGroupBox.Size = new System.Drawing.Size(255, 47);
             this.fillGroupBox.TabIndex = 3;
             this.fillGroupBox.TabStop = false;
             resources.ApplyResources(this.fillGroupBox, "fillGroupBox");
             // 
             // label2
             // 
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(6, 25);
+            this.label2.Location = new System.Drawing.Point(3, 7);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(97, 13);
             this.label2.TabIndex = 1;
@@ -161,17 +174,17 @@ namespace DemosCommonCode.Pdf
             // 
             // fillColorPanelControl
             // 
-            this.fillColorPanelControl.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.fillColorPanelControl.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.fillColorPanelControl.Color = System.Drawing.Color.Black;
             this.fillColorPanelControl.DefaultColor = System.Drawing.Color.Empty;
-            this.fillColorPanelControl.Location = new System.Drawing.Point(133, 19);
+            this.fillColorPanelControl.Location = new System.Drawing.Point(125, 3);
             this.fillColorPanelControl.Name = "fillColorPanelControl";
             this.fillColorPanelControl.Size = new System.Drawing.Size(121, 22);
             this.fillColorPanelControl.TabIndex = 0;
             // 
             // buttonOk
             // 
-            this.buttonOk.Location = new System.Drawing.Point(116, 355);
+            this.buttonOk.Location = new System.Drawing.Point(114, 364);
             this.buttonOk.Name = "buttonOk";
             this.buttonOk.Size = new System.Drawing.Size(75, 23);
             this.buttonOk.TabIndex = 5;
@@ -182,7 +195,7 @@ namespace DemosCommonCode.Pdf
             // buttonCancel
             // 
             this.buttonCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.buttonCancel.Location = new System.Drawing.Point(197, 355);
+            this.buttonCancel.Location = new System.Drawing.Point(195, 364);
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(75, 23);
             this.buttonCancel.TabIndex = 6;
@@ -193,7 +206,8 @@ namespace DemosCommonCode.Pdf
             // textPropertiesCheckBox
             // 
             this.textPropertiesCheckBox.AutoSize = true;
-            this.textPropertiesCheckBox.Location = new System.Drawing.Point(12, 280);
+            this.textPropertiesCheckBox.Location = new System.Drawing.Point(3, 270);
+            this.textPropertiesCheckBox.Margin = new System.Windows.Forms.Padding(3, 6, 3, 3);
             this.textPropertiesCheckBox.Name = "textPropertiesCheckBox";
             this.textPropertiesCheckBox.Size = new System.Drawing.Size(116, 17);
             this.textPropertiesCheckBox.TabIndex = 7;
@@ -205,30 +219,31 @@ namespace DemosCommonCode.Pdf
             // 
             this.textPropertiesGroupBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textPropertiesGroupBox.Controls.Add(this.textRenderingModeComboBox);
-            this.textPropertiesGroupBox.Controls.Add(this.label4);
+            this.textPropertiesGroupBox.AutoSize = true;
+            this.textPropertiesGroupBox.Controls.Add(this.tableLayoutPanel4);
             this.textPropertiesGroupBox.Enabled = false;
-            this.textPropertiesGroupBox.Location = new System.Drawing.Point(12, 299);
+            this.textPropertiesGroupBox.Location = new System.Drawing.Point(3, 293);
             this.textPropertiesGroupBox.Name = "textPropertiesGroupBox";
-            this.textPropertiesGroupBox.Size = new System.Drawing.Size(260, 48);
+            this.textPropertiesGroupBox.Size = new System.Drawing.Size(255, 46);
             this.textPropertiesGroupBox.TabIndex = 4;
             this.textPropertiesGroupBox.TabStop = false;
             resources.ApplyResources(this.textPropertiesGroupBox, "textPropertiesGroupBox");
             // 
             // textRenderingModeComboBox
             // 
-            this.textRenderingModeComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.textRenderingModeComboBox.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.textRenderingModeComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.textRenderingModeComboBox.FormattingEnabled = true;
-            this.textRenderingModeComboBox.Location = new System.Drawing.Point(133, 19);
+            this.textRenderingModeComboBox.Location = new System.Drawing.Point(125, 3);
             this.textRenderingModeComboBox.Name = "textRenderingModeComboBox";
             this.textRenderingModeComboBox.Size = new System.Drawing.Size(121, 21);
             this.textRenderingModeComboBox.TabIndex = 3;
             // 
             // label4
             // 
+            this.label4.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(7, 21);
+            this.label4.Location = new System.Drawing.Point(3, 7);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(86, 13);
             this.label4.TabIndex = 2;
@@ -237,7 +252,8 @@ namespace DemosCommonCode.Pdf
             // colorBlendingCheckBox
             // 
             this.colorBlendingCheckBox.AutoSize = true;
-            this.colorBlendingCheckBox.Location = new System.Drawing.Point(12, 202);
+            this.colorBlendingCheckBox.Location = new System.Drawing.Point(3, 192);
+            this.colorBlendingCheckBox.Margin = new System.Windows.Forms.Padding(3, 6, 3, 3);
             this.colorBlendingCheckBox.Name = "colorBlendingCheckBox";
             this.colorBlendingCheckBox.Size = new System.Drawing.Size(113, 17);
             this.colorBlendingCheckBox.TabIndex = 8;
@@ -249,51 +265,151 @@ namespace DemosCommonCode.Pdf
             // 
             this.colorBlendingGroupBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.colorBlendingGroupBox.Controls.Add(this.colorBlendingComboBox);
-            this.colorBlendingGroupBox.Controls.Add(this.label5);
+            this.colorBlendingGroupBox.AutoSize = true;
+            this.colorBlendingGroupBox.Controls.Add(this.tableLayoutPanel3);
             this.colorBlendingGroupBox.Enabled = false;
-            this.colorBlendingGroupBox.Location = new System.Drawing.Point(12, 224);
+            this.colorBlendingGroupBox.Location = new System.Drawing.Point(3, 215);
             this.colorBlendingGroupBox.Name = "colorBlendingGroupBox";
-            this.colorBlendingGroupBox.Size = new System.Drawing.Size(260, 48);
+            this.colorBlendingGroupBox.Size = new System.Drawing.Size(255, 46);
             this.colorBlendingGroupBox.TabIndex = 5;
             this.colorBlendingGroupBox.TabStop = false;
             resources.ApplyResources(this.colorBlendingGroupBox, "colorBlendingGroupBox");
             // 
             // colorBlendingComboBox
             // 
-            this.colorBlendingComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.colorBlendingComboBox.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.colorBlendingComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.colorBlendingComboBox.FormattingEnabled = true;
-            this.colorBlendingComboBox.Location = new System.Drawing.Point(133, 19);
+            this.colorBlendingComboBox.Location = new System.Drawing.Point(125, 3);
             this.colorBlendingComboBox.Name = "colorBlendingComboBox";
             this.colorBlendingComboBox.Size = new System.Drawing.Size(121, 21);
             this.colorBlendingComboBox.TabIndex = 3;
             // 
             // label5
             // 
+            this.label5.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(6, 21);
+            this.label5.Location = new System.Drawing.Point(3, 7);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(105, 13);
             this.label5.TabIndex = 2;
             resources.ApplyResources(this.label5, "label5");
             // 
+            // tableLayoutPanel1
+            // 
+            this.tableLayoutPanel1.AutoSize = true;
+            this.tableLayoutPanel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.tableLayoutPanel1.ColumnCount = 2;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel1.Controls.Add(this.fillColorPanelControl, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.label2, 0, 0);
+            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(3, 16);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(0);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 1;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(249, 28);
+            this.tableLayoutPanel1.TabIndex = 2;
+            // 
+            // tableLayoutPanel2
+            // 
+            this.tableLayoutPanel2.AutoSize = true;
+            this.tableLayoutPanel2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.tableLayoutPanel2.ColumnCount = 2;
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel2.Controls.Add(this.label1, 0, 0);
+            this.tableLayoutPanel2.Controls.Add(this.lineWidthNumericUpDown, 1, 1);
+            this.tableLayoutPanel2.Controls.Add(this.label3, 0, 1);
+            this.tableLayoutPanel2.Controls.Add(this.strokeColorPanelControl, 1, 0);
+            this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 16);
+            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(0);
+            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
+            this.tableLayoutPanel2.RowCount = 2;
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(249, 56);
+            this.tableLayoutPanel2.TabIndex = 9;
+            // 
+            // tableLayoutPanel3
+            // 
+            this.tableLayoutPanel3.AutoSize = true;
+            this.tableLayoutPanel3.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.tableLayoutPanel3.ColumnCount = 2;
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel3.Controls.Add(this.label5, 0, 0);
+            this.tableLayoutPanel3.Controls.Add(this.colorBlendingComboBox, 1, 0);
+            this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(3, 16);
+            this.tableLayoutPanel3.Margin = new System.Windows.Forms.Padding(0);
+            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
+            this.tableLayoutPanel3.RowCount = 1;
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(249, 27);
+            this.tableLayoutPanel3.TabIndex = 9;
+            // 
+            // tableLayoutPanel4
+            // 
+            this.tableLayoutPanel4.AutoSize = true;
+            this.tableLayoutPanel4.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.tableLayoutPanel4.ColumnCount = 2;
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel4.Controls.Add(this.label4, 0, 0);
+            this.tableLayoutPanel4.Controls.Add(this.textRenderingModeComboBox, 1, 0);
+            this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel4.Location = new System.Drawing.Point(3, 16);
+            this.tableLayoutPanel4.Margin = new System.Windows.Forms.Padding(0);
+            this.tableLayoutPanel4.Name = "tableLayoutPanel4";
+            this.tableLayoutPanel4.RowCount = 1;
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(249, 27);
+            this.tableLayoutPanel4.TabIndex = 9;
+            // 
+            // tableLayoutPanel5
+            // 
+            this.tableLayoutPanel5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tableLayoutPanel5.AutoSize = true;
+            this.tableLayoutPanel5.ColumnCount = 1;
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel5.Controls.Add(this.fillPropertiesCheckBox, 0, 0);
+            this.tableLayoutPanel5.Controls.Add(this.textPropertiesGroupBox, 0, 7);
+            this.tableLayoutPanel5.Controls.Add(this.colorBlendingGroupBox, 0, 5);
+            this.tableLayoutPanel5.Controls.Add(this.textPropertiesCheckBox, 0, 6);
+            this.tableLayoutPanel5.Controls.Add(this.fillGroupBox, 0, 1);
+            this.tableLayoutPanel5.Controls.Add(this.colorBlendingCheckBox, 0, 4);
+            this.tableLayoutPanel5.Controls.Add(this.strokePropertiesCheckBox, 0, 2);
+            this.tableLayoutPanel5.Controls.Add(this.strokeGroupBox, 0, 3);
+            this.tableLayoutPanel5.Location = new System.Drawing.Point(9, 9);
+            this.tableLayoutPanel5.Margin = new System.Windows.Forms.Padding(0);
+            this.tableLayoutPanel5.Name = "tableLayoutPanel5";
+            this.tableLayoutPanel5.RowCount = 8;
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(261, 342);
+            this.tableLayoutPanel5.TabIndex = 9;
+            // 
             // PdfContentGraphicsPropertiesForm
             // 
             this.AcceptButton = this.buttonOk;
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.CancelButton = this.buttonCancel;
-            this.ClientSize = new System.Drawing.Size(284, 389);
-            this.Controls.Add(this.colorBlendingGroupBox);
-            this.Controls.Add(this.colorBlendingCheckBox);
-            this.Controls.Add(this.textPropertiesGroupBox);
-            this.Controls.Add(this.textPropertiesCheckBox);
+            this.ClientSize = new System.Drawing.Size(279, 399);
+            this.Controls.Add(this.tableLayoutPanel5);
             this.Controls.Add(this.buttonCancel);
             this.Controls.Add(this.buttonOk);
-            this.Controls.Add(this.fillGroupBox);
-            this.Controls.Add(this.fillPropertiesCheckBox);
-            this.Controls.Add(this.strokePropertiesCheckBox);
-            this.Controls.Add(this.strokeGroupBox);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -310,6 +426,16 @@ namespace DemosCommonCode.Pdf
             this.textPropertiesGroupBox.PerformLayout();
             this.colorBlendingGroupBox.ResumeLayout(false);
             this.colorBlendingGroupBox.PerformLayout();
+            this.tableLayoutPanel1.ResumeLayout(false);
+            this.tableLayoutPanel1.PerformLayout();
+            this.tableLayoutPanel2.ResumeLayout(false);
+            this.tableLayoutPanel2.PerformLayout();
+            this.tableLayoutPanel3.ResumeLayout(false);
+            this.tableLayoutPanel3.PerformLayout();
+            this.tableLayoutPanel4.ResumeLayout(false);
+            this.tableLayoutPanel4.PerformLayout();
+            this.tableLayoutPanel5.ResumeLayout(false);
+            this.tableLayoutPanel5.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -337,5 +463,10 @@ namespace DemosCommonCode.Pdf
         private System.Windows.Forms.GroupBox colorBlendingGroupBox;
         private System.Windows.Forms.ComboBox colorBlendingComboBox;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel4;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel5;
     }
 }
