@@ -468,9 +468,14 @@ namespace DemosCommonCode.Pdf
         private void figuresListBox_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (figuresListBox.SelectedIndex == -1)
+            {
                 _contentEditorTool.SelectedFigureView = null;
+            }
             else
-                _contentEditorTool.SelectedFigureView = ((GraphicsFigureViewItem)figuresListBox.SelectedItem).FigureView;
+            {
+                GraphicsFigureViewItem graphicsFigureView = (GraphicsFigureViewItem)figuresListBox.Items[figuresListBox.SelectedIndex];
+                _contentEditorTool.SelectedFigureView = graphicsFigureView.FigureView;
+            }
         }
 
         #endregion
