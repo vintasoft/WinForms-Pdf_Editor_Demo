@@ -68,6 +68,7 @@ namespace PdfEditorDemo
             this.saveToToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.convertToTiffToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.convertToSvgToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.convertToDocxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.pageSettingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pageAutoOrientationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -515,6 +516,7 @@ namespace PdfEditorDemo
             this.saveToToolStripMenuItem,
             this.convertToTiffToolStripMenuItem,
             this.convertToSvgToolStripMenuItem,
+            this.convertToDocxToolStripMenuItem,
             this.toolStripSeparator3,
             this.pageSettingsToolStripMenuItem,
             this.pageAutoOrientationToolStripMenuItem,
@@ -661,6 +663,13 @@ namespace PdfEditorDemo
             this.convertToSvgToolStripMenuItem.Size = new System.Drawing.Size(319, 22);
             resources.ApplyResources(this.convertToSvgToolStripMenuItem, "convertToSvgToolStripMenuItem");
             this.convertToSvgToolStripMenuItem.Click += new System.EventHandler(this.convertToSvgToolStripMenuItem_Click);
+            // 
+            // convertToDocxToolStripMenuItem
+            // 
+            this.convertToDocxToolStripMenuItem.Name = "convertToDocxToolStripMenuItem";
+            this.convertToDocxToolStripMenuItem.Size = new System.Drawing.Size(319, 22);
+            resources.ApplyResources(this.convertToDocxToolStripMenuItem, "convertToDocxToolStripMenuItem");
+            this.convertToDocxToolStripMenuItem.Click += new System.EventHandler(this.convertToDocxToolStripMenuItem_Click);
             // 
             // toolStripSeparator3
             // 
@@ -1943,21 +1952,21 @@ namespace PdfEditorDemo
             // thumbnails_RemoveAllToolStripMenuItem
             // 
             this.thumbnails_RemoveAllToolStripMenuItem.Name = "thumbnails_RemoveAllToolStripMenuItem";
-            this.thumbnails_RemoveAllToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.thumbnails_RemoveAllToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
             resources.ApplyResources(this.thumbnails_RemoveAllToolStripMenuItem, "thumbnails_RemoveAllToolStripMenuItem");
             this.thumbnails_RemoveAllToolStripMenuItem.Click += new System.EventHandler(this.thumbnails_RemoveAllToolStripMenuItem_Click);
             // 
             // thumbnails_GenerateAllToolStripMenuItem
             // 
             this.thumbnails_GenerateAllToolStripMenuItem.Name = "thumbnails_GenerateAllToolStripMenuItem";
-            this.thumbnails_GenerateAllToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.thumbnails_GenerateAllToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
             resources.ApplyResources(this.thumbnails_GenerateAllToolStripMenuItem, "thumbnails_GenerateAllToolStripMenuItem");
             this.thumbnails_GenerateAllToolStripMenuItem.Click += new System.EventHandler(this.thumbnails_GenerateAllToolStripMenuItem_Click);
             // 
             // thumbnails_ViewToolStripMenuItem
             // 
             this.thumbnails_ViewToolStripMenuItem.Name = "thumbnails_ViewToolStripMenuItem";
-            this.thumbnails_ViewToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.thumbnails_ViewToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
             resources.ApplyResources(this.thumbnails_ViewToolStripMenuItem, "thumbnails_ViewToolStripMenuItem");
             this.thumbnails_ViewToolStripMenuItem.Click += new System.EventHandler(this.thumbnails_ViewToolStripMenuItem_Click);
             // 
@@ -3299,5 +3308,6 @@ namespace PdfEditorDemo
         private System.Windows.Forms.ToolStripMenuItem centerPrintingPageToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator47;
         private System.Windows.Forms.ToolStripMenuItem addLongTimeValidationInfoLTVToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem convertToDocxToolStripMenuItem;
     }
 }

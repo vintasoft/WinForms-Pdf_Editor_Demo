@@ -99,7 +99,7 @@ namespace DemosCommonCode.Pdf.JavaScript
         #region UI
 
         /// <summary>
-        /// Handles the SelectedIndexChanged event of JavaScripActionsListBox object.
+        /// Handles the SelectedIndexChanged event of javaScripActionsListBox object.
         /// </summary>
         private void javaScripActionsListBox_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -127,7 +127,7 @@ namespace DemosCommonCode.Pdf.JavaScript
         }
 
         /// <summary>
-        /// Handles the Click event of OkButton object.
+        /// Handles the Click event of okButton object.
         /// </summary>
         private void okButton_Click(object sender, EventArgs e)
         {
@@ -180,7 +180,7 @@ namespace DemosCommonCode.Pdf.JavaScript
         }
 
         /// <summary>
-        /// Handles the Click event of AddButton object.
+        /// Handles the Click event of addButton object.
         /// </summary>
         private void addButton_Click(object sender, EventArgs e)
         {
@@ -212,7 +212,7 @@ namespace DemosCommonCode.Pdf.JavaScript
         }
 
         /// <summary>
-        /// Handles the Click event of RenameButton object.
+        /// Handles the Click event of renameButton object.
         /// </summary>
         private void renameButton_Click(object sender, EventArgs e)
         {
@@ -270,7 +270,7 @@ namespace DemosCommonCode.Pdf.JavaScript
         }
 
         /// <summary>
-        /// Handles the Click event of RemoveButton object.
+        /// Handles the Click event of removeButton object.
         /// </summary>
         private void removeButton_Click(object sender, EventArgs e)
         {
@@ -311,7 +311,7 @@ namespace DemosCommonCode.Pdf.JavaScript
         }
 
         /// <summary>
-        /// Handles the CheckedChanged event of WordWrapCheckBox object.
+        /// Handles the CheckedChanged event of wordWrapCheckBox object.
         /// </summary>
         private void wordWrapCheckBox_CheckedChanged(object sender, EventArgs e)
         {

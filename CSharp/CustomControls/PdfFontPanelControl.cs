@@ -206,7 +206,7 @@ namespace DemosCommonCode.CustomControls
         #region PRIVATE
 
         /// <summary>
-        /// Handles the Click event of FontNameButton object.
+        /// Handles the Click event of fontNameButton object.
         /// </summary>
         private void fontNameButton_Click(object sender, EventArgs e)
         {
@@ -215,7 +215,7 @@ namespace DemosCommonCode.CustomControls
         }
 
         /// <summary>
-        /// Handles the MouseDoubleClick event of FontNameTextBox object.
+        /// Handles the MouseDoubleClick event of fontNameTextBox object.
         /// </summary>
         private void fontNameTextBox_MouseDoubleClick(object sender, MouseEventArgs e)
         {

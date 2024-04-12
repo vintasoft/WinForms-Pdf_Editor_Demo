@@ -708,6 +708,9 @@
   <data name="pageSettingsToolStripMenuItem.Text" xml:space="preserve">
     <value>Seiteneinstellungen...</value>
   </data>
+  <data name="convertToDocxToolStripMenuItem.Text" xml:space="preserve">
+    <value>In Docx konvertieren...</value>
+  </data>
   <data name="convertToSvgToolStripMenuItem.Text" xml:space="preserve">
     <value>In SVG konvertieren...</value>
   </data>

@@ -187,7 +187,7 @@ namespace DemosCommonCode.Pdf
         #region UI
 
         /// <summary>
-        /// Handles the SelectedIndexChanged event of AppearanceStateNameComboBox object.
+        /// Handles the SelectedIndexChanged event of appearanceStateNameComboBox object.
         /// </summary>
         private void appearanceStateNameComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -198,7 +198,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the SelectedIndexChanged event of AppearanceTypeComboBox object.
+        /// Handles the SelectedIndexChanged event of appearanceTypeComboBox object.
         /// </summary>
         private void appearanceTypeComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -209,7 +209,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of ChangeAppearanceButton object.
+        /// Handles the Click event of changeAppearanceButton object.
         /// </summary>
         private void changeAppearanceButton_Click(object sender, EventArgs e)
         {
@@ -261,7 +261,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of RemoveAppearanceButton object.
+        /// Handles the Click event of removeAppearanceButton object.
         /// </summary>
         private void removeAppearanceButton_Click(object sender, EventArgs e)
         {

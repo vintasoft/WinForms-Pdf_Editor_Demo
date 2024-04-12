@@ -120,7 +120,7 @@ namespace DemosCommonCode.Pdf
         #region PRIVATE
 
         /// <summary>
-        /// Handles the Scroll event of OpacityTrackBar object.
+        /// Handles the Scroll event of opacityTrackBar object.
         /// </summary>
         private void opacityTrackBar_Scroll(object sender, EventArgs e)
         {
@@ -131,7 +131,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the ValueChanged event of OpacityNumericUpDown object.
+        /// Handles the ValueChanged event of opacityNumericUpDown object.
         /// </summary>
         private void opacityNumericUpDown_ValueChanged(object sender, EventArgs e)
         {
@@ -154,7 +154,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the TextChanged event of NameTextBox object.
+        /// Handles the TextChanged event of nameTextBox object.
         /// </summary>
         private void nameTextBox_TextChanged(object sender, EventArgs e)
         {
@@ -167,7 +167,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the TextChanged event of SubjectTextBox object.
+        /// Handles the TextChanged event of subjectTextBox object.
         /// </summary>
         private void subjectTextBox_TextChanged(object sender, EventArgs e)
         {
@@ -180,7 +180,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the TextChanged event of TitleTextBox object.
+        /// Handles the TextChanged event of titleTextBox object.
         /// </summary>
         private void titleTextBox_TextChanged(object sender, EventArgs e)
         {
@@ -193,7 +193,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the CheckedChanged event of LockedCheckBox object.
+        /// Handles the CheckedChanged event of lockedCheckBox object.
         /// </summary>
         private void lockedCheckBox_CheckedChanged(object sender, EventArgs e)
         {
@@ -209,7 +209,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the CheckedChanged event of PrintableCheckBox object.
+        /// Handles the CheckedChanged event of printableCheckBox object.
         /// </summary>
         private void printableCheckBox_CheckedChanged(object sender, EventArgs e)
         {
@@ -225,7 +225,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the CheckedChanged event of ReadOnlyCheckBox object.
+        /// Handles the CheckedChanged event of readOnlyCheckBox object.
         /// </summary>
         private void readOnlyCheckBox_CheckedChanged(object sender, EventArgs e)
         {
@@ -241,7 +241,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the PropertyValueChanged event of BorderStyleControl object.
+        /// Handles the PropertyValueChanged event of borderStyleControl object.
         /// </summary>
         private void borderStyleControl_PropertyValueChanged(object sender, EventArgs e)
         {

@@ -484,7 +484,7 @@ namespace DemosCommonCode.Pdf
         #region Content editor tool
 
         /// <summary>
-        /// Handles the Click event of EditTextObjectToolStripButton object.
+        /// Handles the Click event of editTextObjectToolStripButton object.
         /// </summary>
         private void editTextObjectToolStripButton_Click(object sender, EventArgs e)
         {
@@ -516,7 +516,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of HorizontalMirrorToolStripButton object.
+        /// Handles the Click event of horizontalMirrorToolStripButton object.
         /// </summary>
         private void horizontalMirrorToolStripButton_Click(object sender, EventArgs e)
         {
@@ -529,7 +529,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of VerticalMirrorToolStripButton object.
+        /// Handles the Click event of verticalMirrorToolStripButton object.
         /// </summary>
         private void verticalMirrorToolStripButton_Click(object sender, EventArgs e)
         {
@@ -542,7 +542,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of RotateClockwiseToolStripButton object.
+        /// Handles the Click event of rotateClockwiseToolStripButton object.
         /// </summary>
         private void rotateClockwiseToolStripButton_Click(object sender, EventArgs e)
         {
@@ -555,7 +555,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of RotateCounterclockwiseToolStripButton object.
+        /// Handles the Click event of rotateCounterclockwiseToolStripButton object.
         /// </summary>
         private void rotateCounterclockwiseToolStripButton_Click(object sender, EventArgs e)
         {
@@ -568,7 +568,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of AddRectangularClipToolStripButton object.
+        /// Handles the Click event of addRectangularClipToolStripButton object.
         /// </summary>
         private void addRectangularClipToolStripButton_Click(object sender, EventArgs e)
         {
@@ -583,7 +583,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of AddEllipseCliptoolStripMenuItem object.
+        /// Handles the Click event of addEllipseCliptoolStripMenuItem object.
         /// </summary>
         private void addEllipseCliptoolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -598,7 +598,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of ContentGraphicsPropertiesToolStripButton object.
+        /// Handles the Click event of contentGraphicsPropertiesToolStripButton object.
         /// </summary>
         private void contentGraphicsPropertiesToolStripButton_Click(object sender, EventArgs e)
         {
@@ -606,7 +606,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the CheckedChanged event of AppendModeCheckBox object.
+        /// Handles the CheckedChanged event of appendModeCheckBox object.
         /// </summary>
         private void appendModeCheckBox_CheckedChanged(object sender, EventArgs e)
         {
@@ -615,7 +615,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the CheckedChanged event of GroupContentFiguresToolStripButton object.
+        /// Handles the CheckedChanged event of groupContentFiguresToolStripButton object.
         /// </summary>
         private void groupContentFiguresToolStripButton_CheckedChanged(object sender, EventArgs e)
         {
@@ -624,7 +624,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the CheckedChanged event of HighlightCheckBox object.
+        /// Handles the CheckedChanged event of highlightCheckBox object.
         /// </summary>
         private void highlightCheckBox_CheckedChanged(object sender, EventArgs e)
         {
@@ -1521,7 +1521,7 @@ namespace DemosCommonCode.Pdf
 
 
         /// <summary>
-        /// Handles the Click event of ReplaceResourceToolStripMenuItem object.
+        /// Handles the Click event of replaceResourceToolStripMenuItem object.
         /// </summary>
         private void replaceResourceToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -1587,7 +1587,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the CheckedChanged event of InteractiveContentTypeToolStripButton object.
+        /// Handles the CheckedChanged event of interactiveContentTypeToolStripButton object.
         /// </summary>
         private void interactiveContentTypeToolStripButton_CheckedChanged(object sender, EventArgs e)
         {
@@ -1624,7 +1624,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the MouseDown event of InteractiveContentTypeToolStripButton object.
+        /// Handles the MouseDown event of interactiveContentTypeToolStripButton object.
         /// </summary>
         private void interactiveContentTypeToolStripButton_MouseDown(object sender, MouseEventArgs e)
         {
@@ -1724,7 +1724,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the ButtonClick event of UndoToolStripSplitButton object.
+        /// Handles the ButtonClick event of undoToolStripSplitButton object.
         /// </summary>
         private void undoToolStripSplitButton_ButtonClick(object sender, EventArgs e)
         {
@@ -1739,7 +1739,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the ButtonClick event of RedoToolStripSplitButton object.
+        /// Handles the ButtonClick event of redoToolStripSplitButton object.
         /// </summary>
         private void redoToolStripSplitButton_ButtonClick(object sender, EventArgs e)
         {
@@ -1754,7 +1754,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the DropDownItemClicked event of UndoToolStripSplitButton object.
+        /// Handles the DropDownItemClicked event of undoToolStripSplitButton object.
         /// </summary>
         private void undoToolStripSplitButton_DropDownItemClicked(object sender, ToolStripItemClickedEventArgs e)
         {
@@ -1774,7 +1774,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the DropDownItemClicked event of RedoToolStripSplitButton object.
+        /// Handles the DropDownItemClicked event of redoToolStripSplitButton object.
         /// </summary>
         private void redoToolStripSplitButton_DropDownItemClicked(object sender, ToolStripItemClickedEventArgs e)
         {

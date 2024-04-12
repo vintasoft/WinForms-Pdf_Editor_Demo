@@ -78,7 +78,7 @@ namespace DemosCommonCode.Pdf
         #region Methods
 
         /// <summary>
-        /// Handles the SelectedIndexChanged event of StartPointLineEndingStyleComboBox object.
+        /// Handles the SelectedIndexChanged event of startPointLineEndingStyleComboBox object.
         /// </summary>
         private void startPointLineEndingStyleComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -99,7 +99,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the SelectedIndexChanged event of EndPointLineEndingStyleComboBox object.
+        /// Handles the SelectedIndexChanged event of endPointLineEndingStyleComboBox object.
         /// </summary>
         private void endPointLineEndingStyleComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -120,7 +120,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the PropertyValueChanged event of PdfPolygonalAnnotationPropertiesEditorControl object.
+        /// Handles the PropertyValueChanged event of pdfPolygonalAnnotationPropertiesEditorControl object.
         /// </summary>
         private void pdfPolygonalAnnotationPropertiesEditorControl_PropertyValueChanged(object sender, EventArgs e)
         {

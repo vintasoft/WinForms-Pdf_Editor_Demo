@@ -390,7 +390,7 @@ namespace PdfEditorDemo.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Authorized as: {0}.
+        ///   Looks up a localized string similar to Authorized as: &apos;{0}&apos;.
         /// </summary>
         internal static string DEMOSCOMMONCODE_IMAGING_AUTHORIZED_AS_ARG0 {
             get {
@@ -641,6 +641,15 @@ namespace PdfEditorDemo.Localization {
         internal static string DEMOSCOMMONCODE_IMAGING_CODECS_FILE_ARG0_ALREADY_EXISTS_OVERWRITE_IT {
             get {
                 return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_FILE_ARG0_ALREADY_EXISTS_OVERWRITE_IT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ndpi.
+        /// </summary>
+        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_NDPI {
+            get {
+                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_NDPI", resourceCulture);
             }
         }
         
@@ -1364,7 +1373,7 @@ namespace PdfEditorDemo.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The {0} password is incorrect..
+        ///   Looks up a localized string similar to The &apos;{0}&apos; password is incorrect..
         /// </summary>
         internal static string DEMOSCOMMONCODE_IMAGING_THE_ARG0_PASSWORD_IS_INCORRECT {
             get {
@@ -1958,7 +1967,7 @@ namespace PdfEditorDemo.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to because the document does not contain the interactive form fields.
+        ///   Looks up a localized string similar to because the document does not contain the interactive form fields..
         /// </summary>
         internal static string DEMOSCOMMONCODE_PDF_BECAUSE_THE_DOCUMENT_DOES_NOT_CONTAIN_THE_INTERACTIVE_FORM_FIELDS {
             get {
@@ -2326,12 +2335,13 @@ namespace PdfEditorDemo.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Form submit: document must connect to &apos;{0}&apos;.
-        /// Allow?.
+        ///   Looks up a localized string similar to Form submit: Document needs connection to &apos;{0}&apos;.
+        /// Do you want to allow connection?.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_FORM_SUBMIT_DOCUMENT_MUST_CONNECT_TO_ARG0RN_ALLOW {
+        internal static string DEMOSCOMMONCODE_PDF_FORM_SUBMIT_DOCUMENT_NEEDS_CONNECTION_TO_ARG0RN_DO_YOU_WANT_TO_ALLOW_CONNECTION {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_FORM_SUBMIT_DOCUMENT_MUST_CONNECT_TO_ARG0RN_ALLOW", resourceCulture);
+                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_FORM_SUBMIT_DOCUMENT_NEEDS_CONNECTION_TO_ARG0RN_DO_YOU_WANT_T" +
+                        "O_ALLOW_CONNECTION", resourceCulture);
             }
         }
         
@@ -3919,7 +3929,7 @@ namespace PdfEditorDemo.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The interactive form fields can not be submitted to &apos;{0}&apos;, .
+        ///   Looks up a localized string similar to The interactive form fields can not be submitted to &apos;{0}&apos; .
         /// </summary>
         internal static string DEMOSCOMMONCODE_PDF_THE_INTERACTIVE_FORM_FIELDS_CAN_NOT_BE_SUBMITTED_TO_ARG0 {
             get {
@@ -4307,6 +4317,15 @@ namespace PdfEditorDemo.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Click &apos;No&apos; if you do not want save PDF document..
+        /// </summary>
+        internal static string PDFEDITORDEMO_CLICK_NO_IF_YOU_DO_NOT_WANT_SAVE_PDF_DOCUMENT {
+            get {
+                return ResourceManager.GetString("PDFEDITORDEMO_CLICK_NO_IF_YOU_DO_NOT_WANT_SAVE_PDF_DOCUMENT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Click &apos;No&apos; if you will pack PDF document later (\&quot;File -&gt; Pack\&quot; menu) and now you want to work with unpacked PDF document..
         /// </summary>
         internal static string PDFEDITORDEMO_CLICK_NO_IF_YOU_WILL_PACK_PDF_DOCUMENT_LATER_FILE_PACK_MENU_AND_NOW_YOU_WANT_TO_WORK_WITH_UNPACKED_PDF_DOCUMENT {
@@ -4364,6 +4383,16 @@ namespace PdfEditorDemo.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Click &apos;Yes&apos; if you want to save PDF document right now.
+        ///.
+        /// </summary>
+        internal static string PDFEDITORDEMO_CLICK_YES_IF_YOU_WANT_TO_SAVE_PDF_DOCUMENT_RIGHT_NOWRN {
+            get {
+                return ResourceManager.GetString("PDFEDITORDEMO_CLICK_YES_IF_YOU_WANT_TO_SAVE_PDF_DOCUMENT_RIGHT_NOWRN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Collect resources.
         /// </summary>
         internal static string PDFEDITORDEMO_COLLECT_RESOURCES {
@@ -4387,6 +4416,24 @@ namespace PdfEditorDemo.Localization {
         internal static string PDFEDITORDEMO_CONTENT_EDITOR {
             get {
                 return ResourceManager.GetString("PDFEDITORDEMO_CONTENT_EDITOR", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Convert To DOCX.
+        /// </summary>
+        internal static string PDFEDITORDEMO_CONVERT_TO_DOCX {
+            get {
+                return ResourceManager.GetString("PDFEDITORDEMO_CONVERT_TO_DOCX", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Convert to DOCX.
+        /// </summary>
+        internal static string PDFEDITORDEMO_CONVERT_TO_DOCX_ALT1 {
+            get {
+                return ResourceManager.GetString("PDFEDITORDEMO_CONVERT_TO_DOCX_ALT1", resourceCulture);
             }
         }
         
@@ -4682,6 +4729,17 @@ namespace PdfEditorDemo.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Do you want to save PDF document right now?
+        ///
+        ///.
+        /// </summary>
+        internal static string PDFEDITORDEMO_DO_YOU_WANT_TO_SAVE_PDF_DOCUMENT_RIGHT_NOWRNRN {
+            get {
+                return ResourceManager.GetString("PDFEDITORDEMO_DO_YOU_WANT_TO_SAVE_PDF_DOCUMENT_RIGHT_NOWRNRN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Do you want to subset all fonts (remove all unused symbols from the fonts) of the document?.
         /// </summary>
         internal static string PDFEDITORDEMO_DO_YOU_WANT_TO_SUBSET_ALL_FONTS_REMOVE_ALL_UNUSED_SYMBOLS_FROM_THE_FONTS_OF_THE_DOCUMENT {
@@ -4773,6 +4831,15 @@ namespace PdfEditorDemo.Localization {
         internal static string PDFEDITORDEMO_DOCUMENT_HAS_ARG0_DEVELOPER_EXTENSIONSRNRNARG1 {
             get {
                 return ResourceManager.GetString("PDFEDITORDEMO_DOCUMENT_HAS_ARG0_DEVELOPER_EXTENSIONSRNRNARG1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to DOCX Files|*.docx.
+        /// </summary>
+        internal static string PDFEDITORDEMO_DOCX_FILESDOCX {
+            get {
+                return ResourceManager.GetString("PDFEDITORDEMO_DOCX_FILESDOCX", resourceCulture);
             }
         }
         
@@ -5392,6 +5459,15 @@ namespace PdfEditorDemo.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Save document.
+        /// </summary>
+        internal static string PDFEDITORDEMO_SAVE_DOCUMENT {
+            get {
+                return ResourceManager.GetString("PDFEDITORDEMO_SAVE_DOCUMENT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Save Portfolio As.
         /// </summary>
         internal static string PDFEDITORDEMO_SAVE_PORTFOLIO_AS {
@@ -5614,6 +5690,16 @@ namespace PdfEditorDemo.Localization {
         internal static string PDFEDITORDEMO_TEXT_SELECTION_NAVIGATION_COMMENTATION_FILL_FORMS {
             get {
                 return ResourceManager.GetString("PDFEDITORDEMO_TEXT_SELECTION_NAVIGATION_COMMENTATION_FILL_FORMS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The document is not saved
+        ///.
+        /// </summary>
+        internal static string PDFEDITORDEMO_THE_DOCUMENT_IS_NOT_SAVEDRN {
+            get {
+                return ResourceManager.GetString("PDFEDITORDEMO_THE_DOCUMENT_IS_NOT_SAVEDRN", resourceCulture);
             }
         }
         

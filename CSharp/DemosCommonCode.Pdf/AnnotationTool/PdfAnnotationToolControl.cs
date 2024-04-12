@@ -290,7 +290,7 @@ namespace DemosCommonCode.Pdf
         #region UI
 
         /// <summary>
-        /// Handles the SelectedIndexChanged event of ToolsTabControl object.
+        /// Handles the SelectedIndexChanged event of toolsTabControl object.
         /// </summary>
         private void toolsTabControl_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -307,7 +307,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the CheckedChanged event of InteractionModeRadioButton object.
+        /// Handles the CheckedChanged event of interactionModeRadioButton object.
         /// </summary>
         private void interactionModeRadioButton_CheckedChanged(object sender, EventArgs e)
         {
@@ -335,7 +335,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the CheckedChanged event of MultiSelectCheckBox object.
+        /// Handles the CheckedChanged event of multiSelectCheckBox object.
         /// </summary>
         private void multiSelectCheckBox_CheckedChanged(object sender, EventArgs e)
         {
@@ -344,7 +344,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the CheckedChanged event of HighlightObjectsCheckBox object.
+        /// Handles the CheckedChanged event of highlightObjectsCheckBox object.
         /// </summary>
         private void highlightObjectsCheckBox_CheckedChanged(object sender, EventArgs e)
         {
@@ -353,7 +353,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the CheckedChanged event of HighlightFieldsCheckBox object.
+        /// Handles the CheckedChanged event of highlightFieldsCheckBox object.
         /// </summary>
         private void highlightFieldsCheckBox_CheckedChanged(object sender, EventArgs e)
         {
@@ -362,7 +362,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the CheckedChanged event of TabNavigationLoopedOnPageCheckBox object.
+        /// Handles the CheckedChanged event of tabNavigationLoopedOnPageCheckBox object.
         /// </summary>
         private void tabNavigationLoopedOnPageCheckBox_CheckedChanged(object sender, EventArgs e)
         {
@@ -371,7 +371,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the CheckedChanged event of BuildContinuouslyCheckBox object.
+        /// Handles the CheckedChanged event of buildContinuouslyCheckBox object.
         /// </summary>
         private void buildContinuouslyCheckBox_CheckedChanged(object sender, EventArgs e)
         {
@@ -383,7 +383,7 @@ namespace DemosCommonCode.Pdf
         #region Annotation context menu
 
         /// <summary>
-        /// Handles the Opened event of AnnotationContextMenuStrip object.
+        /// Handles the Opened event of annotationContextMenuStrip object.
         /// </summary>
         private void annotationContextMenuStrip_Opened(object sender, EventArgs e)
         {
@@ -452,7 +452,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of ReplyToolStripMenuItem object.
+        /// Handles the Click event of replyToolStripMenuItem object.
         /// </summary>
         private void replyToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -473,7 +473,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of SetStatusToolStripMenuItem object.
+        /// Handles the Click event of setStatusToolStripMenuItem object.
         /// </summary>
         private void setStatusToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -507,7 +507,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of TextMarkupHighlightToolStripMenuItem object.
+        /// Handles the Click event of textMarkupHighlightToolStripMenuItem object.
         /// </summary>
         private void textMarkupHighlightToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -515,7 +515,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of TextMarkupStrikeoutToolStripMenuItem object.
+        /// Handles the Click event of textMarkupStrikeoutToolStripMenuItem object.
         /// </summary>
         private void textMarkupStrikeoutToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -523,7 +523,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of TextMarkupUnderlineToolStripMenuItem object.
+        /// Handles the Click event of textMarkupUnderlineToolStripMenuItem object.
         /// </summary>
         private void textMarkupUnderlineToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -531,7 +531,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of TextMarkupSquigglyUnderlineToolStripMenuItem object.
+        /// Handles the Click event of textMarkupSquigglyUnderlineToolStripMenuItem object.
         /// </summary>
         private void textMarkupSquigglyUnderlineToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -539,7 +539,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of CutToolStripMenuItem object.
+        /// Handles the Click event of cutToolStripMenuItem object.
         /// </summary>
         private void cutToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -550,7 +550,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of CopyToolStripMenuItem object.
+        /// Handles the Click event of copyToolStripMenuItem object.
         /// </summary>
         private void copyToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -559,7 +559,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of PasteToolStripMenuItem object.
+        /// Handles the Click event of pasteToolStripMenuItem object.
         /// </summary>
         private void pasteToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -568,7 +568,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of DeleteToolStripMenuItem object.
+        /// Handles the Click event of deleteToolStripMenuItem object.
         /// </summary>
         private void deleteToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -580,7 +580,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of BringToFrontToolStripMenuItem object.
+        /// Handles the Click event of bringToFrontToolStripMenuItem object.
         /// </summary>
         private void bringToFrontToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -589,7 +589,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of BringToBackToolStripMenuItem object.
+        /// Handles the Click event of bringToBackToolStripMenuItem object.
         /// </summary>
         private void bringToBackToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -598,7 +598,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of PropertiesToolStripMenuItem object.
+        /// Handles the Click event of propertiesToolStripMenuItem object.
         /// </summary>
         private void propertiesToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -634,7 +634,7 @@ namespace DemosCommonCode.Pdf
         #region Transformers
 
         /// <summary>
-        /// Handles the DropDownOpened event of TransformersToolStripMenuItem object.
+        /// Handles the DropDownOpened event of transformersToolStripMenuItem object.
         /// </summary>
         private void transformersToolStripMenuItem_DropDownOpened(object sender, EventArgs e)
         {
@@ -677,7 +677,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of DefaultToolStripMenuItem object.
+        /// Handles the Click event of defaultToolStripMenuItem object.
         /// </summary>
         private void defaultToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -686,7 +686,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of MoveResizeRotateToolStripMenuItem object.
+        /// Handles the Click event of moveResizeRotateToolStripMenuItem object.
         /// </summary>
         private void moveResizeRotateToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -695,7 +695,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of PointsMoveResizeRotateToolStripMenuItem object.
+        /// Handles the Click event of pointsMoveResizeRotateToolStripMenuItem object.
         /// </summary>
         private void pointsMoveResizeRotateToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -706,7 +706,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of DistortionToolStripMenuItem object.
+        /// Handles the Click event of distortionToolStripMenuItem object.
         /// </summary>
         private void distortionToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -715,7 +715,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of SkewToolStripMenuItem object.
+        /// Handles the Click event of skewToolStripMenuItem object.
         /// </summary>
         private void skewToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -724,7 +724,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of PointsToolStripMenuItem object.
+        /// Handles the Click event of pointsToolStripMenuItem object.
         /// </summary>
         private void pointsToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -733,7 +733,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of NoneToolStripMenuItem object.
+        /// Handles the Click event of noneToolStripMenuItem object.
         /// </summary>
         private void noneToolStripMenuItem_Click(object sender, EventArgs e)
         {

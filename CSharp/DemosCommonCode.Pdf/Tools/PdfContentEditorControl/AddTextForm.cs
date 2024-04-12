@@ -90,7 +90,7 @@ namespace DemosCommonCode.Pdf
         #region Methods
 
         /// <summary>
-        /// Handles the Click event of CancelButton object.
+        /// Handles the Click event of cancelButton object.
         /// </summary>
         private void cancelButton_Click(object sender, EventArgs e)
         {
@@ -100,7 +100,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of OkButton object.
+        /// Handles the Click event of okButton object.
         /// </summary>
         private void okButton_Click(object sender, EventArgs e)
         {
@@ -115,7 +115,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the TextChanged event of TextBox object.
+        /// Handles the TextChanged event of textBox object.
         /// </summary>
         private void textBox_TextChanged(object sender, EventArgs e)
         {
@@ -123,7 +123,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the SelectedIndexChanged event of FontComboBox object.
+        /// Handles the SelectedIndexChanged event of fontComboBox object.
         /// </summary>
         private void fontComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -131,7 +131,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the MouseDown event of PdfFontViewerControl object.
+        /// Handles the MouseDown event of pdfFontViewerControl object.
         /// </summary>
         private void pdfFontViewerControl_MouseDown(object sender, MouseEventArgs e)
         {
@@ -141,7 +141,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of AddFontButton object.
+        /// Handles the Click event of addFontButton object.
         /// </summary>
         private void addFontButton_Click(object sender, EventArgs e)
         {

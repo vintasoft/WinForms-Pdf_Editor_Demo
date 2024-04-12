@@ -112,7 +112,7 @@ namespace DemosCommonCode.Pdf
         #region UI
 
         /// <summary>
-        /// Handles the SelectedIndexChanged event of MainTabControl object.
+        /// Handles the SelectedIndexChanged event of mainTabControl object.
         /// </summary>
         private void mainTabControl_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -122,7 +122,7 @@ namespace DemosCommonCode.Pdf
 
 
         /// <summary>
-        /// Handles the ActionChanged event of PdfActionEditorControl object.
+        /// Handles the ActionChanged event of pdfActionEditorControl object.
         /// </summary>
         private void pdfActionEditorControl_ActionChanged(object sender, EventArgs e)
         {
@@ -131,7 +131,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the SelectedIndexChanged event of HighlightingModeComboBox object.
+        /// Handles the SelectedIndexChanged event of highlightingModeComboBox object.
         /// </summary>
         private void highlightingModeComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -169,7 +169,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the SelectedIndexChanged event of CaptionIconRelationComboBox object.
+        /// Handles the SelectedIndexChanged event of captionIconRelationComboBox object.
         /// </summary>
         private void captionIconRelationComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -210,7 +210,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the SelectedIndexChanged event of ButtonStateTabControl object.
+        /// Handles the SelectedIndexChanged event of buttonStateTabControl object.
         /// </summary>
         private void buttonStateTabControl_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -222,7 +222,7 @@ namespace DemosCommonCode.Pdf
         #region Normal State
 
         /// <summary>
-        /// Handles the TextChanged event of NormalCaptionTextBox object.
+        /// Handles the TextChanged event of normalCaptionTextBox object.
         /// </summary>
         private void normalCaptionTextBox_TextChanged(object sender, EventArgs e)
         {
@@ -236,7 +236,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of NormalIconChangeButton object.
+        /// Handles the Click event of normalIconChangeButton object.
         /// </summary>
         private void normalIconChangeButton_Click(object sender, EventArgs e)
         {
@@ -257,7 +257,7 @@ namespace DemosCommonCode.Pdf
         #region Rollover State
 
         /// <summary>
-        /// Handles the TextChanged event of RolloverCaptionTextBox object.
+        /// Handles the TextChanged event of rolloverCaptionTextBox object.
         /// </summary>
         private void rolloverCaptionTextBox_TextChanged(object sender, EventArgs e)
         {
@@ -267,7 +267,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of RolloverIconChangeButton object.
+        /// Handles the Click event of rolloverIconChangeButton object.
         /// </summary>
         private void rolloverIconChangeButton_Click(object sender, EventArgs e)
         {
@@ -288,7 +288,7 @@ namespace DemosCommonCode.Pdf
         #region Down State
 
         /// <summary>
-        /// Handles the TextChanged event of DownCaptionTextBox object.
+        /// Handles the TextChanged event of downCaptionTextBox object.
         /// </summary>
         private void downCaptionTextBox_TextChanged(object sender, EventArgs e)
         {
@@ -298,7 +298,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of DownIconChangeButton object.
+        /// Handles the Click event of downIconChangeButton object.
         /// </summary>
         private void downIconChangeButton_Click(object sender, EventArgs e)
         {

@@ -180,6 +180,9 @@
   <data name="DEMOSCOMMONCODE_IMAGING_CANCELED_ALT1" xml:space="preserve">
     <value>Abgebrochen.</value>
   </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_NDPI" xml:space="preserve">
+    <value>Ndpi</value>
+  </data>
   <data name="DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_VALUE" xml:space="preserve">
     <value>Wert</value>
   </data>
@@ -259,13 +262,13 @@
     <value>Passwort</value>
   </data>
   <data name="DEMOSCOMMONCODE_IMAGING_THE_ARG0_PASSWORD_IS_INCORRECT" xml:space="preserve">
-    <value>Das {0}-Passwort ist falsch.</value>
+    <value>Das Passwort '{0}' ist falsch.</value>
   </data>
   <data name="DEMOSCOMMONCODE_IMAGING_ERROR_ALT1" xml:space="preserve">
     <value>Fehler</value>
   </data>
   <data name="DEMOSCOMMONCODE_IMAGING_AUTHORIZED_AS_ARG0" xml:space="preserve">
-    <value>Autorisiert als: {0}</value>
+    <value>Autorisiert als: '{0}'</value>
   </data>
   <data name="DEMOSCOMMONCODE_IMAGING_AUTHORIZATION_RESULT" xml:space="preserve">
     <value>Autorisierungsergebnis</value>
@@ -758,18 +761,18 @@
   <data name="DEMOSCOMMONCODE_PDF_EXECUTE_AN_APPLICATION" xml:space="preserve">
     <value>Eine Anwendung ausführen</value>
   </data>
-  <data name="DEMOSCOMMONCODE_PDF_FORM_SUBMIT_DOCUMENT_MUST_CONNECT_TO_ARG0RN_ALLOW" xml:space="preserve">
-    <value>Formular absenden: Dokument muss mit "{0}" verbunden sein.
- Zulassen?</value>
+  <data name="DEMOSCOMMONCODE_PDF_FORM_SUBMIT_DOCUMENT_NEEDS_CONNECTION_TO_ARG0RN_DO_YOU_WANT_TO_ALLOW_CONNECTION" xml:space="preserve">
+    <value>Formular absenden: Dokument benötigt Verbindung zu '{0}'.
+  Möchten Sie die Verbindung zulassen?</value>
   </data>
   <data name="DEMOSCOMMONCODE_PDF_SUBMIT_ACTION" xml:space="preserve">
     <value>Aktion senden</value>
   </data>
   <data name="DEMOSCOMMONCODE_PDF_THE_INTERACTIVE_FORM_FIELDS_CAN_NOT_BE_SUBMITTED_TO_ARG0" xml:space="preserve">
-    <value>Die interaktiven Formularfelder können nicht an "{0}" übermittelt werden,</value>
+    <value>Die interaktiven Formularfelder können nicht an '{0}' übermittelt werden.</value>
   </data>
   <data name="DEMOSCOMMONCODE_PDF_BECAUSE_THE_DOCUMENT_DOES_NOT_CONTAIN_THE_INTERACTIVE_FORM_FIELDS" xml:space="preserve">
-    <value>weil das Dokument keine interaktiven Formularfelder enthält</value>
+    <value>weil das Dokument keine interaktiven Formularfelder enthält.</value>
   </data>
   <data name="DEMOSCOMMONCODE_PDF_FIELD_ARG0_IS_REQUIRED_BUT_NOT_FILLED" xml:space="preserve">
     <value>Feld "{0}" ist erforderlich, aber nicht ausgefüllt.</value>
@@ -1636,6 +1639,31 @@ Um das Portfolio anzuzeigen, sollten Sie einen PDF-Viewer verwenden, der mit PDF
   <data name="PDFEDITORDEMO_CONVERT_TO_SVG" xml:space="preserve">
     <value>In SVG konvertieren</value>
   </data>
+  <data name="PDFEDITORDEMO_THE_DOCUMENT_IS_NOT_SAVEDRN" xml:space="preserve">
+    <value>Das Dokument wurde nicht gespeichert
+</value>
+  </data>
+  <data name="PDFEDITORDEMO_DO_YOU_WANT_TO_SAVE_PDF_DOCUMENT_RIGHT_NOWRNRN" xml:space="preserve">
+    <value>Möchten Sie das PDF-Dokument jetzt speichern?
+
+</value>
+  </data>
+  <data name="PDFEDITORDEMO_CLICK_YES_IF_YOU_WANT_TO_SAVE_PDF_DOCUMENT_RIGHT_NOWRN" xml:space="preserve">
+    <value>Klicken Sie auf „Ja“, wenn Sie das PDF-Dokument jetzt speichern möchten.
+</value>
+  </data>
+  <data name="PDFEDITORDEMO_CLICK_NO_IF_YOU_DO_NOT_WANT_SAVE_PDF_DOCUMENT" xml:space="preserve">
+    <value>Klicken Sie auf 'Nein', wenn Sie das PDF-Dokument nicht speichern möchten.</value>
+  </data>
+  <data name="PDFEDITORDEMO_SAVE_DOCUMENT" xml:space="preserve">
+    <value>Dokument speichern</value>
+  </data>
+  <data name="PDFEDITORDEMO_DOCX_FILESDOCX" xml:space="preserve">
+    <value>DOCX-Dateien|*.docx</value>
+  </data>
+  <data name="PDFEDITORDEMO_CONVERT_TO_DOCX" xml:space="preserve">
+    <value>In DOCX konvertieren</value>
+  </data>
   <data name="PDFEDITORDEMO_CUT" xml:space="preserve">
     <value>Ausschneiden</value>
   </data>
@@ -2015,6 +2043,9 @@ Um das Portfolio anzuzeigen, sollten Sie einen PDF-Viewer verwenden, der mit PDF
   </data>
   <data name="PDFEDITORDEMO_SAVING_ERROR_ALT2" xml:space="preserve">
     <value>Fehler beim Speichern</value>
+  </data>
+  <data name="PDFEDITORDEMO_CONVERT_TO_DOCX_ALT1" xml:space="preserve">
+    <value>In DOCX konvertieren</value>
   </data>
   <data name="PDFEDITORDEMO_CONVERTING_TO_SVG" xml:space="preserve">
     <value>Konvertierung in SVG</value>

@@ -107,7 +107,7 @@ namespace DemosCommonCode.Pdf
         #region PRIVATE
 
         /// <summary>
-        /// Handles the SelectedIndexChanged event of CurrentAppearanceStateComboBox object.
+        /// Handles the SelectedIndexChanged event of currentAppearanceStateComboBox object.
         /// </summary>
         private void currentAppearanceStateComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -122,7 +122,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the AppearanceChanged event of PdfAnnotationAppearancesEditorControl object.
+        /// Handles the AppearanceChanged event of pdfAnnotationAppearancesEditorControl object.
         /// </summary>
         private void pdfAnnotationAppearancesEditorControl_AppearanceChanged(object sender, EventArgs e)
         {

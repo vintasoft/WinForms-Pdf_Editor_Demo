@@ -242,7 +242,7 @@ namespace DemosCommonCode.Pdf
         #region PRIVATE
 
         /// <summary>
-        /// Handles the SelectedIndexChanged event of StyleTypeComboBox object.
+        /// Handles the SelectedIndexChanged event of styleTypeComboBox object.
         /// </summary>
         private void styleTypeComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -265,7 +265,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the ValueChanged event of WidthNumericUpDown object.
+        /// Handles the ValueChanged event of widthNumericUpDown object.
         /// </summary>
         private void widthNumericUpDown_ValueChanged(object sender, EventArgs e)
         {
@@ -281,7 +281,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the ColorChanged event of ColorPanelControl object.
+        /// Handles the ColorChanged event of colorPanelControl object.
         /// </summary>
         private void colorPanelControl_ColorChanged(object sender, EventArgs e)
         {
@@ -295,7 +295,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the SelectedIndexChanged event of DashPatternComboBox object.
+        /// Handles the SelectedIndexChanged event of dashPatternComboBox object.
         /// </summary>
         private void dashPatternComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {

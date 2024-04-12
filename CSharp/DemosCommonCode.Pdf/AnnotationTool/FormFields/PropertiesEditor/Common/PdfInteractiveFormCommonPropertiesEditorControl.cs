@@ -220,7 +220,7 @@ namespace DemosCommonCode.Pdf
         #region UI
 
         /// <summary>
-        /// Handles the TextChanged event of NameTextBox object.
+        /// Handles the TextChanged event of nameTextBox object.
         /// </summary>
         private void nameTextBox_TextChanged(object sender, EventArgs e)
         {
@@ -234,7 +234,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the PdfFontChanged event of PdfFontPanelControl object.
+        /// Handles the PdfFontChanged event of pdfFontPanelControl object.
         /// </summary>
         private void pdfFontPanelControl_PdfFontChanged(object sender, EventArgs e)
         {
@@ -247,7 +247,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the ValueUpdate event of FontSizeComboBox object.
+        /// Handles the ValueUpdate event of fontSizeComboBox object.
         /// </summary>
         private void fontSizeComboBox_ValueUpdate(object sender, EventArgs e)
         {
@@ -282,7 +282,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the ValueUpdate event of AutoFontSizeMinValueComboBox object.
+        /// Handles the ValueUpdate event of autoFontSizeMinValueComboBox object.
         /// </summary>
         private void autoFontSizeMinValueComboBox_ValueUpdate(object sender, EventArgs e)
         {
@@ -304,7 +304,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the ValueUpdate event of AutoFontSizeMaxValueComboBox object.
+        /// Handles the ValueUpdate event of autoFontSizeMaxValueComboBox object.
         /// </summary>
         private void autoFontSizeMaxValueComboBox_ValueUpdate(object sender, EventArgs e)
         {
@@ -326,7 +326,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the ColorChanged event of FontColorPanelControl object.
+        /// Handles the ColorChanged event of fontColorPanelControl object.
         /// </summary>
         private void fontColorPanelControl_ColorChanged(object sender, EventArgs e)
         {
@@ -339,7 +339,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the ColorChanged event of BackgroundColorPanelControl object.
+        /// Handles the ColorChanged event of backgroundColorPanelControl object.
         /// </summary>
         private void backgroundColorPanelControl_ColorChanged(object sender, EventArgs e)
         {
@@ -362,7 +362,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the CheckedChanged event of RequiredCheckBox object.
+        /// Handles the CheckedChanged event of requiredCheckBox object.
         /// </summary>
         private void requiredCheckBox_CheckedChanged(object sender, EventArgs e)
         {
@@ -378,7 +378,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the CheckedChanged event of ReadOnlyCheckBox object.
+        /// Handles the CheckedChanged event of readOnlyCheckBox object.
         /// </summary>
         private void readOnlyCheckBox_CheckedChanged(object sender, EventArgs e)
         {
@@ -394,7 +394,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the CheckedChanged event of NoExportCheckBox object.
+        /// Handles the CheckedChanged event of noExportCheckBox object.
         /// </summary>
         private void noExportCheckBox_CheckedChanged(object sender, EventArgs e)
         {

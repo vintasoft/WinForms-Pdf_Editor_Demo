@@ -88,7 +88,7 @@ namespace DemosCommonCode.Pdf
         #region PRIVATE
 
         /// <summary>
-        /// Handles the PropertyValueChanged event of PdfInteractiveFormSwitchableButtonPropertiesEditorControl object.
+        /// Handles the PropertyValueChanged event of pdfInteractiveFormSwitchableButtonPropertiesEditorControl object.
         /// </summary>
         private void pdfInteractiveFormSwitchableButtonPropertiesEditorControl_PropertyValueChanged(object sender, EventArgs e)
         {

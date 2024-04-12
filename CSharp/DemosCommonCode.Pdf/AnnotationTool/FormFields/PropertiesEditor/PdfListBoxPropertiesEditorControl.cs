@@ -105,7 +105,7 @@ namespace DemosCommonCode.Pdf
         #region PRIVATE
 
         /// <summary>
-        /// Handles the CheckedChanged event of MultiselectCheckBox object.
+        /// Handles the CheckedChanged event of multiselectCheckBox object.
         /// </summary>
         private void multiselectCheckBox_CheckedChanged(object sender, EventArgs e)
         {
@@ -143,7 +143,7 @@ namespace DemosCommonCode.Pdf
         }
         
         /// <summary>
-        /// Handles the ColorChanged event of SelectionBrushColorPanelControl object.
+        /// Handles the ColorChanged event of selectionBrushColorPanelControl object.
         /// </summary>
         private void selectionBrushColorPanelControl_ColorChanged(object sender, EventArgs e)
         {
@@ -153,7 +153,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the PropertyValueChanged event of PdfInteractiveFormChoiceFieldEditorControl object.
+        /// Handles the PropertyValueChanged event of pdfInteractiveFormChoiceFieldEditorControl object.
         /// </summary>
         private void pdfInteractiveFormChoiceFieldEditorControl_PropertyValueChanged(object sender, EventArgs e)
         {

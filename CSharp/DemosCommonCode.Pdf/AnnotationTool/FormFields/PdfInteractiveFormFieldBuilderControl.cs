@@ -398,7 +398,7 @@ namespace DemosCommonCode.Pdf
         #region UI
 
         /// <summary>
-        /// Handles the Click event of AddAndBuildInteractiveFormFieldToolStripButton object.
+        /// Handles the Click event of addAndBuildInteractiveFormFieldToolStripButton object.
         /// </summary>
         private void addAndBuildInteractiveFormFieldToolStripButton_Click(object sender, EventArgs e)
         {
@@ -436,7 +436,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the CheckedChanged event of AppearanceToolStripMenuItem object.
+        /// Handles the CheckedChanged event of appearanceToolStripMenuItem object.
         /// </summary>
         private void appearanceToolStripMenuItem_CheckedChanged(object sender, EventArgs e)
         {
@@ -457,7 +457,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of FieldAppearanceGeneratorPropertiesToolStripMenuItem object.
+        /// Handles the Click event of fieldAppearanceGeneratorPropertiesToolStripMenuItem object.
         /// </summary>
         private void fieldAppearanceGeneratorPropertiesToolStripMenuItem_Click(
             object sender,

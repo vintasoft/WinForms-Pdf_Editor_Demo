@@ -13,6 +13,7 @@ using Vintasoft.Imaging.Codecs.Decoders;
 using Vintasoft.Imaging.Codecs.Encoders;
 using Vintasoft.Imaging.Codecs.ImageFiles;
 using Vintasoft.Imaging.Processing;
+using Vintasoft.Imaging.ImageProcessing.Color;
 using Vintasoft.Imaging.Spelling;
 using Vintasoft.Imaging.UI;
 using Vintasoft.Imaging.UI.VisualTools;
@@ -1511,7 +1512,7 @@ namespace PdfEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of AddOcrPagesUsingImageOverTextModeToolStripMenuItem object.
+        /// Handles the Click event of addOcrPagesUsingImageOverTextModeToolStripMenuItem object.
         /// </summary>
         private void addOcrPagesUsingImageOverTextModeToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -1521,7 +1522,7 @@ namespace PdfEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of AddOcrPagesUsingTextOverImageModeToolStripMenuItem object.
+        /// Handles the Click event of addOcrPagesUsingTextOverImageModeToolStripMenuItem object.
         /// </summary>
         private void addOcrPagesUsingTextOverImageModeToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -1874,7 +1875,50 @@ namespace PdfEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of PageAutoOrientationToolStripMenuItem object.
+        /// Handles the Click event of convertToDocxToolStripMenuItem object.
+        /// </summary>
+        private void convertToDocxToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+#if !REMOVE_OFFICE_PLUGIN
+            if (IsDocumentChanged)
+            {
+                if (MessageBox.Show(
+                    PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_THE_DOCUMENT_IS_NOT_SAVEDRN +
+                    PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_DO_YOU_WANT_TO_SAVE_PDF_DOCUMENT_RIGHT_NOWRNRN +
+                    PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_CLICK_YES_IF_YOU_WANT_TO_SAVE_PDF_DOCUMENT_RIGHT_NOWRN +
+                    PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_CLICK_NO_IF_YOU_DO_NOT_WANT_SAVE_PDF_DOCUMENT,
+                    PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_SAVE_DOCUMENT,
+                    MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+                {
+                    SavePdfDocumentAs();
+
+                    // if document is not saved
+                    if (IsDocumentChanged)
+                        return;
+                }
+                else
+                {
+                    return;
+                }
+            }
+
+            convertToFileDialog.Filter = PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_DOCX_FILESDOCX;
+            if (!string.IsNullOrEmpty(Filename))
+                convertToFileDialog.FileName = Path.GetFileNameWithoutExtension(Filename);
+
+            if (convertToFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                // convert PDF document to DOCX file in background thread
+                Thread savingThread = new Thread(new ParameterizedThreadStart(ConvertPdfDocumentToDocxFileThread));
+                savingThread.Name = PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_CONVERT_TO_DOCX;
+                savingThread.IsBackground = true;
+                savingThread.Start(convertToFileDialog.FileName);
+            }
+#endif
+        }
+
+        /// <summary>
+        /// Handles the Click event of pageAutoOrientationToolStripMenuItem object.
         /// </summary>
         private void pageAutoOrientationToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -1884,7 +1928,7 @@ namespace PdfEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of CenterPrintingPageToolStripMenuItem object.
+        /// Handles the Click event of centerPrintingPageToolStripMenuItem object.
         /// </summary>
         private void centerPrintingPageToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -1894,7 +1938,7 @@ namespace PdfEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of PageSettingsToolStripMenuItem object.
+        /// Handles the Click event of pageSettingsToolStripMenuItem object.
         /// </summary>
         private void pageSettingsToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -1928,7 +1972,7 @@ namespace PdfEditorDemo
             UpdateUI();
         }
 
-        #endregion
+#endregion
 
 
         #region 'Edit' menu
@@ -2302,7 +2346,7 @@ namespace PdfEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of ViewerRenderingSettingsToolStripMenuItem object.
+        /// Handles the Click event of viewerRenderingSettingsToolStripMenuItem object.
         /// </summary>
         private void viewerRenderingSettingsToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -2704,9 +2748,6 @@ namespace PdfEditorDemo
         /// Converts the PDF document to the PDF/A-2u format.
         /// </summary>
 
-        /// <summary>
-        /// Handles the Click event of PdfA2uConverterToolStripMenuItem object.
-        /// </summary>
         private void pdfA2uConverterToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ConvertPdfDocumentToPdfA(new PdfA2uConverter());
@@ -3166,7 +3207,7 @@ namespace PdfEditorDemo
         #region Annotations
 
         /// <summary>
-        /// Handles the Click event of ImportFromXFDFToolStripMenuItem object.
+        /// Handles the Click event of importFromXFDFToolStripMenuItem object.
         /// </summary>
         private void importFromXFDFToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -3201,7 +3242,7 @@ namespace PdfEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of ExportToXFDFToolStripMenuItem object.
+        /// Handles the Click event of exportToXFDFToolStripMenuItem object.
         /// </summary>
         private void exportToXFDFToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -3233,7 +3274,7 @@ namespace PdfEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of RemoveAllAnnotationsToolStripMenuItem object.
+        /// Handles the Click event of removeAllAnnotationsToolStripMenuItem object.
         /// </summary>
         private void removeAllAnnotationsToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -3242,7 +3283,7 @@ namespace PdfEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of RemoveMarkupAnnotationsToolStripMenuItem object.
+        /// Handles the Click event of removeMarkupAnnotationsToolStripMenuItem object.
         /// </summary>
         private void removeMarkupAnnotationsToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -4131,10 +4172,7 @@ namespace PdfEditorDemo
         /// </summary>
         private void invertPDFPageToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            PdfPageColorBlendingCommand invertCommand = new PdfPageColorBlendingCommand();
-            invertCommand.BackgroundColor = Color.White;
-            invertCommand.BlendingColor = Color.White;
-            invertCommand.BlendingMode = GraphicsStateBlendMode.Difference;
+            PdfInvertCommand invertCommand = new PdfInvertCommand();
             ExecuteProcessingCommandOnFocusedImage(invertCommand, false, false);
         }
 
@@ -4187,7 +4225,7 @@ namespace PdfEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of PageUsesTransparencyToolStripMenuItem object.
+        /// Handles the Click event of pageUsesTransparencyToolStripMenuItem object.
         /// </summary>
         private void pageUsesTransparencyToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -4371,7 +4409,7 @@ namespace PdfEditorDemo
 
 
         /// <summary>
-        /// Handles the Click event of TextMarkupHighlightToolStripMenuItem object.
+        /// Handles the Click event of textMarkupHighlightToolStripMenuItem object.
         /// </summary>
         private void textMarkupHighlightToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -4379,7 +4417,7 @@ namespace PdfEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of TextMarkupStrikeOutToolStripMenuItem object.
+        /// Handles the Click event of textMarkupStrikeOutToolStripMenuItem object.
         /// </summary>
         private void textMarkupStrikeOutToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -4387,7 +4425,7 @@ namespace PdfEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of TextMarkupUnderlineToolStripMenuItem object.
+        /// Handles the Click event of textMarkupUnderlineToolStripMenuItem object.
         /// </summary>
         private void textMarkupUnderlineToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -4395,7 +4433,7 @@ namespace PdfEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of TextMarkupSquigglyUnderlineToolStripMenuItem object.
+        /// Handles the Click event of textMarkupSquigglyUnderlineToolStripMenuItem object.
         /// </summary>
         private void textMarkupSquigglyUnderlineToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -5760,7 +5798,7 @@ namespace PdfEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of AddLongTimeValidationInfoLTVToolStripMenuItem object.
+        /// Handles the Click event of addLongTimeValidationInfoLTVToolStripMenuItem object.
         /// </summary>
         private void addLongTimeValidationInfoLTVToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -6350,6 +6388,40 @@ namespace PdfEditorDemo
         #endregion
 
 
+        #region Convert PDF document to DOCX
+
+#if !REMOVE_OFFICE_PLUGIN
+        /// <summary>
+        /// Converts PDF file to a DOCX file.
+        /// </summary>
+        /// <param name="obj">A string that defines path to the output DOCX file.</param>
+        private void ConvertPdfDocumentToDocxFileThread(object obj)
+        {
+            string filePath = (string)obj;
+
+            // start the 'Convert to DOCX" action
+            StartAction(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_CONVERT_TO_DOCX_ALT1, true);
+
+            // create converter
+            using (Vintasoft.Imaging.Pdf.Office.PdfToDocxConverter converter = new Vintasoft.Imaging.Pdf.Office.PdfToDocxConverter())
+            {
+                // set converter settings
+                converter.DecodingSettings = imageViewer1.ImageDecodingSettings;
+                converter.RenderingSettings = imageViewer1.ImageRenderingSettings;
+                converter.OutputFilename = filePath;
+
+                // convert PDF document to DOCX file
+                using (ProcessingState state = new ProcessingState(Images_ImageCollectionSavingProgress))
+                    converter.Execute(_document, state);
+            }
+
+            EndAction();
+        }
+#endif
+
+        #endregion
+
+
         #region Convert PDF document to SVG
 
         /// <summary>
@@ -6689,9 +6761,9 @@ namespace PdfEditorDemo
 
         #endregion
 
-        #endregion
+#endregion
 
-        #endregion
+#endregion
 
 
 
@@ -6724,8 +6796,8 @@ namespace PdfEditorDemo
 
 
 
+
         #endregion
 
-       
     }
 }

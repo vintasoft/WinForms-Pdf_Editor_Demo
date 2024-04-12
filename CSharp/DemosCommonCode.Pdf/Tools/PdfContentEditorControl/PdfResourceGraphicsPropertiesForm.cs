@@ -74,7 +74,7 @@ namespace DemosCommonCode.Pdf
         #region UI
 
         /// <summary>
-        /// Handles the CheckedChanged event of ColorBlendingCheckBox object.
+        /// Handles the CheckedChanged event of colorBlendingCheckBox object.
         /// </summary>
         private void colorBlendingCheckBox_CheckedChanged(object sender, System.EventArgs e)
         {
@@ -82,7 +82,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the CheckedChanged event of AlphaConstantCheckBox object.
+        /// Handles the CheckedChanged event of alphaConstantCheckBox object.
         /// </summary>
         private void alphaConstantCheckBox_CheckedChanged(object sender, System.EventArgs e)
         {
@@ -90,7 +90,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of ButtonOk object.
+        /// Handles the Click event of buttonOk object.
         /// </summary>
         private void buttonOk_Click(object sender, System.EventArgs e)
         {
@@ -116,7 +116,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of ButtonCancel object.
+        /// Handles the Click event of buttonCancel object.
         /// </summary>
         private void buttonCancel_Click(object sender, System.EventArgs e)
         {

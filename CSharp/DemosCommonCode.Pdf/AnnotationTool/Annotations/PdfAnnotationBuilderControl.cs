@@ -629,7 +629,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the ButtonClick event of AddAndBuildAnnotationToolStripButton object.
+        /// Handles the ButtonClick event of addAndBuildAnnotationToolStripButton object.
         /// </summary>
         private void addAndBuildAnnotationToolStripButton_ButtonClick(object sender, EventArgs e)
         {

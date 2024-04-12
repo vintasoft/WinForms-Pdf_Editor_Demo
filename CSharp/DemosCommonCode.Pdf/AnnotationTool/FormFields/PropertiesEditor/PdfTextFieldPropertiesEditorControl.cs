@@ -125,7 +125,7 @@ namespace DemosCommonCode.Pdf
         #region UI
 
         /// <summary>
-        /// Handles the CheckedChanged event of MultilineCheckBox object.
+        /// Handles the CheckedChanged event of multilineCheckBox object.
         /// </summary>
         private void multilineCheckBox_CheckedChanged(object sender, EventArgs e)
         {
@@ -157,7 +157,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the CheckedChanged event of PasswordCheckBox object.
+        /// Handles the CheckedChanged event of passwordCheckBox object.
         /// </summary>
         private void passwordCheckBox_CheckedChanged(object sender, EventArgs e)
         {
@@ -174,7 +174,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the CheckedChanged event of SpellCheckCheckBox object.
+        /// Handles the CheckedChanged event of spellCheckCheckBox object.
         /// </summary>
         private void spellCheckCheckBox_CheckedChanged(object sender, EventArgs e)
         {
@@ -192,7 +192,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the TextChanged event of ValueTextBox object.
+        /// Handles the TextChanged event of valueTextBox object.
         /// </summary>
         private void valueTextBox_TextChanged(object sender, EventArgs e)
         {
@@ -207,7 +207,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the TextChanged event of DefaultValueTextBox object.
+        /// Handles the TextChanged event of defaultValueTextBox object.
         /// </summary>
         private void defaultValueTextBox_TextChanged(object sender, EventArgs e)
         {
@@ -222,7 +222,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the KeyDown event of TextBox object.
+        /// Handles the KeyDown event of textBox object.
         /// </summary>
         private void textBox_KeyDown(object sender, KeyEventArgs e)
         {
@@ -232,7 +232,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the SelectedIndexChanged event of TextQuaddingComboBox object.
+        /// Handles the SelectedIndexChanged event of textQuaddingComboBox object.
         /// </summary>
         private void textQuaddingComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -247,7 +247,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the SelectedIndexChanged event of ActionsTabControl object.
+        /// Handles the SelectedIndexChanged event of actionsTabControl object.
         /// </summary>
         private void actionsTabControl_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -258,7 +258,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the ActionChanged event of CalculatePdfActionEditorControl object.
+        /// Handles the ActionChanged event of calculatePdfActionEditorControl object.
         /// </summary>
         private void calculatePdfActionEditorControl_ActionChanged(object sender, EventArgs e)
         {
@@ -280,7 +280,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the ActionChanged event of ValidatePdfActionEditorControl object.
+        /// Handles the ActionChanged event of validatePdfActionEditorControl object.
         /// </summary>
         private void validatePdfActionEditorControl_ActionChanged(object sender, EventArgs e)
         {
@@ -302,7 +302,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the ActionChanged event of FormatPdfActionEditorControl object.
+        /// Handles the ActionChanged event of formatPdfActionEditorControl object.
         /// </summary>
         private void formatPdfActionEditorControl_ActionChanged(object sender, EventArgs e)
         {
@@ -324,7 +324,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the ActionChanged event of KeystrokePdfActionEditorControl object.
+        /// Handles the ActionChanged event of keystrokePdfActionEditorControl object.
         /// </summary>
         private void keystrokePdfActionEditorControl_ActionChanged(object sender, EventArgs e)
         {

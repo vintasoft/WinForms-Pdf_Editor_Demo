@@ -95,7 +95,7 @@ namespace DemosCommonCode.Pdf
         #region PRIVATE
 
         /// <summary>
-        /// Handles the SelectedIndexChanged event of HighlightingModeComboBox object.
+        /// Handles the SelectedIndexChanged event of highlightingModeComboBox object.
         /// </summary>
         private void highlightingModeComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -113,7 +113,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the ActionChanged event of PdfActionEditorControl object.
+        /// Handles the ActionChanged event of pdfActionEditorControl object.
         /// </summary>
         private void pdfActionEditorControl_ActionChanged(object sender, EventArgs e)
         {

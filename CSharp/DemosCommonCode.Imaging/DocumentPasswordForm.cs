@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
 using System.Windows.Forms;
 
 using Vintasoft.Imaging;
@@ -18,7 +19,7 @@ namespace DemosCommonCode.Imaging
         /// <summary>
         /// Initializes a new instance of the <see cref="DocumentPasswordForm"/> class.
         /// </summary>
-        private DocumentPasswordForm()
+        public DocumentPasswordForm()
         {
             InitializeComponent();
 
@@ -71,6 +72,14 @@ namespace DemosCommonCode.Imaging
         #region PUBLIC
 
         /// <summary>
+        /// Shows the incorrect password message.
+        /// </summary>
+        public void ShowIncorrectPasswordMessage()
+        {
+            MessageBox.Show(string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_THE_ARG0_PASSWORD_IS_INCORRECT, Password), PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_ERROR_ALT1, MessageBoxButtons.OK, MessageBoxIcon.Warning);
+        }
+
+        /// <summary>
         /// Authenticates the specified document.
         /// </summary>
         /// <param name="decoder">The decoder.</param>
@@ -106,17 +115,17 @@ namespace DemosCommonCode.Imaging
                             // if user is NOT authorized
                             if (!result.IsAuthorized)
                             {
-                                MessageBox.Show(
-                                    string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_THE_ARG0_PASSWORD_IS_INCORRECT, enterPasswordDialog.authenticateTypeComboBox.Text),
-                                    PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_ERROR_ALT1, MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                                enterPasswordDialog.ShowIncorrectPasswordMessage();
                             }
                             // if user is authorized
                             else
                             {
                                 if (enterPasswordDialog.authenticateTypeComboBox.Text != result.UserName)
+                                {
                                     MessageBox.Show(
                                         string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_AUTHORIZED_AS_ARG0, result.UserName),
                                         PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_AUTHORIZATION_RESULT, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                }
                                 break;
                             }
                         }
@@ -130,6 +139,7 @@ namespace DemosCommonCode.Imaging
             }
             return true;
         }
+
 
         /// <summary>
         /// Enables the authentication for specified image viewer.

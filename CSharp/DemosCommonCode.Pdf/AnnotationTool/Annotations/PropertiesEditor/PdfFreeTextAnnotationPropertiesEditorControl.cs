@@ -112,7 +112,7 @@ namespace DemosCommonCode.Pdf
         #region PRIVATE
 
         /// <summary>
-        /// Handles the TextChanged event of TextBox object.
+        /// Handles the TextChanged event of textBox object.
         /// </summary>
         private void textBox_TextChanged(object sender, EventArgs e)
         {
@@ -126,7 +126,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the SelectedIndexChanged event of TextQuaddingComboBox object.
+        /// Handles the SelectedIndexChanged event of textQuaddingComboBox object.
         /// </summary>
         private void textQuaddingComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -143,7 +143,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the ColorChanged event of BackColorPanelControl object.
+        /// Handles the ColorChanged event of backColorPanelControl object.
         /// </summary>
         private void backColorPanelControl_ColorChanged(object sender, EventArgs e)
         {
@@ -157,7 +157,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the PdfFontChanged event of PdfFontPanelControl1 object.
+        /// Handles the PdfFontChanged event of pdfFontPanelControl1 object.
         /// </summary>
         private void pdfFontPanelControl1_PdfFontChanged(object sender, EventArgs e)
         {
@@ -167,7 +167,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the ValueChanged event of FontSizeNumericUpDown object.
+        /// Handles the ValueChanged event of fontSizeNumericUpDown object.
         /// </summary>
         private void fontSizeNumericUpDown_ValueChanged(object sender, EventArgs e)
         {
@@ -183,7 +183,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the SelectedIndexChanged event of LineEndingStyleComboBox object.
+        /// Handles the SelectedIndexChanged event of lineEndingStyleComboBox object.
         /// </summary>
         private void lineEndingStyleComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -201,7 +201,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the PropertyValueChanged event of PdfAnnotationBorderEffectEditorControl1 object.
+        /// Handles the PropertyValueChanged event of pdfAnnotationBorderEffectEditorControl1 object.
         /// </summary>
         private void pdfAnnotationBorderEffectEditorControl1_PropertyValueChanged(
             object sender,

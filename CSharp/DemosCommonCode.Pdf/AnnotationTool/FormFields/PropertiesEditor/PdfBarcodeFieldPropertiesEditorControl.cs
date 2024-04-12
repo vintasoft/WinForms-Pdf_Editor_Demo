@@ -92,7 +92,7 @@ namespace DemosCommonCode.Pdf
         #region UI
 
         /// <summary>
-        /// Handles the SelectedIndexChanged event of MainTabControl object.
+        /// Handles the SelectedIndexChanged event of mainTabControl object.
         /// </summary>
         private void mainTabControl_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -101,7 +101,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the ActionChanged event of CalculateActionEditorControl object.
+        /// Handles the ActionChanged event of calculateActionEditorControl object.
         /// </summary>
         private void calculateActionEditorControl_ActionChanged(object sender, EventArgs e)
         {
@@ -123,7 +123,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the SelectedIndexChanged event of BarcodeSymbologyComboBox object.
+        /// Handles the SelectedIndexChanged event of barcodeSymbologyComboBox object.
         /// </summary>
         private void barcodeSymbologyComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -154,7 +154,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the SelectedIndexChanged event of ErrorCorrectionCoefficientComboBox object.
+        /// Handles the SelectedIndexChanged event of errorCorrectionCoefficientComboBox object.
         /// </summary>
         private void errorCorrectionCoefficientComboBox_SelectedIndexChanged(
     object sender,
@@ -170,7 +170,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the TextChanged event of ValueTextBox object.
+        /// Handles the TextChanged event of valueTextBox object.
         /// </summary>
         private void valueTextBox_TextChanged(object sender, EventArgs e)
         {
@@ -196,7 +196,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the TextChanged event of DefaultValueTextBox object.
+        /// Handles the TextChanged event of defaultValueTextBox object.
         /// </summary>
         private void defaultValueTextBox_TextChanged(object sender, EventArgs e)
         {
@@ -222,7 +222,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the SelectedIndexChanged event of DataPreparationStepsComboBox object.
+        /// Handles the SelectedIndexChanged event of dataPreparationStepsComboBox object.
         /// </summary>
         private void dataPreparationStepsComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -238,7 +238,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the ValueChanged event of ModuleWidthNumericUpDown object.
+        /// Handles the ValueChanged event of moduleWidthNumericUpDown object.
         /// </summary>
         private void moduleWidthNumericUpDown_ValueChanged(object sender, EventArgs e)
         {

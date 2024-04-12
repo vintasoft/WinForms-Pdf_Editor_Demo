@@ -189,7 +189,7 @@ namespace DemosCommonCode.Pdf
         #region UI
 
         /// <summary>
-        /// Handles the SelectedIndexChanged event of TextQuaddingComboBox object.
+        /// Handles the SelectedIndexChanged event of textQuaddingComboBox object.
         /// </summary>
         private void textQuaddingComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -208,7 +208,7 @@ namespace DemosCommonCode.Pdf
         #region Value
 
         /// <summary>
-        /// Handles the SelectedIndexChanged event of ValueComboBox object.
+        /// Handles the SelectedIndexChanged event of valueComboBox object.
         /// </summary>
         private void valueComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -222,7 +222,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the TextUpdate event of ValueComboBox object.
+        /// Handles the TextUpdate event of valueComboBox object.
         /// </summary>
         private void valueComboBox_TextUpdate(object sender, EventArgs e)
         {
@@ -241,7 +241,7 @@ namespace DemosCommonCode.Pdf
         #region Default Value
 
         /// <summary>
-        /// Handles the SelectedIndexChanged event of DefaultValueComboBox object.
+        /// Handles the SelectedIndexChanged event of defaultValueComboBox object.
         /// </summary>
         private void defaultValueComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -251,7 +251,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the TextUpdate event of DefaultValueComboBox object.
+        /// Handles the TextUpdate event of defaultValueComboBox object.
         /// </summary>
         private void defaultValueComboBox_TextUpdate(object sender, EventArgs e)
         {
@@ -287,7 +287,7 @@ namespace DemosCommonCode.Pdf
         #region Items
 
         /// <summary>
-        /// Handles the SelectedIndexChanged event of ItemsListBox object.
+        /// Handles the SelectedIndexChanged event of itemsListBox object.
         /// </summary>
         private void itemsListBox_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -357,7 +357,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the TextChanged event of DiplayedValueTextBox object.
+        /// Handles the TextChanged event of diplayedValueTextBox object.
         /// </summary>
         private void diplayedValueTextBox_TextChanged(object sender, EventArgs e)
         {
@@ -378,7 +378,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the TextChanged event of ExportedValueTextBox object.
+        /// Handles the TextChanged event of exportedValueTextBox object.
         /// </summary>
         private void exportedValueTextBox_TextChanged(object sender, EventArgs e)
         {
@@ -395,7 +395,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of AddButton object.
+        /// Handles the Click event of addButton object.
         /// </summary>
         private void addButton_Click(object sender, EventArgs e)
         {
@@ -432,7 +432,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of DeleteButton object.
+        /// Handles the Click event of deleteButton object.
         /// </summary>
         private void deleteButton_Click(object sender, EventArgs e)
         {
@@ -481,7 +481,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of MoveUpButton object.
+        /// Handles the Click event of moveUpButton object.
         /// </summary>
         private void moveUpButton_Click(object sender, EventArgs e)
         {
@@ -492,7 +492,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of MoveDownButton object.
+        /// Handles the Click event of moveDownButton object.
         /// </summary>
         private void moveDownButton_Click(object sender, EventArgs e)
         {

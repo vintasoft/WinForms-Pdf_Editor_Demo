@@ -118,7 +118,7 @@ namespace DemosCommonCode.Pdf
         #region PRIVATE
 
         /// <summary>
-        /// Handles the ColorChanged event of InteriorColorPanelControl object.
+        /// Handles the ColorChanged event of interiorColorPanelControl object.
         /// </summary>
         private void interiorColorPanelControl_ColorChanged(object sender, EventArgs e)
         {
@@ -128,7 +128,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the PaddingValueChanged event of PaddingPanelControl1 object.
+        /// Handles the PaddingValueChanged event of paddingPanelControl1 object.
         /// </summary>
         private void paddingPanelControl1_PaddingValueChanged(object sender, EventArgs e)
         {
@@ -138,7 +138,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the PropertyValueChanged event of PdfAnnotationBorderEffectEditorControl1 object.
+        /// Handles the PropertyValueChanged event of pdfAnnotationBorderEffectEditorControl1 object.
         /// </summary>
         private void pdfAnnotationBorderEffectEditorControl1_PropertyValueChanged(
             object sender,
@@ -150,7 +150,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the CheckedChanged event of AutoUpdatePaddingCheckBox object.
+        /// Handles the CheckedChanged event of autoUpdatePaddingCheckBox object.
         /// </summary>
         private void autoUpdatePaddingCheckBox_CheckedChanged(object sender, EventArgs e)
         {

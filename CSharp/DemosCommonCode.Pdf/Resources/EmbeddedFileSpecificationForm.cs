@@ -66,7 +66,7 @@ namespace DemosCommonCode.Pdf
         #region UI
 
         /// <summary>
-        /// Handles the Click event of ButtonOk object.
+        /// Handles the Click event of buttonOk object.
         /// </summary>
         private void buttonOk_Click(object sender, EventArgs e)
         {
@@ -78,7 +78,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of ButtonCancel object.
+        /// Handles the Click event of buttonCancel object.
         /// </summary>
         private void buttonCancel_Click(object sender, EventArgs e)
         {
@@ -87,7 +87,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the SelectedIndexChanged event of CompressionComboBox object.
+        /// Handles the SelectedIndexChanged event of compressionComboBox object.
         /// </summary>
         private void compressionComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -102,7 +102,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of BrowseButton object.
+        /// Handles the Click event of browseButton object.
         /// </summary>
         private void browseButton_Click(object sender, EventArgs e)
         {
@@ -131,7 +131,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of SaveAsButton object.
+        /// Handles the Click event of saveAsButton object.
         /// </summary>
         private void saveAsButton_Click(object sender, EventArgs e)
         {

@@ -76,7 +76,7 @@ namespace DemosCommonCode.Pdf
             PdfSubmitFormAction submitFormAction = action as PdfSubmitFormAction;
             if (submitFormAction != null)
             {
-                string message = string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_FORM_SUBMIT_DOCUMENT_MUST_CONNECT_TO_ARG0RN_ALLOW, submitFormAction.Url);
+                string message = string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_FORM_SUBMIT_DOCUMENT_NEEDS_CONNECTION_TO_ARG0RN_DO_YOU_WANT_TO_ALLOW_CONNECTION, submitFormAction.Url);
                 if (MessageBox.Show(message, PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SUBMIT_ACTION, MessageBoxButtons.YesNo, MessageBoxIcon.Warning) != DialogResult.Yes)
                     return false;
 
@@ -197,7 +197,7 @@ namespace DemosCommonCode.Pdf
             }
             return annotationTool;
         }
-        
+
         #endregion
 
         #endregion

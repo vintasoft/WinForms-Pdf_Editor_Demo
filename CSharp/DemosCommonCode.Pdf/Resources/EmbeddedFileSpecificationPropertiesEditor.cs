@@ -101,7 +101,7 @@ namespace DemosCommonCode.Pdf
         #region UI
 
         /// <summary>
-        /// Handles the TextChanged event of FilenameTextBox object.
+        /// Handles the TextChanged event of filenameTextBox object.
         /// </summary>
         private void filenameTextBox_TextChanged(object sender, EventArgs e)
         {
@@ -111,7 +111,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the TextChanged event of DescriptionTextBox object.
+        /// Handles the TextChanged event of descriptionTextBox object.
         /// </summary>
         private void descriptionTextBox_TextChanged(object sender, EventArgs e)
         {
@@ -121,7 +121,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the SelectedIndexChanged event of CompressionComboBox object.
+        /// Handles the SelectedIndexChanged event of compressionComboBox object.
         /// </summary>
         private void compressionComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {

@@ -289,7 +289,7 @@ namespace DemosCommonCode.Pdf
         #region Checkboxes
 
         /// <summary>
-        /// Handles the CheckedChanged event of ShowFieldNamesCheckBox object.
+        /// Handles the CheckedChanged event of showFieldNamesCheckBox object.
         /// </summary>
         private void showFieldNamesCheckBox_CheckedChanged(object sender, EventArgs e)
         {
@@ -301,7 +301,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the CheckedChanged event of GroupFormFieldsByPagesCheckBox object.
+        /// Handles the CheckedChanged event of groupFormFieldsByPagesCheckBox object.
         /// </summary>
         private void groupFormFieldsByPagesCheckBox_CheckedChanged(object sender, EventArgs e)
         {
@@ -318,7 +318,7 @@ namespace DemosCommonCode.Pdf
         #region InteractiveFormFieldTree
 
         /// <summary>
-        /// Handles the MouseDoubleClick event of InteractiveFormFieldTree object.
+        /// Handles the MouseDoubleClick event of interactiveFormFieldTree object.
         /// </summary>
         private void interactiveFormFieldTree_MouseDoubleClick(object sender, MouseEventArgs e)
         {
@@ -342,7 +342,7 @@ namespace DemosCommonCode.Pdf
         #region FieldContextMenuStrip
 
         /// <summary>
-        /// Handles the Opening event of FieldContextMenuStrip object.
+        /// Handles the Opening event of fieldContextMenuStrip object.
         /// </summary>
         private void fieldContextMenuStrip_Opening(object sender, CancelEventArgs e)
         {
@@ -362,7 +362,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of CutFieldToolStripMenuItem object.
+        /// Handles the Click event of cutFieldToolStripMenuItem object.
         /// </summary>
         private void cutFieldToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -371,7 +371,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of CopyFieldToolStripMenuItem object.
+        /// Handles the Click event of copyFieldToolStripMenuItem object.
         /// </summary>
         private void copyFieldToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -380,7 +380,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of DeleteFieldToolStripMenuItem object.
+        /// Handles the Click event of deleteFieldToolStripMenuItem object.
         /// </summary>
         private void deleteFieldToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -389,7 +389,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of PasteAnnotationOrFieldToolStripMenuItem object.
+        /// Handles the Click event of pasteAnnotationOrFieldToolStripMenuItem object.
         /// </summary>
         private void pasteAnnotationOrFieldToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -398,7 +398,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of AddInteractiveFormFieldToolStripMenuItem object.
+        /// Handles the Click event of addInteractiveFormFieldToolStripMenuItem object.
         /// </summary>
         private void addInteractiveFormFieldToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -414,7 +414,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of FieldPropertiesToolStripMenuItem object.
+        /// Handles the Click event of fieldPropertiesToolStripMenuItem object.
         /// </summary>
         private void fieldPropertiesToolStripMenuItem_Click(object sender, EventArgs e)
         {

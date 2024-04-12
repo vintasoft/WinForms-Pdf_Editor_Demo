@@ -167,7 +167,7 @@ namespace DemosCommonCode.Pdf
         #region UI
 
         /// <summary>
-        /// Handles the PropertyValueChanged event of AnnotationPropertiesEditorControl object.
+        /// Handles the PropertyValueChanged event of annotationPropertiesEditorControl object.
         /// </summary>
         private void annotationPropertiesEditorControl_PropertyValueChanged(
             object sender,
@@ -201,7 +201,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the PropertyValueChanged event of FieldPropertiesEditorControl object.
+        /// Handles the PropertyValueChanged event of fieldPropertiesEditorControl object.
         /// </summary>
         private void fieldPropertiesEditorControl_PropertyValueChanged(object sender, EventArgs e)
         {
@@ -219,7 +219,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the SelectedIndexChanged event of MainTabControl object.
+        /// Handles the SelectedIndexChanged event of mainTabControl object.
         /// </summary>
         private void mainTabControl_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -258,7 +258,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the SelectedIndexChanged event of AdvancedTabControl object.
+        /// Handles the SelectedIndexChanged event of advancedTabControl object.
         /// </summary>
         private void advancedTabControl_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -266,7 +266,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the SelectedIndexChanged event of FieldTabControl object.
+        /// Handles the SelectedIndexChanged event of fieldTabControl object.
         /// </summary>
         private void fieldTabControl_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -274,7 +274,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the SelectedIndexChanged event of AnnotationTabControl object.
+        /// Handles the SelectedIndexChanged event of annotationTabControl object.
         /// </summary>
         private void annotationTabControl_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -282,13 +282,16 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of CloseButton object.
+        /// Handles the Click event of closeButton object.
         /// </summary>
         private void closeButton_Click(object sender, EventArgs e)
         {
             Close();
         }
 
+        /// <summary>
+        /// Handles the PropertyValueChanged event of appearanceGeneratorPropertyGrid object.
+        /// </summary>
         private void appearanceGeneratorPropertyGrid_PropertyValueChanged(
             object s,
             PropertyValueChangedEventArgs e)
@@ -296,6 +299,9 @@ namespace DemosCommonCode.Pdf
             UpdateAppearance(_annotationView, false);
         }
 
+        /// <summary>
+        /// Handles the PropertyValueChanged event of fieldPropertyGrid object.
+        /// </summary>
         private void fieldPropertyGrid_PropertyValueChanged(
             object s,
             PropertyValueChangedEventArgs e)
@@ -303,6 +309,9 @@ namespace DemosCommonCode.Pdf
             UpdateAppearance(_annotationView, true);
         }
 
+        /// <summary>
+        /// Handles the PropertyValueChanged event of annotationPropertyGrid object.
+        /// </summary>
         private void annotationPropertyGrid_PropertyValueChanged(
             object s,
             PropertyValueChangedEventArgs e)
@@ -311,7 +320,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of SetFontButton object.
+        /// Handles the Click event of setFontButton object.
         /// </summary>
         private void setFontButton_Click(object sender, EventArgs e)
         {
@@ -338,7 +347,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of FieldFontButton object.
+        /// Handles the Click event of fieldFontButton object.
         /// </summary>
         private void fieldFontButton_Click(object sender, EventArgs e)
         {
@@ -360,7 +369,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of AnnotationFontButton object.
+        /// Handles the Click event of annotationFontButton object.
         /// </summary>
         private void annotationFontButton_Click(object sender, EventArgs e)
         {

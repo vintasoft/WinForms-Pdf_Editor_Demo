@@ -48,7 +48,7 @@ namespace DemosCommonCode.Pdf
         #region Methods
 
         /// <summary>
-        /// Handles the CheckedChanged event of ViewImageRadioButton object.
+        /// Handles the CheckedChanged event of viewImageRadioButton object.
         /// </summary>
         private void viewImageRadioButton_CheckedChanged(object sender, EventArgs e)
         {
@@ -84,7 +84,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of SaveAsButton object.
+        /// Handles the Click event of saveAsButton object.
         /// </summary>
         private void saveAsButton_Click(object sender, EventArgs e)
         {
@@ -93,7 +93,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of ViewResourceButton object.
+        /// Handles the Click event of viewResourceButton object.
         /// </summary>
         private void viewResourceButton_Click(object sender, EventArgs e)
         {

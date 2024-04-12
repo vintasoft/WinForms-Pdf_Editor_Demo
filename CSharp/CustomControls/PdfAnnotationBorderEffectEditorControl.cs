@@ -141,7 +141,7 @@ namespace DemosCommonCode.CustomControls
         #region UI
 
         /// <summary>
-        /// Handles the SelectedIndexChanged event of StyleComboBox object.
+        /// Handles the SelectedIndexChanged event of styleComboBox object.
         /// </summary>
         private void styleComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {

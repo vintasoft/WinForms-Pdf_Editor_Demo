@@ -107,7 +107,7 @@ namespace DemosCommonCode.Pdf
         #region PRIVATE
 
         /// <summary>
-        /// Handles the TextChanged event of IconComboBox object.
+        /// Handles the TextChanged event of iconComboBox object.
         /// </summary>
         private void iconComboBox_TextChanged(object sender, EventArgs e)
         {
