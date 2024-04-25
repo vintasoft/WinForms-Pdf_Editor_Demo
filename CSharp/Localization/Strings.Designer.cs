@@ -1109,6 +1109,24 @@ namespace PdfEditorDemo.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Megabytes.
+        /// </summary>
+        internal static string DEMOSCOMMONCODE_IMAGING_MEGABYTES {
+            get {
+                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_MEGABYTES", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Megapixels.
+        /// </summary>
+        internal static string DEMOSCOMMONCODE_IMAGING_MEGAPIXELS {
+            get {
+                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_MEGAPIXELS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Normal.
         /// </summary>
         internal static string DEMOSCOMMONCODE_IMAGING_NORMAL {
