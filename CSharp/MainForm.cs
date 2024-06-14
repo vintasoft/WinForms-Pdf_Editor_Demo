@@ -1163,6 +1163,7 @@ namespace PdfEditorDemo
             saveToToolStripMenuItem.Enabled = isPdfFileLoaded && !isPdfFileEmpty;
             convertToTiffToolStripMenuItem.Enabled = isPdfFileLoaded && !isPdfFileEmpty;
             convertToSvgToolStripMenuItem.Enabled = isPdfFileLoaded && !isPdfFileEmpty;
+            convertToDocxToolStripMenuItem.Enabled = isPdfFileLoaded && !isPdfFileEmpty;
             printToolStripMenuItem.Enabled = isPdfFileLoaded && !isPdfFileEmpty;
 
 
