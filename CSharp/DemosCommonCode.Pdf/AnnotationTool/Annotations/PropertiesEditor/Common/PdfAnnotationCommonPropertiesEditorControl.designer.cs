@@ -20,7 +20,7 @@ namespace DemosCommonCode.Pdf
             base.Dispose(disposing);
         }
 
-         #region Component Designer generated code
+        #region Component Designer generated code
 
         /// <summary> 
         /// Required method for Designer support - do not modify 
@@ -138,6 +138,7 @@ namespace DemosCommonCode.Pdf
             // 
             this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.tableLayoutPanel1.SetColumnSpan(groupBox1, 2);
             this.groupBox1.Controls.Add(this.borderStyleControl);
             this.groupBox1.Location = new System.Drawing.Point(3, 105);
             this.groupBox1.Name = "groupBox1";
@@ -160,6 +161,7 @@ namespace DemosCommonCode.Pdf
             // 
             this.opacityPanel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.tableLayoutPanel1.SetColumnSpan(opacityPanel, 2);
             this.opacityPanel.Controls.Add(this.tableLayoutPanel3);
             this.opacityPanel.Location = new System.Drawing.Point(0, 187);
             this.opacityPanel.Name = "opacityPanel";
@@ -218,38 +220,39 @@ namespace DemosCommonCode.Pdf
             // 
             // mainPanel
             // 
-            this.mainPanel.Controls.Add(this.tableLayoutPanel1);
-            this.mainPanel.Controls.Add(this.opacityPanel);
-            this.mainPanel.Controls.Add(this.groupBox1);
+            this.mainPanel.Controls.Add(tableLayoutPanel1);
             this.mainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.mainPanel.Location = new System.Drawing.Point(0, 0);
             this.mainPanel.Name = "mainPanel";
-            this.mainPanel.Size = new System.Drawing.Size(387, 237);
+            this.mainPanel.Size = new System.Drawing.Size(387, 245);
             this.mainPanel.TabIndex = 13;
             // 
             // tableLayoutPanel1
             // 
-            this.tableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.tableLayoutPanel1.ColumnCount = 2;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel2, 0, 3);
-            this.tableLayoutPanel1.Controls.Add(this.titleTextBox, 1, 2);
-            this.tableLayoutPanel1.Controls.Add(this.label1, 0, 0);
-            this.tableLayoutPanel1.Controls.Add(this.subjectTextBox, 1, 1);
-            this.tableLayoutPanel1.Controls.Add(this.label3, 0, 2);
-            this.tableLayoutPanel1.Controls.Add(this.nameTextBox, 1, 0);
-            this.tableLayoutPanel1.Controls.Add(this.label2, 0, 1);
+            this.tableLayoutPanel1.Controls.Add(tableLayoutPanel2, 0, 3);
+            this.tableLayoutPanel1.Controls.Add(opacityPanel, 0, 5);
+            this.tableLayoutPanel1.Controls.Add(titleTextBox, 1, 2);
+            this.tableLayoutPanel1.Controls.Add(groupBox1, 0, 4);
+            this.tableLayoutPanel1.Controls.Add(label1, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(subjectTextBox, 1, 1);
+            this.tableLayoutPanel1.Controls.Add(label3, 0, 2);
+            this.tableLayoutPanel1.Controls.Add(nameTextBox, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(label2, 0, 1);
+            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 4;
+            this.tableLayoutPanel1.RowCount = 6;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(387, 102);
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(387, 245);
             this.tableLayoutPanel1.TabIndex = 13;
             // 
             // tableLayoutPanel2
@@ -296,7 +299,7 @@ namespace DemosCommonCode.Pdf
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.mainPanel);
             this.Name = "PdfAnnotationCommonPropertiesEditorControl";
-            this.Size = new System.Drawing.Size(387, 237);
+            this.Size = new System.Drawing.Size(387, 245);
             this.groupBox1.ResumeLayout(false);
             this.opacityPanel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.opacityNumericUpDown)).EndInit();
@@ -309,7 +312,6 @@ namespace DemosCommonCode.Pdf
             this.tableLayoutPanel3.ResumeLayout(false);
             this.tableLayoutPanel3.PerformLayout();
             this.ResumeLayout(false);
-
         }
 
         #endregion

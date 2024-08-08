@@ -836,7 +836,7 @@ namespace DemosCommonCode.Pdf
         {
             _pdfAnnotationTool.InteractionModeChanged += new PropertyChangedEventHandler<PdfAnnotationInteractionMode>(pdfAnnotationTool_InteractionModeChanged);
             _pdfAnnotationTool.MouseDoubleClick += new VisualToolMouseEventHandler(pdfAnnotationTool_MouseDoubleClick);
-            _pdfAnnotationTool.MouseDown += new VisualToolMouseEventHandler(pdfAnnotationTool_MouseDown);
+            _pdfAnnotationTool.MouseUp += new VisualToolMouseEventHandler(pdfAnnotationTool_MouseUp);
             _pdfAnnotationTool.HoveredAnnotationChanged += new EventHandler<PdfAnnotationEventArgs>(pdfAnnotationTool_HoveredAnnotationChanged);
         }
 
@@ -847,7 +847,7 @@ namespace DemosCommonCode.Pdf
         {
             _pdfAnnotationTool.InteractionModeChanged -= new PropertyChangedEventHandler<PdfAnnotationInteractionMode>(pdfAnnotationTool_InteractionModeChanged);
             _pdfAnnotationTool.MouseDoubleClick -= new VisualToolMouseEventHandler(pdfAnnotationTool_MouseDoubleClick);
-            _pdfAnnotationTool.MouseDown -= new VisualToolMouseEventHandler(pdfAnnotationTool_MouseDown);
+            _pdfAnnotationTool.MouseUp -= new VisualToolMouseEventHandler(pdfAnnotationTool_MouseUp);
             _pdfAnnotationTool.HoveredAnnotationChanged -= new EventHandler<PdfAnnotationEventArgs>(pdfAnnotationTool_HoveredAnnotationChanged);
         }
 
@@ -902,7 +902,7 @@ namespace DemosCommonCode.Pdf
         /// <summary>
         /// Mouse is down.
         /// </summary>
-        private void pdfAnnotationTool_MouseDown(object sender, VisualToolMouseEventArgs e)
+        private void pdfAnnotationTool_MouseUp(object sender, VisualToolMouseEventArgs e)
         {
             // if mouse button is right
             if (e.Button == MouseButtons.Right)
@@ -920,14 +920,13 @@ namespace DemosCommonCode.Pdf
                         AnnotationTool.FocusedAnnotationView = AnnotationTool.FindAnnotationView(e.X, e.Y);
 
                         if (AnnotationTool.InteractionMode == PdfAnnotationInteractionMode.Edit ||
-                            AnnotationTool.FocusedAnnotationView == null ||
+                            AnnotationTool.FocusedAnnotationView != null ||
                             AnnotationTool.FocusedAnnotationView is PdfMarkupAnnotationView)
                         {
                             // show annotationContextMenuStrip
                             annotationContextMenuStrip.Show(AnnotationTool.ImageViewer, new Point(e.X, e.Y));
+                            e.Handled = true;
                         }
-
-                        e.Handled = true;
                     }
                 }
             }
