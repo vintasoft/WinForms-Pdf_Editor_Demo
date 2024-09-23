@@ -2297,16 +2297,8 @@ namespace PdfEditorDemo
         /// </summary>
         private void RotateViewClockwise()
         {
-            if (imageViewer1.ImageRotationAngle != 270)
-            {
-                imageViewer1.ImageRotationAngle += 90;
-                thumbnailViewer1.ImageRotationAngle += 90;
-            }
-            else
-            {
-                imageViewer1.ImageRotationAngle = 0;
-                thumbnailViewer1.ImageRotationAngle = 0;
-            }
+            imageViewer1.RotateViewClockwise();
+            thumbnailViewer1.RotateViewClockwise();
         }
 
         /// <summary>
@@ -2314,16 +2306,8 @@ namespace PdfEditorDemo
         /// </summary>
         private void RotateViewCounterClockwise()
         {
-            if (imageViewer1.ImageRotationAngle != 0)
-            {
-                imageViewer1.ImageRotationAngle -= 90;
-                thumbnailViewer1.ImageRotationAngle -= 90;
-            }
-            else
-            {
-                imageViewer1.ImageRotationAngle = 270;
-                thumbnailViewer1.ImageRotationAngle = 270;
-            }
+            imageViewer1.RotateViewCounterClockwise();
+            thumbnailViewer1.RotateViewCounterClockwise();
         }
 
         /// <summary>
