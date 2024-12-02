@@ -19,13 +19,7 @@ using Vintasoft.Imaging.UI.VisualTools;
 using Vintasoft.Imaging.UI.VisualTools.UserInteraction;
 using Vintasoft.Imaging.UIActions;
 
-using Vintasoft.Imaging.Text;
-using Vintasoft.Imaging.Pdf.Tree;
-using Vintasoft.Imaging.UI;
-
 using DemosCommonCode.Annotation;
-using Vintasoft.Imaging.Pdf.UI;
-using Vintasoft.Imaging.Pdf;
 
 namespace DemosCommonCode.Pdf
 {
@@ -92,6 +86,7 @@ namespace DemosCommonCode.Pdf
         /// <summary>
         /// Gets or sets the PDF annotation tool.
         /// </summary>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
         public PdfAnnotationTool AnnotationTool
         {
             get
@@ -118,6 +113,7 @@ namespace DemosCommonCode.Pdf
         /// <summary>
         /// Gets or sets the tooltip of hovered annotation.
         /// </summary>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public ToolTip HoveredAnnotationToolTip
         {
             get

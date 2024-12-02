@@ -55,6 +55,7 @@ namespace DemosCommonCode.Pdf
         /// Default value is <b>null</b>.
         /// </value>
         [Browsable(false)]
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public PdfAnnotationTool AnnotationTool
         {
             get
@@ -91,6 +92,7 @@ namespace DemosCommonCode.Pdf
         /// <value>
         /// Default value is <b>null</b>.
         /// </value>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
         public override PdfAnnotationList AnnotationList
         {
             get

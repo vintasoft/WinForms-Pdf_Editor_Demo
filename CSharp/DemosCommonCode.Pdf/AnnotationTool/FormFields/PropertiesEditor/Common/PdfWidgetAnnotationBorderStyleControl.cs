@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel;
 using System.Drawing;
 
 using Vintasoft.Imaging.Pdf.Tree.Annotations;
@@ -33,6 +34,7 @@ namespace DemosCommonCode.Pdf
         /// </summary>
         /// <exception cref="InvalidOperationException">Thrown if
         /// annotation is not a widget anotation</exception>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
         public override PdfAnnotation Annotation
         {
             get

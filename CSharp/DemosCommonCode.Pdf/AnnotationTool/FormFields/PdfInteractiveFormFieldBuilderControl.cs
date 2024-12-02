@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Drawing;
 using System.Windows.Forms;
 
+using Vintasoft.Imaging;
 using Vintasoft.Imaging.Pdf;
 using Vintasoft.Imaging.Pdf.Drawing.GraphicsFigures;
 using Vintasoft.Imaging.Pdf.Tree;
@@ -16,7 +17,6 @@ using Vintasoft.Imaging.UI;
 using DemosCommonCode.CustomControls;
 using DemosCommonCode.Imaging;
 using DemosCommonCode.Pdf.Security;
-using Vintasoft.Imaging;
 
 namespace DemosCommonCode.Pdf
 {
@@ -192,6 +192,7 @@ namespace DemosCommonCode.Pdf
         /// </summary>
         [Browsable(false)]
         [ReadOnly(true)]
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public PdfAnnotationAppearanceGeneratorController AnnotationAppearanceGeneratorController
         {
             get
@@ -219,6 +220,7 @@ namespace DemosCommonCode.Pdf
         /// <value>
         /// Default value is <b>true</b>.
         /// </value>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
         public bool AddRadioButtonToFocusedGroup
         {
             get
@@ -238,6 +240,7 @@ namespace DemosCommonCode.Pdf
         /// <value>
         /// Default value is <b>false</b>.
         /// </value>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
         public bool NeedBuildFormFieldsContinuously
         {
             get

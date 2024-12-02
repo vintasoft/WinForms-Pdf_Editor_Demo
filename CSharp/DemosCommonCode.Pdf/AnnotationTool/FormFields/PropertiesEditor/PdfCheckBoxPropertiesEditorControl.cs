@@ -1,7 +1,7 @@
 ﻿using System;
+using System.ComponentModel;
 using System.Windows.Forms;
 
-using Vintasoft.Imaging.Pdf.Tree.Annotations;
 using Vintasoft.Imaging.Pdf.Tree.InteractiveForms;
 
 
@@ -37,6 +37,7 @@ namespace DemosCommonCode.Pdf
         /// <value>
         /// Default value is <b>null</b>.
         /// </value>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public PdfInteractiveFormCheckBoxField Field
         {
             get

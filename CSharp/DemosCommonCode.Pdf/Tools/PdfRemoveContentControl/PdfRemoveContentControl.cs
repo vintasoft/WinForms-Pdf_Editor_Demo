@@ -66,6 +66,7 @@ namespace DemosCommonCode.Pdf
         /// <value>
         /// Default value is <b>null</b>.
         /// </value>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
         public PdfRemoveContentTool RemoveContentTool
         {
             get
@@ -90,6 +91,7 @@ namespace DemosCommonCode.Pdf
         /// <summary>
         /// Gets or sets the text selection tool.
         /// </summary>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
         public TextSelectionTool TextSelectionTool
         {
             get
@@ -109,6 +111,7 @@ namespace DemosCommonCode.Pdf
         /// <value>
         /// Default value is <b>null</b>.
         /// </value>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
         public ThumbnailViewer ThumbnailViewer
         {
             get

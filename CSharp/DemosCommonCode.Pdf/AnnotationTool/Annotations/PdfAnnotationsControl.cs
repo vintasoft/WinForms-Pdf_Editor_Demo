@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel;
 using System.Diagnostics;
 using System.IO;
 using System.Windows.Forms;
@@ -39,6 +40,7 @@ namespace DemosCommonCode.Pdf
         /// <summary>
         /// Gets or sets the PDF annotation tool.
         /// </summary>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
         public PdfAnnotationTool AnnotationTool
         {
             get

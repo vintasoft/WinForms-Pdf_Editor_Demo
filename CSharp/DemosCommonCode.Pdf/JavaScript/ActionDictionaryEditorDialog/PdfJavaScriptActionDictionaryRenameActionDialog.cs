@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel;
 using System.Windows.Forms;
 
 namespace DemosCommonCode.Pdf.JavaScript
@@ -52,6 +53,7 @@ namespace DemosCommonCode.Pdf.JavaScript
         /// <value>
         /// The name of the action.
         /// </value>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public string ActionName
         {
             get

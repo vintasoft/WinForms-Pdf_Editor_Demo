@@ -473,12 +473,12 @@ namespace PdfEditorDemo
                     {
                         "",
                         @"TesseractOCR\",
-                        @"Debug\net6.0-windows\TesseractOCR\",
-                        @"Release\net6.0-windows\TesseractOCR\",
                         @"Debug\net7.0-windows\TesseractOCR\",
                         @"Release\net7.0-windows\TesseractOCR\",
                         @"Debug\net8.0-windows\TesseractOCR\",
                         @"Release\net8.0-windows\TesseractOCR\",
+                        @"Debug\net9.0-windows\TesseractOCR\",
+                        @"Release\net9.0-windows\TesseractOCR\",
                     };
 
                     // search tesseract dll
@@ -503,6 +503,7 @@ namespace PdfEditorDemo
         /// <summary>
         /// Gets or sets a filename of PDF document.
         /// </summary>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         internal string Filename
         {
             get
@@ -520,6 +521,7 @@ namespace PdfEditorDemo
         /// <summary>
         /// Gets or sets a value indicating whether PDF document is opening.
         /// </summary>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         internal bool IsPdfFileOpening
         {
             get
@@ -544,6 +546,7 @@ namespace PdfEditorDemo
         /// <summary>
         /// Gets or sets a value indicating whether PDF document is opened in read-only mode.
         /// </summary>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         internal bool IsPdfFileReadOnlyMode
         {
             get
@@ -573,6 +576,7 @@ namespace PdfEditorDemo
         /// <summary>
         /// Gets or sets the current visual tool.
         /// </summary>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         internal VisualTool CurrentTool
         {
             get
@@ -589,6 +593,7 @@ namespace PdfEditorDemo
         /// <summary>
         /// Gets or sets a value indicating whether text search is in progress.
         /// </summary>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         internal bool IsTextSearching
         {
             get
@@ -606,6 +611,7 @@ namespace PdfEditorDemo
         /// <summary>
         /// Gets or sets a value indicating whether PDF document is changed.
         /// </summary>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         internal bool IsDocumentChanged
         {
             get
@@ -623,6 +629,7 @@ namespace PdfEditorDemo
         /// <summary>
         /// Gets or sets a value indicating whether PDF document is saving.
         /// </summary>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         internal bool IsPdfFileSaving
         {
             get
@@ -6256,7 +6263,9 @@ namespace PdfEditorDemo
             encoder.DocumentFormat = format;
             if (encryptionSystem != _document.EncryptionSystem)
                 encoder.SetEncryptionSystem(encryptionSystem);
-            encoder.Settings = _pdfEncoderSettings;
+            encoder.Settings = (PdfEncoderSettings)_pdfEncoderSettings.Clone();
+            if (_document.HasDocumentInformation && _document.DocumentInformation.IsChanged)
+                encoder.Settings.DocumentProducer = "";
             encoder.ImageSaving += new EventHandler<ImageSavingEventArgs>(encoder_ImageSaving);
             return encoder;
         }

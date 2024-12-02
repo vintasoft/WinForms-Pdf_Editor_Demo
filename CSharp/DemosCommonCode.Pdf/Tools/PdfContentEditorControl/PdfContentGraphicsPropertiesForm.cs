@@ -1,4 +1,5 @@
-﻿using System.Windows.Forms;
+﻿using System.ComponentModel;
+using System.Windows.Forms;
 
 using Vintasoft.Imaging.ImageColors;
 using Vintasoft.Imaging.Pdf.Content;
@@ -63,6 +64,7 @@ namespace DemosCommonCode.Pdf
         /// <summary>
         /// Gets or sets the PDF content graphics properties.
         /// </summary>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public PdfContentGraphicsProperties GraphicsProperties
         {
             get

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Windows.Forms;
 
 using Vintasoft.Imaging.Pdf.Tree.InteractiveForms;
@@ -87,6 +88,7 @@ namespace DemosCommonCode.Pdf
         /// <summary>
         /// Gets or sets the PDF document interactive form.
         /// </summary>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public PdfDocumentInteractiveForm InteractiveForm
         {
             get

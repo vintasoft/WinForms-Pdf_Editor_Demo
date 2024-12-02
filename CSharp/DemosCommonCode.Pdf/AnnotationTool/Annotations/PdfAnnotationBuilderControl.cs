@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Drawing;
+using System.IO;
 using System.Windows.Forms;
 
 using Vintasoft.Imaging;
@@ -14,7 +15,6 @@ using Vintasoft.Imaging.UI;
 using Vintasoft.Imaging.UI.VisualTools.UserInteraction;
 
 using DemosCommonCode.CustomControls;
-using System.IO;
 using DemosCommonCode.Office;
 #if !REMOVE_OFFICE_PLUGIN
 using Vintasoft.Imaging.Office.OpenXml.UI.VisualTools.UserInteraction;
@@ -155,6 +155,7 @@ namespace DemosCommonCode.Pdf
         /// <value>
         /// Default value is <b>null</b>.
         /// </value>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
         public bool NeedBuildAnnotationsContinuously
         {
             get

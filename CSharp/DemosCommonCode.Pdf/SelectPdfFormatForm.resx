@@ -120,6 +120,9 @@
   <data name="$this.Text" xml:space="preserve">
     <value>Document Format</value>
   </data>
+  <data name="compressedObjectStreamsCheckBox.Text" xml:space="preserve">
+    <value>Compressed Object Streams (PDF 1.5)</value>
+  </data>
   <data name="linearizedCheckBox.Text" xml:space="preserve">
     <value>Linearized Format</value>
   </data>

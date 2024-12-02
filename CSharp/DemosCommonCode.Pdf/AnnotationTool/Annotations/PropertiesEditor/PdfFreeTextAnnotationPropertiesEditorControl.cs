@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel;
 using System.Windows.Forms;
 
 using Vintasoft.Imaging.Pdf.Tree.Annotations;
@@ -40,6 +41,7 @@ namespace DemosCommonCode.Pdf
         /// <summary>
         /// Gets or sets the annotation.
         /// </summary>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public PdfFreeTextAnnotation Annotation
         {
             get

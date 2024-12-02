@@ -75,6 +75,7 @@ namespace DemosCommonCode.Pdf
         /// <summary>
         /// Gets or sets the comment visual tool.
         /// </summary>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
         public override CommentVisualTool CommentTool
         {
             get

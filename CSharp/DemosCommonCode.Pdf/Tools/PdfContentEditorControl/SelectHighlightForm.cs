@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel;
 using System.Drawing;
 using System.Windows.Forms;
 using Vintasoft.Imaging.Pdf.Drawing;
@@ -6,7 +7,7 @@ using Vintasoft.Imaging.Pdf.Tree;
 
 namespace DemosCommonCode.Pdf
 {
-    /// <summary>
+    /// <summary> 
     /// A form that allows to set the blending settings for PDF pen or PDF brush.
     /// </summary>
     public partial class SelectHighlightForm : Form
@@ -37,6 +38,7 @@ namespace DemosCommonCode.Pdf
 
 
 
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public int ModeIndex
         {
             get

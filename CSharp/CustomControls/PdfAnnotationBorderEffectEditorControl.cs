@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel;
 using System.Windows.Forms;
 
 using DemosCommonCode.Pdf;
@@ -61,6 +62,7 @@ namespace DemosCommonCode.CustomControls
         /// <summary>
         /// Gets or sets the annotation.
         /// </summary>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
         public PdfAnnotation Annotation
         {
             get

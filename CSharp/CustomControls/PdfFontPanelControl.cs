@@ -45,6 +45,7 @@ namespace DemosCommonCode.CustomControls
         /// Default value is <b>null</b>.
         /// </value>
         [Browsable(false)]
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public PdfFont PdfFont
         {
             get
@@ -72,6 +73,7 @@ namespace DemosCommonCode.CustomControls
         /// <value>
         /// Default value is <b>null</b>.
         /// </value>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
         public PdfDocument PdfDocument
         {
             get
