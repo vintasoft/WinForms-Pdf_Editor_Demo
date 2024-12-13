@@ -13,7 +13,7 @@ namespace DemosCommonCode.Pdf
     /// A control that allows to view and edit the <see cref="PdfInteractiveFormChoiceField"/>.
     /// </summary>
     [System.ComponentModel.DefaultEvent("PropertyValueChanged")]
-    public partial class PdfInteractiveFormChoiceFieldEditorControl : UserControl, IPdfInteractiveFormPropertiesEditor
+    public partial class PdfChoiceFieldEditorControl : UserControl, IPdfInteractiveFormPropertiesEditor
     {
 
         #region Constants
@@ -52,9 +52,9 @@ namespace DemosCommonCode.Pdf
 
         /// <summary>
         /// Initializes a new instance
-        /// of the <see cref="PdfInteractiveFormChoiceFieldEditorControl"/> class.
+        /// of the <see cref="PdfChoiceFieldEditorControl"/> class.
         /// </summary>
-        public PdfInteractiveFormChoiceFieldEditorControl()
+        public PdfChoiceFieldEditorControl()
         {
             InitializeComponent();
 

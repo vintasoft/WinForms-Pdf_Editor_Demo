@@ -211,8 +211,8 @@ namespace DemosCommonCode.Pdf
             // if field information must be updated
             if (sender is PdfTextFieldPropertiesEditorControl)
             {
-                PdfInteractiveFormCommonPropertiesEditorControl interactiveFormCommonPropertiesEditorControl =
-                            commonPropertiesGroupBox.Controls[0] as PdfInteractiveFormCommonPropertiesEditorControl;
+                PdfFieldCommonPropertiesEditorControl interactiveFormCommonPropertiesEditorControl =
+                            commonPropertiesGroupBox.Controls[0] as PdfFieldCommonPropertiesEditorControl;
                 if (interactiveFormCommonPropertiesEditorControl != null)
                     interactiveFormCommonPropertiesEditorControl.UpdateFieldInfo();
             }
@@ -229,8 +229,8 @@ namespace DemosCommonCode.Pdf
                 // if common properties group box must be updated
                 if (commonPropertiesGroupBox.Controls.Count == 1)
                 {
-                    PdfInteractiveFormCommonPropertiesEditorControl interactiveFormCommonPropertiesEditorControl =
-                        commonPropertiesGroupBox.Controls[0] as PdfInteractiveFormCommonPropertiesEditorControl;
+                    PdfFieldCommonPropertiesEditorControl interactiveFormCommonPropertiesEditorControl =
+                        commonPropertiesGroupBox.Controls[0] as PdfFieldCommonPropertiesEditorControl;
                     if (interactiveFormCommonPropertiesEditorControl != null)
                         interactiveFormCommonPropertiesEditorControl.UpdateFieldInfo();
 
@@ -529,8 +529,8 @@ namespace DemosCommonCode.Pdf
                 {
                     commonPropertiesGroupBox.Controls.Clear();
                     commonPropertiesGroupBox.Text = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_FIELD_COMMON_PROPERTIES;
-                    PdfInteractiveFormCommonPropertiesEditorControl commonPropertiesEditorControl =
-                        new PdfInteractiveFormCommonPropertiesEditorControl();
+                    PdfFieldCommonPropertiesEditorControl commonPropertiesEditorControl =
+                        new PdfFieldCommonPropertiesEditorControl();
                     commonPropertiesEditorControl.Dock = DockStyle.Fill;
                     commonPropertiesEditorControl.Field = _field;
                     commonPropertiesEditorControl.PropertyValueChanged +=

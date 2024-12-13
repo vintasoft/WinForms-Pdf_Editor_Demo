@@ -34,7 +34,7 @@ namespace DemosCommonCode.Pdf
             this.actionsTabControl = new System.Windows.Forms.TabControl();
             this.valueTabPage = new System.Windows.Forms.TabPage();
             this.spellCheckCheckBox = new System.Windows.Forms.CheckBox();
-            this.pdfInteractiveFormChoiceFieldEditorControl = new DemosCommonCode.Pdf.PdfInteractiveFormChoiceFieldEditorControl();
+            this.pdfInteractiveFormChoiceFieldEditorControl = new DemosCommonCode.Pdf.PdfChoiceFieldEditorControl();
             this.calculateActionTabPage = new System.Windows.Forms.TabPage();
             this.calculatePdfActionEditorControl = new DemosCommonCode.Pdf.PdfActionEditorControl();
             this.validateActionTabPage = new System.Windows.Forms.TabPage();
@@ -277,7 +277,7 @@ namespace DemosCommonCode.Pdf
 
         private System.Windows.Forms.CheckBox editableCheckBox;
         private System.Windows.Forms.Panel mainPanel;
-        private PdfInteractiveFormChoiceFieldEditorControl pdfInteractiveFormChoiceFieldEditorControl;
+        private PdfChoiceFieldEditorControl pdfInteractiveFormChoiceFieldEditorControl;
         private System.Windows.Forms.TabControl actionsTabControl;
         private System.Windows.Forms.TabPage valueTabPage;
         private System.Windows.Forms.TabPage calculateActionTabPage;

@@ -1,6 +1,6 @@
 namespace DemosCommonCode.Pdf
 {
-    partial class PdfInteractiveFormSwitchableButtonPropertiesEditorControl
+    partial class PdfSwitchableButtonPropertiesEditorControl
     {
         /// <summary> 
         /// Required designer variable.
@@ -28,7 +28,7 @@ namespace DemosCommonCode.Pdf
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PdfInteractiveFormSwitchableButtonPropertiesEditorControl));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PdfSwitchableButtonPropertiesEditorControl));
             this.mainPanel = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.pdfAnnotationAppearancesEditorControl = new DemosCommonCode.Pdf.PdfAnnotationAppearancesEditorControl();
@@ -110,12 +110,12 @@ namespace DemosCommonCode.Pdf
             this.tableLayoutPanel1.Size = new System.Drawing.Size(244, 27);
             this.tableLayoutPanel1.TabIndex = 1;
             // 
-            // PdfInteractiveFormSwitchableButtonPropertiesEditorControl
+            // PdfSwitchableButtonPropertiesEditorControl
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.mainPanel);
             this.MinimumSize = new System.Drawing.Size(198, 154);
-            this.Name = "PdfInteractiveFormSwitchableButtonPropertiesEditorControl";
+            this.Name = "PdfSwitchableButtonPropertiesEditorControl";
             this.Size = new System.Drawing.Size(250, 210);
             this.mainPanel.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);

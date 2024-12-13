@@ -12,7 +12,7 @@
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
     <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>    
     <EnableDefaultItems>false</EnableDefaultItems>
-    <Version>14.0.0.1</Version>
+    <Version>14.0.1.1</Version>
     <AssemblyName>PdfEditorDemo</AssemblyName>
     <RootNamespace>PdfEditorDemo</RootNamespace>
     <StartupObject>PdfEditorDemo.Program</StartupObject>
@@ -43,28 +43,28 @@
       <HintPath>.\NHunspell\DotNet7\NHunspell.dll</HintPath>
     </Reference>
     <PackageReference Include="Vintasoft.Barcode" Version="15.1.0.1" />
-    <PackageReference Include="Vintasoft.Imaging" Version="14.0.0.1" />
-    <PackageReference Include="Vintasoft.Imaging.Gdi" Version="14.0.0.1" />
-    <PackageReference Include="Vintasoft.Imaging.Annotation" Version="14.0.0.1" />
-    <PackageReference Include="Vintasoft.Imaging.Annotation.Pdf" Version="14.0.0.1" />
-    <PackageReference Include="Vintasoft.Imaging.Annotation.UI" Version="14.0.0.1" />
-    <PackageReference Include="Vintasoft.Imaging.DocCleanup" Version="9.0.0.1" />
-    <PackageReference Include="Vintasoft.Imaging.Jbig2Codec" Version="11.0.0.1" />
-    <PackageReference Include="Vintasoft.Imaging.Jpeg2000Codec" Version="10.0.0.1" />
-    <PackageReference Include="Vintasoft.Imaging.Ocr" Version="9.0.0.1" />
-    <PackageReference Include="Vintasoft.Imaging.Ocr.Tesseract" Version="9.0.0.1" />
-    <PackageReference Include="Vintasoft.Imaging.Office.OpenXml" Version="6.0.0.1" />
-    <PackageReference Include="Vintasoft.Imaging.Office.OpenXml.UI" Version="6.0.0.1" />
-    <PackageReference Include="Vintasoft.Imaging.Pdf" Version="11.0.0.1" />
-    <PackageReference Include="Vintasoft.Imaging.Pdf.JavaScript" Version="11.0.0.1" />
-    <PackageReference Include="Vintasoft.Imaging.Pdf.Mrc" Version="11.0.0.1" />
-    <PackageReference Include="Vintasoft.Imaging.Pdf.Office" Version="11.0.0.1" />
-    <PackageReference Include="Vintasoft.Imaging.Pdf.Ocr" Version="11.0.0.1" />
-    <PackageReference Include="Vintasoft.Imaging.Pdf.Office" Version="11.0.0.1" />
-    <PackageReference Include="Vintasoft.Imaging.Pdf.Office.UI" Version="11.0.0.1" />
-    <PackageReference Include="Vintasoft.Imaging.Pdf.UI" Version="11.0.0.1" />
-    <PackageReference Include="Vintasoft.Imaging.UI" Version="14.0.0.1" />
-    <PackageReference Include="Vintasoft.Imaging.WebpCodec" Version="14.0.0.1" />
+    <PackageReference Include="Vintasoft.Imaging" Version="14.0.1.1" />
+    <PackageReference Include="Vintasoft.Imaging.Gdi" Version="14.0.1.1" />
+    <PackageReference Include="Vintasoft.Imaging.Annotation" Version="14.0.1.1" />
+    <PackageReference Include="Vintasoft.Imaging.Annotation.Pdf" Version="14.0.1.1" />
+    <PackageReference Include="Vintasoft.Imaging.Annotation.UI" Version="14.0.1.1" />
+    <PackageReference Include="Vintasoft.Imaging.DocCleanup" Version="9.0.1.1" />
+    <PackageReference Include="Vintasoft.Imaging.Jbig2Codec" Version="11.0.1.1" />
+    <PackageReference Include="Vintasoft.Imaging.Jpeg2000Codec" Version="10.0.1.1" />
+    <PackageReference Include="Vintasoft.Imaging.Ocr" Version="9.0.1.1" />
+    <PackageReference Include="Vintasoft.Imaging.Ocr.Tesseract" Version="9.0.1.1" />
+    <PackageReference Include="Vintasoft.Imaging.Office.OpenXml" Version="6.0.1.1" />
+    <PackageReference Include="Vintasoft.Imaging.Office.OpenXml.UI" Version="6.0.1.1" />
+    <PackageReference Include="Vintasoft.Imaging.Pdf" Version="11.0.1.1" />
+    <PackageReference Include="Vintasoft.Imaging.Pdf.JavaScript" Version="11.0.1.1" />
+    <PackageReference Include="Vintasoft.Imaging.Pdf.Mrc" Version="11.0.1.1" />
+    <PackageReference Include="Vintasoft.Imaging.Pdf.Office" Version="11.0.1.1" />
+    <PackageReference Include="Vintasoft.Imaging.Pdf.Ocr" Version="11.0.1.1" />
+    <PackageReference Include="Vintasoft.Imaging.Pdf.Office" Version="11.0.1.1" />
+    <PackageReference Include="Vintasoft.Imaging.Pdf.Office.UI" Version="11.0.1.1" />
+    <PackageReference Include="Vintasoft.Imaging.Pdf.UI" Version="11.0.1.1" />
+    <PackageReference Include="Vintasoft.Imaging.UI" Version="14.0.1.1" />
+    <PackageReference Include="Vintasoft.Imaging.WebpCodec" Version="14.0.1.1" />
     <PackageReference Include="Vintasoft.Shared" Version="4.4.0.1" />
     <PackageReference Include="Vintasoft.Twain" Version="15.1.0.1" />
   </ItemGroup>
@@ -761,25 +761,25 @@
     <Compile Include="DemosCommonCode.Pdf\AnnotationTool\FormFields\PdfInteractiveFormFieldTreeView.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="DemosCommonCode.Pdf\AnnotationTool\FormFields\PropertiesEditor\Common\PdfInteractiveFormChoiceFieldEditorControl.cs">
+    <Compile Include="DemosCommonCode.Pdf\AnnotationTool\FormFields\PropertiesEditor\PdfChoiceFieldEditorControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="DemosCommonCode.Pdf\AnnotationTool\FormFields\PropertiesEditor\Common\PdfInteractiveFormChoiceFieldEditorControl.designer.cs">
-      <DependentUpon>PdfInteractiveFormChoiceFieldEditorControl.cs</DependentUpon>
+    <Compile Include="DemosCommonCode.Pdf\AnnotationTool\FormFields\PropertiesEditor\PdfChoiceFieldEditorControl.designer.cs">
+      <DependentUpon>PdfChoiceFieldEditorControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="DemosCommonCode.Pdf\AnnotationTool\FormFields\PropertiesEditor\Common\PdfInteractiveFormCommonPropertiesEditorControl.cs">
+    <Compile Include="DemosCommonCode.Pdf\AnnotationTool\FormFields\PropertiesEditor\PdfFieldCommonPropertiesEditorControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="DemosCommonCode.Pdf\AnnotationTool\FormFields\PropertiesEditor\Common\PdfInteractiveFormCommonPropertiesEditorControl.designer.cs">
-      <DependentUpon>PdfInteractiveFormCommonPropertiesEditorControl.cs</DependentUpon>
+    <Compile Include="DemosCommonCode.Pdf\AnnotationTool\FormFields\PropertiesEditor\PdfFieldCommonPropertiesEditorControl.designer.cs">
+      <DependentUpon>PdfFieldCommonPropertiesEditorControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="DemosCommonCode.Pdf\AnnotationTool\FormFields\PropertiesEditor\Common\PdfInteractiveFormSwitchableButtonPropertiesEditorControl.cs">
+    <Compile Include="DemosCommonCode.Pdf\AnnotationTool\FormFields\PropertiesEditor\PdfSwitchableButtonPropertiesEditorControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="DemosCommonCode.Pdf\AnnotationTool\FormFields\PropertiesEditor\Common\PdfInteractiveFormSwitchableButtonPropertiesEditorControl.designer.cs">
-      <DependentUpon>PdfInteractiveFormSwitchableButtonPropertiesEditorControl.cs</DependentUpon>
+    <Compile Include="DemosCommonCode.Pdf\AnnotationTool\FormFields\PropertiesEditor\PdfSwitchableButtonPropertiesEditorControl.designer.cs">
+      <DependentUpon>PdfSwitchableButtonPropertiesEditorControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="DemosCommonCode.Pdf\AnnotationTool\FormFields\PropertiesEditor\Common\PdfWidgetAnnotationBorderStyleControl.cs">
+    <Compile Include="DemosCommonCode.Pdf\AnnotationTool\FormFields\PropertiesEditor\PdfWidgetAnnotationBorderStyleControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="DemosCommonCode.Pdf\AnnotationTool\FormFields\PropertiesEditor\IPdfInteractiveFormPropertiesEditor.cs">
@@ -1504,26 +1504,26 @@
     <EmbeddedResource Include="DemosCommonCode.Pdf\AnnotationTool\FormFields\PdfInteractiveFormFieldListEditorControl.de.resx">
       <DependentUpon>PdfInteractiveFormFieldListEditorControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DemosCommonCode.Pdf\AnnotationTool\FormFields\PropertiesEditor\Common\PdfInteractiveFormChoiceFieldEditorControl.de.resx">
-      <DependentUpon>PdfInteractiveFormChoiceFieldEditorControl.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="DemosCommonCode.Pdf\AnnotationTool\FormFields\PropertiesEditor\Common\PdfInteractiveFormCommonPropertiesEditorControl.de.resx">
-      <DependentUpon>PdfInteractiveFormCommonPropertiesEditorControl.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="DemosCommonCode.Pdf\AnnotationTool\FormFields\PropertiesEditor\Common\PdfInteractiveFormSwitchableButtonPropertiesEditorControl.de.resx">
-      <DependentUpon>PdfInteractiveFormSwitchableButtonPropertiesEditorControl.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="DemosCommonCode.Pdf\AnnotationTool\FormFields\PropertiesEditor\PdfBarcodeFieldPropertiesEditorControl.de.resx">
       <DependentUpon>PdfBarcodeFieldPropertiesEditorControl.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="DemosCommonCode.Pdf\AnnotationTool\FormFields\PropertiesEditor\PdfChoiceFieldEditorControl.de.resx">
+      <DependentUpon>PdfChoiceFieldEditorControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DemosCommonCode.Pdf\AnnotationTool\FormFields\PropertiesEditor\PdfComboBoxPropertiesEditorControl.de.resx">
       <DependentUpon>PdfComboBoxPropertiesEditorControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DemosCommonCode.Pdf\AnnotationTool\FormFields\PropertiesEditor\PdfFieldCommonPropertiesEditorControl.de.resx">
+      <DependentUpon>PdfFieldCommonPropertiesEditorControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DemosCommonCode.Pdf\AnnotationTool\FormFields\PropertiesEditor\PdfListBoxPropertiesEditorControl.de.resx">
       <DependentUpon>PdfListBoxPropertiesEditorControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DemosCommonCode.Pdf\AnnotationTool\FormFields\PropertiesEditor\PdfPushButtonPropertiesEditorControl.de.resx">
       <DependentUpon>PdfPushButtonPropertiesEditorControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DemosCommonCode.Pdf\AnnotationTool\FormFields\PropertiesEditor\PdfSwitchableButtonPropertiesEditorControl.de.resx">
+      <DependentUpon>PdfSwitchableButtonPropertiesEditorControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DemosCommonCode.Pdf\AnnotationTool\FormFields\PropertiesEditor\PdfTextFieldPropertiesEditorControl.de.resx">
       <DependentUpon>PdfTextFieldPropertiesEditorControl.cs</DependentUpon>
@@ -2330,16 +2330,16 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DemosCommonCode.Pdf\AnnotationTool\Annotations\Resources\Text.png">
     </EmbeddedResource>
-    <EmbeddedResource Include="DemosCommonCode.Pdf\AnnotationTool\FormFields\PropertiesEditor\Common\PdfInteractiveFormChoiceFieldEditorControl.resx">
-      <DependentUpon>PdfInteractiveFormChoiceFieldEditorControl.cs</DependentUpon>
+    <EmbeddedResource Include="DemosCommonCode.Pdf\AnnotationTool\FormFields\PropertiesEditor\PdfChoiceFieldEditorControl.resx">
+      <DependentUpon>PdfChoiceFieldEditorControl.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="DemosCommonCode.Pdf\AnnotationTool\FormFields\PropertiesEditor\Common\PdfInteractiveFormCommonPropertiesEditorControl.resx">
-      <DependentUpon>PdfInteractiveFormCommonPropertiesEditorControl.cs</DependentUpon>
+    <EmbeddedResource Include="DemosCommonCode.Pdf\AnnotationTool\FormFields\PropertiesEditor\PdfFieldCommonPropertiesEditorControl.resx">
+      <DependentUpon>PdfFieldCommonPropertiesEditorControl.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="DemosCommonCode.Pdf\AnnotationTool\FormFields\PropertiesEditor\Common\PdfInteractiveFormSwitchableButtonPropertiesEditorControl.resx">
-      <DependentUpon>PdfInteractiveFormSwitchableButtonPropertiesEditorControl.cs</DependentUpon>
+    <EmbeddedResource Include="DemosCommonCode.Pdf\AnnotationTool\FormFields\PropertiesEditor\PdfSwitchableButtonPropertiesEditorControl.resx">
+      <DependentUpon>PdfSwitchableButtonPropertiesEditorControl.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="DemosCommonCode.Pdf\AnnotationTool\FormFields\PropertiesEditor\PdfBarcodeFieldPropertiesEditorControl.resx">

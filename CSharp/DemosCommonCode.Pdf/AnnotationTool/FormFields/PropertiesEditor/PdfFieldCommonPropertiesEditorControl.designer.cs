@@ -1,6 +1,6 @@
 namespace DemosCommonCode.Pdf
 {
-    partial class PdfInteractiveFormCommonPropertiesEditorControl
+    partial class PdfFieldCommonPropertiesEditorControl
     {
         /// <summary> 
         /// Required designer variable.
@@ -28,7 +28,7 @@ namespace DemosCommonCode.Pdf
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PdfInteractiveFormCommonPropertiesEditorControl));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PdfFieldCommonPropertiesEditorControl));
             this.label1 = new System.Windows.Forms.Label();
             this.nameTextBox = new System.Windows.Forms.TextBox();
             this.fontGroupBox = new System.Windows.Forms.GroupBox();
@@ -418,13 +418,13 @@ namespace DemosCommonCode.Pdf
             this.tableLayoutPanel6.Size = new System.Drawing.Size(392, 253);
             this.tableLayoutPanel6.TabIndex = 19;
             // 
-            // PdfInteractiveFormCommonPropertiesEditorControl
+            // PdfFieldCommonPropertiesEditorControl
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.mainPanel);
             this.DoubleBuffered = true;
             this.MinimumSize = new System.Drawing.Size(257, 241);
-            this.Name = "PdfInteractiveFormCommonPropertiesEditorControl";
+            this.Name = "PdfFieldCommonPropertiesEditorControl";
             this.Size = new System.Drawing.Size(392, 253);
             this.fontGroupBox.ResumeLayout(false);
             this.fontGroupBox.PerformLayout();

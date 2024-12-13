@@ -12,7 +12,7 @@ namespace DemosCommonCode.Pdf
     /// <summary>
     /// A control that allows to view and edit common properties of the <see cref="PdfInteractiveFormField"/>.
     /// </summary>
-    public partial class PdfInteractiveFormCommonPropertiesEditorControl : UserControl, IPdfInteractiveFormPropertiesEditor
+    public partial class PdfFieldCommonPropertiesEditorControl : UserControl, IPdfInteractiveFormPropertiesEditor
     {
 
         #region Constants
@@ -46,9 +46,9 @@ namespace DemosCommonCode.Pdf
 
         /// <summary>
         /// Initializes a new instance of
-        /// the <see cref="PdfInteractiveFormCommonPropertiesEditorControl"/> class.
+        /// the <see cref="PdfFieldCommonPropertiesEditorControl"/> class.
         /// </summary>
-        public PdfInteractiveFormCommonPropertiesEditorControl()
+        public PdfFieldCommonPropertiesEditorControl()
         {
             InitializeComponent();
 

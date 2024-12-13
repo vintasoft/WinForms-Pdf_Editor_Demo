@@ -1,6 +1,6 @@
 namespace DemosCommonCode.Pdf
 {
-    partial class PdfInteractiveFormChoiceFieldEditorControl
+    partial class PdfChoiceFieldEditorControl
     {
         /// <summary> 
         /// Required designer variable.
@@ -28,7 +28,7 @@ namespace DemosCommonCode.Pdf
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PdfInteractiveFormChoiceFieldEditorControl));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PdfChoiceFieldEditorControl));
             this.itemsListBox = new System.Windows.Forms.ListBox();
             this.addButton = new System.Windows.Forms.Button();
             this.moveUpButton = new System.Windows.Forms.Button();
@@ -331,13 +331,13 @@ namespace DemosCommonCode.Pdf
             this.tableLayoutPanel8.Size = new System.Drawing.Size(323, 123);
             this.tableLayoutPanel8.TabIndex = 22;
             // 
-            // PdfInteractiveFormChoiceFieldEditorControl
+            // PdfChoiceFieldEditorControl
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.mainPanel);
             this.DoubleBuffered = true;
             this.MinimumSize = new System.Drawing.Size(220, 230);
-            this.Name = "PdfInteractiveFormChoiceFieldEditorControl";
+            this.Name = "PdfChoiceFieldEditorControl";
             this.Size = new System.Drawing.Size(335, 230);
             this.mainPanel.ResumeLayout(false);
             this.tableLayoutPanel7.ResumeLayout(false);

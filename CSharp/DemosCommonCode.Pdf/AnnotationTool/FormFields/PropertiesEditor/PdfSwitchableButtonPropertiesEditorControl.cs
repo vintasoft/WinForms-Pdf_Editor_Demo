@@ -11,16 +11,16 @@ namespace DemosCommonCode.Pdf
     /// A control that allows to view and edit properties of
     /// the <see cref="PdfInteractiveFormSwitchableButtonField"/>.
     /// </summary>
-    public partial class PdfInteractiveFormSwitchableButtonPropertiesEditorControl : UserControl, IPdfInteractiveFormPropertiesEditor
+    public partial class PdfSwitchableButtonPropertiesEditorControl : UserControl, IPdfInteractiveFormPropertiesEditor
     {
 
         #region Constructors
 
         /// <summary>
         /// Initializes a new instance of
-        /// the <see cref="PdfInteractiveFormSwitchableButtonPropertiesEditorControl"/> class.
+        /// the <see cref="PdfSwitchableButtonPropertiesEditorControl"/> class.
         /// </summary>
-        public PdfInteractiveFormSwitchableButtonPropertiesEditorControl()
+        public PdfSwitchableButtonPropertiesEditorControl()
         {
             InitializeComponent();
         }

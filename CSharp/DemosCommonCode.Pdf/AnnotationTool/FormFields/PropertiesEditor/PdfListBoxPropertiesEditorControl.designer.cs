@@ -33,7 +33,7 @@ namespace DemosCommonCode.Pdf
             this.mainPanel = new System.Windows.Forms.Panel();
             this.selectionBrushColorPanelControl = new DemosCommonCode.CustomControls.ColorPanelControl();
             this.label1 = new System.Windows.Forms.Label();
-            this.pdfInteractiveFormChoiceFieldEditorControl = new DemosCommonCode.Pdf.PdfInteractiveFormChoiceFieldEditorControl();
+            this.pdfInteractiveFormChoiceFieldEditorControl = new DemosCommonCode.Pdf.PdfChoiceFieldEditorControl();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.mainPanel.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
@@ -128,7 +128,7 @@ namespace DemosCommonCode.Pdf
 
         #endregion
 
-        private PdfInteractiveFormChoiceFieldEditorControl pdfInteractiveFormChoiceFieldEditorControl;
+        private PdfChoiceFieldEditorControl pdfInteractiveFormChoiceFieldEditorControl;
         private System.Windows.Forms.CheckBox multiselectCheckBox;
         private System.Windows.Forms.Panel mainPanel;
         private DemosCommonCode.CustomControls.ColorPanelControl selectionBrushColorPanelControl;

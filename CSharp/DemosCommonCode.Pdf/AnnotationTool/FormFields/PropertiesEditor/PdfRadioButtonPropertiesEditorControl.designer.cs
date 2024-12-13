@@ -28,7 +28,7 @@ namespace DemosCommonCode.Pdf
         /// </summary>
         private void InitializeComponent()
         {
-            this.pdfInteractiveFormSwitchableButtonPropertiesEditorControl = new DemosCommonCode.Pdf.PdfInteractiveFormSwitchableButtonPropertiesEditorControl();
+            this.pdfInteractiveFormSwitchableButtonPropertiesEditorControl = new DemosCommonCode.Pdf.PdfSwitchableButtonPropertiesEditorControl();
             this.SuspendLayout();
             // 
             // pdfInteractiveFormSwitchableButtonPropertiesEditorControl
@@ -55,7 +55,7 @@ namespace DemosCommonCode.Pdf
 
         #endregion
 
-        private PdfInteractiveFormSwitchableButtonPropertiesEditorControl pdfInteractiveFormSwitchableButtonPropertiesEditorControl;
+        private PdfSwitchableButtonPropertiesEditorControl pdfInteractiveFormSwitchableButtonPropertiesEditorControl;
 
     }
 }
