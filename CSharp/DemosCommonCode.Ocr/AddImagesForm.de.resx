@@ -142,10 +142,10 @@
     <value>Tabellen entfernen</value>
   </data>
   <data name="autoOrientationButton.Text" xml:space="preserve">
-    <value>Automatische Ausrichtung</value>
+    <value>Die geladene Datei ist eine ODS-Datei. Um eine ODS-Datei zu öffnen, muss die Anwendung die ODS-Datei in die XLSX-Datei konvertieren. Möchten Sie eine XLSX-Datei aus einer ODS-Datei erstellen?</value>
   </data>
   <data name="allImagesRadioButton.Text" xml:space="preserve">
-    <value>Alle Bilder</value>
+    <value>ODS in XLSX konvertieren</value>
   </data>
   <data name="currentImageRadioButton.Text" xml:space="preserve">
     <value>Aktuelles Bild</value>

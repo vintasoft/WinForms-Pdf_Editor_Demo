@@ -1571,7 +1571,7 @@ namespace PdfEditorDemo
             this.theCrossreferenceTableIsCorruptToolStripMenuItem.Name = "theCrossreferenceTableIsCorruptToolStripMenuItem";
             this.theCrossreferenceTableIsCorruptToolStripMenuItem.Size = new System.Drawing.Size(435, 22);
             resources.ApplyResources(this.theCrossreferenceTableIsCorruptToolStripMenuItem, "theCrossreferenceTableIsCorruptToolStripMenuItem");
-            this.theCrossreferenceTableIsCorruptToolStripMenuItem.Click += new System.EventHandler(this.theCrossreferenceTableIsCorruptToolStripMenuItem_Click);
+            this.theCrossreferenceTableIsCorruptToolStripMenuItem.Click += new System.EventHandler(this.crossReferenceTableIsCorruptToolStripMenuItem_Click);
             // 
             // numberOfIndirectObjectsInAPDFFileToolStripMenuItem
             // 
@@ -1585,7 +1585,7 @@ namespace PdfEditorDemo
             this.theCrossreferenceInformationIsStoredInACrossreferenceStreamToolStripMenuItem.Name = "theCrossreferenceInformationIsStoredInACrossreferenceStreamToolStripMenuItem";
             this.theCrossreferenceInformationIsStoredInACrossreferenceStreamToolStripMenuItem.Size = new System.Drawing.Size(435, 22);
             resources.ApplyResources(this.theCrossreferenceInformationIsStoredInACrossreferenceStreamToolStripMenuItem, "theCrossreferenceInformationIsStoredInACrossreferenceStreamToolStripMenuItem");
-            this.theCrossreferenceInformationIsStoredInACrossreferenceStreamToolStripMenuItem.Click += new System.EventHandler(this.theCrossreferenceInformationIsStoredInACrossreferenceStreamToolStripMenuItem_Click);
+            this.theCrossreferenceInformationIsStoredInACrossreferenceStreamToolStripMenuItem.Click += new System.EventHandler(this.crossReferenceInformationIsStoredInCrossReferenceStreamToolStripMenuItem_Click);
             // 
             // documentUsesTheCompressedObjectStreamsToolStripMenuItem
             // 
@@ -1606,7 +1606,7 @@ namespace PdfEditorDemo
             this.pdfFileHasTheLinearizationInfoToolStripMenuItem.Name = "pdfFileHasTheLinearizationInfoToolStripMenuItem";
             this.pdfFileHasTheLinearizationInfoToolStripMenuItem.Size = new System.Drawing.Size(435, 22);
             resources.ApplyResources(this.pdfFileHasTheLinearizationInfoToolStripMenuItem, "pdfFileHasTheLinearizationInfoToolStripMenuItem");
-            this.pdfFileHasTheLinearizationInfoToolStripMenuItem.Click += new System.EventHandler(this.pDFFileHasTheLinearizationInfoToolStripMenuItem_Click);
+            this.pdfFileHasTheLinearizationInfoToolStripMenuItem.Click += new System.EventHandler(this.pdfFileHasTheLinearizationInfoToolStripMenuItem_Click);
             // 
             // overprintControlIsUsedToolStripMenuItem
             // 

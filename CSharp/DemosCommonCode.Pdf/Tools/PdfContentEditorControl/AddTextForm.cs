@@ -26,7 +26,7 @@ namespace DemosCommonCode.Pdf
 
 
 
-        #region Constructor
+        #region Constructors
 
         public AddTextForm(PdfDocument document, IList<PdfFont> fonts, string initialText)
         {

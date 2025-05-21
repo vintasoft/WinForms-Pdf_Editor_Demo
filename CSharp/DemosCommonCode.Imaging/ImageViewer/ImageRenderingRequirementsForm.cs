@@ -29,7 +29,7 @@ namespace DemosCommonCode.Imaging
         /// <summary>
         /// The available codec names.
         /// </summary>
-        string[] _codecNames = new string[] { "Bmp", "Jpeg", "Jpeg2000", "Tiff", "Png", "Pdf", "Docx", "Xlsx", "Wmf" };
+        string[] _codecNames = new string[] { "Bmp", "Jpeg", "Jpeg2000", "Tiff", "Png", "Pdf", PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_PSD, PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_SVG, "Docx", "Xlsx", "Wmf", PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_EMF_ALT2 };
 
         #endregion
 

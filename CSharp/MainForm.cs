@@ -1980,7 +1980,7 @@ namespace PdfEditorDemo
             UpdateUI();
         }
 
-#endregion
+        #endregion
 
 
         #region 'Edit' menu
@@ -2891,7 +2891,7 @@ namespace PdfEditorDemo
         /// <summary>
         /// Determines that PDF file XREF table is corrupt.
         /// </summary>
-        private void theCrossreferenceTableIsCorruptToolStripMenuItem_Click(
+        private void crossReferenceTableIsCorruptToolStripMenuItem_Click(
             object sender,
             EventArgs e)
         {
@@ -2915,10 +2915,9 @@ namespace PdfEditorDemo
         }
 
         /// <summary>
-        /// Determines that the cross-reference information
-        /// is stored in a cross-reference stream.
+        /// Determines that the cross-reference information is stored in a cross-reference stream.
         /// </summary>
-        private void theCrossreferenceInformationIsStoredInACrossreferenceStreamToolStripMenuItem_Click(
+        private void crossReferenceInformationIsStoredInCrossReferenceStreamToolStripMenuItem_Click(
             object sender,
             EventArgs e)
         {
@@ -2957,7 +2956,7 @@ namespace PdfEditorDemo
         /// <summary>
         /// Determines that PDF file has linearization information.
         /// </summary>
-        private void pDFFileHasTheLinearizationInfoToolStripMenuItem_Click(
+        private void pdfFileHasTheLinearizationInfoToolStripMenuItem_Click(
             object sender,
             EventArgs e)
         {
@@ -3021,7 +3020,6 @@ namespace PdfEditorDemo
                  compressor,
                  true);
         }
-
 
         /// <summary>
         /// Removes transparency from document.
@@ -6755,9 +6753,9 @@ namespace PdfEditorDemo
 
         #endregion
 
-#endregion
+        #endregion
 
-#endregion
+        #endregion
 
 
 

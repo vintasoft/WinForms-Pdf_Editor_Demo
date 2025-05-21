@@ -400,7 +400,7 @@ namespace DemosCommonCode.Pdf
             // if annotation view is PDF office document annotation view
             else if (e.AnnotationView is PdfOfficeDocumentAnnotationView)
             {
-                // if last buil annotation is Cart
+                // if last buil annotation is Chart
                 if (_lastBuiltAnnotationType == AnnotationType.Chart)
                 {
                     // show chart data editor dialog
@@ -408,10 +408,12 @@ namespace DemosCommonCode.Pdf
                     OfficeDocumentVisualEditor visualEditor = CompositeInteractionController.FindInteractionController<OfficeDocumentVisualEditor>(e.AnnotationView.InteractionController);
                     if (visualEditor != null)
                     {
-                        OpenXmlDocumentChartDataForm chartForm = new OpenXmlDocumentChartDataForm();
-                        chartForm.Location = FindForm().Location;
-                        chartForm.VisualEditor = visualEditor;
-                        chartForm.ShowDialog();
+                        using (OpenXmlDocumentChartDataForm chartForm = new OpenXmlDocumentChartDataForm())
+                        {
+                            chartForm.Location = FindForm().Location;
+                            chartForm.VisualEditor = visualEditor;
+                            chartForm.ShowDialog();
+                        }
                     }
                 }
             }
@@ -428,7 +430,7 @@ namespace DemosCommonCode.Pdf
                 }
             }
         }
-    
+
 
         /// <summary>
         /// The annotation building is canceled.
@@ -1032,8 +1034,8 @@ namespace DemosCommonCode.Pdf
                     _annotationTool.AnnotationCollection, annotation);
             }
 
-            try 
-            { 
+            try
+            {
                 // build the annotation
                 return _annotationTool.AddAndBuildAnnotation(annotation);
             }
@@ -1376,7 +1378,7 @@ namespace DemosCommonCode.Pdf
 
             // set the annotation rectangle
             officeAnnotation.Rectangle = GetNewAnnotationRectangle();
-            
+
             // build the comment annotation
             AddAndBuildAnnotation(officeAnnotation);
             return officeAnnotation;
@@ -1399,8 +1401,8 @@ namespace DemosCommonCode.Pdf
                 officeAnnotation.SetDocumentStream(documentStream);
                 documentStream.Dispose();
 
-                // enable use releative size instread specified size of graphics object
-                officeAnnotation.UseGraphicObjectReleativeSize = true;
+                // enable use relative size instread specified size of graphics object
+                officeAnnotation.UseGraphicObjectRelativeSize = true;
 
                 // set the annotation rectangle
                 officeAnnotation.Rectangle = GetNewAnnotationRectangle();
