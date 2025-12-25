@@ -109,15 +109,15 @@ namespace DemosCommonCode.Pdf
                     if (_interactiveForm.CalculationOrder != null)
                     {
                         // for each field in caculation order
-                        foreach (PdfInteractiveFormField field in _interactiveForm.CalculationOrder)
+                        foreach (PdfInteractiveFormField formField in _interactiveForm.CalculationOrder)
                         {
                             // if field has the "Calculate" action
-                            if (field.IsCalculated)
+                            if (formField.IsCalculated)
                             {
                                 // add field to a form list box
-                                interactiveFormListBox.Items.Add(new ListBoxItem(field));
+                                interactiveFormListBox.Items.Add(new ListBoxItem(formField));
                                 // add field to a list of fields with "Calculate" action
-                                fieldsWithCalculateAction.Add(field);
+                                fieldsWithCalculateAction.Add(formField);
                             }
                         }
                     }
@@ -125,15 +125,15 @@ namespace DemosCommonCode.Pdf
                     // get all interactive form fields of interactive form
                     PdfInteractiveFormField[] interactiveFormFields = _interactiveForm.GetFields();
                     // for each field
-                    foreach (PdfInteractiveFormField field in interactiveFormFields)
+                    foreach (PdfInteractiveFormField formField in interactiveFormFields)
                     {
                         // if field has "Calculate" action
-                        if (field.IsCalculated)
+                        if (formField.IsCalculated)
                         {
                             // if list of fields with "Calculate" action does NOT contain field
-                            if (!fieldsWithCalculateAction.Contains(field))
+                            if (!fieldsWithCalculateAction.Contains(formField))
                                 // add field to a form list box
-                                interactiveFormListBox.Items.Add(new ListBoxItem(field));
+                                interactiveFormListBox.Items.Add(new ListBoxItem(formField));
                         }
                     }
                 }

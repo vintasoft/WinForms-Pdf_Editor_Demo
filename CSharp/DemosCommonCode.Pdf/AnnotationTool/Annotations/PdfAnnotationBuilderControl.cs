@@ -13,9 +13,11 @@ using Vintasoft.Imaging.Pdf.Tree.Fonts;
 using Vintasoft.Imaging.Pdf.UI.Annotations;
 using Vintasoft.Imaging.UI;
 using Vintasoft.Imaging.UI.VisualTools.UserInteraction;
+using Vintasoft.Imaging.UI.WinForms.Controls;
 
 using DemosCommonCode.CustomControls;
 using DemosCommonCode.Office;
+
 #if !REMOVE_OFFICE_PLUGIN
 using Vintasoft.Imaging.Office.OpenXml.UI.VisualTools.UserInteraction;
 #endif

@@ -13,6 +13,7 @@ using Vintasoft.Imaging.Pdf.Tree.InteractiveForms;
 using Vintasoft.Imaging.Pdf.Tree.InteractiveForms.AppearanceGenerators;
 using Vintasoft.Imaging.Pdf.UI.Annotations;
 using Vintasoft.Imaging.UI;
+using Vintasoft.Imaging.UI.WinForms.Controls;
 
 using DemosCommonCode.CustomControls;
 using DemosCommonCode.Imaging;
