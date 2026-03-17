@@ -10,7 +10,7 @@ using Vintasoft.Imaging.UI;
 using Vintasoft.Imaging.Utils;
 
 
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     /// <summary>
     /// A control that allows to show information about annotations of PDF Annotation Tool.

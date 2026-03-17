@@ -8,10 +8,10 @@ using Vintasoft.Imaging.Annotation.UI.VisualTools;
 using Vintasoft.Imaging.Pdf.Tree.Annotations;
 using Vintasoft.Imaging.Pdf.UI.Annotations;
 
-using DemosCommonCode.Annotation;
+using CommonCode.Annotation;
 using System;
 
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     /// <summary>
     /// Provides a control that displays collection of PDF comments (PdfAnnotationComment).

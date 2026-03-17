@@ -9,7 +9,7 @@ using Vintasoft.Imaging.ImageProcessing.Info;
 using Vintasoft.Imaging.Pdf;
 #endif
 
-namespace DemosCommonCode.Imaging.Codecs.Dialogs
+namespace CommonCode.Imaging.Codecs.Dialogs
 {
     /// <summary>
     /// A control that allows to view and edit the PDF image compression.
@@ -468,7 +468,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
         {
 #if !REMOVE_DOCCLEANUP_PLUGIN && !REMOVE_PDF_PLUGIN
             // create image segmentation settings dialog
-            using (PropertyGridForm dialog = new PropertyGridForm(MrcCompressionSettings.ImageSegmentation, PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_IMAGE_SEGMENTATION_SETTINGS))
+            using (PropertyGridForm dialog = new PropertyGridForm(MrcCompressionSettings.ImageSegmentation, PdfEditorDemo.Localization.Strings.COMMONCODE_IMAGING_CODECS_DIALOGS_IMAGE_SEGMENTATION_SETTINGS))
             {
                 // show dialog
                 dialog.ShowDialog();

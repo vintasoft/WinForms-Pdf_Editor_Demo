@@ -19,9 +19,9 @@ using Vintasoft.Imaging.UI.VisualTools;
 using Vintasoft.Imaging.UI.VisualTools.UserInteraction;
 using Vintasoft.Imaging.UIActions;
 
-using DemosCommonCode.Annotation;
+using CommonCode.Annotation;
 
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     /// <summary>
     /// A control that allows to view and edit annotations of PDF interactive form of PDF document.
@@ -497,7 +497,7 @@ namespace DemosCommonCode.Pdf
                 // close comment with state
                 stateComment.IsOpen = false;
                 // update state comment text
-                stateComment.Text = string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_ARG0_SETS_BY_ARG1, state, stateComment.UserName);
+                stateComment.Text = string.Format(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_ARG0_SETS_BY_ARG1, state, stateComment.UserName);
             }
 #endif
         }

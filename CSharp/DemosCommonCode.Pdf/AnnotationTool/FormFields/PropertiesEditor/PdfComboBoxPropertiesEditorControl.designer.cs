@@ -1,4 +1,4 @@
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     partial class PdfComboBoxPropertiesEditorControl
     {
@@ -34,15 +34,15 @@ namespace DemosCommonCode.Pdf
             this.actionsTabControl = new System.Windows.Forms.TabControl();
             this.valueTabPage = new System.Windows.Forms.TabPage();
             this.spellCheckCheckBox = new System.Windows.Forms.CheckBox();
-            this.pdfInteractiveFormChoiceFieldEditorControl = new DemosCommonCode.Pdf.PdfChoiceFieldEditorControl();
+            this.pdfInteractiveFormChoiceFieldEditorControl = new CommonCode.Pdf.PdfChoiceFieldEditorControl();
             this.calculateActionTabPage = new System.Windows.Forms.TabPage();
-            this.calculatePdfActionEditorControl = new DemosCommonCode.Pdf.PdfActionEditorControl();
+            this.calculatePdfActionEditorControl = new CommonCode.Pdf.PdfActionEditorControl();
             this.validateActionTabPage = new System.Windows.Forms.TabPage();
-            this.validatePdfActionEditorControl = new DemosCommonCode.Pdf.PdfActionEditorControl();
+            this.validatePdfActionEditorControl = new CommonCode.Pdf.PdfActionEditorControl();
             this.formatActionTabPage = new System.Windows.Forms.TabPage();
-            this.formatPdfActionEditorControl = new DemosCommonCode.Pdf.PdfActionEditorControl();
+            this.formatPdfActionEditorControl = new CommonCode.Pdf.PdfActionEditorControl();
             this.keystrokeActionTabPage = new System.Windows.Forms.TabPage();
-            this.keystrokePdfActionEditorControl = new DemosCommonCode.Pdf.PdfActionEditorControl();
+            this.keystrokePdfActionEditorControl = new CommonCode.Pdf.PdfActionEditorControl();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.mainPanel.SuspendLayout();
             this.actionsTabControl.SuspendLayout();

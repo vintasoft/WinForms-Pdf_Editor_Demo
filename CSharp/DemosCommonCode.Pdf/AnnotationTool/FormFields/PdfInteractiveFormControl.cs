@@ -11,7 +11,7 @@ using Vintasoft.Imaging.Pdf.UI.Annotations;
 using Vintasoft.Imaging.UI.VisualTools;
 
 
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     /// <summary>
     /// A control that allows to view and edit the PDF interactive form of PDF document.

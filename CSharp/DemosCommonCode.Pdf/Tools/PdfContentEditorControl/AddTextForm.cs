@@ -8,7 +8,7 @@ using Vintasoft.Imaging.Pdf;
 using Vintasoft.Imaging.Pdf.Content.TextExtraction;
 using Vintasoft.Imaging.Pdf.Tree.Fonts;
 
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     /// <summary>
     /// A form that allows to enter the text, which must be added to a PDF document.
@@ -106,7 +106,7 @@ namespace DemosCommonCode.Pdf
         {
             if (fontComboBox.SelectedItem == null)
             {
-                DemosTools.ShowWarningMessage(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_TEXT_FONT_IS_NOT_SPECIFIED);
+                DemosTools.ShowWarningMessage(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_TEXT_FONT_IS_NOT_SPECIFIED);
                 return;
             }
             if (_tempDocument != null)

@@ -29,9 +29,6 @@ namespace PdfEditorDemo
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            Vintasoft.Imaging.Utils.WinFormsSystemClipboard winFormsSystemClipboard1 = new Vintasoft.Imaging.Utils.WinFormsSystemClipboard();
-            Vintasoft.Imaging.Codecs.Decoders.RenderingSettings renderingSettings1 = new Vintasoft.Imaging.Codecs.Decoders.RenderingSettings();
-            Vintasoft.Imaging.Utils.WinFormsSystemClipboard winFormsSystemClipboard2 = new Vintasoft.Imaging.Utils.WinFormsSystemClipboard();
             Vintasoft.Imaging.UI.ThumbnailAppearance thumbnailAppearance1 = new Vintasoft.Imaging.UI.ThumbnailAppearance();
             Vintasoft.Imaging.UI.ThumbnailAppearance thumbnailAppearance2 = new Vintasoft.Imaging.UI.ThumbnailAppearance();
             Vintasoft.Imaging.UI.ThumbnailAppearance thumbnailAppearance3 = new Vintasoft.Imaging.UI.ThumbnailAppearance();
@@ -41,12 +38,12 @@ namespace PdfEditorDemo
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.panel1 = new System.Windows.Forms.Panel();
             this.toolStripPanel = new System.Windows.Forms.ToolStripPanel();
-            this.viewerToolStrip = new DemosCommonCode.Imaging.ImageViewerToolStrip();
+            this.viewerToolStrip = new CommonCode.Imaging.ImageViewerToolStrip();
             this.imageViewer1 = new Vintasoft.Imaging.UI.ImageViewer();
-            this.visualToolsToolStrip1 = new DemosCommonCode.Imaging.VisualToolsToolStrip();
+            this.visualToolsToolStrip1 = new CommonCode.Imaging.VisualToolsToolStrip();
             this.visualToolsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.findTextToolStrip1 = new DemosCommonCode.Imaging.FindTextToolStrip();
-            this.resolutionToolStrip1 = new DemosCommonCode.Pdf.ImageViewerResolutionToolStrip();
+            this.findTextToolStrip1 = new CommonCode.Imaging.FindTextToolStrip();
+            this.resolutionToolStrip1 = new CommonCode.Pdf.ImageViewerResolutionToolStrip();
             this.mainMenu = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.newToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -314,21 +311,21 @@ namespace PdfEditorDemo
             this.pagesTabPage = new System.Windows.Forms.TabPage();
             this.thumbnailViewer1 = new Vintasoft.Imaging.UI.ThumbnailViewer();
             this.bookmarksTabPage = new System.Windows.Forms.TabPage();
-            this.documentBookmarks = new DemosCommonCode.Pdf.BookmarkTreeViewEditor();
+            this.documentBookmarks = new CommonCode.Pdf.BookmarkTreeViewEditor();
             this.annotationToolTabPage = new System.Windows.Forms.TabPage();
-            this.annotationToolControl = new DemosCommonCode.Pdf.PdfAnnotationToolControl();
+            this.annotationToolControl = new CommonCode.Pdf.PdfAnnotationToolControl();
             this.commentsTabPage = new System.Windows.Forms.TabPage();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.commentsControl = new DemosCommonCode.Pdf.PdfCommentsControl();
+            this.commentsControl = new CommonCode.Pdf.PdfCommentsControl();
             this.panel4 = new System.Windows.Forms.Panel();
             this.addCommentButton = new System.Windows.Forms.Button();
             this.closeAllCommentsButton = new System.Windows.Forms.Button();
             this.textExtractionTabPage = new System.Windows.Forms.TabPage();
-            this.pdfTextSelectionControl1 = new DemosCommonCode.Imaging.TextSelectionControl();
+            this.pdfTextSelectionControl1 = new CommonCode.Imaging.TextSelectionControl();
             this.removeContentTabPage = new System.Windows.Forms.TabPage();
-            this.pdfRemoveContentControl1 = new DemosCommonCode.Pdf.PdfRemoveContentControl();
+            this.pdfRemoveContentControl1 = new CommonCode.Pdf.PdfRemoveContentControl();
             this.contentEditorTabPage = new System.Windows.Forms.TabPage();
-            this.pdfContentEditorControl1 = new DemosCommonCode.Pdf.PdfContentEditorControl();
+            this.pdfContentEditorControl1 = new CommonCode.Pdf.PdfContentEditorControl();
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.mainStatusStrip = new System.Windows.Forms.StatusStrip();
@@ -406,13 +403,11 @@ namespace PdfEditorDemo
             this.viewerToolStrip.ImageViewer = this.imageViewer1;
             this.viewerToolStrip.Location = new System.Drawing.Point(3, 0);
             this.viewerToolStrip.Name = "viewerToolStrip";
-            this.viewerToolStrip.PageCount = 0;
             this.viewerToolStrip.PrintButtonEnabled = true;
             this.viewerToolStrip.ScanButtonEnabled = true;
             this.viewerToolStrip.Size = new System.Drawing.Size(362, 25);
             this.viewerToolStrip.TabIndex = 4;
             this.viewerToolStrip.Text = "vsImageViewerToolStrip1";
-            this.viewerToolStrip.UseImageViewerImages = true;
             this.viewerToolStrip.OpenFile += new System.EventHandler(this.openToolStripMenuItem_Click);
             this.viewerToolStrip.SaveFile += new System.EventHandler(this.saveToolStripMenuItem_Click);
             this.viewerToolStrip.Print += new System.EventHandler(this.printToolStripMenuItem_Click);
@@ -420,10 +415,7 @@ namespace PdfEditorDemo
             // imageViewer1
             // 
             this.imageViewer1.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.imageViewer1.Clipboard = winFormsSystemClipboard1;
             this.imageViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.imageViewer1.ImageRenderingSettings = renderingSettings1;
-            this.imageViewer1.ImageRotationAngle = 0;
             this.imageViewer1.IsKeyboardNavigationEnabled = true;
             this.imageViewer1.Location = new System.Drawing.Point(0, 0);
             this.imageViewer1.Name = "imageViewer1";
@@ -448,7 +440,6 @@ namespace PdfEditorDemo
             this.visualToolsToolStrip1.Enabled = false;
             this.visualToolsToolStrip1.ImageViewer = this.imageViewer1;
             this.visualToolsToolStrip1.Location = new System.Drawing.Point(365, 0);
-            this.visualToolsToolStrip1.MandatoryVisualTool = null;
             this.visualToolsToolStrip1.Name = "visualToolsToolStrip1";
             this.visualToolsToolStrip1.Size = new System.Drawing.Size(35, 25);
             this.visualToolsToolStrip1.TabIndex = 7;
@@ -2151,7 +2142,7 @@ namespace PdfEditorDemo
             this.toolStripSeparator44,
             this.pageUsesTransparencyToolStripMenuItem});
             this.pageProcessingToolStripMenuItem.Name = "pageProcessingToolStripMenuItem";
-            this.pageProcessingToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.pageProcessingToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
             resources.ApplyResources(this.pageProcessingToolStripMenuItem, "pageProcessingToolStripMenuItem");
             // 
             // burnThePDFAnnotationsOnPDFPageToolStripMenuItem
@@ -2256,50 +2247,50 @@ namespace PdfEditorDemo
             // toolStripSeparator40
             // 
             this.toolStripSeparator40.Name = "toolStripSeparator40";
-            this.toolStripSeparator40.Size = new System.Drawing.Size(177, 6);
+            this.toolStripSeparator40.Size = new System.Drawing.Size(169, 6);
             // 
             // pagePropertiesToolStripMenuItem
             // 
             this.pagePropertiesToolStripMenuItem.Name = "pagePropertiesToolStripMenuItem";
-            this.pagePropertiesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.pagePropertiesToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
             resources.ApplyResources(this.pagePropertiesToolStripMenuItem, "pagePropertiesToolStripMenuItem");
             this.pagePropertiesToolStripMenuItem.Click += new System.EventHandler(this.pagePropertiesToolStripMenuItem_Click);
             // 
             // pageActionsToolStripMenuItem
             // 
             this.pageActionsToolStripMenuItem.Name = "pageActionsToolStripMenuItem";
-            this.pageActionsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.pageActionsToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
             resources.ApplyResources(this.pageActionsToolStripMenuItem, "pageActionsToolStripMenuItem");
             this.pageActionsToolStripMenuItem.Click += new System.EventHandler(this.pageActionsToolStripMenuItem_Click);
             // 
             // toolStripSeparator22
             // 
             this.toolStripSeparator22.Name = "toolStripSeparator22";
-            this.toolStripSeparator22.Size = new System.Drawing.Size(177, 6);
+            this.toolStripSeparator22.Size = new System.Drawing.Size(169, 6);
             // 
             // pageResourcesToolStripMenuItem
             // 
             this.pageResourcesToolStripMenuItem.Name = "pageResourcesToolStripMenuItem";
-            this.pageResourcesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.pageResourcesToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
             resources.ApplyResources(this.pageResourcesToolStripMenuItem, "pageResourcesToolStripMenuItem");
             this.pageResourcesToolStripMenuItem.Click += new System.EventHandler(this.pageResourcesToolStripMenuItem_Click);
             // 
             // imageResourcesToolStripMenuItem1
             // 
             this.imageResourcesToolStripMenuItem1.Name = "imageResourcesToolStripMenuItem1";
-            this.imageResourcesToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.imageResourcesToolStripMenuItem1.Size = new System.Drawing.Size(172, 22);
             resources.ApplyResources(this.imageResourcesToolStripMenuItem1, "imageResourcesToolStripMenuItem1");
             this.imageResourcesToolStripMenuItem1.Click += new System.EventHandler(this.pageImageResourcesToolStripMenuItem_Click);
             // 
             // toolStripSeparator8
             // 
             this.toolStripSeparator8.Name = "toolStripSeparator8";
-            this.toolStripSeparator8.Size = new System.Drawing.Size(177, 6);
+            this.toolStripSeparator8.Size = new System.Drawing.Size(169, 6);
             // 
             // saveAsImageToolStripMenuItem
             // 
             this.saveAsImageToolStripMenuItem.Name = "saveAsImageToolStripMenuItem";
-            this.saveAsImageToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.saveAsImageToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
             resources.ApplyResources(this.saveAsImageToolStripMenuItem, "saveAsImageToolStripMenuItem");
             this.saveAsImageToolStripMenuItem.Click += new System.EventHandler(this.saveAsImageToolStripMenuItem_Click);
             // 
@@ -2578,7 +2569,6 @@ namespace PdfEditorDemo
             this.thumbnailViewer1.AutoScrollMinSize = new System.Drawing.Size(1, 1);
             this.thumbnailViewer1.BackColor = System.Drawing.SystemColors.Control;
             this.thumbnailViewer1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.thumbnailViewer1.Clipboard = winFormsSystemClipboard2;
             this.thumbnailViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
             thumbnailAppearance1.BackColor = System.Drawing.Color.Transparent;
             thumbnailAppearance1.BorderColor = System.Drawing.Color.Gray;
@@ -3019,7 +3009,7 @@ namespace PdfEditorDemo
         private System.Windows.Forms.ToolStripMenuItem closeToolStripMenuItem;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
         private System.Windows.Forms.ToolStripStatusLabel pageInfoLabel;
-        private DemosCommonCode.Imaging.ImageViewerToolStrip viewerToolStrip;
+        private CommonCode.Imaging.ImageViewerToolStrip viewerToolStrip;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator4;
         private System.Windows.Forms.ToolStripMenuItem saveToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem saveAsToolStripMenuItem;
@@ -3133,8 +3123,8 @@ namespace PdfEditorDemo
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator29;
         private System.Windows.Forms.ToolStripMenuItem interactionPointSettingsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem enableExecuteActionsToolStripMenuItem;
-        private DemosCommonCode.Imaging.FindTextToolStrip findTextToolStrip1;
-        private DemosCommonCode.Pdf.ImageViewerResolutionToolStrip resolutionToolStrip1;
+        private CommonCode.Imaging.FindTextToolStrip findTextToolStrip1;
+        private CommonCode.Pdf.ImageViewerResolutionToolStrip resolutionToolStrip1;
         private System.Windows.Forms.ToolStripMenuItem optionalContentToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
         private System.Windows.Forms.ToolStripMenuItem editToolStripMenuItem;
@@ -3216,7 +3206,7 @@ namespace PdfEditorDemo
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator32;
         private System.Windows.Forms.ToolStripMenuItem enableFormFieldsSpellCheckingToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem enableAnnotationsSpellCheckingToolStripMenuItem;
-        private DemosCommonCode.Imaging.VisualToolsToolStrip visualToolsToolStrip1;
+        private CommonCode.Imaging.VisualToolsToolStrip visualToolsToolStrip1;
         private System.Windows.Forms.ToolStripMenuItem compressionToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem compressDocumentToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator33;
@@ -3273,21 +3263,21 @@ namespace PdfEditorDemo
         private System.Windows.Forms.TabPage pagesTabPage;
         private Vintasoft.Imaging.UI.ThumbnailViewer thumbnailViewer1;
         private System.Windows.Forms.TabPage bookmarksTabPage;
-        private DemosCommonCode.Pdf.BookmarkTreeViewEditor documentBookmarks;
+        private CommonCode.Pdf.BookmarkTreeViewEditor documentBookmarks;
         private System.Windows.Forms.TabPage annotationToolTabPage;
-        private DemosCommonCode.Pdf.PdfAnnotationToolControl annotationToolControl;
+        private CommonCode.Pdf.PdfAnnotationToolControl annotationToolControl;
         private System.Windows.Forms.TabPage commentsTabPage;
         private System.Windows.Forms.Panel panel6;
-        private DemosCommonCode.Pdf.PdfCommentsControl commentsControl;
+        private CommonCode.Pdf.PdfCommentsControl commentsControl;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Button addCommentButton;
         private System.Windows.Forms.Button closeAllCommentsButton;
         private System.Windows.Forms.TabPage textExtractionTabPage;
-        private DemosCommonCode.Imaging.TextSelectionControl pdfTextSelectionControl1;
+        private CommonCode.Imaging.TextSelectionControl pdfTextSelectionControl1;
         private System.Windows.Forms.TabPage removeContentTabPage;
-        private DemosCommonCode.Pdf.PdfRemoveContentControl pdfRemoveContentControl1;
+        private CommonCode.Pdf.PdfRemoveContentControl pdfRemoveContentControl1;
         private System.Windows.Forms.TabPage contentEditorTabPage;
-        private DemosCommonCode.Pdf.PdfContentEditorControl pdfContentEditorControl1;
+        private CommonCode.Pdf.PdfContentEditorControl pdfContentEditorControl1;
         private System.Windows.Forms.ToolStripMenuItem pageSettingsToolStripMenuItem;
         private System.Windows.Forms.PageSetupDialog pageSetupDialog1;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator44;

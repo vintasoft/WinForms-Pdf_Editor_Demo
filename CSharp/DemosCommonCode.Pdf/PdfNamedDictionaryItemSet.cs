@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Vintasoft.Imaging.Pdf.Tree;
 
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     /// <summary>
     /// Represents a set of name-value pairs.
@@ -91,7 +91,7 @@ namespace DemosCommonCode.Pdf
         public override void RenameItem(string oldName, string newName)
         {
             if (_dictionary.ContainsKey(newName))
-                throw new ArgumentException(string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_KEY_WITH_NAME_ARG0_ALREADY_EXSISTS_IN_DICTIONARY, newName));
+                throw new ArgumentException(string.Format(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_KEY_WITH_NAME_ARG0_ALREADY_EXSISTS_IN_DICTIONARY, newName));
             _dictionary.Add(newName, _dictionary[oldName]);
             _dictionary.Remove(oldName);
         }

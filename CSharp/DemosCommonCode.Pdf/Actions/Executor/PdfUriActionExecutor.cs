@@ -5,7 +5,7 @@ using System.Windows.Forms;
 using Vintasoft.Imaging.Pdf;
 using Vintasoft.Imaging.Pdf.Tree;
 
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     /// <summary>
     /// Executor of "URI" actions that opens URL using the default internet browser.
@@ -42,7 +42,7 @@ namespace DemosCommonCode.Pdf
             {
                 if (uriAction.URI != "")
                 {
-                    if (MessageBox.Show(string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_OPEN_URL_ARG0, uriAction.URI), PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_OPEN_URL, MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+                    if (MessageBox.Show(string.Format(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_OPEN_URL_ARG0, uriAction.URI), PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_OPEN_URL, MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
                     {
                         try
                         {

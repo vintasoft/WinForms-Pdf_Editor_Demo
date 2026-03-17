@@ -12,7 +12,7 @@ using Vintasoft.Imaging.Office.OpenXml.Editor;
 using Vintasoft.Imaging.Office.OpenXml.Editor.Docx;
 using Vintasoft.Imaging.Office.OpenXml.UI.VisualTools.UserInteraction;
 
-namespace DemosCommonCode.Office
+namespace CommonCode.Office
 {
     /// <summary>
     /// A form that allows to edit charts of Office document.
@@ -99,7 +99,7 @@ namespace DemosCommonCode.Office
                         if (chart.Properties != null)
                             name = chart.Properties.Name;
                         else
-                            name = string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_OFFICE_CHART_ARG0, number);
+                            name = string.Format(PdfEditorDemo.Localization.Strings.COMMONCODE_OFFICE_CHART_ARG0, number);
                         chartComboBox.Items.Add(name);
                         number++;
                     }

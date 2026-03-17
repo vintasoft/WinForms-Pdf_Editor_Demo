@@ -4,7 +4,7 @@ using System.Windows.Forms;
 using Vintasoft.Imaging.Pdf.Content;
 using Vintasoft.Imaging.Pdf.Tree;
 
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     /// <summary>
     /// A form that allows to edit the PDF content graphics properties of XObject resource.

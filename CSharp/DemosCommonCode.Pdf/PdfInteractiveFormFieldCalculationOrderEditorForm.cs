@@ -6,7 +6,7 @@ using System.Windows.Forms;
 using Vintasoft.Imaging.Pdf.Tree.InteractiveForms;
 
 
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     /// <summary>
     /// A form that allows to change the calculation order of PDF interactive form.

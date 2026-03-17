@@ -9,7 +9,7 @@ using Vintasoft.Imaging.Pdf.Tree.InteractiveForms;
 using Vintasoft.Imaging.Pdf.Tree.InteractiveForms.AppearanceGenerators;
 using Vintasoft.Imaging.Pdf.UI.Annotations;
 
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     /// <summary>
     /// A form that allows to edit properties of annotations.
@@ -418,7 +418,7 @@ namespace DemosCommonCode.Pdf
                 if (!(_annotation is PdfWidgetAnnotation))
                 {
                     commonPropertiesGroupBox.Controls.Clear();
-                    commonPropertiesGroupBox.Text = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_ANNOTATION_COMMON_PROPERTIES;
+                    commonPropertiesGroupBox.Text = PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_ANNOTATION_COMMON_PROPERTIES;
                     PdfAnnotationCommonPropertiesEditorControl commonPropertiesEditorControl =
                         new PdfAnnotationCommonPropertiesEditorControl();
                     commonPropertiesEditorControl.Dock = DockStyle.Fill;
@@ -493,7 +493,7 @@ namespace DemosCommonCode.Pdf
                         string name = _annotation.GetType().Name;
                         if (name.StartsWith("Pdf") && name.Length > 3)
                             name = name.Substring(3);
-                        if (name.EndsWith(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_ANNOTATION) && name.Length > 10)
+                        if (name.EndsWith(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_ANNOTATION) && name.Length > 10)
                             name = name.Substring(0, name.Length - 10);
 
                         annotationPropertiesEditorControl.Dock = DockStyle.Fill;
@@ -528,7 +528,7 @@ namespace DemosCommonCode.Pdf
                 if (_annotation == null || _annotation is PdfWidgetAnnotation)
                 {
                     commonPropertiesGroupBox.Controls.Clear();
-                    commonPropertiesGroupBox.Text = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_FIELD_COMMON_PROPERTIES;
+                    commonPropertiesGroupBox.Text = PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_FIELD_COMMON_PROPERTIES;
                     PdfFieldCommonPropertiesEditorControl commonPropertiesEditorControl =
                         new PdfFieldCommonPropertiesEditorControl();
                     commonPropertiesEditorControl.Dock = DockStyle.Fill;
@@ -617,7 +617,7 @@ namespace DemosCommonCode.Pdf
 
                         string name = _field.GetType().Name;
                         name = name.Replace("PdfInteractiveForm", "");
-                        if (name.EndsWith(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_FIELD) && name.Length > 5)
+                        if (name.EndsWith(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_FIELD) && name.Length > 5)
                             name = name.Substring(0, name.Length - 5);
 
                         customPropertiesGroupBox.Text = name;

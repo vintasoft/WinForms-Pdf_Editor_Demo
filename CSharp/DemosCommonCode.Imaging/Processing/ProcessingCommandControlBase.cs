@@ -6,7 +6,7 @@ using Vintasoft.Imaging.Processing;
 using Vintasoft.Imaging.Utils;
 
 
-namespace DemosCommonCode.Imaging
+namespace CommonCode.Imaging
 {
     /// <summary>
     /// A base control that allows to view the processing commands.
@@ -369,14 +369,14 @@ namespace DemosCommonCode.Imaging
 
             executeButton.Enabled = isCommandSelected && CanExecute(selectedCommand);
 
-            string executeText = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_EXECUTE;
+            string executeText = PdfEditorDemo.Localization.Strings.COMMONCODE_IMAGING_EXECUTE;
             if (selectedCommand != null)
             {
                 Type commandType = ((object)selectedCommand).GetType();
 
                 if (ProcessingDemosTools.IsNameEqual(commandType, "Analyzer") ||
-                    ProcessingDemosTools.IsNameEqual(commandType, PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_VERIFIER))
-                    executeText = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_ANALYZE;
+                    ProcessingDemosTools.IsNameEqual(commandType, PdfEditorDemo.Localization.Strings.COMMONCODE_IMAGING_VERIFIER))
+                    executeText = PdfEditorDemo.Localization.Strings.COMMONCODE_IMAGING_ANALYZE;
             }
             executeButton.Text = executeText;
         }

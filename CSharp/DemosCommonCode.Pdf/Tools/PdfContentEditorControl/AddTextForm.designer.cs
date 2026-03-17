@@ -1,4 +1,4 @@
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     partial class AddTextForm
     {
@@ -41,7 +41,7 @@ namespace DemosCommonCode.Pdf
             this.panel1 = new System.Windows.Forms.Panel();
             this.pdfFontViewerControl = new Vintasoft.Imaging.Pdf.UI.PdfFontViewerControl();
             this.addFontButton = new System.Windows.Forms.Button();
-            this.colorPanelControl = new DemosCommonCode.CustomControls.ColorPanelControl();
+            this.colorPanelControl = new CommonCode.CustomControls.ColorPanelControl();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
@@ -266,7 +266,7 @@ namespace DemosCommonCode.Pdf
         private System.Windows.Forms.Panel panel1;
         private Vintasoft.Imaging.Pdf.UI.PdfFontViewerControl pdfFontViewerControl;
         private System.Windows.Forms.Button addFontButton;
-        private DemosCommonCode.CustomControls.ColorPanelControl colorPanelControl;
+        private CommonCode.CustomControls.ColorPanelControl colorPanelControl;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
     }
 }

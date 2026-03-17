@@ -8,7 +8,7 @@ using Vintasoft.Imaging.Pdf;
 using Vintasoft.Imaging.Pdf.Tree;
 using Vintasoft.Imaging.Pdf.Tree.Annotations;
 
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     /// <summary>
     /// A form that allows to view, add and remove embedded files of PDF document.
@@ -251,7 +251,7 @@ namespace DemosCommonCode.Pdf
                     try
                     {
                         // update form title
-                        Text = string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_ADD_EMBEDDED_FILE_ARG0, Path.GetFileName(filename));
+                        Text = string.Format(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_ADD_EMBEDDED_FILE_ARG0, Path.GetFileName(filename));
 
                         // create PDF embedded file
                         PdfCompression comression = PdfCompression.Auto;
@@ -264,7 +264,7 @@ namespace DemosCommonCode.Pdf
                             }
                             catch (OverflowException ex)
                             {
-                                throw new Exception(string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_ARG0RNDISABLE_ENCODE_FILES_IMMEDIATELY_OPTION, ex.Message), ex);
+                                throw new Exception(string.Format(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_ARG0RNDISABLE_ENCODE_FILES_IMMEDIATELY_OPTION, ex.Message), ex);
                             }
                         }
                         else
@@ -285,7 +285,7 @@ namespace DemosCommonCode.Pdf
                     }
                     catch (Exception ex)
                     {
-                        MessageBox.Show(ex.Message, PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_ERROR_ALT2, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show(ex.Message, PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_ERROR_ALT2, MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                 }
                 Text = FORM_TITLE;
@@ -414,8 +414,8 @@ namespace DemosCommonCode.Pdf
         private string GetDataSize(long size)
         {
             if (size < 10000)
-                return string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_ARG0_BYTES_ALT1, size);
-            return string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_ARG0_KB, Math.Round(size / 1024.0));
+                return string.Format(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_ARG0_BYTES_ALT1, size);
+            return string.Format(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_ARG0_KB, Math.Round(size / 1024.0));
         }        
 
         /// <summary>

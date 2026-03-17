@@ -1,4 +1,4 @@
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     partial class PdfPolylineAnnotationPropertiesEditorControl
     {
@@ -34,7 +34,7 @@ namespace DemosCommonCode.Pdf
             this.startPointLineEndingStyleComboBox = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.pdfPolygonalAnnotationPropertiesEditorControl = new DemosCommonCode.Pdf.PdfPolygonalAnnotationPropertiesEditorControl();
+            this.pdfPolygonalAnnotationPropertiesEditorControl = new CommonCode.Pdf.PdfPolygonalAnnotationPropertiesEditorControl();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.mainPanel.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
@@ -137,7 +137,7 @@ namespace DemosCommonCode.Pdf
         #endregion
 
         private System.Windows.Forms.Panel mainPanel;
-        private global::DemosCommonCode.Pdf.PdfPolygonalAnnotationPropertiesEditorControl pdfPolygonalAnnotationPropertiesEditorControl;
+        private global::CommonCode.Pdf.PdfPolygonalAnnotationPropertiesEditorControl pdfPolygonalAnnotationPropertiesEditorControl;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox startPointLineEndingStyleComboBox;

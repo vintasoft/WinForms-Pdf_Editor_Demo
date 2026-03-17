@@ -3,7 +3,7 @@ using System.Windows.Forms;
 
 using Vintasoft.Imaging.Pdf.Tree.InteractiveForms;
 
-namespace DemosCommonCode.Pdf.Security
+namespace CommonCode.Pdf.Security
 {
     /// <summary>
     /// A form that allows to select signature field from list.
@@ -98,7 +98,7 @@ namespace DemosCommonCode.Pdf.Security
 
             // PDF Page
             if (field.Annotation.Page != null)
-                return string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_PAGE_ARG0_ARG1,
+                return string.Format(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_SECURITY_PAGE_ARG0_ARG1,
                     field.Document.Pages.IndexOf(field.Annotation.Page) + 1, name);
 
             return name;

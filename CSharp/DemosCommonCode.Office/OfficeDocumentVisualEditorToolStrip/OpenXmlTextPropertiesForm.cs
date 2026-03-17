@@ -9,7 +9,7 @@ using System.Windows.Forms;
 
 using Vintasoft.Imaging.Office.OpenXml.Editor;
 
-namespace DemosCommonCode.Office
+namespace CommonCode.Office
 {
     /// <summary>
     /// A form that allows to view and edit the text properties.
@@ -307,12 +307,12 @@ namespace DemosCommonCode.Office
                 _textProperties.Highlight = (OpenXmlTextHighlightType)textHighlightComboBox.SelectedItem;
 
                 float characterHorizontalScaling;
-                if (!DemosTools.ParseFloat(horizontalScaleComboBox.Text, PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_OFFICE_CHARACTER_HORIZONTAL_SCALING, out characterHorizontalScaling))
+                if (!DemosTools.ParseFloat(horizontalScaleComboBox.Text, PdfEditorDemo.Localization.Strings.COMMONCODE_OFFICE_CHARACTER_HORIZONTAL_SCALING, out characterHorizontalScaling))
                     return false;
                 _textProperties.CharacterHorizontalScaling = characterHorizontalScaling;
 
                 float characterSpacing;
-                if (!DemosTools.ParseFloat(characterSpacingComboBox.Text, PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_OFFICE_CHARACTER_SPACING, out characterSpacing))
+                if (!DemosTools.ParseFloat(characterSpacingComboBox.Text, PdfEditorDemo.Localization.Strings.COMMONCODE_OFFICE_CHARACTER_SPACING, out characterSpacing))
                     return false;
                 _textProperties.CharacterSpacing = characterSpacing;
 

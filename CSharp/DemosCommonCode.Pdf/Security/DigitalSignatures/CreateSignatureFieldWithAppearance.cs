@@ -4,7 +4,7 @@ using System.Windows.Forms;
 using Vintasoft.Imaging.Pdf;
 using Vintasoft.Imaging.Pdf.Tree.InteractiveForms;
 
-namespace DemosCommonCode.Pdf.Security
+namespace CommonCode.Pdf.Security
 {
     /// <summary>
     /// A class that allows to create new signature field or use existing signature field AND

@@ -6,7 +6,7 @@ using System.Windows.Forms;
 using Vintasoft.Imaging.Processing;
 
 
-namespace DemosCommonCode.Imaging
+namespace CommonCode.Imaging
 {
     /// <summary>
     /// A form that allows to view the processing commands.
@@ -140,7 +140,7 @@ namespace DemosCommonCode.Imaging
             params IProcessingCommand<TTarget>[] processingCommands)
             : base()
         {
-            Text = string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_ARG0_PROCESSING, ProcessingDemosTools.GetReadableTypeName(typeof(TTarget)));
+            Text = string.Format(PdfEditorDemo.Localization.Strings.COMMONCODE_IMAGING_ARG0_PROCESSING, ProcessingDemosTools.GetReadableTypeName(typeof(TTarget)));
 
             if (processingTarget == null)
                 throw new ArgumentNullException("processingTarget");

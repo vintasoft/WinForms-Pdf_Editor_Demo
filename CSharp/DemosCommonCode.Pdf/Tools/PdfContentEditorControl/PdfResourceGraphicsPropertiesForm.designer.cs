@@ -1,5 +1,5 @@
 
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     partial class PdfResourceGraphicsPropertiesForm
     {
@@ -37,7 +37,7 @@ namespace DemosCommonCode.Pdf
             this.colorBlendingComboBox = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
             this.alphaConstantCheckBox = new System.Windows.Forms.CheckBox();
-            this.alphaConstantValueEditor = new DemosCommonCode.CustomControls.ValueEditorControl();
+            this.alphaConstantValueEditor = new CommonCode.CustomControls.ValueEditorControl();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.colorBlendingGroupBox.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
@@ -133,7 +133,7 @@ namespace DemosCommonCode.Pdf
             this.alphaConstantValueEditor.TabIndex = 0;
             this.alphaConstantValueEditor.Value = 255F;
             this.alphaConstantValueEditor.ValueName = "Alpha Contant";
-            resources.ApplyResources(this.alphaConstantValueEditor, "alphaConstantValueEditor");
+            this.alphaConstantValueEditor.ValueUnitOfMeasure = "";
             // 
             // tableLayoutPanel1
             // 

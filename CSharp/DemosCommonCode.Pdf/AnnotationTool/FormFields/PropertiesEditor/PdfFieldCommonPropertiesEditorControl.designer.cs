@@ -1,4 +1,4 @@
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     partial class PdfFieldCommonPropertiesEditorControl
     {
@@ -37,19 +37,19 @@ namespace DemosCommonCode.Pdf
             this.fontSizeComboBox = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.pdfFontPanelControl = new DemosCommonCode.CustomControls.PdfFontPanelControl();
-            this.fontColorPanelControl = new DemosCommonCode.CustomControls.ColorPanelControl();
+            this.pdfFontPanelControl = new CommonCode.CustomControls.PdfFontPanelControl();
+            this.fontColorPanelControl = new CommonCode.CustomControls.ColorPanelControl();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.borderGroupBox = new System.Windows.Forms.GroupBox();
-            this.borderStyleControl = new DemosCommonCode.Pdf.PdfWidgetAnnotationBorderStyleControl();
+            this.borderStyleControl = new CommonCode.Pdf.PdfWidgetAnnotationBorderStyleControl();
             this.label7 = new System.Windows.Forms.Label();
             this.requiredCheckBox = new System.Windows.Forms.CheckBox();
             this.readOnlyCheckBox = new System.Windows.Forms.CheckBox();
             this.noExportCheckBox = new System.Windows.Forms.CheckBox();
             this.backgroundPanel = new System.Windows.Forms.Panel();
-            this.backgroundColorPanelControl = new DemosCommonCode.CustomControls.ColorPanelControl();
+            this.backgroundColorPanelControl = new CommonCode.CustomControls.ColorPanelControl();
             this.mainPanel = new System.Windows.Forms.Panel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
@@ -460,11 +460,11 @@ namespace DemosCommonCode.Pdf
         private System.Windows.Forms.CheckBox readOnlyCheckBox;
         private System.Windows.Forms.CheckBox noExportCheckBox;
         private System.Windows.Forms.Panel backgroundPanel;
-        private DemosCommonCode.CustomControls.ColorPanelControl fontColorPanelControl;
-        private DemosCommonCode.CustomControls.ColorPanelControl backgroundColorPanelControl;
+        private CommonCode.CustomControls.ColorPanelControl fontColorPanelControl;
+        private CommonCode.CustomControls.ColorPanelControl backgroundColorPanelControl;
         private System.Windows.Forms.Panel mainPanel;
         private PdfWidgetAnnotationBorderStyleControl borderStyleControl;
-        private DemosCommonCode.CustomControls.PdfFontPanelControl pdfFontPanelControl;
+        private CommonCode.CustomControls.PdfFontPanelControl pdfFontPanelControl;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ComboBox fontSizeComboBox;

@@ -5,7 +5,7 @@ using Vintasoft.Imaging;
 using Vintasoft.Imaging.Pdf.Tree.Annotations;
 
 
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     /// <summary>
     /// A control that allows to show information about annotations of PDF Page.
@@ -214,7 +214,7 @@ namespace DemosCommonCode.Pdf
                 {
                     // add columns
                     Columns.Add("Type");
-                    Columns.Add(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_NAME);
+                    Columns.Add(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_NAME);
                     Columns.Add("Rectangle");
 
                     foreach (PdfAnnotation annotation in annotations)

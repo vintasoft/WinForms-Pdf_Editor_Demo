@@ -1,4 +1,4 @@
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     partial class PdfAnnotationAppearancesEditorControl
     {
@@ -34,7 +34,7 @@ namespace DemosCommonCode.Pdf
             this.label2 = new System.Windows.Forms.Label();
             this.appearanceStateNameComboBox = new System.Windows.Forms.ComboBox();
             this.changeAppearanceButton = new System.Windows.Forms.Button();
-            this.pdfResourceViewerControl = new DemosCommonCode.Pdf.PdfResourceViewerControl();
+            this.pdfResourceViewerControl = new CommonCode.Pdf.PdfResourceViewerControl();
             this.label1 = new System.Windows.Forms.Label();
             this.appearanceTypeComboBox = new System.Windows.Forms.ComboBox();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();

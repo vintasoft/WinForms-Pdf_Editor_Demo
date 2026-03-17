@@ -6,7 +6,7 @@ using Vintasoft.Imaging.Pdf.Content;
 using Vintasoft.Imaging.Pdf.Tree;
 using Vintasoft.Imaging.Text;
 
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     /// <summary>
     /// A form that allows to edit the PDF content graphics properties.

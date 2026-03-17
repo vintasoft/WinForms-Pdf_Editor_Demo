@@ -2,10 +2,10 @@
 using System.Windows.Forms;
 using Vintasoft.Imaging.Utils;
 
-using DemosCommonCode.Imaging;
+using CommonCode.Imaging;
 using Vintasoft.Imaging.Fonts;
 
-namespace DemosCommonCode.Imaging
+namespace CommonCode.Imaging
 {
     /// <summary>
     /// Allows to use custom PDF font program controller for PDF documents, which are opened in PDF demos.
@@ -38,14 +38,14 @@ namespace DemosCommonCode.Imaging
         public static DialogResult RefreshPostScriptFontNamesOfProgramsController(Form dialogOwner)
         {
             StringBuilder messageString = new StringBuilder();
-            messageString.AppendLine(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_THIS_OPERATION_WILL_PARSE_ALL_FONTS_AVAILABLE_ON_SYSTEM_AND_REFRESH);
-            messageString.AppendLine(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_THE_FONT_MAP_BY_REPLACING_CURRENT_NAMES_WITH_ACTUAL_FONT_NAMES);
-            messageString.AppendLine(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_IT_CAN_BE_TIME_CONSUMING);
-            messageString.AppendLine(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_DO_YOU_WANT_TO_REFRESH_NAMES_OF_ALL_AVAILABLE_FONTS);
+            messageString.AppendLine(PdfEditorDemo.Localization.Strings.COMMONCODE_IMAGING_THIS_OPERATION_WILL_PARSE_ALL_FONTS_AVAILABLE_ON_SYSTEM_AND_REFRESH);
+            messageString.AppendLine(PdfEditorDemo.Localization.Strings.COMMONCODE_IMAGING_THE_FONT_MAP_BY_REPLACING_CURRENT_NAMES_WITH_ACTUAL_FONT_NAMES);
+            messageString.AppendLine(PdfEditorDemo.Localization.Strings.COMMONCODE_IMAGING_IT_CAN_BE_TIME_CONSUMING);
+            messageString.AppendLine(PdfEditorDemo.Localization.Strings.COMMONCODE_IMAGING_DO_YOU_WANT_TO_REFRESH_NAMES_OF_ALL_AVAILABLE_FONTS);
 
-            if (MessageBox.Show(messageString.ToString(), PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_REFRESH_FONT_NAMES, MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+            if (MessageBox.Show(messageString.ToString(), PdfEditorDemo.Localization.Strings.COMMONCODE_IMAGING_REFRESH_FONT_NAMES, MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
             {
-                using (ActionProgressForm actionProgressForm = new ActionProgressForm(RefreshFontNames, 1, PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_REFRESHING_FONT_NAMES))
+                using (ActionProgressForm actionProgressForm = new ActionProgressForm(RefreshFontNames, 1, PdfEditorDemo.Localization.Strings.COMMONCODE_IMAGING_REFRESHING_FONT_NAMES))
                     return actionProgressForm.RunAndShowDialog(dialogOwner);
             }
             else

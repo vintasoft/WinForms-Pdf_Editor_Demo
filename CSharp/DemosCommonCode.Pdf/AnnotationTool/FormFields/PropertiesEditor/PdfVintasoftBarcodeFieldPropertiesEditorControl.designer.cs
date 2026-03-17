@@ -1,4 +1,4 @@
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     partial class PdfVintasoftBarcodeFieldPropertiesEditorControl
     {
@@ -32,9 +32,9 @@ namespace DemosCommonCode.Pdf
             this.mainTabControl = new System.Windows.Forms.TabControl();
             this.valueTabPage = new System.Windows.Forms.TabPage();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.paddingPanelControl1 = new DemosCommonCode.CustomControls.PaddingFEditorControl();
+            this.paddingPanelControl1 = new CommonCode.CustomControls.PaddingFEditorControl();
             this.fitBarcodeToAppearanceRectCheckBox = new System.Windows.Forms.CheckBox();
-            this.foregroundColorPanelControl = new DemosCommonCode.CustomControls.ColorPanelControl();
+            this.foregroundColorPanelControl = new CommonCode.CustomControls.ColorPanelControl();
             this.label7 = new System.Windows.Forms.Label();
             this.moduleWidthNumericUpDown = new System.Windows.Forms.NumericUpDown();
             this.moduleWidthLabel = new System.Windows.Forms.Label();
@@ -49,7 +49,7 @@ namespace DemosCommonCode.Pdf
             this.label1 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.calculateTabPage = new System.Windows.Forms.TabPage();
-            this.calculateActionEditorControl = new DemosCommonCode.Pdf.PdfActionEditorControl();
+            this.calculateActionEditorControl = new CommonCode.Pdf.PdfActionEditorControl();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.mainTabControl.SuspendLayout();
             this.valueTabPage.SuspendLayout();
@@ -376,11 +376,11 @@ namespace DemosCommonCode.Pdf
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TabPage calculateTabPage;
         private PdfActionEditorControl calculateActionEditorControl;
-        private DemosCommonCode.CustomControls.ColorPanelControl foregroundColorPanelControl;
+        private CommonCode.CustomControls.ColorPanelControl foregroundColorPanelControl;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.CheckBox fitBarcodeToAppearanceRectCheckBox;
         private System.Windows.Forms.GroupBox groupBox1;
-        private DemosCommonCode.CustomControls.PaddingFEditorControl paddingPanelControl1;
+        private CommonCode.CustomControls.PaddingFEditorControl paddingPanelControl1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
     }
 }

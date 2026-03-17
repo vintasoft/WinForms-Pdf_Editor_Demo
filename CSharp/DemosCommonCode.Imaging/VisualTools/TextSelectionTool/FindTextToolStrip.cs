@@ -7,7 +7,7 @@ using Vintasoft.Imaging.Text;
 using Vintasoft.Imaging.UI;
 using Vintasoft.Imaging.UI.VisualTools;
 
-namespace DemosCommonCode.Imaging
+namespace CommonCode.Imaging
 {
     /// <summary>
     /// Tool strip that allows to search text in a document document.
@@ -378,7 +378,7 @@ namespace DemosCommonCode.Imaging
                 {
                     // text was not found
                     if (!e.Canceled)
-                        MessageBox.Show(string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_THE_FOLLOWING_SPECIFIED_TEXT_WAS_NOT_FOUND_ARG0_ALT1, e.SearchEngine), PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_FIND_TEXT_ALT1, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show(string.Format(PdfEditorDemo.Localization.Strings.COMMONCODE_IMAGING_THE_FOLLOWING_SPECIFIED_TEXT_WAS_NOT_FOUND_ARG0_ALT1, e.SearchEngine), PdfEditorDemo.Localization.Strings.COMMONCODE_IMAGING_FIND_TEXT_ALT1, MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
                 else
                 {

@@ -120,9 +120,6 @@
   <data name="$this.Text" xml:space="preserve">
     <value>Content Graphics Properties</value>
   </data>
-  <data name="alphaConstantValueEditor.ValueUnitOfMeasure" xml:space="preserve">
-    <value></value>
-  </data>
   <data name="label5.Text" xml:space="preserve">
     <value>Color Blending Mode</value>
   </data>

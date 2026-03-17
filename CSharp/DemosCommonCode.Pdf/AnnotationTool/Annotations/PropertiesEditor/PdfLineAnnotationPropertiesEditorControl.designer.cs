@@ -1,4 +1,4 @@
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     partial class PdfLineAnnotationPropertiesEditorControl
     {
@@ -34,7 +34,7 @@ namespace DemosCommonCode.Pdf
             this.label2 = new System.Windows.Forms.Label();
             this.endPointLineEndingStyleComboBox = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.interiorColorColorPanelControl = new DemosCommonCode.CustomControls.ColorPanelControl();
+            this.interiorColorColorPanelControl = new CommonCode.CustomControls.ColorPanelControl();
             this.mainPanel = new System.Windows.Forms.Panel();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.mainPanel.SuspendLayout();
@@ -158,7 +158,7 @@ namespace DemosCommonCode.Pdf
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ComboBox endPointLineEndingStyleComboBox;
         private System.Windows.Forms.Label label3;
-        private DemosCommonCode.CustomControls.ColorPanelControl interiorColorColorPanelControl;
+        private CommonCode.CustomControls.ColorPanelControl interiorColorColorPanelControl;
         private System.Windows.Forms.Panel mainPanel;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
     }

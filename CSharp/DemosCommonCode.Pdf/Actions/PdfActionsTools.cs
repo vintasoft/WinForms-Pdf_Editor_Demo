@@ -5,7 +5,7 @@ using Vintasoft.Imaging.Pdf.Tree.InteractiveForms;
 using Vintasoft.Imaging.Pdf.UI;
 
 
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     /// <summary>
     /// Contains common static functions for PDF actions.
@@ -30,14 +30,14 @@ namespace DemosCommonCode.Pdf
                     VintasoftImage destImage = gotoActionExecutor.GetImageAssociatedWithAction(gotoAction);
                     if (destImage != null)
                     {
-                        return string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_ARG0_ARG1_PAGE_NUMBER_ARG2,
+                        return string.Format(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_ARG0_ARG1_PAGE_NUMBER_ARG2,
                                gotoAction.GetType().Name,
                                gotoAction.Destination.GetType().Name,
                                gotoActionExecutor.ImageViewer.Images.IndexOf(destImage) + 1);
                     }
                     if (gotoAction.Destination != null && gotoAction.Destination.Page != null)
                     {
-                        return string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_ARG0_ARG1_DOCUMENT_PAGE_NUMBER_ARG2,
+                        return string.Format(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_ARG0_ARG1_DOCUMENT_PAGE_NUMBER_ARG2,
                            gotoAction.GetType().Name,
                            gotoAction.Destination.GetType().Name,
                            gotoAction.Document.Pages.IndexOf(gotoAction.Destination.Page) + 1);
@@ -46,26 +46,26 @@ namespace DemosCommonCode.Pdf
             }
             else if (action is PdfNamedAction)
             {
-                return string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_NAMED_ACTION_ARG0,
+                return string.Format(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_NAMED_ACTION_ARG0,
                     ((PdfNamedAction)action).ActionName);
             }
             else if (action is PdfLaunchAction)
             {
-                return string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_LAUNCH_APPLICATION_ARG0,
+                return string.Format(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_LAUNCH_APPLICATION_ARG0,
                     ((PdfLaunchAction)action).WinCommandLine);
             }
             else if (action is PdfUriAction)
             {
-                return string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_OPEN_URL_ARG0_ALT1,
+                return string.Format(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_OPEN_URL_ARG0_ALT1,
                     ((PdfUriAction)action).URI);
             }
             else if (action is PdfSubmitFormAction)
             {
-                return string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SUBMIT_INTERACTIVE_FORM_ARG0_ARG1,
+                return string.Format(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_SUBMIT_INTERACTIVE_FORM_ARG0_ARG1,
                     ((PdfSubmitFormAction)action).SubmitFormat,
                     ((PdfSubmitFormAction)action).Url);
             }
-            return string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_ARG0_ACTION_ARG1, action.ActionType, action.GetType().Name);
+            return string.Format(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_ARG0_ACTION_ARG1, action.ActionType, action.GetType().Name);
         }
 
         /// <summary>
@@ -75,7 +75,7 @@ namespace DemosCommonCode.Pdf
         /// <returns>A description of "Activate" action of PDF annotation.</returns>
         public static string GetActivateActionDescription(PdfAnnotation annotation)
         {
-            PdfAction action = annotation.GetAction(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_ACTIVATE);
+            PdfAction action = annotation.GetAction(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_ACTIVATE);
             if (annotation.AdditionalActions != null)
             {
                 if (action == null)

@@ -5,7 +5,7 @@ using System.Windows.Forms;
 using Vintasoft.Imaging.Pdf;
 using Vintasoft.Imaging.Pdf.Tree.InteractiveForms;
 
-namespace DemosCommonCode.Pdf.Security
+namespace CommonCode.Pdf.Security
 {
     /// <summary>
     /// A form that allows to create new empty signature field.
@@ -132,7 +132,7 @@ namespace DemosCommonCode.Pdf.Security
             }
             else
             {
-                DemosTools.ShowWarningMessage(string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_DOCUMENT_HAS_ANNOTATION_WITH_NAME_ARG0_CHANGE_SIGNATURE_NAME, signatureNameTextBox.Text));
+                DemosTools.ShowWarningMessage(string.Format(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_SECURITY_DOCUMENT_HAS_ANNOTATION_WITH_NAME_ARG0_CHANGE_SIGNATURE_NAME, signatureNameTextBox.Text));
             }
         }
 

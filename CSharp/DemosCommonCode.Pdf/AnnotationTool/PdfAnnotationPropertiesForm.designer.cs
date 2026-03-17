@@ -1,4 +1,4 @@
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     partial class PdfAnnotationPropertiesForm
     {
@@ -38,7 +38,7 @@ namespace DemosCommonCode.Pdf
             this.fieldPropertiesTabPage = new System.Windows.Forms.TabPage();
             this.fieldPropertyGrid = new System.Windows.Forms.PropertyGrid();
             this.fieldTriggersTtabPage = new System.Windows.Forms.TabPage();
-            this.fieldTriggersEditorControl = new DemosCommonCode.Pdf.PdfTriggersEditorControl();
+            this.fieldTriggersEditorControl = new CommonCode.Pdf.PdfTriggersEditorControl();
             this.annotationTabPage = new System.Windows.Forms.TabPage();
             this.annotationPropertiesGroupBox = new System.Windows.Forms.GroupBox();
             this.annotationFontButton = new System.Windows.Forms.Button();
@@ -46,7 +46,7 @@ namespace DemosCommonCode.Pdf
             this.annotationPropertiesTabPage = new System.Windows.Forms.TabPage();
             this.annotationPropertyGrid = new System.Windows.Forms.PropertyGrid();
             this.annotationsTriggersTabPage = new System.Windows.Forms.TabPage();
-            this.annotationTriggersEditorControl = new DemosCommonCode.Pdf.PdfTriggersEditorControl();
+            this.annotationTriggersEditorControl = new CommonCode.Pdf.PdfTriggersEditorControl();
             this.appearanceGeneratorTabPage = new System.Windows.Forms.TabPage();
             this.appearanceGeneratorGroupBox = new System.Windows.Forms.GroupBox();
             this.appearanceGeneratorFontButton = new System.Windows.Forms.Button();

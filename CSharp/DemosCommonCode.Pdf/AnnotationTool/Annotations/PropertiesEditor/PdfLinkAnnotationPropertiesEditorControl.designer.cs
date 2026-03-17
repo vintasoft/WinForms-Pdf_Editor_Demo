@@ -1,4 +1,4 @@
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     partial class PdfLinkAnnotationPropertiesEditorControl
     {
@@ -31,7 +31,7 @@ namespace DemosCommonCode.Pdf
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PdfLinkAnnotationPropertiesEditorControl));
             this.mainPanel = new System.Windows.Forms.Panel();
             this.actionGroupBox = new System.Windows.Forms.GroupBox();
-            this.pdfActionEditorControl = new DemosCommonCode.Pdf.PdfActionEditorControl();
+            this.pdfActionEditorControl = new CommonCode.Pdf.PdfActionEditorControl();
             this.highlightingModeComboBox = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();

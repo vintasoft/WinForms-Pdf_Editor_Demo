@@ -10,10 +10,10 @@ using Vintasoft.Imaging.Pdf.UI;
 using Vintasoft.Imaging.UI;
 using Vintasoft.Imaging.UI.VisualTools;
 
-using DemosCommonCode.Imaging.Codecs;
+using CommonCode.Imaging.Codecs;
 
 
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     /// <summary>
     /// A control that allows to extract image-resources from PDF page.
@@ -141,14 +141,14 @@ namespace DemosCommonCode.Pdf
             if (resource.IsInline)
                 result = "Inline, ";
             else
-                result = string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_RESOURCE_03, resource.ObjectNumber.ToString());
+                result = string.Format(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_RESOURCE_03, resource.ObjectNumber.ToString());
 
             // size of resource
             result += string.Format("{0}x{1} px, ", resource.Width, resource.Height);
             // compression of resource
             result += string.Format("compression={0}, ", resource.Compression);
             // compressed size of resource
-            result += string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_ARG0_BYTES_ALT6, resource.Length);
+            result += string.Format(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_ARG0_BYTES_ALT6, resource.Length);
             return result;
         }
 

@@ -3,7 +3,7 @@ using System.Drawing;
 using System.IO;
 using System.Windows.Forms;
 
-using DemosCommonCode.Imaging;
+using CommonCode.Imaging;
 
 using Vintasoft.Imaging;
 using Vintasoft.Imaging.Codecs.Decoders;
@@ -13,7 +13,7 @@ using Vintasoft.Imaging.Office.OpenXml.Editor.Docx;
 #endif
 using Vintasoft.Imaging.UI;
 
-namespace DemosCommonCode.Office
+namespace CommonCode.Office
 {
     /// <summary>
     /// Contains collection of helper-algorithms for demo applications, which use VintaSoft Office .NET Plugin.
@@ -44,7 +44,7 @@ namespace DemosCommonCode.Office
         /// </summary>
         static OfficeDemosTools()
         {
-            _openDocumentDialog.Filter = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_OFFICE_ALL_SUPPORTED_DOCUMENTS_DOCXDOCTXTDOCXDOCTXT;
+            _openDocumentDialog.Filter = PdfEditorDemo.Localization.Strings.COMMONCODE_OFFICE_ALL_SUPPORTED_DOCUMENTS_DOCXDOCTXTDOCXDOCTXT;
         }
 
         #endregion
@@ -70,7 +70,7 @@ namespace DemosCommonCode.Office
                     _chartImages.Add(DemosResourcesManager.GetResourceAsStream(chartResourceName), true);
             }
             if (_chartImages.Count == 0)
-                throw new Exception(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_OFFICE_CHART_RESOURCES_WAS_NOT_FOUND);
+                throw new Exception(PdfEditorDemo.Localization.Strings.COMMONCODE_OFFICE_CHART_RESOURCES_WAS_NOT_FOUND);
 
             // create "Select image" form
             SelectImageForm selectImageForm = new SelectImageForm(_chartImages);
@@ -79,7 +79,7 @@ namespace DemosCommonCode.Office
             selectImageForm.ImagePreviewViewer.ThumbnailFlowStyle = ThumbnailFlowStyle.WrappedRows;
             selectImageForm.ImagePreviewViewer.SelectedThumbnailAppearance.BorderColor = Color.Black;
             selectImageForm.ImagePreviewViewer.FocusedThumbnailAppearance = selectImageForm.ImagePreviewViewer.SelectedThumbnailAppearance;
-            selectImageForm.Text = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_OFFICE_SELECT_A_CHART;
+            selectImageForm.Text = PdfEditorDemo.Localization.Strings.COMMONCODE_OFFICE_SELECT_A_CHART;
             selectImageForm.TopMost = true;
 
             if (selectImageForm.ShowDialog() != DialogResult.OK)
@@ -149,7 +149,7 @@ namespace DemosCommonCode.Office
             using (Stream documentStream = DemosResourcesManager.GetResourceAsStream("EmptyDocument.docx"))
             {
                 if (documentStream == null)
-                    throw new Exception(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_OFFICE_TXT_TO_DOCX_CONVERSION_ERROR_RESOURCE_EMPTYDOCUMENTDOCX_IS_NOT_FOUND_IN_DEMO_APPLICATION);
+                    throw new Exception(PdfEditorDemo.Localization.Strings.COMMONCODE_OFFICE_TXT_TO_DOCX_CONVERSION_ERROR_RESOURCE_EMPTYDOCUMENTDOCX_IS_NOT_FOUND_IN_DEMO_APPLICATION);
 
                 MemoryStream tempStream = new MemoryStream();
                 // create DOCX editor for "EmptyDocument.docx"

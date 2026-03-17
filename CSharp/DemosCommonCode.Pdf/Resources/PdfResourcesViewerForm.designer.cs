@@ -1,4 +1,4 @@
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     partial class PdfResourcesViewerForm
     {
@@ -30,8 +30,8 @@ namespace DemosCommonCode.Pdf
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PdfResourcesViewerForm));
             this.splitContainerMain = new System.Windows.Forms.SplitContainer();
-            this.DocumentResourceViewer = new DemosCommonCode.Pdf.PdfDocumentResourceViewer();
-            this.ResourceViewerControl = new DemosCommonCode.Pdf.PdfResourceViewerControl();
+            this.DocumentResourceViewer = new CommonCode.Pdf.PdfDocumentResourceViewer();
+            this.ResourceViewerControl = new CommonCode.Pdf.PdfResourceViewerControl();
             this.okButton = new System.Windows.Forms.Button();
             this.cancelButton1 = new System.Windows.Forms.Button();
             this.openFileDialog = new System.Windows.Forms.OpenFileDialog();

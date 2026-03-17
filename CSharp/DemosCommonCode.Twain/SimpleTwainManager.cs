@@ -6,7 +6,7 @@ using Vintasoft.Imaging;
 using Vintasoft.Twain; 
 #endif
 
-namespace DemosCommonCode.Twain
+namespace CommonCode.Twain
 {
     /// <summary>
     /// Represents a simple TWAIN manager.
@@ -77,7 +77,7 @@ namespace DemosCommonCode.Twain
                         if (!deviceManager.IsTwainAvailable)
                         {
                             // show dialog with error message
-                            MessageBox.Show(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_TWAIN_TWAIN_DEVICE_MANAGER_IS_NOT_FOUND, PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_TWAIN_TWAIN_DEVICE_MANAGER, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            MessageBox.Show(PdfEditorDemo.Localization.Strings.COMMONCODE_TWAIN_TWAIN_DEVICE_MANAGER_IS_NOT_FOUND, PdfEditorDemo.Localization.Strings.COMMONCODE_TWAIN_TWAIN_DEVICE_MANAGER, MessageBoxButtons.OK, MessageBoxIcon.Error);
 
                             // open a HTML page with article describing how to solve the problem
                             DemosTools.OpenBrowser("https://www.vintasoft.com/docs/vstwain-dotnet/Programming-Twain-Device_Manager.html");
@@ -100,14 +100,14 @@ namespace DemosCommonCode.Twain
                     catch (Exception ex)
                     {
                         // show dialog with error message
-                        DemosTools.ShowErrorMessage(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_TWAIN_TWAIN_DEVICE_MANAGER_ALT1, ex);
+                        DemosTools.ShowErrorMessage(PdfEditorDemo.Localization.Strings.COMMONCODE_TWAIN_TWAIN_DEVICE_MANAGER_ALT1, ex);
                         return;
                     }
 
                     // if devices are not found in the system
                     if (deviceManager.Devices.Count == 0)
                     {
-                        MessageBox.Show(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_TWAIN_DEVICES_ARE_NOT_FOUND);
+                        MessageBox.Show(PdfEditorDemo.Localization.Strings.COMMONCODE_TWAIN_DEVICES_ARE_NOT_FOUND);
                         return;
                     }
 
@@ -138,11 +138,11 @@ namespace DemosCommonCode.Twain
                                 break;
 
                             case AcquireModalState.ScanCanceled:
-                                MessageBox.Show(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_TWAIN_SCAN_CANCELED);
+                                MessageBox.Show(PdfEditorDemo.Localization.Strings.COMMONCODE_TWAIN_SCAN_CANCELED);
                                 break;
 
                             case AcquireModalState.ScanFailed:
-                                MessageBox.Show(string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_TWAIN_SCAN_FAILED_ARG0, device.ErrorString));
+                                MessageBox.Show(string.Format(PdfEditorDemo.Localization.Strings.COMMONCODE_TWAIN_SCAN_FAILED_ARG0, device.ErrorString));
                                 break;
                         }
                     }
@@ -214,7 +214,7 @@ namespace DemosCommonCode.Twain
                         catch (TwainDeviceManagerException ex)
                         {
                             // show dialog with error message
-                            MessageBox.Show(ex.Message, PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_TWAIN_TWAIN_DEVICE_MANAGER_ALT2, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            MessageBox.Show(ex.Message, PdfEditorDemo.Localization.Strings.COMMONCODE_TWAIN_TWAIN_DEVICE_MANAGER_ALT2, MessageBoxButtons.OK, MessageBoxIcon.Error);
 
                             return false;
                         }

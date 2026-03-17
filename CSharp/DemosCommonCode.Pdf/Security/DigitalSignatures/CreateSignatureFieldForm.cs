@@ -13,9 +13,9 @@ using Vintasoft.Imaging.Pdf;
 using Vintasoft.Imaging.Pdf.Tree.DigitalSignatures;
 using Vintasoft.Imaging.Pdf.Tree.InteractiveForms;
 
-using DemosCommonCode.Imaging;
+using CommonCode.Imaging;
 
-namespace DemosCommonCode.Pdf.Security
+namespace CommonCode.Pdf.Security
 {
     /// <summary>
     /// A form that allows to create new signature field or use existing signature field AND
@@ -170,7 +170,7 @@ namespace DemosCommonCode.Pdf.Security
             if (_certificate == null)
             {
                 // if empty signature field must NOT be created
-                if (MessageBox.Show(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_CERTIFICATE_IS_NOT_SELECTED_CREATE_EMPTY_SIGNATURE_FIELD, PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_CREATE_EMPTY_SIGNATURE, MessageBoxButtons.YesNo) == DialogResult.No)
+                if (MessageBox.Show(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_SECURITY_CERTIFICATE_IS_NOT_SELECTED_CREATE_EMPTY_SIGNATURE_FIELD, PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_SECURITY_CREATE_EMPTY_SIGNATURE, MessageBoxButtons.YesNo) == DialogResult.No)
                     // exit
                     return;
             }
@@ -212,7 +212,7 @@ namespace DemosCommonCode.Pdf.Security
             // if signature name is NOT valid
             if (!CheckSignatureName(signatureNameTextBox.Text))
             {
-                DemosTools.ShowWarningMessage(string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_DOCUMENT_HAS_ANNOTATION_WITH_NAME_ARG0, signatureNameTextBox.Text));
+                DemosTools.ShowWarningMessage(string.Format(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_SECURITY_DOCUMENT_HAS_ANNOTATION_WITH_NAME_ARG0, signatureNameTextBox.Text));
                 return false;
             }
 
@@ -320,7 +320,7 @@ namespace DemosCommonCode.Pdf.Security
                 }
                 catch (System.Security.Cryptography.CryptographicException ex)
                 {
-                    DemosTools.ShowErrorMessage(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_CERTIFICATE_ERROR, ex);
+                    DemosTools.ShowErrorMessage(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_SECURITY_CERTIFICATE_ERROR, ex);
                     return null;
                 }
             }
@@ -423,7 +423,7 @@ namespace DemosCommonCode.Pdf.Security
             {
                 if (!dialog.SelectedCertificate.HasPrivateKey)
                 {
-                    DemosTools.ShowErrorMessage(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_CERTIFICATE_DOES_NOT_HAVE_PRIVATE_KEY);
+                    DemosTools.ShowErrorMessage(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_SECURITY_CERTIFICATE_DOES_NOT_HAVE_PRIVATE_KEY);
                 }
                 else
                 {
@@ -479,7 +479,7 @@ namespace DemosCommonCode.Pdf.Security
         {
             using (ServerSettingsDialog serverSettings = new ServerSettingsDialog())
             {
-                serverSettings.Text = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_TIMESTAMP_SERVER_SETTINGS;
+                serverSettings.Text = PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_SECURITY_TIMESTAMP_SERVER_SETTINGS;
                 serverSettings.ServerUrl = TimestampServerUrl;
                 serverSettings.ServerUserName = TimestampServerUserName;
                 serverSettings.ServerPassword = TimestampServerPassword;

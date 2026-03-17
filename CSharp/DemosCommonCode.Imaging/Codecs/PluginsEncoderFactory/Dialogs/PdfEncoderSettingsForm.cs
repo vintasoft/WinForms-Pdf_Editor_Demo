@@ -7,7 +7,7 @@ using Vintasoft.Imaging.Codecs.Encoders;
 
 using Vintasoft.Imaging.Pdf;
 
-namespace DemosCommonCode.Imaging.Codecs.Dialogs
+namespace CommonCode.Imaging.Codecs.Dialogs
 {
     /// <summary>
     /// A form that allows to view and edit the PDF encoder settings.
@@ -629,7 +629,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             Control control = annotationsTabPage.GetChildAtPoint(e.Location);
             if (control == annotationsPdfAppearanceCheckBox)
             {
-                _annotationPdfIsNotFoundToolTip.Show(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_VINTASOFTIMAGINGANNOTATIONPDFDLL_ASSEMBLY_IS_NOT_FOUND, annotationsTabPage, e.X, e.Y);
+                _annotationPdfIsNotFoundToolTip.Show(PdfEditorDemo.Localization.Strings.COMMONCODE_IMAGING_CODECS_DIALOGS_VINTASOFTIMAGINGANNOTATIONPDFDLL_ASSEMBLY_IS_NOT_FOUND, annotationsTabPage, e.X, e.Y);
             }
             else
             {

@@ -1,4 +1,4 @@
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     partial class PdfTriggersEditorControl
     {
@@ -33,7 +33,7 @@ namespace DemosCommonCode.Pdf
             this.triggersListBox = new System.Windows.Forms.ListBox();
             this.triggerActionsGroupBox = new System.Windows.Forms.GroupBox();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.pdfActionEditorControl = new DemosCommonCode.Pdf.PdfActionEditorControl();
+            this.pdfActionEditorControl = new CommonCode.Pdf.PdfActionEditorControl();
             this.groupBox1.SuspendLayout();
             this.triggerActionsGroupBox.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
@@ -117,7 +117,7 @@ namespace DemosCommonCode.Pdf
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.ListBox triggersListBox;
         private System.Windows.Forms.GroupBox triggerActionsGroupBox;
-        private global::DemosCommonCode.Pdf.PdfActionEditorControl pdfActionEditorControl;
+        private global::CommonCode.Pdf.PdfActionEditorControl pdfActionEditorControl;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
     }
 }

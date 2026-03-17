@@ -8,7 +8,7 @@ using System.Windows.Forms;
 using Vintasoft.Imaging.Pdf.Security;
 using Vintasoft.Imaging.Pdf;
 
-namespace DemosCommonCode.Pdf.Security
+namespace CommonCode.Pdf.Security
 {
     /// <summary>
     /// A form that allows to edit the security properties of PDF document.
@@ -71,13 +71,13 @@ namespace DemosCommonCode.Pdf.Security
         {
             if (currentEncryptionSettings == null)
             {
-                dontChangeRadioButton.Text = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_DONT_CHANGE_NO_SECURITY;
+                dontChangeRadioButton.Text = PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_SECURITY_DONT_CHANGE_NO_SECURITY;
                 securityMethodLabel.Text = "";
                 compatibilityModeComboBox.SelectedIndex = -1;
             }
             else
             {
-                dontChangeRadioButton.Text = string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_DONT_CHANGE_ARG0, currentEncryptionSettings);
+                dontChangeRadioButton.Text = string.Format(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_SECURITY_DONT_CHANGE_ARG0, currentEncryptionSettings);
                 compatibilityModeComboBox.SelectedItem = currentEncryptionSettings.CompatibilityMode;
                 ShowSecurityMethodByCompatibility(currentEncryptionSettings.CompatibilityMode);
             }
@@ -157,7 +157,7 @@ namespace DemosCommonCode.Pdf.Security
                     // if both password boxes are empty
                     if (ownerPasswordTextBox.Text == "" && userPasswordTextBox.Text == "")
                     {
-                        DemosTools.ShowErrorMessage(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_PLEASE_ENTER_THE_OWNER_ANDOR_USER_PASSWORD);
+                        DemosTools.ShowErrorMessage(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_SECURITY_PLEASE_ENTER_THE_OWNER_ANDOR_USER_PASSWORD);
                         ownerPasswordTextBox.Focus();
                         return;
                     }
@@ -248,21 +248,21 @@ namespace DemosCommonCode.Pdf.Security
             switch (compatibility)
             {
                 case AdobeAcrobatCompatibilityMode.Acrobat4:
-                    securityMethodLabel.Text = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_40BIT_RC4_PDF_11;
+                    securityMethodLabel.Text = PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_SECURITY_40BIT_RC4_PDF_11;
                     break;
                 case AdobeAcrobatCompatibilityMode.Acrobat5:
                 case AdobeAcrobatCompatibilityMode.Acrobat6:
-                    securityMethodLabel.Text = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_128BIT_RC4_PDF_14;
+                    securityMethodLabel.Text = PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_SECURITY_128BIT_RC4_PDF_14;
                     break;
                 case AdobeAcrobatCompatibilityMode.Acrobat7:
                 case AdobeAcrobatCompatibilityMode.Acrobat8:
-                    securityMethodLabel.Text = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_128BIT_AES_PDF_16;
+                    securityMethodLabel.Text = PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_SECURITY_128BIT_AES_PDF_16;
                     break;
                 case AdobeAcrobatCompatibilityMode.Acrobat9:
-                    securityMethodLabel.Text = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_256BIT_AES_PDF_17;
+                    securityMethodLabel.Text = PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_SECURITY_256BIT_AES_PDF_17;
                     break;
                 case AdobeAcrobatCompatibilityMode.AcrobatX:
-                    securityMethodLabel.Text = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_256BIT_AES_PDF_20;
+                    securityMethodLabel.Text = PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_SECURITY_256BIT_AES_PDF_20;
                     break;
                 default:
                     securityMethodLabel.Text = "";

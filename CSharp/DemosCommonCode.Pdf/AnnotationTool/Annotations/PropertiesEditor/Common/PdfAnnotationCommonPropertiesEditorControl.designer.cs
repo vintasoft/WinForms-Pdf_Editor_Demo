@@ -1,4 +1,4 @@
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     partial class PdfAnnotationCommonPropertiesEditorControl
     {
@@ -37,7 +37,7 @@ namespace DemosCommonCode.Pdf
             this.printableCheckBox = new System.Windows.Forms.CheckBox();
             this.readOnlyCheckBox = new System.Windows.Forms.CheckBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.borderStyleControl = new DemosCommonCode.Pdf.PdfAnnotationBorderStyleControl();
+            this.borderStyleControl = new CommonCode.Pdf.PdfAnnotationBorderStyleControl();
             this.opacityPanel = new System.Windows.Forms.Panel();
             this.opacityNumericUpDown = new System.Windows.Forms.NumericUpDown();
             this.opacityTrackBar = new System.Windows.Forms.TrackBar();

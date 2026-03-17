@@ -15,11 +15,11 @@ using Vintasoft.Imaging.UI.VisualTools;
 using Vintasoft.Imaging.UIActions;
 using Vintasoft.Imaging.Utils;
 
-using DemosCommonCode.Imaging;
-using DemosCommonCode.Pdf.Security;
+using CommonCode.Imaging;
+using CommonCode.Pdf.Security;
 
 
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     /// <summary>
     /// Contains common static functions for PDF demos.
@@ -69,16 +69,16 @@ namespace DemosCommonCode.Pdf
         {
             if (document.IsChanged)
             {
-                DemosTools.ShowInfoMessage(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_DOCUMENT_IS_CHANGED_FIRST_PLEASE_SIGN_AND_SAVE_DOCUMENT);
+                DemosTools.ShowInfoMessage(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_DOCUMENT_IS_CHANGED_FIRST_PLEASE_SIGN_AND_SAVE_DOCUMENT);
                 return;
             }
             try
             {
                 int count = Vintasoft.Imaging.Pdf.Tree.DigitalSignatures.PdfDocumentLtv.AddLtvInfo(document);
                 if (count == 0)
-                    DemosTools.ShowInfoMessage(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_LTV_INFORMATION_IS_NOT_REQUIRED_FOR_THIS_DOCUMENT);
+                    DemosTools.ShowInfoMessage(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_LTV_INFORMATION_IS_NOT_REQUIRED_FOR_THIS_DOCUMENT);
                 else
-                    DemosTools.ShowInfoMessage(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_LTV_INFORMATION_IS_ADDED);
+                    DemosTools.ShowInfoMessage(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_LTV_INFORMATION_IS_ADDED);
             }
             catch (Exception ex)
             {
@@ -113,7 +113,7 @@ namespace DemosCommonCode.Pdf
             }
             if (!result)
             {
-                DemosTools.ShowWarningMessage(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_ONE_OR_SEVERAL_PAGES_ARE_NOT_SAVED_IN_PDF_DOCUMENT_SAVE_DOCUMENT_AND_TRY_AGAIN);
+                DemosTools.ShowWarningMessage(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_ONE_OR_SEVERAL_PAGES_ARE_NOT_SAVED_IN_PDF_DOCUMENT_SAVE_DOCUMENT_AND_TRY_AGAIN);
             }
             return result;
         }        
@@ -199,19 +199,19 @@ namespace DemosCommonCode.Pdf
             {
                 if (suggestToCreateDocumentInformationDictionary)
                 {
-                    if (MessageBox.Show(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_PDF_DOCUMENT_DOES_NOT_HAVE_THE_INFORMATION_DICTIONARY_DO_YOU_WANT_TO_CREATE_THE_INFORMATION_DICTIONARY, "", MessageBoxButtons.YesNo) == DialogResult.No)
+                    if (MessageBox.Show(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_PDF_DOCUMENT_DOES_NOT_HAVE_THE_INFORMATION_DICTIONARY_DO_YOU_WANT_TO_CREATE_THE_INFORMATION_DICTIONARY, "", MessageBoxButtons.YesNo) == DialogResult.No)
                         return;
                 }
                 else
                 {
-                    DemosTools.ShowInfoMessage(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_PDF_DOCUMENT_DOES_NOT_HAVE_THE_INFORMATION_DICTIONARY);
+                    DemosTools.ShowInfoMessage(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_PDF_DOCUMENT_DOES_NOT_HAVE_THE_INFORMATION_DICTIONARY);
                     return;
                 }
             }
 
             try
             {
-                using (PropertyGridForm dialog = new PropertyGridForm(document.DocumentInformation, PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_DOCUMENT_INFORMATION))
+                using (PropertyGridForm dialog = new PropertyGridForm(document.DocumentInformation, PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_DOCUMENT_INFORMATION))
                 {
                     if (propertyValueChangedEventHandler != null)
                         dialog.PropertyGrid.PropertyValueChanged += propertyValueChangedEventHandler;
@@ -291,11 +291,11 @@ namespace DemosCommonCode.Pdf
             PdfWidgetAnnotation widgetAnnotation = annotation as PdfWidgetAnnotation;
             if (widgetAnnotation != null)
             {
-                return string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_FORM_FIELD_ARG0_ARG1,
+                return string.Format(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_FORM_FIELD_ARG0_ARG1,
                     widgetAnnotation.Field.FullyQualifiedName,
                     widgetAnnotation.Field.GetType().Name);
             }
-            return string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_ARG0_ANNOTATION, annotation.AnnotationType);
+            return string.Format(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_ARG0_ANNOTATION, annotation.AnnotationType);
         }
 
         #endregion

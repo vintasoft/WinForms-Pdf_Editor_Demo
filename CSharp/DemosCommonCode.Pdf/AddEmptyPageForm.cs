@@ -6,7 +6,7 @@ using System.Windows.Forms;
 using Vintasoft.Imaging;
 using Vintasoft.Imaging.Pdf.Tree;
 
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     /// <summary>
     /// A form that allows to specify parameters of page, which should be added to a PDF document.
@@ -157,7 +157,7 @@ namespace DemosCommonCode.Pdf
             }
             catch (Exception exc)
             {
-                MessageBox.Show(exc.Message, PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_ERROR);
+                MessageBox.Show(exc.Message, PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_ERROR);
             }
         }
 
@@ -174,7 +174,7 @@ namespace DemosCommonCode.Pdf
             }
             catch (Exception exc)
             {
-                MessageBox.Show(exc.Message, PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_ERROR_ALT1);
+                MessageBox.Show(exc.Message, PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_ERROR_ALT1);
             }
         }
 

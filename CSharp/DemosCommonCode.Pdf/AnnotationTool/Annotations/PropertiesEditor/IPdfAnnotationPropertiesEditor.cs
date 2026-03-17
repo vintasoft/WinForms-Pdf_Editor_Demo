@@ -3,7 +3,7 @@
 using Vintasoft.Imaging.Pdf.Tree.Annotations;
 
 
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     /// <summary>
     /// Defines an interface for controls, which can change properties of PDF annotation.

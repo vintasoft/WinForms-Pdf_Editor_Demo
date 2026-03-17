@@ -1,4 +1,4 @@
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     partial class PdfInteractiveFormControl
     {
@@ -31,7 +31,7 @@ namespace DemosCommonCode.Pdf
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PdfInteractiveFormControl));
             this.components = new System.ComponentModel.Container();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.InteractiveFormFieldBuilder = new DemosCommonCode.Pdf.PdfInteractiveFormFieldBuilderControl();
+            this.InteractiveFormFieldBuilder = new CommonCode.Pdf.PdfInteractiveFormFieldBuilderControl();
             this.fieldContextMenuStrip = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.cutFieldToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.copyFieldToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -49,7 +49,7 @@ namespace DemosCommonCode.Pdf
             this.groupFormFieldsByPagesCheckBox = new System.Windows.Forms.CheckBox();
             this.showFieldNamesCheckBox = new System.Windows.Forms.CheckBox();
             this.mainPanel = new System.Windows.Forms.Panel();
-            this.interactiveFormFieldTree = new DemosCommonCode.Pdf.PdfInteractiveFormFieldTree();
+            this.interactiveFormFieldTree = new CommonCode.Pdf.PdfInteractiveFormFieldTree();
             this.addBarcodeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.addDigitalSignatureToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBox1.SuspendLayout();

@@ -1,4 +1,4 @@
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     partial class PdfBarcodeFieldPropertiesEditorControl
     {
@@ -44,7 +44,7 @@ namespace DemosCommonCode.Pdf
             this.errorCorrectionCoefficientComboBox = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
             this.calculateTabPage = new System.Windows.Forms.TabPage();
-            this.calculateActionEditorControl = new DemosCommonCode.Pdf.PdfActionEditorControl();
+            this.calculateActionEditorControl = new CommonCode.Pdf.PdfActionEditorControl();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.mainTabControl.SuspendLayout();
             this.valueTabPage.SuspendLayout();

@@ -10,7 +10,7 @@ using Vintasoft.Imaging.Text;
 using Vintasoft.Imaging.UI;
 using Vintasoft.Imaging.UI.VisualTools;
 
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     /// <summary>
     /// Contains common static functions for text markup on PDF page using PDF text markup annotation.

@@ -1,4 +1,4 @@
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     partial class PdfPolygonalAnnotationPropertiesEditorControl
     {
@@ -30,9 +30,9 @@ namespace DemosCommonCode.Pdf
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PdfPolygonalAnnotationPropertiesEditorControl));
             this.label1 = new System.Windows.Forms.Label();
-            this.interiorColorPanelControl = new DemosCommonCode.CustomControls.ColorPanelControl();
+            this.interiorColorPanelControl = new CommonCode.CustomControls.ColorPanelControl();
             this.mainPanel = new System.Windows.Forms.Panel();
-            this.pdfAnnotationBorderEffectEditorControl1 = new DemosCommonCode.CustomControls.PdfAnnotationBorderEffectEditorControl();
+            this.pdfAnnotationBorderEffectEditorControl1 = new CommonCode.CustomControls.PdfAnnotationBorderEffectEditorControl();
             this.label2 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.mainPanel.SuspendLayout();
@@ -127,10 +127,10 @@ namespace DemosCommonCode.Pdf
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private DemosCommonCode.CustomControls.ColorPanelControl interiorColorPanelControl;
+        private CommonCode.CustomControls.ColorPanelControl interiorColorPanelControl;
         private System.Windows.Forms.Panel mainPanel;
         private System.Windows.Forms.Label label2;
-        private DemosCommonCode.CustomControls.PdfAnnotationBorderEffectEditorControl pdfAnnotationBorderEffectEditorControl1;
+        private CommonCode.CustomControls.PdfAnnotationBorderEffectEditorControl pdfAnnotationBorderEffectEditorControl1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
     }
 }

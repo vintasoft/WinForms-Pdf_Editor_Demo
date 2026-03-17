@@ -7,7 +7,7 @@ using Vintasoft.Imaging.Pdf.Tree.Annotations;
 using Vintasoft.Imaging.Pdf.Tree.InteractiveForms;
 
 
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     /// <summary>
     /// A control that allows to view and edit triggers of PDF annotation or
@@ -22,7 +22,7 @@ namespace DemosCommonCode.Pdf
         /// The available actions of annotation.
         /// </summary>
         string[] _annotationActions = new string[] {
-            PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_ACTIVATE_ALT1,
+            PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_ACTIVATE_ALT1,
             "Focus",
             "Blur",
             "Mouse Up",
@@ -42,8 +42,8 @@ namespace DemosCommonCode.Pdf
         {
             "Calculate",
             "Keystroke",
-            PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_FORMAT,
-            PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_VALIDATE,
+            PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_FORMAT,
+            PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_VALIDATE,
         };
 
         /// <summary>
@@ -51,12 +51,12 @@ namespace DemosCommonCode.Pdf
         /// </summary>
         string[] _documentCatalogActions = new string[]
         {
-            PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_OPEN,
-            PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_PRINTING,
-            PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_PRINTED,
-            PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SAVING,
-            PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SAVED,
-            PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_CLOSING,
+            PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_OPEN,
+            PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_PRINTING,
+            PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_PRINTED,
+            PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_SAVING,
+            PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_SAVED,
+            PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_CLOSING,
         };
 
         /// <summary>
@@ -64,8 +64,8 @@ namespace DemosCommonCode.Pdf
         /// </summary>
         string[] _pageActions = new string[]
         {
-            PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_OPEN_ALT1,
-            PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_CLOSE,
+            PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_OPEN_ALT1,
+            PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_CLOSE,
         };
 
         /// <summary>
@@ -201,7 +201,7 @@ namespace DemosCommonCode.Pdf
             }
             catch (InvalidCastException exc)
             {
-                string message = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_UNEXPECTED_ACTION_TYPE + exc.Message;
+                string message = PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_UNEXPECTED_ACTION_TYPE + exc.Message;
                 DemosTools.ShowErrorMessage(message);
 
                 pdfActionEditorControl.Action = null;

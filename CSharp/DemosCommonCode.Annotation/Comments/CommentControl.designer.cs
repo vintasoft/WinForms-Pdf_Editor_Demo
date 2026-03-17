@@ -1,5 +1,5 @@
 #if !REMOVE_ANNOTATION_PLUGIN
-namespace DemosCommonCode.Annotation
+namespace CommonCode.Annotation
 {
     partial class CommentControl
     {

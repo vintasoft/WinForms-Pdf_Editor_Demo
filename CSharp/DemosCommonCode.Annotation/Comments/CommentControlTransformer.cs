@@ -6,7 +6,7 @@ using System.Windows.Forms;
 using Vintasoft.Imaging;
 using Vintasoft.Imaging.UI;
 
-namespace DemosCommonCode.Annotation
+namespace CommonCode.Annotation
 {
     /// <summary>
     /// Represents an interaction transformer that transforms <see cref="CommentControl"/>.
@@ -58,7 +58,7 @@ namespace DemosCommonCode.Annotation
             _imageViewer = GetImageViewer(commentControl);
 
             if (_imageViewer == null)
-                throw new InvalidOperationException(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_ANNOTATION_THE_IMAGE_VIEWER_IS_NOT_FOUND);
+                throw new InvalidOperationException(PdfEditorDemo.Localization.Strings.COMMONCODE_ANNOTATION_THE_IMAGE_VIEWER_IS_NOT_FOUND);
 
             SizeChangeMargin = 6;
             LocationChangeTopMargin = Math.Max(1, commentControl.TopPanelSize.Height);
@@ -250,7 +250,7 @@ namespace DemosCommonCode.Annotation
                 {
                     // WinForms generates Win32Exception if 15 or more FlowLayoutPanel are nested
 
-                    MessageBox.Show(ex.Message, PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_ANNOTATION_ERROR_ALT2, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show(ex.Message, PdfEditorDemo.Localization.Strings.COMMONCODE_ANNOTATION_ERROR_ALT2, MessageBoxButtons.OK, MessageBoxIcon.Error);
                     _hasVisibilityUpdatingError = true;
                 }
             }

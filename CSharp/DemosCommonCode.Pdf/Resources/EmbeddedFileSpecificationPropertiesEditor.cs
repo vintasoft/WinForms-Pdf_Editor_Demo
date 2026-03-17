@@ -6,7 +6,7 @@ using Vintasoft.Imaging.Pdf;
 using Vintasoft.Imaging.Pdf.Tree;
 
 
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     /// <summary>
     /// A panel that allows to show and change information about the file embedded into PDF document.
@@ -149,7 +149,7 @@ namespace DemosCommonCode.Pdf
         {
             string result = string.Empty;
             if (size != 0)
-                result = string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_ARG0_BYTES_ALT4, size);
+                result = string.Format(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_ARG0_BYTES_ALT4, size);
             return result;
         }
 

@@ -10,7 +10,7 @@ using Vintasoft.Imaging.Pdf.UI.Annotations;
 using Vintasoft.Imaging.UI;
 using Vintasoft.Imaging.UI.VisualTools;
 
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     /// <summary>
     /// Executor of "Form Submit" actions that transmits the names and values of 
@@ -76,8 +76,8 @@ namespace DemosCommonCode.Pdf
             PdfSubmitFormAction submitFormAction = action as PdfSubmitFormAction;
             if (submitFormAction != null)
             {
-                string message = string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_FORM_SUBMIT_DOCUMENT_NEEDS_CONNECTION_TO_ARG0RN_DO_YOU_WANT_TO_ALLOW_CONNECTION, submitFormAction.Url);
-                if (MessageBox.Show(message, PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SUBMIT_ACTION, MessageBoxButtons.YesNo, MessageBoxIcon.Warning) != DialogResult.Yes)
+                string message = string.Format(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_FORM_SUBMIT_DOCUMENT_NEEDS_CONNECTION_TO_ARG0RN_DO_YOU_WANT_TO_ALLOW_CONNECTION, submitFormAction.Url);
+                if (MessageBox.Show(message, PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_SUBMIT_ACTION, MessageBoxButtons.YesNo, MessageBoxIcon.Warning) != DialogResult.Yes)
                     return false;
 
                 // get fields to submit
@@ -86,8 +86,8 @@ namespace DemosCommonCode.Pdf
                 if (fields.Length == 0)
                 {
                     string errorMessage = string.Format(
-                        PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_THE_INTERACTIVE_FORM_FIELDS_CAN_NOT_BE_SUBMITTED_TO_ARG0 +
-                        PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_BECAUSE_THE_DOCUMENT_DOES_NOT_CONTAIN_THE_INTERACTIVE_FORM_FIELDS,
+                        PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_THE_INTERACTIVE_FORM_FIELDS_CAN_NOT_BE_SUBMITTED_TO_ARG0 +
+                        PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_BECAUSE_THE_DOCUMENT_DOES_NOT_CONTAIN_THE_INTERACTIVE_FORM_FIELDS,
                         submitFormAction.Url);
                     DemosTools.ShowErrorMessage(errorMessage);
                     return false;
@@ -109,7 +109,7 @@ namespace DemosCommonCode.Pdf
                             }
                         }
 
-                        DemosTools.ShowErrorMessage(string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_FIELD_ARG0_IS_REQUIRED_BUT_NOT_FILLED, field.FullyQualifiedName));
+                        DemosTools.ShowErrorMessage(string.Format(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_FIELD_ARG0_IS_REQUIRED_BUT_NOT_FILLED, field.FullyQualifiedName));
                         return false;
                     }
                 }
@@ -137,11 +137,11 @@ namespace DemosCommonCode.Pdf
                             break;
 
                         case PdfInteractiveFormFieldSubmitFormat.FDF:
-                            DemosTools.ShowErrorMessage(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_FDF_SUBMIT_FORMAT_IS_NOT_SUPPORTED_NOW);
+                            DemosTools.ShowErrorMessage(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_FDF_SUBMIT_FORMAT_IS_NOT_SUPPORTED_NOW);
                             return false;
 
                         case PdfInteractiveFormFieldSubmitFormat.HTML:
-                            DemosTools.ShowErrorMessage(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_HTML_SUBMIT_FORMAT_IS_NOT_SUPPORTED_NOW);
+                            DemosTools.ShowErrorMessage(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_HTML_SUBMIT_FORMAT_IS_NOT_SUPPORTED_NOW);
                             return false;
                     }
 

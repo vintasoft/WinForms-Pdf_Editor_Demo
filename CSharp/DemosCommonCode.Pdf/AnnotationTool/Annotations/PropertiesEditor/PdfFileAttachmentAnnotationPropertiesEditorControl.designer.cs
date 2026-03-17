@@ -1,4 +1,4 @@
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     partial class PdfFileAttachmentAnnotationPropertiesEditorControl
     {
@@ -31,7 +31,7 @@ namespace DemosCommonCode.Pdf
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PdfFileAttachmentAnnotationPropertiesEditorControl));
             this.mainPanel = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.embeddedFileSpecificationViewer = new DemosCommonCode.Pdf.EmbeddedFileSpecificationPropertiesEditor();
+            this.embeddedFileSpecificationViewer = new CommonCode.Pdf.EmbeddedFileSpecificationPropertiesEditor();
             this.iconComboBox = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();

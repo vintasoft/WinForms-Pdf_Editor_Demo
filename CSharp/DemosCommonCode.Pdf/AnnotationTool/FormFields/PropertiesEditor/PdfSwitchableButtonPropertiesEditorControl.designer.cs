@@ -1,4 +1,4 @@
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     partial class PdfSwitchableButtonPropertiesEditorControl
     {
@@ -31,7 +31,7 @@ namespace DemosCommonCode.Pdf
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PdfSwitchableButtonPropertiesEditorControl));
             this.mainPanel = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.pdfAnnotationAppearancesEditorControl = new DemosCommonCode.Pdf.PdfAnnotationAppearancesEditorControl();
+            this.pdfAnnotationAppearancesEditorControl = new CommonCode.Pdf.PdfAnnotationAppearancesEditorControl();
             this.currentAppearanceStateComboBox = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();

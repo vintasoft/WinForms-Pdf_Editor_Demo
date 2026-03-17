@@ -6,7 +6,7 @@ using Vintasoft.Imaging.Pdf;
 using Vintasoft.Imaging.Pdf.Tree.OptionalContent;
 using Vintasoft.Imaging.UI;
 
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     /// <summary>
     /// A form that allows to view and change settings of optional content (layers) of PDF document.
@@ -169,10 +169,10 @@ namespace DemosCommonCode.Pdf
             if (configuration.AutoStates != null)
             {
                 // the message
-                string message = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_OPTIONAL_CONTENT_CONFIGURATION_HAS_AUTO_STATES_TO_CHANGE_LAYERS_ORDER_AUTO_STATES_SHOULD_BE_DELETEDRN +
-                    PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_DELETE_AUTO_STATESRNPRESS_YES_TO_DELETE_AUTO_STATES;
+                string message = PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_OPTIONAL_CONTENT_CONFIGURATION_HAS_AUTO_STATES_TO_CHANGE_LAYERS_ORDER_AUTO_STATES_SHOULD_BE_DELETEDRN +
+                    PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_DELETE_AUTO_STATESRNPRESS_YES_TO_DELETE_AUTO_STATES;
                 // if auto states must be deleted
-                if (MessageBox.Show(message, PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_INFO, MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                if (MessageBox.Show(message, PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_INFO, MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                 {
                     // delete auto states
                     configuration.AutoStates = null;
@@ -199,7 +199,7 @@ namespace DemosCommonCode.Pdf
             if (name == "")
             {
                 // set predefined name for configuration
-                name = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_NO_NAME;
+                name = PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_NO_NAME;
             }
             // add configuration to the cofiguration combo box
             configurationsComboBox.Items.Add(name);

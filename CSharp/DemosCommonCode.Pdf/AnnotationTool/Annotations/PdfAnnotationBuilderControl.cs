@@ -15,14 +15,14 @@ using Vintasoft.Imaging.UI;
 using Vintasoft.Imaging.UI.VisualTools.UserInteraction;
 using Vintasoft.Imaging.UI.WinForms.Controls;
 
-using DemosCommonCode.CustomControls;
-using DemosCommonCode.Office;
+using CommonCode.CustomControls;
+using CommonCode.Office;
 
 #if !REMOVE_OFFICE_PLUGIN
 using Vintasoft.Imaging.Office.OpenXml.UI.VisualTools.UserInteraction;
 #endif
 
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     /// <summary>
     /// A panel that allows to add and build new PDF annotations on a PDF page.
@@ -893,7 +893,7 @@ namespace DemosCommonCode.Pdf
                         break;
 
                     case AnnotationType.Text_Comment:
-                        AddAndBuildTextAnnotation(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_COMMENT);
+                        AddAndBuildTextAnnotation(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_COMMENT);
                         break;
 
                     case AnnotationType.Text_Check:
@@ -921,11 +921,11 @@ namespace DemosCommonCode.Pdf
                         break;
 
                     case AnnotationType.Text_Help:
-                        AddAndBuildTextAnnotation(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_HELP);
+                        AddAndBuildTextAnnotation(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_HELP);
                         break;
 
                     case AnnotationType.Text_Insert:
-                        AddAndBuildTextAnnotation(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_INSERT);
+                        AddAndBuildTextAnnotation(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_INSERT);
                         break;
 
                     case AnnotationType.Text_Key:

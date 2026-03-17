@@ -12,7 +12,7 @@ using Vintasoft.Imaging.UI.VisualTools;
 using Vintasoft.Imaging.UI.VisualTools.UserInteraction;
 
 
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     /// <summary>
     /// A control that allows to view and edit PDF annotations.
@@ -318,13 +318,13 @@ namespace DemosCommonCode.Pdf
 
                 // get message for message box
                 string message =
-                    PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_OPEN_FILE_ARG0_ARG1_USING_THE_DEFAULT_APPLICATION_OR_SAVE_FILE_TO_A_DISKRN +
-                    PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_PRESS_YES_TO_OPEN_FILE_USING_THE_DEFAULT_APPLICATIONRN +
-                    PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_PRESS_NO_TO_SAVE_FILE_TO_A_DISKRN +
-                    PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_PRESS_CANCEL_TO_CANCEL_THIS_ACTION;
+                    PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_OPEN_FILE_ARG0_ARG1_USING_THE_DEFAULT_APPLICATION_OR_SAVE_FILE_TO_A_DISKRN +
+                    PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_PRESS_YES_TO_OPEN_FILE_USING_THE_DEFAULT_APPLICATIONRN +
+                    PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_PRESS_NO_TO_SAVE_FILE_TO_A_DISKRN +
+                    PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_PRESS_CANCEL_TO_CANCEL_THIS_ACTION;
                 // show message box
                 DialogResult result = MessageBox.Show(string.Format(message, filename, description),
-                    PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_EMBEDDED_FILE, MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question);
+                    PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_EMBEDDED_FILE, MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question);
 
                 // if dialog result is YES
                 if (result == DialogResult.Yes)

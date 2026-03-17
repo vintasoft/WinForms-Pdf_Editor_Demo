@@ -1,4 +1,4 @@
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     partial class PdfAnnotationBorderStyleControl
     {
@@ -36,7 +36,7 @@ namespace DemosCommonCode.Pdf
             this.label6 = new System.Windows.Forms.Label();
             this.dashPatternComboBox = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.colorPanelControl = new DemosCommonCode.CustomControls.ColorPanelControl();
+            this.colorPanelControl = new CommonCode.CustomControls.ColorPanelControl();
             this.mainPanel = new System.Windows.Forms.Panel();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             ((System.ComponentModel.ISupportInitialize)(this.widthNumericUpDown)).BeginInit();
@@ -194,7 +194,7 @@ namespace DemosCommonCode.Pdf
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.ComboBox styleTypeComboBox;
         private System.Windows.Forms.Label label7;
-        private DemosCommonCode.CustomControls.ColorPanelControl colorPanelControl;
+        private CommonCode.CustomControls.ColorPanelControl colorPanelControl;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.ComboBox dashPatternComboBox;
         private System.Windows.Forms.Label label2;

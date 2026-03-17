@@ -11,7 +11,7 @@ using Vintasoft.Imaging.Pdf.UI.Annotations;
 using Vintasoft.Imaging.Utils;
 using Vintasoft.Imaging.Pdf.Tree.Annotations;
 
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     /// <summary>
     /// A tree view for PDF interactive form.
@@ -304,7 +304,7 @@ namespace DemosCommonCode.Pdf
                         if (page != null)
                         {
                             // add interactive fields of PDF page to the tree control
-                            AddFields(page, images[i], string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_PAGE_ARG0_ALT1, i + 1));
+                            AddFields(page, images[i], string.Format(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_PAGE_ARG0_ALT1, i + 1));
                         }
                     }
                 }
@@ -316,7 +316,7 @@ namespace DemosCommonCode.Pdf
                     // for each PDF page
                     for (int i = 0; i < document.Pages.Count; i++)
                         // add interactive fields of PDF page to the tree control
-                        AddFields(document.Pages[i], null, string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_PAGE_ARG0_ALT2, i + 1));
+                        AddFields(document.Pages[i], null, string.Format(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_PAGE_ARG0_ALT2, i + 1));
                 }
             }
             finally

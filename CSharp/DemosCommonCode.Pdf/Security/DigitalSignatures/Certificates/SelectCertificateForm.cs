@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Security.Cryptography.X509Certificates;
 using System.Windows.Forms;
 
-namespace DemosCommonCode.Pdf.Security
+namespace CommonCode.Pdf.Security
 {
     /// <summary>
     /// A form that allows to select the X509 Certificate from list.
@@ -99,7 +99,7 @@ namespace DemosCommonCode.Pdf.Security
         private void addButton_Click(object sender, EventArgs e)
         {
             OpenFileDialog openFileDialog = new OpenFileDialog();
-            openFileDialog.Filter = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_PKCS12_PFX_FILESPFX;
+            openFileDialog.Filter = PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_SECURITY_PKCS12_PFX_FILESPFX;
             if (openFileDialog.ShowDialog() == DialogResult.OK)
             {
                 try
@@ -152,7 +152,7 @@ namespace DemosCommonCode.Pdf.Security
             else
                 result = certificate.GetNameInfo(X509NameType.SimpleName, false);
             if (certificate.HasPrivateKey)
-                result += PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY__HAS_PRIVATE_KEY;
+                result += PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_SECURITY__HAS_PRIVATE_KEY;
             return result;
         }
 

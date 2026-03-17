@@ -6,7 +6,7 @@ using Vintasoft.Imaging.Pdf;
 using Vintasoft.Imaging.Pdf.Tree;
 using Vintasoft.Imaging.UI;
 
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     /// <summary>
     /// A form that allows to view and edit parameters of PDF bookmark.
@@ -179,8 +179,8 @@ namespace DemosCommonCode.Pdf
                     else
                     {
                         DemosTools.ShowWarningMessage(
-                            PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_BOOKMARKS,
-                            string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_PAGE_ARG0_IS_NOT_FROM_THIS_PDF_DOCUMENT_SAVE_DOCUMENT_AND_TRY_AGAIN, pageNumber.Value));
+                            PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_BOOKMARKS,
+                            string.Format(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_PAGE_ARG0_IS_NOT_FROM_THIS_PDF_DOCUMENT_SAVE_DOCUMENT_AND_TRY_AGAIN, pageNumber.Value));
                         return;
                     }
                 }

@@ -4,7 +4,7 @@ using System.Windows.Forms;
 using Vintasoft.Imaging;
 using Vintasoft.Imaging.Codecs.Encoders;
 
-using DemosCommonCode.Imaging.Codecs.Dialogs;
+using CommonCode.Imaging.Codecs.Dialogs;
 
 
 namespace PdfEditorDemo

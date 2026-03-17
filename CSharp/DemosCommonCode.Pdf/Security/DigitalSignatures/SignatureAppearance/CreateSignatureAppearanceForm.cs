@@ -10,10 +10,10 @@ using Vintasoft.Imaging.Pdf;
 using Vintasoft.Imaging.Pdf.Tree.DigitalSignatures;
 using Vintasoft.Imaging.Pdf.UI;
 
-using DemosCommonCode.Imaging;
-using DemosCommonCode.Imaging.Codecs;
+using CommonCode.Imaging;
+using CommonCode.Imaging.Codecs;
 
-namespace DemosCommonCode.Pdf.Security
+namespace CommonCode.Pdf.Security
 {
     /// <summary>
     /// A form that allows to create signature field appearance.
@@ -302,20 +302,20 @@ namespace DemosCommonCode.Pdf.Security
             PdfSignatureInformation signatureInfo = signatureAppearance.SignatureField.SignatureInfo;
             if (signatureInfo == null)
             {
-                text.AppendLine(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_EMPTY_SIGNATURE_FIELD);                
+                text.AppendLine(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_SECURITY_EMPTY_SIGNATURE_FIELD);                
             }
             else
             {
                 if (addName && signatureInfo.SignerName != null)
-                    text.AppendLine(string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_DIGITALLY_SIGNED_BY_ARG0, signatureInfo.SignerName));
+                    text.AppendLine(string.Format(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_SECURITY_DIGITALLY_SIGNED_BY_ARG0, signatureInfo.SignerName));
                 if (addReason && signatureInfo.Reason != null)
-                    text.AppendLine(string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_REASON_ARG0_ALT1, signatureInfo.Reason));
+                    text.AppendLine(string.Format(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_SECURITY_REASON_ARG0_ALT1, signatureInfo.Reason));
                 if (addLocation && signatureInfo.Location != null)
-                    text.AppendLine(string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_LOCATION_ARG0_ALT1, signatureInfo.Location));
+                    text.AppendLine(string.Format(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_SECURITY_LOCATION_ARG0_ALT1, signatureInfo.Location));
                 if (addContactInfo && signatureInfo.ContactInfo != null)
-                    text.AppendLine(string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_CONTACT_ARG0, signatureInfo.ContactInfo));
+                    text.AppendLine(string.Format(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_SECURITY_CONTACT_ARG0, signatureInfo.ContactInfo));
                 if (addDate && signatureInfo.SigningTime != DateTime.MinValue)
-                    text.AppendLine(string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_SIGNING_DATERNARG0, signatureInfo.SigningTime.ToString("f", CultureInfo.InvariantCulture)));
+                    text.AppendLine(string.Format(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_SECURITY_SIGNING_DATERNARG0, signatureInfo.SigningTime.ToString("f", CultureInfo.InvariantCulture)));
             }
 
             if (text.Length > 0)

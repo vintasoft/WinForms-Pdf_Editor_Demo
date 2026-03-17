@@ -6,7 +6,7 @@ using Vintasoft.Imaging.Pdf.Tree;
 using Vintasoft.Imaging.Pdf.Tree.Annotations;
 
 
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     /// <summary>
     /// A control that allows to view and edit properties of

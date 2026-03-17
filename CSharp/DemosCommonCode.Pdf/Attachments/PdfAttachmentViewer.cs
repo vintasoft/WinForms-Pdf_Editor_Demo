@@ -11,7 +11,7 @@ using Vintasoft.Imaging.Pdf;
 using Vintasoft.Imaging.Pdf.Tree;
 using Vintasoft.Imaging.Pdf.Tree.FileAttachments;
 
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     /// <summary>
     /// Represents the PDF attachment viewer.
@@ -628,7 +628,7 @@ namespace DemosCommonCode.Pdf
 
             Columns.Clear();
             // file name / folder name
-            Columns.Add(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_NAME_ALT1);
+            Columns.Add(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_NAME_ALT1);
             if (_document.Attachments.Schema != null)
             {
                 List<string> columnDisplayedNameList = new List<string>();
@@ -650,22 +650,22 @@ namespace DemosCommonCode.Pdf
                             switch (schemaField.DataType)
                             {
                                 case AttachmentCollectionSchemaFieldDataType.CompressedSize:
-                                    columnDisplayedNameList.Add(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_COMPRESSED_SIZE);
+                                    columnDisplayedNameList.Add(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_COMPRESSED_SIZE);
                                     break;
                                 case AttachmentCollectionSchemaFieldDataType.UncompressedSize:
-                                    columnDisplayedNameList.Add(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_UNCOMPRESSED_SIZE);
+                                    columnDisplayedNameList.Add(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_UNCOMPRESSED_SIZE);
                                     break;
                                 case AttachmentCollectionSchemaFieldDataType.ModificationDate:
-                                    columnDisplayedNameList.Add(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_MODIFICATION_DATE);
+                                    columnDisplayedNameList.Add(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_MODIFICATION_DATE);
                                     break;
                                 case AttachmentCollectionSchemaFieldDataType.CreationDate:
-                                    columnDisplayedNameList.Add(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_CREATION_DATE);
+                                    columnDisplayedNameList.Add(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_CREATION_DATE);
                                     break;
                                 case AttachmentCollectionSchemaFieldDataType.Filename:
-                                    columnDisplayedNameList.Add(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_FILE_NAME);
+                                    columnDisplayedNameList.Add(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_FILE_NAME);
                                     break;
                                 case AttachmentCollectionSchemaFieldDataType.FileDescription:
-                                    columnDisplayedNameList.Add(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_DESCRIPTION);
+                                    columnDisplayedNameList.Add(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_DESCRIPTION);
                                     break;
                                 default:
                                     columnDisplayedNameList.Add(schemaFieldName);
@@ -695,9 +695,9 @@ namespace DemosCommonCode.Pdf
             }
             else
             {
-                Columns.Add(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_COMPRESSED_SIZE_ALT1);
-                Columns.Add(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_UNCOMPRESSED_SIZE_ALT1);
-                Columns.Add(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_MODIFIED_DATE);
+                Columns.Add(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_COMPRESSED_SIZE_ALT1);
+                Columns.Add(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_UNCOMPRESSED_SIZE_ALT1);
+                Columns.Add(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_MODIFIED_DATE);
             }
 
             for (int i = 0; i < Columns.Count; i++)
@@ -1069,7 +1069,7 @@ namespace DemosCommonCode.Pdf
         private static string FileSizeToString(long sizeInBytes)
         {
             if (sizeInBytes < 1024)
-                return string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_ARG0_BYTES, sizeInBytes);
+                return string.Format(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_ARG0_BYTES, sizeInBytes);
             if (sizeInBytes < 1024 * 1024)
                 return string.Format("{0:f1} KB", sizeInBytes / 1024f);
             return string.Format("{0:f1} MB", sizeInBytes / (1024f * 1024f));
@@ -1318,7 +1318,7 @@ namespace DemosCommonCode.Pdf
                     if (File.Exists(filename))
                     {
                         DialogResult dialogResult = MessageBox.Show(string.Format(
-                            PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_FILE_ARG0_ALREADY_EXISTS_OVERRIDE_IT, 
+                            PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_FILE_ARG0_ALREADY_EXISTS_OVERRIDE_IT, 
                             filename), "", MessageBoxButtons.YesNoCancel);
                         if (dialogResult == DialogResult.Cancel)
                             return false;

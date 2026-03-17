@@ -4,7 +4,7 @@ using System.Net;
 using System.Text;
 using System.Windows.Forms;
 
-namespace DemosCommonCode
+namespace CommonCode
 {
     /// <summary>
     /// A form that allows to upload data to a web server.
@@ -67,12 +67,12 @@ namespace DemosCommonCode
                 stream.Read(data, 0, data.Length);
 
                 // start asynchronous data uploading
-                AppendLog(string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_UPLOAD_ARG0_BYTES_TO_ARG1, data.Length, url));
+                AppendLog(string.Format(PdfEditorDemo.Localization.Strings.COMMONCODE_UPLOAD_ARG0_BYTES_TO_ARG1, data.Length, url));
                 webClient.UploadDataAsync(new Uri(url), data);
             }
             catch (Exception ex)
             {
-                AppendLog(string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_ERROR_ARG0, ex.ToString()));
+                AppendLog(string.Format(PdfEditorDemo.Localization.Strings.COMMONCODE_ERROR_ARG0, ex.ToString()));
             }
         }
 
@@ -84,11 +84,11 @@ namespace DemosCommonCode
             closeButton.Enabled = true;
             ((WebClient)sender).UploadDataCompleted -= webClient_UploadDataCompleted;
             if (e.Cancelled)
-                AppendLog(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_CANCELED);
+                AppendLog(PdfEditorDemo.Localization.Strings.COMMONCODE_CANCELED);
             if (e.Error != null)
-                AppendLog(string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_ERROR_ARG0_ALT1, e.Error.Message));
+                AppendLog(string.Format(PdfEditorDemo.Localization.Strings.COMMONCODE_ERROR_ARG0_ALT1, e.Error.Message));
             else
-                AppendLog(string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_RESPONSE_RECEIVED_ARG0, Encoding.ASCII.GetString(e.Result)));
+                AppendLog(string.Format(PdfEditorDemo.Localization.Strings.COMMONCODE_RESPONSE_RECEIVED_ARG0, Encoding.ASCII.GetString(e.Result)));
         }
 
         /// <summary>

@@ -1,4 +1,4 @@
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     partial class PdfAnnotationsControl
     {
@@ -31,9 +31,9 @@ namespace DemosCommonCode.Pdf
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PdfAnnotationsControl));
             this.components = new System.ComponentModel.Container();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.AnnotationBuilderControl = new DemosCommonCode.Pdf.PdfAnnotationBuilderControl();
+            this.AnnotationBuilderControl = new CommonCode.Pdf.PdfAnnotationBuilderControl();
             this.mainPanel = new System.Windows.Forms.Panel();
-            this.pdfAnnotationToolAnnotationsControl = new DemosCommonCode.Pdf.PdfAnnotationToolAnnotationsControl();
+            this.pdfAnnotationToolAnnotationsControl = new CommonCode.Pdf.PdfAnnotationToolAnnotationsControl();
             this.groupBox1.SuspendLayout();
             this.mainPanel.SuspendLayout();
             this.SuspendLayout();

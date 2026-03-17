@@ -1,4 +1,4 @@
-namespace DemosCommonCode.Pdf
+﻿namespace CommonCode.Pdf
 {
     partial class PdfRadioButtonPropertiesEditorControl
     {
@@ -28,7 +28,7 @@ namespace DemosCommonCode.Pdf
         /// </summary>
         private void InitializeComponent()
         {
-            this.pdfInteractiveFormSwitchableButtonPropertiesEditorControl = new DemosCommonCode.Pdf.PdfSwitchableButtonPropertiesEditorControl();
+            this.pdfInteractiveFormSwitchableButtonPropertiesEditorControl = new CommonCode.Pdf.PdfSwitchableButtonPropertiesEditorControl();
             this.SuspendLayout();
             // 
             // pdfInteractiveFormSwitchableButtonPropertiesEditorControl

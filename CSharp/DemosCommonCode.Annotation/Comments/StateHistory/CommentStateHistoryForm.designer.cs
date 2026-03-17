@@ -1,4 +1,4 @@
-namespace DemosCommonCode.Annotation
+namespace CommonCode.Annotation
 {
     partial class CommentStateHistoryForm
     {
@@ -29,7 +29,7 @@ namespace DemosCommonCode.Annotation
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CommentStateHistoryForm));
-            this.commentStateHistoryControl1 = new DemosCommonCode.Annotation.CommentStateHistoryControl();
+            this.commentStateHistoryControl1 = new CommonCode.Annotation.CommentStateHistoryControl();
             this.okButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 

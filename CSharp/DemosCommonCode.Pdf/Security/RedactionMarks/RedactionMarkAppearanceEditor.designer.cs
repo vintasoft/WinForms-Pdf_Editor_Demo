@@ -1,4 +1,4 @@
-namespace DemosCommonCode.Pdf.Security
+namespace CommonCode.Pdf.Security
 {
     partial class RedactionMarkAppearanceEditor
     {
@@ -39,14 +39,14 @@ namespace DemosCommonCode.Pdf.Security
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.alignmentComboBox = new System.Windows.Forms.ComboBox();
             this.overlayTextBox = new System.Windows.Forms.TextBox();
-            this.fontColorPanelControl = new DemosCommonCode.CustomControls.ColorPanelControl();
+            this.fontColorPanelControl = new CommonCode.CustomControls.ColorPanelControl();
             this.fontButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.fontSizeNumericUpDown = new System.Windows.Forms.NumericUpDown();
             this.label2 = new System.Windows.Forms.Label();
             this.autoFontSizeCheckBox = new System.Windows.Forms.CheckBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.fillColorPanelControl = new DemosCommonCode.CustomControls.ColorPanelControl();
+            this.fillColorPanelControl = new CommonCode.CustomControls.ColorPanelControl();
             this.fillColorGroupBox = new System.Windows.Forms.GroupBox();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.fillColorLabel = new System.Windows.Forms.Label();
@@ -54,7 +54,7 @@ namespace DemosCommonCode.Pdf.Security
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.borderColorLabel = new System.Windows.Forms.Label();
             this.borderWidthNumericUpDown = new System.Windows.Forms.NumericUpDown();
-            this.borderColorPanelControl = new DemosCommonCode.CustomControls.ColorPanelControl();
+            this.borderColorPanelControl = new CommonCode.CustomControls.ColorPanelControl();
             this.borderWidthLabel = new System.Windows.Forms.Label();
             this.isBorderPropertiesEnabledCheckBox = new System.Windows.Forms.CheckBox();
             this.groupBox4.SuspendLayout();
@@ -447,8 +447,8 @@ namespace DemosCommonCode.Pdf.Security
         private System.Windows.Forms.TextBox overlayTextBox;
         private System.Windows.Forms.ComboBox alignmentComboBox;
         private System.Windows.Forms.Label label3;
-        private DemosCommonCode.CustomControls.ColorPanelControl fillColorPanelControl;
-        private DemosCommonCode.CustomControls.ColorPanelControl fontColorPanelControl;
+        private CommonCode.CustomControls.ColorPanelControl fillColorPanelControl;
+        private CommonCode.CustomControls.ColorPanelControl fontColorPanelControl;
         private System.Windows.Forms.GroupBox fillColorGroupBox;
         private System.Windows.Forms.Label fillColorLabel;
         private System.Windows.Forms.GroupBox borderPropertiesGroupBox;

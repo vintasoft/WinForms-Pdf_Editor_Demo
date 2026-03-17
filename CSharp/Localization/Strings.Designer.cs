@@ -63,773 +63,770 @@ namespace PdfEditorDemo.Localization {
         /// <summary>
         ///   Looks up a localized string similar to About....
         /// </summary>
-        internal static string DEMOSCOMMONCODE_ABOUT {
+        internal static string COMMONCODE_ABOUT {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_ABOUT", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_ABOUT", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to {0} ({1} replies).
         /// </summary>
-        internal static string DEMOSCOMMONCODE_ANNOTATION_ARG0_ARG1_REPLIES {
+        internal static string COMMONCODE_ANNOTATION_ARG0_ARG1_REPLIES {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_ANNOTATION_ARG0_ARG1_REPLIES", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_ANNOTATION_ARG0_ARG1_REPLIES", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to {0} history.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_ANNOTATION_ARG0_HISTORY {
+        internal static string COMMONCODE_ANNOTATION_ARG0_HISTORY {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_ANNOTATION_ARG0_HISTORY", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_ANNOTATION_ARG0_HISTORY", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to {0} sets by {1}.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_ANNOTATION_ARG0_SETS_BY_ARG1 {
+        internal static string COMMONCODE_ANNOTATION_ARG0_SETS_BY_ARG1 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_ANNOTATION_ARG0_SETS_BY_ARG1", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_ANNOTATION_ARG0_SETS_BY_ARG1", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Error.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_ANNOTATION_ERROR {
+        internal static string COMMONCODE_ANNOTATION_ERROR {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_ANNOTATION_ERROR", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_ANNOTATION_ERROR", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Error.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_ANNOTATION_ERROR_ALT1 {
+        internal static string COMMONCODE_ANNOTATION_ERROR_ALT1 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_ANNOTATION_ERROR_ALT1", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_ANNOTATION_ERROR_ALT1", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Error.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_ANNOTATION_ERROR_ALT2 {
+        internal static string COMMONCODE_ANNOTATION_ERROR_ALT2 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_ANNOTATION_ERROR_ALT2", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_ANNOTATION_ERROR_ALT2", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to The image viewer is not found..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_ANNOTATION_THE_IMAGE_VIEWER_IS_NOT_FOUND {
+        internal static string COMMONCODE_ANNOTATION_THE_IMAGE_VIEWER_IS_NOT_FOUND {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_ANNOTATION_THE_IMAGE_VIEWER_IS_NOT_FOUND", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_ANNOTATION_THE_IMAGE_VIEWER_IS_NOT_FOUND", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to {0} has invalid format..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_ARG0_HAS_INVALID_FORMAT {
+        internal static string COMMONCODE_ARG0_HAS_INVALID_FORMAT {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_ARG0_HAS_INVALID_FORMAT", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_ARG0_HAS_INVALID_FORMAT", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Canceled..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_CANCELED {
+        internal static string COMMONCODE_CANCELED {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_CANCELED", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_CANCELED", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Click on the panel if current color must be changed..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_CUSTOMCONTROLS_CLICK_ON_THE_PANEL_IF_CURRENT_COLOR_MUST_BE_CHANGED {
+        internal static string COMMONCODE_CUSTOMCONTROLS_CLICK_ON_THE_PANEL_IF_CURRENT_COLOR_MUST_BE_CHANGED {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_CUSTOMCONTROLS_CLICK_ON_THE_PANEL_IF_CURRENT_COLOR_MUST_BE_CHANGE" +
-                        "D", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_CUSTOMCONTROLS_CLICK_ON_THE_PANEL_IF_CURRENT_COLOR_MUST_BE_CHANGED", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Click the button if the current color must be changed..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_CUSTOMCONTROLS_CLICK_THE_BUTTON_IF_THE_CURRENT_COLOR_MUST_BE_CHANGED {
+        internal static string COMMONCODE_CUSTOMCONTROLS_CLICK_THE_BUTTON_IF_THE_CURRENT_COLOR_MUST_BE_CHANGED {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_CUSTOMCONTROLS_CLICK_THE_BUTTON_IF_THE_CURRENT_COLOR_MUST_BE_CHAN" +
-                        "GED", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_CUSTOMCONTROLS_CLICK_THE_BUTTON_IF_THE_CURRENT_COLOR_MUST_BE_CHANGED", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Click the button if the current color must be set to the default color..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_CUSTOMCONTROLS_CLICK_THE_BUTTON_IF_THE_CURRENT_COLOR_MUST_BE_SET_TO_THE_DEFAULT_COLOR {
+        internal static string COMMONCODE_CUSTOMCONTROLS_CLICK_THE_BUTTON_IF_THE_CURRENT_COLOR_MUST_BE_SET_TO_THE_DEFAULT_COLOR {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_CUSTOMCONTROLS_CLICK_THE_BUTTON_IF_THE_CURRENT_COLOR_MUST_BE_SET_" +
-                        "TO_THE_DEFAULT_COLOR", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_CUSTOMCONTROLS_CLICK_THE_BUTTON_IF_THE_CURRENT_COLOR_MUST_BE_SET_TO_TH" +
+                        "E_DEFAULT_COLOR", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Default.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_CUSTOMCONTROLS_DEFAULT {
+        internal static string COMMONCODE_CUSTOMCONTROLS_DEFAULT {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_CUSTOMCONTROLS_DEFAULT", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_CUSTOMCONTROLS_DEFAULT", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Double click on the panel if the current color must be changed..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_CUSTOMCONTROLS_DOUBLE_CLICK_ON_THE_PANEL_IF_THE_CURRENT_COLOR_MUST_BE_CHANGED {
+        internal static string COMMONCODE_CUSTOMCONTROLS_DOUBLE_CLICK_ON_THE_PANEL_IF_THE_CURRENT_COLOR_MUST_BE_CHANGED {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_CUSTOMCONTROLS_DOUBLE_CLICK_ON_THE_PANEL_IF_THE_CURRENT_COLOR_MUS" +
-                        "T_BE_CHANGED", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_CUSTOMCONTROLS_DOUBLE_CLICK_ON_THE_PANEL_IF_THE_CURRENT_COLOR_MUST_BE_" +
+                        "CHANGED", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Double click on the text box for changing the font..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_CUSTOMCONTROLS_DOUBLE_CLICK_ON_THE_TEXT_BOX_FOR_CHANGING_THE_FONT {
+        internal static string COMMONCODE_CUSTOMCONTROLS_DOUBLE_CLICK_ON_THE_TEXT_BOX_FOR_CHANGING_THE_FONT {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_CUSTOMCONTROLS_DOUBLE_CLICK_ON_THE_TEXT_BOX_FOR_CHANGING_THE_FONT" +
-                        "", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_CUSTOMCONTROLS_DOUBLE_CLICK_ON_THE_TEXT_BOX_FOR_CHANGING_THE_FONT", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Help.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_CUSTOMCONTROLS_HELP {
+        internal static string COMMONCODE_CUSTOMCONTROLS_HELP {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_CUSTOMCONTROLS_HELP", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_CUSTOMCONTROLS_HELP", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Value Name.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_CUSTOMCONTROLS_VALUE_NAME {
+        internal static string COMMONCODE_CUSTOMCONTROLS_VALUE_NAME {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_CUSTOMCONTROLS_VALUE_NAME", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_CUSTOMCONTROLS_VALUE_NAME", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Error.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_ERROR {
+        internal static string COMMONCODE_ERROR {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_ERROR", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_ERROR", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Error.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_ERROR_ALT1 {
+        internal static string COMMONCODE_ERROR_ALT1 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_ERROR_ALT1", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_ERROR_ALT1", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Error.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_ERROR_ALT2 {
+        internal static string COMMONCODE_ERROR_ALT2 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_ERROR_ALT2", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_ERROR_ALT2", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Error.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_ERROR_ALT3 {
+        internal static string COMMONCODE_ERROR_ALT3 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_ERROR_ALT3", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_ERROR_ALT3", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Error: {0}.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_ERROR_ARG0 {
+        internal static string COMMONCODE_ERROR_ARG0 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_ERROR_ARG0", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_ERROR_ARG0", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Error: {0}.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_ERROR_ARG0_ALT1 {
+        internal static string COMMONCODE_ERROR_ARG0_ALT1 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_ERROR_ARG0_ALT1", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_ERROR_ARG0_ALT1", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to  ({0} matches).
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING__ARG0_MATCHES {
+        internal static string COMMONCODE_IMAGING__ARG0_MATCHES {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING__ARG0_MATCHES", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING__ARG0_MATCHES", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to   Finished ({0})..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING__FINISHED_ARG0 {
+        internal static string COMMONCODE_IMAGING__FINISHED_ARG0 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING__FINISHED_ARG0", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING__FINISHED_ARG0", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to  Save the measurement annotations to a file.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING__SAVE_THE_MEASUREMENT_ANNOTATIONS_TO_A_FILE {
+        internal static string COMMONCODE_IMAGING__SAVE_THE_MEASUREMENT_ANNOTATIONS_TO_A_FILE {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING__SAVE_THE_MEASUREMENT_ANNOTATIONS_TO_A_FILE", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING__SAVE_THE_MEASUREMENT_ANNOTATIONS_TO_A_FILE", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Analyze.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_ANALYZE {
+        internal static string COMMONCODE_IMAGING_ANALYZE {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_ANALYZE", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_ANALYZE", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Angle Measure.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_ANGLE_MEASURE {
+        internal static string COMMONCODE_IMAGING_ANGLE_MEASURE {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_ANGLE_MEASURE", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_ANGLE_MEASURE", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Another print process is still working..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_ANOTHER_PRINT_PROCESS_IS_STILL_WORKING {
+        internal static string COMMONCODE_IMAGING_ANOTHER_PRINT_PROCESS_IS_STILL_WORKING {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_ANOTHER_PRINT_PROCESS_IS_STILL_WORKING", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_ANOTHER_PRINT_PROCESS_IS_STILL_WORKING", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Applied Commands.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_APPLIED_COMMANDS {
+        internal static string COMMONCODE_IMAGING_APPLIED_COMMANDS {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_APPLIED_COMMANDS", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_APPLIED_COMMANDS", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Applied Commands.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_APPLIED_COMMANDS_ALT1 {
+        internal static string COMMONCODE_IMAGING_APPLIED_COMMANDS_ALT1 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_APPLIED_COMMANDS_ALT1", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_APPLIED_COMMANDS_ALT1", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to {0} ({1} matches).
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_ARG0_ARG1_MATCHES {
+        internal static string COMMONCODE_IMAGING_ARG0_ARG1_MATCHES {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_ARG0_ARG1_MATCHES", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_ARG0_ARG1_MATCHES", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to {0} ({1} matches).
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_ARG0_ARG1_MATCHES_ALT1 {
+        internal static string COMMONCODE_IMAGING_ARG0_ARG1_MATCHES_ALT1 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_ARG0_ARG1_MATCHES_ALT1", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_ARG0_ARG1_MATCHES_ALT1", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to {0} processing.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_ARG0_PROCESSING {
+        internal static string COMMONCODE_IMAGING_ARG0_PROCESSING {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_ARG0_PROCESSING", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_ARG0_PROCESSING", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Authorization Result.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_AUTHORIZATION_RESULT {
+        internal static string COMMONCODE_IMAGING_AUTHORIZATION_RESULT {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_AUTHORIZATION_RESULT", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_AUTHORIZATION_RESULT", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Authorized as: &apos;{0}&apos;.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_AUTHORIZED_AS_ARG0 {
+        internal static string COMMONCODE_IMAGING_AUTHORIZED_AS_ARG0 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_AUTHORIZED_AS_ARG0", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_AUTHORIZED_AS_ARG0", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Binary Annotations(*.vsabm)|*.vsabm|XMP Annotations(*.xmpm)|*.xmpm|All Formats(*.vsabm;*.xmpm)|*.vsabm;*.xmpm.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_BINARY_ANNOTATIONSVSABMVSABMXMP_ANNOTATIONSXMPMXMPMALL_FORMATSVSABMXMPMVSABMXMPM {
+        internal static string COMMONCODE_IMAGING_BINARY_ANNOTATIONSVSABMVSABMXMP_ANNOTATIONSXMPMXMPMALL_FORMATSVSABMXMPMVSABMXMPM {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_BINARY_ANNOTATIONSVSABMVSABMXMP_ANNOTATIONSXMPMXMPMALL_FO" +
-                        "RMATSVSABMXMPMVSABMXMPM", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_BINARY_ANNOTATIONSVSABMVSABMXMP_ANNOTATIONSXMPMXMPMALL_FORMATS" +
+                        "VSABMXMPMVSABMXMPM", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Binary Annotations|*.vsabm|XMP Annotations|*.xmpm.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_BINARY_ANNOTATIONSVSABMXMP_ANNOTATIONSXMPM {
+        internal static string COMMONCODE_IMAGING_BINARY_ANNOTATIONSVSABMXMP_ANNOTATIONSXMPM {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_BINARY_ANNOTATIONSVSABMXMP_ANNOTATIONSXMPM", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_BINARY_ANNOTATIONSVSABMXMP_ANNOTATIONSXMPM", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Cancel.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CANCEL {
+        internal static string COMMONCODE_IMAGING_CANCEL {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CANCEL", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CANCEL", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Canceled..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CANCELED {
+        internal static string COMMONCODE_IMAGING_CANCELED {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CANCELED", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CANCELED", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Canceled..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CANCELED_ALT1 {
+        internal static string COMMONCODE_IMAGING_CANCELED_ALT1 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CANCELED_ALT1", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CANCELED_ALT1", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Close.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CLOSE {
+        internal static string COMMONCODE_IMAGING_CLOSE {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CLOSE", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CLOSE", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to BMP Files|*.bmp|.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_BMP_FILESBMP {
+        internal static string COMMONCODE_IMAGING_CODECS_BMP_FILESBMP {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_BMP_FILESBMP", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_BMP_FILESBMP", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Can not find encoder for &apos;{0}&apos;..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_CAN_NOT_FIND_ENCODER_FOR_ARG0 {
+        internal static string COMMONCODE_IMAGING_CODECS_CAN_NOT_FIND_ENCODER_FOR_ARG0 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_CAN_NOT_FIND_ENCODER_FOR_ARG0", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_CAN_NOT_FIND_ENCODER_FOR_ARG0", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Can not find encoder for &apos;{0}&apos;..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_CAN_NOT_FIND_ENCODER_FOR_ARG0_ALT1 {
+        internal static string COMMONCODE_IMAGING_CODECS_CAN_NOT_FIND_ENCODER_FOR_ARG0_ALT1 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_CAN_NOT_FIND_ENCODER_FOR_ARG0_ALT1", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_CAN_NOT_FIND_ENCODER_FOR_ARG0_ALT1", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Confirm overwrite.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_CONFIRM_OVERWRITE {
+        internal static string COMMONCODE_IMAGING_CODECS_CONFIRM_OVERWRITE {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_CONFIRM_OVERWRITE", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_CONFIRM_OVERWRITE", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Cursor Files|*.cur|.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_CURSOR_FILESCUR {
+        internal static string COMMONCODE_IMAGING_CODECS_CURSOR_FILESCUR {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_CURSOR_FILESCUR", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_CURSOR_FILESCUR", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Best Compression.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_BEST_COMPRESSION {
+        internal static string COMMONCODE_IMAGING_CODECS_DIALOGS_BEST_COMPRESSION {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_BEST_COMPRESSION", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_DIALOGS_BEST_COMPRESSION", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Best Speed.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_BEST_SPEED {
+        internal static string COMMONCODE_IMAGING_CODECS_DIALOGS_BEST_SPEED {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_BEST_SPEED", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_DIALOGS_BEST_SPEED", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Fast.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_FAST {
+        internal static string COMMONCODE_IMAGING_CODECS_DIALOGS_FAST {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_FAST", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_DIALOGS_FAST", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Image segmentation settings.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_IMAGE_SEGMENTATION_SETTINGS {
+        internal static string COMMONCODE_IMAGING_CODECS_DIALOGS_IMAGE_SEGMENTATION_SETTINGS {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_IMAGE_SEGMENTATION_SETTINGS", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_DIALOGS_IMAGE_SEGMENTATION_SETTINGS", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Important: some data from annotations will be lost. Do you want to continue anyway?.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_IMPORTANT_SOME_DATA_FROM_ANNOTATIONS_WILL_BE_LOST_DO_YOU_WANT_TO_CONTINUE_ANYWAY {
+        internal static string COMMONCODE_IMAGING_CODECS_DIALOGS_IMPORTANT_SOME_DATA_FROM_ANNOTATIONS_WILL_BE_LOST_DO_YOU_WANT_TO_CONTINUE_ANYWAY {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_IMPORTANT_SOME_DATA_FROM_ANNOTATIONS_WILL_" +
-                        "BE_LOST_DO_YOU_WANT_TO_CONTINUE_ANYWAY", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_DIALOGS_IMPORTANT_SOME_DATA_FROM_ANNOTATIONS_WILL_BE_LO" +
+                        "ST_DO_YOU_WANT_TO_CONTINUE_ANYWAY", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Normal.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_NORMAL {
+        internal static string COMMONCODE_IMAGING_CODECS_DIALOGS_NORMAL {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_NORMAL", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_DIALOGS_NORMAL", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Normal.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_NORMAL_ALT1 {
+        internal static string COMMONCODE_IMAGING_CODECS_DIALOGS_NORMAL_ALT1 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_NORMAL_ALT1", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_DIALOGS_NORMAL_ALT1", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Normal.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_NORMAL_ALT2 {
+        internal static string COMMONCODE_IMAGING_CODECS_DIALOGS_NORMAL_ALT2 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_NORMAL_ALT2", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_DIALOGS_NORMAL_ALT2", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Tile height must be multiple 16..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_TILE_HEIGHT_MUST_BE_MULTIPLE_16 {
+        internal static string COMMONCODE_IMAGING_CODECS_DIALOGS_TILE_HEIGHT_MUST_BE_MULTIPLE_16 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_TILE_HEIGHT_MUST_BE_MULTIPLE_16", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_DIALOGS_TILE_HEIGHT_MUST_BE_MULTIPLE_16", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Tile width must be multiple 16..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_TILE_WIDTH_MUST_BE_MULTIPLE_16 {
+        internal static string COMMONCODE_IMAGING_CODECS_DIALOGS_TILE_WIDTH_MUST_BE_MULTIPLE_16 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_TILE_WIDTH_MUST_BE_MULTIPLE_16", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_DIALOGS_TILE_WIDTH_MUST_BE_MULTIPLE_16", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to value.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_VALUE {
+        internal static string COMMONCODE_IMAGING_CODECS_DIALOGS_VALUE {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_VALUE", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_DIALOGS_VALUE", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to value.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_VALUE_ALT1 {
+        internal static string COMMONCODE_IMAGING_CODECS_DIALOGS_VALUE_ALT1 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_VALUE_ALT1", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_DIALOGS_VALUE_ALT1", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to value.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_VALUE_ALT2 {
+        internal static string COMMONCODE_IMAGING_CODECS_DIALOGS_VALUE_ALT2 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_VALUE_ALT2", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_DIALOGS_VALUE_ALT2", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to value.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_VALUE_ALT3 {
+        internal static string COMMONCODE_IMAGING_CODECS_DIALOGS_VALUE_ALT3 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_VALUE_ALT3", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_DIALOGS_VALUE_ALT3", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to value.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_VALUE_ALT4 {
+        internal static string COMMONCODE_IMAGING_CODECS_DIALOGS_VALUE_ALT4 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_VALUE_ALT4", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_DIALOGS_VALUE_ALT4", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Vintasoft.Imaging.Annotation.Pdf.dll assembly is not found..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_VINTASOFTIMAGINGANNOTATIONPDFDLL_ASSEMBLY_IS_NOT_FOUND {
+        internal static string COMMONCODE_IMAGING_CODECS_DIALOGS_VINTASOFTIMAGINGANNOTATIONPDFDLL_ASSEMBLY_IS_NOT_FOUND {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_VINTASOFTIMAGINGANNOTATIONPDFDLL_ASSEMBLY_" +
-                        "IS_NOT_FOUND", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_DIALOGS_VINTASOFTIMAGINGANNOTATIONPDFDLL_ASSEMBLY_IS_NO" +
+                        "T_FOUND", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Warning.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_WARNING {
+        internal static string COMMONCODE_IMAGING_CODECS_DIALOGS_WARNING {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_WARNING", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_DIALOGS_WARNING", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to EMF Files|*.emf|.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_EMF_FILESEMF {
+        internal static string COMMONCODE_IMAGING_CODECS_EMF_FILESEMF {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_EMF_FILESEMF", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_EMF_FILESEMF", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to File &apos;{0}&apos; already exists. Overwrite it?.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_FILE_ARG0_ALREADY_EXISTS_OVERWRITE_IT {
+        internal static string COMMONCODE_IMAGING_CODECS_FILE_ARG0_ALREADY_EXISTS_OVERWRITE_IT {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_FILE_ARG0_ALREADY_EXISTS_OVERWRITE_IT", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_FILE_ARG0_ALREADY_EXISTS_OVERWRITE_IT", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to GIF Files|*.gif|.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_GIF_FILESGIF {
+        internal static string COMMONCODE_IMAGING_CODECS_GIF_FILESGIF {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_GIF_FILESGIF", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_GIF_FILESGIF", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Icon Files|*.ico|.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_ICON_FILESICO {
+        internal static string COMMONCODE_IMAGING_CODECS_ICON_FILESICO {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_ICON_FILESICO", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_ICON_FILESICO", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to JPEG Files|*.jpg;*.jpeg;*.jfif|.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_JPEG_FILESJPGJPEGJFIF {
+        internal static string COMMONCODE_IMAGING_CODECS_JPEG_FILESJPGJPEGJFIF {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_JPEG_FILESJPGJPEGJFIF", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_JPEG_FILESJPGJPEGJFIF", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to JPEG-LS Files|*.jls|.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_JPEGLS_FILESJLS {
+        internal static string COMMONCODE_IMAGING_CODECS_JPEGLS_FILESJLS {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_JPEGLS_FILESJLS", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_JPEGLS_FILESJLS", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Ndpi.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_NDPI {
+        internal static string COMMONCODE_IMAGING_CODECS_NDPI {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_NDPI", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_NDPI", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to PBM/PGM/PPM files|*.pbm;*.pgm;*.ppm|.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_PBMPGMPPM_FILESPBMPGMPPM {
+        internal static string COMMONCODE_IMAGING_CODECS_PBMPGMPPM_FILESPBMPGMPPM {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_PBMPGMPPM_FILESPBMPGMPPM", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_PBMPGMPPM_FILESPBMPGMPPM", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to PCX Files|*.pcx.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_PCX_FILESPCX {
+        internal static string COMMONCODE_IMAGING_CODECS_PCX_FILESPCX {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_PCX_FILESPCX", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_PCX_FILESPCX", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to PNG Files|*.png|.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_PNG_FILESPNG {
+        internal static string COMMONCODE_IMAGING_CODECS_PNG_FILESPNG {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_PNG_FILESPNG", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_PNG_FILESPNG", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to PSD Files|*.psd|.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_PSD_FILESPSD {
+        internal static string COMMONCODE_IMAGING_CODECS_PSD_FILESPSD {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_PSD_FILESPSD", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_PSD_FILESPSD", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to PSD Files|*.psd|.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_PSD_FILESPSD_ALT1 {
+        internal static string COMMONCODE_IMAGING_CODECS_PSD_FILESPSD_ALT1 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_PSD_FILESPSD_ALT1", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_PSD_FILESPSD_ALT1", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to SVG Files|*.svg|.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_SVG_FILESSVG {
+        internal static string COMMONCODE_IMAGING_CODECS_SVG_FILESSVG {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_SVG_FILESSVG", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_SVG_FILESSVG", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to TGA files|*.tga|.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_TGA_FILESTGA {
+        internal static string COMMONCODE_IMAGING_CODECS_TGA_FILESTGA {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_TGA_FILESTGA", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_TGA_FILESTGA", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to TIFF Files|*.tif;*.tiff|.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_TIFF_FILESTIFTIFF {
+        internal static string COMMONCODE_IMAGING_CODECS_TIFF_FILESTIFTIFF {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_TIFF_FILESTIFTIFF", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_TIFF_FILESTIFTIFF", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to WMF Files|*.wmf.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_WMF_FILESWMF {
+        internal static string COMMONCODE_IMAGING_CODECS_WMF_FILESWMF {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_WMF_FILESWMF", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_WMF_FILESWMF", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Collapse All.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_COLLAPSE_ALL {
+        internal static string COMMONCODE_IMAGING_COLLAPSE_ALL {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_COLLAPSE_ALL", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_COLLAPSE_ALL", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to ICC profiles|*.icc;*.icm|All files|*.*.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_COLORMANAGEMENT_ICC_PROFILESICCICMALL_FILES {
+        internal static string COMMONCODE_IMAGING_COLORMANAGEMENT_ICC_PROFILESICCICMALL_FILES {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_COLORMANAGEMENT_ICC_PROFILESICCICMALL_FILES", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_COLORMANAGEMENT_ICC_PROFILESICCICMALL_FILES", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Unexpected profile color space: {0}..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_COLORMANAGEMENT_UNEXPECTED_PROFILE_COLOR_SPACE_ARG0 {
+        internal static string COMMONCODE_IMAGING_COLORMANAGEMENT_UNEXPECTED_PROFILE_COLOR_SPACE_ARG0 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_COLORMANAGEMENT_UNEXPECTED_PROFILE_COLOR_SPACE_ARG0", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_COLORMANAGEMENT_UNEXPECTED_PROFILE_COLOR_SPACE_ARG0", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Unexpected profile color space: {0}..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_COLORMANAGEMENT_UNEXPECTED_PROFILE_COLOR_SPACE_ARG0_ALT1 {
+        internal static string COMMONCODE_IMAGING_COLORMANAGEMENT_UNEXPECTED_PROFILE_COLOR_SPACE_ARG0_ALT1 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_COLORMANAGEMENT_UNEXPECTED_PROFILE_COLOR_SPACE_ARG0_ALT1", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_COLORMANAGEMENT_UNEXPECTED_PROFILE_COLOR_SPACE_ARG0_ALT1", resourceCulture);
             }
         }
         
@@ -837,9 +834,9 @@ namespace PdfEditorDemo.Localization {
         ///   Looks up a localized string similar to {DecoderName} - decoder name
         ///.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_DECODERNAME_DECODER_NAMERN {
+        internal static string COMMONCODE_IMAGING_DECODERNAME_DECODER_NAMERN {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_DECODERNAME_DECODER_NAMERN", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_DECODERNAME_DECODER_NAMERN", resourceCulture);
             }
         }
         
@@ -847,108 +844,108 @@ namespace PdfEditorDemo.Localization {
         ///   Looks up a localized string similar to {DirectoryName} - directory name
         ///.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_DIRECTORYNAME_DIRECTORY_NAMERN {
+        internal static string COMMONCODE_IMAGING_DIRECTORYNAME_DIRECTORY_NAMERN {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_DIRECTORYNAME_DIRECTORY_NAMERN", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_DIRECTORYNAME_DIRECTORY_NAMERN", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Do you want to refresh names of all available fonts?.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_DO_YOU_WANT_TO_REFRESH_NAMES_OF_ALL_AVAILABLE_FONTS {
+        internal static string COMMONCODE_IMAGING_DO_YOU_WANT_TO_REFRESH_NAMES_OF_ALL_AVAILABLE_FONTS {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_DO_YOU_WANT_TO_REFRESH_NAMES_OF_ALL_AVAILABLE_FONTS", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_DO_YOU_WANT_TO_REFRESH_NAMES_OF_ALL_AVAILABLE_FONTS", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Document.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_DOCUMENT {
+        internal static string COMMONCODE_IMAGING_DOCUMENT {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_DOCUMENT", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_DOCUMENT", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Document.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_DOCUMENT_ALT1 {
+        internal static string COMMONCODE_IMAGING_DOCUMENT_ALT1 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_DOCUMENT_ALT1", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_DOCUMENT_ALT1", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Ellipse Measure.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_ELLIPSE_MEASURE {
+        internal static string COMMONCODE_IMAGING_ELLIPSE_MEASURE {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_ELLIPSE_MEASURE", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_ELLIPSE_MEASURE", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Emf.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_EMF {
+        internal static string COMMONCODE_IMAGING_EMF {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_EMF", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_EMF", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Emf.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_EMF_ALT1 {
+        internal static string COMMONCODE_IMAGING_EMF_ALT1 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_EMF_ALT1", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_EMF_ALT1", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Emf.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_EMF_ALT2 {
+        internal static string COMMONCODE_IMAGING_EMF_ALT2 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_EMF_ALT2", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_EMF_ALT2", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Error..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_ERROR {
+        internal static string COMMONCODE_IMAGING_ERROR {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_ERROR", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_ERROR", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Error.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_ERROR_ALT1 {
+        internal static string COMMONCODE_IMAGING_ERROR_ALT1 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_ERROR_ALT1", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_ERROR_ALT1", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Error.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_ERROR_ALT2 {
+        internal static string COMMONCODE_IMAGING_ERROR_ALT2 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_ERROR_ALT2", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_ERROR_ALT2", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Error.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_ERROR_ALT3 {
+        internal static string COMMONCODE_IMAGING_ERROR_ALT3 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_ERROR_ALT3", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_ERROR_ALT3", resourceCulture);
             }
         }
         
@@ -956,27 +953,27 @@ namespace PdfEditorDemo.Localization {
         ///   Looks up a localized string similar to Examples:
         ///.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_EXAMPLESRN {
+        internal static string COMMONCODE_IMAGING_EXAMPLESRN {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_EXAMPLESRN", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_EXAMPLESRN", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Execute.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_EXECUTE {
+        internal static string COMMONCODE_IMAGING_EXECUTE {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_EXECUTE", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_EXECUTE", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Expand All.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_EXPAND_ALL {
+        internal static string COMMONCODE_IMAGING_EXPAND_ALL {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_EXPAND_ALL", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_EXPAND_ALL", resourceCulture);
             }
         }
         
@@ -984,9 +981,9 @@ namespace PdfEditorDemo.Localization {
         ///   Looks up a localized string similar to &apos;File {Filename}, page {PageNumber}&apos;
         ///.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_FILE_FILENAME_PAGE_PAGENUMBERRN {
+        internal static string COMMONCODE_IMAGING_FILE_FILENAME_PAGE_PAGENUMBERRN {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_FILE_FILENAME_PAGE_PAGENUMBERRN", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_FILE_FILENAME_PAGE_PAGENUMBERRN", resourceCulture);
             }
         }
         
@@ -994,72 +991,72 @@ namespace PdfEditorDemo.Localization {
         ///   Looks up a localized string similar to {Filename} - filename without directory
         ///.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_FILENAME_FILENAME_WITHOUT_DIRECTORYRN {
+        internal static string COMMONCODE_IMAGING_FILENAME_FILENAME_WITHOUT_DIRECTORYRN {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_FILENAME_FILENAME_WITHOUT_DIRECTORYRN", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_FILENAME_FILENAME_WITHOUT_DIRECTORYRN", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Find text.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_FIND_TEXT {
+        internal static string COMMONCODE_IMAGING_FIND_TEXT {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_FIND_TEXT", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_FIND_TEXT", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Find text.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_FIND_TEXT_ALT1 {
+        internal static string COMMONCODE_IMAGING_FIND_TEXT_ALT1 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_FIND_TEXT_ALT1", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_FIND_TEXT_ALT1", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Finished..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_FINISHED {
+        internal static string COMMONCODE_IMAGING_FINISHED {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_FINISHED", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_FINISHED", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Fixup.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_FIXUP {
+        internal static string COMMONCODE_IMAGING_FIXUP {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_FIXUP", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_FIXUP", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Fixups.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_FIXUPS {
+        internal static string COMMONCODE_IMAGING_FIXUPS {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_FIXUPS", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_FIXUPS", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Focused.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_FOCUSED {
+        internal static string COMMONCODE_IMAGING_FOCUSED {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_FOCUSED", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_FOCUSED", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Focused Image Appearance Settings.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_FOCUSED_IMAGE_APPEARANCE_SETTINGS {
+        internal static string COMMONCODE_IMAGING_FOCUSED_IMAGE_APPEARANCE_SETTINGS {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_FOCUSED_IMAGE_APPEARANCE_SETTINGS", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_FOCUSED_IMAGE_APPEARANCE_SETTINGS", resourceCulture);
             }
         }
         
@@ -1067,54 +1064,54 @@ namespace PdfEditorDemo.Localization {
         ///   Looks up a localized string similar to {FullFilename} - full filename
         ///.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_FULLFILENAME_FULL_FILENAMERN {
+        internal static string COMMONCODE_IMAGING_FULLFILENAME_FULL_FILENAMERN {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_FULLFILENAME_FULL_FILENAMERN", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_FULLFILENAME_FULL_FILENAMERN", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Hovered.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_HOVERED {
+        internal static string COMMONCODE_IMAGING_HOVERED {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_HOVERED", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_HOVERED", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Image Measure Tool.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_IMAGE_MEASURE_TOOL {
+        internal static string COMMONCODE_IMAGING_IMAGE_MEASURE_TOOL {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_IMAGE_MEASURE_TOOL", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_IMAGE_MEASURE_TOOL", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Image Measure Tool.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_IMAGE_MEASURE_TOOL_ALT1 {
+        internal static string COMMONCODE_IMAGING_IMAGE_MEASURE_TOOL_ALT1 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_IMAGE_MEASURE_TOOL_ALT1", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_IMAGE_MEASURE_TOOL_ALT1", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Image measure tool settings.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_IMAGE_MEASURE_TOOL_SETTINGS {
+        internal static string COMMONCODE_IMAGING_IMAGE_MEASURE_TOOL_SETTINGS {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_IMAGE_MEASURE_TOOL_SETTINGS", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_IMAGE_MEASURE_TOOL_SETTINGS", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to {ImageBitsPerPixel} - source image bits per pixel.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_IMAGEBITSPERPIXEL_SOURCE_IMAGE_BITS_PER_PIXEL {
+        internal static string COMMONCODE_IMAGING_IMAGEBITSPERPIXEL_SOURCE_IMAGE_BITS_PER_PIXEL {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_IMAGEBITSPERPIXEL_SOURCE_IMAGE_BITS_PER_PIXEL", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_IMAGEBITSPERPIXEL_SOURCE_IMAGE_BITS_PER_PIXEL", resourceCulture);
             }
         }
         
@@ -1122,9 +1119,9 @@ namespace PdfEditorDemo.Localization {
         ///   Looks up a localized string similar to {ImageHeightPx} - source image height, in pixels
         ///.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_IMAGEHEIGHTPX_SOURCE_IMAGE_HEIGHT_IN_PIXELSRN {
+        internal static string COMMONCODE_IMAGING_IMAGEHEIGHTPX_SOURCE_IMAGE_HEIGHT_IN_PIXELSRN {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_IMAGEHEIGHTPX_SOURCE_IMAGE_HEIGHT_IN_PIXELSRN", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_IMAGEHEIGHTPX_SOURCE_IMAGE_HEIGHT_IN_PIXELSRN", resourceCulture);
             }
         }
         
@@ -1132,9 +1129,9 @@ namespace PdfEditorDemo.Localization {
         ///   Looks up a localized string similar to {ImageHRes} - source image horizontal resolution, in DPI
         ///.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_IMAGEHRES_SOURCE_IMAGE_HORIZONTAL_RESOLUTION_IN_DPIRN {
+        internal static string COMMONCODE_IMAGING_IMAGEHRES_SOURCE_IMAGE_HORIZONTAL_RESOLUTION_IN_DPIRN {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_IMAGEHRES_SOURCE_IMAGE_HORIZONTAL_RESOLUTION_IN_DPIRN", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_IMAGEHRES_SOURCE_IMAGE_HORIZONTAL_RESOLUTION_IN_DPIRN", resourceCulture);
             }
         }
         
@@ -1142,9 +1139,9 @@ namespace PdfEditorDemo.Localization {
         ///   Looks up a localized string similar to {ImageIndex} - image index, in image collection
         ///.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_IMAGEINDEX_IMAGE_INDEX_IN_IMAGE_COLLECTIONRN {
+        internal static string COMMONCODE_IMAGING_IMAGEINDEX_IMAGE_INDEX_IN_IMAGE_COLLECTIONRN {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_IMAGEINDEX_IMAGE_INDEX_IN_IMAGE_COLLECTIONRN", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_IMAGEINDEX_IMAGE_INDEX_IN_IMAGE_COLLECTIONRN", resourceCulture);
             }
         }
         
@@ -1152,9 +1149,9 @@ namespace PdfEditorDemo.Localization {
         ///   Looks up a localized string similar to {ImageNumber} - image number, in image collection
         ///.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_IMAGENUMBER_IMAGE_NUMBER_IN_IMAGE_COLLECTIONRN {
+        internal static string COMMONCODE_IMAGING_IMAGENUMBER_IMAGE_NUMBER_IN_IMAGE_COLLECTIONRN {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_IMAGENUMBER_IMAGE_NUMBER_IN_IMAGE_COLLECTIONRN", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_IMAGENUMBER_IMAGE_NUMBER_IN_IMAGE_COLLECTIONRN", resourceCulture);
             }
         }
         
@@ -1162,9 +1159,9 @@ namespace PdfEditorDemo.Localization {
         ///   Looks up a localized string similar to {ImageSizeMpx} - source image size, in megapixels
         ///.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_IMAGESIZEMPX_SOURCE_IMAGE_SIZE_IN_MEGAPIXELSRN {
+        internal static string COMMONCODE_IMAGING_IMAGESIZEMPX_SOURCE_IMAGE_SIZE_IN_MEGAPIXELSRN {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_IMAGESIZEMPX_SOURCE_IMAGE_SIZE_IN_MEGAPIXELSRN", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_IMAGESIZEMPX_SOURCE_IMAGE_SIZE_IN_MEGAPIXELSRN", resourceCulture);
             }
         }
         
@@ -1172,9 +1169,9 @@ namespace PdfEditorDemo.Localization {
         ///   Looks up a localized string similar to {ImageVRes} - source image vertical resolution, in DPI
         ///.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_IMAGEVRES_SOURCE_IMAGE_VERTICAL_RESOLUTION_IN_DPIRN {
+        internal static string COMMONCODE_IMAGING_IMAGEVRES_SOURCE_IMAGE_VERTICAL_RESOLUTION_IN_DPIRN {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_IMAGEVRES_SOURCE_IMAGE_VERTICAL_RESOLUTION_IN_DPIRN", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_IMAGEVRES_SOURCE_IMAGE_VERTICAL_RESOLUTION_IN_DPIRN", resourceCulture);
             }
         }
         
@@ -1182,36 +1179,36 @@ namespace PdfEditorDemo.Localization {
         ///   Looks up a localized string similar to {ImageWidthPx} - source image width, in pixels
         ///.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_IMAGEWIDTHPX_SOURCE_IMAGE_WIDTH_IN_PIXELSRN {
+        internal static string COMMONCODE_IMAGING_IMAGEWIDTHPX_SOURCE_IMAGE_WIDTH_IN_PIXELSRN {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_IMAGEWIDTHPX_SOURCE_IMAGE_WIDTH_IN_PIXELSRN", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_IMAGEWIDTHPX_SOURCE_IMAGE_WIDTH_IN_PIXELSRN", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to It can be time consuming..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_IT_CAN_BE_TIME_CONSUMING {
+        internal static string COMMONCODE_IMAGING_IT_CAN_BE_TIME_CONSUMING {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_IT_CAN_BE_TIME_CONSUMING", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_IT_CAN_BE_TIME_CONSUMING", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Line Measure.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_LINE_MEASURE {
+        internal static string COMMONCODE_IMAGING_LINE_MEASURE {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_LINE_MEASURE", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_LINE_MEASURE", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Lines Measure.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_LINES_MEASURE {
+        internal static string COMMONCODE_IMAGING_LINES_MEASURE {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_LINES_MEASURE", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_LINES_MEASURE", resourceCulture);
             }
         }
         
@@ -1219,126 +1216,126 @@ namespace PdfEditorDemo.Localization {
         ///   Looks up a localized string similar to List of predefined format variables:
         ///.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_LIST_OF_PREDEFINED_FORMAT_VARIABLESRN {
+        internal static string COMMONCODE_IMAGING_LIST_OF_PREDEFINED_FORMAT_VARIABLESRN {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_LIST_OF_PREDEFINED_FORMAT_VARIABLESRN", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_LIST_OF_PREDEFINED_FORMAT_VARIABLESRN", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Load Measurements....
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_LOAD_MEASUREMENTS {
+        internal static string COMMONCODE_IMAGING_LOAD_MEASUREMENTS {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_LOAD_MEASUREMENTS", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_LOAD_MEASUREMENTS", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Load the measurement annotations from a file.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_LOAD_THE_MEASUREMENT_ANNOTATIONS_FROM_A_FILE {
+        internal static string COMMONCODE_IMAGING_LOAD_THE_MEASUREMENT_ANNOTATIONS_FROM_A_FILE {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_LOAD_THE_MEASUREMENT_ANNOTATIONS_FROM_A_FILE", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_LOAD_THE_MEASUREMENT_ANNOTATIONS_FROM_A_FILE", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Magnifier.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_MAGNIFIER {
+        internal static string COMMONCODE_IMAGING_MAGNIFIER {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_MAGNIFIER", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_MAGNIFIER", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Magnifier Tool.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_MAGNIFIER_TOOL {
+        internal static string COMMONCODE_IMAGING_MAGNIFIER_TOOL {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_MAGNIFIER_TOOL", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_MAGNIFIER_TOOL", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Measurement Properties....
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_MEASUREMENT_PROPERTIES {
+        internal static string COMMONCODE_IMAGING_MEASUREMENT_PROPERTIES {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_MEASUREMENT_PROPERTIES", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_MEASUREMENT_PROPERTIES", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Measurement settings.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_MEASUREMENT_SETTINGS {
+        internal static string COMMONCODE_IMAGING_MEASUREMENT_SETTINGS {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_MEASUREMENT_SETTINGS", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_MEASUREMENT_SETTINGS", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Megabytes.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_MEGABYTES {
+        internal static string COMMONCODE_IMAGING_MEGABYTES {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_MEGABYTES", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_MEGABYTES", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Megapixels.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_MEGAPIXELS {
+        internal static string COMMONCODE_IMAGING_MEGAPIXELS {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_MEGAPIXELS", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_MEGAPIXELS", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Normal.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_NORMAL {
+        internal static string COMMONCODE_IMAGING_NORMAL {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_NORMAL", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_NORMAL", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Not Focused Image Appearance Settings.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_NOT_FOCUSED_IMAGE_APPEARANCE_SETTINGS {
+        internal static string COMMONCODE_IMAGING_NOT_FOCUSED_IMAGE_APPEARANCE_SETTINGS {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_NOT_FOCUSED_IMAGE_APPEARANCE_SETTINGS", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_NOT_FOCUSED_IMAGE_APPEARANCE_SETTINGS", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Not ready.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_NOT_READY {
+        internal static string COMMONCODE_IMAGING_NOT_READY {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_NOT_READY", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_NOT_READY", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Page {0}.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_PAGE_ARG0 {
+        internal static string COMMONCODE_IMAGING_PAGE_ARG0 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_PAGE_ARG0", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_PAGE_ARG0", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Page {0}.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_PAGE_ARG0_ALT1 {
+        internal static string COMMONCODE_IMAGING_PAGE_ARG0_ALT1 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_PAGE_ARG0_ALT1", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_PAGE_ARG0_ALT1", resourceCulture);
             }
         }
         
@@ -1346,9 +1343,9 @@ namespace PdfEditorDemo.Localization {
         ///   Looks up a localized string similar to {PageIndex} - page index, in source image file
         ///.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_PAGEINDEX_PAGE_INDEX_IN_SOURCE_IMAGE_FILERN {
+        internal static string COMMONCODE_IMAGING_PAGEINDEX_PAGE_INDEX_IN_SOURCE_IMAGE_FILERN {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_PAGEINDEX_PAGE_INDEX_IN_SOURCE_IMAGE_FILERN", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_PAGEINDEX_PAGE_INDEX_IN_SOURCE_IMAGE_FILERN", resourceCulture);
             }
         }
         
@@ -1356,9 +1353,9 @@ namespace PdfEditorDemo.Localization {
         ///   Looks up a localized string similar to {PageLabel} - page label
         ///.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_PAGELABEL_PAGE_LABELRN {
+        internal static string COMMONCODE_IMAGING_PAGELABEL_PAGE_LABELRN {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_PAGELABEL_PAGE_LABELRN", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_PAGELABEL_PAGE_LABELRN", resourceCulture);
             }
         }
         
@@ -1366,662 +1363,661 @@ namespace PdfEditorDemo.Localization {
         ///   Looks up a localized string similar to {PageNumber} - page number, in source image file
         ///.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_PAGENUMBER_PAGE_NUMBER_IN_SOURCE_IMAGE_FILERN {
+        internal static string COMMONCODE_IMAGING_PAGENUMBER_PAGE_NUMBER_IN_SOURCE_IMAGE_FILERN {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_PAGENUMBER_PAGE_NUMBER_IN_SOURCE_IMAGE_FILERN", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_PAGENUMBER_PAGE_NUMBER_IN_SOURCE_IMAGE_FILERN", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Password.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_PASSWORD {
+        internal static string COMMONCODE_IMAGING_PASSWORD {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_PASSWORD", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_PASSWORD", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Password - {0}.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_PASSWORD_ARG0 {
+        internal static string COMMONCODE_IMAGING_PASSWORD_ARG0 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_PASSWORD_ARG0", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_PASSWORD_ARG0", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Processing Errors.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_PROCESSING_ERRORS {
+        internal static string COMMONCODE_IMAGING_PROCESSING_ERRORS {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_PROCESSING_ERRORS", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_PROCESSING_ERRORS", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Properties....
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_PROPERTIES {
+        internal static string COMMONCODE_IMAGING_PROPERTIES {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_PROPERTIES", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_PROPERTIES", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Psd.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_PSD {
+        internal static string COMMONCODE_IMAGING_PSD {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_PSD", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_PSD", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Refresh all measurements of focused image.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_REFRESH_ALL_MEASUREMENTS_OF_FOCUSED_IMAGE {
+        internal static string COMMONCODE_IMAGING_REFRESH_ALL_MEASUREMENTS_OF_FOCUSED_IMAGE {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_REFRESH_ALL_MEASUREMENTS_OF_FOCUSED_IMAGE", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_REFRESH_ALL_MEASUREMENTS_OF_FOCUSED_IMAGE", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Refresh font names?.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_REFRESH_FONT_NAMES {
+        internal static string COMMONCODE_IMAGING_REFRESH_FONT_NAMES {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_REFRESH_FONT_NAMES", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_REFRESH_FONT_NAMES", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Refresh Measurements.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_REFRESH_MEASUREMENTS {
+        internal static string COMMONCODE_IMAGING_REFRESH_MEASUREMENTS {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_REFRESH_MEASUREMENTS", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_REFRESH_MEASUREMENTS", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Refreshing font names....
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_REFRESHING_FONT_NAMES {
+        internal static string COMMONCODE_IMAGING_REFRESHING_FONT_NAMES {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_REFRESHING_FONT_NAMES", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_REFRESHING_FONT_NAMES", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Save Measurements....
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_SAVE_MEASUREMENTS {
+        internal static string COMMONCODE_IMAGING_SAVE_MEASUREMENTS {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_SAVE_MEASUREMENTS", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_SAVE_MEASUREMENTS", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Selected.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_SELECTED {
+        internal static string COMMONCODE_IMAGING_SELECTED {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_SELECTED", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_SELECTED", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Severity: {0}.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_SEVERITY_ARG0 {
+        internal static string COMMONCODE_IMAGING_SEVERITY_ARG0 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_SEVERITY_ARG0", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_SEVERITY_ARG0", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Severity: {0}.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_SEVERITY_ARG0_ALT1 {
+        internal static string COMMONCODE_IMAGING_SEVERITY_ARG0_ALT1 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_SEVERITY_ARG0_ALT1", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_SEVERITY_ARG0_ALT1", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Show next {0} elements..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_SHOW_NEXT_ARG0_ELEMENTS {
+        internal static string COMMONCODE_IMAGING_SHOW_NEXT_ARG0_ELEMENTS {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_SHOW_NEXT_ARG0_ELEMENTS", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_SHOW_NEXT_ARG0_ELEMENTS", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Show properties form for focused measurement annotation.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_SHOW_PROPERTIES_FORM_FOR_FOCUSED_MEASUREMENT_ANNOTATION {
+        internal static string COMMONCODE_IMAGING_SHOW_PROPERTIES_FORM_FOR_FOCUSED_MEASUREMENT_ANNOTATION {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_SHOW_PROPERTIES_FORM_FOR_FOCUSED_MEASUREMENT_ANNOTATION", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_SHOW_PROPERTIES_FORM_FOR_FOCUSED_MEASUREMENT_ANNOTATION", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Show properties form for image measure tool.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_SHOW_PROPERTIES_FORM_FOR_IMAGE_MEASURE_TOOL {
+        internal static string COMMONCODE_IMAGING_SHOW_PROPERTIES_FORM_FOR_IMAGE_MEASURE_TOOL {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_SHOW_PROPERTIES_FORM_FOR_IMAGE_MEASURE_TOOL", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_SHOW_PROPERTIES_FORM_FOR_IMAGE_MEASURE_TOOL", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Starts the measurement using angle.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_STARTS_THE_MEASUREMENT_USING_ANGLE {
+        internal static string COMMONCODE_IMAGING_STARTS_THE_MEASUREMENT_USING_ANGLE {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_STARTS_THE_MEASUREMENT_USING_ANGLE", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_STARTS_THE_MEASUREMENT_USING_ANGLE", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Starts the measurement using ellipse.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_STARTS_THE_MEASUREMENT_USING_ELLIPSE {
+        internal static string COMMONCODE_IMAGING_STARTS_THE_MEASUREMENT_USING_ELLIPSE {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_STARTS_THE_MEASUREMENT_USING_ELLIPSE", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_STARTS_THE_MEASUREMENT_USING_ELLIPSE", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Starts the measurement using line.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_STARTS_THE_MEASUREMENT_USING_LINE {
+        internal static string COMMONCODE_IMAGING_STARTS_THE_MEASUREMENT_USING_LINE {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_STARTS_THE_MEASUREMENT_USING_LINE", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_STARTS_THE_MEASUREMENT_USING_LINE", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Starts the measurement using lines.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_STARTS_THE_MEASUREMENT_USING_LINES {
+        internal static string COMMONCODE_IMAGING_STARTS_THE_MEASUREMENT_USING_LINES {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_STARTS_THE_MEASUREMENT_USING_LINES", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_STARTS_THE_MEASUREMENT_USING_LINES", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Svg.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_SVG {
+        internal static string COMMONCODE_IMAGING_SVG {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_SVG", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_SVG", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Target: .
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_TARGET {
+        internal static string COMMONCODE_IMAGING_TARGET {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_TARGET", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_TARGET", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Target: {0}.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_TARGET_ARG0 {
+        internal static string COMMONCODE_IMAGING_TARGET_ARG0 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_TARGET_ARG0", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_TARGET_ARG0", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to The &apos;{0}&apos; password is incorrect..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_THE_ARG0_PASSWORD_IS_INCORRECT {
+        internal static string COMMONCODE_IMAGING_THE_ARG0_PASSWORD_IS_INCORRECT {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_THE_ARG0_PASSWORD_IS_INCORRECT", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_THE_ARG0_PASSWORD_IS_INCORRECT", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to The following specified text was not found: {0}.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_THE_FOLLOWING_SPECIFIED_TEXT_WAS_NOT_FOUND_ARG0 {
+        internal static string COMMONCODE_IMAGING_THE_FOLLOWING_SPECIFIED_TEXT_WAS_NOT_FOUND_ARG0 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_THE_FOLLOWING_SPECIFIED_TEXT_WAS_NOT_FOUND_ARG0", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_THE_FOLLOWING_SPECIFIED_TEXT_WAS_NOT_FOUND_ARG0", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to The following specified text was not found: {0}.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_THE_FOLLOWING_SPECIFIED_TEXT_WAS_NOT_FOUND_ARG0_ALT1 {
+        internal static string COMMONCODE_IMAGING_THE_FOLLOWING_SPECIFIED_TEXT_WAS_NOT_FOUND_ARG0_ALT1 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_THE_FOLLOWING_SPECIFIED_TEXT_WAS_NOT_FOUND_ARG0_ALT1", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_THE_FOLLOWING_SPECIFIED_TEXT_WAS_NOT_FOUND_ARG0_ALT1", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to the font map by replacing current names with actual font names..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_THE_FONT_MAP_BY_REPLACING_CURRENT_NAMES_WITH_ACTUAL_FONT_NAMES {
+        internal static string COMMONCODE_IMAGING_THE_FONT_MAP_BY_REPLACING_CURRENT_NAMES_WITH_ACTUAL_FONT_NAMES {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_THE_FONT_MAP_BY_REPLACING_CURRENT_NAMES_WITH_ACTUAL_FONT_" +
-                        "NAMES", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_THE_FONT_MAP_BY_REPLACING_CURRENT_NAMES_WITH_ACTUAL_FONT_NAMES" +
+                        "", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to This operation will parse all fonts available on system and refresh.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_THIS_OPERATION_WILL_PARSE_ALL_FONTS_AVAILABLE_ON_SYSTEM_AND_REFRESH {
+        internal static string COMMONCODE_IMAGING_THIS_OPERATION_WILL_PARSE_ALL_FONTS_AVAILABLE_ON_SYSTEM_AND_REFRESH {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_THIS_OPERATION_WILL_PARSE_ALL_FONTS_AVAILABLE_ON_SYSTEM_A" +
-                        "ND_REFRESH", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_THIS_OPERATION_WILL_PARSE_ALL_FONTS_AVAILABLE_ON_SYSTEM_AND_RE" +
+                        "FRESH", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to ThumbnailCaption.CaptionFormat property.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_THUMBNAILCAPTIONCAPTIONFORMAT_PROPERTY {
+        internal static string COMMONCODE_IMAGING_THUMBNAILCAPTIONCAPTIONFORMAT_PROPERTY {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_THUMBNAILCAPTIONCAPTIONFORMAT_PROPERTY", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_THUMBNAILCAPTIONCAPTIONFORMAT_PROPERTY", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Type: {0}.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_TYPE_ARG0 {
+        internal static string COMMONCODE_IMAGING_TYPE_ARG0 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_TYPE_ARG0", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_TYPE_ARG0", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Units Of Measure.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_UNITS_OF_MEASURE {
+        internal static string COMMONCODE_IMAGING_UNITS_OF_MEASURE {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_UNITS_OF_MEASURE", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_UNITS_OF_MEASURE", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Units Of Measure.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_UNITS_OF_MEASURE_ALT1 {
+        internal static string COMMONCODE_IMAGING_UNITS_OF_MEASURE_ALT1 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_UNITS_OF_MEASURE_ALT1", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_UNITS_OF_MEASURE_ALT1", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Value: {0}.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_VALUE_ARG0 {
+        internal static string COMMONCODE_IMAGING_VALUE_ARG0 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_VALUE_ARG0", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_VALUE_ARG0", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Verifier.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_VERIFIER {
+        internal static string COMMONCODE_IMAGING_VERIFIER {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_VERIFIER", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_VERIFIER", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Visual tool.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_VISUAL_TOOL {
+        internal static string COMMONCODE_IMAGING_VISUAL_TOOL {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_VISUAL_TOOL", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_VISUAL_TOOL", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Zoom.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_ZOOM {
+        internal static string COMMONCODE_IMAGING_ZOOM {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_ZOOM", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_ZOOM", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Zoom selection.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_ZOOM_SELECTION {
+        internal static string COMMONCODE_IMAGING_ZOOM_SELECTION {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_ZOOM_SELECTION", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_ZOOM_SELECTION", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Zoom Selection Tool.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_ZOOM_SELECTION_TOOL {
+        internal static string COMMONCODE_IMAGING_ZOOM_SELECTION_TOOL {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_ZOOM_SELECTION_TOOL", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_ZOOM_SELECTION_TOOL", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Zoom Tool.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_ZOOM_TOOL {
+        internal static string COMMONCODE_IMAGING_ZOOM_TOOL {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_ZOOM_TOOL", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_ZOOM_TOOL", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Information.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_INFORMATION {
+        internal static string COMMONCODE_INFORMATION {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_INFORMATION", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_INFORMATION", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Inner exception: {0}.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_INNER_EXCEPTION_ARG0 {
+        internal static string COMMONCODE_INNER_EXCEPTION_ARG0 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_INNER_EXCEPTION_ARG0", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_INNER_EXCEPTION_ARG0", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to All Supported Documents (*.docx;*.doc;*.txt)|*.docx;*.doc;*.txt.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_OFFICE_ALL_SUPPORTED_DOCUMENTS_DOCXDOCTXTDOCXDOCTXT {
+        internal static string COMMONCODE_OFFICE_ALL_SUPPORTED_DOCUMENTS_DOCXDOCTXTDOCXDOCTXT {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_OFFICE_ALL_SUPPORTED_DOCUMENTS_DOCXDOCTXTDOCXDOCTXT", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_OFFICE_ALL_SUPPORTED_DOCUMENTS_DOCXDOCTXTDOCXDOCTXT", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Character Horizontal Scaling.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_OFFICE_CHARACTER_HORIZONTAL_SCALING {
+        internal static string COMMONCODE_OFFICE_CHARACTER_HORIZONTAL_SCALING {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_OFFICE_CHARACTER_HORIZONTAL_SCALING", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_OFFICE_CHARACTER_HORIZONTAL_SCALING", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Character Spacing.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_OFFICE_CHARACTER_SPACING {
+        internal static string COMMONCODE_OFFICE_CHARACTER_SPACING {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_OFFICE_CHARACTER_SPACING", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_OFFICE_CHARACTER_SPACING", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Chart {0}.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_OFFICE_CHART_ARG0 {
+        internal static string COMMONCODE_OFFICE_CHART_ARG0 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_OFFICE_CHART_ARG0", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_OFFICE_CHART_ARG0", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Chart resources was not found..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_OFFICE_CHART_RESOURCES_WAS_NOT_FOUND {
+        internal static string COMMONCODE_OFFICE_CHART_RESOURCES_WAS_NOT_FOUND {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_OFFICE_CHART_RESOURCES_WAS_NOT_FOUND", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_OFFICE_CHART_RESOURCES_WAS_NOT_FOUND", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to First Line Indentation.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_OFFICE_FIRST_LINE_INDENTATION {
+        internal static string COMMONCODE_OFFICE_FIRST_LINE_INDENTATION {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_OFFICE_FIRST_LINE_INDENTATION", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_OFFICE_FIRST_LINE_INDENTATION", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Left Indentation.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_OFFICE_LEFT_INDENTATION {
+        internal static string COMMONCODE_OFFICE_LEFT_INDENTATION {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_OFFICE_LEFT_INDENTATION", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_OFFICE_LEFT_INDENTATION", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Line Height Factor.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_OFFICE_LINE_HEIGHT_FACTOR {
+        internal static string COMMONCODE_OFFICE_LINE_HEIGHT_FACTOR {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_OFFICE_LINE_HEIGHT_FACTOR", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_OFFICE_LINE_HEIGHT_FACTOR", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Right Indentation.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_OFFICE_RIGHT_INDENTATION {
+        internal static string COMMONCODE_OFFICE_RIGHT_INDENTATION {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_OFFICE_RIGHT_INDENTATION", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_OFFICE_RIGHT_INDENTATION", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Select a chart.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_OFFICE_SELECT_A_CHART {
+        internal static string COMMONCODE_OFFICE_SELECT_A_CHART {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_OFFICE_SELECT_A_CHART", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_OFFICE_SELECT_A_CHART", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Spacing After Paragraph.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_OFFICE_SPACING_AFTER_PARAGRAPH {
+        internal static string COMMONCODE_OFFICE_SPACING_AFTER_PARAGRAPH {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_OFFICE_SPACING_AFTER_PARAGRAPH", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_OFFICE_SPACING_AFTER_PARAGRAPH", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Spacing Before Paragraph.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_OFFICE_SPACING_BEFORE_PARAGRAPH {
+        internal static string COMMONCODE_OFFICE_SPACING_BEFORE_PARAGRAPH {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_OFFICE_SPACING_BEFORE_PARAGRAPH", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_OFFICE_SPACING_BEFORE_PARAGRAPH", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to TXT to DOCX conversion error: Resource &apos;EmptyDocument.docx&apos; is not found in demo application..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_OFFICE_TXT_TO_DOCX_CONVERSION_ERROR_RESOURCE_EMPTYDOCUMENTDOCX_IS_NOT_FOUND_IN_DEMO_APPLICATION {
+        internal static string COMMONCODE_OFFICE_TXT_TO_DOCX_CONVERSION_ERROR_RESOURCE_EMPTYDOCUMENTDOCX_IS_NOT_FOUND_IN_DEMO_APPLICATION {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_OFFICE_TXT_TO_DOCX_CONVERSION_ERROR_RESOURCE_EMPTYDOCUMENTDOCX_IS" +
-                        "_NOT_FOUND_IN_DEMO_APPLICATION", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_OFFICE_TXT_TO_DOCX_CONVERSION_ERROR_RESOURCE_EMPTYDOCUMENTDOCX_IS_NOT_" +
+                        "FOUND_IN_DEMO_APPLICATION", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to  in the user interface?.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF__IN_THE_USER_INTERFACE {
+        internal static string COMMONCODE_PDF__IN_THE_USER_INTERFACE {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF__IN_THE_USER_INTERFACE", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF__IN_THE_USER_INTERFACE", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to  in which items in the attachment collection should be sorted.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF__IN_WHICH_ITEMS_IN_THE_ATTACHMENT_COLLECTION_SHOULD_BE_SORTED {
+        internal static string COMMONCODE_PDF__IN_WHICH_ITEMS_IN_THE_ATTACHMENT_COLLECTION_SHOULD_BE_SORTED {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF__IN_WHICH_ITEMS_IN_THE_ATTACHMENT_COLLECTION_SHOULD_BE_SORTED" +
-                        "", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF__IN_WHICH_ITEMS_IN_THE_ATTACHMENT_COLLECTION_SHOULD_BE_SORTED", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to 1. Select the area on page..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_1_SELECT_THE_AREA_ON_PAGE {
+        internal static string COMMONCODE_PDF_1_SELECT_THE_AREA_ON_PAGE {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_1_SELECT_THE_AREA_ON_PAGE", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_1_SELECT_THE_AREA_ON_PAGE", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to 2. Press \&quot;Apply Redaction Marks\&quot; when the redaction marks must be applied to the page..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_2_PRESS_APPLY_REDACTION_MARKS_WHEN_THE_REDACTION_MARKS_MUST_BE_APPLIED_TO_THE_PAGE {
+        internal static string COMMONCODE_PDF_2_PRESS_APPLY_REDACTION_MARKS_WHEN_THE_REDACTION_MARKS_MUST_BE_APPLIED_TO_THE_PAGE {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_2_PRESS_APPLY_REDACTION_MARKS_WHEN_THE_REDACTION_MARKS_MUST_B" +
-                        "E_APPLIED_TO_THE_PAGE", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_2_PRESS_APPLY_REDACTION_MARKS_WHEN_THE_REDACTION_MARKS_MUST_BE_APP" +
+                        "LIED_TO_THE_PAGE", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Activate.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_ACTIVATE {
+        internal static string COMMONCODE_PDF_ACTIVATE {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_ACTIVATE", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_ACTIVATE", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Activate.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_ACTIVATE_ALT1 {
+        internal static string COMMONCODE_PDF_ACTIVATE_ALT1 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_ACTIVATE_ALT1", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_ACTIVATE_ALT1", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Add embedded file &apos;{0}&apos;....
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_ADD_EMBEDDED_FILE_ARG0 {
+        internal static string COMMONCODE_PDF_ADD_EMBEDDED_FILE_ARG0 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_ADD_EMBEDDED_FILE_ARG0", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_ADD_EMBEDDED_FILE_ARG0", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Add files.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_ADD_FILES {
+        internal static string COMMONCODE_PDF_ADD_FILES {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_ADD_FILES", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_ADD_FILES", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Add path.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_ADD_PATH {
+        internal static string COMMONCODE_PDF_ADD_PATH {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_ADD_PATH", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_ADD_PATH", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to All Files (*.*)|*.*.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_ALL_FILES {
+        internal static string COMMONCODE_PDF_ALL_FILES {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_ALL_FILES", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_ALL_FILES", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Annotation.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_ANNOTATION {
+        internal static string COMMONCODE_PDF_ANNOTATION {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_ANNOTATION", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_ANNOTATION", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Annotation Common Properties.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_ANNOTATION_COMMON_PROPERTIES {
+        internal static string COMMONCODE_PDF_ANNOTATION_COMMON_PROPERTIES {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_ANNOTATION_COMMON_PROPERTIES", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_ANNOTATION_COMMON_PROPERTIES", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Annotation Hide Action.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_ANNOTATION_HIDE_ACTION {
+        internal static string COMMONCODE_PDF_ANNOTATION_HIDE_ACTION {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_ANNOTATION_HIDE_ACTION", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_ANNOTATION_HIDE_ACTION", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Apperanace Generator Properties.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_APPERANACE_GENERATOR_PROPERTIES {
+        internal static string COMMONCODE_PDF_APPERANACE_GENERATOR_PROPERTIES {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_APPERANACE_GENERATOR_PROPERTIES", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_APPERANACE_GENERATOR_PROPERTIES", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to {0} action ({1}).
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_ARG0_ACTION_ARG1 {
+        internal static string COMMONCODE_PDF_ARG0_ACTION_ARG1 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_ARG0_ACTION_ARG1", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_ARG0_ACTION_ARG1", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to {0} annotation.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_ARG0_ANNOTATION {
+        internal static string COMMONCODE_PDF_ARG0_ANNOTATION {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_ARG0_ANNOTATION", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_ARG0_ANNOTATION", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to {0} ({1}): document page number {2}.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_ARG0_ARG1_DOCUMENT_PAGE_NUMBER_ARG2 {
+        internal static string COMMONCODE_PDF_ARG0_ARG1_DOCUMENT_PAGE_NUMBER_ARG2 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_ARG0_ARG1_DOCUMENT_PAGE_NUMBER_ARG2", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_ARG0_ARG1_DOCUMENT_PAGE_NUMBER_ARG2", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to {0} ({1}): page number {2}.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_ARG0_ARG1_PAGE_NUMBER_ARG2 {
+        internal static string COMMONCODE_PDF_ARG0_ARG1_PAGE_NUMBER_ARG2 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_ARG0_ARG1_PAGE_NUMBER_ARG2", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_ARG0_ARG1_PAGE_NUMBER_ARG2", resourceCulture);
             }
         }
         
@@ -2029,100 +2025,99 @@ namespace PdfEditorDemo.Localization {
         ///   Looks up a localized string similar to {0}: {1}.
         ///Disable &apos;Encode Files Immediately&apos; option in &apos;File&apos; menu..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_ARG0_ARG1RNDISABLE_ENCODE_FILES_IMMEDIATELY_OPTION_IN_FILE_MENU {
+        internal static string COMMONCODE_PDF_ARG0_ARG1RNDISABLE_ENCODE_FILES_IMMEDIATELY_OPTION_IN_FILE_MENU {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_ARG0_ARG1RNDISABLE_ENCODE_FILES_IMMEDIATELY_OPTION_IN_FILE_ME" +
-                        "NU", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_ARG0_ARG1RNDISABLE_ENCODE_FILES_IMMEDIATELY_OPTION_IN_FILE_MENU", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to {0} bytes.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_ARG0_BYTES {
+        internal static string COMMONCODE_PDF_ARG0_BYTES {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_ARG0_BYTES", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_ARG0_BYTES", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to {0} Bytes.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_ARG0_BYTES_ALT1 {
+        internal static string COMMONCODE_PDF_ARG0_BYTES_ALT1 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_ARG0_BYTES_ALT1", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_ARG0_BYTES_ALT1", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to {0} bytes.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_ARG0_BYTES_ALT2 {
+        internal static string COMMONCODE_PDF_ARG0_BYTES_ALT2 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_ARG0_BYTES_ALT2", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_ARG0_BYTES_ALT2", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to {0} bytes.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_ARG0_BYTES_ALT3 {
+        internal static string COMMONCODE_PDF_ARG0_BYTES_ALT3 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_ARG0_BYTES_ALT3", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_ARG0_BYTES_ALT3", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to {0} bytes.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_ARG0_BYTES_ALT4 {
+        internal static string COMMONCODE_PDF_ARG0_BYTES_ALT4 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_ARG0_BYTES_ALT4", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_ARG0_BYTES_ALT4", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to {0} bytes.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_ARG0_BYTES_ALT5 {
+        internal static string COMMONCODE_PDF_ARG0_BYTES_ALT5 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_ARG0_BYTES_ALT5", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_ARG0_BYTES_ALT5", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to {0} bytes.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_ARG0_BYTES_ALT6 {
+        internal static string COMMONCODE_PDF_ARG0_BYTES_ALT6 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_ARG0_BYTES_ALT6", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_ARG0_BYTES_ALT6", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to {0}: Inline.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_ARG0_INLINE {
+        internal static string COMMONCODE_PDF_ARG0_INLINE {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_ARG0_INLINE", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_ARG0_INLINE", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to {0} KB.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_ARG0_KB {
+        internal static string COMMONCODE_PDF_ARG0_KB {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_ARG0_KB", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_ARG0_KB", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to {0} sets by {1}.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_ARG0_SETS_BY_ARG1 {
+        internal static string COMMONCODE_PDF_ARG0_SETS_BY_ARG1 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_ARG0_SETS_BY_ARG1", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_ARG0_SETS_BY_ARG1", resourceCulture);
             }
         }
         
@@ -2130,174 +2125,172 @@ namespace PdfEditorDemo.Localization {
         ///   Looks up a localized string similar to {0}
         ///Disable &apos;Encode Files Immediately&apos; option..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_ARG0RNDISABLE_ENCODE_FILES_IMMEDIATELY_OPTION {
+        internal static string COMMONCODE_PDF_ARG0RNDISABLE_ENCODE_FILES_IMMEDIATELY_OPTION {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_ARG0RNDISABLE_ENCODE_FILES_IMMEDIATELY_OPTION", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_ARG0RNDISABLE_ENCODE_FILES_IMMEDIATELY_OPTION", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Attachment Folder Data Fields Editor.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_ATTACHMENT_FOLDER_DATA_FIELDS_EDITOR {
+        internal static string COMMONCODE_PDF_ATTACHMENT_FOLDER_DATA_FIELDS_EDITOR {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_ATTACHMENT_FOLDER_DATA_FIELDS_EDITOR", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_ATTACHMENT_FOLDER_DATA_FIELDS_EDITOR", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Attachments does not have schema. Do you want to create schema?.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_ATTACHMENTS_DOES_NOT_HAVE_SCHEMA_DO_YOU_WANT_TO_CREATE_SCHEMA {
+        internal static string COMMONCODE_PDF_ATTACHMENTS_DOES_NOT_HAVE_SCHEMA_DO_YOU_WANT_TO_CREATE_SCHEMA {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_ATTACHMENTS_DOES_NOT_HAVE_SCHEMA_DO_YOU_WANT_TO_CREATE_SCHEMA" +
-                        "", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_ATTACHMENTS_DOES_NOT_HAVE_SCHEMA_DO_YOU_WANT_TO_CREATE_SCHEMA", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Attachments Schema Editor.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_ATTACHMENTS_SCHEMA_EDITOR {
+        internal static string COMMONCODE_PDF_ATTACHMENTS_SCHEMA_EDITOR {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_ATTACHMENTS_SCHEMA_EDITOR", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_ATTACHMENTS_SCHEMA_EDITOR", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Barcode value.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_BARCODE_VALUE {
+        internal static string COMMONCODE_PDF_BARCODE_VALUE {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_BARCODE_VALUE", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_BARCODE_VALUE", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to because the document does not contain the interactive form fields..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_BECAUSE_THE_DOCUMENT_DOES_NOT_CONTAIN_THE_INTERACTIVE_FORM_FIELDS {
+        internal static string COMMONCODE_PDF_BECAUSE_THE_DOCUMENT_DOES_NOT_CONTAIN_THE_INTERACTIVE_FORM_FIELDS {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_BECAUSE_THE_DOCUMENT_DOES_NOT_CONTAIN_THE_INTERACTIVE_FORM_FI" +
-                        "ELDS", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_BECAUSE_THE_DOCUMENT_DOES_NOT_CONTAIN_THE_INTERACTIVE_FORM_FIELDS", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Binary Files (*.bin)|*.bin.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_BINARY_FILES_BINBIN {
+        internal static string COMMONCODE_PDF_BINARY_FILES_BINBIN {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_BINARY_FILES_BINBIN", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_BINARY_FILES_BINBIN", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Bookmarks.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_BOOKMARKS {
+        internal static string COMMONCODE_PDF_BOOKMARKS {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_BOOKMARKS", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_BOOKMARKS", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Close.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_CLOSE {
+        internal static string COMMONCODE_PDF_CLOSE {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_CLOSE", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_CLOSE", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Closing.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_CLOSING {
+        internal static string COMMONCODE_PDF_CLOSING {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_CLOSING", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_CLOSING", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Colors are not specified. Do you want to create information about colors?.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_COLORS_ARE_NOT_SPECIFIED_DO_YOU_WANT_TO_CREATE_INFORMATION_ABOUT_COLORS {
+        internal static string COMMONCODE_PDF_COLORS_ARE_NOT_SPECIFIED_DO_YOU_WANT_TO_CREATE_INFORMATION_ABOUT_COLORS {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_COLORS_ARE_NOT_SPECIFIED_DO_YOU_WANT_TO_CREATE_INFORMATION_AB" +
-                        "OUT_COLORS", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_COLORS_ARE_NOT_SPECIFIED_DO_YOU_WANT_TO_CREATE_INFORMATION_ABOUT_C" +
+                        "OLORS", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Comment.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_COMMENT {
+        internal static string COMMONCODE_PDF_COMMENT {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_COMMENT", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_COMMENT", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Compressed Size.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_COMPRESSED_SIZE {
+        internal static string COMMONCODE_PDF_COMPRESSED_SIZE {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_COMPRESSED_SIZE", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_COMPRESSED_SIZE", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Compressed Size.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_COMPRESSED_SIZE_ALT1 {
+        internal static string COMMONCODE_PDF_COMPRESSED_SIZE_ALT1 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_COMPRESSED_SIZE_ALT1", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_COMPRESSED_SIZE_ALT1", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Compression Default Params.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_COMPRESSION_DEFAULT_PARAMS {
+        internal static string COMMONCODE_PDF_COMPRESSION_DEFAULT_PARAMS {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_COMPRESSION_DEFAULT_PARAMS", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_COMPRESSION_DEFAULT_PARAMS", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Content ({0}).
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_CONTENT_ARG0 {
+        internal static string COMMONCODE_PDF_CONTENT_ARG0 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_CONTENT_ARG0", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_CONTENT_ARG0", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Content group ({0}).
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_CONTENT_GROUP_ARG0 {
+        internal static string COMMONCODE_PDF_CONTENT_GROUP_ARG0 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_CONTENT_GROUP_ARG0", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_CONTENT_GROUP_ARG0", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Creation Date.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_CREATION_DATE {
+        internal static string COMMONCODE_PDF_CREATION_DATE {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_CREATION_DATE", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_CREATION_DATE", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Current image is not PDF page. Save document and try again..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_CURRENT_IMAGE_IS_NOT_PDF_PAGE_SAVE_DOCUMENT_AND_TRY_AGAIN {
+        internal static string COMMONCODE_PDF_CURRENT_IMAGE_IS_NOT_PDF_PAGE_SAVE_DOCUMENT_AND_TRY_AGAIN {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_CURRENT_IMAGE_IS_NOT_PDF_PAGE_SAVE_DOCUMENT_AND_TRY_AGAIN", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_CURRENT_IMAGE_IS_NOT_PDF_PAGE_SAVE_DOCUMENT_AND_TRY_AGAIN", resourceCulture);
             }
         }
         
@@ -2305,239 +2298,238 @@ namespace PdfEditorDemo.Localization {
         ///   Looks up a localized string similar to Delete auto states?
         ///Press &apos;Yes&apos; to delete auto states..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_DELETE_AUTO_STATESRNPRESS_YES_TO_DELETE_AUTO_STATES {
+        internal static string COMMONCODE_PDF_DELETE_AUTO_STATESRNPRESS_YES_TO_DELETE_AUTO_STATES {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_DELETE_AUTO_STATESRNPRESS_YES_TO_DELETE_AUTO_STATES", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_DELETE_AUTO_STATESRNPRESS_YES_TO_DELETE_AUTO_STATES", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Description.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_DESCRIPTION {
+        internal static string COMMONCODE_PDF_DESCRIPTION {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_DESCRIPTION", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_DESCRIPTION", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Do you want to delete information about portfolio colors?.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_DO_YOU_WANT_TO_DELETE_INFORMATION_ABOUT_PORTFOLIO_COLORS {
+        internal static string COMMONCODE_PDF_DO_YOU_WANT_TO_DELETE_INFORMATION_ABOUT_PORTFOLIO_COLORS {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_DO_YOU_WANT_TO_DELETE_INFORMATION_ABOUT_PORTFOLIO_COLORS", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_DO_YOU_WANT_TO_DELETE_INFORMATION_ABOUT_PORTFOLIO_COLORS", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Do you want to generate thumbnails for all files?.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_DO_YOU_WANT_TO_GENERATE_THUMBNAILS_FOR_ALL_FILES {
+        internal static string COMMONCODE_PDF_DO_YOU_WANT_TO_GENERATE_THUMBNAILS_FOR_ALL_FILES {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_DO_YOU_WANT_TO_GENERATE_THUMBNAILS_FOR_ALL_FILES", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_DO_YOU_WANT_TO_GENERATE_THUMBNAILS_FOR_ALL_FILES", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Do you want to generate thumbnails for files in all selected folders?.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_DO_YOU_WANT_TO_GENERATE_THUMBNAILS_FOR_FILES_IN_ALL_SELECTED_FOLDERS {
+        internal static string COMMONCODE_PDF_DO_YOU_WANT_TO_GENERATE_THUMBNAILS_FOR_FILES_IN_ALL_SELECTED_FOLDERS {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_DO_YOU_WANT_TO_GENERATE_THUMBNAILS_FOR_FILES_IN_ALL_SELECTED_" +
-                        "FOLDERS", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_DO_YOU_WANT_TO_GENERATE_THUMBNAILS_FOR_FILES_IN_ALL_SELECTED_FOLDE" +
+                        "RS", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Do you want to generate thumbnails for selected files?.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_DO_YOU_WANT_TO_GENERATE_THUMBNAILS_FOR_SELECTED_FILES {
+        internal static string COMMONCODE_PDF_DO_YOU_WANT_TO_GENERATE_THUMBNAILS_FOR_SELECTED_FILES {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_DO_YOU_WANT_TO_GENERATE_THUMBNAILS_FOR_SELECTED_FILES", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_DO_YOU_WANT_TO_GENERATE_THUMBNAILS_FOR_SELECTED_FILES", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Do you want to generate thumbnails for selected files and files in all selected folders?.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_DO_YOU_WANT_TO_GENERATE_THUMBNAILS_FOR_SELECTED_FILES_AND_FILES_IN_ALL_SELECTED_FOLDERS {
+        internal static string COMMONCODE_PDF_DO_YOU_WANT_TO_GENERATE_THUMBNAILS_FOR_SELECTED_FILES_AND_FILES_IN_ALL_SELECTED_FOLDERS {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_DO_YOU_WANT_TO_GENERATE_THUMBNAILS_FOR_SELECTED_FILES_AND_FIL" +
-                        "ES_IN_ALL_SELECTED_FOLDERS", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_DO_YOU_WANT_TO_GENERATE_THUMBNAILS_FOR_SELECTED_FILES_AND_FILES_IN" +
+                        "_ALL_SELECTED_FOLDERS", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Do you want to remove sort information, which specifies the order.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_DO_YOU_WANT_TO_REMOVE_SORT_INFORMATION_WHICH_SPECIFIES_THE_ORDER {
+        internal static string COMMONCODE_PDF_DO_YOU_WANT_TO_REMOVE_SORT_INFORMATION_WHICH_SPECIFIES_THE_ORDER {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_DO_YOU_WANT_TO_REMOVE_SORT_INFORMATION_WHICH_SPECIFIES_THE_OR" +
-                        "DER", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_DO_YOU_WANT_TO_REMOVE_SORT_INFORMATION_WHICH_SPECIFIES_THE_ORDER", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Document Information.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_DOCUMENT_INFORMATION {
+        internal static string COMMONCODE_PDF_DOCUMENT_INFORMATION {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_DOCUMENT_INFORMATION", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_DOCUMENT_INFORMATION", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Document is changed. First please sign and save document..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_DOCUMENT_IS_CHANGED_FIRST_PLEASE_SIGN_AND_SAVE_DOCUMENT {
+        internal static string COMMONCODE_PDF_DOCUMENT_IS_CHANGED_FIRST_PLEASE_SIGN_AND_SAVE_DOCUMENT {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_DOCUMENT_IS_CHANGED_FIRST_PLEASE_SIGN_AND_SAVE_DOCUMENT", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_DOCUMENT_IS_CHANGED_FIRST_PLEASE_SIGN_AND_SAVE_DOCUMENT", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Embedded File.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_EMBEDDED_FILE {
+        internal static string COMMONCODE_PDF_EMBEDDED_FILE {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_EMBEDDED_FILE", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_EMBEDDED_FILE", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Embedded File Data Fields Editor.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_EMBEDDED_FILE_DATA_FIELDS_EDITOR {
+        internal static string COMMONCODE_PDF_EMBEDDED_FILE_DATA_FIELDS_EDITOR {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_EMBEDDED_FILE_DATA_FIELDS_EDITOR", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_EMBEDDED_FILE_DATA_FIELDS_EDITOR", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Empty Signatrue Field.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_EMPTY_SIGNATRUE_FIELD {
+        internal static string COMMONCODE_PDF_EMPTY_SIGNATRUE_FIELD {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_EMPTY_SIGNATRUE_FIELD", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_EMPTY_SIGNATRUE_FIELD", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Error.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_ERROR {
+        internal static string COMMONCODE_PDF_ERROR {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_ERROR", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_ERROR", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Error.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_ERROR_ALT1 {
+        internal static string COMMONCODE_PDF_ERROR_ALT1 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_ERROR_ALT1", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_ERROR_ALT1", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Error.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_ERROR_ALT2 {
+        internal static string COMMONCODE_PDF_ERROR_ALT2 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_ERROR_ALT2", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_ERROR_ALT2", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Execute an application.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_EXECUTE_AN_APPLICATION {
+        internal static string COMMONCODE_PDF_EXECUTE_AN_APPLICATION {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_EXECUTE_AN_APPLICATION", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_EXECUTE_AN_APPLICATION", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to FDF submit format is not supported now..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_FDF_SUBMIT_FORMAT_IS_NOT_SUPPORTED_NOW {
+        internal static string COMMONCODE_PDF_FDF_SUBMIT_FORMAT_IS_NOT_SUPPORTED_NOW {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_FDF_SUBMIT_FORMAT_IS_NOT_SUPPORTED_NOW", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_FDF_SUBMIT_FORMAT_IS_NOT_SUPPORTED_NOW", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Field.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_FIELD {
+        internal static string COMMONCODE_PDF_FIELD {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_FIELD", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_FIELD", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Field &apos;{0}&apos; is required but not filled..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_FIELD_ARG0_IS_REQUIRED_BUT_NOT_FILLED {
+        internal static string COMMONCODE_PDF_FIELD_ARG0_IS_REQUIRED_BUT_NOT_FILLED {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_FIELD_ARG0_IS_REQUIRED_BUT_NOT_FILLED", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_FIELD_ARG0_IS_REQUIRED_BUT_NOT_FILLED", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Field Common Properties.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_FIELD_COMMON_PROPERTIES {
+        internal static string COMMONCODE_PDF_FIELD_COMMON_PROPERTIES {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_FIELD_COMMON_PROPERTIES", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_FIELD_COMMON_PROPERTIES", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to File &apos;{0}&apos; already exists, override it?.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_FILE_ARG0_ALREADY_EXISTS_OVERRIDE_IT {
+        internal static string COMMONCODE_PDF_FILE_ARG0_ALREADY_EXISTS_OVERRIDE_IT {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_FILE_ARG0_ALREADY_EXISTS_OVERRIDE_IT", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_FILE_ARG0_ALREADY_EXISTS_OVERRIDE_IT", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to File &apos;{0}&apos; does not have data fields. Do you want to create data fields?.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_FILE_ARG0_DOES_NOT_HAVE_DATA_FIELDS_DO_YOU_WANT_TO_CREATE_DATA_FIELDS {
+        internal static string COMMONCODE_PDF_FILE_ARG0_DOES_NOT_HAVE_DATA_FIELDS_DO_YOU_WANT_TO_CREATE_DATA_FIELDS {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_FILE_ARG0_DOES_NOT_HAVE_DATA_FIELDS_DO_YOU_WANT_TO_CREATE_DAT" +
-                        "A_FIELDS", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_FILE_ARG0_DOES_NOT_HAVE_DATA_FIELDS_DO_YOU_WANT_TO_CREATE_DATA_FIE" +
+                        "LDS", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to File name.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_FILE_NAME {
+        internal static string COMMONCODE_PDF_FILE_NAME {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_FILE_NAME", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_FILE_NAME", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Folder &apos;{0}&apos; does not have data fields. Do you want to create data fields?.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_FOLDER_ARG0_DOES_NOT_HAVE_DATA_FIELDS_DO_YOU_WANT_TO_CREATE_DATA_FIELDS {
+        internal static string COMMONCODE_PDF_FOLDER_ARG0_DOES_NOT_HAVE_DATA_FIELDS_DO_YOU_WANT_TO_CREATE_DATA_FIELDS {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_FOLDER_ARG0_DOES_NOT_HAVE_DATA_FIELDS_DO_YOU_WANT_TO_CREATE_D" +
-                        "ATA_FIELDS", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_FOLDER_ARG0_DOES_NOT_HAVE_DATA_FIELDS_DO_YOU_WANT_TO_CREATE_DATA_F" +
+                        "IELDS", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Form field: {0} ({1}).
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_FORM_FIELD_ARG0_ARG1 {
+        internal static string COMMONCODE_PDF_FORM_FIELD_ARG0_ARG1 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_FORM_FIELD_ARG0_ARG1", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_FORM_FIELD_ARG0_ARG1", resourceCulture);
             }
         }
         
@@ -2545,363 +2537,362 @@ namespace PdfEditorDemo.Localization {
         ///   Looks up a localized string similar to Form submit: Document needs connection to &apos;{0}&apos;.
         /// Do you want to allow connection?.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_FORM_SUBMIT_DOCUMENT_NEEDS_CONNECTION_TO_ARG0RN_DO_YOU_WANT_TO_ALLOW_CONNECTION {
+        internal static string COMMONCODE_PDF_FORM_SUBMIT_DOCUMENT_NEEDS_CONNECTION_TO_ARG0RN_DO_YOU_WANT_TO_ALLOW_CONNECTION {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_FORM_SUBMIT_DOCUMENT_NEEDS_CONNECTION_TO_ARG0RN_DO_YOU_WANT_T" +
-                        "O_ALLOW_CONNECTION", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_FORM_SUBMIT_DOCUMENT_NEEDS_CONNECTION_TO_ARG0RN_DO_YOU_WANT_TO_ALL" +
+                        "OW_CONNECTION", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Format.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_FORMAT {
+        internal static string COMMONCODE_PDF_FORMAT {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_FORMAT", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_FORMAT", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Generate thumbnails.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_GENERATE_THUMBNAILS {
+        internal static string COMMONCODE_PDF_GENERATE_THUMBNAILS {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_GENERATE_THUMBNAILS", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_GENERATE_THUMBNAILS", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Generate thumbnails.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_GENERATE_THUMBNAILS_ALT1 {
+        internal static string COMMONCODE_PDF_GENERATE_THUMBNAILS_ALT1 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_GENERATE_THUMBNAILS_ALT1", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_GENERATE_THUMBNAILS_ALT1", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Goto Action.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_GOTO_ACTION {
+        internal static string COMMONCODE_PDF_GOTO_ACTION {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_GOTO_ACTION", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_GOTO_ACTION", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Height is not a valid float number..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_HEIGHT_IS_NOT_A_VALID_FLOAT_NUMBER {
+        internal static string COMMONCODE_PDF_HEIGHT_IS_NOT_A_VALID_FLOAT_NUMBER {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_HEIGHT_IS_NOT_A_VALID_FLOAT_NUMBER", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_HEIGHT_IS_NOT_A_VALID_FLOAT_NUMBER", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Height must be positive..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_HEIGHT_MUST_BE_POSITIVE {
+        internal static string COMMONCODE_PDF_HEIGHT_MUST_BE_POSITIVE {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_HEIGHT_MUST_BE_POSITIVE", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_HEIGHT_MUST_BE_POSITIVE", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Help.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_HELP {
+        internal static string COMMONCODE_PDF_HELP {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_HELP", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_HELP", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to HTML submit format is not supported now..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_HTML_SUBMIT_FORMAT_IS_NOT_SUPPORTED_NOW {
+        internal static string COMMONCODE_PDF_HTML_SUBMIT_FORMAT_IS_NOT_SUPPORTED_NOW {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_HTML_SUBMIT_FORMAT_IS_NOT_SUPPORTED_NOW", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_HTML_SUBMIT_FORMAT_IS_NOT_SUPPORTED_NOW", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Image is not PDF page..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_IMAGE_IS_NOT_PDF_PAGE {
+        internal static string COMMONCODE_PDF_IMAGE_IS_NOT_PDF_PAGE {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_IMAGE_IS_NOT_PDF_PAGE", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_IMAGE_IS_NOT_PDF_PAGE", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Info.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_INFO {
+        internal static string COMMONCODE_PDF_INFO {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_INFO", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_INFO", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Information.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_INFORMATION {
+        internal static string COMMONCODE_PDF_INFORMATION {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_INFORMATION", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_INFORMATION", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Information.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_INFORMATION_ALT1 {
+        internal static string COMMONCODE_PDF_INFORMATION_ALT1 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_INFORMATION_ALT1", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_INFORMATION_ALT1", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Insert.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_INSERT {
+        internal static string COMMONCODE_PDF_INSERT {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_INSERT", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_INSERT", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Item(s) does not saved..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_ITEMS_DOES_NOT_SAVED {
+        internal static string COMMONCODE_PDF_ITEMS_DOES_NOT_SAVED {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_ITEMS_DOES_NOT_SAVED", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_ITEMS_DOES_NOT_SAVED", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Item(s) saved successfully..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_ITEMS_SAVED_SUCCESSFULLY {
+        internal static string COMMONCODE_PDF_ITEMS_SAVED_SUCCESSFULLY {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_ITEMS_SAVED_SUCCESSFULLY", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_ITEMS_SAVED_SUCCESSFULLY", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to JavaScript Action.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_JAVASCRIPT_ACTION {
+        internal static string COMMONCODE_PDF_JAVASCRIPT_ACTION {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_JAVASCRIPT_ACTION", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_JAVASCRIPT_ACTION", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Enter name of JavaScript action..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_JAVASCRIPT_ENTER_NAME_OF_JAVASCRIPT_ACTION {
+        internal static string COMMONCODE_PDF_JAVASCRIPT_ENTER_NAME_OF_JAVASCRIPT_ACTION {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_JAVASCRIPT_ENTER_NAME_OF_JAVASCRIPT_ACTION", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_JAVASCRIPT_ENTER_NAME_OF_JAVASCRIPT_ACTION", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Enter name of JavaScript action..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_JAVASCRIPT_ENTER_NAME_OF_JAVASCRIPT_ACTION_ALT1 {
+        internal static string COMMONCODE_PDF_JAVASCRIPT_ENTER_NAME_OF_JAVASCRIPT_ACTION_ALT1 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_JAVASCRIPT_ENTER_NAME_OF_JAVASCRIPT_ACTION_ALT1", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_JAVASCRIPT_ENTER_NAME_OF_JAVASCRIPT_ACTION_ALT1", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Error.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_JAVASCRIPT_ERROR {
+        internal static string COMMONCODE_PDF_JAVASCRIPT_ERROR {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_JAVASCRIPT_ERROR", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_JAVASCRIPT_ERROR", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Error.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_JAVASCRIPT_ERROR_ALT1 {
+        internal static string COMMONCODE_PDF_JAVASCRIPT_ERROR_ALT1 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_JAVASCRIPT_ERROR_ALT1", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_JAVASCRIPT_ERROR_ALT1", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to JavaScript Action Name.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_JAVASCRIPT_JAVASCRIPT_ACTION_NAME {
+        internal static string COMMONCODE_PDF_JAVASCRIPT_JAVASCRIPT_ACTION_NAME {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_JAVASCRIPT_JAVASCRIPT_ACTION_NAME", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_JAVASCRIPT_JAVASCRIPT_ACTION_NAME", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to JavaScript Action Name.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_JAVASCRIPT_JAVASCRIPT_ACTION_NAME_ALT1 {
+        internal static string COMMONCODE_PDF_JAVASCRIPT_JAVASCRIPT_ACTION_NAME_ALT1 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_JAVASCRIPT_JAVASCRIPT_ACTION_NAME_ALT1", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_JAVASCRIPT_JAVASCRIPT_ACTION_NAME_ALT1", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Name can not be empty..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_JAVASCRIPT_NAME_CAN_NOT_BE_EMPTY {
+        internal static string COMMONCODE_PDF_JAVASCRIPT_NAME_CAN_NOT_BE_EMPTY {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_JAVASCRIPT_NAME_CAN_NOT_BE_EMPTY", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_JAVASCRIPT_NAME_CAN_NOT_BE_EMPTY", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to PDF document already contains ction with name \&quot;{0}\&quot;..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_JAVASCRIPT_PDF_DOCUMENT_ALREADY_CONTAINS_CTION_WITH_NAME_ARG0 {
+        internal static string COMMONCODE_PDF_JAVASCRIPT_PDF_DOCUMENT_ALREADY_CONTAINS_CTION_WITH_NAME_ARG0 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_JAVASCRIPT_PDF_DOCUMENT_ALREADY_CONTAINS_CTION_WITH_NAME_ARG0" +
-                        "", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_JAVASCRIPT_PDF_DOCUMENT_ALREADY_CONTAINS_CTION_WITH_NAME_ARG0", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Key with name &apos;{0}&apos; already exsists in dictionary..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_KEY_WITH_NAME_ARG0_ALREADY_EXSISTS_IN_DICTIONARY {
+        internal static string COMMONCODE_PDF_KEY_WITH_NAME_ARG0_ALREADY_EXSISTS_IN_DICTIONARY {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_KEY_WITH_NAME_ARG0_ALREADY_EXSISTS_IN_DICTIONARY", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_KEY_WITH_NAME_ARG0_ALREADY_EXSISTS_IN_DICTIONARY", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Launch Action.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_LAUNCH_ACTION {
+        internal static string COMMONCODE_PDF_LAUNCH_ACTION {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_LAUNCH_ACTION", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_LAUNCH_ACTION", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Launch Application: &apos;{0}&apos;.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_LAUNCH_APPLICATION_ARG0 {
+        internal static string COMMONCODE_PDF_LAUNCH_APPLICATION_ARG0 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_LAUNCH_APPLICATION_ARG0", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_LAUNCH_APPLICATION_ARG0", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to LTV information is added..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_LTV_INFORMATION_IS_ADDED {
+        internal static string COMMONCODE_PDF_LTV_INFORMATION_IS_ADDED {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_LTV_INFORMATION_IS_ADDED", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_LTV_INFORMATION_IS_ADDED", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to LTV information is not required for this document..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_LTV_INFORMATION_IS_NOT_REQUIRED_FOR_THIS_DOCUMENT {
+        internal static string COMMONCODE_PDF_LTV_INFORMATION_IS_NOT_REQUIRED_FOR_THIS_DOCUMENT {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_LTV_INFORMATION_IS_NOT_REQUIRED_FOR_THIS_DOCUMENT", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_LTV_INFORMATION_IS_NOT_REQUIRED_FOR_THIS_DOCUMENT", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Modification Date.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_MODIFICATION_DATE {
+        internal static string COMMONCODE_PDF_MODIFICATION_DATE {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_MODIFICATION_DATE", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_MODIFICATION_DATE", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Modified date.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_MODIFIED_DATE {
+        internal static string COMMONCODE_PDF_MODIFIED_DATE {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_MODIFIED_DATE", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_MODIFIED_DATE", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Name.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_NAME {
+        internal static string COMMONCODE_PDF_NAME {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_NAME", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_NAME", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Name.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_NAME_ALT1 {
+        internal static string COMMONCODE_PDF_NAME_ALT1 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_NAME_ALT1", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_NAME_ALT1", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Named Action.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_NAMED_ACTION {
+        internal static string COMMONCODE_PDF_NAMED_ACTION {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_NAMED_ACTION", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_NAMED_ACTION", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Named Action: &apos;{0}&apos;.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_NAMED_ACTION_ARG0 {
+        internal static string COMMONCODE_PDF_NAMED_ACTION_ARG0 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_NAMED_ACTION_ARG0", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_NAMED_ACTION_ARG0", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to (no name).
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_NO_NAME {
+        internal static string COMMONCODE_PDF_NO_NAME {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_NO_NAME", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_NO_NAME", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to One or several pages are not saved in PDF document. Save document and try again..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_ONE_OR_SEVERAL_PAGES_ARE_NOT_SAVED_IN_PDF_DOCUMENT_SAVE_DOCUMENT_AND_TRY_AGAIN {
+        internal static string COMMONCODE_PDF_ONE_OR_SEVERAL_PAGES_ARE_NOT_SAVED_IN_PDF_DOCUMENT_SAVE_DOCUMENT_AND_TRY_AGAIN {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_ONE_OR_SEVERAL_PAGES_ARE_NOT_SAVED_IN_PDF_DOCUMENT_SAVE_DOCUM" +
-                        "ENT_AND_TRY_AGAIN", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_ONE_OR_SEVERAL_PAGES_ARE_NOT_SAVED_IN_PDF_DOCUMENT_SAVE_DOCUMENT_A" +
+                        "ND_TRY_AGAIN", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Open.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_OPEN {
+        internal static string COMMONCODE_PDF_OPEN {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_OPEN", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_OPEN", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Open.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_OPEN_ALT1 {
+        internal static string COMMONCODE_PDF_OPEN_ALT1 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_OPEN_ALT1", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_OPEN_ALT1", resourceCulture);
             }
         }
         
@@ -2909,10 +2900,10 @@ namespace PdfEditorDemo.Localization {
         ///   Looks up a localized string similar to Open file &apos;{0}&apos; ({1}) using the default application, or save file to a disk?
         ///.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_OPEN_FILE_ARG0_ARG1_USING_THE_DEFAULT_APPLICATION_OR_SAVE_FILE_TO_A_DISKRN {
+        internal static string COMMONCODE_PDF_OPEN_FILE_ARG0_ARG1_USING_THE_DEFAULT_APPLICATION_OR_SAVE_FILE_TO_A_DISKRN {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_OPEN_FILE_ARG0_ARG1_USING_THE_DEFAULT_APPLICATION_OR_SAVE_FIL" +
-                        "E_TO_A_DISKRN", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_OPEN_FILE_ARG0_ARG1_USING_THE_DEFAULT_APPLICATION_OR_SAVE_FILE_TO_" +
+                        "A_DISKRN", resourceCulture);
             }
         }
         
@@ -2921,54 +2912,54 @@ namespace PdfEditorDemo.Localization {
         ///
         ///.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_OPEN_FILE_ARG0_USING_THE_DEFAULT_PROGRAM_OR_SAVE_FILERNRN {
+        internal static string COMMONCODE_PDF_OPEN_FILE_ARG0_USING_THE_DEFAULT_PROGRAM_OR_SAVE_FILERNRN {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_OPEN_FILE_ARG0_USING_THE_DEFAULT_PROGRAM_OR_SAVE_FILERNRN", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_OPEN_FILE_ARG0_USING_THE_DEFAULT_PROGRAM_OR_SAVE_FILERNRN", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Open thumbnail image.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_OPEN_THUMBNAIL_IMAGE {
+        internal static string COMMONCODE_PDF_OPEN_THUMBNAIL_IMAGE {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_OPEN_THUMBNAIL_IMAGE", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_OPEN_THUMBNAIL_IMAGE", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Open thumbnail image.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_OPEN_THUMBNAIL_IMAGE_ALT1 {
+        internal static string COMMONCODE_PDF_OPEN_THUMBNAIL_IMAGE_ALT1 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_OPEN_THUMBNAIL_IMAGE_ALT1", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_OPEN_THUMBNAIL_IMAGE_ALT1", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Open URL.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_OPEN_URL {
+        internal static string COMMONCODE_PDF_OPEN_URL {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_OPEN_URL", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_OPEN_URL", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Open URL &apos;{0}&apos; ?.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_OPEN_URL_ARG0 {
+        internal static string COMMONCODE_PDF_OPEN_URL_ARG0 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_OPEN_URL_ARG0", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_OPEN_URL_ARG0", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Open URL: &apos;{0}&apos;.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_OPEN_URL_ARG0_ALT1 {
+        internal static string COMMONCODE_PDF_OPEN_URL_ARG0_ALT1 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_OPEN_URL_ARG0_ALT1", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_OPEN_URL_ARG0_ALT1", resourceCulture);
             }
         }
         
@@ -2976,102 +2967,102 @@ namespace PdfEditorDemo.Localization {
         ///   Looks up a localized string similar to Optional content configuration has auto states. To change layers order, auto states should be deleted.
         ///.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_OPTIONAL_CONTENT_CONFIGURATION_HAS_AUTO_STATES_TO_CHANGE_LAYERS_ORDER_AUTO_STATES_SHOULD_BE_DELETEDRN {
+        internal static string COMMONCODE_PDF_OPTIONAL_CONTENT_CONFIGURATION_HAS_AUTO_STATES_TO_CHANGE_LAYERS_ORDER_AUTO_STATES_SHOULD_BE_DELETEDRN {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_OPTIONAL_CONTENT_CONFIGURATION_HAS_AUTO_STATES_TO_CHANGE_LAYE" +
-                        "RS_ORDER_AUTO_STATES_SHOULD_BE_DELETEDRN", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_OPTIONAL_CONTENT_CONFIGURATION_HAS_AUTO_STATES_TO_CHANGE_LAYERS_OR" +
+                        "DER_AUTO_STATES_SHOULD_BE_DELETEDRN", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Page {0}.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_PAGE_ARG0 {
+        internal static string COMMONCODE_PDF_PAGE_ARG0 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_PAGE_ARG0", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_PAGE_ARG0", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Page {0}.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_PAGE_ARG0_ALT1 {
+        internal static string COMMONCODE_PDF_PAGE_ARG0_ALT1 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_PAGE_ARG0_ALT1", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_PAGE_ARG0_ALT1", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Page {0}.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_PAGE_ARG0_ALT2 {
+        internal static string COMMONCODE_PDF_PAGE_ARG0_ALT2 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_PAGE_ARG0_ALT2", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_PAGE_ARG0_ALT2", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Page {0}.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_PAGE_ARG0_ALT3 {
+        internal static string COMMONCODE_PDF_PAGE_ARG0_ALT3 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_PAGE_ARG0_ALT3", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_PAGE_ARG0_ALT3", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Page {0} is not from this PDF document. Save document and try again..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_PAGE_ARG0_IS_NOT_FROM_THIS_PDF_DOCUMENT_SAVE_DOCUMENT_AND_TRY_AGAIN {
+        internal static string COMMONCODE_PDF_PAGE_ARG0_IS_NOT_FROM_THIS_PDF_DOCUMENT_SAVE_DOCUMENT_AND_TRY_AGAIN {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_PAGE_ARG0_IS_NOT_FROM_THIS_PDF_DOCUMENT_SAVE_DOCUMENT_AND_TRY" +
-                        "_AGAIN", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_PAGE_ARG0_IS_NOT_FROM_THIS_PDF_DOCUMENT_SAVE_DOCUMENT_AND_TRY_AGAI" +
+                        "N", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to (Page:{0,3}) {1}.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_PAGE03_ARG1 {
+        internal static string COMMONCODE_PDF_PAGE03_ARG1 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_PAGE03_ARG1", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_PAGE03_ARG1", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to PDF document does not have the Information Dictionary..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_PDF_DOCUMENT_DOES_NOT_HAVE_THE_INFORMATION_DICTIONARY {
+        internal static string COMMONCODE_PDF_PDF_DOCUMENT_DOES_NOT_HAVE_THE_INFORMATION_DICTIONARY {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_PDF_DOCUMENT_DOES_NOT_HAVE_THE_INFORMATION_DICTIONARY", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_PDF_DOCUMENT_DOES_NOT_HAVE_THE_INFORMATION_DICTIONARY", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to PDF document does not have the Information Dictionary. Do you want to create the Information Dictionary?.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_PDF_DOCUMENT_DOES_NOT_HAVE_THE_INFORMATION_DICTIONARY_DO_YOU_WANT_TO_CREATE_THE_INFORMATION_DICTIONARY {
+        internal static string COMMONCODE_PDF_PDF_DOCUMENT_DOES_NOT_HAVE_THE_INFORMATION_DICTIONARY_DO_YOU_WANT_TO_CREATE_THE_INFORMATION_DICTIONARY {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_PDF_DOCUMENT_DOES_NOT_HAVE_THE_INFORMATION_DICTIONARY_DO_YOU_" +
-                        "WANT_TO_CREATE_THE_INFORMATION_DICTIONARY", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_PDF_DOCUMENT_DOES_NOT_HAVE_THE_INFORMATION_DICTIONARY_DO_YOU_WANT_" +
+                        "TO_CREATE_THE_INFORMATION_DICTIONARY", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Portfolio Colors.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_PORTFOLIO_COLORS {
+        internal static string COMMONCODE_PDF_PORTFOLIO_COLORS {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_PORTFOLIO_COLORS", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_PORTFOLIO_COLORS", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Press &apos;Cancel&apos; to cancel this action..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_PRESS_CANCEL_TO_CANCEL_THIS_ACTION {
+        internal static string COMMONCODE_PDF_PRESS_CANCEL_TO_CANCEL_THIS_ACTION {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_PRESS_CANCEL_TO_CANCEL_THIS_ACTION", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_PRESS_CANCEL_TO_CANCEL_THIS_ACTION", resourceCulture);
             }
         }
         
@@ -3079,18 +3070,18 @@ namespace PdfEditorDemo.Localization {
         ///   Looks up a localized string similar to Press &apos;No&apos; to save file to a disk.
         ///.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_PRESS_NO_TO_SAVE_FILE_TO_A_DISKRN {
+        internal static string COMMONCODE_PDF_PRESS_NO_TO_SAVE_FILE_TO_A_DISKRN {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_PRESS_NO_TO_SAVE_FILE_TO_A_DISKRN", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_PRESS_NO_TO_SAVE_FILE_TO_A_DISKRN", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Press &apos;No&apos; to save file to disk..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_PRESS_NO_TO_SAVE_FILE_TO_DISK {
+        internal static string COMMONCODE_PDF_PRESS_NO_TO_SAVE_FILE_TO_DISK {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_PRESS_NO_TO_SAVE_FILE_TO_DISK", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_PRESS_NO_TO_SAVE_FILE_TO_DISK", resourceCulture);
             }
         }
         
@@ -3098,9 +3089,9 @@ namespace PdfEditorDemo.Localization {
         ///   Looks up a localized string similar to Press &apos;Yes&apos; to open file using the default application.
         ///.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_PRESS_YES_TO_OPEN_FILE_USING_THE_DEFAULT_APPLICATIONRN {
+        internal static string COMMONCODE_PDF_PRESS_YES_TO_OPEN_FILE_USING_THE_DEFAULT_APPLICATIONRN {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_PRESS_YES_TO_OPEN_FILE_USING_THE_DEFAULT_APPLICATIONRN", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_PRESS_YES_TO_OPEN_FILE_USING_THE_DEFAULT_APPLICATIONRN", resourceCulture);
             }
         }
         
@@ -3108,757 +3099,754 @@ namespace PdfEditorDemo.Localization {
         ///   Looks up a localized string similar to Press &apos;Yes&apos; to open file using the default program.
         ///.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_PRESS_YES_TO_OPEN_FILE_USING_THE_DEFAULT_PROGRAMRN {
+        internal static string COMMONCODE_PDF_PRESS_YES_TO_OPEN_FILE_USING_THE_DEFAULT_PROGRAMRN {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_PRESS_YES_TO_OPEN_FILE_USING_THE_DEFAULT_PROGRAMRN", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_PRESS_YES_TO_OPEN_FILE_USING_THE_DEFAULT_PROGRAMRN", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Printed.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_PRINTED {
+        internal static string COMMONCODE_PDF_PRINTED {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_PRINTED", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_PRINTED", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Printing.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_PRINTING {
+        internal static string COMMONCODE_PDF_PRINTING {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_PRINTING", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_PRINTING", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Redo.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_REDO {
+        internal static string COMMONCODE_PDF_REDO {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_REDO", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_REDO", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Redo (Ctrl+Y): {0}.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_REDO_CTRLY_ARG0 {
+        internal static string COMMONCODE_PDF_REDO_CTRLY_ARG0 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_REDO_CTRLY_ARG0", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_REDO_CTRLY_ARG0", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Region in page content (Resolution: {0}).
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_REGION_IN_PAGE_CONTENT_RESOLUTION_ARG0 {
+        internal static string COMMONCODE_PDF_REGION_IN_PAGE_CONTENT_RESOLUTION_ARG0 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_REGION_IN_PAGE_CONTENT_RESOLUTION_ARG0", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_REGION_IN_PAGE_CONTENT_RESOLUTION_ARG0", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Remove content and blackout.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_REMOVE_CONTENT_AND_BLACKOUT {
+        internal static string COMMONCODE_PDF_REMOVE_CONTENT_AND_BLACKOUT {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_REMOVE_CONTENT_AND_BLACKOUT", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_REMOVE_CONTENT_AND_BLACKOUT", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Reset Form Action.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_RESET_FORM_ACTION {
+        internal static string COMMONCODE_PDF_RESET_FORM_ACTION {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_RESET_FORM_ACTION", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_RESET_FORM_ACTION", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Resource {0,3}, .
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_RESOURCE_03 {
+        internal static string COMMONCODE_PDF_RESOURCE_03 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_RESOURCE_03", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_RESOURCE_03", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Resources of {0}.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_RESOURCES_OF_ARG0 {
+        internal static string COMMONCODE_PDF_RESOURCES_OF_ARG0 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_RESOURCES_OF_ARG0", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_RESOURCES_OF_ARG0", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Save selected items.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SAVE_SELECTED_ITEMS {
+        internal static string COMMONCODE_PDF_SAVE_SELECTED_ITEMS {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SAVE_SELECTED_ITEMS", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SAVE_SELECTED_ITEMS", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Saved.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SAVED {
+        internal static string COMMONCODE_PDF_SAVED {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SAVED", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SAVED", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Saving.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SAVING {
+        internal static string COMMONCODE_PDF_SAVING {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SAVING", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SAVING", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to  (Has Private Key).
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY__HAS_PRIVATE_KEY {
+        internal static string COMMONCODE_PDF_SECURITY__HAS_PRIVATE_KEY {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY__HAS_PRIVATE_KEY", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY__HAS_PRIVATE_KEY", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to  (High Resolution).
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY__HIGH_RESOLUTION {
+        internal static string COMMONCODE_PDF_SECURITY__HIGH_RESOLUTION {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY__HIGH_RESOLUTION", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY__HIGH_RESOLUTION", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to  (Low Resolution).
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY__LOW_RESOLUTION {
+        internal static string COMMONCODE_PDF_SECURITY__LOW_RESOLUTION {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY__LOW_RESOLUTION", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY__LOW_RESOLUTION", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to 128-bit AES (PDF 1.6).
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_128BIT_AES_PDF_16 {
+        internal static string COMMONCODE_PDF_SECURITY_128BIT_AES_PDF_16 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_128BIT_AES_PDF_16", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_128BIT_AES_PDF_16", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to 128-bit RC4 (PDF 1.4).
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_128BIT_RC4_PDF_14 {
+        internal static string COMMONCODE_PDF_SECURITY_128BIT_RC4_PDF_14 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_128BIT_RC4_PDF_14", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_128BIT_RC4_PDF_14", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to 256-bit AES (PDF 1.7).
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_256BIT_AES_PDF_17 {
+        internal static string COMMONCODE_PDF_SECURITY_256BIT_AES_PDF_17 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_256BIT_AES_PDF_17", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_256BIT_AES_PDF_17", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to 256-bit AES (PDF 2.0).
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_256BIT_AES_PDF_20 {
+        internal static string COMMONCODE_PDF_SECURITY_256BIT_AES_PDF_20 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_256BIT_AES_PDF_20", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_256BIT_AES_PDF_20", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to 40-bit RC4 (PDF 1.1).
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_40BIT_RC4_PDF_11 {
+        internal static string COMMONCODE_PDF_SECURITY_40BIT_RC4_PDF_11 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_40BIT_RC4_PDF_11", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_40BIT_RC4_PDF_11", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to added annotation(s) on {0} page(s); .
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_ADDED_ANNOTATIONS_ON_ARG0_PAGES {
+        internal static string COMMONCODE_PDF_SECURITY_ADDED_ANNOTATIONS_ON_ARG0_PAGES {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_ADDED_ANNOTATIONS_ON_ARG0_PAGES", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_ADDED_ANNOTATIONS_ON_ARG0_PAGES", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to annotations(s) on {0} page(s) removed; .
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_ANNOTATIONSS_ON_ARG0_PAGES_REMOVED {
+        internal static string COMMONCODE_PDF_SECURITY_ANNOTATIONSS_ON_ARG0_PAGES_REMOVED {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_ANNOTATIONSS_ON_ARG0_PAGES_REMOVED", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_ANNOTATIONSS_ON_ARG0_PAGES_REMOVED", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Application: {0}.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_APPLICATION_ARG0 {
+        internal static string COMMONCODE_PDF_SECURITY_APPLICATION_ARG0 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_APPLICATION_ARG0", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_APPLICATION_ARG0", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to {0} page(s) added; .
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_ARG0_PAGES_ADDED {
+        internal static string COMMONCODE_PDF_SECURITY_ARG0_PAGES_ADDED {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_ARG0_PAGES_ADDED", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_ARG0_PAGES_ADDED", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to {0} page(s) modified; .
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_ARG0_PAGES_MODIFIED {
+        internal static string COMMONCODE_PDF_SECURITY_ARG0_PAGES_MODIFIED {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_ARG0_PAGES_MODIFIED", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_ARG0_PAGES_MODIFIED", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to {0} page(s) removed; .
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_ARG0_PAGES_REMOVED {
+        internal static string COMMONCODE_PDF_SECURITY_ARG0_PAGES_REMOVED {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_ARG0_PAGES_REMOVED", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_ARG0_PAGES_REMOVED", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Authorization Result.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_AUTHORIZATION_RESULT {
+        internal static string COMMONCODE_PDF_SECURITY_AUTHORIZATION_RESULT {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_AUTHORIZATION_RESULT", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_AUTHORIZATION_RESULT", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Authorization result: {0}.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_AUTHORIZATION_RESULT_ARG0 {
+        internal static string COMMONCODE_PDF_SECURITY_AUTHORIZATION_RESULT_ARG0 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_AUTHORIZATION_RESULT_ARG0", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_AUTHORIZATION_RESULT_ARG0", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Certificate Chain.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_CERTIFICATE_CHAIN {
+        internal static string COMMONCODE_PDF_SECURITY_CERTIFICATE_CHAIN {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_CERTIFICATE_CHAIN", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_CERTIFICATE_CHAIN", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Certificate details....
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_CERTIFICATE_DETAILS {
+        internal static string COMMONCODE_PDF_SECURITY_CERTIFICATE_DETAILS {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_CERTIFICATE_DETAILS", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_CERTIFICATE_DETAILS", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Certificate does not have Private Key..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_CERTIFICATE_DOES_NOT_HAVE_PRIVATE_KEY {
+        internal static string COMMONCODE_PDF_SECURITY_CERTIFICATE_DOES_NOT_HAVE_PRIVATE_KEY {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_CERTIFICATE_DOES_NOT_HAVE_PRIVATE_KEY", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_CERTIFICATE_DOES_NOT_HAVE_PRIVATE_KEY", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Certificate error.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_CERTIFICATE_ERROR {
+        internal static string COMMONCODE_PDF_SECURITY_CERTIFICATE_ERROR {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_CERTIFICATE_ERROR", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_CERTIFICATE_ERROR", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Certificate is not selected, create empty signature field?.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_CERTIFICATE_IS_NOT_SELECTED_CREATE_EMPTY_SIGNATURE_FIELD {
+        internal static string COMMONCODE_PDF_SECURITY_CERTIFICATE_IS_NOT_SELECTED_CREATE_EMPTY_SIGNATURE_FIELD {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_CERTIFICATE_IS_NOT_SELECTED_CREATE_EMPTY_SIGNATURE_F" +
-                        "IELD", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_CERTIFICATE_IS_NOT_SELECTED_CREATE_EMPTY_SIGNATURE_FIELD", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Certificate verification: Signer&apos;s certificate is invalid.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_CERTIFICATE_VERIFICATION_SIGNERS_CERTIFICATE_IS_INVALID {
+        internal static string COMMONCODE_PDF_SECURITY_CERTIFICATE_VERIFICATION_SIGNERS_CERTIFICATE_IS_INVALID {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_CERTIFICATE_VERIFICATION_SIGNERS_CERTIFICATE_IS_INVA" +
-                        "LID", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_CERTIFICATE_VERIFICATION_SIGNERS_CERTIFICATE_IS_INVALID", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Certificate verification: Signer&apos;s certificate is valid.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_CERTIFICATE_VERIFICATION_SIGNERS_CERTIFICATE_IS_VALID {
+        internal static string COMMONCODE_PDF_SECURITY_CERTIFICATE_VERIFICATION_SIGNERS_CERTIFICATE_IS_VALID {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_CERTIFICATE_VERIFICATION_SIGNERS_CERTIFICATE_IS_VALI" +
-                        "D", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_CERTIFICATE_VERIFICATION_SIGNERS_CERTIFICATE_IS_VALID", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to changed annotation(s) on {0} page(s); .
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_CHANGED_ANNOTATIONS_ON_ARG0_PAGES {
+        internal static string COMMONCODE_PDF_SECURITY_CHANGED_ANNOTATIONS_ON_ARG0_PAGES {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_CHANGED_ANNOTATIONS_ON_ARG0_PAGES", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_CHANGED_ANNOTATIONS_ON_ARG0_PAGES", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Contact: {0}.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_CONTACT_ARG0 {
+        internal static string COMMONCODE_PDF_SECURITY_CONTACT_ARG0 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_CONTACT_ARG0", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_CONTACT_ARG0", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Contact Info: {0}.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_CONTACT_INFO_ARG0 {
+        internal static string COMMONCODE_PDF_SECURITY_CONTACT_INFO_ARG0 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_CONTACT_INFO_ARG0", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_CONTACT_INFO_ARG0", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Create empty signature.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_CREATE_EMPTY_SIGNATURE {
+        internal static string COMMONCODE_PDF_SECURITY_CREATE_EMPTY_SIGNATURE {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_CREATE_EMPTY_SIGNATURE", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_CREATE_EMPTY_SIGNATURE", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Digitally signed by {0}.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_DIGITALLY_SIGNED_BY_ARG0 {
+        internal static string COMMONCODE_PDF_SECURITY_DIGITALLY_SIGNED_BY_ARG0 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_DIGITALLY_SIGNED_BY_ARG0", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_DIGITALLY_SIGNED_BY_ARG0", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Document does not contain digital signatures..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_DOCUMENT_DOES_NOT_CONTAIN_DIGITAL_SIGNATURES {
+        internal static string COMMONCODE_PDF_SECURITY_DOCUMENT_DOES_NOT_CONTAIN_DIGITAL_SIGNATURES {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_DOCUMENT_DOES_NOT_CONTAIN_DIGITAL_SIGNATURES", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_DOCUMENT_DOES_NOT_CONTAIN_DIGITAL_SIGNATURES", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Document has annotation with name &apos;{0}&apos;..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_DOCUMENT_HAS_ANNOTATION_WITH_NAME_ARG0 {
+        internal static string COMMONCODE_PDF_SECURITY_DOCUMENT_HAS_ANNOTATION_WITH_NAME_ARG0 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_DOCUMENT_HAS_ANNOTATION_WITH_NAME_ARG0", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_DOCUMENT_HAS_ANNOTATION_WITH_NAME_ARG0", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Document has annotation with name &apos;{0}&apos;, change signature name..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_DOCUMENT_HAS_ANNOTATION_WITH_NAME_ARG0_CHANGE_SIGNATURE_NAME {
+        internal static string COMMONCODE_PDF_SECURITY_DOCUMENT_HAS_ANNOTATION_WITH_NAME_ARG0_CHANGE_SIGNATURE_NAME {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_DOCUMENT_HAS_ANNOTATION_WITH_NAME_ARG0_CHANGE_SIGNAT" +
-                        "URE_NAME", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_DOCUMENT_HAS_ANNOTATION_WITH_NAME_ARG0_CHANGE_SIGNATURE_N" +
+                        "AME", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Don&apos;t Change ({0}).
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_DONT_CHANGE_ARG0 {
+        internal static string COMMONCODE_PDF_SECURITY_DONT_CHANGE_ARG0 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_DONT_CHANGE_ARG0", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_DONT_CHANGE_ARG0", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Don&apos;t Change (No Security).
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_DONT_CHANGE_NO_SECURITY {
+        internal static string COMMONCODE_PDF_SECURITY_DONT_CHANGE_NO_SECURITY {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_DONT_CHANGE_NO_SECURITY", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_DONT_CHANGE_NO_SECURITY", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Empty Signature Field.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_EMPTY_SIGNATURE_FIELD {
+        internal static string COMMONCODE_PDF_SECURITY_EMPTY_SIGNATURE_FIELD {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_EMPTY_SIGNATURE_FIELD", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_EMPTY_SIGNATURE_FIELD", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Error.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_ERROR {
+        internal static string COMMONCODE_PDF_SECURITY_ERROR {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_ERROR", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_ERROR", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Error: {0}.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_ERROR_ARG0 {
+        internal static string COMMONCODE_PDF_SECURITY_ERROR_ARG0 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_ERROR_ARG0", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_ERROR_ARG0", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Filter: {0} ({1}).
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_FILTER_ARG0_ARG1 {
+        internal static string COMMONCODE_PDF_SECURITY_FILTER_ARG0_ARG1 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_FILTER_ARG0_ARG1", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_FILTER_ARG0_ARG1", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Location: {0}.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_LOCATION_ARG0 {
+        internal static string COMMONCODE_PDF_SECURITY_LOCATION_ARG0 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_LOCATION_ARG0", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_LOCATION_ARG0", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Location: {0}.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_LOCATION_ARG0_ALT1 {
+        internal static string COMMONCODE_PDF_SECURITY_LOCATION_ARG0_ALT1 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_LOCATION_ARG0_ALT1", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_LOCATION_ARG0_ALT1", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to miscellaneous changes: {0}; .
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_MISCELLANEOUS_CHANGES_ARG0 {
+        internal static string COMMONCODE_PDF_SECURITY_MISCELLANEOUS_CHANGES_ARG0 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_MISCELLANEOUS_CHANGES_ARG0", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_MISCELLANEOUS_CHANGES_ARG0", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Name of Signer: {0}.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_NAME_OF_SIGNER_ARG0 {
+        internal static string COMMONCODE_PDF_SECURITY_NAME_OF_SIGNER_ARG0 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_NAME_OF_SIGNER_ARG0", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_NAME_OF_SIGNER_ARG0", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to No Encryption.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_NO_ENCRYPTION {
+        internal static string COMMONCODE_PDF_SECURITY_NO_ENCRYPTION {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_NO_ENCRYPTION", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_NO_ENCRYPTION", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Not supported or corrupted signature: {0}.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_NOT_SUPPORTED_OR_CORRUPTED_SIGNATURE_ARG0 {
+        internal static string COMMONCODE_PDF_SECURITY_NOT_SUPPORTED_OR_CORRUPTED_SIGNATURE_ARG0 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_NOT_SUPPORTED_OR_CORRUPTED_SIGNATURE_ARG0", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_NOT_SUPPORTED_OR_CORRUPTED_SIGNATURE_ARG0", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Page: {0}.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_PAGE_ARG0 {
+        internal static string COMMONCODE_PDF_SECURITY_PAGE_ARG0 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_PAGE_ARG0", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_PAGE_ARG0", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Page {0}: {1}.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_PAGE_ARG0_ARG1 {
+        internal static string COMMONCODE_PDF_SECURITY_PAGE_ARG0_ARG1 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_PAGE_ARG0_ARG1", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_PAGE_ARG0_ARG1", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Password.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_PASSWORD {
+        internal static string COMMONCODE_PDF_SECURITY_PASSWORD {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_PASSWORD", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_PASSWORD", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Password.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_PASSWORD_ALT1 {
+        internal static string COMMONCODE_PDF_SECURITY_PASSWORD_ALT1 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_PASSWORD_ALT1", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_PASSWORD_ALT1", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Password - {0}.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_PASSWORD_ARG0 {
+        internal static string COMMONCODE_PDF_SECURITY_PASSWORD_ARG0 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_PASSWORD_ARG0", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_PASSWORD_ARG0", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Password - {0}.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_PASSWORD_ARG0_ALT1 {
+        internal static string COMMONCODE_PDF_SECURITY_PASSWORD_ARG0_ALT1 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_PASSWORD_ARG0_ALT1", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_PASSWORD_ARG0_ALT1", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to PDF Documents (*.pdf)|*.pdf.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_PDF_DOCUMENTS_PDFPDF {
+        internal static string COMMONCODE_PDF_SECURITY_PDF_DOCUMENTS_PDFPDF {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_PDF_DOCUMENTS_PDFPDF", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_PDF_DOCUMENTS_PDFPDF", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to PKCS12 (PFX) Files|*.pfx.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_PKCS12_PFX_FILESPFX {
+        internal static string COMMONCODE_PDF_SECURITY_PKCS12_PFX_FILESPFX {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_PKCS12_PFX_FILESPFX", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_PKCS12_PFX_FILESPFX", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Please, enter the owner and/or user password!.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_PLEASE_ENTER_THE_OWNER_ANDOR_USER_PASSWORD {
+        internal static string COMMONCODE_PDF_SECURITY_PLEASE_ENTER_THE_OWNER_ANDOR_USER_PASSWORD {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_PLEASE_ENTER_THE_OWNER_ANDOR_USER_PASSWORD", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_PLEASE_ENTER_THE_OWNER_ANDOR_USER_PASSWORD", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Reason: {0}.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_REASON_ARG0 {
+        internal static string COMMONCODE_PDF_SECURITY_REASON_ARG0 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_REASON_ARG0", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_REASON_ARG0", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Reason: {0}.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_REASON_ARG0_ALT1 {
+        internal static string COMMONCODE_PDF_SECURITY_REASON_ARG0_ALT1 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_REASON_ARG0_ALT1", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_REASON_ARG0_ALT1", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to removed annotation(s) on {0} page(s); .
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_REMOVED_ANNOTATIONS_ON_ARG0_PAGES {
+        internal static string COMMONCODE_PDF_SECURITY_REMOVED_ANNOTATIONS_ON_ARG0_PAGES {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_REMOVED_ANNOTATIONS_ON_ARG0_PAGES", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_REMOVED_ANNOTATIONS_ON_ARG0_PAGES", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Save Document Resivion {0} As....
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_SAVE_DOCUMENT_RESIVION_ARG0_AS {
+        internal static string COMMONCODE_PDF_SECURITY_SAVE_DOCUMENT_RESIVION_ARG0_AS {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_SAVE_DOCUMENT_RESIVION_ARG0_AS", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_SAVE_DOCUMENT_RESIVION_ARG0_AS", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Save Document Resivion As....
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_SAVE_DOCUMENT_RESIVION_AS {
+        internal static string COMMONCODE_PDF_SECURITY_SAVE_DOCUMENT_RESIVION_AS {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_SAVE_DOCUMENT_RESIVION_AS", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_SAVE_DOCUMENT_RESIVION_AS", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Signature Algorithm: {0}.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_SIGNATURE_ALGORITHM_ARG0 {
+        internal static string COMMONCODE_PDF_SECURITY_SIGNATURE_ALGORITHM_ARG0 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_SIGNATURE_ALGORITHM_ARG0", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_SIGNATURE_ALGORITHM_ARG0", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Signature Details.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_SIGNATURE_DETAILS {
+        internal static string COMMONCODE_PDF_SECURITY_SIGNATURE_DETAILS {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_SIGNATURE_DETAILS", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_SIGNATURE_DETAILS", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Signature includes an embeded timestamp.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_SIGNATURE_INCLUDES_AN_EMBEDED_TIMESTAMP {
+        internal static string COMMONCODE_PDF_SECURITY_SIGNATURE_INCLUDES_AN_EMBEDED_TIMESTAMP {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_SIGNATURE_INCLUDES_AN_EMBEDED_TIMESTAMP", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_SIGNATURE_INCLUDES_AN_EMBEDED_TIMESTAMP", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Signature is a document timestamp signature.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_SIGNATURE_IS_A_DOCUMENT_TIMESTAMP_SIGNATURE {
+        internal static string COMMONCODE_PDF_SECURITY_SIGNATURE_IS_A_DOCUMENT_TIMESTAMP_SIGNATURE {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_SIGNATURE_IS_A_DOCUMENT_TIMESTAMP_SIGNATURE", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_SIGNATURE_IS_A_DOCUMENT_TIMESTAMP_SIGNATURE", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Signature is invalid.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_SIGNATURE_IS_INVALID {
+        internal static string COMMONCODE_PDF_SECURITY_SIGNATURE_IS_INVALID {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_SIGNATURE_IS_INVALID", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_SIGNATURE_IS_INVALID", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Signature is not verified.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_SIGNATURE_IS_NOT_VERIFIED {
+        internal static string COMMONCODE_PDF_SECURITY_SIGNATURE_IS_NOT_VERIFIED {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_SIGNATURE_IS_NOT_VERIFIED", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_SIGNATURE_IS_NOT_VERIFIED", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Signature is valid.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_SIGNATURE_IS_VALID {
+        internal static string COMMONCODE_PDF_SECURITY_SIGNATURE_IS_VALID {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_SIGNATURE_IS_VALID", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_SIGNATURE_IS_VALID", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Signature validity is unknown.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_SIGNATURE_VALIDITY_IS_UNKNOWN {
+        internal static string COMMONCODE_PDF_SECURITY_SIGNATURE_VALIDITY_IS_UNKNOWN {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_SIGNATURE_VALIDITY_IS_UNKNOWN", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_SIGNATURE_VALIDITY_IS_UNKNOWN", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Signature verification: Document has been modified or corrupted since it was signed.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_SIGNATURE_VERIFICATION_DOCUMENT_HAS_BEEN_MODIFIED_OR_CORRUPTED_SINCE_IT_WAS_SIGNED {
+        internal static string COMMONCODE_PDF_SECURITY_SIGNATURE_VERIFICATION_DOCUMENT_HAS_BEEN_MODIFIED_OR_CORRUPTED_SINCE_IT_WAS_SIGNED {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_SIGNATURE_VERIFICATION_DOCUMENT_HAS_BEEN_MODIFIED_OR" +
-                        "_CORRUPTED_SINCE_IT_WAS_SIGNED", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_SIGNATURE_VERIFICATION_DOCUMENT_HAS_BEEN_MODIFIED_OR_CORR" +
+                        "UPTED_SINCE_IT_WAS_SIGNED", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Signature verification: Document has been modified or corrupted since it was signed.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_SIGNATURE_VERIFICATION_DOCUMENT_HAS_BEEN_MODIFIED_OR_CORRUPTED_SINCE_IT_WAS_SIGNED_ALT1 {
+        internal static string COMMONCODE_PDF_SECURITY_SIGNATURE_VERIFICATION_DOCUMENT_HAS_BEEN_MODIFIED_OR_CORRUPTED_SINCE_IT_WAS_SIGNED_ALT1 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_SIGNATURE_VERIFICATION_DOCUMENT_HAS_BEEN_MODIFIED_OR" +
-                        "_CORRUPTED_SINCE_IT_WAS_SIGNED_ALT1", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_SIGNATURE_VERIFICATION_DOCUMENT_HAS_BEEN_MODIFIED_OR_CORR" +
+                        "UPTED_SINCE_IT_WAS_SIGNED_ALT1", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Signature verification: Document has not been modified since this signature was applied.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_SIGNATURE_VERIFICATION_DOCUMENT_HAS_NOT_BEEN_MODIFIED_SINCE_THIS_SIGNATURE_WAS_APPLIED {
+        internal static string COMMONCODE_PDF_SECURITY_SIGNATURE_VERIFICATION_DOCUMENT_HAS_NOT_BEEN_MODIFIED_SINCE_THIS_SIGNATURE_WAS_APPLIED {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_SIGNATURE_VERIFICATION_DOCUMENT_HAS_NOT_BEEN_MODIFIE" +
-                        "D_SINCE_THIS_SIGNATURE_WAS_APPLIED", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_SIGNATURE_VERIFICATION_DOCUMENT_HAS_NOT_BEEN_MODIFIED_SIN" +
+                        "CE_THIS_SIGNATURE_WAS_APPLIED", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Signature verification: Document has not been modified since this signature was applied.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_SIGNATURE_VERIFICATION_DOCUMENT_HAS_NOT_BEEN_MODIFIED_SINCE_THIS_SIGNATURE_WAS_APPLIED_ALT1 {
+        internal static string COMMONCODE_PDF_SECURITY_SIGNATURE_VERIFICATION_DOCUMENT_HAS_NOT_BEEN_MODIFIED_SINCE_THIS_SIGNATURE_WAS_APPLIED_ALT1 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_SIGNATURE_VERIFICATION_DOCUMENT_HAS_NOT_BEEN_MODIFIE" +
-                        "D_SINCE_THIS_SIGNATURE_WAS_APPLIED_ALT1", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_SIGNATURE_VERIFICATION_DOCUMENT_HAS_NOT_BEEN_MODIFIED_SIN" +
+                        "CE_THIS_SIGNATURE_WAS_APPLIED_ALT1", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Signature verification: The revision of the document that was covered by this signature has not been altered; however, there have been subsequent changes to the document.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_SIGNATURE_VERIFICATION_THE_REVISION_OF_THE_DOCUMENT_THAT_WAS_COVERED_BY_THIS_SIGNATURE_HAS_NOT_BEEN_ALTERED_HOWEVER_THERE_HAVE_BEEN_SUBSEQUENT_CHANGES_TO_THE_DOCUMENT {
+        internal static string COMMONCODE_PDF_SECURITY_SIGNATURE_VERIFICATION_THE_REVISION_OF_THE_DOCUMENT_THAT_WAS_COVERED_BY_THIS_SIGNATURE_HAS_NOT_BEEN_ALTERED_HOWEVER_THERE_HAVE_BEEN_SUBSEQUENT_CHANGES_TO_THE_DOCUMENT {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_SIGNATURE_VERIFICATION_THE_REVISION_OF_THE_DOCUMENT_" +
-                        "THAT_WAS_COVERED_BY_THIS_SIGNATURE_HAS_NOT_BEEN_ALTERED_HOWEVER_THERE_HAVE_BEEN_" +
-                        "SUBSEQUENT_CHANGES_TO_THE_DOCUMENT", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_SIGNATURE_VERIFICATION_THE_REVISION_OF_THE_DOCUMENT_THAT_" +
+                        "WAS_COVERED_BY_THIS_SIGNATURE_HAS_NOT_BEEN_ALTERED_HOWEVER_THERE_HAVE_BEEN_SUBSE" +
+                        "QUENT_CHANGES_TO_THE_DOCUMENT", resourceCulture);
             }
         }
         
@@ -3866,552 +3854,551 @@ namespace PdfEditorDemo.Localization {
         ///   Looks up a localized string similar to Signing Date:
         ///{0}.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_SIGNING_DATERNARG0 {
+        internal static string COMMONCODE_PDF_SECURITY_SIGNING_DATERNARG0 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_SIGNING_DATERNARG0", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_SIGNING_DATERNARG0", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Signing is not implemented.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_SIGNING_IS_NOT_IMPLEMENTED {
+        internal static string COMMONCODE_PDF_SECURITY_SIGNING_IS_NOT_IMPLEMENTED {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_SIGNING_IS_NOT_IMPLEMENTED", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_SIGNING_IS_NOT_IMPLEMENTED", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Signing Time: {0}.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_SIGNING_TIME_ARG0 {
+        internal static string COMMONCODE_PDF_SECURITY_SIGNING_TIME_ARG0 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_SIGNING_TIME_ARG0", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_SIGNING_TIME_ARG0", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Subsequent changes: {0}.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_SUBSEQUENT_CHANGES_ARG0 {
+        internal static string COMMONCODE_PDF_SECURITY_SUBSEQUENT_CHANGES_ARG0 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_SUBSEQUENT_CHANGES_ARG0", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_SUBSEQUENT_CHANGES_ARG0", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Subsequent changes: {0}.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_SUBSEQUENT_CHANGES_ARG0_ALT1 {
+        internal static string COMMONCODE_PDF_SECURITY_SUBSEQUENT_CHANGES_ARG0_ALT1 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_SUBSEQUENT_CHANGES_ARG0_ALT1", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_SUBSEQUENT_CHANGES_ARG0_ALT1", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to The {0} password is incorrect..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_THE_ARG0_PASSWORD_IS_INCORRECT {
+        internal static string COMMONCODE_PDF_SECURITY_THE_ARG0_PASSWORD_IS_INCORRECT {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_THE_ARG0_PASSWORD_IS_INCORRECT", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_THE_ARG0_PASSWORD_IS_INCORRECT", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Timestamp Certificate: {0}.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_TIMESTAMP_CERTIFICATE_ARG0 {
+        internal static string COMMONCODE_PDF_SECURITY_TIMESTAMP_CERTIFICATE_ARG0 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_TIMESTAMP_CERTIFICATE_ARG0", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_TIMESTAMP_CERTIFICATE_ARG0", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Timestamp Certificate Chain.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_TIMESTAMP_CERTIFICATE_CHAIN {
+        internal static string COMMONCODE_PDF_SECURITY_TIMESTAMP_CERTIFICATE_CHAIN {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_TIMESTAMP_CERTIFICATE_CHAIN", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_TIMESTAMP_CERTIFICATE_CHAIN", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Timestamp Certificate Details....
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_TIMESTAMP_CERTIFICATE_DETAILS {
+        internal static string COMMONCODE_PDF_SECURITY_TIMESTAMP_CERTIFICATE_DETAILS {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_TIMESTAMP_CERTIFICATE_DETAILS", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_TIMESTAMP_CERTIFICATE_DETAILS", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Timestamp certificate verification: certificate is invalid.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_TIMESTAMP_CERTIFICATE_VERIFICATION_CERTIFICATE_IS_INVALID {
+        internal static string COMMONCODE_PDF_SECURITY_TIMESTAMP_CERTIFICATE_VERIFICATION_CERTIFICATE_IS_INVALID {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_TIMESTAMP_CERTIFICATE_VERIFICATION_CERTIFICATE_IS_IN" +
-                        "VALID", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_TIMESTAMP_CERTIFICATE_VERIFICATION_CERTIFICATE_IS_INVALID" +
+                        "", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Timestamp certificate verification: certificate is valid.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_TIMESTAMP_CERTIFICATE_VERIFICATION_CERTIFICATE_IS_VALID {
+        internal static string COMMONCODE_PDF_SECURITY_TIMESTAMP_CERTIFICATE_VERIFICATION_CERTIFICATE_IS_VALID {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_TIMESTAMP_CERTIFICATE_VERIFICATION_CERTIFICATE_IS_VA" +
-                        "LID", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_TIMESTAMP_CERTIFICATE_VERIFICATION_CERTIFICATE_IS_VALID", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Timestamp Date: {0}.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_TIMESTAMP_DATE_ARG0 {
+        internal static string COMMONCODE_PDF_SECURITY_TIMESTAMP_DATE_ARG0 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_TIMESTAMP_DATE_ARG0", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_TIMESTAMP_DATE_ARG0", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Timestamp Server Settings.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_TIMESTAMP_SERVER_SETTINGS {
+        internal static string COMMONCODE_PDF_SECURITY_TIMESTAMP_SERVER_SETTINGS {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_TIMESTAMP_SERVER_SETTINGS", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_TIMESTAMP_SERVER_SETTINGS", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Timestamp verification: Timestamp is corrupted.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_TIMESTAMP_VERIFICATION_TIMESTAMP_IS_CORRUPTED {
+        internal static string COMMONCODE_PDF_SECURITY_TIMESTAMP_VERIFICATION_TIMESTAMP_IS_CORRUPTED {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_TIMESTAMP_VERIFICATION_TIMESTAMP_IS_CORRUPTED", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_TIMESTAMP_VERIFICATION_TIMESTAMP_IS_CORRUPTED", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Timestamp verification: Timestamp is valid.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_TIMESTAMP_VERIFICATION_TIMESTAMP_IS_VALID {
+        internal static string COMMONCODE_PDF_SECURITY_TIMESTAMP_VERIFICATION_TIMESTAMP_IS_VALID {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_TIMESTAMP_VERIFICATION_TIMESTAMP_IS_VALID", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_TIMESTAMP_VERIFICATION_TIMESTAMP_IS_VALID", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Unsigned Signature Field.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_UNSIGNED_SIGNATURE_FIELD {
+        internal static string COMMONCODE_PDF_SECURITY_UNSIGNED_SIGNATURE_FIELD {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_UNSIGNED_SIGNATURE_FIELD", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_UNSIGNED_SIGNATURE_FIELD", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Verifying signature....
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_VERIFYING_SIGNATURE {
+        internal static string COMMONCODE_PDF_SECURITY_VERIFYING_SIGNATURE {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_VERIFYING_SIGNATURE", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_VERIFYING_SIGNATURE", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Yes.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_YES {
+        internal static string COMMONCODE_PDF_SECURITY_YES {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_YES", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_YES", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Yes.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SECURITY_YES_ALT1 {
+        internal static string COMMONCODE_PDF_SECURITY_YES_ALT1 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SECURITY_YES_ALT1", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SECURITY_YES_ALT1", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Set properties of brush.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SET_PROPERTIES_OF_BRUSH {
+        internal static string COMMONCODE_PDF_SET_PROPERTIES_OF_BRUSH {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SET_PROPERTIES_OF_BRUSH", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SET_PROPERTIES_OF_BRUSH", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Set properties of pen.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SET_PROPERTIES_OF_PEN {
+        internal static string COMMONCODE_PDF_SET_PROPERTIES_OF_PEN {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SET_PROPERTIES_OF_PEN", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SET_PROPERTIES_OF_PEN", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Set properties of TextBoxFigure.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SET_PROPERTIES_OF_TEXTBOXFIGURE {
+        internal static string COMMONCODE_PDF_SET_PROPERTIES_OF_TEXTBOXFIGURE {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SET_PROPERTIES_OF_TEXTBOXFIGURE", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SET_PROPERTIES_OF_TEXTBOXFIGURE", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Set thumbnail.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SET_THUMBNAIL {
+        internal static string COMMONCODE_PDF_SET_THUMBNAIL {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SET_THUMBNAIL", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SET_THUMBNAIL", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Set thumbnail.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SET_THUMBNAIL_ALT1 {
+        internal static string COMMONCODE_PDF_SET_THUMBNAIL_ALT1 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SET_THUMBNAIL_ALT1", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SET_THUMBNAIL_ALT1", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Start application &apos;{0}&apos; ?.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_START_APPLICATION_ARG0 {
+        internal static string COMMONCODE_PDF_START_APPLICATION_ARG0 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_START_APPLICATION_ARG0", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_START_APPLICATION_ARG0", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Submit action.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SUBMIT_ACTION {
+        internal static string COMMONCODE_PDF_SUBMIT_ACTION {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SUBMIT_ACTION", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SUBMIT_ACTION", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Submit Form Action.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SUBMIT_FORM_ACTION {
+        internal static string COMMONCODE_PDF_SUBMIT_FORM_ACTION {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SUBMIT_FORM_ACTION", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SUBMIT_FORM_ACTION", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Submit Interactive Form ({0}): &apos;{1}&apos;.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_SUBMIT_INTERACTIVE_FORM_ARG0_ARG1 {
+        internal static string COMMONCODE_PDF_SUBMIT_INTERACTIVE_FORM_ARG0_ARG1 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_SUBMIT_INTERACTIVE_FORM_ARG0_ARG1", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_SUBMIT_INTERACTIVE_FORM_ARG0_ARG1", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Text content group.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_TEXT_CONTENT_GROUP {
+        internal static string COMMONCODE_PDF_TEXT_CONTENT_GROUP {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_TEXT_CONTENT_GROUP", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_TEXT_CONTENT_GROUP", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Text font is not specified..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_TEXT_FONT_IS_NOT_SPECIFIED {
+        internal static string COMMONCODE_PDF_TEXT_FONT_IS_NOT_SPECIFIED {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_TEXT_FONT_IS_NOT_SPECIFIED", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_TEXT_FONT_IS_NOT_SPECIFIED", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to The interactive form fields can not be submitted to &apos;{0}&apos; .
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_THE_INTERACTIVE_FORM_FIELDS_CAN_NOT_BE_SUBMITTED_TO_ARG0 {
+        internal static string COMMONCODE_PDF_THE_INTERACTIVE_FORM_FIELDS_CAN_NOT_BE_SUBMITTED_TO_ARG0 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_THE_INTERACTIVE_FORM_FIELDS_CAN_NOT_BE_SUBMITTED_TO_ARG0", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_THE_INTERACTIVE_FORM_FIELDS_CAN_NOT_BE_SUBMITTED_TO_ARG0", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to This document does not contain fonts..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_THIS_DOCUMENT_DOES_NOT_CONTAIN_FONTS {
+        internal static string COMMONCODE_PDF_THIS_DOCUMENT_DOES_NOT_CONTAIN_FONTS {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_THIS_DOCUMENT_DOES_NOT_CONTAIN_FONTS", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_THIS_DOCUMENT_DOES_NOT_CONTAIN_FONTS", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Uncompressed Size.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_UNCOMPRESSED_SIZE {
+        internal static string COMMONCODE_PDF_UNCOMPRESSED_SIZE {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_UNCOMPRESSED_SIZE", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_UNCOMPRESSED_SIZE", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Uncompressed Size.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_UNCOMPRESSED_SIZE_ALT1 {
+        internal static string COMMONCODE_PDF_UNCOMPRESSED_SIZE_ALT1 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_UNCOMPRESSED_SIZE_ALT1", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_UNCOMPRESSED_SIZE_ALT1", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Undo.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_UNDO {
+        internal static string COMMONCODE_PDF_UNDO {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_UNDO", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_UNDO", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Undo (Ctrl+Z): {0}.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_UNDO_CTRLZ_ARG0 {
+        internal static string COMMONCODE_PDF_UNDO_CTRLZ_ARG0 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_UNDO_CTRLZ_ARG0", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_UNDO_CTRLZ_ARG0", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Unexpected Action Type: .
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_UNEXPECTED_ACTION_TYPE {
+        internal static string COMMONCODE_PDF_UNEXPECTED_ACTION_TYPE {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_UNEXPECTED_ACTION_TYPE", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_UNEXPECTED_ACTION_TYPE", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Unknown.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_UNKNOWN {
+        internal static string COMMONCODE_PDF_UNKNOWN {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_UNKNOWN", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_UNKNOWN", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Validate.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_VALIDATE {
+        internal static string COMMONCODE_PDF_VALIDATE {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_VALIDATE", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_VALIDATE", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to VintasoftImageFigure properties.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_VINTASOFTIMAGEFIGURE_PROPERTIES {
+        internal static string COMMONCODE_PDF_VINTASOFTIMAGEFIGURE_PROPERTIES {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_VINTASOFTIMAGEFIGURE_PROPERTIES", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_VINTASOFTIMAGEFIGURE_PROPERTIES", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Width is not a valid float number..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_WIDTH_IS_NOT_A_VALID_FLOAT_NUMBER {
+        internal static string COMMONCODE_PDF_WIDTH_IS_NOT_A_VALID_FLOAT_NUMBER {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_WIDTH_IS_NOT_A_VALID_FLOAT_NUMBER", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_WIDTH_IS_NOT_A_VALID_FLOAT_NUMBER", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Width must be positive..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_WIDTH_MUST_BE_POSITIVE {
+        internal static string COMMONCODE_PDF_WIDTH_MUST_BE_POSITIVE {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_WIDTH_MUST_BE_POSITIVE", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_WIDTH_MUST_BE_POSITIVE", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to X coordinate is not a valid float number..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_X_COORDINATE_IS_NOT_A_VALID_FLOAT_NUMBER {
+        internal static string COMMONCODE_PDF_X_COORDINATE_IS_NOT_A_VALID_FLOAT_NUMBER {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_X_COORDINATE_IS_NOT_A_VALID_FLOAT_NUMBER", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_X_COORDINATE_IS_NOT_A_VALID_FLOAT_NUMBER", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to X coordinate is not a valid float number..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_X_COORDINATE_IS_NOT_A_VALID_FLOAT_NUMBER_ALT1 {
+        internal static string COMMONCODE_PDF_X_COORDINATE_IS_NOT_A_VALID_FLOAT_NUMBER_ALT1 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_X_COORDINATE_IS_NOT_A_VALID_FLOAT_NUMBER_ALT1", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_X_COORDINATE_IS_NOT_A_VALID_FLOAT_NUMBER_ALT1", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Y coordinate is not a valid float number..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_Y_COORDINATE_IS_NOT_A_VALID_FLOAT_NUMBER {
+        internal static string COMMONCODE_PDF_Y_COORDINATE_IS_NOT_A_VALID_FLOAT_NUMBER {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_Y_COORDINATE_IS_NOT_A_VALID_FLOAT_NUMBER", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_Y_COORDINATE_IS_NOT_A_VALID_FLOAT_NUMBER", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Y coordinate is not a valid float number..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_PDF_Y_COORDINATE_IS_NOT_A_VALID_FLOAT_NUMBER_ALT1 {
+        internal static string COMMONCODE_PDF_Y_COORDINATE_IS_NOT_A_VALID_FLOAT_NUMBER_ALT1 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_PDF_Y_COORDINATE_IS_NOT_A_VALID_FLOAT_NUMBER_ALT1", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_PDF_Y_COORDINATE_IS_NOT_A_VALID_FLOAT_NUMBER_ALT1", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Resource &apos;{0}&apos; was not found..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_RESOURCE_ARG0_WAS_NOT_FOUND {
+        internal static string COMMONCODE_RESOURCE_ARG0_WAS_NOT_FOUND {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_RESOURCE_ARG0_WAS_NOT_FOUND", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_RESOURCE_ARG0_WAS_NOT_FOUND", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Response received: {0}.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_RESPONSE_RECEIVED_ARG0 {
+        internal static string COMMONCODE_RESPONSE_RECEIVED_ARG0 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_RESPONSE_RECEIVED_ARG0", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_RESPONSE_RECEIVED_ARG0", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Result is {0}.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_RESULT_IS_ARG0 {
+        internal static string COMMONCODE_RESULT_IS_ARG0 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_RESULT_IS_ARG0", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_RESULT_IS_ARG0", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to The processing command did not return the result..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_THE_PROCESSING_COMMAND_DID_NOT_RETURN_THE_RESULT {
+        internal static string COMMONCODE_THE_PROCESSING_COMMAND_DID_NOT_RETURN_THE_RESULT {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_THE_PROCESSING_COMMAND_DID_NOT_RETURN_THE_RESULT", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_THE_PROCESSING_COMMAND_DID_NOT_RETURN_THE_RESULT", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to The processing command is executed successfully..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_THE_PROCESSING_COMMAND_IS_EXECUTED_SUCCESSFULLY {
+        internal static string COMMONCODE_THE_PROCESSING_COMMAND_IS_EXECUTED_SUCCESSFULLY {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_THE_PROCESSING_COMMAND_IS_EXECUTED_SUCCESSFULLY", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_THE_PROCESSING_COMMAND_IS_EXECUTED_SUCCESSFULLY", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to The processing command is executed successfully (processed {0} target(s))..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_THE_PROCESSING_COMMAND_IS_EXECUTED_SUCCESSFULLY_PROCESSED_ARG0_TARGETS {
+        internal static string COMMONCODE_THE_PROCESSING_COMMAND_IS_EXECUTED_SUCCESSFULLY_PROCESSED_ARG0_TARGETS {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_THE_PROCESSING_COMMAND_IS_EXECUTED_SUCCESSFULLY_PROCESSED_ARG0_TA" +
-                        "RGETS", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_THE_PROCESSING_COMMAND_IS_EXECUTED_SUCCESSFULLY_PROCESSED_ARG0_TARGETS" +
+                        "", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Devices are not found..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_TWAIN_DEVICES_ARE_NOT_FOUND {
+        internal static string COMMONCODE_TWAIN_DEVICES_ARE_NOT_FOUND {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_TWAIN_DEVICES_ARE_NOT_FOUND", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_TWAIN_DEVICES_ARE_NOT_FOUND", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Scan canceled..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_TWAIN_SCAN_CANCELED {
+        internal static string COMMONCODE_TWAIN_SCAN_CANCELED {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_TWAIN_SCAN_CANCELED", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_TWAIN_SCAN_CANCELED", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Scan failed: {0}.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_TWAIN_SCAN_FAILED_ARG0 {
+        internal static string COMMONCODE_TWAIN_SCAN_FAILED_ARG0 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_TWAIN_SCAN_FAILED_ARG0", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_TWAIN_SCAN_FAILED_ARG0", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to TWAIN device manager.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_TWAIN_TWAIN_DEVICE_MANAGER {
+        internal static string COMMONCODE_TWAIN_TWAIN_DEVICE_MANAGER {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_TWAIN_TWAIN_DEVICE_MANAGER", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_TWAIN_TWAIN_DEVICE_MANAGER", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to TWAIN device manager.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_TWAIN_TWAIN_DEVICE_MANAGER_ALT1 {
+        internal static string COMMONCODE_TWAIN_TWAIN_DEVICE_MANAGER_ALT1 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_TWAIN_TWAIN_DEVICE_MANAGER_ALT1", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_TWAIN_TWAIN_DEVICE_MANAGER_ALT1", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to TWAIN device manager.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_TWAIN_TWAIN_DEVICE_MANAGER_ALT2 {
+        internal static string COMMONCODE_TWAIN_TWAIN_DEVICE_MANAGER_ALT2 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_TWAIN_TWAIN_DEVICE_MANAGER_ALT2", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_TWAIN_TWAIN_DEVICE_MANAGER_ALT2", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to TWAIN device manager is not found..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_TWAIN_TWAIN_DEVICE_MANAGER_IS_NOT_FOUND {
+        internal static string COMMONCODE_TWAIN_TWAIN_DEVICE_MANAGER_IS_NOT_FOUND {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_TWAIN_TWAIN_DEVICE_MANAGER_IS_NOT_FOUND", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_TWAIN_TWAIN_DEVICE_MANAGER_IS_NOT_FOUND", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Upload {0} bytes to {1}....
         /// </summary>
-        internal static string DEMOSCOMMONCODE_UPLOAD_ARG0_BYTES_TO_ARG1 {
+        internal static string COMMONCODE_UPLOAD_ARG0_BYTES_TO_ARG1 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_UPLOAD_ARG0_BYTES_TO_ARG1", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_UPLOAD_ARG0_BYTES_TO_ARG1", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Warning.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_WARNING {
+        internal static string COMMONCODE_WARNING {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_WARNING", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_WARNING", resourceCulture);
             }
         }
         

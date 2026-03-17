@@ -6,7 +6,7 @@ using Vintasoft.Imaging;
 using Vintasoft.Imaging.Codecs.Decoders;
 using Vintasoft.Imaging.UI;
 
-namespace DemosCommonCode.Imaging
+namespace CommonCode.Imaging
 {
     /// <summary>
     /// A form that allows to enter password of document.
@@ -47,9 +47,9 @@ namespace DemosCommonCode.Imaging
             {
                 _filename = value;
                 if (_filename != null)
-                    Text = string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_PASSWORD_ARG0, Path.GetFileName(_filename));
+                    Text = string.Format(PdfEditorDemo.Localization.Strings.COMMONCODE_IMAGING_PASSWORD_ARG0, Path.GetFileName(_filename));
                 else
-                    Text = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_PASSWORD;
+                    Text = PdfEditorDemo.Localization.Strings.COMMONCODE_IMAGING_PASSWORD;
             }
         }
 
@@ -77,7 +77,7 @@ namespace DemosCommonCode.Imaging
         /// </summary>
         public void ShowIncorrectPasswordMessage()
         {
-            MessageBox.Show(string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_THE_ARG0_PASSWORD_IS_INCORRECT, Password), PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_ERROR_ALT1, MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            MessageBox.Show(string.Format(PdfEditorDemo.Localization.Strings.COMMONCODE_IMAGING_THE_ARG0_PASSWORD_IS_INCORRECT, Password), PdfEditorDemo.Localization.Strings.COMMONCODE_IMAGING_ERROR_ALT1, MessageBoxButtons.OK, MessageBoxIcon.Warning);
         }
 
         /// <summary>
@@ -124,8 +124,8 @@ namespace DemosCommonCode.Imaging
                                 if (enterPasswordDialog.authenticateTypeComboBox.Text != result.UserName)
                                 {
                                     MessageBox.Show(
-                                        string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_AUTHORIZED_AS_ARG0, result.UserName),
-                                        PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_AUTHORIZATION_RESULT, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                        string.Format(PdfEditorDemo.Localization.Strings.COMMONCODE_IMAGING_AUTHORIZED_AS_ARG0, result.UserName),
+                                        PdfEditorDemo.Localization.Strings.COMMONCODE_IMAGING_AUTHORIZATION_RESULT, MessageBoxButtons.OK, MessageBoxIcon.Information);
                                 }
                                 break;
                             }

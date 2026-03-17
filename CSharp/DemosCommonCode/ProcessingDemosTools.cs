@@ -4,7 +4,7 @@ using Vintasoft.Imaging.Processing;
 using Vintasoft.Imaging.Processing.Analyzers;
 
 
-namespace DemosCommonCode
+namespace CommonCode
 {
     /// <summary>
     /// Contains collection of helper-algorithms for
@@ -44,18 +44,18 @@ namespace DemosCommonCode
                 {
                     // execute the processing command
                     ProcessingResult result = command.Execute(processingTarget, processingState);
-                    string message = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_THE_PROCESSING_COMMAND_DID_NOT_RETURN_THE_RESULT;
+                    string message = PdfEditorDemo.Localization.Strings.COMMONCODE_THE_PROCESSING_COMMAND_DID_NOT_RETURN_THE_RESULT;
                     // if processing command is executed successfully
                     if (result != null)
                     {
                         if (result is AnalyzerResult)
                         {
                             AnalyzerResult analyzerResult = (AnalyzerResult)result;
-                            message = string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_RESULT_IS_ARG0, analyzerResult.GetValue());
+                            message = string.Format(PdfEditorDemo.Localization.Strings.COMMONCODE_RESULT_IS_ARG0, analyzerResult.GetValue());
                         }
                         else if (result is ProcessingTargetChangedResult)
                         {
-                            message = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_THE_PROCESSING_COMMAND_IS_EXECUTED_SUCCESSFULLY;
+                            message = PdfEditorDemo.Localization.Strings.COMMONCODE_THE_PROCESSING_COMMAND_IS_EXECUTED_SUCCESSFULLY;
                         }
                         if (result is CompositeProcessingResult)
                         {
@@ -74,7 +74,7 @@ namespace DemosCommonCode
                             }
                             if (changedTargets > 0)
                             {
-                                message = string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_THE_PROCESSING_COMMAND_IS_EXECUTED_SUCCESSFULLY_PROCESSED_ARG0_TARGETS, changedTargets);
+                                message = string.Format(PdfEditorDemo.Localization.Strings.COMMONCODE_THE_PROCESSING_COMMAND_IS_EXECUTED_SUCCESSFULLY_PROCESSED_ARG0_TARGETS, changedTargets);
                             }
                             else
                             {

@@ -4,7 +4,7 @@ using System.Windows.Forms;
 using Vintasoft.Imaging.Pdf;
 using Vintasoft.Imaging.Pdf.Security;
 
-namespace DemosCommonCode.Pdf.Security
+namespace CommonCode.Pdf.Security
 {
     /// <summary>
     /// A form that shows the security properties of PDF document.
@@ -45,9 +45,9 @@ namespace DemosCommonCode.Pdf.Security
                 authorizationResultLabel.Text = document.AuthorizationResult.ToString();
 
                 if (document.EncryptionSystem.ContainsUserPassword)
-                    userPasswordLabel.Text = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_YES;
+                    userPasswordLabel.Text = PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_SECURITY_YES;
                 if (document.EncryptionSystem.ContainsOwnerPassword)
-                    ownerPasswordLabel.Text = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_YES_ALT1;
+                    ownerPasswordLabel.Text = PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_SECURITY_YES_ALT1;
 
 
                 // get the user access permissions
@@ -80,14 +80,14 @@ namespace DemosCommonCode.Pdf.Security
                 else
                 {
                     if ((permissions & UserAccessPermissions.PrintDocumentInHighResolution) == 0)
-                        printingLabel.Text += PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY__LOW_RESOLUTION;
+                        printingLabel.Text += PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_SECURITY__LOW_RESOLUTION;
                     else
-                        printingLabel.Text += PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY__HIGH_RESOLUTION;
+                        printingLabel.Text += PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_SECURITY__HIGH_RESOLUTION;
                 }
             }
             else
             {
-                encryptionLabel.Text = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_NO_ENCRYPTION;
+                encryptionLabel.Text = PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_SECURITY_NO_ENCRYPTION;
 
                 compatibilityModeLabel.Text = "";
             }

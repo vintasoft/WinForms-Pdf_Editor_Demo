@@ -5,7 +5,7 @@ using System.Windows.Forms;
 using Vintasoft.Imaging.Pdf;
 using Vintasoft.Imaging.Pdf.Tree;
 
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     /// <summary>
     /// Executor of PDF launch action that launch an application.
@@ -44,7 +44,7 @@ namespace DemosCommonCode.Pdf
             {
                 if (launchAction.WinCommandLine != "")
                 {
-                    if (MessageBox.Show(string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_START_APPLICATION_ARG0, launchAction.WinCommandLine), PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_EXECUTE_AN_APPLICATION, MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+                    if (MessageBox.Show(string.Format(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_START_APPLICATION_ARG0, launchAction.WinCommandLine), PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_EXECUTE_AN_APPLICATION, MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
                     {
                         try
                         {

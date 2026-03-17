@@ -5,7 +5,7 @@ using Vintasoft.Imaging.Pdf.Tree;
 using Vintasoft.Imaging.Pdf.Tree.InteractiveForms;
 
 
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     /// <summary>
     /// A form that allows to create PDF action of PDF document.
@@ -23,14 +23,14 @@ namespace DemosCommonCode.Pdf
         {
             InitializeComponent();
 
-            actionsListBox.Items.Add(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_GOTO_ACTION);
+            actionsListBox.Items.Add(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_GOTO_ACTION);
             actionsListBox.Items.Add("Uri Action");
-            actionsListBox.Items.Add(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_LAUNCH_ACTION);
-            actionsListBox.Items.Add(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_JAVASCRIPT_ACTION);
-            actionsListBox.Items.Add(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_ANNOTATION_HIDE_ACTION);
-            actionsListBox.Items.Add(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SUBMIT_FORM_ACTION);
-            actionsListBox.Items.Add(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_RESET_FORM_ACTION);
-            actionsListBox.Items.Add(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_NAMED_ACTION);
+            actionsListBox.Items.Add(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_LAUNCH_ACTION);
+            actionsListBox.Items.Add(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_JAVASCRIPT_ACTION);
+            actionsListBox.Items.Add(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_ANNOTATION_HIDE_ACTION);
+            actionsListBox.Items.Add(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_SUBMIT_FORM_ACTION);
+            actionsListBox.Items.Add(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_RESET_FORM_ACTION);
+            actionsListBox.Items.Add(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_NAMED_ACTION);
 
             actionsListBox.SelectedIndex = 0;
         }

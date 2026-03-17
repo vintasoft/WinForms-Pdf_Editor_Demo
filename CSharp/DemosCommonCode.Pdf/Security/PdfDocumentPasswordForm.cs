@@ -8,7 +8,7 @@ using Vintasoft.Imaging.Pdf;
 using Vintasoft.Imaging.Pdf.Security;
 #endif
 
-namespace DemosCommonCode.Pdf.Security
+namespace CommonCode.Pdf.Security
 {
     /// <summary>
     /// A form that allows to enter password of PDF document.
@@ -60,9 +60,9 @@ namespace DemosCommonCode.Pdf.Security
             {
                 _filename = value;
                 if (_filename != null)
-                    Text = string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_PASSWORD_ARG0_ALT1, Path.GetFileName(_filename));
+                    Text = string.Format(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_SECURITY_PASSWORD_ARG0_ALT1, Path.GetFileName(_filename));
                 else
-                    Text = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_PASSWORD_ALT1;
+                    Text = PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_SECURITY_PASSWORD_ALT1;
             }
         }
 
@@ -136,15 +136,15 @@ namespace DemosCommonCode.Pdf.Security
                             if (result == AuthorizationResult.IncorrectPassword)
                             {
                                 MessageBox.Show(
-                                    string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_THE_ARG0_PASSWORD_IS_INCORRECT, enterPasswordDialog.authenticateTypeComboBox.SelectedItem),
-                                    PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_ERROR, MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                                    string.Format(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_SECURITY_THE_ARG0_PASSWORD_IS_INCORRECT, enterPasswordDialog.authenticateTypeComboBox.SelectedItem),
+                                    PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_SECURITY_ERROR, MessageBoxButtons.OK, MessageBoxIcon.Warning);
                             }
                             else
                             {
                                 if (authenticateType == 2)
                                     MessageBox.Show(
-                                        string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_AUTHORIZATION_RESULT_ARG0, document.AuthorizationResult),
-                                        PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_AUTHORIZATION_RESULT, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                        string.Format(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_SECURITY_AUTHORIZATION_RESULT_ARG0, document.AuthorizationResult),
+                                        PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_SECURITY_AUTHORIZATION_RESULT, MessageBoxButtons.OK, MessageBoxIcon.Information);
                                 break;
                             }
                         }

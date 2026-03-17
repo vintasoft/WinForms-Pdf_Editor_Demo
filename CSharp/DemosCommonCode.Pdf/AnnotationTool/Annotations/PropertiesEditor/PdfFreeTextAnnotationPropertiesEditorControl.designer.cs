@@ -1,4 +1,4 @@
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     partial class PdfFreeTextAnnotationPropertiesEditorControl
     {
@@ -37,16 +37,16 @@ namespace DemosCommonCode.Pdf
             this.label3 = new System.Windows.Forms.Label();
             this.textBox = new System.Windows.Forms.TextBox();
             this.textQuaddingComboBox = new System.Windows.Forms.ComboBox();
-            this.backColorPanelControl = new DemosCommonCode.CustomControls.ColorPanelControl();
+            this.backColorPanelControl = new CommonCode.CustomControls.ColorPanelControl();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.pdfAnnotationBorderEffectEditorControl1 = new DemosCommonCode.CustomControls.PdfAnnotationBorderEffectEditorControl();
+            this.pdfAnnotationBorderEffectEditorControl1 = new CommonCode.CustomControls.PdfAnnotationBorderEffectEditorControl();
             this.lineEndingStyleComboBox = new System.Windows.Forms.ComboBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.fontSizeNumericUpDown = new System.Windows.Forms.NumericUpDown();
-            this.pdfFontPanelControl1 = new DemosCommonCode.CustomControls.PdfFontPanelControl();
+            this.pdfFontPanelControl1 = new CommonCode.CustomControls.PdfFontPanelControl();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.mainPanel.SuspendLayout();
@@ -347,10 +347,10 @@ namespace DemosCommonCode.Pdf
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
-        private DemosCommonCode.CustomControls.ColorPanelControl backColorPanelControl;
+        private CommonCode.CustomControls.ColorPanelControl backColorPanelControl;
         private System.Windows.Forms.ComboBox textQuaddingComboBox;
-        private DemosCommonCode.CustomControls.PdfFontPanelControl pdfFontPanelControl1;
-        private DemosCommonCode.CustomControls.PdfAnnotationBorderEffectEditorControl pdfAnnotationBorderEffectEditorControl1;
+        private CommonCode.CustomControls.PdfFontPanelControl pdfFontPanelControl1;
+        private CommonCode.CustomControls.PdfAnnotationBorderEffectEditorControl pdfAnnotationBorderEffectEditorControl1;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;

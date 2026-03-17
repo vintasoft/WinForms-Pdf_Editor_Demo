@@ -1,7 +1,7 @@
 ﻿using Vintasoft.Imaging.Pdf.Drawing.GraphicsFigures;
 using Vintasoft.Imaging.Pdf.UI;
 
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     /// <summary>
     /// Provides GraphicsFigureView item.
@@ -53,11 +53,11 @@ namespace DemosCommonCode.Pdf
         {
             GraphicsFigure figure = figureView.Figure;
             if (figure is ContentStreamGraphicsFigure)
-                return string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_CONTENT_ARG0, figure.ContentType);
+                return string.Format(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_CONTENT_ARG0, figure.ContentType);
             if (figure is ContentStreamGraphicsFigureTextGroup)
-                return PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_TEXT_CONTENT_GROUP;
+                return PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_TEXT_CONTENT_GROUP;
             if (figure is ContentStreamGraphicsFigureGroup)
-                return string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_CONTENT_GROUP_ARG0, figure.ContentType);
+                return string.Format(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_CONTENT_GROUP_ARG0, figure.ContentType);
             return figureView.Figure.GetType().Name;
         }
 

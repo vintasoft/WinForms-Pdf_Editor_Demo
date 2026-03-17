@@ -1,4 +1,4 @@
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     partial class PdfAnnotationToolControl
     {
@@ -38,9 +38,9 @@ namespace DemosCommonCode.Pdf
             this.interactionModeViewRadioButton = new System.Windows.Forms.RadioButton();
             this.toolsTabControl = new System.Windows.Forms.TabControl();
             this.annotationsTabPage = new System.Windows.Forms.TabPage();
-            this.AnnotationsControl = new DemosCommonCode.Pdf.PdfAnnotationsControl();
+            this.AnnotationsControl = new CommonCode.Pdf.PdfAnnotationsControl();
             this.formFieldsTabPage = new System.Windows.Forms.TabPage();
-            this.InteractiveFormControl = new DemosCommonCode.Pdf.PdfInteractiveFormControl();
+            this.InteractiveFormControl = new CommonCode.Pdf.PdfInteractiveFormControl();
             this.editModeSettingsGroupBox = new System.Windows.Forms.GroupBox();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.highlightObjectsCheckBox = new System.Windows.Forms.CheckBox();
@@ -650,9 +650,9 @@ namespace DemosCommonCode.Pdf
         private System.Windows.Forms.RadioButton interactionModeViewRadioButton;
         private System.Windows.Forms.TabControl toolsTabControl;
         private System.Windows.Forms.TabPage annotationsTabPage;
-        public global::DemosCommonCode.Pdf.PdfAnnotationsControl AnnotationsControl;
+        public global::CommonCode.Pdf.PdfAnnotationsControl AnnotationsControl;
         private System.Windows.Forms.TabPage formFieldsTabPage;
-        private global::DemosCommonCode.Pdf.PdfInteractiveFormControl InteractiveFormControl;
+        private global::CommonCode.Pdf.PdfInteractiveFormControl InteractiveFormControl;
         private System.Windows.Forms.GroupBox editModeSettingsGroupBox;
         private System.Windows.Forms.CheckBox highlightObjectsCheckBox;
         private System.Windows.Forms.CheckBox multiSelectCheckBox;

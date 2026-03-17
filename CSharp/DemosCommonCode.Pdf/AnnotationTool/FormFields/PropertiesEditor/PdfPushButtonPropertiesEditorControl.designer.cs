@@ -1,4 +1,4 @@
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     partial class PdfPushButtonPropertiesEditorControl
     {
@@ -34,19 +34,19 @@ namespace DemosCommonCode.Pdf
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.buttonStateTabControl = new System.Windows.Forms.TabControl();
             this.normalStateTabPage = new System.Windows.Forms.TabPage();
-            this.normalIconPdfResourceViewerControl = new DemosCommonCode.Pdf.PdfResourceViewerControl();
+            this.normalIconPdfResourceViewerControl = new CommonCode.Pdf.PdfResourceViewerControl();
             this.normalIconChangeButton = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.normalCaptionTextBox = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.rolloverStateTabPage = new System.Windows.Forms.TabPage();
-            this.rolloverIconPdfResourceViewerControl = new DemosCommonCode.Pdf.PdfResourceViewerControl();
+            this.rolloverIconPdfResourceViewerControl = new CommonCode.Pdf.PdfResourceViewerControl();
             this.rolloverIconChangeButton = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.rolloverCaptionTextBox = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.downStateTabPage = new System.Windows.Forms.TabPage();
-            this.downIconPdfResourceViewerControl = new DemosCommonCode.Pdf.PdfResourceViewerControl();
+            this.downIconPdfResourceViewerControl = new CommonCode.Pdf.PdfResourceViewerControl();
             this.downIconChangeButton = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.downCaptionTextBox = new System.Windows.Forms.TextBox();
@@ -56,7 +56,7 @@ namespace DemosCommonCode.Pdf
             this.label1 = new System.Windows.Forms.Label();
             this.highlightingModeComboBox = new System.Windows.Forms.ComboBox();
             this.activateActionTabPage = new System.Windows.Forms.TabPage();
-            this.pdfActionEditorControl = new DemosCommonCode.Pdf.PdfActionEditorControl();
+            this.pdfActionEditorControl = new CommonCode.Pdf.PdfActionEditorControl();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();

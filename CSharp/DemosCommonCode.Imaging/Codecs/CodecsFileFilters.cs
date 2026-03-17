@@ -3,7 +3,7 @@
 using Vintasoft.Imaging.Codecs.Decoders;
 using Vintasoft.Imaging.Codecs.Encoders;
 
-namespace DemosCommonCode.Imaging.Codecs
+namespace CommonCode.Imaging.Codecs
 {
     /// <summary>
     /// Contains filters for Open/Save dialogs.
@@ -18,16 +18,16 @@ namespace DemosCommonCode.Imaging.Codecs
         /// The file filter for image files.
         /// </summary>
         static string IMAGE_FILES_DIALOG_FILTER =
-            PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_CODECS_BMP_FILESBMP +
-            PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_CODECS_JPEG_FILESJPGJPEGJFIF +
-            PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_CODECS_PBMPGMPPM_FILESPBMPGMPPM +
-            PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_CODECS_PNG_FILESPNG +
-            PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_CODECS_PSD_FILESPSD +
-            PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_CODECS_SVG_FILESSVG +
-            PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_CODECS_TGA_FILESTGA +
-            PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_CODECS_TIFF_FILESTIFTIFF +
-            PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_CODECS_GIF_FILESGIF +
-            PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_CODECS_PCX_FILESPCX;
+            PdfEditorDemo.Localization.Strings.COMMONCODE_IMAGING_CODECS_BMP_FILESBMP +
+            PdfEditorDemo.Localization.Strings.COMMONCODE_IMAGING_CODECS_JPEG_FILESJPGJPEGJFIF +
+            PdfEditorDemo.Localization.Strings.COMMONCODE_IMAGING_CODECS_PBMPGMPPM_FILESPBMPGMPPM +
+            PdfEditorDemo.Localization.Strings.COMMONCODE_IMAGING_CODECS_PNG_FILESPNG +
+            PdfEditorDemo.Localization.Strings.COMMONCODE_IMAGING_CODECS_PSD_FILESPSD +
+            PdfEditorDemo.Localization.Strings.COMMONCODE_IMAGING_CODECS_SVG_FILESSVG +
+            PdfEditorDemo.Localization.Strings.COMMONCODE_IMAGING_CODECS_TGA_FILESTGA +
+            PdfEditorDemo.Localization.Strings.COMMONCODE_IMAGING_CODECS_TIFF_FILESTIFTIFF +
+            PdfEditorDemo.Localization.Strings.COMMONCODE_IMAGING_CODECS_GIF_FILESGIF +
+            PdfEditorDemo.Localization.Strings.COMMONCODE_IMAGING_CODECS_PCX_FILESPCX;
 
         /// <summary>
         /// The file filter for all image files.
@@ -43,12 +43,12 @@ namespace DemosCommonCode.Imaging.Codecs
         /// The file filter for other image files.
         /// </summary>
         static string OTHER_IMAGE_FILES_DIALOG_FILTER = 
-            PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_CODECS_PSD_FILESPSD_ALT1 +
-            PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_CODECS_CURSOR_FILESCUR +
-            PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_CODECS_EMF_FILESEMF +
-            PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_CODECS_ICON_FILESICO +
-            PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_CODECS_JPEGLS_FILESJLS +
-            PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_CODECS_WMF_FILESWMF;
+            PdfEditorDemo.Localization.Strings.COMMONCODE_IMAGING_CODECS_PSD_FILESPSD_ALT1 +
+            PdfEditorDemo.Localization.Strings.COMMONCODE_IMAGING_CODECS_CURSOR_FILESCUR +
+            PdfEditorDemo.Localization.Strings.COMMONCODE_IMAGING_CODECS_EMF_FILESEMF +
+            PdfEditorDemo.Localization.Strings.COMMONCODE_IMAGING_CODECS_ICON_FILESICO +
+            PdfEditorDemo.Localization.Strings.COMMONCODE_IMAGING_CODECS_JPEGLS_FILESJLS +
+            PdfEditorDemo.Localization.Strings.COMMONCODE_IMAGING_CODECS_WMF_FILESWMF;
 
         /// <summary>
         /// The file filter for TIFF files.
@@ -617,7 +617,7 @@ namespace DemosCommonCode.Imaging.Codecs
             }
 
             // if WSI decoders (NDPI) is available
-            if (AvailableDecoders.IsDecoderAvailable(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_CODECS_NDPI))
+            if (AvailableDecoders.IsDecoderAvailable(PdfEditorDemo.Localization.Strings.COMMONCODE_IMAGING_CODECS_NDPI))
             {
                 filter1 += "|" + WSI_FILE_DIALOG_FILTER;
                 filter2 += WSI_FILE_EXTENSIONS + ";";

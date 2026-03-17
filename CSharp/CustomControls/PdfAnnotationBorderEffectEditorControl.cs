@@ -2,12 +2,12 @@
 using System.ComponentModel;
 using System.Windows.Forms;
 
-using DemosCommonCode.Pdf;
+using CommonCode.Pdf;
 
 using Vintasoft.Imaging.Pdf.Tree.Annotations;
 
 
-namespace DemosCommonCode.CustomControls
+namespace CommonCode.CustomControls
 {
     /// <summary>
     /// A control that allows to view and edit properties of

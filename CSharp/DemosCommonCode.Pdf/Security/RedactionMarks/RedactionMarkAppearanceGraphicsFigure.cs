@@ -5,7 +5,7 @@ using Vintasoft.Imaging.Pdf.Drawing;
 using Vintasoft.Imaging.Pdf.Drawing.GraphicsFigures;
 using Vintasoft.Imaging.Pdf.Tree.Fonts;
 
-namespace DemosCommonCode.Pdf.Security
+namespace CommonCode.Pdf.Security
 {
     /// <summary>
     /// Represents a PDF graphic figure that defines the appearance of the redaction mark.

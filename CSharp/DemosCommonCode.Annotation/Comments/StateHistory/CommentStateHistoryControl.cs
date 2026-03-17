@@ -6,7 +6,7 @@ using System.Windows.Forms;
 using Vintasoft.Imaging.Annotation.Comments;
 #endif
 
-namespace DemosCommonCode.Annotation
+namespace CommonCode.Annotation
 {
     /// <summary>
     /// Represents the control that allows to display a comment state history.
@@ -79,7 +79,7 @@ namespace DemosCommonCode.Annotation
             {
                 // create state model group node
                 TreeNode stateModelTreeNode = new TreeNode(
-                    string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_ANNOTATION_ARG0_HISTORY, stateModel));
+                    string.Format(PdfEditorDemo.Localization.Strings.COMMONCODE_ANNOTATION_ARG0_HISTORY, stateModel));
 
                 // add children to state model group node
                 foreach (Comment comment in stateModelToComment[stateModel])

@@ -8,7 +8,7 @@ using System.Windows.Forms;
 using Vintasoft.Imaging.Text;
 using Vintasoft.Imaging.UI.VisualTools;
 
-namespace DemosCommonCode.Imaging
+namespace CommonCode.Imaging
 {
     /// <summary>
     /// A form that allows to set settings for text search.
@@ -350,8 +350,8 @@ namespace DemosCommonCode.Imaging
                     // if text searching is not canceled
                     if (!e.Canceled)
                     {
-                        MessageBox.Show(string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_THE_FOLLOWING_SPECIFIED_TEXT_WAS_NOT_FOUND_ARG0, e.SearchEngine),
-                            PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_FIND_TEXT, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show(string.Format(PdfEditorDemo.Localization.Strings.COMMONCODE_IMAGING_THE_FOLLOWING_SPECIFIED_TEXT_WAS_NOT_FOUND_ARG0, e.SearchEngine),
+                            PdfEditorDemo.Localization.Strings.COMMONCODE_IMAGING_FIND_TEXT, MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
                 }
                 // if text is found

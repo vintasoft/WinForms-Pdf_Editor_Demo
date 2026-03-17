@@ -9,9 +9,9 @@ using Vintasoft.Imaging.Pdf.Drawing;
 using Vintasoft.Imaging.Pdf.Tree.Fonts;
 using Vintasoft.Imaging.Pdf.UI;
 
-using DemosCommonCode.Imaging;
+using CommonCode.Imaging;
 
-namespace DemosCommonCode.Pdf.Security
+namespace CommonCode.Pdf.Security
 {
     /// <summary>
     /// A form that allows to edit the redaction mark appearance.

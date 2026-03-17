@@ -1,4 +1,4 @@
-﻿namespace DemosCommonCode.Pdf
+﻿namespace CommonCode.Pdf
 {
     /// <summary>
     /// Specifies available types of <see cref="Vintasoft.Imaging.Pdf.Tree.InteractiveForms.PdfInteractiveFormField"/>, which can be built.

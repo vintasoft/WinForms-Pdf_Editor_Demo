@@ -7,7 +7,7 @@ using Vintasoft.Imaging.Codecs.Decoders;
 using Vintasoft.Imaging.Print;
 using Vintasoft.Imaging.UI;
 
-namespace DemosCommonCode.Imaging
+namespace CommonCode.Imaging
 {
     /// <summary>
     /// Represents a print manager of an image viewer.
@@ -141,7 +141,7 @@ namespace DemosCommonCode.Imaging
                     return;
                 if (_imagesToPrint != null)
                 {
-                    DemosTools.ShowWarningMessage(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_ANOTHER_PRINT_PROCESS_IS_STILL_WORKING);
+                    DemosTools.ShowWarningMessage(PdfEditorDemo.Localization.Strings.COMMONCODE_IMAGING_ANOTHER_PRINT_PROCESS_IS_STILL_WORKING);
                     return;
                 }
 

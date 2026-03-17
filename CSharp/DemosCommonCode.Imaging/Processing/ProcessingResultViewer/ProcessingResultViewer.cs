@@ -9,7 +9,7 @@ using Vintasoft.Imaging.Processing;
 using Vintasoft.Imaging.Processing.Analyzers;
 
 
-namespace DemosCommonCode.Imaging
+namespace CommonCode.Imaging
 {
     /// <summary>
     /// A control that allows to view the execution result of the processing commands.
@@ -399,7 +399,7 @@ namespace DemosCommonCode.Imaging
                     // get processing results
                     IList list = sortedItem[itemName];
                     // get node name
-                    string nodeName = string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_ARG0_ARG1_MATCHES_ALT1, itemName, list.Count);
+                    string nodeName = string.Format(PdfEditorDemo.Localization.Strings.COMMONCODE_IMAGING_ARG0_ARG1_MATCHES_ALT1, itemName, list.Count);
                     // add processing result node
                     TreeNode newNode = node.Nodes.Add(nodeName);
                     if (nodeImageKey != "")
@@ -439,7 +439,7 @@ namespace DemosCommonCode.Imaging
             // if processing result target is specified
             if (processingResult.Target != null)
             {
-                string targetNodeName = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_TARGET;
+                string targetNodeName = PdfEditorDemo.Localization.Strings.COMMONCODE_IMAGING_TARGET;
                 // add target name
                 targetNodeName += ProcessingDemosTools.GetReadableTypeName(processingResult.Target.GetType());
                 // create tree view item with target name
@@ -461,7 +461,7 @@ namespace DemosCommonCode.Imaging
                 if (value != null)
                 {
                     // add tree view item with analyzer result
-                    TreeNode valueNode = node.Nodes.Add(string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_VALUE_ARG0, value));
+                    TreeNode valueNode = node.Nodes.Add(string.Format(PdfEditorDemo.Localization.Strings.COMMONCODE_IMAGING_VALUE_ARG0, value));
                     SetImageKey(valueNode, IMAGE_KEY_PROPERTY);
                 }
             }
@@ -474,7 +474,7 @@ namespace DemosCommonCode.Imaging
                 if (conversionProfileResult.AppliedCommands.Count > 0)
                 {
                     // create applied commands node
-                    TreeNode appliedCommandsNode = node.Nodes.Add(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_APPLIED_COMMANDS_ALT1);
+                    TreeNode appliedCommandsNode = node.Nodes.Add(PdfEditorDemo.Localization.Strings.COMMONCODE_IMAGING_APPLIED_COMMANDS_ALT1);
                     appliedCommandsNode.Nodes.Add(PRIVATE_TAG_NAME);
                     // update applied commands image
                     SetImageKey(appliedCommandsNode, IMAGE_KEY_APPLIED_COMMANDS);
@@ -501,7 +501,7 @@ namespace DemosCommonCode.Imaging
                 if (processingProfileResult.ProcessingErrors != null && processingProfileResult.ProcessingErrors.Count > 0)
                 {
                     // add processing errors node
-                    TreeNode processingErrorsNode = node.Nodes.Add(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_PROCESSING_ERRORS);
+                    TreeNode processingErrorsNode = node.Nodes.Add(PdfEditorDemo.Localization.Strings.COMMONCODE_IMAGING_PROCESSING_ERRORS);
                     processingErrorsNode.Nodes.Add(PRIVATE_TAG_NAME);
                     SetImageKey(processingErrorsNode, IMAGE_KEY_TRIGGER_ERROR);
                     processingErrorsNode.Tag = processingProfileResult.ProcessingErrors;
@@ -519,7 +519,7 @@ namespace DemosCommonCode.Imaging
                     // if the trigger has ben activated several times
                     if (activatedTrigger.Count > 1)
                         // add activates count to trigger name
-                        processingCommandInfoName += string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING__ARG0_MATCHES, activatedTrigger.Count);
+                        processingCommandInfoName += string.Format(PdfEditorDemo.Localization.Strings.COMMONCODE_IMAGING__ARG0_MATCHES, activatedTrigger.Count);
                     // create trigger node
                     TreeNode processingCommandInfoNode = node.Nodes.Add(processingCommandInfoName);
                     // update trigger node image
@@ -544,7 +544,7 @@ namespace DemosCommonCode.Imaging
             {
                 TriggerActivationResult triggerResult = (TriggerActivationResult)processingResult;
                 // create node with severity information
-                TreeNode severityNode = node.Nodes.Add(string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_SEVERITY_ARG0_ALT1, triggerResult.Severity));
+                TreeNode severityNode = node.Nodes.Add(string.Format(PdfEditorDemo.Localization.Strings.COMMONCODE_IMAGING_SEVERITY_ARG0_ALT1, triggerResult.Severity));
                 // update severity node image
                 SetImageKey(severityNode, IMAGE_KEY_PROPERTY);
 
@@ -758,7 +758,7 @@ namespace DemosCommonCode.Imaging
                     AddTreeNodeItem(root.Nodes, (ProcessingResult)result);
                     if (index == lastItemIndex)
                     {
-                        string nodeName = string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_SHOW_NEXT_ARG0_ELEMENTS, MAX_SHOW_PROCESSING_RESULTS);
+                        string nodeName = string.Format(PdfEditorDemo.Localization.Strings.COMMONCODE_IMAGING_SHOW_NEXT_ARG0_ELEMENTS, MAX_SHOW_PROCESSING_RESULTS);
                         TreeNode showNextElements = root.Nodes.Add(nodeName);
                         showNextElements.Tag = new AddedItemsInfo(index + 1, nextItemsInfo.Collection);
                         break;

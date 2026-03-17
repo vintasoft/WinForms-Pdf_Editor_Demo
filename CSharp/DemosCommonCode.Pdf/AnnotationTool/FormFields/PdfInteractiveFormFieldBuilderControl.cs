@@ -15,11 +15,11 @@ using Vintasoft.Imaging.Pdf.UI.Annotations;
 using Vintasoft.Imaging.UI;
 using Vintasoft.Imaging.UI.WinForms.Controls;
 
-using DemosCommonCode.CustomControls;
-using DemosCommonCode.Imaging;
-using DemosCommonCode.Pdf.Security;
+using CommonCode.CustomControls;
+using CommonCode.Imaging;
+using CommonCode.Pdf.Security;
 
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     /// <summary>
     /// A panel that allows to build new PDF interactive form field and
@@ -470,7 +470,7 @@ namespace DemosCommonCode.Pdf
             ToolStripMenuItem item = (ToolStripMenuItem)sender;
             PdfAnnotationAppearanceGenerator appearanceGenerator = _annotationAppearanceGeneratorController[item.OwnerItem];
             // create property grid form
-            using (PropertyGridForm properties = new PropertyGridForm(appearanceGenerator, PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_APPERANACE_GENERATOR_PROPERTIES))
+            using (PropertyGridForm properties = new PropertyGridForm(appearanceGenerator, PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_APPERANACE_GENERATOR_PROPERTIES))
             {
                 // show dialog
                 properties.ShowDialog();
@@ -996,7 +996,7 @@ namespace DemosCommonCode.Pdf
                 GetFieldName(parentField, "Barcode{0}"),
                 generator.BarcodeSymbology,
                 GetNewFieldRectangle(barcodeToolStripSplitButton));
-            field.TextValue = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_BARCODE_VALUE;
+            field.TextValue = PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_BARCODE_VALUE;
 
             AddAndBuildTerminalField(field, generator, parentField);
         }
@@ -1026,7 +1026,7 @@ namespace DemosCommonCode.Pdf
         private void AddAndBuildSignatureField(PdfInteractiveFormField parentField)
         {
             SignatureAppearanceGenerator generator = (SignatureAppearanceGenerator)GetAppearanceGenerator(signatureToolStripSplitButton);
-            generator.SignatureAppearance.Text = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_EMPTY_SIGNATRUE_FIELD;
+            generator.SignatureAppearance.Text = PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_EMPTY_SIGNATRUE_FIELD;
 
             PdfInteractiveFormSignatureField field = new PdfInteractiveFormSignatureField(
                 CurrentDocument,

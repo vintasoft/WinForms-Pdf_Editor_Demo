@@ -1,4 +1,4 @@
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     partial class PdfListBoxPropertiesEditorControl
     {
@@ -31,9 +31,9 @@ namespace DemosCommonCode.Pdf
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PdfListBoxPropertiesEditorControl));
             this.multiselectCheckBox = new System.Windows.Forms.CheckBox();
             this.mainPanel = new System.Windows.Forms.Panel();
-            this.selectionBrushColorPanelControl = new DemosCommonCode.CustomControls.ColorPanelControl();
+            this.selectionBrushColorPanelControl = new CommonCode.CustomControls.ColorPanelControl();
             this.label1 = new System.Windows.Forms.Label();
-            this.pdfInteractiveFormChoiceFieldEditorControl = new DemosCommonCode.Pdf.PdfChoiceFieldEditorControl();
+            this.pdfInteractiveFormChoiceFieldEditorControl = new CommonCode.Pdf.PdfChoiceFieldEditorControl();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.mainPanel.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
@@ -131,7 +131,7 @@ namespace DemosCommonCode.Pdf
         private PdfChoiceFieldEditorControl pdfInteractiveFormChoiceFieldEditorControl;
         private System.Windows.Forms.CheckBox multiselectCheckBox;
         private System.Windows.Forms.Panel mainPanel;
-        private DemosCommonCode.CustomControls.ColorPanelControl selectionBrushColorPanelControl;
+        private CommonCode.CustomControls.ColorPanelControl selectionBrushColorPanelControl;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
     }

@@ -10,8 +10,8 @@ using Vintasoft.Imaging.Pdf.UI;
 using Vintasoft.Imaging.UI.VisualTools;
 using Vintasoft.Imaging.UI.VisualTools.UserInteraction;
 
-using DemosCommonCode;
-using DemosCommonCode.Pdf.Security;
+using CommonCode;
+using CommonCode.Pdf.Security;
 
 
 namespace PdfEditorDemo

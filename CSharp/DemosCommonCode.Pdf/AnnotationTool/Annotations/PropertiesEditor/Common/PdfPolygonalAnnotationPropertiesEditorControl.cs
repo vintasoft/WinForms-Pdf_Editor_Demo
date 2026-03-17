@@ -5,7 +5,7 @@ using System.Windows.Forms;
 using Vintasoft.Imaging.Pdf.Tree.Annotations;
 
 
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     /// <summary>
     /// A control that allows to view and edit properties of the <see cref="PdfPolygonalAnnotation"/>.

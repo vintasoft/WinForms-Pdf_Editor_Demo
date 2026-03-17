@@ -3,7 +3,7 @@ using System.ComponentModel;
 using System.IO;
 using System.Windows.Forms;
 
-namespace DemosCommonCode.Pdf.Security
+namespace CommonCode.Pdf.Security
 {
     /// <summary>
     /// A form that allows to input password for opening the certificate with private key.
@@ -43,9 +43,9 @@ namespace DemosCommonCode.Pdf.Security
             {
                 _filename = value;
                 if (_filename != null)
-                    Text = string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_PASSWORD_ARG0, Path.GetFileName(_filename));
+                    Text = string.Format(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_SECURITY_PASSWORD_ARG0, Path.GetFileName(_filename));
                 else
-                    Text = PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_SECURITY_PASSWORD;
+                    Text = PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_SECURITY_PASSWORD;
             }
         }
 

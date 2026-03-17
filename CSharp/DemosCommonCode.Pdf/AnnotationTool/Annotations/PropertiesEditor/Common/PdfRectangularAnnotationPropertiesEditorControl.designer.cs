@@ -1,4 +1,4 @@
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     partial class PdfRectangularAnnotationPropertiesEditorControl
     {
@@ -32,11 +32,11 @@ namespace DemosCommonCode.Pdf
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.autoUpdatePaddingCheckBox = new System.Windows.Forms.CheckBox();
-            this.paddingPanelControl1 = new DemosCommonCode.CustomControls.PaddingFEditorControl();
+            this.paddingPanelControl1 = new CommonCode.CustomControls.PaddingFEditorControl();
             this.mainPanel = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
-            this.pdfAnnotationBorderEffectEditorControl1 = new DemosCommonCode.CustomControls.PdfAnnotationBorderEffectEditorControl();
-            this.interiorColorPanelControl = new DemosCommonCode.CustomControls.ColorPanelControl();
+            this.pdfAnnotationBorderEffectEditorControl1 = new CommonCode.CustomControls.PdfAnnotationBorderEffectEditorControl();
+            this.interiorColorPanelControl = new CommonCode.CustomControls.ColorPanelControl();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.groupBox1.SuspendLayout();
             this.mainPanel.SuspendLayout();
@@ -172,12 +172,12 @@ namespace DemosCommonCode.Pdf
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private DemosCommonCode.CustomControls.ColorPanelControl interiorColorPanelControl;
+        private CommonCode.CustomControls.ColorPanelControl interiorColorPanelControl;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Panel mainPanel;
-        private DemosCommonCode.CustomControls.PaddingFEditorControl paddingPanelControl1;
+        private CommonCode.CustomControls.PaddingFEditorControl paddingPanelControl1;
         private System.Windows.Forms.Label label2;
-        private DemosCommonCode.CustomControls.PdfAnnotationBorderEffectEditorControl pdfAnnotationBorderEffectEditorControl1;
+        private CommonCode.CustomControls.PdfAnnotationBorderEffectEditorControl pdfAnnotationBorderEffectEditorControl1;
         private System.Windows.Forms.CheckBox autoUpdatePaddingCheckBox;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
     }

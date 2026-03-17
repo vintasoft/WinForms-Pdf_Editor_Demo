@@ -58,17 +58,18 @@ using Vintasoft.Imaging.Pdf.UI.Annotations;
 using Vintasoft.Imaging.Pdf.Ocr;
 #endif
 
-using DemosCommonCode;
-using DemosCommonCode.Imaging;
-using DemosCommonCode.Imaging.Codecs;
-using DemosCommonCode.Imaging.Codecs.Dialogs;
-using DemosCommonCode.Imaging.ColorManagement;
-using DemosCommonCode.Pdf;
-using DemosCommonCode.Pdf.JavaScript;
-using DemosCommonCode.Pdf.Security;
-using DemosCommonCode.Spelling;
-using DemosCommonCode.Annotation;
-using DemosCommonCode.Ocr;
+using CommonCode;
+using CommonCode.Imaging;
+using CommonCode.Imaging.Codecs;
+using CommonCode.Imaging.Codecs.Dialogs;
+using CommonCode.Imaging.ColorManagement;
+using CommonCode.Pdf;
+using CommonCode.Pdf.JavaScript;
+using CommonCode.Pdf.Security;
+using CommonCode.Spelling;
+using CommonCode.Annotation;
+using CommonCode.Ocr;
+using CommonCode.Office;
 
 namespace PdfEditorDemo
 {
@@ -335,7 +336,7 @@ namespace PdfEditorDemo
             InitPdfActionExecutors();
 
 #if !REMOVE_OFFICE_PLUGIN && !REMOVE_PDFVISUALEDITOR_PLUGIN
-            DemosCommonCode.Office.OfficeDocumentVisualEditorForm documentVisualEditorForm = new DemosCommonCode.Office.OfficeDocumentVisualEditorForm();
+            OfficeDocumentVisualEditorForm documentVisualEditorForm = new OfficeDocumentVisualEditorForm();
             documentVisualEditorForm.Owner = this;
             documentVisualEditorForm.AddVisualTool(_contentEditorTool);
             documentVisualEditorForm.AddVisualTool(_annotationTool);

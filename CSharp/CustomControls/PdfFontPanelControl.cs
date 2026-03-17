@@ -5,10 +5,10 @@ using System.Windows.Forms;
 using Vintasoft.Imaging.Pdf;
 using Vintasoft.Imaging.Pdf.Tree.Fonts;
 
-using DemosCommonCode.Pdf;
+using CommonCode.Pdf;
 
 
-namespace DemosCommonCode.CustomControls
+namespace CommonCode.CustomControls
 {
     /// <summary>
     /// A panel that allows to show the selected PDF font and
@@ -28,7 +28,7 @@ namespace DemosCommonCode.CustomControls
         {
             InitializeComponent();
 
-            toolTip1.SetToolTip(fontNameTextBox, PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_CUSTOMCONTROLS_DOUBLE_CLICK_ON_THE_TEXT_BOX_FOR_CHANGING_THE_FONT);
+            toolTip1.SetToolTip(fontNameTextBox, PdfEditorDemo.Localization.Strings.COMMONCODE_CUSTOMCONTROLS_DOUBLE_CLICK_ON_THE_TEXT_BOX_FOR_CHANGING_THE_FONT);
         }
 
         #endregion

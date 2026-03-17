@@ -3,7 +3,7 @@
 using Vintasoft.Imaging.UI.VisualTools;
 
 
-namespace DemosCommonCode.Imaging
+namespace CommonCode.Imaging
 {
     /// <summary>
     /// Creates visual tool action, which allows to enable/disable visual tool <see cref="MagnifierTool"/> in image viewer, and adds action to the toolstrip.
@@ -24,8 +24,8 @@ namespace DemosCommonCode.Imaging
             // create action, which allows to magnify of image region in image viewer
             MagnifierToolAction magnifierToolAction = new MagnifierToolAction(
                 new MagnifierTool(),
-                PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_MAGNIFIER_TOOL,
-                PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_MAGNIFIER,
+                PdfEditorDemo.Localization.Strings.COMMONCODE_IMAGING_MAGNIFIER_TOOL,
+                PdfEditorDemo.Localization.Strings.COMMONCODE_IMAGING_MAGNIFIER,
                 GetIcon("MagnifierTool.png"));
             // add the action to the toolstrip
             toolStrip.AddAction(magnifierToolAction);
@@ -33,8 +33,8 @@ namespace DemosCommonCode.Imaging
             // create action, which allows to zoom an image region in image viewer
             VisualToolAction zoomSelectionToolAction = new VisualToolAction(
                 new ZoomSelectionTool(),
-                PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_ZOOM_SELECTION_TOOL,
-                PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_ZOOM_SELECTION,
+                PdfEditorDemo.Localization.Strings.COMMONCODE_IMAGING_ZOOM_SELECTION_TOOL,
+                PdfEditorDemo.Localization.Strings.COMMONCODE_IMAGING_ZOOM_SELECTION,
                 GetIcon("ZoomSelection.png"));
             // add the action to the toolstrip
             toolStrip.AddAction(zoomSelectionToolAction);
@@ -42,8 +42,8 @@ namespace DemosCommonCode.Imaging
             // create action, which allows to zoom an image in image viewer
             VisualToolAction zoomToolAction = new VisualToolAction(
                 new ZoomTool(),
-                PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_ZOOM_TOOL,
-                PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_ZOOM,
+                PdfEditorDemo.Localization.Strings.COMMONCODE_IMAGING_ZOOM_TOOL,
+                PdfEditorDemo.Localization.Strings.COMMONCODE_IMAGING_ZOOM,
                 GetIcon("ZoomTool.png"));
             // add the action to the toolstrip
             toolStrip.AddAction(zoomToolAction);

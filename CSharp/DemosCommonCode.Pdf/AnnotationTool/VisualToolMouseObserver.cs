@@ -3,7 +3,7 @@ using System.Drawing;
 
 using Vintasoft.Imaging.UI.VisualTools;
 
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     /// <summary>
     /// Observes mouse focus and mouse location in visual tool.

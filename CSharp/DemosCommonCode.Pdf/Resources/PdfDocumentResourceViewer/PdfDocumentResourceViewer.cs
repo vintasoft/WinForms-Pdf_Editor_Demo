@@ -10,7 +10,7 @@ using Vintasoft.Imaging.Pdf.Tree.Annotations;
 using Vintasoft.Imaging.Pdf.Tree.Patterns;
 
 
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     /// <summary>
     /// A tree view that allows to view resources of PDF document.
@@ -410,7 +410,7 @@ namespace DemosCommonCode.Pdf
                     if (TreeType == PdfResourceTreeViewType.Hierarchical)
                     {
                         // get node name
-                        string nodeName = string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_PAGE_ARG0_ALT3, pageIndex);
+                        string nodeName = string.Format(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_PAGE_ARG0_ALT3, pageIndex);
                         // add node
                         pageNode = AddTreeNode(rootCollection, nodeName, page);
                         pageNodeCollection = pageNode.Nodes;
@@ -705,7 +705,7 @@ namespace DemosCommonCode.Pdf
             }
             else
             {
-                resourceName = string.Format(PdfEditorDemo.Localization.Strings.DEMOSCOMMONCODE_PDF_ARG0_INLINE, type.Name);
+                resourceName = string.Format(PdfEditorDemo.Localization.Strings.COMMONCODE_PDF_ARG0_INLINE, type.Name);
             }
 
             if (resourceName.StartsWith("Pdf", StringComparison.InvariantCultureIgnoreCase))

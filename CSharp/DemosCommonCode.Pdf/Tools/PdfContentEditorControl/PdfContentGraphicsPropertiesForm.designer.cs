@@ -1,5 +1,5 @@
 
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     partial class PdfContentGraphicsPropertiesForm
     {
@@ -34,12 +34,12 @@ namespace DemosCommonCode.Pdf
             this.label3 = new System.Windows.Forms.Label();
             this.lineWidthNumericUpDown = new System.Windows.Forms.NumericUpDown();
             this.label1 = new System.Windows.Forms.Label();
-            this.strokeColorPanelControl = new DemosCommonCode.CustomControls.ColorPanelControl();
+            this.strokeColorPanelControl = new CommonCode.CustomControls.ColorPanelControl();
             this.strokePropertiesCheckBox = new System.Windows.Forms.CheckBox();
             this.fillPropertiesCheckBox = new System.Windows.Forms.CheckBox();
             this.fillGroupBox = new System.Windows.Forms.GroupBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.fillColorPanelControl = new DemosCommonCode.CustomControls.ColorPanelControl();
+            this.fillColorPanelControl = new CommonCode.CustomControls.ColorPanelControl();
             this.buttonOk = new System.Windows.Forms.Button();
             this.buttonCancel = new System.Windows.Forms.Button();
             this.textPropertiesCheckBox = new System.Windows.Forms.CheckBox();
@@ -443,7 +443,7 @@ namespace DemosCommonCode.Pdf
 
         #endregion
 
-        private DemosCommonCode.CustomControls.ColorPanelControl strokeColorPanelControl;
+        private CommonCode.CustomControls.ColorPanelControl strokeColorPanelControl;
         private System.Windows.Forms.GroupBox strokeGroupBox;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.NumericUpDown lineWidthNumericUpDown;
@@ -452,7 +452,7 @@ namespace DemosCommonCode.Pdf
         private System.Windows.Forms.CheckBox fillPropertiesCheckBox;
         private System.Windows.Forms.GroupBox fillGroupBox;
         private System.Windows.Forms.Label label2;
-        private DemosCommonCode.CustomControls.ColorPanelControl fillColorPanelControl;
+        private CommonCode.CustomControls.ColorPanelControl fillColorPanelControl;
         private System.Windows.Forms.Button buttonOk;
         private System.Windows.Forms.Button buttonCancel;
         private System.Windows.Forms.CheckBox textPropertiesCheckBox;
