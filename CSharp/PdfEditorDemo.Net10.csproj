@@ -42,7 +42,7 @@
     <Reference Include="NHunspell">
       <HintPath>.\NHunspell\DotNet10\NHunspell.dll</HintPath>
     </Reference>
-    <PackageReference Include="Vintasoft.Barcode" Version="15.3.12.1" />
+    <PackageReference Include="Vintasoft.Barcode" Version="16.0.1.1" />
     <PackageReference Include="Vintasoft.Imaging" Version="15.0.11.1" />
     <PackageReference Include="Vintasoft.Imaging.Gdi" Version="15.0.11.1" />
     <PackageReference Include="Vintasoft.Imaging.Annotation" Version="15.0.11.1" />
@@ -66,7 +66,7 @@
     <PackageReference Include="Vintasoft.Imaging.UI" Version="15.0.11.1" />
     <PackageReference Include="Vintasoft.Imaging.WebpCodec" Version="15.0.11.1" />
     <PackageReference Include="Vintasoft.Shared" Version="4.6.1.1" />
-    <PackageReference Include="Vintasoft.Twain" Version="15.3.3.1" />
+    <PackageReference Include="Vintasoft.Twain" Version="15.3.7.1" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CustomControls\AnchorTypeEditorControl.cs">
