@@ -1,0 +1,116 @@
+﻿#if REMOVE_OCR_PLUGIN
+#error Remove OcrLanguagesForm from the project.
+#endif
+
+using System;
+using System.Windows.Forms;
+
+using Vintasoft.Imaging.Ocr;
+
+namespace CommonCode.Imaging
+{
+    /// <summary>
+    /// A form that allows to edit the language settings of OCR engine manager.
+    /// </summary>
+    public partial class OcrLanguagesForm : Form
+    {
+
+        #region Constructors
+
+        /// <summary>
+        /// Initializes a new instance of the <see cref="OcrLanguagesForm"/> class.
+        /// </summary>
+        /// <param name="selectedLanguages">The selected languages.</param>
+        /// <param name="supportedLanguages">The languages,
+        /// which are supported by Tesseract OCR engine.</param>
+        public OcrLanguagesForm(
+            OcrLanguage[] selectedLanguages,
+            OcrLanguage[] supportedLanguages)
+        {
+            InitializeComponent();
+
+            // add supported languages in listBox
+            foreach (OcrLanguage language in supportedLanguages)
+                supportedLanguagesListBox.Items.Add(language);
+
+            // add selected languages in listBox
+            ocrLanguagesListBox1.SelectedLanguages = selectedLanguages;
+        }
+
+        #endregion
+
+
+
+        #region Properties
+
+        /// <summary>
+        /// Gets the selected languages.
+        /// </summary>
+        public OcrLanguage[] SelectedLanguages
+        {
+            get
+            {
+                return ocrLanguagesListBox1.SelectedLanguages;
+            }
+        }
+
+        #endregion
+
+
+
+        #region Methods
+
+        /// <summary>
+        /// Handles the Click event of buttonOK object.
+        /// </summary>
+        private void buttonOK_Click(object sender, EventArgs e)
+        {
+            // if language is not selected
+            if (SelectedLanguages.Length == 0)
+            {
+                MessageBox.Show(
+                    PdfEditorDemo.Localization.Strings.COMMONCODE_IMAGING_THE_LANGUAGE_IS_NOT_SELECTED,
+                    PdfEditorDemo.Localization.Strings.COMMONCODE_IMAGING_ERROR_ALT2,
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Error);
+            }
+            else
+            {
+                DialogResult = DialogResult.OK;
+            }
+        }
+
+        /// <summary>
+        /// Handles the Click event of addLanguage object.
+        /// </summary>
+        private void addLanguage_Click(object sender, EventArgs e)
+        {
+            // add supported languages to the selected languages
+
+            foreach (OcrLanguage supportedLanguage in supportedLanguagesListBox.SelectedItems)
+            {
+                ocrLanguagesListBox1.AddLanguage(supportedLanguage);
+            }
+        }
+
+        /// <summary>
+        /// Handles the MouseDoubleClick event of supportedLanguagesListBox object.
+        /// </summary>
+        private void supportedLanguagesListBox_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            ocrLanguagesListBox1.AddLanguage((OcrLanguage)supportedLanguagesListBox.SelectedItem);
+        }
+
+        /// <summary>
+        /// Handles the Click event of downloadAdditionalLanguageDictionariesButton object.
+        /// </summary>
+        private void downloadAdditionalLanguageDictionariesButton_Click(object sender, EventArgs e)
+        {
+            // open the OCR documentation web page
+            DemosTools.OpenBrowser(PdfEditorDemo.Localization.Strings.COMMONCODE_IMAGING_HTTPSWWWVINTASOFTCOMDOCSVSIMAGINGDOTNETPROGRAMMINGOCRPREPARE_OCR_ENGINE_FOR_TEXT_RECOGNITIONHTML);
+        }
+
+        #endregion
+
+    }
+}

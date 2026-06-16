@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,12 +118,21 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="$this.Text" xml:space="preserve">
-    <value>Dokumentschriftarten</value>
+    <value>OCR Languages</value>
   </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Schriftart</value>
+  <data name="addLanguage.Text" xml:space="preserve">
+    <value>Add language</value>
   </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>Zellengröße</value>
+  <data name="supportedLanguagesLabel.Text" xml:space="preserve">
+    <value>Supported Languages:</value>
   </data>
+  <data name="buttonCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="downloadAdditionalLanguageDictionariesButton.Text" xml:space="preserve">
+    <value>Download additional language dictionaries...</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </metadata>
 </root>

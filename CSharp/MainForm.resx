@@ -475,6 +475,9 @@
         AAAAPwAA8AAAAAB/AADwAAAAAP8AAA==
 </value>
   </data>
+  <data name="flattenburnAnnotationsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Flatten (burn) Annotations</value>
+  </data>
   <data name="textBoxPasteToolStripMenuItem.Text" xml:space="preserve">
     <value>Paste</value>
   </data>
@@ -594,6 +597,9 @@
   </data>
   <data name="removeUnusedResourcesFromPDFPageToolStripMenuItem.Text" xml:space="preserve">
     <value>Remove unused resources from PDF page...</value>
+  </data>
+  <data name="flattenTextToolStripMenuItem.Text" xml:space="preserve">
+    <value>Flatten text...</value>
   </data>
   <data name="simplifyPageContentToolStripMenuItem.Text" xml:space="preserve">
     <value>Simplify page content...</value>
@@ -837,6 +843,9 @@
   </data>
   <data name="compressionToolStripMenuItem.Text" xml:space="preserve">
     <value>Compression</value>
+  </data>
+  <data name="flattenDocumentTextToolStripMenuItem.Text" xml:space="preserve">
+    <value>Flatten Document Text Content...</value>
   </data>
   <data name="simplifyDocumentContentToolStripMenuItem.Text" xml:space="preserve">
     <value>Simplify Document Content...</value>

@@ -220,6 +220,7 @@ namespace PdfEditorDemo
         /// The text encoding obfuscator.
         /// </summary>
         PdfTextEncodingObfuscator _textEncodingObfuscator = new PdfTextEncodingObfuscator();
+
         /// <summary>
         /// The selected PDF pages for text encoding obfuscation.
         /// </summary>
@@ -262,6 +263,24 @@ namespace PdfEditorDemo
         #region Constructors
 
         /// <summary>
+        /// Initializes the <see cref="MainForm"/> class.
+        /// </summary>
+        static MainForm()
+        {
+
+#if !REMOVE_OFFICE_PLUGIN
+            PdfOfficeUIAssembly.Init();
+#endif
+
+            Jbig2AssemblyLoader.Load();
+            Jpeg2000AssemblyLoader.Load();
+            DocxAssemblyLoader.Load();
+
+            // set CustomFontProgramsController for all opened documents
+            CustomFontProgramsController.SetDefaultFontProgramsController();
+        }
+
+        /// <summary>
         /// Initializes a new instance of the <see cref="MainForm"/> class.
         /// </summary>
         public MainForm()
@@ -274,14 +293,6 @@ namespace PdfEditorDemo
             if (DesignMode || ImagingEnvironment.IsInDesignMode)
                 return;
 
-#if !REMOVE_OFFICE_PLUGIN
-            PdfOfficeUIAssembly.Init();
-#endif
-
-            Jbig2AssemblyLoader.Load();
-            Jpeg2000AssemblyLoader.Load();
-            DocxAssemblyLoader.Load();
-
             ImagingTypeEditorRegistrator.Register();
 
             _signatureAppearance = new SignatureAppearanceGraphicsFigure();
@@ -293,9 +304,6 @@ namespace PdfEditorDemo
 
             // enable PDF Password Dialog
             PdfAuthenticateTools.EnableAuthenticateRequest = true;
-
-            // set CustomFontProgramsController for all opened documents
-            CustomFontProgramsController.SetDefaultFontProgramsController();
 
             // generate interactive form fields appearance if need
             PdfDemosTools.NeedGenerateInteractiveFormFieldsAppearance = true;
@@ -2844,6 +2852,24 @@ namespace PdfEditorDemo
                 true);
         }
 
+        /// <summary>
+        /// Flatten text content of PDF document.
+        /// </summary>
+        /// <param name="sender">The source of the event.</param>
+        /// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
+        private void flattenDocumentTextToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            _annotationTool.CancelBuilding();
+
+            PdfFlattenTextCommand flattenTextCommand = new PdfFlattenTextCommand();
+            flattenTextCommand.FlattenAnnotations = true;
+
+            ProcessingCommandForm<ImageCollection>.ExecuteProcessing(
+                imageViewer1.Images,
+                flattenTextCommand,
+                true);
+        }
+
         #endregion
 
 
@@ -3280,6 +3306,15 @@ namespace PdfEditorDemo
         {
             ProcessingDemosTools.ExecuteProcessing<ImageCollection>(
                 imageViewer1.Images, new PdfPageRemoveAnnotationsCommand(PdfPageRemoveAnnotationsCommand.MarkupAnnotationTypes));
+        }
+
+        /// <summary>
+        /// Handles the Click event of flattenburnAnnotationsToolStripMenuItem object.
+        /// </summary>
+        private void flattenburnAnnotationsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ProcessingDemosTools.ExecuteProcessing<ImageCollection>(
+                imageViewer1.Images, new PdfPageBurnAnnotationsCommand());
         }
 
         #endregion
@@ -3975,26 +4010,44 @@ namespace PdfEditorDemo
         #region Fonts in PDF document
 
         /// <summary>
-        /// Shows form that allows to view information about fonts of PDF document.
+        /// Shows dialog that allows to view information about fonts of PDF document.
         /// </summary>
         private void fontsToolStripMenuItem_Click(object sender, EventArgs e)
         {
             try
             {
-                // get all PDF documents loaded in image viewer
+                // get all PDF documents, which are loaded in image viewer
                 List<PdfDocument> documents = GetPdfDocumentsAssociatedWithImageCollection(imageViewer1.Images);
+                // the font list
                 List<PdfFont> fonts = new List<PdfFont>();
+                // for each PDF document
                 foreach (PdfDocument document in documents)
+                {
+                    // add the document fonts to the font list
                     fonts.AddRange(document.GetFonts());
+                }
 
+                // if document does not contain fonts
                 if (fonts.Count == 0)
                 {
                     MessageBox.Show(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_THIS_DOCUMENT_DOES_NOT_CONTAIN_FONTS, PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_INFORMATION_ALT3, MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
+                // if document contains fonts
                 else
                 {
-                    ViewDocumentFontsForm viewDocumentFontsDialog = new ViewDocumentFontsForm(fonts);
-                    viewDocumentFontsDialog.ShowDialog();
+                    // create a dialog that allows to view information about fonts of PDF document
+                    using (PdfDocumentFontsForm pdfDocumentFontsDialog = new PdfDocumentFontsForm(fonts))
+                    {
+                        // show the dialog
+                        pdfDocumentFontsDialog.ShowDialog();
+
+                        // if the Unicode table of one or several PDF fonts is changed
+                        if (pdfDocumentFontsDialog.IsPdfFontUnicodeTableChanged)
+                        {
+                            // reload images asynchronously
+                            ReloadImagesAsync();
+                        }
+                    }
                 }
             }
             catch (Exception ex)
@@ -4183,6 +4236,14 @@ namespace PdfEditorDemo
         private void simplifyPageContentToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ExecuteProcessingCommandOnFocusedImage(new PdfSimplifyContentCommand(), true, true);
+        }
+
+        /// <summary>
+        /// Handles the Click event of flattenPageTextToolStripMenuItem object.
+        /// </summary>
+        private void flattenPageTextToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ExecuteProcessingCommandOnFocusedImage(new PdfFlattenTextCommand(), true, true);
         }
 
         /// <summary>
@@ -6771,6 +6832,8 @@ namespace PdfEditorDemo
         delegate void SetStatusLabelTextDelegate(string text);
 
         delegate bool SaveAndPackDelegate();
+
+
 
 
 

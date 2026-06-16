@@ -62,7 +62,7 @@ namespace CommonCode.Imaging
                     }
                     catch (Exception e)
                     {
-                        MessageBox.Show(e.Message, PdfEditorDemo.Localization.Strings.COMMONCODE_IMAGING_ERROR_ALT2, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show(e.Message, PdfEditorDemo.Localization.Strings.COMMONCODE_IMAGING_ERROR_ALT3, MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                     return DialogResult.OK;
                 }
@@ -104,7 +104,7 @@ namespace CommonCode.Imaging
                     }
                     catch (Exception e)
                     {
-                        MessageBox.Show(e.Message, PdfEditorDemo.Localization.Strings.COMMONCODE_IMAGING_ERROR_ALT3, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show(e.Message, PdfEditorDemo.Localization.Strings.COMMONCODE_IMAGING_ERROR_ALT4, MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                     return DialogResult.OK;
                 }

@@ -460,6 +460,15 @@ namespace PdfEditorDemo.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Cad.
+        /// </summary>
+        internal static string COMMONCODE_IMAGING_CODECS_CAD {
+            get {
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_CAD", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Can not find encoder for &apos;{0}&apos;..
         /// </summary>
         internal static string COMMONCODE_IMAGING_CODECS_CAN_NOT_FIND_ENCODER_FOR_ARG0 {
@@ -741,6 +750,15 @@ namespace PdfEditorDemo.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Pptx.
+        /// </summary>
+        internal static string COMMONCODE_IMAGING_CODECS_PPTX {
+            get {
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_PPTX", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to PSD Files|*.psd|.
         /// </summary>
         internal static string COMMONCODE_IMAGING_CODECS_PSD_FILESPSD {
@@ -950,6 +968,15 @@ namespace PdfEditorDemo.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Error.
+        /// </summary>
+        internal static string COMMONCODE_IMAGING_ERROR_ALT4 {
+            get {
+                return ResourceManager.GetString("COMMONCODE_IMAGING_ERROR_ALT4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Examples:
         ///.
         /// </summary>
@@ -1076,6 +1103,16 @@ namespace PdfEditorDemo.Localization {
         internal static string COMMONCODE_IMAGING_HOVERED {
             get {
                 return ResourceManager.GetString("COMMONCODE_IMAGING_HOVERED", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to https://www.vintasoft.com/docs/vsimaging-dotnet/Programming-OCR-Prepare_OCR_engine_for_text_recognition.html.
+        /// </summary>
+        internal static string COMMONCODE_IMAGING_HTTPSWWWVINTASOFTCOMDOCSVSIMAGINGDOTNETPROGRAMMINGOCRPREPARE_OCR_ENGINE_FOR_TEXT_RECOGNITIONHTML {
+            get {
+                return ResourceManager.GetString("COMMONCODE_IMAGING_HTTPSWWWVINTASOFTCOMDOCSVSIMAGINGDOTNETPROGRAMMINGOCRPREPARE_O" +
+                        "CR_ENGINE_FOR_TEXT_RECOGNITIONHTML", resourceCulture);
             }
         }
         
@@ -1614,6 +1651,15 @@ namespace PdfEditorDemo.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to The language is not selected..
+        /// </summary>
+        internal static string COMMONCODE_IMAGING_THE_LANGUAGE_IS_NOT_SELECTED {
+            get {
+                return ResourceManager.GetString("COMMONCODE_IMAGING_THE_LANGUAGE_IS_NOT_SELECTED", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to This operation will parse all fonts available on system and refresh.
         /// </summary>
         internal static string COMMONCODE_IMAGING_THIS_OPERATION_WILL_PARSE_ALL_FONTS_AVAILABLE_ON_SYSTEM_AND_REFRESH {
@@ -2132,6 +2178,15 @@ namespace PdfEditorDemo.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Arial.
+        /// </summary>
+        internal static string COMMONCODE_PDF_ARIAL {
+            get {
+                return ResourceManager.GetString("COMMONCODE_PDF_ARIAL", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Attachment Folder Data Fields Editor.
         /// </summary>
         internal static string COMMONCODE_PDF_ATTACHMENT_FOLDER_DATA_FIELDS_EDITOR {
@@ -2442,6 +2497,15 @@ namespace PdfEditorDemo.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Error: .
+        /// </summary>
+        internal static string COMMONCODE_PDF_ERROR_ALT3 {
+            get {
+                return ResourceManager.GetString("COMMONCODE_PDF_ERROR_ALT3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Execute an application.
         /// </summary>
         internal static string COMMONCODE_PDF_EXECUTE_AN_APPLICATION {
@@ -2521,6 +2585,33 @@ namespace PdfEditorDemo.Localization {
             get {
                 return ResourceManager.GetString("COMMONCODE_PDF_FOLDER_ARG0_DOES_NOT_HAVE_DATA_FIELDS_DO_YOU_WANT_TO_CREATE_DATA_F" +
                         "IELDS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Font-{0}-symbols-OCR.png.
+        /// </summary>
+        internal static string COMMONCODE_PDF_FONTARG0SYMBOLSOCRPNG {
+            get {
+                return ResourceManager.GetString("COMMONCODE_PDF_FONTARG0SYMBOLSOCRPNG", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Font-{0}-symbols.png.
+        /// </summary>
+        internal static string COMMONCODE_PDF_FONTARG0SYMBOLSPNG {
+            get {
+                return ResourceManager.GetString("COMMONCODE_PDF_FONTARG0SYMBOLSPNG", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Font-{0}-symbols.png.
+        /// </summary>
+        internal static string COMMONCODE_PDF_FONTARG0SYMBOLSPNG_ALT1 {
+            get {
+                return ResourceManager.GetString("COMMONCODE_PDF_FONTARG0SYMBOLSPNG_ALT1", resourceCulture);
             }
         }
         
@@ -4132,6 +4223,16 @@ namespace PdfEditorDemo.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to This demo project does not allow to process PDF font if font contains more than 256 symbols. Please change the code if necessary..
+        /// </summary>
+        internal static string COMMONCODE_PDF_THIS_DEMO_PROJECT_DOES_NOT_ALLOW_TO_PROCESS_PDF_FONT_IF_FONT_CONTAINS_MORE_THAN_256_SYMBOLS_PLEASE_CHANGE_THE_CODE_IF_NECESSARY {
+            get {
+                return ResourceManager.GetString("COMMONCODE_PDF_THIS_DEMO_PROJECT_DOES_NOT_ALLOW_TO_PROCESS_PDF_FONT_IF_FONT_CONTA" +
+                        "INS_MORE_THAN_256_SYMBOLS_PLEASE_CHANGE_THE_CODE_IF_NECESSARY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to This document does not contain fonts..
         /// </summary>
         internal static string COMMONCODE_PDF_THIS_DOCUMENT_DOES_NOT_CONTAIN_FONTS {
@@ -4182,6 +4283,15 @@ namespace PdfEditorDemo.Localization {
         internal static string COMMONCODE_PDF_UNEXPECTED_ACTION_TYPE {
             get {
                 return ResourceManager.GetString("COMMONCODE_PDF_UNEXPECTED_ACTION_TYPE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Unicode symbol cannot be empty..
+        /// </summary>
+        internal static string COMMONCODE_PDF_UNICODE_SYMBOL_CANNOT_BE_EMPTY {
+            get {
+                return ResourceManager.GetString("COMMONCODE_PDF_UNICODE_SYMBOL_CANNOT_BE_EMPTY", resourceCulture);
             }
         }
         
@@ -4263,6 +4373,15 @@ namespace PdfEditorDemo.Localization {
         internal static string COMMONCODE_PDF_Y_COORDINATE_IS_NOT_A_VALID_FLOAT_NUMBER_ALT1 {
             get {
                 return ResourceManager.GetString("COMMONCODE_PDF_Y_COORDINATE_IS_NOT_A_VALID_FLOAT_NUMBER_ALT1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Pptx.
+        /// </summary>
+        internal static string COMMONCODE_PPTX {
+            get {
+                return ResourceManager.GetString("COMMONCODE_PPTX", resourceCulture);
             }
         }
         

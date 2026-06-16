@@ -165,6 +165,7 @@ namespace PdfEditorDemo
             this.toolStripSeparator46 = new System.Windows.Forms.ToolStripSeparator();
             this.convertToImageonlyDocumentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.simplifyDocumentContentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.flattenDocumentTextToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.compressionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.compressDocumentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator33 = new System.Windows.Forms.ToolStripSeparator();
@@ -267,6 +268,7 @@ namespace PdfEditorDemo
             this.toolStripSeparator42 = new System.Windows.Forms.ToolStripSeparator();
             this.convertToImageonlyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.simplifyPageContentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.flattenTextToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.removeUnusedResourcesFromPDFPageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator44 = new System.Windows.Forms.ToolStripSeparator();
             this.pageUsesTransparencyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -348,6 +350,7 @@ namespace PdfEditorDemo
             this.textBoxCopyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.textBoxPasteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pageSetupDialog1 = new System.Windows.Forms.PageSetupDialog();
+            this.flattenburnAnnotationsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1.SuspendLayout();
             this.toolStripPanel.SuspendLayout();
             this.mainMenu.SuspendLayout();
@@ -1355,7 +1358,8 @@ namespace PdfEditorDemo
             this.pDFA4fConverterToolStripMenuItem,
             this.toolStripSeparator46,
             this.convertToImageonlyDocumentToolStripMenuItem,
-            this.simplifyDocumentContentToolStripMenuItem});
+            this.simplifyDocumentContentToolStripMenuItem,
+            this.flattenDocumentTextToolStripMenuItem});
             this.documentConversionToolStripMenuItem.Name = "documentConversionToolStripMenuItem";
             this.documentConversionToolStripMenuItem.Size = new System.Drawing.Size(265, 22);
             resources.ApplyResources(this.documentConversionToolStripMenuItem, "documentConversionToolStripMenuItem");
@@ -1471,6 +1475,13 @@ namespace PdfEditorDemo
             resources.ApplyResources(this.simplifyDocumentContentToolStripMenuItem, "simplifyDocumentContentToolStripMenuItem");
             this.simplifyDocumentContentToolStripMenuItem.Click += new System.EventHandler(this.simplifyDocumentContentToolStripMenuItem_Click);
             // 
+            // flattenDocumentTextToolStripMenuItem
+            // 
+            this.flattenDocumentTextToolStripMenuItem.Name = "flattenDocumentTextToolStripMenuItem";
+            this.flattenDocumentTextToolStripMenuItem.Size = new System.Drawing.Size(262, 22);
+            resources.ApplyResources(this.flattenDocumentTextToolStripMenuItem, "flattenDocumentTextToolStripMenuItem");
+            this.flattenDocumentTextToolStripMenuItem.Click += new System.EventHandler(this.flattenDocumentTextToolStripMenuItem_Click);
+            // 
             // compressionToolStripMenuItem
             // 
             this.compressionToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -1547,7 +1558,7 @@ namespace PdfEditorDemo
             this.overprintControlIsUsedToolStripMenuItem,
             this.documentHasSignatureFieldsToolStripMenuItem});
             this.analyzersToolStripMenuItem.Name = "analyzersToolStripMenuItem";
-            this.analyzersToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.analyzersToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             resources.ApplyResources(this.analyzersToolStripMenuItem, "analyzersToolStripMenuItem");
             // 
             // detectTheConformanceUsingTheMetadataIdentificationSchemaToolStripMenuItem
@@ -1620,7 +1631,7 @@ namespace PdfEditorDemo
             this.removeUnusedResourcesToolStripMenuItem,
             this.removeDuplicateResourcesToolStripMenuItem});
             this.cleanUpToolStripMenuItem.Name = "cleanUpToolStripMenuItem";
-            this.cleanUpToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.cleanUpToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             resources.ApplyResources(this.cleanUpToolStripMenuItem, "cleanUpToolStripMenuItem");
             // 
             // cleanupDocumentToolStripMenuItem
@@ -1653,7 +1664,7 @@ namespace PdfEditorDemo
             this.convertTrueTypeFontsToCFFFontsToolStripMenuItem,
             this.removeSignatureFieldsToolStripMenuItem});
             this.toolsToolStripMenuItem.Name = "toolsToolStripMenuItem";
-            this.toolsToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.toolsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             resources.ApplyResources(this.toolsToolStripMenuItem, "toolsToolStripMenuItem");
             // 
             // decompressStreamsToolStripMenuItem
@@ -1703,7 +1714,8 @@ namespace PdfEditorDemo
             this.exportToXFDFToolStripMenuItem,
             this.toolStripSeparator43,
             this.removeAllAnnotationsToolStripMenuItem,
-            this.removeMarkupAnnotationsToolStripMenuItem});
+            this.removeMarkupAnnotationsToolStripMenuItem,
+            this.flattenburnAnnotationsToolStripMenuItem});
             this.annotationsToolStripMenuItem.Name = "annotationsToolStripMenuItem";
             this.annotationsToolStripMenuItem.Size = new System.Drawing.Size(265, 22);
             resources.ApplyResources(this.annotationsToolStripMenuItem, "annotationsToolStripMenuItem");
@@ -2138,11 +2150,12 @@ namespace PdfEditorDemo
             this.toolStripSeparator42,
             this.convertToImageonlyToolStripMenuItem,
             this.simplifyPageContentToolStripMenuItem,
+            this.flattenTextToolStripMenuItem,
             this.removeUnusedResourcesFromPDFPageToolStripMenuItem,
             this.toolStripSeparator44,
             this.pageUsesTransparencyToolStripMenuItem});
             this.pageProcessingToolStripMenuItem.Name = "pageProcessingToolStripMenuItem";
-            this.pageProcessingToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
+            this.pageProcessingToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             resources.ApplyResources(this.pageProcessingToolStripMenuItem, "pageProcessingToolStripMenuItem");
             // 
             // burnThePDFAnnotationsOnPDFPageToolStripMenuItem
@@ -2225,6 +2238,13 @@ namespace PdfEditorDemo
             resources.ApplyResources(this.simplifyPageContentToolStripMenuItem, "simplifyPageContentToolStripMenuItem");
             this.simplifyPageContentToolStripMenuItem.Click += new System.EventHandler(this.simplifyPageContentToolStripMenuItem_Click);
             // 
+            // flattenTextToolStripMenuItem
+            // 
+            this.flattenTextToolStripMenuItem.Name = "flattenTextToolStripMenuItem";
+            this.flattenTextToolStripMenuItem.Size = new System.Drawing.Size(303, 22);
+            resources.ApplyResources(this.flattenTextToolStripMenuItem, "flattenTextToolStripMenuItem");
+            this.flattenTextToolStripMenuItem.Click += new System.EventHandler(this.flattenPageTextToolStripMenuItem_Click);
+            // 
             // removeUnusedResourcesFromPDFPageToolStripMenuItem
             // 
             this.removeUnusedResourcesFromPDFPageToolStripMenuItem.Name = "removeUnusedResourcesFromPDFPageToolStripMenuItem";
@@ -2247,50 +2267,50 @@ namespace PdfEditorDemo
             // toolStripSeparator40
             // 
             this.toolStripSeparator40.Name = "toolStripSeparator40";
-            this.toolStripSeparator40.Size = new System.Drawing.Size(169, 6);
+            this.toolStripSeparator40.Size = new System.Drawing.Size(177, 6);
             // 
             // pagePropertiesToolStripMenuItem
             // 
             this.pagePropertiesToolStripMenuItem.Name = "pagePropertiesToolStripMenuItem";
-            this.pagePropertiesToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
+            this.pagePropertiesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             resources.ApplyResources(this.pagePropertiesToolStripMenuItem, "pagePropertiesToolStripMenuItem");
             this.pagePropertiesToolStripMenuItem.Click += new System.EventHandler(this.pagePropertiesToolStripMenuItem_Click);
             // 
             // pageActionsToolStripMenuItem
             // 
             this.pageActionsToolStripMenuItem.Name = "pageActionsToolStripMenuItem";
-            this.pageActionsToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
+            this.pageActionsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             resources.ApplyResources(this.pageActionsToolStripMenuItem, "pageActionsToolStripMenuItem");
             this.pageActionsToolStripMenuItem.Click += new System.EventHandler(this.pageActionsToolStripMenuItem_Click);
             // 
             // toolStripSeparator22
             // 
             this.toolStripSeparator22.Name = "toolStripSeparator22";
-            this.toolStripSeparator22.Size = new System.Drawing.Size(169, 6);
+            this.toolStripSeparator22.Size = new System.Drawing.Size(177, 6);
             // 
             // pageResourcesToolStripMenuItem
             // 
             this.pageResourcesToolStripMenuItem.Name = "pageResourcesToolStripMenuItem";
-            this.pageResourcesToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
+            this.pageResourcesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             resources.ApplyResources(this.pageResourcesToolStripMenuItem, "pageResourcesToolStripMenuItem");
             this.pageResourcesToolStripMenuItem.Click += new System.EventHandler(this.pageResourcesToolStripMenuItem_Click);
             // 
             // imageResourcesToolStripMenuItem1
             // 
             this.imageResourcesToolStripMenuItem1.Name = "imageResourcesToolStripMenuItem1";
-            this.imageResourcesToolStripMenuItem1.Size = new System.Drawing.Size(172, 22);
+            this.imageResourcesToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             resources.ApplyResources(this.imageResourcesToolStripMenuItem1, "imageResourcesToolStripMenuItem1");
             this.imageResourcesToolStripMenuItem1.Click += new System.EventHandler(this.pageImageResourcesToolStripMenuItem_Click);
             // 
             // toolStripSeparator8
             // 
             this.toolStripSeparator8.Name = "toolStripSeparator8";
-            this.toolStripSeparator8.Size = new System.Drawing.Size(169, 6);
+            this.toolStripSeparator8.Size = new System.Drawing.Size(177, 6);
             // 
             // saveAsImageToolStripMenuItem
             // 
             this.saveAsImageToolStripMenuItem.Name = "saveAsImageToolStripMenuItem";
-            this.saveAsImageToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
+            this.saveAsImageToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             resources.ApplyResources(this.saveAsImageToolStripMenuItem, "saveAsImageToolStripMenuItem");
             this.saveAsImageToolStripMenuItem.Click += new System.EventHandler(this.saveAsImageToolStripMenuItem_Click);
             // 
@@ -2938,6 +2958,13 @@ namespace PdfEditorDemo
             this.pageSetupDialog1.Document = this.imagePrintDocument;
             this.pageSetupDialog1.EnableMetric = true;
             // 
+            // flattenburnAnnotationsToolStripMenuItem
+            // 
+            this.flattenburnAnnotationsToolStripMenuItem.Name = "flattenburnAnnotationsToolStripMenuItem";
+            this.flattenburnAnnotationsToolStripMenuItem.Size = new System.Drawing.Size(229, 22);
+            resources.ApplyResources(this.flattenburnAnnotationsToolStripMenuItem, "flattenburnAnnotationsToolStripMenuItem");
+            this.flattenburnAnnotationsToolStripMenuItem.Click += new System.EventHandler(this.flattenburnAnnotationsToolStripMenuItem_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -3299,5 +3326,8 @@ namespace PdfEditorDemo
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator47;
         private System.Windows.Forms.ToolStripMenuItem addLongTimeValidationInfoLTVToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem convertToDocxToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem flattenTextToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem flattenDocumentTextToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem flattenburnAnnotationsToolStripMenuItem;
     }
 }

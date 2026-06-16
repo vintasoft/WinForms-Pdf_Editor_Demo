@@ -117,6 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="flattenburnAnnotationsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Glätten (verbrennen) Anmerkungen</value>
+  </data>
   <data name="textBoxPasteToolStripMenuItem.Text" xml:space="preserve">
     <value>Einfügen</value>
   </data>
@@ -236,6 +239,9 @@
   </data>
   <data name="removeUnusedResourcesFromPDFPageToolStripMenuItem.Text" xml:space="preserve">
     <value>Nicht verwendete Ressourcen von der PDF-Seite entfernen...</value>
+  </data>
+  <data name="flattenTextToolStripMenuItem.Text" xml:space="preserve">
+    <value>Text reduzieren...</value>
   </data>
   <data name="simplifyPageContentToolStripMenuItem.Text" xml:space="preserve">
     <value>Seiteninhalt vereinfachen...</value>
@@ -479,6 +485,9 @@
   </data>
   <data name="compressionToolStripMenuItem.Text" xml:space="preserve">
     <value>Komprimierung</value>
+  </data>
+  <data name="flattenDocumentTextToolStripMenuItem.Text" xml:space="preserve">
+    <value>Dokumenttextinhalt reduzieren...</value>
   </data>
   <data name="simplifyDocumentContentToolStripMenuItem.Text" xml:space="preserve">
     <value>Dokumentinhalt vereinfachen...</value>

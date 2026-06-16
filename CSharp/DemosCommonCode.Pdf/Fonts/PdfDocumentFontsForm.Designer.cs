@@ -1,6 +1,6 @@
 namespace CommonCode.Pdf
 {
-    partial class ViewDocumentFontsForm
+    partial class PdfDocumentFontsForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,46 +28,72 @@ namespace CommonCode.Pdf
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ViewDocumentFontsForm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PdfDocumentFontsForm));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.cellSizeNumericUpDown = new System.Windows.Forms.NumericUpDown();
-            this.label1 = new System.Windows.Forms.Label();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.fontComboBox = new System.Windows.Forms.ComboBox();
+            this.cellSizeNumericUpDown = new System.Windows.Forms.NumericUpDown();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.pdfFontViewerControl = new Vintasoft.Imaging.Pdf.UI.PdfFontViewerControl();
             this.panel3 = new System.Windows.Forms.Panel();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
-            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.createUnicodeTableToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.saveUnicodeTableToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1.SuspendLayout();
+            this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.cellSizeNumericUpDown)).BeginInit();
             this.panel2.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
             this.statusStrip1.SuspendLayout();
-            this.tableLayoutPanel1.SuspendLayout();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.Controls.Add(this.tableLayoutPanel1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Location = new System.Drawing.Point(0, 24);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(649, 37);
             this.panel1.TabIndex = 0;
             // 
-            // label2
+            // tableLayoutPanel1
             // 
-            this.label2.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(544, 12);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(47, 13);
-            this.label2.TabIndex = 3;
-            resources.ApplyResources(this.label2, "label2");
+            this.tableLayoutPanel1.ColumnCount = 4;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel1.Controls.Add(this.fontComboBox, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.cellSizeNumericUpDown, 3, 0);
+            this.tableLayoutPanel1.Controls.Add(this.label2, 2, 0);
+            this.tableLayoutPanel1.Controls.Add(this.label1, 0, 0);
+            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(0);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 1;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(649, 37);
+            this.tableLayoutPanel1.TabIndex = 4;
+            // 
+            // fontComboBox
+            // 
+            this.fontComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.fontComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.fontComboBox.FormattingEnabled = true;
+            this.fontComboBox.Location = new System.Drawing.Point(37, 8);
+            this.fontComboBox.Name = "fontComboBox";
+            this.fontComboBox.Size = new System.Drawing.Size(501, 21);
+            this.fontComboBox.TabIndex = 0;
+            this.fontComboBox.SelectedIndexChanged += new System.EventHandler(this.fontComboBox_SelectedIndexChanged);
             // 
             // cellSizeNumericUpDown
             // 
@@ -98,6 +124,16 @@ namespace CommonCode.Pdf
             0});
             this.cellSizeNumericUpDown.ValueChanged += new System.EventHandler(this.cellSizeNumericUpDown_ValueChanged);
             // 
+            // label2
+            // 
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(544, 12);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(47, 13);
+            this.label2.TabIndex = 3;
+            resources.ApplyResources(this.label2, "label2");
+            // 
             // label1
             // 
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.Left;
@@ -108,25 +144,14 @@ namespace CommonCode.Pdf
             this.label1.TabIndex = 1;
             resources.ApplyResources(this.label1, "label1");
             // 
-            // fontComboBox
-            // 
-            this.fontComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.fontComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.fontComboBox.FormattingEnabled = true;
-            this.fontComboBox.Location = new System.Drawing.Point(37, 8);
-            this.fontComboBox.Name = "fontComboBox";
-            this.fontComboBox.Size = new System.Drawing.Size(501, 21);
-            this.fontComboBox.TabIndex = 0;
-            this.fontComboBox.SelectedIndexChanged += new System.EventHandler(this.fontComboBox_SelectedIndexChanged);
-            // 
             // panel2
             // 
             this.panel2.Controls.Add(this.panel4);
             this.panel2.Controls.Add(this.panel3);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(0, 37);
+            this.panel2.Location = new System.Drawing.Point(0, 61);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(649, 412);
+            this.panel2.Size = new System.Drawing.Size(649, 388);
             this.panel2.TabIndex = 1;
             // 
             // panel4
@@ -136,7 +161,7 @@ namespace CommonCode.Pdf
             this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel4.Location = new System.Drawing.Point(0, 0);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(649, 389);
+            this.panel4.Size = new System.Drawing.Size(649, 365);
             this.panel4.TabIndex = 1;
             // 
             // pdfFontViewerControl
@@ -147,10 +172,13 @@ namespace CommonCode.Pdf
             this.pdfFontViewerControl.FontColor = System.Drawing.Color.Black;
             this.pdfFontViewerControl.Location = new System.Drawing.Point(0, 0);
             this.pdfFontViewerControl.Name = "pdfFontViewerControl";
-            this.pdfFontViewerControl.PdfFont = null;
+            this.pdfFontViewerControl.ShowUnicodeInfo = false;
             this.pdfFontViewerControl.Size = new System.Drawing.Size(649, 165);
             this.pdfFontViewerControl.TabIndex = 0;
             this.pdfFontViewerControl.Text = "pdfFontViewerControl1";
+            this.pdfFontViewerControl.UnicodeInfoColor = System.Drawing.Color.Green;
+            this.pdfFontViewerControl.UnicodeInfoFontFamilyName = "Arial";
+            this.pdfFontViewerControl.UnicodeInfoFontSize = 9;
             this.pdfFontViewerControl.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.pdfFontViewerControl_MouseDoubleClick);
             this.pdfFontViewerControl.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pdfFontViewerControl1_MouseMove);
             // 
@@ -158,7 +186,7 @@ namespace CommonCode.Pdf
             // 
             this.panel3.Controls.Add(this.statusStrip1);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel3.Location = new System.Drawing.Point(0, 389);
+            this.panel3.Location = new System.Drawing.Point(0, 365);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(649, 23);
             this.panel3.TabIndex = 0;
@@ -178,38 +206,55 @@ namespace CommonCode.Pdf
             this.toolStripStatusLabel.Name = "toolStripStatusLabel";
             this.toolStripStatusLabel.Size = new System.Drawing.Size(0, 17);
             // 
-            // tableLayoutPanel1
+            // menuStrip1
             // 
-            this.tableLayoutPanel1.ColumnCount = 4;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
-            this.tableLayoutPanel1.Controls.Add(this.fontComboBox, 1, 0);
-            this.tableLayoutPanel1.Controls.Add(this.cellSizeNumericUpDown, 3, 0);
-            this.tableLayoutPanel1.Controls.Add(this.label2, 2, 0);
-            this.tableLayoutPanel1.Controls.Add(this.label1, 0, 0);
-            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(0);
-            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 1;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(649, 37);
-            this.tableLayoutPanel1.TabIndex = 4;
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem1});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(649, 24);
+            this.menuStrip1.TabIndex = 2;
+            this.menuStrip1.Text = "menuStrip1";
             // 
-            // ViewDocumentFontsForm
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.createUnicodeTableToolStripMenuItem,
+            this.saveUnicodeTableToolStripMenuItem});
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(126, 20);
+            resources.ApplyResources(this.toolStripMenuItem1, "toolStripMenuItem1");
+            // 
+            // createUnicodeTableToolStripMenuItem
+            // 
+            this.createUnicodeTableToolStripMenuItem.Name = "createUnicodeTableToolStripMenuItem";
+            this.createUnicodeTableToolStripMenuItem.Size = new System.Drawing.Size(220, 22);
+            resources.ApplyResources(this.createUnicodeTableToolStripMenuItem, "createUnicodeTableToolStripMenuItem");
+            this.createUnicodeTableToolStripMenuItem.Click += new System.EventHandler(this.createUnicodeTableToolStripMenuItem_Click);
+            // 
+            // saveUnicodeTableToolStripMenuItem
+            // 
+            this.saveUnicodeTableToolStripMenuItem.Name = "saveUnicodeTableToolStripMenuItem";
+            this.saveUnicodeTableToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
+            resources.ApplyResources(this.saveUnicodeTableToolStripMenuItem, "saveUnicodeTableToolStripMenuItem");
+            this.saveUnicodeTableToolStripMenuItem.Click += new System.EventHandler(this.saveUnicodeTableToolStripMenuItem_Click);
+            // 
+            // PdfDocumentFontsForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(649, 449);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
             this.MinimizeBox = false;
             this.MinimumSize = new System.Drawing.Size(320, 240);
-            this.Name = "ViewDocumentFontsForm";
+            this.Name = "PdfDocumentFontsForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             resources.ApplyResources(this, "$this");
             this.panel1.ResumeLayout(false);
+            this.tableLayoutPanel1.ResumeLayout(false);
+            this.tableLayoutPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.cellSizeNumericUpDown)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
@@ -217,9 +262,10 @@ namespace CommonCode.Pdf
             this.panel3.PerformLayout();
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
-            this.tableLayoutPanel1.ResumeLayout(false);
-            this.tableLayoutPanel1.PerformLayout();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -237,5 +283,9 @@ namespace CommonCode.Pdf
         private System.Windows.Forms.NumericUpDown cellSizeNumericUpDown;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem createUnicodeTableToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem saveUnicodeTableToolStripMenuItem;
     }
 }

@@ -180,6 +180,9 @@
   <data name="COMMONCODE_IMAGING_CANCELED_ALT1" xml:space="preserve">
     <value>Abgebrochen.</value>
   </data>
+  <data name="COMMONCODE_PPTX" xml:space="preserve">
+    <value>Pptx</value>
+  </data>
   <data name="COMMONCODE_IMAGING_CODECS_BMP_FILESBMP" xml:space="preserve">
     <value>BMP-Dateien|*.bmp|</value>
   </data>
@@ -227,6 +230,12 @@
   </data>
   <data name="COMMONCODE_IMAGING_CODECS_WMF_FILESWMF" xml:space="preserve">
     <value>WMF-Dateien|*.wmf</value>
+  </data>
+  <data name="COMMONCODE_IMAGING_CODECS_PPTX" xml:space="preserve">
+    <value>Pptx</value>
+  </data>
+  <data name="COMMONCODE_IMAGING_CODECS_CAD" xml:space="preserve">
+    <value>Cad</value>
   </data>
   <data name="COMMONCODE_IMAGING_CODECS_NDPI" xml:space="preserve">
     <value>Ndpi</value>
@@ -369,6 +378,15 @@
   <data name="COMMONCODE_IMAGING_FOCUSED_IMAGE_APPEARANCE_SETTINGS" xml:space="preserve">
     <value>Einstellungen für die Darstellung fokussierter Bilder</value>
   </data>
+  <data name="COMMONCODE_IMAGING_THE_LANGUAGE_IS_NOT_SELECTED" xml:space="preserve">
+    <value>Die Sprache ist nicht ausgewählt.</value>
+  </data>
+  <data name="COMMONCODE_IMAGING_ERROR_ALT2" xml:space="preserve">
+    <value>Fehler</value>
+  </data>
+  <data name="COMMONCODE_IMAGING_HTTPSWWWVINTASOFTCOMDOCSVSIMAGINGDOTNETPROGRAMMINGOCRPREPARE_OCR_ENGINE_FOR_TEXT_RECOGNITIONHTML" xml:space="preserve">
+    <value>https://www.vintasoft.com/docs/vsimaging-dotnet/Programming-OCR-Prepare_OCR_engine_for_text_recognition.html</value>
+  </data>
   <data name="COMMONCODE_IMAGING_APPLIED_COMMANDS" xml:space="preserve">
     <value>Angewandte Befehle</value>
   </data>
@@ -447,10 +465,10 @@
   <data name="COMMONCODE_RESOURCE_ARG0_WAS_NOT_FOUND" xml:space="preserve">
     <value>Ressource „{0}“ wurde nicht gefunden.</value>
   </data>
-  <data name="COMMONCODE_IMAGING_ERROR_ALT2" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_ERROR_ALT3" xml:space="preserve">
     <value>Fehler</value>
   </data>
-  <data name="COMMONCODE_IMAGING_ERROR_ALT3" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_ERROR_ALT4" xml:space="preserve">
     <value>Fehler</value>
   </data>
   <data name="COMMONCODE_IMAGING_NORMAL" xml:space="preserve">
@@ -1573,6 +1591,27 @@ Deaktivieren Sie die Option "Dateien sofort kodieren".</value>
   </data>
   <data name="COMMONCODE_PDF_INFORMATION_ALT1" xml:space="preserve">
     <value>Informationen</value>
+  </data>
+  <data name="COMMONCODE_PDF_UNICODE_SYMBOL_CANNOT_BE_EMPTY" xml:space="preserve">
+    <value>Unicode-Symbole dürfen nicht leer sein.</value>
+  </data>
+  <data name="COMMONCODE_PDF_THIS_DEMO_PROJECT_DOES_NOT_ALLOW_TO_PROCESS_PDF_FONT_IF_FONT_CONTAINS_MORE_THAN_256_SYMBOLS_PLEASE_CHANGE_THE_CODE_IF_NECESSARY" xml:space="preserve">
+    <value>Dieses Demoprojekt kann keine PDF-Schriftarten verarbeiten, die mehr als 256 Zeichen enthalten. Bitte passen Sie den Code gegebenenfalls an.</value>
+  </data>
+  <data name="COMMONCODE_PDF_FONTARG0SYMBOLSPNG" xml:space="preserve">
+    <value>Font-{0}-symbols.png</value>
+  </data>
+  <data name="COMMONCODE_PDF_ERROR_ALT3" xml:space="preserve">
+    <value>Fehler:</value>
+  </data>
+  <data name="COMMONCODE_PDF_FONTARG0SYMBOLSPNG_ALT1" xml:space="preserve">
+    <value>Font-{0}-symbols.png</value>
+  </data>
+  <data name="COMMONCODE_PDF_ARIAL" xml:space="preserve">
+    <value>Arial</value>
+  </data>
+  <data name="COMMONCODE_PDF_FONTARG0SYMBOLSOCRPNG" xml:space="preserve">
+    <value>Font-{0}-symbols-OCR.png</value>
   </data>
   <data name="PDFEDITORDEMO_PRINT" xml:space="preserve">
     <value>Drucken</value>
