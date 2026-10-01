@@ -231,11 +231,17 @@
   <data name="COMMONCODE_IMAGING_CODECS_WMF_FILESWMF" xml:space="preserve">
     <value>WMF-Dateien|*.wmf</value>
   </data>
+  <data name="COMMONCODE_IMAGING_CODECS_HTML" xml:space="preserve">
+    <value>Html</value>
+  </data>
   <data name="COMMONCODE_IMAGING_CODECS_PPTX" xml:space="preserve">
     <value>Pptx</value>
   </data>
   <data name="COMMONCODE_IMAGING_CODECS_CAD" xml:space="preserve">
     <value>Cad</value>
+  </data>
+  <data name="COMMONCODE_IMAGING_CODECS_EMAIL" xml:space="preserve">
+    <value>Email</value>
   </data>
   <data name="COMMONCODE_IMAGING_CODECS_NDPI" xml:space="preserve">
     <value>Ndpi</value>
@@ -1769,9 +1775,6 @@ Um das Portfolio anzuzeigen, sollten Sie einen PDF-Viewer verwenden, der mit PDF
   <data name="PDFEDITORDEMO_DOCX_FILESDOCX" xml:space="preserve">
     <value>DOCX-Dateien|*.docx</value>
   </data>
-  <data name="PDFEDITORDEMO_CONVERT_TO_DOCX" xml:space="preserve">
-    <value>In DOCX konvertieren</value>
-  </data>
   <data name="PDFEDITORDEMO_CUT" xml:space="preserve">
     <value>Ausschneiden</value>
   </data>
@@ -2151,9 +2154,6 @@ Um das Portfolio anzuzeigen, sollten Sie einen PDF-Viewer verwenden, der mit PDF
   </data>
   <data name="PDFEDITORDEMO_SAVING_ERROR_ALT2" xml:space="preserve">
     <value>Fehler beim Speichern</value>
-  </data>
-  <data name="PDFEDITORDEMO_CONVERT_TO_DOCX_ALT1" xml:space="preserve">
-    <value>In DOCX konvertieren</value>
   </data>
   <data name="PDFEDITORDEMO_CONVERTING_TO_SVG" xml:space="preserve">
     <value>Konvertierung in SVG</value>

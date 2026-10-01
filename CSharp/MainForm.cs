@@ -278,6 +278,15 @@ namespace PdfEditorDemo
 
             // set CustomFontProgramsController for all opened documents
             CustomFontProgramsController.SetDefaultFontProgramsController();
+
+#if !REMOVE_PDF_PLUGIN && !REMOVE_OFFICE_PLUGIN && !REMOVE_DOCCLEANUP_PLUGIN
+            // set Table detection command in PDF to DOCX converter
+            Vintasoft.Imaging.Pdf.Office.PdfToDocxConverter.DefaultTableDetectionCommand =
+                new Vintasoft.Imaging.ImageProcessing.Info.TableDetection.TableWithBordersDetectionCommand();
+            // register PdfLineRecognitionCommand that finds lines
+            // on vector PDF page if image is associated with PDF page
+            Vintasoft.Imaging.ImageProcessing.Info.PdfLineRecognitionCommand.Register();
+#endif
         }
 
         /// <summary>
@@ -415,9 +424,9 @@ namespace PdfEditorDemo
             // create the print manager
             _thumbnailViewerPrintManager = new ImageViewerPrintManager(
             thumbnailViewer1, imagePrintDocument, printDialog);
-            _thumbnailViewerPrintManager.PrintDocument.UseImageAutoOrienation = true;
+            _thumbnailViewerPrintManager.PrintDocument.UseImageAutoOrientation = true;
             _thumbnailViewerPrintManager.PrintDocument.Center = true;
-            pageAutoOrientationToolStripMenuItem.Checked = _thumbnailViewerPrintManager.PrintDocument.UseImageAutoOrienation;
+            pageAutoOrientationToolStripMenuItem.Checked = _thumbnailViewerPrintManager.PrintDocument.UseImageAutoOrientation;
             centerPrintingPageToolStripMenuItem.Checked = _thumbnailViewerPrintManager.PrintDocument.Center;
 
 #if REMOVE_ANNOTATION_PLUGIN
@@ -484,10 +493,10 @@ namespace PdfEditorDemo
                         @"TesseractOCR\",
                         @"Debug\net8.0-windows\TesseractOCR\",
                         @"Release\net8.0-windows\TesseractOCR\",
-                        @"Debug\net9.0-windows\TesseractOCR\",
-                        @"Release\net9.0-windows\TesseractOCR\",
                         @"Debug\net10.0-windows\TesseractOCR\",
                         @"Release\net10.0-windows\TesseractOCR\",
+                        @"Debug\net11.0-windows\TesseractOCR\",
+                        @"Release\net11.0-windows\TesseractOCR\",
                     };
 
                     // search tesseract dll
@@ -1600,13 +1609,13 @@ namespace PdfEditorDemo
                         pdfGenerator.SourceImages = form.Images;
 
                         // if source images are processed using image segmentation command
-                        if (form.SegmentationResults != null && form.SegmentationResults.Count > 0)
+                        if (form.RegionDetectionResults != null && form.RegionDetectionResults.Count > 0)
                         {
                             // set image regions in PDF generator
 
                             pdfGenerator.SourceImagesRegions = new Dictionary<VintasoftImage, IEnumerable<ImageRegion>>();
-                            foreach (VintasoftImage image in form.SegmentationResults.Keys)
-                                pdfGenerator.SourceImagesRegions.Add(image, form.SegmentationResults[image]);
+                            foreach (VintasoftImage image in form.RegionDetectionResults.Keys)
+                                pdfGenerator.SourceImagesRegions.Add(image, form.RegionDetectionResults[image]);
                         }
                         else
                         {
@@ -1925,11 +1934,8 @@ namespace PdfEditorDemo
 
             if (convertToFileDialog.ShowDialog() == DialogResult.OK)
             {
-                // convert PDF document to DOCX file in background thread
-                Thread savingThread = new Thread(new ParameterizedThreadStart(ConvertPdfDocumentToDocxFileThread));
-                savingThread.Name = PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_CONVERT_TO_DOCX;
-                savingThread.IsBackground = true;
-                savingThread.Start(convertToFileDialog.FileName);
+                // convert PDF document to DOCX file 
+                ConvertPdfDocumentToDocxDocument(convertToFileDialog.FileName);
             }
 #endif
         }
@@ -1939,8 +1945,8 @@ namespace PdfEditorDemo
         /// </summary>
         private void pageAutoOrientationToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            bool value = !_thumbnailViewerPrintManager.PrintDocument.UseImageAutoOrienation;
-            _thumbnailViewerPrintManager.PrintDocument.UseImageAutoOrienation = value;
+            bool value = !_thumbnailViewerPrintManager.PrintDocument.UseImageAutoOrientation;
+            _thumbnailViewerPrintManager.PrintDocument.UseImageAutoOrientation = value;
             pageAutoOrientationToolStripMenuItem.Checked = value;
         }
 
@@ -6448,14 +6454,9 @@ namespace PdfEditorDemo
         /// <summary>
         /// Converts PDF file to a DOCX file.
         /// </summary>
-        /// <param name="obj">A string that defines path to the output DOCX file.</param>
-        private void ConvertPdfDocumentToDocxFileThread(object obj)
+        /// <param name="filePath">A string that defines path to the output DOCX file.</param>
+        private void ConvertPdfDocumentToDocxDocument(string filePath)
         {
-            string filePath = (string)obj;
-
-            // start the 'Convert to DOCX" action
-            StartAction(PdfEditorDemo.Localization.Strings.PDFEDITORDEMO_CONVERT_TO_DOCX_ALT1, true);
-
             // create converter
             using (Vintasoft.Imaging.Pdf.Office.PdfToDocxConverter converter = new Vintasoft.Imaging.Pdf.Office.PdfToDocxConverter())
             {
@@ -6465,11 +6466,8 @@ namespace PdfEditorDemo
                 converter.OutputFilename = filePath;
 
                 // convert PDF document to DOCX file
-                using (ProcessingState state = new ProcessingState(Images_ImageCollectionSavingProgress))
-                    converter.Execute(_document, state);
+                ProcessingCommandForm<PdfDocument>.ExecuteProcessing(_document, converter, true);
             }
-
-            EndAction();
         }
 #endif
 

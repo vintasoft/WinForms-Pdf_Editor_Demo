@@ -660,6 +660,15 @@ namespace PdfEditorDemo.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Email.
+        /// </summary>
+        internal static string COMMONCODE_IMAGING_CODECS_EMAIL {
+            get {
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_EMAIL", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to EMF Files|*.emf|.
         /// </summary>
         internal static string COMMONCODE_IMAGING_CODECS_EMF_FILESEMF {
@@ -683,6 +692,15 @@ namespace PdfEditorDemo.Localization {
         internal static string COMMONCODE_IMAGING_CODECS_GIF_FILESGIF {
             get {
                 return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_GIF_FILESGIF", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Html.
+        /// </summary>
+        internal static string COMMONCODE_IMAGING_CODECS_HTML {
+            get {
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_HTML", resourceCulture);
             }
         }
         
@@ -4729,24 +4747,6 @@ namespace PdfEditorDemo.Localization {
         internal static string PDFEDITORDEMO_CONTENT_EDITOR {
             get {
                 return ResourceManager.GetString("PDFEDITORDEMO_CONTENT_EDITOR", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Convert To DOCX.
-        /// </summary>
-        internal static string PDFEDITORDEMO_CONVERT_TO_DOCX {
-            get {
-                return ResourceManager.GetString("PDFEDITORDEMO_CONVERT_TO_DOCX", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Convert to DOCX.
-        /// </summary>
-        internal static string PDFEDITORDEMO_CONVERT_TO_DOCX_ALT1 {
-            get {
-                return ResourceManager.GetString("PDFEDITORDEMO_CONVERT_TO_DOCX_ALT1", resourceCulture);
             }
         }
         

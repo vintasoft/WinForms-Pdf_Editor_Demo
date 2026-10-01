@@ -162,6 +162,9 @@
   <data name="ocrPreprocessingCheckBox.Text" xml:space="preserve">
     <value>OCR Preprocessing</value>
   </data>
+  <data name="detectTablesWithBordersCheckBox.Text" xml:space="preserve">
+    <value>Detect tables with borders</value>
+  </data>
   <data name="deskewChekBox.Text" xml:space="preserve">
     <value>Deskew</value>
   </data>
@@ -178,7 +181,7 @@
     <value>Halftone Removal</value>
   </data>
   <data name="autoOrientationCheckBox.Text" xml:space="preserve">
-    <value>Auto Orienation</value>
+    <value>Auto Orientation</value>
   </data>
   <data name="segmentationCheckBox.Text" xml:space="preserve">
     <value>Segmentation</value>

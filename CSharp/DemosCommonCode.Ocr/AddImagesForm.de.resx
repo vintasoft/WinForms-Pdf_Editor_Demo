@@ -142,7 +142,7 @@
     <value>Tabellen entfernen</value>
   </data>
   <data name="autoOrientationButton.Text" xml:space="preserve">
-    <value>Die geladene Datei ist eine ODS-Datei. Um eine ODS-Datei zu öffnen, muss die Anwendung die ODS-Datei in die XLSX-Datei konvertieren. Möchten Sie eine XLSX-Datei aus einer ODS-Datei erstellen?</value>
+    <value>Automatische Ausrichtung</value>
   </data>
   <data name="allImagesRadioButton.Text" xml:space="preserve">
     <value>ODS in XLSX konvertieren</value>
@@ -158,6 +158,9 @@
   </data>
   <data name="ocrPreprocessingCheckBox.Text" xml:space="preserve">
     <value>OCR-Vorverarbeitung</value>
+  </data>
+  <data name="detectTablesWithBordersCheckBox.Text" xml:space="preserve">
+    <value>Definieren von Tabellen mit Tabellengrence</value>
   </data>
   <data name="deskewChekBox.Text" xml:space="preserve">
     <value>Entzerrung</value>
